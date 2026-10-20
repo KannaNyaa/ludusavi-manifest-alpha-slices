@@ -1,0 +1,28 @@
+name: Check
+
+# 数据与脚本的自检：分片是否与 info.yaml 一致、能否无损合并
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Python syntax
+        run: python -m compileall -q scripts examples
+
+      - name: Shards match info.yaml
+        run: python scripts/verify_shards.py
+
+      - name: Shards merge back losslessly
+        run: python scripts/merge_manifest.py --out _merged.yaml

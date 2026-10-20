@@ -1,0 +1,3605 @@
+---
+Q:
+  files:
+    "<home>/AppData/LocalLow/Manatea Entertainment/Q/saves/<storeUserId>/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Manatea Entertainment/Q/saves/<storeUserId>/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Q: {}
+  launch:
+    "<base>/Q.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Q.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1071280
+Q Remastered:
+  files:
+    "<home>/AppData/LocalLow/Liica/Q/Data/*.q":
+      when:
+        - store: steam
+  installDir:
+    Q Remastered: {}
+  launch:
+    "<base>/Q.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2246110
+"Q&A: A Light-Roasted Romance":
+  installDir:
+    Q&A A Light-Roasted Romance: {}
+  launch:
+    "<base>/Q&A.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Q&A_2.0.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1044750
+"Q*bert: Rebooted":
+  cloud:
+    steam: true
+  installDir:
+    QBert: {}
+  launch:
+    "<base>/QBert.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QBert.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QBert.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/QBert.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 285960
+Q-YO Blaster:
+  installDir:
+    Q-YO Blaster: {}
+  launch:
+    "<base>/Q-YO BLASTER/Q-YO BLASTER.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 772610
+Q.U.B.E.:
+  files:
+    "<base>/Binaries/Win32/SaveGame.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Binaries/Win32/SaveGameALTATQ.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Binaries/Win32/SaveGameATQ.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Binaries/Win64/*.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/UDKGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: qube
+    steamExtra:
+      - 234570
+  installDir:
+    QUBE: {}
+  launch:
+    "<base>/Binaries/Win32/QUBE.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Q.U.B.E.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 203730
+Q.U.B.E. 10th Anniversary:
+  files:
+    "<winLocalAppData>/QUBE_Remastered/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/QUBE_Remastered/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: qube-10th-anniversary
+  installDir:
+    Q.U.B.E. 10th Anniversary: {}
+  launch:
+    "<base>/QUBECreate/QUBE.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QUBE_Remastered.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1564220
+Q.U.B.E. 2:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winLocalAppData>/QUBE/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/QUBE/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1199381642
+  id:
+    gogExtra:
+      - 1384331248
+      - 1803318840
+    lutris: qube-2
+    steamExtra:
+      - 822090
+      - 822091
+      - 822093
+      - 822094
+  installDir:
+    Q.U.B.E. 2: {}
+  launch:
+    "<base>/QUBE.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 359100
+"Q.U.B.E.: Director's Cut":
+  files:
+    "<base>/Binaries/Win32/SaveGame.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Binaries/Win32/SaveGameALTATQ.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Binaries/Win32/SaveGameATQ.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/QUBEGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgData>/ToxicGames/QUBE/QUBEGame":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 1207665513
+  installDir:
+    QUBE Directors Cut: {}
+  launch:
+    "<base>/Binaries/Linux/QUBEGame-Linux":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/Binaries/Linux"
+    "<base>/Binaries/Win32/QUBEGame.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "-Oculus"
+        when:
+          - os: windows
+            store: steam
+    "<base>/QUBE.app/Contents/MacOS/QUBEGame":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+        workingDir: "<base>/QUBE.app/Contents/MacOS"
+  steam:
+    id: 239430
+Q.U.I.R.K.:
+  files:
+    "<home>/AppData/LocalLow/UGen/QUIRK/offline":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/uGen/Quirk/offline":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    QUIRK: {}
+  launch:
+    "<base>/Quirk.app":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/Quirk.exe":
+      - arguments: "-vrmode None"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 577210
+QB Sim:
+  steam:
+    id: 905280
+QLORB:
+  steam:
+    id: 791970
+QLORB 2:
+  steam:
+    id: 804550
+QP Shooting - Dangerous!!:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/Fruitbat Factory/QP Shooting - Dangerous":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/Fruitbat Factory/QP Shooting - Dangerous/game.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    QP Shooting - Dangerous: {}
+  launch:
+    "<base>/QP Shooting.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 316600
+QR Code Killer:
+  installDir:
+    QR Code Killer: {}
+  launch:
+    "<base>/QR Code Killer.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1150290
+QT:
+  installDir:
+    QT: {}
+  launch:
+    "<base>/Mac.app/Contents/MacOS/QT":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QT Linux.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/QT.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Happy Snake Games/QT:
+      tags:
+        - config
+  steam:
+    id: 1182830
+"QUALIA 3: Multi Agent":
+  cloud:
+    steam: true
+  files:
+    "<base>/data/*.dat":
+      when:
+        - store: steam
+    "<base>/data/*.txt":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 297150
+  installDir:
+    QUALIA3: {}
+  launch:
+    "<base>/Config.exe":
+      - when:
+          - store: steam
+    "<base>/QUALIA3.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 290440
+QUICAL:
+  installDir:
+    QUICAL: {}
+  launch:
+    "<base>/Quical.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1216600
+Qajary Cat:
+  installDir:
+    Qajary Cat: {}
+  launch:
+    "<base>/Qajary'sCat.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 734080
+Qanga:
+  installDir:
+    Qanga: {}
+  launch:
+    "<base>/Qanga.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1648190
+"Qasir al-Wasat: International Edition":
+  cloud:
+    steam: true
+  files:
+    "<base>/save*.data":
+      when:
+        - store: steam
+  installDir:
+    Qasir al-Wasat: {}
+  launch:
+    "<base>/Qasir al-Wasat.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Qasir al-Wasat.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Qasir al-Wasat.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 296030
+Qb:
+  installDir:
+    qb: {}
+  launch:
+    "<base>/qb.app":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/qb.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/qb.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 601400
+QbQbQb:
+  files:
+    "<winLocalAppData>/qbqbqb":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    QbQbQb: {}
+  launch:
+    "<base>/qbqbqb":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/qbqbqb.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/qbqbqb.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 329320
+"Qbeh-1: The Atlas Cube":
+  files:
+    "<home>/AppData/LocalLow/Liquid Flower/Qbeh_1":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 304570
+      - 344210
+  installDir:
+    Qbeh-1: {}
+  launch:
+    "<base>/Qbeh-1.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/qbeh-1.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/qbeh-1.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 252550
+Qbik:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/NPalacz/Qbik/*.*":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Qbik: {}
+  launch:
+    "<base>/Qbik.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Qbik.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Qbik.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Qbik.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 618470
+"Qbike: Crypto Motorcycles":
+  id:
+    steamExtra:
+      - 689890
+  installDir:
+    Qbike Crypto Motorcycles: {}
+  launch:
+    "<base>/Qbike.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Qbike.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Qbike.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 713610
+"Qbike: Cyberpunk Motorcycles":
+  installDir:
+    Qbike: {}
+  steam:
+    id: 614970
+Qbio:
+  installDir:
+    Qbio: {}
+  launch:
+    "<base>/Qbio.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1438100
+Qi Qiang:
+  files:
+    "<home>/AppData/LocalLow/CaiKaiYouXi/QiQiang/level":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    qiqiang: {}
+  launch:
+    "<base>/QiQiang.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1192950
+Qian-Shan Village / 殭屍山莊:
+  installDir:
+    Qian Shan Village: {}
+  steam:
+    id: 939740
+Qinoto:
+  steam:
+    id: 836340
+Qipa World-Hello Big Adventure:
+  installDir:
+    Qipa World-Hello Big Adventure: {}
+  launch:
+    "<base>/MacPro.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Qipa World-Hello Big Adventure.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QipaWorld.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 975710
+"Qliphah in Providence's Shadow":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Qliphah/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Saved/SaveGames/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: qliphah-in-providences-shadow
+  installDir:
+    Qliphah: {}
+  launch:
+    "<base>/Qliphah.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3882410
+Qomp:
+  cloud:
+    gog: true
+  gog:
+    id: 1645985738
+  installDir:
+    qomp: {}
+  launch:
+    "<base>/qomp":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/qomp.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1066900
+Qomp2:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Atari/qomp2/*.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1511224452
+  installDir:
+    qomp 2: {}
+  launch:
+    "<base>/qomp2.exe":
+      - when:
+          - os: windows
+            store: steam
+          - os: mac
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 2243510
+Qop:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    qop: {}
+  launch:
+    "<base>/qop.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 654900
+Qop 2:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    qop 2: {}
+  launch:
+    "<base>/qop 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 757330
+Qop 3:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    qop 3: {}
+  launch:
+    "<base>/qop 3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 864300
+Qop 4:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    qop 4: {}
+  launch:
+    "<base>/qop 4.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 966630
+Qora:
+  files:
+    "<base>/Qora_SaveData.xml":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Settings.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 323290
+  installDir:
+    Qora: {}
+  launch:
+    "<base>/Qora.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Qora.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Qora_VM":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 304460
+Qrth-phyl:
+  installDir:
+    qrth-phyl: {}
+  launch:
+    "<base>/qrth.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 451930
+Qu-tros:
+  installDir:
+    Tetros: {}
+  launch:
+    "<base>/Tetros":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Tetros.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Tetros.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 965940
+"Quack Attack 1985: Turbo DX Edition":
+  installDir:
+    QUACK ATTACK 1985: {}
+  launch:
+    "<base>/QUACK ATTACK 1985 TURBO DX EDITION.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 500340
+Quad Hopping:
+  installDir:
+    Quad Hopping: {}
+  launch:
+    "<base>/Linux/quadhopping.x86":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/MacOS/quadhopping.app/Contents/MacOS/quadhopping":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Windows/quadhopping.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 694490
+Quaddro 2:
+  cloud:
+    steam: true
+  files:
+    "<base>/Saves":
+      when:
+        - store: steam
+  installDir:
+    Quaddro 2: {}
+  launch:
+    "<base>/Quaddro 2.app/Contents/MacOS/Quaddro 2":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Quaddro2.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Quaddro2.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 819330
+Quadle:
+  installDir:
+    Quadle: {}
+  launch:
+    "<base>/Quadle.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 384210
+Quadra:
+  steam:
+    id: 746590
+Quadrablaze:
+  files:
+    "<base>/Users/(64BitSteamID)/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Quadrablaze: {}
+  launch:
+    "<base>/Quadrablaze.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 661050
+Quadrant (HKFiftyOne):
+  id:
+    steamExtra:
+      - 500770
+  installDir:
+    Quadrant: {}
+  launch:
+    "<base>/quadrant.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/quadrant.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 365320
+Quadrant (undef):
+  files:
+    "<home>/Library/Application Support/quadrant/logs":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/quadrant/saves":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/quadrant/trainingRecord":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/quadrant/logs":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/quadrant/saves":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/quadrant/trainingRecord":
+      when:
+        - os: windows
+          store: steam
+    "<xdgData>/love/quadrant/logs":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/love/quadrant/saves":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/love/quadrant/trainingRecord":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    quadrant: {}
+  launch:
+    "<base>/quadrant.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/quadrant.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/run.sh":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/workshop/uploadWorkshopItem.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 365500
+Quadrant M4:
+  steam:
+    id: 643600
+Quadrantica:
+  installDir:
+    quadrantica: {}
+  launch:
+    "<base>/quadrantica.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/quadrantica.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 657550
+Quadrata:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Mindlabor/Quadrata/*.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/unity3d/Mindlabor/Quadrata/saveData.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/Mindlabor/Quadrata/*.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Mindlabor/Quadrata/saveData.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Mindlabor/Quadrata/*.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Mindlabor/Quadrata/saveData.json":
+      tags:
+        - save
+      when:
+        - os: mac
+  id:
+    lutris: quadrata
+    steamExtra:
+      - 4712570
+  installDir:
+    Quadrata: {}
+  launch:
+    "<base>/Quadrata.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Quadrata.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Quadrata.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2066950
+Quadrilateral Cowboy:
+  cloud:
+    steam: true
+  files:
+    "<base>/base/DoomConfig.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/base/savegames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/.local/share/BlendoGames/QuadrilateralCowboy/base/DoomConfig.cfg":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.local/share/BlendoGames/QuadrilateralCowboy/base/savegames":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Library/Application Support/BlendoGames/QuadrilateralCowboy/base/DoomConfig.cfg":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/BlendoGames/QuadrilateralCowboy/base/savegames":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winAppData>/BlendoGames/Quadrilateral Cowboy/base/DoomConfig.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/BlendoGames/Quadrilateral Cowboy/base/savegames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    quadrilateralcowboy: {}
+  launch:
+    "<base>/Quadrilateral Cowboy.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/qc.bin.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/qc.bin.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/qc.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 240440
+Quake:
+  cloud:
+    steam: true
+  files:
+    "<base>/HIPNOTIC/CONFIG.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<base>/HIPNOTIC/S*.SAV":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/ID1/CONFIG.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<base>/ID1/S*.SAV":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/ROGUE/CONFIG.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<base>/ROGUE/S*.SAV":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/hipnotic/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/hipnotic/s*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/id1/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/id1/s*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/rogue/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/rogue/s*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1440166133
+  id:
+    gogExtra:
+      - 1435828198
+    lutris: quake
+    steamExtra:
+      - 9030
+      - 9040
+  installDir:
+    Quake: {}
+  launch:
+    "<base>/rerelease/Quake_x64_steam.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2310
+Quake (2021):
+  alias: Quake Enhanced
+Quake 4:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/q4base/Quake4Config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/q4base/savegames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/.quake4/q4base":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.quake4/q4base/savegames":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Library/Containers/com.aspyr.quake4appstore/Data/Library/Application Support/Quake 4/q4base":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Containers/com.aspyr.quake4appstore/Data/Library/Application Support/Quake 4/q4base/savegames":
+      tags:
+        - save
+      when:
+        - os: mac
+  gog:
+    id: 1108791957
+  id:
+    gogExtra:
+      - 1836059896
+    lutris: quake-4
+  installDir:
+    Quake 4: {}
+  launch:
+    "<base>/Quake4.exe":
+      - arguments: ""
+        when:
+          - store: steam
+  steam:
+    id: 2210
+Quake Champions:
+  files:
+    "<winLocalAppData>/id Software/Quake Champions":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: quake-champions
+    steamExtra:
+      - 679310
+      - 682890
+      - 750140
+      - 758540
+      - 771940
+      - 874720
+      - 922310
+      - 922311
+      - 922312
+      - 922313
+  installDir:
+    quakechampions: {}
+  launch:
+    "<base>/client/bin/pc/QuakeChampions.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/client/bin/pc"
+  steam:
+    id: 611500
+Quake Enhanced:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/Nightdive Studios/Quake/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Saved Games/Nightdive Studios/Quake/kexengine.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1739637082
+  id:
+    lutris: quake-enhanced
+  installDir:
+    Quake: {}
+  launch:
+    "<base>/rerelease/Quake_x64_steam.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2310
+Quake II:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/baseq2/*.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/baseq2/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1443696817
+  id:
+    gogExtra:
+      - 1441704824
+    lutris: quake-ii
+    steamExtra:
+      - 2330
+      - 2340
+  installDir:
+    Quake 2: {}
+  launch:
+    "<base>/quake2.exe":
+      - when:
+          - store: steam
+      - arguments: +set game xatrix
+        when:
+          - store: steam
+      - arguments: +set game rogue
+        when:
+          - store: steam
+    "<base>/rerelease/quake2ex_steam.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/rerelease"
+  steam:
+    id: 2320
+Quake II Enhanced:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/Nightdive Studios/Quake II/*.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/Saved Games/Nightdive Studios/Quake II/baseq2/*.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/Saved Games/Nightdive Studios/Quake II/baseq2/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    gogExtra:
+      - 1947927225
+  installDir:
+    Quake 2: {}
+  launch:
+    "<base>/quake2.exe":
+      - when:
+          - store: steam
+      - arguments: +set game xatrix
+        when:
+          - store: steam
+      - arguments: +set game rogue
+        when:
+          - store: steam
+    "<base>/rerelease/quake2ex_steam.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/rerelease"
+  steam:
+    id: 2320
+Quake II RTX:
+  cloud:
+    steam: true
+  files:
+    "<base>/baseq2/q2config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/baseq2/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/.quake2rtx/baseq2/q2config.cfg":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.quake2rtx/baseq2/save":
+      tags:
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 1825786806
+  id:
+    lutris: quake-II-rtx
+  installDir:
+    Quake II RTX: {}
+  launch:
+    "<base>/q2rtx.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/q2rtx.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 1089130
+Quake III Arena:
+  cloud:
+    steam: true
+  files:
+    "<base>/baseq3/q3config.cfg":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<home>/.q3a/baseq3/q3config.cfg":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 1443696086
+  id:
+    gogExtra:
+      - 1441704920
+    lutris: quake-iii-arena
+    steamExtra:
+      - 2350
+  installDir:
+    Quake 3 Arena: {}
+  launch:
+    "<base>/quake3.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2200
+Quake Live:
+  cloud:
+    steam: true
+  files:
+    "<home>/.quakelive/quakelive/home/baseq3":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/id Software/quakelive/home/baseq3":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/Library/Application Support/QuakeLive/quakelive/home/baseq3":
+      tags:
+        - config
+      when:
+        - os: mac
+  id:
+    lutris: quake-live
+  installDir:
+    Quake Live: {}
+  launch:
+    "<base>/quakelive_steam.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 282440
+Qualia:
+  id:
+    lutris: qualia--1
+  installDir:
+    qualia: {}
+  launch:
+    "<base>/qualia.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/qualia.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3351080
+Quanect:
+  installDir:
+    Quanect: {}
+  launch:
+    "<base>/Quanect.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 745940
+Quanero 2 - System Release:
+  installDir:
+    Quanero 2 - System Release: {}
+  steam:
+    id: 773630
+Quanero VR:
+  installDir:
+    Quanero: {}
+  steam:
+    id: 497820
+Quantic Pinball:
+  cloud:
+    steam: true
+  installDir:
+    QuanticPinball: {}
+  launch:
+    "<base>/QuanticPinball.exe":
+      - arguments: "--fullscreen"
+        when:
+          - os: windows
+            store: steam
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 577320
+Quantized:
+  installDir:
+    Quantized: {}
+  steam:
+    id: 465010
+Quantum Break:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Packages/Microsoft.QuantumBreak_8wekyb3d8bbwe/LocalState/LSAO":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/Microsoft.QuantumBreak_8wekyb3d8bbwe/LocalState/renderer.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/QuantumBreak":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/QuantumBreak/renderer.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: quantum-break
+  installDir:
+    QuantumBreak: {}
+  launch:
+    "<base>/dx11/QuantumBreak.exe":
+      - when:
+          - bit: 64
+            store: steam
+  steam:
+    id: 474960
+Quantum Chess:
+  installDir:
+    Quantum Chess: {}
+  launch:
+    "<base>/Quantum Chess - 2024-11-7 mono.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Quantum Chess - Linux.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Quantum Chess.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 453870
+Quantum Conscience:
+  id:
+    steamExtra:
+      - 454660
+  installDir:
+    Quantum Conscience: {}
+  launch:
+    "<base>/QuantumConscience.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QuantumConscience.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QuantumConscience.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 375770
+Quantum Conundrum:
+  cloud:
+    steam: true
+  files:
+    "<base>/Engine/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/TryGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/200010/remote/profile.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/My Games/UnrealEngine3/TryGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Quantum Conundrum: {}
+  launch:
+    "<base>/Binaries/Win32/TryGame-Win32-Shipping.exe":
+      - arguments: try_mainmenu -noscreenmessages -disabledebugoutputdevice -fullscreen -vsync -norc -seekfreeloadingpcconsole
+        when:
+          - store: steam
+  steam:
+    id: 200010
+Quantum Covenant:
+  installDir:
+    Quantum Covenant: {}
+  launch:
+    "<base>/quantum_covenant":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/quantum_covenant.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 927120
+Quantum Flux:
+  id:
+    steamExtra:
+      - 396620
+  installDir:
+    Quantum Flux: {}
+  launch:
+    "<base>/quantumflux.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/quantumflux.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 396610
+Quantum Gate:
+  steam:
+    id: 941130
+Quantum League:
+  installDir:
+    TimeWatch: {}
+  steam:
+    id: 651150
+Quantum Legend - VR Experience:
+  installDir:
+    Quantum Legend - vr show: {}
+  steam:
+    id: 1024970
+Quantum Lock:
+  installDir:
+    Quantum Lock: {}
+  launch:
+    "<base>/FreezeTag.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 411720
+Quantum Multiverse:
+  installDir:
+    Quantum Multiverse: {}
+  launch:
+    "<base>/Quantum Multiverse.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1145860
+Quantum Pilot:
+  installDir:
+    Quantum Pilot: {}
+  launch:
+    "<base>/QuantumPilot":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/QuantumPilot.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QuantumPilot.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 652000
+Quantum Protocol:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Quantum/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: quantum-protocol
+    steamExtra:
+      - 1456450
+  installDir:
+    Quantum Protocol: {}
+  launch:
+    "<base>/Quantum.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1328530
+Quantum Replica:
+  files:
+    "<winLocalAppData>/ReplicaGame/Saved/SaveGames/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Quantum Replica: {}
+  launch:
+    "<base>/ReplicaGame.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 470090
+Quantum Retribution:
+  installDir:
+    Quantum Retribution: {}
+  launch:
+    "<base>/Quantum Retribution.app/Contents/MacOS/Quantum Retribution":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Quantum Retribution.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 961740
+Quantum Rush Champions:
+  id:
+    steamExtra:
+      - 327840
+      - 330690
+      - 370520
+  installDir:
+    Quantum Rush Champions: {}
+  launch:
+    "<base>/QuantumRushChampions.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 317440
+Quantum Suicide:
+  installDir:
+    Quantum Suicide: {}
+  launch:
+    "<base>/QuantumSuicide.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QuantumSuicide.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QuantumSuicide.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1020030
+Quantum Tripper:
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/Saturation Records LLC/QuantumTripper":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winAppData>/LocalLow/Saturation Records LLC":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 1971840
+      - 1971841
+      - 1971842
+      - 1971843
+  installDir:
+    QuantumTripper: {}
+  launch:
+    "<base>/QuantumTripper.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QuantumTripper.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QuantumTripper.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1965970
+Quantum Wizard:
+  cloud:
+    steam: true
+  files:
+    "<base>/save.qw":
+      when:
+        - store: steam
+  installDir:
+    Quantum Wizard: {}
+  launch:
+    "<base>/qw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 660980
+Quantumleaper:
+  files:
+    "<base>/usr/sav/*.*":
+      when:
+        - store: steam
+  installDir:
+    Quantumleaper: {}
+  launch:
+    "<base>/Quantumleaper.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1159880
+Quantz:
+  cloud:
+    steam: true
+  installDir:
+    QuantZ: {}
+  launch:
+    "<base>/QuantZ.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QuantZ.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 37800
+"Quar: Battle for Gate 18":
+  installDir:
+    Quar Battle for Gate 18: {}
+  steam:
+    id: 436940
+Quarantine:
+  files:
+    "<winLocalAppData>/Quarantine/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Quarantine: {}
+  launch:
+    "<base>/Quarantine.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 489370
+Quarantine (1994):
+  files:
+    "<base>/SAVE*.GAM":
+      tags:
+        - save
+      when:
+        - os: dos
+  id:
+    lutris: quarantine-1994
+Quarantine Circular:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Bithell Games/Quarantine Circular":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Quarantine Circular: {}
+  launch:
+    "<base>/QC.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QC.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 853500
+"Quarantine II: Road Warrior":
+  files:
+    "<base>/SAVEGAME":
+      tags:
+        - save
+      when:
+        - os: dos
+"Quarantine Zone: The Last Check":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/QZSim/Saved/SaveGames/<storeUserId>/**/*.*":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: quarantine-zone-the-last-check
+    steamExtra:
+      - 3525400
+  installDir:
+    Quarantine Zone The Last Check: {}
+  launch:
+    "<base>/QZSim.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3419520
+Quarries of Scred:
+  installDir:
+    Quarries of Scred: {}
+  launch:
+    "<base>/Quarry.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 346770
+Quarterback SNAP:
+  installDir:
+    Quarterback SNAP: {}
+  steam:
+    id: 482210
+Quartermaster:
+  steam:
+    id: 1046460
+Quasar:
+  steam:
+    id: 375740
+Quaterneon:
+  installDir:
+    Quaterneon: {}
+  launch:
+    "<base>/NeonTwirl.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1151550
+Quatro Luzes:
+  cloud:
+    steam: true
+  files:
+    "<base>/**/*.qls":
+      when:
+        - store: steam
+  installDir:
+    Quatro Luzes: {}
+  launch:
+    "<base>/QL.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/QL64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/QL_linux.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/QL_linux.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 415980
+Quatros Origins:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/GodAsACucumber/AutocloudSave/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/GodAsACucumber/AutocloudSave/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.GodAsACucumber.AutocloudSave/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Quatros Origins: {}
+  launch:
+    "<base>/QuatrosOrigins.app/Contents/MacOS/QuatrosOrigins":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QuatrosOrigins.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QuatrosOrigins.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 421870
+Quatter:
+  files:
+    "<home>/.local/share/luckey/quatter/ or <base>/Resources":
+      tags:
+        - config
+      when:
+        - os: linux
+Quaver:
+  cloud:
+    steam: true
+  files:
+    "<root>/steamapps/common/Quaver":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+        - os: linux
+          store: steam
+  installDir:
+    Quaver: {}
+  launch:
+    "<base>/Quaver":
+      - when:
+          - os: mac
+            store: steam
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Quaver.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 980610
+Qubburo 2:
+  cloud:
+    steam: true
+  files:
+    "<base>/Worlds":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/Software/LordKres/Voxelized:
+      tags:
+        - config
+  steam:
+    id: 344040
+Qubes:
+  installDir:
+    Qubes: {}
+  launch:
+    "<base>/Qubes.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1029790
+Qubic:
+  cloud:
+    steam: true
+  steam:
+    id: 509000
+Qubika:
+  installDir:
+    Qubika: {}
+  launch:
+    "<base>/osx64/qubika.app/Contents/MacOS/nwjs":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/win64/qubika.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 797060
+Queen City Chaos:
+  steam:
+    id: 1075580
+Queen Under The Mountain:
+  installDir:
+    Hairy Little Buggers: {}
+  launch:
+    "<base>/qutm.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/qutm.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/qutm.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/qutm.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 405240
+Queen at Arms:
+  installDir:
+    QueenAtArms: {}
+  launch:
+    "<base>/QueenAtArms.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QueenAtArms.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QueenAtArms.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 362020
+Queen of Seas:
+  installDir:
+    Queen of Seas: {}
+  launch:
+    "<base>/Queen of Seas.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 575580
+Queen of Seas 2:
+  installDir:
+    Queen of Seas 2: {}
+  launch:
+    "<base>/QoS2 Linux/Queen of Seas 2.x86":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/QoS2 Windows/Queen of Seas 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 858870
+Queen of Spades:
+  steam:
+    id: 880560
+Queen of Thieves:
+  cloud:
+    steam: true
+  files:
+    "<base>/game/**/*.save":
+      when:
+        - store: steam
+  installDir:
+    Queen Of Thieves: {}
+  launch:
+    "<base>/QoT.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QoT.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QoT.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 524200
+"Queen's Garden: Halloween":
+  cloud:
+    steam: true
+  files:
+    "<base>/SavesDir/*.dat":
+      when:
+        - store: steam
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+    "<home>/.config/unity3d/Seven Sails Games/Queen's Garden 3_ Halloween/*.dat":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/Seven Sails Games/Queen's Garden 3_ Halloween/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/com.sevensails.queensgarden3halloween/*.dat":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/com.sevensails.queensgarden3halloween/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Seven Sails Games/Queen's Garden 3 - Halloween (Steam)/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Seven Sails Games/Queen's Garden 3 - Halloween (Steam)/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "Queen's Garden 3 - Halloween": {}
+  launch:
+    "<base>/Queen's Garden 3 - Halloween.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Queen's Garden 3.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QueensGarden3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 726100
+"Queen's Quest 2: Stories of Forgotten Past":
+  cloud:
+    steam: true
+  installDir:
+    QueensQuest2: {}
+  launch:
+    "<base>/QueensQuest2.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QueensQuest2_amd64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/QueensQuest2_i386":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/mac_steam.app/Contents/MacOS/mac_steam":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 558790
+"Queen's Quest 3: The End of Dawn":
+  cloud:
+    steam: true
+  installDir:
+    "Queen's Quest 3 The End of Dawn": {}
+  launch:
+    "<base>/QueensQuest3.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QueensQuest3_amd64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/QueensQuest3_i386":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/mac_steam.app/Contents/MacOS/mac_steam":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 589690
+"Queen's Quest 4: Sacred Truce":
+  cloud:
+    steam: true
+  installDir:
+    "Queen's Quest 4": {}
+  launch:
+    "<base>/QueensQuest4.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QueensQuest4_amd64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/QueensQuest4_i386":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/mac_steam.app/Contents/MacOS/mac_steam":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 814030
+"Queen's Quest 5: Symphony of Death":
+  cloud:
+    steam: true
+  installDir:
+    Queens Quest 5: {}
+  launch:
+    "<base>/QueensQuest5.app/Contents/MacOS/QueensQuest5":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QueensQuest5.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QueensQuest5_amd64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/QueensQuest5_i386":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+  steam:
+    id: 1089660
+"Queen's Quest: Tower of Darkness":
+  cloud:
+    steam: true
+  installDir:
+    "Queen's Quest Tower of Darkness": {}
+  launch:
+    "<base>/QueensQuest_TowerOfDarkness.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QueensQuest_TowerOfDarkness_amd64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/QueensQuest_TowerOfDarkness_i386":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/mac_steam.app/Contents/MacOS/mac_steam":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 390200
+"Queen's Tales: Sins of the Past":
+  installDir:
+    "Queen's Tales Sins of the Past Collector's Edition": {}
+  launch:
+    "<base>/QueensTales_SotP_CE.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 770870
+"Queen's Tales: Sins of the Past Collector's Edition":
+  alias: "Queen's Tales: Sins of the Past"
+"Queen's Tales: The Beast and the Nightingale":
+  installDir:
+    "Queen's Tales The Beast and the Nightingale Collector's Edition": {}
+  launch:
+    "<base>/QueensTales_TheBeastAndTheNightingale_CE.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 605790
+"Queen's Tales: The Beast and the Nightingale Collector's Edition":
+  alias: "Queen's Tales: The Beast and the Nightingale"
+"Queen's Wish 2: The Tormentor":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winDocuments>/Spiderweb Software/Queen's Wish 2 Saved Games":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 2109381952
+  id:
+    steamExtra:
+      - 2010190
+      - 2071930
+  installDir:
+    "Queen's Wish 2 The Tormentor": {}
+  launch:
+    "<base>/Queen's Wish 2.app/Contents/MacOS/Queen's Wish 2":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Queen's Wish 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1947750
+"Queen's Wish: The Conqueror":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winDocuments>/Spiderweb Software/Queen's Wish Saved Games":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1265286149
+  installDir:
+    "Queen's Wish The Conqueror": {}
+  launch:
+    "<base>/Queen's Wish.app/Contents/MacOS/Queen's Wish":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Queen's Wish.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1058130
+Queendoom:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/EP Games/Queendoom/savegame.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Queendoom: {}
+  steam:
+    id: 540410
+Queeny Army:
+  cloud:
+    steam: true
+  installDir:
+    Queeny Army: {}
+  launch:
+    "<base>/Queeny Army.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Queeny_Army.AppImage":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1175050
+Quell:
+  cloud:
+    steam: true
+  files:
+    "<base>/Quell/config.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Quell/savegame":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Quell: {}
+  launch:
+    "<base>/Quell.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 344480
+Quell 4D:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Rubycone/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Quell 4D: {}
+  steam:
+    id: 534230
+Quell Memento:
+  cloud:
+    steam: true
+  installDir:
+    Quell Memento: {}
+  launch:
+    "<base>/QuellMemento.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 348440
+Quell Reflect:
+  cloud:
+    steam: true
+  installDir:
+    Quell Reflect: {}
+  launch:
+    "<base>/QuellReflect.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 348430
+Quell Zen:
+  cloud:
+    steam: true
+  installDir:
+    Quell Zen: {}
+  launch:
+    "<base>/QuellZen.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 490100
+Quench:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Axon Interactive/Quench":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Quench: {}
+  launch:
+    "<base>/Quench.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 877440
+Quern - Undying Thoughts:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Zadbox Entertainment/Quern/Saved Games":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgConfig>/unity3d/Zadbox Entertainment/Quern/Saved Games":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Zadbox Entertainment/Quern/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
+  gog:
+    id: 1133536995
+  id:
+    gogExtra:
+      - 1673921602
+    lutris: quern-undying-thoughts
+  installDir:
+    Quern - Undying Thoughts: {}
+  launch:
+    "<base>/Quern.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Quern.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Quern.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Quern.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Zadbox Entertainment/Quern:
+      tags:
+        - config
+  steam:
+    id: 512790
+Quest For Wartorn Brotherhood:
+  installDir:
+    Quest For Wartorn Brotherhood: {}
+  launch:
+    "<base>/Quest for Wartorn Brotherhood.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1076830
+Quest Hunter:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/487000/remote/quest_hunter_save":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<xdgConfig>/unity3d/2 Zombie Games/Quest Hunter":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgData>/Steam/userdata/<storeUserId>/487000/remote":
+      tags:
+        - save
+      when:
+        - os: linux
+  id:
+    steamExtra:
+      - 768950
+      - 793340
+  installDir:
+    Quest Hunter: {}
+  launch:
+    "<base>/Quest Hunter.app/Contents/MacOS/Quest Hunter":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Quest Hunter.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Quest Hunter.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Quest Hunter.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/2 Zombie Games/Quest Hunter:
+      tags:
+        - config
+  steam:
+    id: 487000
+Quest Master:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Apogee Entertainment/Quest Master/<storeUserId>":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Apogee Entertainment/Quest Master/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<xdgConfig>/unity3d/Apogee Entertainment/Quest Master/<storeUserId>":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 1563134693
+  id:
+    lutris: quest-master
+  installDir:
+    Quest Master: {}
+  launch:
+    "<base>/Quest Master.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Quest Master.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Quest Master.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2094070
+"Quest Room: Hanon":
+  installDir:
+    Quest room Hanon: {}
+  launch:
+    "<base>/Hanon.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Burrik/Hanon:
+      tags:
+        - config
+  steam:
+    id: 950360
+Quest for Conquest:
+  installDir:
+    Quest for Conquest: {}
+  launch:
+    "<base>/Quest for Conquest/Quest for Conquest.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1147020
+"Quest for Glory II: Trial by Fire":
+  cloud:
+    gog: true
+  files:
+    "<base>/TRIALSG.*":
+      tags:
+        - save
+      when:
+        - os: dos
+  gog:
+    id: 1207661323
+  id:
+    gogExtra:
+      - 1207659040
+    lutris: quest-for-glory-ii-trial-by-fire
+  installDir:
+    Quest for Glory Collection: {}
+  launch:
+    "<base>/SierraLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 502750
+"Quest for Glory III: Wages of War":
+  cloud:
+    gog: true
+  files:
+    "<base>/GLORYSG.*":
+      tags:
+        - save
+      when:
+        - os: dos
+  gog:
+    id: 1207661383
+  id:
+    gogExtra:
+      - 1207659040
+    lutris: quest-for-glory-iii-wages-of-war
+  installDir:
+    Quest for Glory Collection: {}
+  launch:
+    "<base>/SierraLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 502750
+"Quest for Glory V: Dragon Fire":
+  files:
+    "<base>/Saved Games":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207661403
+  id:
+    gogExtra:
+      - 1207659040
+    lutris: quest-for-glory-v-dragon-fire
+  installDir:
+    Quest for Glory Collection: {}
+  launch:
+    "<base>/SierraLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 502750
+"Quest for Glory: Shadows of Darkness":
+  cloud:
+    gog: true
+  files:
+    "<base>/GLORYSG.*":
+      tags:
+        - save
+      when:
+        - os: dos
+  gog:
+    id: 1207661393
+  id:
+    gogExtra:
+      - 1207659040
+    lutris: quest-for-glory-iv-shadows-of-darkness
+  installDir:
+    Quest for Glory Collection: {}
+  launch:
+    "<base>/SierraLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 502750
+"Quest for Glory: So You Want to Be a Hero":
+  cloud:
+    gog: true
+  files:
+    "<base>/GLORYSG.*":
+      tags:
+        - save
+      when:
+        - os: dos
+  gog:
+    id: 1207661313
+  id:
+    gogExtra:
+      - 1207659040
+    lutris: quest-for-glory-i-so-you-want-to-be-a-hero
+  installDir:
+    Quest for Glory Collection: {}
+  launch:
+    "<base>/SierraLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 502750
+Quest for Infamy:
+  files:
+    "<home>/Saved Games/Quest for Infamy v1.1":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207664993
+  installDir:
+    Quest for Infamy: {}
+  launch:
+    "<base>/QFI-GameManual.pdf":
+      - when:
+          - store: steam
+    "<base>/QFI-QuickStartWalkThrough.pdf":
+      - when:
+          - store: steam
+    "<base>/QFI.bin.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/QFI.bin.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/QFI.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QuestForInfamy.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ags-setup.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/ags-setup.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/winsetupQFI.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 264560
+Quest for Yrolg:
+  files:
+    "<home>/Library/Application Support/Crystal Shard/agssave.*":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Saved Games/Crystal Shard/agssave.*":
+      when:
+        - os: windows
+          store: steam
+    "<xdgData>/ags/Crystal Shard/agssave.*":
+      when:
+        - os: linux
+          store: steam
+  gog:
+    id: 1378427946
+  installDir:
+    Crystal Shard Adventure Bundle: {}
+  launch:
+    "<base>/Bundle.exe":
+      - arguments: "--windowed"
+        when:
+          - os: windows
+            store: steam
+    "<base>/Runme":
+      - arguments: "--windowed data/Bundle.ags"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 551840
+Quest for the Golden Duck:
+  installDir:
+    DuckQuest: {}
+  launch:
+    "<base>/DuckQuest.app/Contents/MacOS/game":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/game.i386":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 996160
+Quest of Dungeons:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/QuestofDungeons":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/My Games/QuestofDungeons/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    QuestofDungeons: {}
+  launch:
+    "<base>/QuestofDungeons":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/QuestofDungeons.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QuestofDungeons.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 270050
+Quest of Souls:
+  steam:
+    id: 441560
+Quest of Vidhuraa:
+  installDir:
+    Quest of Vidhuraa: {}
+  launch:
+    "<base>/qovbeta2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 683870
+Quest? Quest!:
+  steam:
+    id: 1081590
+QuestEvent:
+  installDir:
+    QuestEvent: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 357910
+QuestRun:
+  files:
+    "<winAppData>/QuestRun/Local Store":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    QuestRun: {}
+  launch:
+    "<base>/QuestRun.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Questrun.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 286120
+"Questerium: Sinister Trinity":
+  installDir:
+    Questerium - Sinister Trinity: {}
+  launch:
+    "<base>/Questerium_Sinister_Trinity.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Questerium_Sinister_Trinity.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 320610
+"Questerium: Sinister Trinity HD Collector's Edition":
+  alias: "Questerium: Sinister Trinity"
+Questery:
+  installDir:
+    BuildMSRPG: {}
+  launch:
+    "<base>/CompleteShooter.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 832020
+Questlike:
+  installDir:
+    Questlike: {}
+  launch:
+    "<base>/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 816400
+Questr:
+  files:
+    "<home>/.config/unity3d/MutantStudios/Questr/*.dat":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/MutantStudios/Questr/*.dat":
+      when:
+        - store: steam
+  installDir:
+    Questr: {}
+  launch:
+    "<base>/Questr.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Questr.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Questr.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 675990
+"Questria: Rise of the Robot Skullfaces":
+  cloud:
+    steam: true
+  files:
+    "<base>/progress.txt":
+      when:
+        - store: steam
+  installDir:
+    Questria: {}
+  launch:
+    "<base>/Questria.app/Contents/MacOS/Questria":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Questria.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 374420
+Questron II:
+  gog:
+    id: 1278430629
+Quests Unlimited:
+  installDir:
+    Quests Unlimited: {}
+  launch:
+    "<base>/QuestsUnlimited_EA.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QuestsUnlimited_EA.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/QuestsUnlimited_EA.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 777420
+Quetoo:
+  files:
+    "<home>/.quetoo/default/quetoo.cfg":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<winDocuments>/My Games/Quetoo/default/quetoo.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+QuiVr:
+  installDir:
+    QuiVr: {}
+  steam:
+    id: 489380
+QuiVr Vanguard:
+  installDir:
+    QuiVr Vanguard: {}
+  steam:
+    id: 581460
+Quible Sphere:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Hertzole/Quible Sphere/*.qs":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/Hertzole/Quible Sphere/SaveData/*.qs":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Hertzole/Quible Sphere/SaveData/*.qs":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Hertzole/Quible Sphere/settings.json":
+      when:
+        - store: steam
+    "<home>/Hertzole/Quible Sphere/settings.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Hertzole/Quible Sphere/*.qs":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Hertzole/Quible Sphere/SaveData/*.qs":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Hertzole/Quible Sphere/settings.json":
+      when:
+        - os: mac
+          store: steam
+  id:
+    steamExtra:
+      - 890610
+  installDir:
+    Quible Sphere: {}
+  launch:
+    "<base>/Quible Sphere.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Quible Sphere.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Quible Sphere.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Quible Sphere.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 840380
+Quick Draw:
+  installDir:
+    Quick Draw: {}
+  steam:
+    id: 522250
+"Quick Maths: addition and subtraction":
+  cloud:
+    steam: true
+  steam:
+    id: 899370
+Quick Slick Deadly:
+  cloud:
+    steam: true
+  steam:
+    id: 399270
+Quickshot:
+  installDir:
+    Quickshot: {}
+  steam:
+    id: 814020
+Quiet Godo:
+  installDir:
+    Quiet Godo: {}
+  launch:
+    "<base>/QuietGodoGame/QuietGodo.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 1455380
+Quiet Sleep:
+  installDir:
+    Quiet Sleep: {}
+  launch:
+    "<base>/QuietSleep.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1061240
+Quiet as a Stone:
+  installDir:
+    Quiet as a Stone: {}
+  launch:
+    "<base>/QuietasaStone.app/Contents/MacOS/QuietasaStone":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/QuietasaStone.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 872060
+Quilly:
+  installDir:
+    Quilly: {}
+  launch:
+    "<base>/Quilly.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1137630
+Quintet:
+  id:
+    steamExtra:
+      - 368400
+      - 368401
+  installDir:
+    Quintet: {}
+  launch:
+    "<base>/Quintet.app":
+      - arguments: source=steam
+        when:
+          - os: mac
+            store: steam
+    "<base>/Quintet.exe":
+      - arguments: source=steam
+        when:
+          - os: windows
+            store: steam
+    "<base>/Quintet.x86_64":
+      - arguments: source=steam
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 340350
+Quip Anomaly:
+  installDir:
+    QuipAnomaly: {}
+  launch:
+    "<base>/game.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/game.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 506470
+Quiplash:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Jackbox Games/Quiplash/UserData.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgConfig>/Jackbox Games/Quiplash/Userdata.sav":
+      tags:
+        - config
+      when:
+        - os: linux
+  id:
+    lutris: quiplash
+    steamExtra:
+      - 359570
+  installDir:
+    Quiplash: {}
+  launch:
+    "<base>/Launcher.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Quiplash.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Quiplash.exe":
+      - arguments: "-jbg.config serverUrl=ecast.jackboxgames.com"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 351510
+Quiplash 2 InterLASHional:
+  cloud:
+    steam: true
+  installDir:
+    Quiplash 2 InterLASHional: {}
+  launch:
+    "<base>/Launcher.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Quiplash 2 InterLASHional.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Quiplash 2 InterLASHional.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1111940
+Quirky Crook:
+  installDir:
+    QuirkyCrook: {}
+  launch:
+    "<base>/QuirkyCrook_03_21_2018_D.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 765350
+Quirky Crystal RPG:
+  installDir:
+    Quirky Crystal RPG: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 921660
+Quite a Ride:
+  cloud:
+    steam: true
+  steam:
+    id: 3166050
+"Quiver Dick's Epic Book of Fairy Fails":
+  steam:
+    id: 1091370
+"Quiver Dick's Terrible Tale for Terrible Parents to Read to Their Equally Terrible Children":
+  installDir:
+    "Quiver Dick's Terrible Tale": {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 953230
+Quixzel Rush Halloween Party:
+  steam:
+    id: 937590
+Quixzel Rush Pumpkin Bash:
+  steam:
+    id: 937610
+"Quixzel Rush: Christmas Helper":
+  steam:
+    id: 942550
+"Quixzel Rush: Tooth Protector":
+  steam:
+    id: 942560
+Quiz Night Tonight!:
+  installDir:
+    Quiz Night Tonight!: {}
+  launch:
+    "<base>/QNT.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 549280
+Quiz Time:
+  installDir:
+    Quiz Time: {}
+  launch:
+    "<base>/Quiz.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 863640
+Quiz.com:
+  installDir:
+    Quiz.com: {}
+  launch:
+    "<base>/Quiz.com.app/Contents/MacOS/Quiz.com":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Quiz.com.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2165340
+QuizWitz:
+  steam:
+    id: 1105550
+Quizality:
+  installDir:
+    Quizality - Christmas!: {}
+  steam:
+    id: 566350
+Quote:
+  installDir:
+    Quote: {}
+  launch:
+    "<base>/Quote.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Quote.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Quote.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 432890
+Quotes Quest - Match 3:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/GamesByLD/QuotesQuest/*.sqqg":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Quotes Quest - Match 3: {}
+  launch:
+    "<base>/QuotesQuest.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 806300
+Qvabllock:
+  installDir:
+    Qvabllock: {}
+  launch:
+    "<base>/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 840700
+Qvadriga:
+  installDir:
+    Qvadriga: {}
+  launch:
+    "<base>/autorun.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Turnopia/Qvadriga:
+      tags:
+        - config
+  steam:
+    id: 297760
+"Qwerty's Prison":
+  installDir:
+    "Qwerty's Prison": {}
+  launch:
+    "<base>/Athi.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1103000
+Qybe:
+  installDir:
+    Qybe: {}
+  launch:
+    "<base>/qybe.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 868500

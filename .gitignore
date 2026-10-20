@@ -1,0 +1,16 @@
+# 完整清单（体积大，由 scripts/sync_manifest.py 下载，不入库）
+data/manifest.yaml
+
+# 同步状态（ETag / sha256 缓存）
+data/.sync-meta.json
+
+# 合并校验的临时产物
+_merged.yaml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 临时文件
+*.tmp

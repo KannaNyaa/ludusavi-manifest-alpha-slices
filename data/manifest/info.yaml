@@ -1,0 +1,272 @@
+# Ludusavi manifest shard index - generated file, do not edit.
+# https://github.com/mtkennerly/ludusavi-manifest for the source data.
+formatVersion: 1
+generatedAt: "2026-10-20T05:46:58Z"
+generator: "ludusavi-manifest-shards"
+
+source:
+  repository: "mtkennerly/ludusavi-manifest"
+  ref: "master"
+  file: "data/manifest.yaml"
+  url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
+  etag: ""
+  lastModified: ""
+  sha256: "e8ab7e4b2fbff5ce2d007834c3fa0293e108cb088a7e299f0ed04293c64ccea3"
+  sizeBytes: 17699110
+  lines: 881880
+
+manifest:
+  games: 53350
+  shards: 29
+  files: 30
+  bytes: 17699222
+  withSaveTag: 13580
+  sections:
+    alias: 1118
+    cloud: 15672
+    files: 22477
+    gog: 5578
+    id: 10088
+    installDir: 43824
+    launch: 39577
+    registry: 2842
+    steam: 49194
+
+sharding:
+  rule: "first-character"
+  description: "ASCII letter -> <letter>.yaml; ASCII digit -> digits.yaml; non-ASCII letter/digit -> unicode.yaml; other -> symbols.yaml"
+  files: 30
+
+shards:
+  - path: "a.yaml"
+    key: "A"
+    group: "letter"
+    games: 3307
+    bytes: 1106083
+    sha256: "6609311833cf973cc562fce86e1abd03afbe020394c438d606193c9a375d821d"
+    first: "A Bastard's Tale"
+    last: "Azusa RP Online"
+  - path: "b.yaml"
+    key: "B"
+    group: "letter"
+    games: 2987
+    bytes: 981790
+    sha256: "987e2d84b3e9100f66aad404d1bdcf6b32d762f961212ffe1f86ad46b5e8395a"
+    first: "B"
+    last: "B画少说"
+  - path: "c.yaml"
+    key: "C"
+    group: "letter"
+    games: 3497
+    bytes: 1183990
+    sha256: "3d5457d62369be9308895ce7a4bb846683f66b3cea85122a7ed14d03a2b7ff6d"
+    first: "C"
+    last: "CyubeVR"
+  - path: "d.yaml"
+    key: "D"
+    group: "letter"
+    games: 3441
+    bytes: 1160421
+    sha256: "653235c83895e573f6d150869d80f695829ec0e1965bf3fdc0ac20baad479296"
+    first: "D Series Off Road Racing Simulation"
+    last: "Dōkyūsei: Bangin' Summer"
+  - path: "digits.yaml"
+    key: "0-9"
+    group: "digits"
+    games: 446
+    bytes: 150397
+    sha256: "b8a82170904241cdd6d4502e61714f825dc75185d19fd099bf5ac282861866d5"
+    first: "0 A.D."
+    last: "9th Dawn III"
+  - path: "e.yaml"
+    key: "E"
+    group: "letter"
+    games: 1586
+    bytes: 515691
+    sha256: "3721a1867ecddc576425cc447c9e2ab9169f9ae2374a11f8e7f723d9258a367e"
+    first: "E-Ball"
+    last: "Ezy"
+  - path: "f.yaml"
+    key: "F"
+    group: "letter"
+    games: 2251
+    bytes: 759224
+    sha256: "f32593290b57c430c9be965b177c3d74d200069a83dbeff62c3240b0df179105"
+    first: "F-1 Drive"
+    last: "Fürst Marigor und die Tobis"
+  - path: "g.yaml"
+    key: "G"
+    group: "letter"
+    games: 1918
+    bytes: 617614
+    sha256: "3430ef815d704460a834eb45a0955f511b1aa3a244130a278caa73e273cfa5d1"
+    first: "G Prime"
+    last: "Géants disparus VR"
+  - path: "h.yaml"
+    key: "H"
+    group: "letter"
+    games: 2180
+    bytes: 712548
+    sha256: "9e5fe251bba99a800bcf450f894eb8eaf2a1ebe04b949dab24ce0e64e9f785da"
+    first: "H Chan: Girl"
+    last: "Höllenjob"
+  - path: "i.yaml"
+    key: "I"
+    group: "letter"
+    games: 1210
+    bytes: 398568
+    sha256: "2133050d5e718b0f5af935d3ab280ea7b39a771429ccd3b3e88a6866452af39b"
+    first: "I (Don't) Hate Hentai Puzzles"
+    last: "I・S・U"
+  - path: "j.yaml"
+    key: "J"
+    group: "letter"
+    games: 560
+    bytes: 174666
+    sha256: "025c993bd7e6239f75dfd9407f7890c28ab1650f6c00129845a3edf090b69fa3"
+    first: "J Connect"
+    last: "Jydge"
+  - path: "k.yaml"
+    key: "K"
+    group: "letter"
+    games: 926
+    bytes: 306079
+    sha256: "5f26cd1517e9cd211ab2b9665772099eb6e7b11b2bdab587f2b6781d00a29faf"
+    first: "K Station"
+    last: "Kōmori Fruit Rush"
+  - path: "l.yaml"
+    key: "L"
+    group: "letter"
+    games: 1826
+    bytes: 604367
+    sha256: "db870ceb6ae1dba56a97a28d7f8a5b16342072839a2c24ea3bf36e68543344b2"
+    first: "L U N E"
+    last: "Lá Camila: A VR Experience"
+  - path: "m.yaml"
+    key: "M"
+    group: "letter"
+    games: 3179
+    bytes: 1025237
+    sha256: "8ffd2382e49b30d45e61f8105f3dde404dcb02769d7fe553c1d2ff035285f722"
+    first: "M Mania"
+    last: "Möbius Front '83"
+  - path: "n.yaml"
+    key: "N"
+    group: "letter"
+    games: 1338
+    bytes: 437030
+    sha256: "a06f825aef57656525d48514f1344a1134b70f5757698554ffe66d3039ec196d"
+    first: "N"
+    last: "NyxQuest: Kindred Spirits"
+  - path: "o.yaml"
+    key: "O"
+    group: "letter"
+    games: 1076
+    bytes: 356993
+    sha256: "317a0272691bf61671338ba30ac104fe4315e8e85f9339d00b4fbab58e54fc7a"
+    first: "O Rei"
+    last: "Ozymandias"
+  - path: "p.yaml"
+    key: "P"
+    group: "letter"
+    games: 2673
+    bytes: 862379
+    sha256: "07823157c06cfa3c8e1fca9695c791d16f59fadf6c2cf9efc393c07141496792"
+    first: "P-3 Biotic"
+    last: "Pył"
+  - path: "q.yaml"
+    key: "Q"
+    group: "letter"
+    games: 201
+    bytes: 71107
+    sha256: "1ec0a2fa0445c9a332a7574bb1d19770c1fc8500f5b335b2429a626797d97c0f"
+    first: "Q"
+    last: "Qybe"
+  - path: "r.yaml"
+    key: "R"
+    group: "letter"
+    games: 2480
+    bytes: 814977
+    sha256: "5c0078a728e98b1c037326f9a50770d5557b71d822bfdd8bdc2ed770694e889b"
+    first: "R Academy"
+    last: "RŌA"
+  - path: "s.yaml"
+    key: "S"
+    group: "letter"
+    games: 5914
+    bytes: 2052394
+    sha256: "5049378f10664e5b0befcf6e0ce88905fd73f02482405623924923bd2c10793d"
+    first: "S-COPTER: Trials of Quick Fingers and Logic"
+    last: "Söldner: Secret Wars Remastered"
+  - path: "symbols.yaml"
+    key: "SYMBOLS"
+    group: "symbols"
+    games: 37
+    bytes: 11610
+    sha256: "2c18b2d8055c7d64e5902bb9b68f0e18f55a0abbbae50f772fed3a1a1ed35257"
+    first: "! That Bastard Is Trying To Steal Our Gold !"
+    last: "＜/reality＞"
+  - path: "t.yaml"
+    key: "T"
+    group: "letter"
+    games: 5521
+    bytes: 1940343
+    sha256: "f6f25e20af6a8eddaa9526705e23e5d520a0293afe1b2f16cae708a4cd3a9a31"
+    first: "T Simulator"
+    last: "Tzompantli"
+  - path: "u.yaml"
+    key: "U"
+    group: "letter"
+    games: 631
+    bytes: 207161
+    sha256: "d68b9e6ccb8dfeb60635d4ffb86ffe64ba8322e1eca00718679fb4c66a5d5dc1"
+    first: "U-BOOT 1945"
+    last: "Uznali ? soglasnbI ?"
+  - path: "unicode.yaml"
+    key: "UNICODE"
+    group: "unicode"
+    games: 626
+    bytes: 113159
+    sha256: "b6276a2e3a383792604b1406d3b0af469fb7c3c3476362cd4521bb103af5e2d9"
+    first: "Élan Vital"
+    last: "암전:Blackout"
+  - path: "v.yaml"
+    key: "V"
+    group: "letter"
+    games: 933
+    bytes: 259001
+    sha256: "7f6f27b304a2f51814ef3192b62945e29bc5a0d3a085eeea9afd1820b25f81f5"
+    first: "V"
+    last: "Vzerthos: The Heir of Thunder"
+  - path: "w.yaml"
+    key: "W"
+    group: "letter"
+    games: 1708
+    bytes: 584432
+    sha256: "6aec97ae8aecfc49cee988fa7fcd339df35cd269e06713e0e3470f39808d029e"
+    first: "W. T. B."
+    last: "Włatcy móch: Wrzód na dópie"
+  - path: "x.yaml"
+    key: "X"
+    group: "letter"
+    games: 149
+    bytes: 56201
+    sha256: "8fa1c49bc2190022c71db9167c0c8452dc3d10e2a7462965f5aec4cc374250f8"
+    first: "X Archetype"
+    last: "X少女逃脱 x girl escape"
+  - path: "y.yaml"
+    key: "Y"
+    group: "letter"
+    games: 284
+    bytes: 100682
+    sha256: "0fdb278a345beb5ed173197b8384696cf4e1df975af058589bdede4e43a876f7"
+    first: "YANKAI'S PEAK."
+    last: "Yōdanji"
+  - path: "z.yaml"
+    key: "Z"
+    group: "letter"
+    games: 465
+    bytes: 135078
+    sha256: "ac26cf9719e881e6e77677d09253d35edbd9e8a8ef487668212476362e9d8e38"
+    first: "Z (2012)"
+    last: "Zzzzz"

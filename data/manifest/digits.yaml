@@ -1,0 +1,7577 @@
+---
+0 A.D.:
+  files:
+    "<home>/Library/Application/ Support/0ad":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winAppData>/0ad":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/0ad":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgConfig>/0ad":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgData>/0ad":
+      tags:
+        - save
+      when:
+        - os: linux
+  id:
+    flatpak: com.play0ad.zeroad
+0 Day:
+  installDir:
+    0 Day: {}
+  steam:
+    id: 554920
+"0000":
+  cloud:
+    steam: true
+  steam:
+    id: 639880
+007 First Light:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/3768760":
+      tags:
+        - config
+        - save
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+    "<winAppData>/IO Interactive/Epic/<storeUserId>/007 First Light/KntSlotSaveFile-0":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: epic
+  id:
+    lutris: 007-first-light
+    steamExtra:
+      - 3950810
+      - 3950820
+      - 3950830
+      - 3950850
+      - 3950870
+      - 3950880
+      - 3950900
+      - 3950910
+      - 3950930
+      - 3954230
+      - 3954250
+      - 3954260
+      - 4521800
+      - 4521810
+      - 4521820
+      - 4521830
+      - 4521840
+      - 4601250
+      - 4707780
+  installDir:
+    007 First Light: {}
+  launch:
+    "<base>/Retail/007FirstLight.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/IO Interactive/007 First Light:
+      tags:
+        - config
+  steam:
+    id: 3768760
+007 Legends:
+  files:
+    "<winDocuments>/My Games/Activision/007 Legends":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Activision/007 Legends":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: 007-legends
+  installDir:
+    007 Legends: {}
+  launch:
+    "<base>/Bond2012PC.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 211670
+"007: Quantum of Solace":
+  files:
+    "<winAppData>/Activision/Quantum of Solace/players/<storeUserId>/config.cfg":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Microsoft/XLive/Content/01100001007F57F2":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winProgramData>/Activision/Quantum of Solace":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: quantum-of-solace
+  installDir:
+    Quantum of Solace: {}
+  launch:
+    "<base>/testapp.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 10080
+"03.04":
+  id:
+    lutris: 03-dot-04
+  installDir:
+    "03.04": {}
+  launch:
+    "<base>/03.04.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 952950
+0Gravity:
+  installDir:
+    0Gravity: {}
+  launch:
+    "<base>/0Gravity.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1101290
+0rbitalis:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/278440/remote":
+      tags:
+        - config
+        - save
+      when:
+        - store: steam
+    "<winAppData>/0RBITALIS":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    0rbitalis: {}
+  launch:
+    "<base>/0RBITALIS.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/0RBITALIS.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 278440
+0°N 0°W:
+  installDir:
+    0°N 0°W: {}
+  launch:
+    "<base>/0N0W.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/0N0W.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/0N0W.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 670750
+1 Hit Kill:
+  installDir:
+    1 HIT KILL: {}
+  launch:
+    "<base>/RTP_RT.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 882750
+"1 Moment of Time: Silentville":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/2Monkeys/CrossMoT":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/2Monkeys/CrossMoT/Settings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    1 Moment Of Time Silentville: {}
+  launch:
+    "<base>/MomentOfTime.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Silentville":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Silentville.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 497400
+1 Screen Platformer:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/OneScreenPlatformStaticGM14":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    1 Screen Platformer: {}
+  launch:
+    "<base>/1ScreenPlatformer.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/OneScreenPlatformStaticGM14.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 791180
+1 ⛷ 1:
+  steam:
+    id: 932490
+"1, 2, 3... Bruegel!":
+  installDir:
+    "1, 2, 3... Bruegel!": {}
+  steam:
+    id: 1071310
+"1,000 Heads Among the Trees":
+  installDir:
+    1000 Heads Among the Trees: {}
+  launch:
+    "<base>/1000 Heads Among the Trees.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/1000 Heads Among the Trees.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 406730
+1-2-Swift:
+  installDir:
+    1-2-Swift: {}
+  launch:
+    "<base>/1-2-Swift.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 583570
+"1-Bit Revival: The Residuals of Null":
+  installDir:
+    1-Bit Revival The Residuals of Null: {}
+  launch:
+    "<base>/nw":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1025480
+1... 2... 3... KICK IT! (Drop That Beat Like an Ugly Baby):
+  installDir:
+    123kickit: {}
+  launch:
+    "<base>/123KickIt.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Dejobaan Games/Ugly Baby:
+      tags:
+        - config
+  steam:
+    id: 15540
+1/4平方米的星空:
+  files:
+    "<home>/.config/com/lingtanstudio/starrysky*":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/lingtanstudio/StarrySky":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/com.lingtanstudio.starrysky*":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    A Piece of Wish upon the Stars: {}
+  launch:
+    "<base>/SatrrySky.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 899190
+10 Miles to Safety:
+  installDir:
+    10 Miles To Safety: {}
+  launch:
+    "<base>/TenMilesToSafety.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1015140
+10 Minute Barbarian:
+  installDir:
+    10 Minute Barbarian: {}
+  launch:
+    "<base>/10 Minute Barbarian.app/Contents/MacOS/10 Minute Barbarian":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/10 Minute Barbarian.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 389120
+10 Minute Tower:
+  installDir:
+    10 Minute Tower: {}
+  launch:
+    "<base>/10MinuteTower.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 477010
+10 Second Ninja:
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/com.yoyogames.macyoyorunner":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/com.yoyogames.macyoyorunner/settings.ini":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<winLocalAppData>/10_Second_Ninja":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/10_Second_Ninja/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    10 Second Ninja: {}
+  launch:
+    "<base>/10 Second Ninja.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/10 Second Ninja.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 271670
+10 Second Ninja X:
+  files:
+    "<winLocalAppData>/_10_Second_Ninja_X_Test/asyncsavegroup/10SNX.sav":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    10 Second Ninja X: {}
+  launch:
+    "<base>/10SNX.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 435790
+10 Second Shuriken:
+  installDir:
+    10 Second Shuriken: {}
+  launch:
+    "<base>/10ss.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/10ss.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1130440
+10 Seconds:
+  installDir:
+    10 seconds: {}
+  steam:
+    id: 852190
+10 Years After:
+  installDir:
+    10 Years After: {}
+  launch:
+    "<base>/10 Years After.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Ten Tree Games/10 Years After:
+      tags:
+        - config
+        - save
+  steam:
+    id: 339240
+"10,000,000":
+  files:
+    "<xdgConfig>/unity3d/EightyEightGames/10000000":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+  installDir:
+    "10000000": {}
+  launch:
+    "<base>/10000000.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/10000000.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/10000000.x86":
+      - when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/EightyEightGames/10000000:
+      tags:
+        - config
+        - save
+  steam:
+    id: 227580
+10-4 Indirect Contact:
+  cloud:
+    steam: true
+  files:
+    "<base>/10-4_Data/StreamingAssets/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    10-4: {}
+  launch:
+    "<base>/10-4.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1055140
+100 Chests:
+  installDir:
+    100 Chests: {}
+  launch:
+    "<base>/build_version_1.1.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 856260
+100 Seconds:
+  installDir:
+    100 Seconds: {}
+  launch:
+    "<base>/100seconds.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 796580
+"100 Years' War":
+  installDir:
+    100 Years War: {}
+  launch:
+    "<base>/100yearswar.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/100yearswar.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1025530
+100 hidden frogs:
+  installDir:
+    100 hidden frogs: {}
+  launch:
+    "<base>/100_hidden_frogs.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1806840
+100$:
+  installDir:
+    100$: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1016250
+100% Orange Juice!:
+  cloud:
+    steam: true
+  files:
+    "<base>/save/<storeUserId>/profile[0,1,3].ojs":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
+    "<base>/settings.ojc":
+      tags:
+        - config
+      when:
+        - os: windows
+        - os: linux
+    "<root>/userdata/<storeUserId>/282800":
+      tags:
+        - config
+        - save
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 327340
+      - 334080
+      - 338360
+      - 376200
+      - 388790
+      - 425360
+      - 465480
+  installDir:
+    100 Orange Juice: {}
+  launch:
+    "<base>/100OrangeJuice.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/100orange.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/100orange.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/100orange_x86.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 282800
+1000 Amps:
+  files:
+    "<base>/save*":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/settings":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Brandon Brizzi/1000 Amps":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<winAppData>/Macromedia/Flash Player/#SharedObjects/{random}/localhost/games/Desura/Common/1000-amps/1000AmpsReWin.exe":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    1000 Amps: {}
+  launch:
+    "<base>/1000 Amps.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/1000AmpsReWin.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 205690
+1000 Days to Escape:
+  installDir:
+    1000 days to escape: {}
+  launch:
+    "<base>/1000dte.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1103100
+1000 Stages:
+  installDir:
+    1000 Stages: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 873180
+1000$:
+  installDir:
+    1000$: {}
+  launch:
+    "<base>/1000$.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1099840
+1000xResist:
+  cloud:
+    steam: true
+  files:
+    "<home>/Saved Games/Sunset Visitor Studios/1000xRESIST":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Saved Games/Sunset Visitor Studios/1000xRESIST/<storeUserId>/cloud":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Sunset Visitor Studios/1000xRESIST/<storeUserId>/cloud/user.1xr":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Sunset Visitor Studios/1000xRESIST/<storeUserId>/local/device.ssv":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 2071181157
+  id:
+    lutris: 1000xresist
+  installDir:
+    1000xRESIST: {}
+  launch:
+    "<base>/1000xRESIST.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/sunset visitor 斜陽過客/1000xRESIST:
+      tags:
+        - config
+  steam:
+    id: 1675830
+1001 Hugs:
+  installDir:
+    1001Hugs: {}
+  launch:
+    "<base>/TPS_1001Hugs.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1157020
+1001 Jigsaw Castles And Palaces:
+  alias: 1001 Jigsaw. Castles and Palaces
+"1001 Jigsaw World Tour: Europe":
+  alias: "1001 Jigsaw. World Tour: Europe"
+1001 Jigsaw. 6 Magic Elements:
+  installDir:
+    1001 Jigsaw. 6 Magic Elements: {}
+  launch:
+    "<base>/1001 Jigsaw. 6 Magic Elements.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/1001 Jigsaw. 6 Magic elements.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1095850
+1001 Jigsaw. Castles and Palaces:
+  installDir:
+    1001 Jigsaw Castles And Palaces: {}
+  launch:
+    "<base>/1001 Jigsaw. World Tour Castles and Palaces.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1158830
+1001 Jigsaw. Earth Chronicles:
+  installDir:
+    1001 Jigsaw. Earth Chronicles: {}
+  launch:
+    "<base>/1001 Jigsaw. Earth Chronicles.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/1001 Jigsaw. Earth Chronicles.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 970870
+1001 Jigsaw. Home Sweet Home:
+  installDir:
+    1001 Jigsaw. Home Sweet Home: {}
+  launch:
+    "<base>/1001 Jigsaw. Home Sweet Home.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/1001 Jigsaw. World Tour Home Sweet Home.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 970900
+1001 Jigsaw. Myths of ancient Greece:
+  installDir:
+    1001 JIGSAW. MYTHS OF ANCIENT GREECE: {}
+  launch:
+    "<base>/1001 Jigsaw. Myths of ancient Greece.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1165430
+"1001 Jigsaw. World Tour: Australian Puzzles":
+  installDir:
+    1001 Jigsaw. World Tour Australian Puzzles: {}
+  launch:
+    "<base>/1001 Jigsaw. World Tour Australian Puzzles.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/1001 Jigsaw. World Tour Australian Puzzles.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 970880
+"1001 Jigsaw. World Tour: Europe":
+  installDir:
+    1001 Jigsaw Europe: {}
+  launch:
+    "<base>/1001 Jigsaw World Tour Europe.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/1001 Jigsaw World Tour Europe.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1128830
+"1001 Jigsaw. World Tour: France":
+  installDir:
+    1001 Jigsaw. World Tour France: {}
+  launch:
+    "<base>/1001 Jigsaw. World Tour France.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/1001 Jigsaw. World Tour France.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1095870
+"1001 Jigsaw. World Tour: Great America":
+  installDir:
+    1001 Jigsaw. World Tour Great America: {}
+  launch:
+    "<base>/1001 Jigsaw. World Tour Great America.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/1001 Jigsaw. World Tour Great America.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 970910
+"1001 Jigsaw. World Tour: London":
+  installDir:
+    1001 Jigsaw. World Tour London: {}
+  launch:
+    "<base>/100 Jigsaw. World Tour London Puzzles.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/1001 Jigsaw. World Tour London Puzzles.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 970890
+1001 Spikes:
+  files:
+    "<home>/Library/Application Support/1001 Spikes":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<winDocuments>/My Games/1001 Spikes/Saves/Common.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/1001 Spikes/Saves/Profile*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgData>/1001 spikes":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+  installDir:
+    1001 Spikes: {}
+  launch:
+    "<base>/1001 Spikes.app":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/1001 Spikes.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/run-i386.sh":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/run-x64.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 260790
+1001st Hyper Tower:
+  installDir:
+    1001stHyperTower: {}
+  launch:
+    "<base>/1001st Hyper Tower.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/1001stHyperTower.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Mac.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 958050
+100ft Robot Golf:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.sav":
+      when:
+        - store: steam
+  installDir:
+    100ft Robot Golf: {}
+  launch:
+    "<base>/golf64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 368000
+100nya:
+  installDir:
+    100nya: {}
+  launch:
+    "<base>/100nya.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 553830
+100th Black Market:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/ShanghaiAlice/th185/replay":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/ShanghaiAlice/th185/scoreth185.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/ShanghaiAlice/th185/scoreth185bak.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/ShanghaiAlice/th185/snapshot":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/ShanghaiAlice/th185/th185.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    th185: {}
+  launch:
+    "<base>/th185.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2097720
+101 Ways to Die:
+  installDir:
+    101 Ways to Die: {}
+  launch:
+    "<base>/101wtd.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 413480
+"1010":
+  installDir:
+    "1010": {}
+  launch:
+    "<base>/1010.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 761190
+"101010":
+  installDir:
+    "101010": {}
+  steam:
+    id: 1081800
+"101: The Airborne Invasion of Normandy":
+  installDir:
+    101st Airborne in Normandy: {}
+  launch:
+    "<base>/101.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3863630
+"102 Dalmatians: Puppies to the Rescue":
+  files:
+    "<base>/pcdogs.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/savegame.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+"103":
+  files:
+    "<winLocalAppData>/OneZeroThree/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/OneZeroThree/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    "103": {}
+  launch:
+    "<base>/103.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/103.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/OneZeroThree.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 913850
+11-11 Memories Retold:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/735580/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 923380
+  installDir:
+    RocketMan: {}
+  registry:
+    "HKEY_CURRENT_USER/Software/Bandai Namco/11-11: Memories Retold":
+      tags:
+        - config
+  steam:
+    id: 735580
+112 Operator:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/JutsuGames/112 Operator/Config/playerConfig.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/JutsuGames/112 Operator/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    112 Operator: {}
+  launch:
+    "<base>/Operator 112 Mac.app":
+      - when:
+          - os: mac
+            store: steam
+      - arguments: "-force-glcore"
+        when:
+          - os: mac
+            store: steam
+      - arguments: "-force-metal"
+        when:
+          - os: mac
+            store: steam
+    "<base>/Operator 112.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 793460
+"1166":
+  installDir:
+    "1166": {}
+  launch:
+    "<base>/1166 (PC).exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/1166(Linux).x86":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/1166(MAC).app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 581810
+11th Dream:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/BluePulsarGames/11thDreamGame/<storeUserId>/*.*":
+      when:
+        - store: steam
+  installDir:
+    11th Dream Game: {}
+  steam:
+    id: 949450
+11号小镇综合症:
+  installDir:
+    11号小镇综合症: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2055390
+12 HOURS:
+  installDir:
+    12 HOURS: {}
+  launch:
+    "<base>/12 HOURS.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1063560
+12 HOURS 2:
+  installDir:
+    12 HOURS 2: {}
+  launch:
+    "<base>/12 HOURS 2.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1126840
+12 Is Better than 6:
+  files:
+    "<home>/.config/_12ibt6/savedata.ini":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.config/_12ibt6/settings.ini":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<winAppData>/_12ibt6/savedata.ini":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/_12ibt6/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: 12-is-better-than-6
+    steamExtra:
+      - 411110
+      - 450820
+      - 450830
+  installDir:
+    12 is Better Than 6: {}
+  steam:
+    id: 410110
+12 Labours of Hercules:
+  cloud:
+    steam: true
+  files:
+    "<home>/.Saves/ZOG/Hercules":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.Saves/ZOG/Hercules/Settings.sav":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/Library/Application Support/ZOG/Hercules":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/ZOG/Hercules/Settings.sav":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<winAppData>/ZOG/Hercules":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/ZOG/Hercules/Settings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    12 Labours of Hercules: {}
+  launch:
+    "<base>/12 Labours of Hercules.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/12LaboursOfHercules.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Hercules":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 342580
+"12 Labours of Hercules II: The Cretan Bull":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/ZOG/Hercules2":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/ZOG/Hercules2/Settings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    12 Labours of Hercules II The Cretan Bull: {}
+  launch:
+    "<base>/12 Labours of Hercules II.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/12LaboursOfHercules2.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Hercules2":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 360640
+"12 Labours of Hercules III: Girl Power":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/ZOG/Hercules3":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/ZOG/Hercules3/Settings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    12 Labours of Hercules III Girl Power: {}
+  launch:
+    "<base>/12 Labours of Hercules III.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/12LaboursOfHercules3.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Hercules3":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 360650
+"12 Labours of Hercules IV: Mother Nature":
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/ZOG/Hercules4CE/**/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Saves/ZOG/Hercules4CE/**/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Saves/ZOG/Hercules4CE/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<winAppData>/ZOG/Hercules4CE/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    12 Labours of Hercules IV Mother Nature: {}
+  launch:
+    "<base>/12 Labours of Hercules IV.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/12LaboursOfHercules4.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Hercules4":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 396800
+"12 Labours of Hercules IX: A Hero's Moonwalk":
+  files:
+    "<home>/Library/Application Support/ZOG/Hercules9CE/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/ZOG/Hercules9CE/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "12 Labours of Hercules IX A Hero's Moonwalk": {}
+  launch:
+    "<base>/12 Labours of Hercules IX.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/12LaboursOfHercules9.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1026070
+"12 Labours of Hercules V: Kids of Hellas":
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/ZOG/Hercules5CE/**/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<home>/ZOG/Hercules5CE/**/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<winAppData>/ZOG/Hercules5CE/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    12 Labours of Hercules V Kids of Hellas: {}
+  launch:
+    "<base>/12 Labours of Hercules V.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/12LaboursOfHercules5.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Hercules5":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 491330
+"12 Labours of Hercules VI: Race for Olympus":
+  cloud:
+    steam: true
+  files:
+    "<home>/.Saves/ZOG/Hercules6CE":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.Saves/ZOG/Hercules6CE/Settings.sav":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/Library/Application Support/ZOG/Hercules6CE":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/ZOG/Hercules6CE/Settings.sav":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<winAppData>/ZOG/Hercules6CE":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/ZOG/Hercules6CE/Settings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    12 Labours of Hercules VI Race for Olympus: {}
+  launch:
+    "<base>/12 Labours of Hercules VI.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/12LaboursOfHercules6.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Hercules6":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 567800
+"12 Labours of Hercules VII: Fleecing the Fleece":
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/ZOG/Hercules7CE/**/*.sav":
+      when:
+        - store: steam
+    "<home>/ZOG/Hercules7CE/**/*.sav":
+      when:
+        - store: steam
+    "<winAppData>/ZOG/Hercules7CE/**/*.sav":
+      when:
+        - store: steam
+  installDir:
+    12 Labours of Hercules VII Fleecing the Fleece: {}
+  launch:
+    "<base>/12 Labours of Hercules VII.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/12LaboursOfHercules7.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 663210
+"12 Labours of Hercules VIII: How I Met Megara":
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/ZOG/Hercules8CE/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/ZOG/Hercules8CE/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    12 Labours of Hercules VIII: {}
+  launch:
+    "<base>/12 Labours of Hercules VIII.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/12LaboursOfHercules8.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 938310
+12 Orbits:
+  files:
+    "<home>/.config/unity3d/Roman Uhlig/12 orbits":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Preferences/unity.Roman Uhlig.12 orbits.plist":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+  installDir:
+    12 orbits: {}
+  launch:
+    "<base>/12 orbits.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/12 orbits.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/12 orbits.x86":
+      - when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Roman Uhlig/12 orbits:
+      tags:
+        - config
+        - save
+  steam:
+    id: 529950
+123 Slaughter Me Street:
+  installDir:
+    123 Slaughter Me Street: {}
+  launch:
+    "<base>/SMS/123SMS.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/Impulse Game Studios, LLC/123 Slaughter Me Street":
+      tags:
+        - config
+        - save
+  steam:
+    id: 405180
+123 Slaughter Me Street 2:
+  installDir:
+    123 Slaughter Me Street 2: {}
+  launch:
+    "<base>/SMS2/sms2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 551190
+"1248":
+  files:
+    "<home>/AppData/LocalLow/taecg/1248/**/*.json":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/taecg/1248/**/*.json":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    "1248": {}
+  launch:
+    "<base>/1248.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/1248.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 814510
+"12Riven: The Psi-Climinal of Integral":
+  id:
+    lutris: 12riven-the-psi-climinal-of-integral
+13 Cycles:
+  installDir:
+    13 Cycles: {}
+  launch:
+    "<base>/13 Cycles.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 862790
+1348 Ex Voto:
+  cloud:
+    steam: true
+  files:
+    "<base>/P1348/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/P1348/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: 1348-ex-voto
+    steamExtra:
+      - 4008520
+  installDir:
+    "1348": {}
+  launch:
+    "<base>/1348.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1895900
+"140":
+  cloud:
+    steam: true
+  files:
+    "<base>/140.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
+    "<home>/Library/Preferences/unity.JeppeCarlsen.140.plist":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<xdgConfig>/unity3d/JeppeCarlsen/140/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
+  gog:
+    id: 1096313866
+  id:
+    gogExtra:
+      - 1087788668
+  installDir:
+    "140": {}
+  launch:
+    "<base>/140.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/140.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/140Linux.x86":
+      - when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/JeppeCarlsen/140:
+      tags:
+        - config
+  steam:
+    id: 242820
+"1406":
+  installDir:
+    "1406": {}
+  launch:
+    "<base>/1406.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1043350
+"141":
+  files:
+    "<home>/AppData/LocalLow/Tenball/141/<storeUserId>/**/*.txt":
+      when:
+        - store: steam
+  installDir:
+    "141": {}
+  launch:
+    "<base>/141.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1140110
+"1428: Shadows over Silesia":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/KUBI Games/1428/Saves/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "1428": {}
+  launch:
+    "<base>/1428.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1228500
+15 Days:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winDocuments>/15 Days Savegames":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1104118179
+  installDir:
+    15 Days: {}
+  launch:
+    "<base>/Docs/Manual.pdf":
+      - when:
+          - store: steam
+    "<base>/rhc.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/House of Tales/15Days:
+      tags:
+        - config
+  steam:
+    id: 342990
+15 Defense:
+  steam:
+    id: 599090
+15 Seconds:
+  installDir:
+    15 seconds: {}
+  launch:
+    "<base>/15seconds.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 856350
+"150,000 B.C.":
+  steam:
+    id: 864940
+16 Bit Arena:
+  installDir:
+    16 Bit Arena: {}
+  launch:
+    "<base>/run16.bat":
+      - when:
+          - store: steam
+  steam:
+    id: 347630
+"16 Planes:Return":
+  steam:
+    id: 986770
+"1666: Amsterdam":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Amsterdam/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Amsterdam/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: 1666-amsterdam
+    steamExtra:
+      - 4519690
+      - 5101950
+  installDir:
+    1666Amsterdam: {}
+  launch:
+    "<base>/Amsterdam/Binaries/Win64/1666Amsterdam.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Amsterdam/Binaries/Win64"
+  steam:
+    id: 3949550
+16bit Trader:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/375460/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  installDir:
+    16bittrader: {}
+  launch:
+    "<base>/Trader.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Trader.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "--touch"
+        when:
+          - os: windows
+            store: steam
+    "<base>/Trader.x86":
+      - when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Forever Entertainment/16bit Trader:
+      tags:
+        - config
+  steam:
+    id: 375460
+16bit vs Reality:
+  installDir:
+    16BitvsReality: {}
+  steam:
+    id: 1305450
+"171":
+  files:
+    "<winLocalAppData>/BGG/Saved/SaveGames/171Save*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/BGG/Saved/SaveGames/Configuration*.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    "171": {}
+  launch:
+    "<base>/BGG.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1269370
+"1775: Rebellion":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/HexWar Games Ltd/1775/*.save":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/HexWar Games Ltd/1775/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    "1775": {}
+  launch:
+    "<base>/1775.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/1775.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 422610
+18 Floors:
+  installDir:
+    18 Floors: {}
+  steam:
+    id: 855320
+"18 Wheels of Steel: Across America":
+  cloud:
+    gog: true
+  files:
+    "<winDocuments>/18 WoS Across America/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/18 WoS Across America/hw_caps.def":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/18 WoS Across America/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 2006903941
+  id:
+    lutris: 18-wheels-of-steel-across-america
+  installDir:
+    18 Wheels of Steel Across America: {}
+  launch:
+    "<base>/aa.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 514160
+"18 Wheels of Steel: American Long Haul":
+  cloud:
+    gog: true
+  files:
+    "<winDocuments>/18 WoS American Long Haul":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/18 WoS American Long Haul/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 2034202455
+  id:
+    lutris: 18-wheels-of-steel-american-long-haul
+  installDir:
+    18 Wheels of Steel American Long Haul: {}
+  launch:
+    "<base>/alh.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 12520
+"18 Wheels of Steel: Convoy":
+  cloud:
+    gog: true
+  files:
+    "<winDocuments>/18 WoS Convoy":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/18 WoS Convoy/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1377450511
+  id:
+    lutris: 18-wheels-of-steel-convoy
+  installDir:
+    18 Wheels of Steel Convoy: {}
+  launch:
+    "<base>/convoy.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 514170
+"18 Wheels of Steel: Extreme Trucker":
+  cloud:
+    gog: true
+  files:
+    "<winDocuments>/18 WoS Extreme Trucker":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/18 WoS Extreme Trucker/profile*":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1935795441
+  id:
+    lutris: 18-wheels-of-steel-extreme-trucker
+  installDir:
+    18 Wheels of Steel Extreme Trucker: {}
+  launch:
+    "<base>/bin/win_x86/extremetrucker.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 33730
+"18 Wheels of Steel: Extreme Trucker 2":
+  cloud:
+    gog: true
+  files:
+    "<winDocuments>/18 WoS Extreme Trucker 2":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/18 WoS Extreme Trucker 2/profile*":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1775839845
+  id:
+    lutris: 18-wheels-of-steel-extreme-trucker-2
+  installDir:
+    18 WoS Extreme Trucker 2: {}
+  launch:
+    "<base>/bin/win_x86/extremetrucker.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 362780
+"18 Wheels of Steel: Haulin'":
+  files:
+    "<winDocuments>/18 WoS Haulin":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/18 WoS Haulin/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 2126540092
+  id:
+    lutris: 18-wheels-of-steel-haulin
+  installDir:
+    18 Wheels of Steel Haulin: {}
+  launch:
+    "<base>/haulin.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 514180
+"18 Wheels of Steel: Pedal to the Metal":
+  cloud:
+    gog: true
+  files:
+    "<winDocuments>/18 WoS Pedal to the Metal/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/18 WoS Pedal to the Metal/controls.def":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/18 WoS Pedal to the Metal/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1834997665
+  id:
+    lutris: 18-wheels-of-steel-pedal-to-the-metal
+  installDir:
+    18 WoS Pedal to the Metal: {}
+  launch:
+    "<base>/pttm.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 337460
+18+:
+  installDir:
+    18+: {}
+  launch:
+    "<base>/18+.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 877360
+18+ MEMORY:
+  installDir:
+    18+ MEMORY: {}
+  launch:
+    "<base>/18+ MEMORY.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1222470
+"1812: Napoleon Wars":
+  files:
+    "<winLocalAppData>/SavesDir/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    1812 Napoleon Wars: {}
+  launch:
+    "<base>/1812.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1166230
+"1812: Serce Zimy":
+  files:
+    "<winAppData>/1812/user data/profiles":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/1812/user data/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: 1812-heart-of-winter
+"1812: The Invasion of Canada":
+  installDir:
+    1812 The Invasion of Canada: {}
+  launch:
+    "<base>/1812.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/1812.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 555370
+"1849":
+  files:
+    "<winAppData>/com.somasim.fortynine/Local Store":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207664483
+  installDir:
+    "1849": {}
+  launch:
+    "<base>/1849.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/1849.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 290970
+1912 Titanic Mystery:
+  installDir:
+    1912 Titanic Mystery: {}
+  launch:
+    "<base>/Titanic.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1114270
+"1914: Prelude to Chaos":
+  installDir:
+    1914 Prelude to Chaos: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 627950
+"1914: The Great War":
+  files:
+    "<base>/data/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/savegame":
+      tags:
+        - save
+      when:
+        - os: windows
+1917 - The Alien Invasion:
+  id:
+    steamExtra:
+      - 489950
+  installDir:
+    1917 - The Alien Invasion DX: {}
+  launch:
+    "<base>/1917 - The Alien Invasion DX.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 470060
+"1931: Scheherazade at the Library of Pergamum":
+  installDir:
+    Scheherazade: {}
+  launch:
+    "<base>/Scheherazade.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 334850
+"1942: The Henan Famine":
+  installDir:
+    "1942": {}
+  launch:
+    "<base>/1942.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1126280
+"1942: The Pacific Air War":
+  gog:
+    id: 1460222301
+  id:
+    lutris: 1942-the-pacific-air-war
+  installDir:
+    1942 - The Pacific Air War: {}
+  launch:
+    "<base>/1942 - TPAW.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/dosbox_linux/daum/launch_1942_TPAW_game_daum.sh":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/dosbox_linux/daum"
+    "<base>/dosbox_linux/launch_1942_TPAW_config.sh":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/dosbox_linux"
+    "<base>/dosbox_linux/launch_1942_TPAW_game.sh":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/dosbox_linux"
+    "<base>/dosbox_windows/daum/dosbox.exe":
+      - arguments: "-conf dosbox_1942_TPAW.conf -conf dosbox_1942_TPAW_launch_windows.conf -noconsole"
+        when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/dosbox_windows/daum"
+    "<base>/dosbox_windows/dosbox.exe":
+      - arguments: "-conf dosbox_1942_TPAW.conf -conf dosbox_1942_TPAW_launch_windows.conf -noconsole"
+        when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/dosbox_windows"
+      - arguments: "-conf dosbox_1942_TPAW.conf -conf dosbox_1942_TPAW_config_windows.conf -noconsole"
+        when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/dosbox_windows"
+  steam:
+    id: 347230
+1943 Berlin Blitz:
+  installDir:
+    BerlinBlitz_0.07g_Steam: {}
+  launch:
+    "<base>/BerlinBlitz_0.07g_Steam/BerlinBlitz.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 513490
+1943 Deadly Desert:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/HandyGames/com.hg.deadlydesert":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    1943 Deadly Desert: {}
+  launch:
+    "<base>/DeadlyDesert.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 616750
+1943 Megami Strike:
+  id:
+    steamExtra:
+      - 446880
+      - 446882
+      - 451241
+  installDir:
+    1943 Megami Strike: {}
+  launch:
+    "<base>/MS.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 440810
+"1944: Battle of the Bulge":
+  files:
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+1953 - KGB Unleashed:
+  cloud:
+    steam: true
+  files:
+    "<base>/Bin":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    1953 - KGB Unleashed: {}
+  launch:
+    "<base>/Bin/Phobos.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/Bin"
+  steam:
+    id: 248490
+"1953: NATO vs Warsaw Pact":
+  installDir:
+    1953 NATO vs Warsaw Pact: {}
+  launch:
+    "<base>/1953 Setup.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 325470
+1954 Alcatraz:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Daedalic Entertainment/1954 Alcatraz":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Preferences/de.daedalic.alcatraz1.plist":
+      tags:
+        - config
+      when:
+        - os: mac
+  gog:
+    id: 1207661333
+  installDir:
+    1954 Alcatraz: {}
+  launch:
+    "<base>/Alcatraz.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Alcatraz.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Daedalic Entertainment/1954 Alcatraz:
+      tags:
+        - config
+  steam:
+    id: 255280
+1971 Project Helios:
+  cloud:
+    gog: true
+    steam: true
+  gog:
+    id: 1196128708
+  id:
+    lutris: 1971-project-helios
+  installDir:
+    1971 Porject Helios: {}
+  launch:
+    "<base>/1971 Project Helios.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1186630
+"1971: Indian Naval Front":
+  cloud:
+    steam: true
+  installDir:
+    1971  Indian Naval Front: {}
+  launch:
+    "<base>/INF_PC.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 957950
+1979 Invasion Earth:
+  installDir:
+    1979InvasionEarth: {}
+  launch:
+    "<base>/_1979_HD14.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 575880
+"1979 Revolution: Black Friday":
+  files:
+    "<base>/PlayerPrefs.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/N-Fusion Interactive/1979 Revolution/*.xml":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1459441475
+  id:
+    gogExtra:
+      - 1626989378
+    steamExtra:
+      - 473590
+      - 569880
+  installDir:
+    1979 Revolution: {}
+  launch:
+    "<base>/1979Revolution.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/1979Revolution.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 388320
+"1982":
+  installDir:
+    "1982": {}
+  launch:
+    "<base>/1982.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 639650
+1984 Rewired:
+  installDir:
+    1984 Rewired: {}
+  steam:
+    id: 1151580
+198X:
+  cloud:
+    gog: true
+  files:
+    "<home>/AppData/LocalLow/HiBit Studios/198X/playerData.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 2033991040
+  installDir:
+    198X: {}
+  launch:
+    "<base>/198X.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/HiBit Studios/198X:
+      tags:
+        - config
+  steam:
+    id: 1086010
+1993 Space Machine:
+  files:
+    "<home>/AppData/LocalLow/Limit Break/1993 Shenandoah/save_slot_*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    1993 Space Machine: {}
+  launch:
+    "<base>/1993 Shenandoah.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/1993Spacemachine.x86_64":
+      - arguments: "-force-opengl"
+        when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/SpaceMachine_Mac_FinalBuild.app/Contents/MacOS/SpaceMachine_Mac_FinalBuild":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/spacemachine.x86":
+      - arguments: "-force-opengl"
+        when:
+          - bit: 32
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Limit Break/1993 Shenandoah:
+      tags:
+        - config
+  steam:
+    id: 373480
+199X:
+  id:
+    steamExtra:
+      - 355290
+  installDir:
+    199X: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 355270
+1BIT CASTLE:
+  id:
+    steamExtra:
+      - 1158780
+  installDir:
+    1BIT CASTLE: {}
+  launch:
+    "<base>/1BIT CASTLE.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1158770
+1Dimensional Desperado:
+  cloud:
+    steam: true
+  steam:
+    id: 668620
+1Heart:
+  files:
+    "<winAppData>/1Heart":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: 1heart
+  installDir:
+    1Heart: {}
+  launch:
+    "<base>/1Heart.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 270190
+1Quest:
+  files:
+    "<winAppData>/fr.ratzngodz.1Quest":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    1Quest: {}
+  launch:
+    "<base>/1Quest.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 332710
+1bitHeart:
+  files:
+    "<base>/Save/SaveData*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Save/System.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: 1bitheart
+    steamExtra:
+      - 689920
+  installDir:
+    1bitHeart: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 618720
+"1vs1: Battle Royale for the throne":
+  files:
+    "<base>/package.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/www/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    1vs1 Battle Royale for the throne: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1045930
+"1½ Ritter: Auf der Suche nach der hinreißenden Herzelinde":
+  files:
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/WarnerBros/AnderthalbRitter:
+      tags:
+        - config
+2 Ninjas 1 Cup:
+  installDir:
+    2 Ninjas 1 Cup: {}
+  launch:
+    "<base>/2N1C.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/run.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 576810
+2 Planets Fire and Ice:
+  installDir:
+    2 Planets Fire and Ice: {}
+  launch:
+    "<base>/2planets.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 657110
+2 Volt:
+  cloud:
+    steam: true
+  installDir:
+    2Volt: {}
+  launch:
+    "<base>/2Volt.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/2Volt.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2388880
+2-in-1 Fluid Intelligence:
+  cloud:
+    steam: true
+  files:
+    "<base>/temp/Default/Local Storage/leveldb/**/*.log":
+      when:
+        - store: steam
+  installDir:
+    2-in-1 Fluid Intelligence: {}
+  launch:
+    "<base>/IQScale21":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/IQScale21.app/Contents/MacOS/nwjs":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/IQScale21.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 757950
+20 Minutes till Dawn:
+  files:
+    "<home>/AppData/LocalLow/Flanne/MinutesTillDawn/*.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/com.Flanne.MinutesTillDawn/gamedata.json":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Preferences/com.Flanne.MinutesTillDawn.plist":
+      tags:
+        - config
+      when:
+        - os: mac
+  id:
+    lutris: 20-minutes-till-dawn
+    steamExtra:
+      - 1980790
+  installDir:
+    20MinuteTillDawn: {}
+  launch:
+    "<base>/20MinutesTillDawn.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/MinutesTillDawn.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1966900
+20 Small Mazes:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/20 Small Mazes":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    20 Small Mazes: {}
+  launch:
+    "<base>/20SM.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2570630
+20.000 Leagues Under the Sea - Captain Nemo:
+  installDir:
+    20.000 Leagues Under The Sea - Captain Nemo: {}
+  launch:
+    "<base>/20000Leagues.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 821720
+200% Mixed Juice!:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/Fruitbat Factory/200% Mixed Juice!":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    200 Mixed Juice!: {}
+  launch:
+    "<base>/200MJ.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 335190
+"2000:1: A Space Felony":
+  files:
+    "<winLocalAppData>/a20001ASpaceFelony/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/a20001ASpaceFelony/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+2014.Aftermath:
+  installDir:
+    2104.Aftermath: {}
+  launch:
+    "<base>/Aftemath.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1032210
+2017 VR:
+  installDir:
+    2017 VR: {}
+  steam:
+    id: 575600
+"2048":
+  cloud:
+    steam: true
+  files:
+    "<base>/userdata/Default/Local Storage":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+  installDir:
+    "2048": {}
+  launch:
+    "<base>/2048":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/2048.app/Contents/MacOS/nwjs":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/2048.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 942050
+2048 (2019):
+  steam:
+    id: 1026330
+"2064: Read Only Memories":
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<home>/.config/unity3d/MidBoss/Read Only Memories/Saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/MidBoss/2064_ Read Only Memories":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/MidBoss/2064_ Read Only Memories/Core_Memory.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1444027604
+  id:
+    gogExtra:
+      - 1444027762
+    steamExtra:
+      - 406520
+      - 406521
+  installDir:
+    Read Only Memories: {}
+  launch:
+    "<base>/ROM.app/Contents/MacOS/ROM":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ROM.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ROM.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/ROM.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/MidBoss/2064: Read Only Memories":
+      tags:
+        - config
+  steam:
+    id: 330820
+"2084":
+  installDir:
+    "2084": {}
+  launch:
+    "<base>/VShooter.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 987850
+20XX:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<winDocuments>/20XX":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/20XX/20XXv096.opt":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    20XX: {}
+  launch:
+    "<base>/20XX.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 322110
+20something:
+  installDir:
+    20something: {}
+  launch:
+    "<base>/20something":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/20something.app/Contents/MacOS/20something":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/20something.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 582840
+"21":
+  id:
+    steamExtra:
+      - 938540
+  installDir:
+    "21": {}
+  launch:
+    "<base>/21.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 938520
+21 Days:
+  installDir:
+    21 Days: {}
+  launch:
+    "<base>/21Days.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/21Days.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 607660
+21 Steps to Soul:
+  installDir:
+    21 Steps to Soul: {}
+  launch:
+    "<base>/21.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 544820
+21+:
+  id:
+    steamExtra:
+      - 920730
+  installDir:
+    21+: {}
+  launch:
+    "<base>/21+.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 904990
+"2100":
+  installDir:
+    "2100": {}
+  launch:
+    "<base>/2100.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1018090
+"222":
+  installDir:
+    "222": {}
+  launch:
+    "<base>/222.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1028160
+222 Hearts:
+  cloud:
+    steam: true
+  files:
+    "<base>/game.sav":
+      when:
+        - store: steam
+  installDir:
+    222 Hearts: {}
+  launch:
+    "<base>/222Hearts.app/Contents/MacOS/222Hearts":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/222Hearts.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/222Hearts.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/222Hearts.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 729570
+2236 A.D.:
+  files:
+    "<home>/AppData/LocalLow/Chloro/2236 A.D. -Universal Edition-/Utage/Save2236/*.*":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: 2236-ad
+  installDir:
+    2236 A.D. Universal Edition: {}
+  launch:
+    "<base>/2236 A.D. -Universal Edition-.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/2236 A.D. -Universal Edition-.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 800820
+2260 VR:
+  installDir:
+    sanctuary: {}
+  steam:
+    id: 835720
+24 Hours:
+  steam:
+    id: 485580
+"24 Hours 'til Rescue":
+  id:
+    steamExtra:
+      - 447300
+  installDir:
+    "24 Hours 'til Rescue": {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 444420
+24 Killers:
+  files:
+    "<home>/24Killers/**/24k_foam.sol":
+      when:
+        - os: linux
+          store: steam
+    "<winAppData>/24Killers/**/24k_foam.sol":
+      when:
+        - store: steam
+  installDir:
+    24 Killers: {}
+  launch:
+    "<base>/24 Killers.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1668310
+25 Cadre of Death:
+  files:
+    "<base>/TheSin/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/TheSin/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    IGS: {}
+  launch:
+    "<base>/25CadreofDeath.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 904860
+25 to Life:
+  files:
+    "<winDocuments>/25 to life/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/25 to life/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+28 Waves Later:
+  steam:
+    id: 444290
+"29":
+  alias: No Longer Home
+2D Mahjong Temple:
+  installDir:
+    2D Mahjong Temple: {}
+  launch:
+    "<base>/dat/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 685770
+2D Neon Cube:
+  installDir:
+    2D Neon Cube: {}
+  steam:
+    id: 701720
+2D Paintball:
+  installDir:
+    2D Paintball: {}
+  launch:
+    "<base>/2dpball.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 696880
+2D Zombie Survival:
+  steam:
+    id: 1027100
+2DGameManias Taken:
+  installDir:
+    2DGameManias Taken: {}
+  launch:
+    "<base>/taken.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 822550
+2Dark:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/GloomyWood/2Dark/.monkeystate":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    2Dark: {}
+  launch:
+    "<base>/2Dark.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 435100
+2MD VR Football:
+  installDir:
+    2MD VR Football: {}
+  steam:
+    id: 674850
+2URVIVE:
+  installDir:
+    2URVIVE: {}
+  launch:
+    "<base>/2URVIVE.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 603450
+2V Hoverbike:
+  installDir:
+    2V Hoverbike: {}
+  launch:
+    "<base>/2VHoverbike.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/2v Hoverbike.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 665650
+2XKO:
+  files:
+    "<winLocalAppData>/Lion/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+2XL Supercross:
+  installDir:
+    2XL Supercross: {}
+  launch:
+    "<base>/2XL_Supercross.exe":
+      - when:
+          - store: steam
+    "<base>/config.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 44000
+2nd Circle - Powerful Places:
+  installDir:
+    2nd Circle - Powerful Places: {}
+  launch:
+    "<base>/2ndCircle/2ndCircle.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 936510
+2nd Eve:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/ZolaUnreal/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    2nd Eve: {}
+  launch:
+    "<base>/secondEve.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3516780
+"3 Blind Mice: A Remediation Game for Improper Children":
+  installDir:
+    3 BLIND MICE A REMEDIATION GAME FOR IMPROPER CHILDREN: {}
+  launch:
+    "<base>/3BlindMice.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1182040
+3 Coins at School:
+  files:
+    "<base>/Options.3cs":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    3 Coins At School: {}
+  launch:
+    "<base>/3 Coins at School.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 462110
+3 Days in the Abyss:
+  installDir:
+    3 Days in the Abyss: {}
+  launch:
+    "<base>/III Days in the Abyss.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 970180
+"3 Days: Zoo Mystery":
+  installDir:
+    3 days Zoo Mystery: {}
+  launch:
+    "<base>/3DayszooMystery_en.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 573650
+3 GEEKS:
+  installDir:
+    3GEEKS: {}
+  launch:
+    "<base>/3GEEKS-Adventure.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1023410
+3 Minutes to Midnight:
+  cloud:
+    gog: true
+    steam: true
+  gog:
+    id: 1471388865
+  id:
+    gogExtra:
+      - 1247122731
+      - 1265466670
+      - 1476949928
+      - 1554179859
+      - 1696956533
+      - 1842284942
+      - 1890913930
+      - 2112231153
+      - 2145089994
+    lutris: 3-minutes-to-midnight-a-comedy-graphic-adventure
+    steamExtra:
+      - 3165220
+      - 3209810
+  installDir:
+    3 Minutes to Midnight: {}
+  launch:
+    "<base>/3 minutes to midnight.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/3 minutes to midnight.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/3 minutes to midnight.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 832500
+3 Stars of Destiny:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/3Stars/*.ini":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/3Stars/*.rxdata":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 366730
+  installDir:
+    3 Stars of Destiny: {}
+  launch:
+    "<base>/3Stars.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 278530
+3 on 3 Super Robot Hockey:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/London Sports Game Studios/3 on 3 Super Robot Hockey/<storeUserId>/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    3 on 3 Super Robot Hockey: {}
+  launch:
+    "<base>/3 on 3 Super Robot Hockey.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 988080
+3 out of 10:
+  files:
+    "<winLocalAppData>/ThreeTen/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/ThreeTen/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+"3, 2, 1, Survive!":
+  installDir:
+    "3, 2, 1, SURVIVE !": {}
+  launch:
+    "<base>/321Survive.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 864190
+3-D Ultra Minigolf:
+  files:
+    "<base>/SCORES.BST":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/minigolf.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+"3-D Ultra Pinball: Thrillride":
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Sierra On-Line/3D Ultra Pinball Thrillride/Settings:
+      tags:
+        - config
+3-in-1 Bundle Brain Trainings:
+  cloud:
+    steam: true
+  files:
+    "<base>/temp/Default/Local Storage/leveldb/**/*.log":
+      when:
+        - store: steam
+  installDir:
+    3-in-1 Bundle Brain Trainings: {}
+  launch:
+    "<base>/IQScale31":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/IQScale31.app/Contents/MacOS/nwjs":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/IQScale31.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 743400
+3..2..1..Grenades!:
+  installDir:
+    321Grenades: {}
+  launch:
+    "<base>/321Grenades.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 504090
+30 Days to Survive:
+  installDir:
+    30 days to survive: {}
+  steam:
+    id: 645270
+30 Impossible Levels:
+  steam:
+    id: 459910
+30 Minutes to Extinction:
+  installDir:
+    30MTE: {}
+  launch:
+    "<base>/ThirtyMinutes.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 724120
+30 Seconds to Jail:
+  installDir:
+    30 seconds to jail: {}
+  launch:
+    "<base>/30STJ.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/30STJ.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 817770
+30 days to Defence:
+  steam:
+    id: 1152500
+300 Dwarves:
+  installDir:
+    300 Dwarves: {}
+  launch:
+    "<base>/300 Dwarves.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/300Dwarves.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 301730
+3000th Duel:
+  files:
+    "<home>/AppData/LocalLow/NeoPopcorn/3000th Duel/<storeUserId>/*.sav":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/NeoPopcorn/3000th Duel/<storeUserId>/lastsave.dat":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/NeoPopcorn/3000th Duel/<storeUserId>/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/NeoPopcorn/3000th Duel/<storeUserId>/lastsave.dat":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    3000th Duel: {}
+  launch:
+    "<base>/3000th Duel.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/3000th Duel.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1098080
+"303 Squadron: Battle of Britain":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Squadron303/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Squadron303/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    303 Squadron: {}
+  launch:
+    "<base>/Squadron303.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 675170
+3030 Deathwar Redux:
+  cloud:
+    steam: true
+  files:
+    "<base>/data/settings.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/save/*.3030":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    3030 Deathwar Redux: {}
+  launch:
+    "<base>/3030 Deathwar.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 464360
+"3079":
+  files:
+    "<home>/3079Saves":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+        - os: mac
+        - os: linux
+  installDir:
+    "3079": {}
+  launch:
+    "<base>/3079.bat":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/3079.sh":
+      - when:
+          - os: mac
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 259620
+"3089":
+  files:
+    "<home>/3089":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+        - os: mac
+        - os: linux
+  installDir:
+    "3089": {}
+  launch:
+    "<base>/3089.bat":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/3089.sh":
+      - when:
+          - os: mac
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 263360
+30XX:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/30XX":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    30XX: {}
+  launch:
+    "<base>/30XX.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1029210
+"30km survival zone: Chernobyl":
+  steam:
+    id: 1158590
+30th Century Post Office:
+  installDir:
+    30th Century Post Office: {}
+  steam:
+    id: 626500
+33 Immortals:
+  cloud:
+    epic: true
+  installDir:
+    33Immortals: {}
+  launch:
+    "<base>/33Immortals.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 958520
+33 Rounds:
+  installDir:
+    33 Rounds: {}
+  launch:
+    "<base>/33 Rounds.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1194620
+"3564500":
+  installDir:
+    Team Fortress 2 Classified: {}
+  launch:
+    "<base>/tf2classified.sh":
+      - arguments: "-steam"
+        when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/tf2classified_win64.exe":
+      - arguments: "-steam"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3545060
+3571 The Game:
+  installDir:
+    3571 The Game: {}
+  launch:
+    "<base>/3571 The Game.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/3571 The Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 723020
+35MM:
+  id:
+    steamExtra:
+      - 486210
+  installDir:
+    35MM: {}
+  launch:
+    "<base>/35MM.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/NSS/35MM:
+      tags:
+        - config
+        - save
+  steam:
+    id: 466500
+36 Fragments of Midnight:
+  installDir:
+    36 Fragments of Midnight: {}
+  launch:
+    "<base>/36FoM.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/36FoM.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/36FoM.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 679930
+36 apples:
+  installDir:
+    36 apples: {}
+  launch:
+    "<base>/36 apples.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1202480
+360 No Scope Arena:
+  installDir:
+    360 No Scope Arena: {}
+  launch:
+    "<base>/360NoScopeArena.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 883100
+360 No Scope!:
+  installDir:
+    360 No Scope!: {}
+  launch:
+    "<base>/360NoScope.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 859050
+365 Days:
+  installDir:
+    365 Days: {}
+  launch:
+    "<base>/365 Days.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Mac.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/game.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/game.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 576390
+38 Man Kilo No Kokuu:
+  id:
+    lutris: 38-man-kilo-no-kokuu-file-1-a-day-in-the-life-of-2049
+39 Days to Mars:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/It's Anecdotal/39 Days to Mars/*.39d":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/It's Anecdotal/39 Days to Mars/*.39d":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.ItsAnecdotal.39DaystoMars/*.39d":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    39 Days to Mars: {}
+  launch:
+    "<base>/39 Days to Mars.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/39 Days to Mars.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/39 Days to Mars.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/39 Days to Mars.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 504920
+3Buttons:
+  installDir:
+    3Buttons: {}
+  launch:
+    "<base>/3Buttons-Mac_OS_X.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/3Buttons-Windows_x86.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/3Buttons-Windows_x86_64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/3Buttons.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/3Buttons.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 943960
+3C Wonderland Coaster:
+  installDir:
+    3C Wonderland Coaster: {}
+  steam:
+    id: 953560
+3D Arcade Fishing:
+  files:
+    "<home>/AppData/LocalLow/bumblebee/Arcade Fishing/**/*.*":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/bumblebee/Arcade Fishing/**/*.*":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Arcade Fishing: {}
+  launch:
+    "<base>/Fishing.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Fishing.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Fishing.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Fishing.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 534910
+3D Body Adventure:
+  installDir:
+    3D Body Adventure: {}
+  launch:
+    "<base>/DOSBOX/dosbox.exe":
+      - arguments: "-conf zoom_3dbody.conf -noconsole -exit"
+        when:
+          - os: windows
+            store: steam
+    "<base>/DOSBox/dosbox":
+      - arguments: "-conf zoom_3dbody.conf -noconsole -exit"
+        when:
+          - os: linux
+            store: steam
+    "<base>/launch.sh":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 4395360
+3D Brick Blaster Unlimited:
+  files:
+    "<base>/temporary/saves":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+3D Bridges:
+  installDir:
+    3d Bridges: {}
+  launch:
+    "<base>/3dBridges.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 358700
+3D Chess:
+  files:
+    "<home>/AppData/LocalLow/bumblebee/3D Schach/**/*.*":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/bumblebee/3D Schach/**/*.*":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    3D Super Chess: {}
+  launch:
+    "<base>/3DSuperChess.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/3DSuperChess.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/3DSuperChess.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/3DSuperChess.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 535700
+3D Cube Hopper:
+  files:
+    "<base>/3DCube.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+3D Custom Lady Maker:
+  cloud:
+    steam: true
+  files:
+    "<base>/3DCustomLadyMaker_Data/save/*.chr":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 1065140
+  installDir:
+    3DCustomLadyMaker: {}
+  launch:
+    "<base>/3DCustomLadyMaker.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 985760
+3D Dinosaur Adventure:
+  installDir:
+    3D Dinosaur Adventure: {}
+  launch:
+    "<base>/DOSBOX/dosbox.exe":
+      - arguments: "-conf zoom_3ddino.conf -noconsole -exit"
+        when:
+          - os: windows
+            store: steam
+    "<base>/DOSBox/dosbox":
+      - arguments: "-conf zoom_3ddino.conf -noconsole -exit"
+        when:
+          - os: linux
+            store: steam
+    "<base>/launch.sh":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 4395370
+3D Engineers:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    3d Engineers: {}
+  launch:
+    "<base>/Start.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 345030
+3D Gravity Rocket:
+  id:
+    lutris: 3d-gravity-rocket
+  installDir:
+    3D Gravity Rocket: {}
+  launch:
+    "<base>/3D Gravity Rocket.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 870020
+3D Hardcore Cube:
+  installDir:
+    3D Hardcore Cube: {}
+  steam:
+    id: 691080
+3D Hardcore Cube 2:
+  installDir:
+    3D Hardcore Cube 2: {}
+  steam:
+    id: 754510
+3D Hentai Memory Game:
+  steam:
+    id: 988370
+3D Infocom Game 1 Part 2:
+  alias: 3D Text Adventure 2
+3D Instructor:
+  files:
+    "<base>/data/config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Multisoft/PDD/profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+3D MiniGolf:
+  installDir:
+    3D Mini Golf: {}
+  launch:
+    "<base>/minigolf2015.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/minigolf2015.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 362830
+3D Paraglider:
+  installDir:
+    3D Paraglider: {}
+  launch:
+    "<base>/3dparaglider.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/3dparaglider.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/3dparaglider.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+  steam:
+    id: 367990
+3D Pinball Hentai:
+  installDir:
+    3D Pinball Hentai: {}
+  launch:
+    "<base>/Pinball.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 979910
+3D Pinball for Windows - Space Cadet:
+  id:
+    lutris: 3d-pinball-space-cadet
+  registry:
+    HKEY_CURRENT_USER/Software/Microsoft/Plus!/Pinball:
+      tags:
+        - config
+3D Pool:
+  installDir:
+    3D Pool: {}
+  launch:
+    "<base>/3D-Pool.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 492160
+3D Text Adventure 2:
+  steam:
+    id: 1154540
+3D Tower:
+  steam:
+    id: 745670
+3D Ultra Minigolf Adventures:
+  installDir:
+    3D Ultra Mini Golf Adventures: {}
+  launch:
+    "<base>/MGA.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 10140
+3D Visual Novel Maker:
+  id:
+    steamExtra:
+      - 1165410
+      - 1171500
+  installDir:
+    3D Visual Novel Maker: {}
+  launch:
+    "<base>/3D Visual Novel Maker.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1153590
+3DRPG:
+  files:
+    "<home>/AppData/LocalLow/Doomster Entertainment/3DRPG/*.de":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    3DRPG: {}
+  launch:
+    "<base>/3DRPG.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 431840
+3Gun Nation VR:
+  installDir:
+    3Gun Nation VR: {}
+  steam:
+    id: 1006700
+3SwitcheD:
+  cloud:
+    steam: true
+  installDir:
+    3SwitcheD: {}
+  launch:
+    "<base>/3SwitcheD.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/3SwitcheD.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/RunGame":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 206610
+3dSen PC:
+  files:
+    "<home>/AppData/LocalLow/Geod Studio/3dSen":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    3dSen: {}
+  launch:
+    "<base>/3dSen.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/3dSen.exe":
+      - when:
+          - os: windows
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 1147940
+3dSen VR:
+  files:
+    "<home>/AppData/LocalLow/Geod Studio/3dSenVR":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Geod Studio/3dSenVR/sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    3dSenVR: {}
+  steam:
+    id: 954280
+3dSenVR:
+  alias: 3dSen VR
+3on3 FreeStyle:
+  installDir:
+    3on3 FreeStyle: {}
+  launch:
+    "<base>/LauncherSteam.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 624910
+"3on3 FreeStyle: Rebound":
+  id:
+    steamExtra:
+      - 1316880
+      - 1418660
+      - 1493080
+      - 1496730
+      - 1496731
+      - 1561580
+      - 1574230
+      - 1648640
+      - 1648641
+      - 1700060
+      - 1739810
+      - 1746090
+      - 1799430
+      - 1801840
+      - 1824860
+      - 1824870
+      - 1824890
+      - 1849130
+      - 1849140
+      - 1881730
+      - 1881740
+      - 1931580
+      - 1931590
+      - 1986160
+      - 1986161
+      - 2023930
+      - 2023931
+      - 2074720
+      - 2099970
+      - 2099971
+  installDir:
+    3on3 FreeStyle Rebound: {}
+  launch:
+    "<base>/DoubleClutch.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1292630
+3rd Invasion - Zombies vs. Steel:
+  installDir:
+    3rd Invasion - Zombies vs. Steel: {}
+  launch:
+    "<base>/3rdInvasion/3rd Invasion - Zombies vs Steel.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1016100
+3rd eye:
+  installDir:
+    3rd eye: {}
+  launch:
+    "<base>/3rdeye.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/3rdeye.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1131900
+3x3 mini-Shogi:
+  files:
+    "<base>/.wlr.db":
+      when:
+        - os: windows
+          store: steam
+    "<base>/ctl.bin":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    miniShogi: {}
+  launch:
+    "<base>/mini-Shogi.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1056660
+3x64:
+  installDir:
+    3x64: {}
+  launch:
+    "<base>/3x64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/3x64.x86_64":
+      - arguments: +x
+        when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/build.app/Contents/MacOS/3x64":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1129690
+4 Alice Magical Autistic Girls:
+  cloud:
+    steam: true
+  files:
+    "<home>/.renpy/MagicalAutisticGirls/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/RenPy/MagicalAutisticGirls/*.save":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/RenPy/MagicalAutisticGirls/*.save":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: 4-alice-magical-autistic-girls
+    steamExtra:
+      - 1794110
+      - 1798450
+      - 1799920
+      - 1799921
+      - 1800450
+  installDir:
+    4 Alice Magical Autistic Girls: {}
+  launch:
+    "<base>/MagicalAutisticGirls/MagicalAutisticGirls-32.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/MagicalAutisticGirls/MagicalAutisticGirls.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/MagicalAutisticGirls/MagicalAutisticGirls.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/MagicalAutisticGirls/MagicalAutisticGirls.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1684120
+"4 Alice: Lorange Journey":
+  cloud:
+    steam: true
+  files:
+    "<base>/Saves/**/*.save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    4 Alice Lorange Journey: {}
+  launch:
+    "<base>/4Alice.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 761160
+"4 Classes, Many Paths":
+  installDir:
+    RuneChild: {}
+  launch:
+    "<base>/4Era - RuneChild.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1078610
+4 Elements:
+  files:
+    "<winProgramData>/Playrix Entertainment/4 Elements/GameInfo.xml":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    4 Elements: {}
+  launch:
+    "<base>/4 Elements.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 47000
+4 Elements II:
+  files:
+    "<winLocalAppData>/Packages/Microsoft.4Elements2_8wekyb3d8bbwe/RoamingState":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/Microsoft.4Elements2_8wekyb3d8bbwe/Settings/settings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+4 for the Money:
+  installDir:
+    4 for the Money Demo: {}
+  launch:
+    "<base>/4 for the Money Demo.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 772160
+4-in-1 IQ Scale Bundle:
+  cloud:
+    steam: true
+  files:
+    "<base>/temp/Default/Local Storage/leveldb/**/*.log":
+      when:
+        - store: steam
+  installDir:
+    4-in-1 IQ Scale Bundle: {}
+  launch:
+    "<base>/IQScale41":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/IQScale41.app/Contents/MacOS/nwjs":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/IQScale41.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 751750
+40 Days:
+  files:
+    "<base>/Data/*.data":
+      when:
+        - store: steam
+  installDir:
+    40 Days: {}
+  launch:
+    "<base>/40D.app/Contents/MacOS/40D":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/40D.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 737600
+40 Winks:
+  files:
+    "<base>/memcard/Mcd*.mcr":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1760158980
+  installDir:
+    40 Winks: {}
+  launch:
+    "<base>/40 winks.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 778080
+4004-022:
+  installDir:
+    4004-022: {}
+  launch:
+    "<base>/4004-022.app/Contents/MacOS/4004-022":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/4004-022.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1065670
+404Sight:
+  files:
+    "<winLocalAppData>/404Sight/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/404Sight/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    404Sight: {}
+  launch:
+    "<base>/404Sight.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 361630
+"4089: Ghost Within":
+  installDir:
+    "4089": {}
+  launch:
+    "<base>/4089-novr.bat":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/4089.sh":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/launchme.sh":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 329770
+420 Button Clicker:
+  installDir:
+    420 Button Clicker: {}
+  launch:
+    "<base>/Sunshine.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1026180
+420BlazeIt 2:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Normal Wholesome Games/420BLAZEIT2/Saves":
+      when:
+        - store: steam
+  installDir:
+    "420BLAZEIT2 GAME OF THE YEAR -=Dank Dreams and Goated Memes=- [#wow11 Like and Subscribe] Poggerz Edition": {}
+  launch:
+    "<base>/420BLAZEIT2.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2624280
+"428: Shibuya Scramble":
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/648580/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winDocuments>/My Games/428 Shibuya Scramble":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: 428-shibuya-scramble
+    steamExtra:
+      - 648590
+  installDir:
+    428_shibuya_scramble_en: {}
+  launch:
+    "<base>/428 Shibuya Scramble.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 648580
+"4:LOOP":
+  steam:
+    id: 3355360
+4D Minesweeper:
+  cloud:
+    steam: true
+  files:
+    "<home>/.godot/app_userdata/4D Minesweeper":
+      when:
+        - os: mac
+          store: steam
+        - os: linux
+          store: steam
+    "<home>/.local/share/godot/app_userdata/4D Minesweeper":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Godot/app_userdata/4D Minesweeper":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Godot/app_userdata/4D Minesweeper":
+      when:
+        - store: steam
+  installDir:
+    4D Minesweeper: {}
+  launch:
+    "<base>/4D Minesweeper 64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/4D Minesweeper.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/4D Minesweeper.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/4D Minesweeper.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/4D Minesweeper.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 787980
+4D Toys:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/mtbdesignworks/4dtoys/.prefs/options.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/mtbdesignworks/4dtoys/.prefs/progress.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    4DToys: {}
+  launch:
+    "<base>/4DToys.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 619210
+4DSnake:
+  cloud:
+    steam: true
+  installDir:
+    4DSnake: {}
+  launch:
+    "<base>/4DSnake.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Kick":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1031580
+4K Bricks Breaker Plus:
+  cloud:
+    steam: true
+  installDir:
+    4K Bricks Breaker Plus: {}
+  launch:
+    "<base>/4kbbp.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1114660
+4PM:
+  installDir:
+    4PM: {}
+  launch:
+    "<base>/4PM.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/4PM.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 281840
+4Team:
+  cloud:
+    steam: true
+  installDir:
+    4Team: {}
+  launch:
+    "<base>/4Team.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/4Team.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/4Team.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 534320
+4X Space Time Shipyard:
+  installDir:
+    Space Time Shipyard: {}
+  launch:
+    "<base>/Cartographer.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 752240
+4X4 OFF-ROAD CHALLENGE:
+  installDir:
+    4x4 OFF-ROAD CHALLENGE: {}
+  launch:
+    "<base>/4x4 Off-Rd. Challenge.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1200140
+4islands:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/The4Islands/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    4islands: {}
+  launch:
+    "<base>/The4Islands.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1167760
+4th & Inches:
+  gog:
+    id: 1867297613
+  id:
+    lutris: 4th-and-inches
+  installDir:
+    4th & Inches: {}
+  steam:
+    id: 1544720
+4th Super Industrial Revolution Wars:
+  steam:
+    id: 1190350
+4th of July VR:
+  installDir:
+    4th of July VR: {}
+  steam:
+    id: 666780
+4x4 Dream Race:
+  installDir:
+    4x4 Dream Race: {}
+  launch:
+    "<base>/BIN/DGLauncher.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/BIN"
+  steam:
+    id: 313330
+4x4 Evo:
+  files:
+    "<base>/SYSTEM/metal.ini":
+      tags:
+        - save
+      when:
+        - os: windows
+4x4 Evo 2:
+  files:
+    "<base>/SYSTEM":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/SYSTEM/metal.ini":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: 4x4-evo-2
+4x4 Hummer:
+  files:
+    "<base>/Data/*.scr":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Data/profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: 4x4-hummer
+  installDir:
+    4x4 Hummer: {}
+  launch:
+    "<base>/Hummer.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 46210
+4x4 Offroad Racing - Nitro:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/4x4 Offroad Racing Nitro":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    4x4 Offroad Racing Nitro: {}
+  launch:
+    "<base>/4x4 Offroad Racing Nitro.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 537170
+4x4 Road Race:
+  installDir:
+    4x4RoadRace: {}
+  launch:
+    "<base>/4x4RoadRace.app/Contents/MacOS/4x4RoadRace":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/4x4RoadRace.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/4x4RoadRace.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/4x4RoadRace.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 587770
+5 Days a Stranger:
+  files:
+    "<base>/acsetup.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/agssave.*":
+      tags:
+        - save
+      when:
+        - os: windows
+5 Minutes Rage:
+  installDir:
+    5 Minutes Rage: {}
+  launch:
+    "<base>/FiveMinutesRage/Binaries/Win32/FiveMinutesRage-Win32-Shipping.exe":
+      - arguments: "-installed"
+        when:
+          - os: windows
+            store: steam
+      - arguments: "-installed -windowed -ResX=1280 -ResY=720"
+        when:
+          - os: windows
+            store: steam
+    "<base>/open_user_data_folder.cmd":
+      - when:
+          - store: steam
+  steam:
+    id: 416700
+5 Star Hawaii Resort - Your Resort:
+  installDir:
+    Hawaii Resort: {}
+  launch:
+    "<base>/Hawaii Resort.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 799080
+5 Star Miami Resort:
+  installDir:
+    MiamiResort: {}
+  launch:
+    "<base>/MiamiResort.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 952230
+5 Star Rio Resort:
+  installDir:
+    5 Star Rio Ressort: {}
+  launch:
+    "<base>/RioResort.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 636050
+5-in-1 Bundle Brain Trainings:
+  cloud:
+    steam: true
+  files:
+    "<base>/temp/Default/Local Storage/leveldb/**/*.log":
+      when:
+        - store: steam
+  installDir:
+    5-in-1 Bundle Brain Trainings: {}
+  launch:
+    "<base>/IQScale51":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/IQScale51.app/Contents/MacOS/nwjs":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/IQScale51.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 715710
+"5-in-1 Pack - Monument Builders: Destination USA":
+  installDir:
+    5-in-1 Pack - Monument Builders Destination USA: {}
+  launch:
+    "<base>/menu.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 564340
+"5.0":
+  installDir:
+    "5.0": {}
+  launch:
+    "<base>/5.0.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1132070
+5.84 Wing:
+  installDir:
+    5.84 Wing: {}
+  launch:
+    "<base>/5.84 Wing.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1019060
+50 Years:
+  installDir:
+    50 Years: {}
+  launch:
+    "<base>/50years.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 516460
+50 Years (Aleksandr Golovkin):
+  files:
+    "<winLocalAppData>/_50years/YEAR50.TXT":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    50 years: {}
+  launch:
+    "<base>/50years.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 502740
+500 Caliber Contractz:
+  files:
+    "<home>/AppData/LocalLow/Bryce Bucher/500 Caliber Contractz":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Bryce Bucher/500 Caliber Contractz/optionsData*.es3":
+      tags:
+        - config
+      when:
+        - os: windows
+  steam:
+    id: 2571410
+500 Years Act 1:
+  installDir:
+    500Years: {}
+  launch:
+    "<base>/500Years.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 357200
+"5089":
+  cloud:
+    steam: true
+  files:
+    "<home>/5089":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    "5089": {}
+  launch:
+    "<base>/5089-novr.bat":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/5089.sh":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/launchme.sh":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 414510
+5D Chess With Multiverse Time Travel:
+  files:
+    "<winAppData>/Thunkspace/5dchesswithmultiversetimetravel/settings_and_progress.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgData>/Thunkspace/5dchesswithmultiversetimetravel/settings_and_progress.txt":
+      tags:
+        - config
+      when:
+        - os: linux
+  id:
+    lutris: 5d-chess-with-multiverse-time-travel
+  installDir:
+    5dchesswithmultiversetimetravel: {}
+  launch:
+    "<base>/5D Chess.app/Contents/MacOS/5dchesswithmultiversetimetravel":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/5dchesswithmultiversetimetravel":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/5dchesswithmultiversetimetravel.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1349230
+5Leaps (Space Tower Defense):
+  files:
+    "<base>/Save/*.txt":
+      when:
+        - store: steam
+  installDir:
+    5Leaps (Space Tower Defense): {}
+  launch:
+    "<base>/5Leaps.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1059420
+5Rings:
+  installDir:
+    5Rings: {}
+  launch:
+    "<base>/5Rings.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 790610
+6 Nights:
+  installDir:
+    6 Nights: {}
+  launch:
+    "<base>/Nights.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 381000
+6 Seasons and a Game:
+  installDir:
+    6SeasonsAndAGame: {}
+  launch:
+    "<base>/LyraGame.exe":
+      - when:
+          - store: steam
+    "<base>/LyraGame.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 1460830
+6-in-1 IQ Scale Bundle:
+  files:
+    "<base>/temp/Default/Local Storage/leveldb/**/*.log":
+      when:
+        - store: steam
+  installDir:
+    6-in-1 IQ Scale Bundle: {}
+  launch:
+    "<base>/IQScale61":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/IQScale61.app/Contents/MacOS/nwjs":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/IQScale61.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 755940
+6-in-1 IQ Scale Bundle (2018):
+  cloud:
+    steam: true
+  files:
+    "<base>/temp/Default/Local Storage/leveldb/**/*.log":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 890650
+      - 890651
+      - 890652
+      - 890653
+  installDir:
+    6-in-1 IQ Scale Bundle: {}
+  launch:
+    "<base>/IQScale61.exe":
+      - when:
+          - os: windows
+            store: steam
+          - os: mac
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 886650
+"6.0":
+  installDir:
+    "6.0": {}
+  launch:
+    "<base>/6.0.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1165860
+60 Parsecs!:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/646270/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/646270/remote/settings":
+      tags:
+        - config
+      when:
+        - store: steam
+  gog:
+    id: 1135130303
+  installDir:
+    60 Parsecs!: {}
+  launch:
+    "<base>/60Parsecs.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/60Parsecs.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Robot Gentleman/60 Parsecs:
+      tags:
+        - config
+  steam:
+    id: 646270
+60 Second Strike:
+  installDir:
+    60 Second Strike: {}
+  launch:
+    "<base>/Chaos/Release/Chaos_s.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Chaos/Release"
+  steam:
+    id: 696540
+60 Seconds!:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Robot Gentleman/60 Seconds":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1288288255
+  installDir:
+    60 Seconds!: {}
+  launch:
+    "<base>/60Seconds.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/60Seconds.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/60Seconds.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/60Seconds.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 368360
+60 Seconds! Reatomized:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/1012880/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/1012880/remote/settings":
+      tags:
+        - config
+      when:
+        - store: steam
+  installDir:
+    60 Seconds! Reatomized: {}
+  launch:
+    "<base>/60Seconds.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/60SecondsReatomized.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/60SecondsReatomized.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1012880
+61 Days:
+  installDir:
+    61 Days: {}
+  launch:
+    "<base>/Onehundredandonedays.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1119820
+"6120":
+  installDir:
+    "6120": {}
+  launch:
+    "<base>/6120.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1063230
+6180 the moon:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 301950
+  installDir:
+    6180 the moon: {}
+  launch:
+    "<base>/6180 the moon.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/6180 the moon.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/6180 the moon.x86":
+      - when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Turtle Cream/6180 the moon:
+      tags:
+        - config
+  steam:
+    id: 299660
+63 Days:
+  cloud:
+    steam: true
+  files:
+    "<base>/WM/Savegames/*.63dsav":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1295663680
+  id:
+    lutris: 63-days
+    steamExtra:
+      - 2867690
+      - 3389260
+  installDir:
+    63 Days: {}
+  launch:
+    "<base>/WM/Binaries/Win64/WM-Win64-SHIPPING.exe":
+      - arguments: "-EnableCrashReports -DCPlatform=SteamFull -DCGatherPlayerProfile -DCGatherSavegame"
+        when:
+          - os: windows
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 2202120
+"64.0":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/rebelrabbit/64_0/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    "64.0": {}
+  launch:
+    "<base>/64.0.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/64.0.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 578850
+688(I) Hunter/Killer:
+  files:
+    "<base>/688HK.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1692087764
+  installDir:
+    688(I) Hunter-Killer: {}
+  launch:
+    "<base>/SteamRun.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2900
+"69":
+  steam:
+    id: 854380
+69 Ways to Kill a Zombie:
+  installDir:
+    69WaysToKillAZombie: {}
+  steam:
+    id: 512410
+6souls:
+  installDir:
+    6souls: {}
+  launch:
+    "<base>/win64/6Souls.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1153520
+"7":
+  installDir:
+    7 Game: {}
+  launch:
+    "<base>/SEVEN.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 684210
+7 Angels:
+  installDir:
+    7 Angels: {}
+  launch:
+    "<base>/Seven Angels.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1477860
+7 Billion Humans:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/.local/share/Tomorrow Corporation/7 Billion Humans/profiles.bin":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.local/share/Tomorrow Corporation/7 Billion Humans/settings.txt":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/Library/Application Support/7 Billion Humans/settings.txt":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Containers/com.tomorrowcorporation.7billionhumansmac/Data/Library/Application Support/7 Billion Humans/settings.txt":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<winAppData>/7 Billion Humans":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/7 Billion Humans/settings.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 2056114425
+  id:
+    gogExtra:
+      - 1179120942
+    lutris: 7-billion-humans
+    steamExtra:
+      - 1270120
+  installDir:
+    7 Billion Humans: {}
+  launch:
+    "<base>/7 Billion Humans.app/Contents/MacOS/7 Billion Humans":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/7 Billion Humans.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/7BillionHumans.bin.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/7BillionHumans.bin.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 792100
+7 Bones and 7 Stones - The Ritual:
+  files:
+    "<winLocalAppData>/TheRitual/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    7 Bones and 7 Stones - The Ritual: {}
+  launch:
+    "<base>/TheRitual/Binaries/Win64/TheRitual-Win64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 712080
+7 Days Blood Moons:
+  files:
+    "<base>/Prefs/gameOptions.sdf":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/The Fun Pimps/7 Days Blood Moons":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/The Fun Pimps/7 Days Blood Moons/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: 7-days-blood-moons
+  installDir:
+    7DaysBloodMoons: {}
+  launch:
+    "<base>/7DaysBloodMoons.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2312280
+7 Days in Dream:
+  installDir:
+    game: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 819870
+7 Days to Die:
+  files:
+    "<home>/.config/unity3d/The Fun Pimps/7 Days To Die":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.local/share/7DaysToDie/Saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Library/Application Support/7DaysToDie/Saves":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Preferences/unity.The Fun Pimps.7 Days To Die.plist":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<winAppData>/7DaysToDie/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    7 Days To Die: {}
+  launch:
+    "<base>/7DaysToDie.sh":
+      - arguments: "-from-steam -forceeac off"
+        when:
+          - os: linux
+            store: steam
+      - arguments: "-from-steam"
+        when:
+          - os: linux
+            store: steam
+      - arguments: "-show-launcher -from-steam"
+        when:
+          - os: linux
+            store: steam
+    "<base>/7dLauncher.app":
+      - arguments: "-from-steam -forceeac off"
+        when:
+          - os: mac
+            store: steam
+      - arguments: "-from-steam"
+        when:
+          - os: mac
+            store: steam
+      - arguments: "-show-launcher -from-steam"
+        when:
+          - os: mac
+            store: steam
+    "<base>/7dLauncher.exe":
+      - arguments: "-from-steam"
+        when:
+          - os: windows
+            store: steam
+      - arguments: "-show-launcher -from-steam"
+        when:
+          - os: windows
+            store: steam
+      - arguments: "-from-steam -forceeac off"
+        when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/The Fun Pimps/7 Days To Die:
+      tags:
+        - config
+  steam:
+    id: 251570
+7 Days with Death:
+  files:
+    "<base>/savedata":
+      when:
+        - store: steam
+  id:
+    lutris: 7-days-with-death
+  installDir:
+    7 days with Death: {}
+  launch:
+    "<base>/krkr.eXe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 617820
+"7 Grand Steps: What Ancients Begat":
+  files:
+    "<winProgramData>/Mousechief/7GS":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    7 Grand Steps 01: {}
+  launch:
+    "<base>/7 Grand Steps.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/7 Grand Steps.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 238930
+7 Lives:
+  cloud:
+    steam: true
+  files:
+    "<base>/7Lives.app/Contents/Resources/autorun/game/saves/*.*":
+      when:
+        - os: mac
+          store: steam
+    "<base>/game/saves/*.*":
+      when:
+        - os: windows
+          store: steam
+        - os: linux
+          store: steam
+  id:
+    lutris: 7-lives
+  installDir:
+    7 Lives: {}
+  launch:
+    "<base>/7Lives.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/7Lives.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/7Lives.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1096240
+7 Mages:
+  id:
+    lutris: 7-mages
+    steamExtra:
+      - 497540
+  installDir:
+    7 Mages: {}
+  launch:
+    "<base>/7mages.app/Contents/MacOS/7mages":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/7mages.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/7mages.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 446590
+7 Pillars:
+  installDir:
+    7 Pillars: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 654640
+7 Sexy Sins:
+  files:
+    "<home>/AppData/LocalLow/ZaiStudio/7SexySins/<storeUserId>/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgConfig>/unity3d/ZaiStudio/7SexySins/<storeUserId>/*.dat":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/ZaiStudio/7SexySins/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
+  installDir:
+    7SexySins: {}
+  launch:
+    "<base>/7SexySins.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/7SexySins.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/7SexySins.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1023740
+7 Sins:
+  files:
+    "<base>/User.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
+7 Soccer:
+  installDir:
+    7 Soccer: {}
+  launch:
+    "<base>/7 Soccer_A sci_fi soccer tale.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 788500
+7 Wonders II:
+  installDir:
+    7 Wonders 2: {}
+  launch:
+    "<base>/WondersII_1_13.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 15900
+7 Wonders of the Ancient World:
+  installDir:
+    7 Wonders: {}
+  launch:
+    "<base>/7Wonders.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 275810
+"7 Wonders: Ancient Alien Makeover":
+  installDir:
+    7 Wonders Ancient Alien Makeover: {}
+  launch:
+    "<base>/7 Wonders - Ancient Alien Makeover.exe":
+      - arguments: "-run"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 223000
+"7 Wonders: Magical Mystery Tour":
+  installDir:
+    7 Wonders Magical Mystery Tour: {}
+  launch:
+    "<base>/7W4.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 275830
+"7 Wonders: Treasures of Seven":
+  installDir:
+    7 Wonders - The Treasures of Seven: {}
+  launch:
+    "<base>/7 Wonders - Treasures of Seven.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 16030
+"7 summer days: Youth sky":
+  id:
+    lutris: 7-summer-days-youth-sky
+  installDir:
+    YouthSky: {}
+  launch:
+    "<base>/YouthSky/ys_1.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/YouthSky"
+    "<base>/ys_1.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1331590
+"7'scarlet":
+  cloud:
+    steam: true
+  files:
+    "<base>/savedata/*.jsc":
+      when:
+        - store: steam
+    "<base>/savedata/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: 7scarlet
+  installDir:
+    7scarlet: {}
+  launch:
+    "<base>/SevenScarletSteam.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 839450
+7-in-1 Brain Sharpness Bundle:
+  cloud:
+    steam: true
+  files:
+    "<base>/temp/Default/Local Storage/leveldb/**/*.log":
+      when:
+        - store: steam
+  installDir:
+    7-in-1 Brain Sharpness Bundle: {}
+  launch:
+    "<base>/BrainSharpness71":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/BrainSharpness71.app/Contents/MacOS/nwjs":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/BrainSharpness71.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 856980
+7-minute HOP:
+  installDir:
+    7-minute HOP: {}
+  launch:
+    "<base>/7-minute HOP.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 961210
+7.62 Hard Life:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1439399846
+  id:
+    lutris: 762-hard-life-1
+  steam:
+    id: 306290
+7.62 High Calibre:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1727035233
+  id:
+    lutris: 762-high-calibre
+  installDir:
+    "7.62": {}
+  launch:
+    "<base>/launcher-ia32.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 289890
+70 Seconds Survival:
+  installDir:
+    70 Seconds Survival: {}
+  launch:
+    "<base>/Race4cars.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 878470
+70 Seconds! Adventure:
+  installDir:
+    70 Seconds! Adventure: {}
+  launch:
+    "<base>/70 Seconds! Adventure.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1143420
+70s-Style Robot Anime Geppy-X:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Implicit Conversions/70s-style Robot Anime Geppy-X/save.srm":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    70s-style Robot Anime GEPPY-X: {}
+  launch:
+    "<base>/geppyx.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4120310
+"7554: Glorious Memories Revived":
+  files:
+    "<base>/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/setting.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+"7776 II: Dwarven Greed":
+  id:
+    steamExtra:
+      - 1117610
+  installDir:
+    7776 II Dwarven Greed: {}
+  launch:
+    "<base>/Game7776.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1019340
+"77p egg: Eggwife":
+  files:
+    "<winLocalAppData>/eggwife/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/eggwife/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    77p egg Eggwife: {}
+  launch:
+    "<base>/eggwife.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1317020
+7D Game:
+  installDir:
+    7D_Game: {}
+  steam:
+    id: 547440
+"7WORLDS: The Dreaming Dale":
+  installDir:
+    7WORLDS The Dreaming Dale: {}
+  launch:
+    "<base>/7 Worlds the Dreaming Dale.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1222220
+7th Deep:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    7th Deep: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 806580
+7th Legion:
+  files:
+    "<base>/Data/SAVE0.SAV":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Siege.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1207660773
+  id:
+    lutris: 7th-legion
+  installDir:
+    7th Legion: {}
+  launch:
+    "<base>/legion.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 327910
+"7th Sea: A Pirate's Pact":
+  cloud:
+    steam: true
+  installDir:
+    "7th Sea A Pirate's Pact": {}
+  launch:
+    "<base>/7th Sea A Pirates Pact.app/Contents/MacOS/7th Sea A Pirates Pact":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/7thSeaAPiratesPact":
+      - arguments: "--no-sandbox"
+        when:
+          - os: linux
+            store: steam
+    "<base>/7thSeaAPiratesPact.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 996450
+7th Sector:
+  id:
+    steamExtra:
+      - 1060120
+      - 1063400
+  installDir:
+    7th Sector: {}
+  launch:
+    "<base>/7TH_Sector.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/SN_Production/7TH_Sector:
+      tags:
+        - config
+        - save
+  steam:
+    id: 749250
+8 Ball:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    WindowsNoEditor: {}
+  launch:
+    "<base>/EightBall.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 818530
+8 Days:
+  files:
+    "<winLocalAppData>/_8DAYS/Game1.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/_8DAYS/prefs.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 498560
+  installDir:
+    8DAYS: {}
+  launch:
+    "<base>/8DAYS.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/8DAYS.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 409530
+8 Eyes:
+  gog:
+    id: 2107065151
+  id:
+    lutris: 8-eyes
+  installDir:
+    8 Eyes: {}
+  launch:
+    "<base>/8 eyes.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1136080
+8 Queens:
+  steam:
+    id: 982860
+8-Bit Adventures 2:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/www/save/*.rpgsave":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1757325641
+  id:
+    gogExtra:
+      - 1755004053
+    lutris: 8-bit-adventures-2
+    steamExtra:
+      - 733600
+  installDir:
+    8-Bit Adventures 2: {}
+  launch:
+    "<base>/Game.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 733110
+"8-Bit Adventures: The Forgotten Journey Remastered Edition":
+  gog:
+    id: 1636163734
+  id:
+    gogExtra:
+      - 1865449143
+      - 2027088113
+    lutris: 8-bit-adventures-the-forgotten-journey-remastered-
+    steamExtra:
+      - 387170
+  installDir:
+    8-Bit Adventures - The Forgotten Journey Remastered Edition: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 370300
+8-Bit Arena VR:
+  steam:
+    id: 552660
+8-Bit Armies:
+  cloud:
+    steam: true
+  files:
+    "<base>/profile_*":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1459422114
+  id:
+    gogExtra:
+      - 1099102953
+      - 1104739253
+      - 1684728509
+      - 1949874913
+      - 2103924881
+    steamExtra:
+      - 477240
+      - 482420
+      - 497850
+      - 510530
+      - 531680
+  installDir:
+    8BitArmies: {}
+  launch:
+    "<base>/ClientLauncherG.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 427250
+"8-Bit Armies: Arena":
+  id:
+    steamExtra:
+      - 594960
+  installDir:
+    8BitArena: {}
+  launch:
+    "<base>/ClientLauncherG.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 586040
+8-Bit Bayonetta:
+  files:
+    "<home>/AppData/LocalLow/Sega - Bitbaboon/8 Bit Bayonetta":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    8BitB: {}
+  launch:
+    "<base>/8BB.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Sega - Bitbaboon/8 Bit Bayonetta:
+      tags:
+        - config
+  steam:
+    id: 567090
+8-Bit Commando:
+  cloud:
+    steam: true
+  files:
+    $XDG_DATA_HOME/8bitcommando:
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    /Users/user/Library/Application Support/8bitcommando:
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<winAppData>/8bitcommando":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    8bitcommando: {}
+  launch:
+    "<base>/Contents/MacOS/love":
+      - arguments: commando.love --fused
+        when:
+          - os: mac
+            store: steam
+    "<base>/love":
+      - arguments: commando.love --fused
+        when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/love.exe":
+      - arguments: commando.love --fused
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 287860
+8-Bit Invaders!:
+  alias: 8-Bit Armies
+"8-bit Adventure Anthology: Volume I":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Abstraction Games/8-bit Adventure Anthology_ Volume I/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    8-bit Adventure Anthology Volume I: {}
+  launch:
+    "<base>/game-x86_64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/game.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/game.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/game.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/game.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/Abstraction Games/8-bit Adventure Anthology: Volume I":
+      tags:
+        - config
+  steam:
+    id: 664850
+8-in-1 IQ Scale Bundle:
+  files:
+    "<base>/temp/Default/Local Storage/leveldb/**/*.log":
+      when:
+        - store: steam
+  installDir:
+    8-in-1 IQ Scale Bundle: {}
+  launch:
+    "<base>/IQScale81":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/IQScale81.app/Contents/MacOS/nwjs":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/IQScale81.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 772470
+80 Days:
+  files:
+    "<base>/setup.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+80 Days (2015):
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Inkle Studios/80 Days":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1441269533
+  installDir:
+    80 Days: {}
+  launch:
+    "<base>/80 Days.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/80 Days.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Inkle Studios/80 Days:
+      tags:
+        - config
+  steam:
+    id: 381780
+"80's Style":
+  steam:
+    id: 879440
+"80.08":
+  installDir:
+    "80.08": {}
+  launch:
+    "<base>/80.08.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/80.08.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/80.08.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/80.08.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 688180
+868-HACK:
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/868-hack":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/868-hack":
+      when:
+        - os: windows
+          store: steam
+    "<xdgData>/868-hack":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    868-HACK: {}
+  launch:
+    "<base>/868-HACK.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/868-HACK.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 274700
+"87 Aftermath: A Rolling Ball Game":
+  installDir:
+    TilePuzzle: {}
+  launch:
+    "<base>/TilePuzzle1.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 990110
+88 Heroes:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Bitmap Bureau/88 Heroes/*.dat":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Bitmap Bureau/88 Heroes/*.dat":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Bitmap Bureau/88 Heroes/*.dat":
+      when:
+        - os: mac
+          store: steam
+  gog:
+    id: 2115164708
+  installDir:
+    88 Heroes: {}
+  launch:
+    "<base>/88 Heroes.app/Contents/MacOS/88 Heroes":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/88 Heroes.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/88 Heroes.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/88 Heroes.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 487040
+8AM:
+  files:
+    "<winLocalAppData>/am/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/am/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: 8am
+  installDir:
+    8AM: {}
+  launch:
+    "<base>/am.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2835590
+8Bit Fiesta:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+  installDir:
+    8Bit Fiesta Steam: {}
+  launch:
+    "<base>/nw":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 382260
+8BitBoy:
+  files:
+    "<winLocalAppData>/8BitBoy":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    8BitBoy: {}
+  launch:
+    "<base>/8bitboy.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/8bitboy.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 296910
+8BitMMO:
+  installDir:
+    8BitMMO: {}
+  launch:
+    "<base>/desktopLaunchLogging.sh":
+      - when:
+          - os: mac
+            store: steam
+          - os: linux
+            store: steam
+    "<base>/jre/bin/javaw.exe":
+      - arguments: "-Djava.net.preferIPv4Stack=true -classpath \"DesktopLauncher.jar;jre\\lib\\jfxrt.jar;lib\\json-simple-1.1.1.jar\" DesktopLauncher/Main"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 250420
+8Doors:
+  alias: "8Doors: Arum's Afterlife Adventure"
+"8Doors: Arum's Afterlife Adventure":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Rootless/8Doors":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Rootless/8Doors/SaveOptionSetting2.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1305658745
+  id:
+    gogExtra:
+      - 1320666662
+  installDir:
+    8 Doors: {}
+  launch:
+    "<base>/8Doors.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 668550
+8bit Arena:
+  installDir:
+    8bit Arena: {}
+  launch:
+    "<base>/8bit Arena.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 971180
+8bit Invasion:
+  steam:
+    id: 717370
+8bit Pigeon Hunter:
+  installDir:
+    Pigeon Hunter: {}
+  launch:
+    "<base>/Pigeon-Hunter.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Pigeon-Hunter.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1107920
+8i - Make VR Human:
+  installDir:
+    8i: {}
+  steam:
+    id: 462530
+8infinity:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/526540/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  installDir:
+    8infinity: {}
+  launch:
+    "<base>/8infinity.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/8infinity.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/8infinity.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 526540
+9 Balls:
+  installDir:
+    9 Balls: {}
+  launch:
+    "<base>/9balls.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 839920
+"9 Clues 2: The Ward":
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/369420/remote/profile":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Tap It Games/9 Clues 2 - The Ward/SE":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    9 Clues 2 The Ward: {}
+  launch:
+    "<base>/Ward.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Ward_amd64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Ward_i386":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/mac_steam.app/Contents/MacOS/mac_steam":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 369420
+"9 Clues: The Secret of Serpent Creek":
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/284870/remote/profile":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Tap It Games/9 Clues - The Secret of Serpent Creek/CE":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    9 Clues The Secret of Serpent Creek: {}
+  launch:
+    "<base>/NineClues.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/NineClues_amd64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/NineClues_i386":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/mac_steam.app/Contents/MacOS/mac_steam":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 284870
+9 Kings:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/SadSocket/9Kings":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1875095393
+  id:
+    lutris: 9-kings
+  installDir:
+    9 Kings: {}
+  launch:
+    "<base>/9Kings.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/9Kings.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2784470
+9 Monkeys of Shaolin:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/9MonkeysOfShaolin/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/9MonkeysOfShaolin/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    9 Monkeys of Shaolin: {}
+  launch:
+    "<base>/9MonkeysOfShaolin/Binaries/Linux/ExampleGame-Linux-Shipping":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/9MonkeysOfShaolin/Binaries/Win64/9MOS-Shipping.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 739080
+9 Years of Shadows:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Halberd Studios/9 Years of Shadows/SaveData/NineYearsSaveLog*.sf":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Halberd Studios/9 Years of Shadows/SaveData/NineYearsSettings.sf":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 2099051765
+  id:
+    lutris: 9-years-of-shadows
+  installDir:
+    9 Years of Shadows: {}
+  launch:
+    "<base>/9 Years of Shadows.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1402120
+"9-Bit Armies: A Bit Too Far":
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 3680670
+  installDir:
+    9BitArmies: {}
+  launch:
+    "<base>/ClientLauncherG64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1439750
+"9-nine-:Episode 1":
+  cloud:
+    steam: true
+  id:
+    lutris: 9-nine-episode-1
+  installDir:
+    nine_kokoiro: {}
+  launch:
+    "<base>/nine_kokoiro.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 976390
+"9-nine-:Episode 2":
+  cloud:
+    steam: true
+  installDir:
+    9-nine-Episode 2: {}
+  launch:
+    "<base>/nine_sorairo.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1033420
+"9-nine-:Episode 3":
+  cloud:
+    steam: true
+  installDir:
+    9-nine-Episode 3: {}
+  launch:
+    "<base>/nine_haruiro.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1142830
+"9-nine-:Episode 4":
+  cloud:
+    steam: true
+  installDir:
+    9-nine-Episode 4: {}
+  launch:
+    "<base>/nine_yukiiro.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1424660
+"9-nine-:NewEpisode":
+  cloud:
+    steam: true
+  installDir:
+    9-nine-NewEpisode: {}
+  launch:
+    "<base>/nine_newEP.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1890120
+9.03m:
+  files:
+    "<base>/UDKGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    903m: {}
+  launch:
+    "<base>/Binaries/Win32/903m.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 263100
+90 Days to Defence:
+  steam:
+    id: 1153790
+90 Minute Fever:
+  installDir:
+    90 Minute Fever: {}
+  launch:
+    "<base>/Mac/90 Minute Fever.app":
+      - arguments: "webservice=https://live.90minutefever.com/90mf-api-server/restenc/ accountConnect=true"
+        when:
+          - os: mac
+            store: steam
+    "<base>/Windows/x64/90 Minute Fever.exe":
+      - arguments: "webservice=https://live.90minutefever.com/90mf-api-server/restenc/ accountConnect=true"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Windows/x86/90 Minute Fever.exe":
+      - arguments: "webservice=https://live.90minutefever.com/90mf-api-server/restenc/ accountConnect=true"
+        when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 468070
+"900":
+  installDir:
+    "900": {}
+  launch:
+    "<base>/900":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/900.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/900.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 696860
+911 FR:
+  steam:
+    id: 1089540
+911 Fire Rescue:
+  files:
+    "<base>/firefighter/data_base/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/firefighter/data_base/games.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/firefighter/data_base/init.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/firefighter/data_base/input.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+911 Operator:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/JutsuGames/911 Operator":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/JutsuGames/911 Operator":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/unity.JutsuGames.911 Operator":
+      tags:
+        - save
+      when:
+        - os: mac
+  installDir:
+    911 Operator: {}
+  launch:
+    "<base>/911 Operator Mac.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/911.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/911OperatorLinux.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 503560
+96 Mill:
+  installDir:
+    96 Mill: {}
+  launch:
+    "<base>/96 MILL.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 561480
+99 Levels to Hell:
+  files:
+    "<home>/Library/Preferences/unity.Pipes And Mushrooms.99 levels to hell.plist":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+  gog:
+    id: 1207659178
+  installDir:
+    99 Levels To Hell: {}
+  launch:
+    "<base>/99 Levels To Hell.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/99 Levels To Hell.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/99 Levels To Hell.x86":
+      - when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Pipes And Mushrooms/99 levels to hell:
+      tags:
+        - config
+        - save
+  steam:
+    id: 264280
+99 Spirits:
+  cloud:
+    steam: true
+  files:
+    "<base>/99 Spirits.cf":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/savedata":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 262141
+      - 262142
+      - 262230
+      - 262300
+  installDir:
+    99 Spirits: {}
+  launch:
+    "<base>/99 Spirits.eXe":
+      - when:
+          - store: steam
+  steam:
+    id: 258090
+99 Waves to Die:
+  installDir:
+    99 Waves to Die: {}
+  launch:
+    "<base>/99wavesToDie_windows.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/99waves_to_die.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 360600
+994 W 24th:
+  installDir:
+    994 W 24th: {}
+  steam:
+    id: 536050
+996的真实老板篇:
+  installDir:
+    996Truth: {}
+  launch:
+    "<base>/Boss996.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1086470
+"999":
+  installDir:
+    "999": {}
+  launch:
+    "<base>/999.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 876840
+"99999":
+  files:
+    "<base>/<storeUserId>/Save.sav":
+      when:
+        - store: steam
+  installDir:
+    Gunkid99: {}
+  launch:
+    "<base>/Gunkid99.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 906600
+99Vidas:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/QUByte Interactive/99Vidas - The Game":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    99Vidas - The Game: {}
+  launch:
+    "<base>/99VidasGame.app/Contents/MacOS/99VidasGame":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/99VidasGame.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/99VidasGame.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/99VidasGame.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/99VidasGame_x86.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/QUByte Interactive/99Vidas - The Game:
+      tags:
+        - config
+  steam:
+    id: 557040
+9Dragons:
+  installDir:
+    9Dragons: {}
+  launch:
+    "<base>/RFstl.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 390100
+"9Dragons : Kung Fu Arena":
+  installDir:
+    NineDragonsARENA: {}
+  launch:
+    "<base>/NineDragonsArenaClient.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 956580
+9Grids VR:
+  installDir:
+    NineGrids VR: {}
+  steam:
+    id: 486140
+"9th Company: Roots of Terror":
+  id:
+    lutris: 9th-company-roots-of-terror
+  installDir:
+    9th Company: {}
+  launch:
+    "<base>/9-Pota.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 12480
+9th Dawn Classic - Clunky controls edition:
+  installDir:
+    9th Dawn Classic: {}
+  launch:
+    "<base>/DawnLauncher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 679090
+9th Dawn II:
+  installDir:
+    9thDawnII: {}
+  launch:
+    "<base>/ninthdawnii.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 279070
+9th Dawn III:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/GameBin/launcherSettings.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/game/launcherSettings.txt":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/Valorware/9th Dawn III/SaveData/SteamID_<storeUserId>/*.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Valorware/9th Dawn III/SaveData/gogsave/*.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<home>/AppData/LocalLow/Valorware/9th Dawn III/configB.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgConfig>/unity3d/Valorware/9th Dawn III/SaveData/gogsave/*.txt":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Valorware/9th Dawn III/configB.txt":
+      tags:
+        - config
+      when:
+        - os: linux
+  gog:
+    id: 2062750501
+  id:
+    lutris: 9th-dawn-iii
+  installDir:
+    9th Dawn III: {}
+  launch:
+    "<base>/9th Dawn III Launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1154850

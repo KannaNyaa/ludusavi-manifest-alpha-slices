@@ -1,0 +1,7037 @@
+---
+Z (2012):
+  files:
+    "<base>/prefdata":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1207664893
+  installDir:
+    Z: {}
+  launch:
+    "<base>/Z.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 275530
+Z Dawn:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/GoldenGodGames/ZDawn/*.txt":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/GoldenGodGames/ZDawn/*.txt":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    ZDawn: {}
+  launch:
+    "<base>/ZDawn.app/Contents/MacOS/ZDawn":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZDawn.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZDawn.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 872680
+Z Runaway:
+  steam:
+    id: 698330
+"Z ViRus: V.I.R.M Uprising":
+  installDir:
+    ZVVU: {}
+  steam:
+    id: 672450
+"Z'Code":
+  installDir:
+    "Z`code (VR for HTC Vive)": {}
+  steam:
+    id: 543950
+Z-Aftershock:
+  steam:
+    id: 652730
+Z-Company:
+  installDir:
+    Z-Company: {}
+  launch:
+    "<base>/ZCompany.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1583820
+Z-End:
+  installDir:
+    Z-End: {}
+  launch:
+    "<base>/ZEnd.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 582610
+Z-Exemplar:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Z-Exemplar: {}
+  launch:
+    "<base>/Z-Exemplar_Linux.x86":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Z-Exemplar_MacOSX.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Z-Exemplar_Windows.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 434750
+Z. Year One:
+  installDir:
+    Z Year One: {}
+  launch:
+    "<base>/Z.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 430930
+Z.A.R.:
+  files:
+    "<base>/LASTUSER.DAT":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/USER*.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<base>/USERS.DAT":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/ZAR.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+  installDir:
+    Z.A.R: {}
+  launch:
+    "<base>/dosbox_linux/daum/launch_zar_game_daum.sh":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/dosbox_linux/daum"
+    "<base>/dosbox_linux/launch_zar_config.sh":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/dosbox_linux"
+    "<base>/dosbox_linux/launch_zar_game.sh":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/dosbox_linux"
+    "<base>/dosbox_windows/daum/dosbox.exe":
+      - arguments: "-conf dosbox_zar.conf -conf dosbox_zar_launch_windows.conf -noconsole"
+        when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/dosbox_windows/daum"
+    "<base>/dosbox_windows/dosbox.exe":
+      - arguments: "-conf dosbox_zar.conf -conf dosbox_zar_launch_windows.conf -noconsole"
+        when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/dosbox_windows"
+      - arguments: "-conf dosbox_zar.conf -conf dosbox_zar_config_windows.conf -noconsole"
+        when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/dosbox_windows"
+  steam:
+    id: 351820
+Z.A.T.O. // I Love the World and Everything In It:
+  files:
+    "<base>/game/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
+    "<home>/.renpy/ZATO-1744494714":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<winAppData>/RenPy/ZATO-1744494714":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: zato-i-love-the-world-and-everything-in-it
+  installDir:
+    Z.A.T.O.  I Love the World and Everything In It: {}
+  launch:
+    "<base>/ZATO.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZATO.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZATO.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 4122860
+Z.I.O.N.:
+  id:
+    steamExtra:
+      - 487610
+  installDir:
+    ZION: {}
+  launch:
+    "<base>/ZION.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 466890
+Z.W!:
+  installDir:
+    Z.W!: {}
+  launch:
+    "<base>/Z.W!.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 848720
+Z1 Battle Royale:
+  files:
+    "<base>/UserOptions.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 439700
+  installDir:
+    H1Z1: {}
+  launch:
+    "<base>/H1Z1_BE.exe":
+      - arguments: "UseSteamLogin=1 campaignID=1066619 promoID=157 STEAM_ENABLED=1 Logging:LocalLogLevel=0 Server=Lvshaa-liv-l02.h1z1.net:20042;Lvshaa-liv-l02.h1z1.net:20043;Lvshaa-liv-l02.h1z1.net:20044;Lvshaa-liv-l02.h1z1.net:20045 CommandQueue:motd_uri=http://assets.daybreakgames.com/ CommandQueue:cb_uri=http://assets.daybreakgames.com/ CommandQueue:eula_uri=http://assets.daybreakgames.com/"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 433850
+Z55z:
+  steam:
+    id: 798270
+Z69:
+  steam:
+    id: 677980
+"Z: Escape":
+  files:
+    "<base>/Z_EscapePC/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Z Escape: {}
+  launch:
+    "<base>/Z_Escape_HD.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 843190
+"Z: Steel Soldiers":
+  files:
+    "<base>/Bin/options.zed":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/savegames":
+      tags:
+        - save
+      when:
+        - os: windows
+"Z: Steel Soldiers (2014)":
+  files:
+    "<winAppData>/TickTock/Z Steel Soldiers/savegames/*.snf":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/TickTock/Z Steel Soldiers/savegames/*.sz2":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/TickTock/Z Steel Soldiers/savegames/*.zcm":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Z2: {}
+  launch:
+    "<base>/Z2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 275510
+"Z: The End":
+  cloud:
+    steam: true
+  files:
+    "<base>/Saves/build*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Saves/profile*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Z The End: {}
+  launch:
+    "<base>/Z.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 786770
+ZAAM:
+  installDir:
+    ZAAM: {}
+  launch:
+    "<base>/ZAAM.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1128220
+ZAMB! Biomutant Extermination:
+  cloud:
+    steam: true
+  installDir:
+    ZAMB! Biomutant Extermination: {}
+  launch:
+    "<base>/ZAMB.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 284580
+ZAMB! Redux:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Nano Games/ZAMB! Endless Extermination/player_profile.dat":
+      when:
+        - store: steam
+  installDir:
+    ZAMB! Endless Extermination: {}
+  launch:
+    "<base>/ZambEndlessExtermination.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 819280
+ZAP Master:
+  installDir:
+    ZAP Master: {}
+  launch:
+    "<base>/ZAP Master.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZAP Master.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZAP Master.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 679860
+ZDF History 360° - Tempelhof:
+  installDir:
+    ZDF History 360° – Tempelhof: {}
+  launch:
+    "<base>/ZDF History 360° – Tempelhof.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 982010
+ZED:
+  cloud:
+    gog: true
+  files:
+    "<winLocalAppData>/zed/Saved/Savegames/ZedSave.sav":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1857957519
+  installDir:
+    Zed: {}
+  launch:
+    "<base>/zed.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zed.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 953370
+ZED ZONE:
+  installDir:
+    ZED ZONE: {}
+  launch:
+    "<base>/ZEDZONE.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1211600
+ZERO Sievert:
+  cloud:
+    steam: true
+  installDir:
+    ZERO Sievert: {}
+  launch:
+    "<base>/ZERO Sievert.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1782120
+ZERONE Episode 1 Gunner:
+  steam:
+    id: 952710
+ZET:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ZET: {}
+  launch:
+    "<base>/win64/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 968640
+ZEscape:
+  cloud:
+    steam: true
+  files:
+    "<base>/ZEscape/Saved/Config/*.ini":
+      when:
+        - store: steam
+    "<winLocalAppData>/ZEscape/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    ZEscape: {}
+  launch:
+    "<base>/ZEscape.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 517280
+ZHED - Puzzle Game:
+  alias: Zhed
+ZHEROS:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 444540
+  installDir:
+    ZHEROS: {}
+  launch:
+    "<base>/zheros.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 423270
+ZHIVE:
+  installDir:
+    ZHIVE: {}
+  launch:
+    "<base>/ZHive.app/Contents/MacOS/ZHive":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZHive.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZHive.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/ZHive.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 1119530
+"ZHP: Unlosing Ranger vs. Darkdeath Evilman":
+  files:
+    "<home>/Saved Games/ZHP/GameData/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/ZHP/game.cfg":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/ZHP/language.cfg":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/ZHP/pad.cfg":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/ZHP/sound.cfg":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ZHP Unlosing Ranger vs. Darkdeath Evilman: {}
+  launch:
+    "<base>/ZHP/ZHP.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/ZHP"
+  steam:
+    id: 1732070
+ZIC - Zombies in City:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/IO Games/ZIC - Zombies In City/Saves/*.*":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/IO Games/ZIC - Zombies In City/Saves/**/*.*":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.IO Games.ZIC-Zombies In  City/*.*":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    ZIC – Zombies in City: {}
+  launch:
+    "<base>/ZIC – Zombies in City.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1051290
+"ZIC: Survival":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/IO Games/ZIC - Survivor/Saves/*.*":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/IO Games/ZIC - Survivor/Saves/**/*.*":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/IO Games/ZIC - Survivor/Saves/*.*":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    ZIC - Survivor: {}
+  launch:
+    "<base>/ZIC - Survivor.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1065210
+ZIQ:
+  installDir:
+    ZIQ: {}
+  launch:
+    "<base>/ZIQ.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZIQ.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZIQ.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 538900
+ZLM Crafter:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/ZLM_Crafter/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ZLM Crafter: {}
+  launch:
+    "<base>/ZLM_Crafter.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1170830
+ZOLO - Zombies Only Live Once:
+  installDir:
+    ZOLO - Zombies Only Live Once: {}
+  steam:
+    id: 888380
+ZOOMnBOOM:
+  installDir:
+    ZOOMnBOOM: {}
+  launch:
+    "<base>/ZOOMnBOOM.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 870580
+"ZOR: Pilgrimage of the Slorfs":
+  files:
+    "<winLocalAppData>/CDS_Prototype/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ZOR Pilgrimage of the Slorfs: {}
+  launch:
+    "<base>/CDS_Prototype.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1162990
+ZRoll:
+  installDir:
+    ZRoll: {}
+  launch:
+    "<base>/zroll/zroll.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 458600
+ZTime (Danger Noodles!):
+  installDir:
+    zTime (Danger Noodles!): {}
+  launch:
+    "<base>/Flat (Non-VR)/zTime (flat).exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 523440
+ZUSI 3 - Aerosoft Edition:
+  installDir:
+    ZUSI 3 - Aerosoft Edition: {}
+  launch:
+    "<base>/64bit/ZusiSim.64.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1040730
+ZYX Story:
+  installDir:
+    ZYX STORY: {}
+  launch:
+    "<base>/ZYX STORY.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 888900
+ZZT:
+  files:
+    "<base>/*.SAV":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/ZZT.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+Zaba The Frog:
+  installDir:
+    Zaba The Frog: {}
+  launch:
+    "<base>/Zaba The Frog.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zaba the Frog.x86":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/ZabaTheFrog.app/Contents/MacOS/ZabaTheFrog":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 673530
+Zaccaria Pinball:
+  cloud:
+    steam: true
+  files:
+    "<home>/.magicpixel/Zaccaria_Pinball":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Library/Application Support/Zaccaria_Pinball":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winLocalAppData>/MagicPixel/Zaccaria_Pinball":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: zaccaria-pinball
+    steamExtra:
+      - 3672
+      - 13889
+      - 14022
+      - 14902
+      - 60524
+      - 60525
+      - 60526
+      - 60528
+      - 60529
+      - 60530
+      - 60531
+      - 60532
+      - 60533
+      - 478030
+      - 478031
+      - 478032
+      - 478033
+      - 478034
+      - 478035
+      - 478036
+      - 478037
+      - 478038
+      - 478039
+      - 478040
+      - 478041
+      - 478042
+      - 478043
+      - 478044
+      - 478045
+      - 478046
+      - 478047
+      - 478048
+      - 478049
+      - 478050
+      - 478051
+      - 478052
+      - 478053
+      - 478054
+      - 478055
+      - 478056
+      - 478057
+      - 478058
+      - 485140
+      - 485141
+      - 485142
+      - 485143
+      - 485144
+      - 485145
+      - 485146
+      - 486190
+      - 538760
+      - 555360
+      - 570120
+      - 605430
+      - 613520
+      - 623790
+      - 645250
+      - 673320
+      - 690660
+      - 699090
+      - 731080
+      - 753120
+      - 765830
+      - 771110
+      - 794170
+      - 814100
+      - 830650
+      - 859430
+      - 859500
+      - 876970
+      - 876971
+      - 907420
+      - 907421
+      - 929520
+      - 953800
+      - 970630
+      - 974400
+      - 991730
+      - 999070
+      - 1012010
+      - 1029680
+      - 1029820
+      - 1083100
+      - 1093410
+      - 1130690
+      - 1159530
+      - 1194440
+      - 1210090
+      - 1210091
+      - 1259110
+      - 1273630
+      - 1333510
+      - 1377690
+      - 1418860
+      - 1467010
+      - 1549470
+      - 1597540
+      - 1669210
+      - 1728730
+      - 1843040
+      - 2127000
+      - 2722350
+      - 3439200
+      - 3439370
+      - 3439560
+      - 3439630
+      - 3439860
+      - 3551240
+      - 3551250
+      - 3551260
+      - 3551270
+      - 3551280
+      - 3776430
+      - 3776440
+      - 3776450
+      - 3776460
+      - 3776470
+      - 4022120
+      - 4097430
+  installDir:
+    Zaccaria Pinball: {}
+  launch:
+    "<base>/ZaccariaPinball.app":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/ZaccariaPinball.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZaccariaPinball.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 444930
+Zach-Like:
+  id:
+    lutris: zach-like
+  installDir:
+    ZACH-LIKE: {}
+  launch:
+    "<base>/ZACH-LIKE.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1098840
+"Zack 2: Celestine's Map":
+  installDir:
+    "Zack 2 Celeste's Map": {}
+  launch:
+    "<base>/zack 2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1218320
+Zack Y:
+  installDir:
+    Zack Y: {}
+  launch:
+    "<base>/Zacky":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Zacky.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 937620
+Zack Zero:
+  files:
+    "<root>/userdata/<storeUserId>/234290/remote":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/ZackZero/zackzerocfg.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    ZackZero: {}
+  launch:
+    "<base>/ZackZero.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 234290
+Zafehouse Diaries 2:
+  installDir:
+    Zafehouse Diaries 2: {}
+  launch:
+    "<base>/ZafehouseDiaries2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZafehouseDiaries2.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZafehouseDiaries2.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 653940
+"Zafehouse: Diaries":
+  files:
+    "<winDocuments>/Zafehouse Diaries":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207659171
+  installDir:
+    ZafehouseDiaries: {}
+  launch:
+    "<base>/ZafeDiag.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZafehouseDiaries.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 249360
+Zahalia:
+  installDir:
+    Zahalia: {}
+  launch:
+    "<base>/Zahalia.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 791320
+Zak McKracken and the Alien Mindbenders:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/PREFS":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<base>/SAVEGAME.*":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/zak.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/zak.s*":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1425040088
+  id:
+    lutris: zak-mckracken-and-the-alien-mindbenders
+  installDir:
+    Zak Mckracken: {}
+  steam:
+    id: 559070
+Zakk Hazard The Deadly Spawn:
+  installDir:
+    Zakk Hazard TDS: {}
+  launch:
+    "<base>/Zakk Hazard.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 1037150
+Zamarian:
+  installDir:
+    Zamarian: {}
+  launch:
+    "<base>/Zamarian.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zamarian.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zamarian.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Zamarian.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 429120
+Zambi 2 Kil:
+  id:
+    steamExtra:
+      - 698940
+  steam:
+    id: 698930
+"ZanZarah: The Hidden Portal":
+  files:
+    "<base>/Save/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: zanzarah-the-hidden-portal
+  installDir:
+    ZanZarah: {}
+  launch:
+    "<base>/ZanZarah.bat":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 384570
+Zangeki Warp:
+  cloud:
+    steam: true
+  files:
+    "<base>/Option/**/*.dat":
+      when:
+        - store: steam
+  installDir:
+    Zangeki Warp: {}
+  launch:
+    "<base>/ZangekiWarp":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/zangeki_warp.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 564040
+"Zanki Zero: Last Beginning":
+  cloud:
+    steam: true
+  files:
+    "<base>/setting.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/ZankiZero":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    ZankiZero: {}
+  launch:
+    "<base>/ZankiZero.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 819020
+Zanshin:
+  installDir:
+    Zanshin: {}
+  steam:
+    id: 768550
+Zany Golf:
+  cloud:
+    gog: true
+  gog:
+    id: 1659423350
+  installDir:
+    Zany Golf: {}
+  launch:
+    "<base>/ZanyGolf.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2308130
+"Zap Blastum: Galactic Tactics":
+  cloud:
+    steam: true
+  steam:
+    id: 696850
+Zap Zap Zombie Cats:
+  installDir:
+    Zap Zap Zombie Cats: {}
+  launch:
+    "<base>/ZZZC.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 743190
+Zap Zone:
+  installDir:
+    Zap Zone: {}
+  launch:
+    "<base>/Zap Zone.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 572180
+"Zap, Blast, Loot":
+  installDir:
+    ZapBlastLoot: {}
+  launch:
+    "<base>/Zap Blast Loot.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zap Blast Loot/Zap, Blast, Loot.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 809480
+Zapitalism:
+  files:
+    "<home>/Library/Preferences/Zapitalism/Local/ Store/#SharedObjects/Zapitalism.swf/**/*.sol":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Zapitalism/Local Store/#SharedObjects/Zapitalism.swf/**/*.sol":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zapitalism: {}
+  launch:
+    "<base>/Zapitalism.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zapitalism.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1173230
+"Zapper: One Wicked Cricket":
+  files:
+    "<base>/zapper.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/zappersave.lee":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1909443731
+  id:
+    lutris: zapper-one-wicked-cricket
+  installDir:
+    Atari Zapper: {}
+  launch:
+    "<base>/Launcher/ConsoleLauncher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2766060
+Zarvot:
+  steam:
+    id: 992930
+Zarya and the Cursed Skull:
+  cloud:
+    steam: true
+  files:
+    "<base>/Saves/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zarya and the Cursed Skull: {}
+  launch:
+    "<base>/zarya.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 605040
+"Zarya-1: Mystery on the Moon":
+  installDir:
+    Zarya-1 Mystery on the Moon: {}
+  launch:
+    "<base>/Zarya1.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zarya1.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/zarya1.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 640090
+Zasa - An AI Story:
+  installDir:
+    Zasa: {}
+  launch:
+    "<base>/Zasa.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zasa.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 447240
+Zavix Tower:
+  installDir:
+    Zavix Tower: {}
+  launch:
+    "<base>/Delenar - Zavix Tower.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 427910
+Zavod:
+  cloud:
+    steam: true
+  steam:
+    id: 2245840
+"Zax: The Alien Hunter":
+  files:
+    "<base>/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Zax.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
+Zazmo Arcade Pack:
+  installDir:
+    Zazmo Arcade Pack: {}
+  launch:
+    "<base>/Zazmo_Arcade_Pack.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 770320
+Ze VR:
+  installDir:
+    ZeVR: {}
+  steam:
+    id: 574220
+ZeGame:
+  cloud:
+    steam: true
+  files:
+    "<base>/save.xml":
+      when:
+        - store: steam
+  installDir:
+    ZeGame: {}
+  launch:
+    "<base>/ZeGame.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZeGame.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZeGame.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/ZeGame.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 437520
+Zeal:
+  cloud:
+    steam: true
+  installDir:
+    Zeal: {}
+  launch:
+    "<base>/Zeal.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 703280
+Zebra Logic Master:
+  installDir:
+    Zebra Logic Master: {}
+  launch:
+    "<base>/nw.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1135730
+Zebulon 3D:
+  id:
+    lutris: zebulon-3d
+  steam:
+    id: 4436520
+Zed Survival:
+  installDir:
+    Zed Survival: {}
+  launch:
+    "<base>/ZedSurvival.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 794390
+Zedfest:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/KevinSpel/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Zedfest: {}
+  launch:
+    "<base>/KevinSpel/Binaries/Win64/Zedfest.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1037080
+Zeepkist:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Steelpan Interactive/Zeepkist/Belangrijk/vooruitgang.zeepsave":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Steelpan Interactive/Zeepkist/Technical/*.zeepsave":
+      when:
+        - store: steam
+  installDir:
+    Zeepkist: {}
+  launch:
+    "<base>/Zeepkist.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1440670
+Zefira:
+  cloud:
+    steam: true
+  files:
+    "<base>/www/save/*.rpgsave":
+      when:
+        - store: steam
+  id:
+    lutris: Zefira
+  installDir:
+    Zefira: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1078380
+"Zefyr: A Thief's Melody":
+  cloud:
+    steam: true
+  id:
+    lutris: zefyr-a-thiefs-melody
+    steamExtra:
+      - 3687840
+      - 3688940
+  installDir:
+    "A Thief's Melody": {}
+  launch:
+    "<base>/zefyr.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Oneiric Worlds/Zefyr:
+      tags:
+        - config
+  steam:
+    id: 1344990
+Zeitgeist:
+  id:
+    lutris: jupiter-strike
+Zeit²:
+  cloud:
+    steam: true
+  installDir:
+    Zeit2: {}
+  launch:
+    "<base>/Zeit2.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 33390
+"Zeke's Peak":
+  installDir:
+    "Zeke's Peak": {}
+  launch:
+    "<base>/Zekes Peak.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1093800
+Zelda Classic:
+  id:
+    lutris: zelda-classic
+"Zelensky vs Poroshenko: The Destiny of Ukraine":
+  cloud:
+    steam: true
+  steam:
+    id: 1069320
+Zeliard:
+  files:
+    "<base>/*.USR":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/RESOURCE.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+Zeliria Sanctuary:
+  cloud:
+    steam: true
+  files:
+    "<base>/game/saves":
+      when:
+        - store: steam
+    "<home>/.renpy/zeliria_en_1":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.renpy/zeliria_ru_1":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/RenPy/zeliria_en_1":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/RenPy/zeliria_ru_1":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/RenPy/zeliria_en_1":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/RenPy/zeliria_ru_1":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 1010940
+      - 1011540
+      - 1095960
+      - 1181230
+  installDir:
+    Zeliria_Sanctuary: {}
+  launch:
+    "<base>/zeliria.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zeliria.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/zeliria.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 855630
+Zelle:
+  id:
+    steamExtra:
+      - 993610
+  installDir:
+    Zelle: {}
+  launch:
+    "<base>/Game.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Game.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 725330
+Zelter:
+  installDir:
+    Zelter: {}
+  launch:
+    "<base>/Zelter.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1193340
+Zeminator:
+  files:
+    "<base>/SavesDir/*.ini":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zeminator: {}
+  launch:
+    "<base>/Zeminator.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1111970
+Zen Blocks:
+  installDir:
+    Zen Blocks: {}
+  launch:
+    "<base>/ZenBlocks.app/Content/MacOS/MacOSX":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zenblocks.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 733020
+Zen Bound 2:
+  cloud:
+    steam: true
+  files:
+    "<home>/.ZenBound2":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    "<winAppData>/ZenBound2":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zen Bound 2: {}
+  launch:
+    "<base>/ZenBound2.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zen_Bound_2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/run_steam.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 61600
+"Zen Chess: Blindfold Masters":
+  installDir:
+    Zen Chess Blindfold Masters: {}
+  launch:
+    "<base>/Zen_Chess_blindfold_masters.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zen_Chess_blindfold_masters_Steam.app/Contents/MacOS/Zen_Chess_blindfold_masters_Steam":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1108550
+"Zen Chess: Champion's Moves":
+  installDir:
+    "Zen Chess Champion's Moves": {}
+  launch:
+    "<base>/Zen_Chess_champions_moves.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zen_Chess_champions_moves_Steam.app/Contents/MacOS/Zen_Chess_champions_moves_Steam":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1108540
+"Zen Chess: Mate in Four":
+  installDir:
+    Zen Chess Mate in Four: {}
+  launch:
+    "<base>/Zen_Chess_mate_in_four.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zen_Chess_mate_in_four_Steam.app/Contents/MacOS/Zen_Chess_mate_in_four_Steam":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1043000
+"Zen Chess: Mate in One":
+  installDir:
+    Zen Chess Mate in One: {}
+  launch:
+    "<base>/Zen Chess.app/Contents/MacOS/Zen Chess":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zen Chess.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 748970
+"Zen Chess: Mate in Three":
+  installDir:
+    Zen Chess Mate in Three: {}
+  launch:
+    "<base>/Zen_Chess_mate_in_three.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zen_Chess_mate_in_three_Steam.app/Contents/MacOS/Zen_Chess_mate_in_three_Steam":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1042990
+"Zen Chess: Mate in Two":
+  installDir:
+    Zen Chess Mate in Two: {}
+  launch:
+    "<base>/Zen_Chess_mate_in_two.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zen_Chess_mate_in_two_Steam.app/Contents/MacOS/Zen_Chess_mate_in_two_Steam":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1042980
+Zen Fish SIM:
+  installDir:
+    Zen Fish SIM: {}
+  launch:
+    "<base>/fishSIMbuild11.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/linuxbuild11.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+  steam:
+    id: 321310
+Zen Garden:
+  installDir:
+    Zen Garden: {}
+  launch:
+    "<base>/ZenGarden.app/Contents/MacOS/ZenGarden":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZenGarden.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 592660
+Zen Puzzle Garden:
+  files:
+    "<home>/.lexaloffle/Zen Puzzle Garden":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    "<winAppData>/Zen Puzzle Garden":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Zen Puzzle Garden/config.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+Zen Space Flight - VR Showcase:
+  installDir:
+    Space Flight - VR Showcase: {}
+  steam:
+    id: 876210
+Zen Vs Gravity:
+  installDir:
+    Zen Vs Gravity: {}
+  launch:
+    "<base>/Zen vs Gravity.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 852620
+Zen of Sudoku:
+  files:
+    "<winAppData>/Zen of Sudoku/users":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zen of Sudoku: {}
+  launch:
+    "<base>/ZenOfSudoku.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4900
+Zen vs Zombie:
+  steam:
+    id: 628490
+ZenBlade:
+  installDir:
+    Atomic VR: {}
+  steam:
+    id: 400760
+Zenerchi:
+  installDir:
+    Zenerchi: {}
+  launch:
+    "<base>/Zenerchi.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zenerchi.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 37290
+"Zenethics Lab: Outbreak":
+  cloud:
+    steam: true
+  installDir:
+    Zenethics Lab Outbreak: {}
+  launch:
+    "<base>/Zenethics lab - Outbreak.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 694960
+Zenge:
+  installDir:
+    Zenge: {}
+  launch:
+    "<base>/zenge.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/zenge_linux.x86":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/zenge_mac.app":
+      - when:
+          - os: mac
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Hamster On Coke Games/Zenge:
+      tags:
+        - config
+        - save
+  steam:
+    id: 461840
+Zenith:
+  files:
+    "<home>/AppData/LocalLow/Infinigon/Zenith":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1706509320
+  installDir:
+    Zenith: {}
+  launch:
+    "<base>/Zenith.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Infinigon/Zenith:
+      tags:
+        - config
+  steam:
+    id: 438420
+Zenith Hunter:
+  installDir:
+    Zenith Hunter: {}
+  launch:
+    "<base>/Zenith Hunter.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 924360
+Zenkat:
+  installDir:
+    Zenkat: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1085800
+Zenless Zone Zero:
+  id:
+    lutris: zenless-zone-zero
+  installDir:
+    Zenless Zone Zero: {}
+  launch:
+    "<base>/HYP.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/miHoYo/ZenlessZoneZero:
+      tags:
+        - config
+  steam:
+    id: 4162040
+Zeno Clash:
+  cloud:
+    steam: true
+  files:
+    "<base>/zenozoik/SAVE":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/zenozoik/cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: zeno-clash
+  installDir:
+    ZenoClash: {}
+  launch:
+    "<base>/zenoclash.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 22200
+Zeno Clash II:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/215690/remote":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/My Games/UnrealEngine3/ZC2Game/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Zeno Clash 2: {}
+  launch:
+    "<base>/Binaries/Win32/ZC2.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Binaries/Win32"
+  steam:
+    id: 215690
+Zenodeath:
+  files:
+    "<winLocalAppData>/Zenodeath_GMS2/*.zdt":
+      when:
+        - store: steam
+  installDir:
+    Zenodeath: {}
+  launch:
+    "<base>/Zenodeath_GMS2.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 761920
+Zenodyne R:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.zdr":
+      when:
+        - store: steam
+    "<winLocalAppData>/Zenodyne_Remake/*.zdr":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 471410
+  installDir:
+    Zenodyne R: {}
+  launch:
+    "<base>/Zenodyne_Remake.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 466820
+Zenohell:
+  files:
+    "<base>/*.zd2":
+      when:
+        - store: steam
+    "<base>/*.znh":
+      when:
+        - store: steam
+    "<winLocalAppData>/Zenohell/*.zd2":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Zenohell/*.znh":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zenohell: {}
+  launch:
+    "<base>/Zenohell.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 402030
+Zenza:
+  files:
+    "<home>/AppData/LocalLow/Intropy Games/Zenza/*.txt":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.Intropy Games.Zenza/*.txt":
+      when:
+        - os: mac
+          store: steam
+    "<home>/config.unity3d/Intropy Games/Zenza/Intropy Games/Zenza/*.txt":
+      when:
+        - os: linux
+          store: steam
+  id:
+    steamExtra:
+      - 549630
+  installDir:
+    Zenza: {}
+  launch:
+    "<base>/zenza.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zenza.x86":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/zenza32.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/zenza64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 519990
+Zenzizenzic:
+  installDir:
+    Zenzizenzic: {}
+  launch:
+    "<base>/Zenzizenzic.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zenzizenzic.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zenzizenzic.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Zenzizenzic.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Ruud Koorevaar/Zenzizenzic:
+      tags:
+        - save
+  steam:
+    id: 327500
+Zeon 25:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/JumblGames/Zeon25/*.z25":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/JumblGames/Zeon25/*.z25":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/JumblGames/Zeon25/*.z25":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Zeon 25: {}
+  launch:
+    "<base>/Zeon 25.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zeon 25.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zeon 25.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Zeon 25.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 882620
+Zephon:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/Proxy Studios/Zephon/Configuration/Zephon.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Proxy Studios/Zephon/SavedGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3301440
+      - 3301460
+      - 3301470
+      - 3607430
+      - 4046850
+  installDir:
+    ZEPHON: {}
+  launch:
+    "<base>/Binaries/Linux-x86_64/Zephon":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Binaries/Windows-x86_64/Zephon.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1481170
+Zephyr:
+  gog:
+    id: 1977099785
+  installDir:
+    Zephyr: {}
+  steam:
+    id: 1423010
+Zeppelin VR:
+  steam:
+    id: 611200
+"Zeran's Folly":
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/*.zfs":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ZeransFolly: {}
+  launch:
+    "<base>/Zeran's Folly.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 665030
+Zero Caliber VR:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/ZeroCaliber/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/ZeroCaliber/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zero Caliber VR: {}
+  steam:
+    id: 877200
+Zero Day:
+  steam:
+    id: 1138000
+Zero Days VR:
+  installDir:
+    Zero Days VR: {}
+  steam:
+    id: 754930
+Zero Division:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Robot Cat Limited/Zero Division/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Robot Cat Limited/Zero Division/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Robot Cat Limited/Zero Division/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Zero Division: {}
+  launch:
+    "<base>/Zero Division.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2181950
+"Zero Escape: The Nonary Games":
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/Zero Escape The Nonary Games":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/My Games/Zero Escape The Nonary Games GamePass":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  id:
+    lutris: zero-escape-the-nonary-games
+  installDir:
+    Zero Escape The Nonary Games: {}
+  launch:
+    "<base>/Launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 477740
+"Zero Escape: Zero Time Dilemma":
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/Zero Escape/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/My Games/Zero Escape/config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 471420
+      - 471520
+  installDir:
+    Zero Escape: {}
+  launch:
+    "<base>/Zero Escape.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 311240
+Zero Friction:
+  steam:
+    id: 1173540
+Zero G Arena:
+  cloud:
+    steam: true
+  installDir:
+    Zero G Arena: {}
+  launch:
+    "<base>/Sta.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Sta.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Sta/Binaries/Linux/Sta":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 467820
+Zero Gear:
+  cloud:
+    steam: true
+  installDir:
+    Zero Gear: {}
+  launch:
+    "<base>/ZeroGear.bat":
+      - when:
+          - store: steam
+  steam:
+    id: 18820
+Zero Gravity:
+  installDir:
+    Zero Gravity: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/zerogravity.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zerogravity.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 423780
+Zero Gravity Pool:
+  files:
+    "<base>/cfg/**/*.ini":
+      when:
+        - store: steam
+  installDir:
+    Zero Gravity Pool: {}
+  launch:
+    "<base>/ZeroGPool32.exe":
+      - arguments: "-nocompositor"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 778600
+Zero Gunner 2-:
+  installDir:
+    ZERO GUNNER 2-: {}
+  launch:
+    "<base>/ZERO GUNNER 2-.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/setting.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1342250
+Zero Hour:
+  cloud:
+    epic: true
+    steam: true
+  installDir:
+    Zero Hour: {}
+  launch:
+    "<base>/Zero Hour.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/M7 production & Attrito/Zero Hour:
+      tags:
+        - config
+  steam:
+    id: 1359090
+Zero Hour Night:
+  installDir:
+    Terraform Manager Simulator: {}
+  launch:
+    "<base>/Looter Shooter.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4724610
+Zero Killed:
+  installDir:
+    Zero Killed: {}
+  steam:
+    id: 645930
+Zero One / 杀戮世界:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Studio Shotaro/Zero One":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zero_One: {}
+  launch:
+    "<base>/Zero One.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1040610
+Zero Parades:
+  alias: "Zero Parades: For Dead Spies"
+"Zero Parades: For Dead Spies":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/ZAUM Studio/Zero Parades/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/ZAUM Studio/Zero Parades/Settings":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1726016440
+  id:
+    lutris: zero-parades-for-dead-spies
+    steamExtra:
+      - 4464230
+      - 4719150
+  installDir:
+    Zero Parades: {}
+  launch:
+    "<base>/ZeroParades.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: "-force-vulkan"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2863680
+Zero Point:
+  installDir:
+    ZeroPoint: {}
+  launch:
+    "<base>/ZeroPoint.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 268710
+"Zero Reflex: Black Eye Edition":
+  id:
+    steamExtra:
+      - 427020
+  installDir:
+    Zero Reflex: {}
+  launch:
+    "<base>/ZeroReflex.app/Contents/MacOS/ZeroReflex":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZeroReflex.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZeroReflex.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 405650
+Zero Strain:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/ZeroStrain/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    ZeroStrain: {}
+  launch:
+    "<base>/ZeroStrain.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1079560
+Zero Sum Future:
+  installDir:
+    Zero Sum Future: {}
+  launch:
+    "<base>/v4Engine.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 873470
+Zero Tolerance:
+  gog:
+    id: 2134863368
+  installDir:
+    Zero Tolerance: {}
+  launch:
+    "<base>/zero tolerance.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1257930
+Zero Wing:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/Zero Wing 2P GoG":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<home>/Saved Games/Zero Wing 2P/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Zero Wing GoG":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<home>/Saved Games/Zero Wing GoG/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: gog
+    "<home>/Saved Games/Zero Wing/<storeUserId>/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Zero Wing/<storeUserId>/hiscore.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Zero Wing/<storeUserId>/settings.cfg":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1958853343
+  id:
+    lutris: zero-wing
+  installDir:
+    Zero Wing: {}
+  launch:
+    "<base>/ZeroWing.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/ZeroWing.x64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Zerowing.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 2011900
+Zero Zion:
+  steam:
+    id: 1058860
+Zero spring episode 1 English translation version:
+  installDir:
+    Zero spring episode 1 English translation version: {}
+  launch:
+    "<base>/estart.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 951010
+Zero spring episode 1 Japanese version:
+  installDir:
+    Zero spring episode 1 Japanese version: {}
+  launch:
+    "<base>/jstart.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 951070
+Zero spring episode 2:
+  installDir:
+    Zero spring episode 2: {}
+  launch:
+    "<base>/Zerospringepisode2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 974010
+Zero spring episode 3:
+  installDir:
+    Zero spring episode 3: {}
+  launch:
+    "<base>/Game.app/Contents/MacOS/zsep3mac":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zsep3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1000900
+Zero-G:
+  cloud:
+    steam: true
+  files:
+    "<base>/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Zero-G: {}
+  launch:
+    "<base>/Zero-G.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zero-G.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 567890
+Zero-G VR:
+  installDir:
+    Zero-G VR: {}
+  steam:
+    id: 491520
+Zero-K:
+  cloud:
+    steam: true
+  files:
+    "<base>/Saves/**/*.*":
+      when:
+        - store: steam
+  installDir:
+    Zero-K: {}
+  launch:
+    "<base>/Zero-K.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zero-K_linux64.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 334920
+ZeroRanger:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/ZeroRanger/SAVEDATA":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: zeroranger
+    steamExtra:
+      - 1308900
+  installDir:
+    ZeroRanger: {}
+  launch:
+    "<base>/ZeroRanger.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 809020
+ZeroSpace:
+  cloud:
+    steam: true
+  installDir:
+    ZeroSpace: {}
+  launch:
+    "<base>/RTS.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1605850
+ZeroZone2020:
+  installDir:
+    ZeroZone2020: {}
+  launch:
+    "<base>/ZZ.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1128100
+Zerocar:
+  files:
+    "<base>/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ZEROCAR: {}
+  launch:
+    "<base>/ZeroCar.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 790080
+Zeroptian Invasion:
+  installDir:
+    Zeroptian Invasion: {}
+  launch:
+    "<base>/Zeroptian Invasion.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/runner":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 974110
+Zeta Complex:
+  installDir:
+    Zeta Complex: {}
+  launch:
+    "<base>/zeta_complex.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1042230
+Zeta Flyff:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Zeta Flyff: {}
+  launch:
+    "<base>/bin/NeuzSteam.exe":
+      - arguments: serius
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1131290
+Zether:
+  installDir:
+    Zether: {}
+  steam:
+    id: 924830
+Zetria:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Karne/Zetria/sys.fbf":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zetria: {}
+  launch:
+    "<base>/Zetria.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/zetria_macos.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1960920
+Zettavolt Trigger:
+  installDir:
+    Zettavolt Trigger: {}
+  launch:
+    "<base>/Zettavolt Trigger.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 915860
+Zeus Battlegrounds:
+  installDir:
+    Zeus: {}
+  launch:
+    "<base>/Zeus/Binaries/Win64/Zeus-Win64-Shipping.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 682290
+Zeus Begins:
+  installDir:
+    Zeus Begins: {}
+  launch:
+    "<base>/Zeus Begins.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1092850
+Zeus Quest Remastered:
+  cloud:
+    steam: true
+  installDir:
+    zeus_quest_remastered: {}
+  launch:
+    "<base>/Zeus Quest Remastered.app/Contents/MacOS/Zeus Quest Remastered":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zeus Quest Remastered.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zeus Quest Remastered.x86":
+      - arguments: "-force-opengl"
+        when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Zeus Quest Remastered.x86_64":
+      - arguments: "-force-opengl"
+        when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 488460
+Zeus vs Monsters:
+  installDir:
+    Zeus vs Monsters - Math Game for kids: {}
+  launch:
+    "<base>/Zevs.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/zevs_.app/Contents/MacOS/zevs_":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 444430
+"Zeus: Master of Olympus":
+  cloud:
+    gog: true
+  files:
+    "<base>/*.inf":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - store: gog
+        - store: steam
+    "<base>/Zeus.ini":
+      tags:
+        - config
+      when:
+        - store: steam
+  gog:
+    id: 120765903
+  id:
+    lutris: zeus-poseidon-acropolis
+  installDir:
+    Zeus + Poseidon: {}
+  launch:
+    "<base>/Zeus.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 566050
+Zezenia Online:
+  installDir:
+    Zezenia Online: {}
+  launch:
+    "<base>/Zezenia Online.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zezenia_Steam.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/zezeniaclient":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 497860
+ZhanDou:
+  installDir:
+    zhandou: {}
+  steam:
+    id: 721890
+Zhed:
+  cloud:
+    steam: true
+  installDir:
+    zhed: {}
+  launch:
+    "<base>/Zhed.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/zhed.app/Contents/MacOS/zhed":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 543040
+Zhelter:
+  alias: Zelter
+Zhijiang Town:
+  installDir:
+    枝江小镇: {}
+  launch:
+    "<base>/ZhijiangTown/ZhijiangTown.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1914940
+Zhmyshenko Valery Albertovich:
+  id:
+    steamExtra:
+      - 830740
+  installDir:
+    Zhmyshenko Valery Albertovich: {}
+  launch:
+    "<base>/ZVA2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 816180
+Zhulik.exe:
+  installDir:
+    Zhulik_exe: {}
+  launch:
+    "<base>/Zhulik.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 768300
+Zhust - The Illusion Soul:
+  installDir:
+    ZHUST - THE ILLUSION SOUL: {}
+  launch:
+    "<base>/ZHUST - THE ILLUSION SOUL.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 649670
+Zi:
+  steam:
+    id: 527570
+ZiL Truck RallyCross:
+  installDir:
+    ZiL Truck RallyCross: {}
+  launch:
+    "<base>/TruckRallyCross.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 601170
+Zia and the goddesses of magic:
+  installDir:
+    Zia and the goddesses of magic: {}
+  launch:
+    "<base>/Zia.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/zia":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 533360
+Ziba:
+  cloud:
+    steam: true
+  steam:
+    id: 554720
+Zibbs - Alien Survival:
+  cloud:
+    steam: true
+  installDir:
+    Zibbs - Alien Survival: {}
+  launch:
+    "<base>/AlienSurvival.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1001960
+Zid Journey:
+  gog:
+    id: 1796238976
+  id:
+    gogExtra:
+      - 1448010592
+    steamExtra:
+      - 2179110
+  steam:
+    id: 1814690
+Zig:
+  installDir:
+    Zig: {}
+  launch:
+    "<base>/zig":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/zig.app/Contents/MacOS/zig":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zig.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 796140
+Zigfrak:
+  cloud:
+    steam: true
+  installDir:
+    Zigfrak: {}
+  launch:
+    "<base>/Zigfrak/Zigfrak.app":
+      - when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/Zigfrak"
+    "<base>/Zigfrak/Zigfrak.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Zigfrak"
+    "<base>/Zigfrak/Zigfrak.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+        workingDir: "<base>/Zigfrak"
+    "<base>/Zigfrak/Zigfrak.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+        workingDir: "<base>/Zigfrak"
+  steam:
+    id: 259430
+Ziggurat:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Milkstone Studios/Ziggurat":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/Milkstone Studios/Ziggurat/config.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Milkstone Studios/Ziggurat/savegame.xml":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/unity.Milkstone Studios.Ziggurat/savegame.xml":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<root>/userdata/<storeUserId>/308420/remote":
+      tags:
+        - config
+        - save
+      when:
+        - store: steam
+  gog:
+    id: 1437564865
+  installDir:
+    Ziggurat: {}
+  launch:
+    "<base>/Ziggurat":
+      - when:
+          - os: linux
+            store: steam
+      - arguments: IGNORE_NATIVE
+        when:
+          - os: linux
+            store: steam
+    "<base>/Ziggurat.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Ziggurat.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 308420
+Ziggurat 2:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Milkstone Studios/Ziggurat2":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: gog
+    "<home>/AppData/LocalLow/Milkstone Studios/Ziggurat2/*.mlk":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<winDocuments>/My Games/Ziggurat2":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgConfig>/unity3d/Milkstone Studios/Ziggurat2":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Milkstone Studios/Ziggurat2/*.mlk":
+      tags:
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 1427459497
+  id:
+    gogExtra:
+      - 1751323156
+      - 1827695299
+    steamExtra:
+      - 1439020
+      - 1776850
+  installDir:
+    Ziggurat 2: {}
+  launch:
+    "<base>/Ziggurat2":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Ziggurat2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Ziggurat2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1159560
+Ziggurat 3D Chess:
+  installDir:
+    Ziggurat 3D Chess: {}
+  launch:
+    "<base>/Ziggurat.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 654680
+"Ziggy's Chase":
+  installDir:
+    "Ziggy's Chase": {}
+  launch:
+    "<base>/ziggys_chase.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ziggys_chase.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 533660
+Zima Uhodi!:
+  installDir:
+    Zima uhodi!: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 834470
+Zimbo:
+  steam:
+    id: 842310
+Zineth:
+  registry:
+    HKEY_LOCAL_MACHINE/HKEY_USERS/<storeUserId>/SOFTWARE/Russell Honor/Zineth:
+      tags:
+        - config
+Zipple World:
+  installDir:
+    Zipple World: {}
+  launch:
+    "<base>/zipple_world_21.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 433110
+"Zipple World 2: The Sweet Chaos":
+  installDir:
+    Zipple World 2 The Sweet Chaos: {}
+  launch:
+    "<base>/sweet_chaos_30_08_2016.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 461600
+Ziro:
+  installDir:
+    Ziro: {}
+  launch:
+    "<base>/Ziro.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 33660
+"Zissi's Island":
+  installDir:
+    "Zissi's Island": {}
+  launch:
+    "<base>/ZissisIsland.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 516500
+Zkiller:
+  installDir:
+    ZKILLER: {}
+  launch:
+    "<base>/ZKILLER.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 894920
+Zniw Adventure:
+  cloud:
+    gog: true
+  gog:
+    id: 1664228813
+  id:
+    gogExtra:
+      - 1652683104
+    steamExtra:
+      - 1532220
+  installDir:
+    Zniw Adventure: {}
+  launch:
+    "<base>/CTGAME.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZniwAdventure.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/manualEn.pdf":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/manualPl.pdf":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/refCardWinEnglish.pdf":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/refCardWinPolish.pdf":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/runzniw.sh":
+      - arguments: "--windowed"
+        when:
+          - os: linux
+            store: steam
+      - arguments: "--fullscreen --gfxfilter stdscale 2"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 904750
+Znkl - 177:
+  installDir:
+    Znkl - 177: {}
+  launch:
+    "<base>/Znkl - 177.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 745380
+Zodiacats:
+  cloud:
+    steam: true
+  files:
+    "<base>/fortune.cfg":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/zodiacats_settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1435098189
+  id:
+    gogExtra:
+      - 1782077734
+    steamExtra:
+      - 1950330
+  installDir:
+    Zodiacats: {}
+  launch:
+    "<base>/zodiacats.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/zodiacats.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1817000
+Zodicat:
+  installDir:
+    Zodicat: {}
+  launch:
+    "<base>/Zodicat_pc.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 876100
+Zoeti:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/.config/unity3d/DuskLight/Zoeit*.zoSav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/DuskLight/Zoeti/*.zoSav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/unity.DuskLight.Zoeit*.zoSav":
+      when:
+        - os: mac
+          store: steam
+  gog:
+    id: 1887022535
+  installDir:
+    Zoeti: {}
+  launch:
+    "<base>/Zoeti.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zoeti.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1434540
+Zofia:
+  files:
+    "<home>/.config/Epic/PaleSaffronTilt/Saved/SaveGames/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<winLocalAppData>/PaleSaffronTilt/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Zofia: {}
+  launch:
+    "<base>/PaleSaffronTilt.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/PaleSaffronTilt.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 652770
+Zolg:
+  files:
+    "<winAppData>/Stencyl/Zolg":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zolg: {}
+  launch:
+    "<base>/Zolg.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zolg.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 555710
+Zom Nom:
+  installDir:
+    Zom Nom: {}
+  launch:
+    "<base>/ZomNom.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1193070
+"Zom-bie, or Not Zom-bie":
+  installDir:
+    ZombieOrNotZombie: {}
+  launch:
+    "<base>/ToBeOrNotToBe/nw.exe":
+      - arguments: "-windowed --in-process-gpu"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1053040
+ZomB:
+  installDir:
+    ZomB: {}
+  steam:
+    id: 1098980
+"ZomB: Battlegrounds":
+  installDir:
+    ZomB Battlegrounds: {}
+  launch:
+    "<base>/ZomB Battlegrounds.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1114020
+ZomDay:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/AGProject/Saved/SaveGames/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ZomDay: {}
+  steam:
+    id: 681390
+ZombLabs:
+  cloud:
+    steam: true
+  steam:
+    id: 508620
+ZombVR:
+  installDir:
+    ZombVR: {}
+  steam:
+    id: 523940
+Zombasite:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/Zombasite":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    "<winLocalAppData>/Zombasite/User/chars":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Zombastie/User/user.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1218352612
+  id:
+    gogExtra:
+      - 1423584786
+      - 1951862657
+  installDir:
+    Zombasite: {}
+  launch:
+    "<base>/Zombasite":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Zombasite.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zombasite.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 408960
+Zombeer:
+  installDir:
+    Zombeer: {}
+  launch:
+    "<base>/Zombeer.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 262190
+Zombi (2015):
+  cloud:
+    uplay: true
+  files:
+    "<home>/Saved Games/Ubisoft/ZombiU/Player_0":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<root>/savegames/<storeUserId>/1653":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: uplay
+  installDir:
+    ZOMBI: {}
+  launch:
+    "<base>/ZOMBI.exe":
+      - arguments: "-uplay_steam_mode"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 339230
+"Zombidle: Remonstered":
+  cloud:
+    steam: true
+  id:
+    lutris: zombidle-remonstered
+  installDir:
+    Zombidle: {}
+  launch:
+    "<base>/Zombidle.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 612020
+Zombie:
+  installDir:
+    Zombie: {}
+  launch:
+    "<base>/zombie.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 898690
+Zombie Apocalypse:
+  installDir:
+    Zombie Apocalypse: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 589160
+Zombie Apocalypse (2019):
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Zombie Apocalypse: {}
+  launch:
+    "<base>/Zombie Apocalypse.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 986080
+Zombie Apocalypse Mini Golf (VR):
+  steam:
+    id: 1074960
+Zombie Apocalypse Survivor:
+  steam:
+    id: 830380
+"Zombie Apocalypse: Escape The Undead City":
+  installDir:
+    Zombie Apocalypse Escape The Undead City: {}
+  launch:
+    "<base>/ZombieApocalypseEscape.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 492490
+"Zombie Army 4: Dead War":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Zombie Army 4":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Zombie Army 4/PC_ProfileSaves":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    ZombieArmy4: {}
+  launch:
+    "<base>/Launcher/za4.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 694280
+Zombie Army Trilogy:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/301640/remote/PC_ProfileSaves":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Zombie Army Trilogy/Settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Zombie Army Trilogy: {}
+  launch:
+    "<base>/launcher/ZATLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 301640
+Zombie Army VR:
+  cloud:
+    steam: true
+  installDir:
+    Zombie Army VR: {}
+  steam:
+    id: 2058030
+"Zombie Assault: Resurgence":
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 3929860
+      - 4377450
+  registry:
+    HKEY_CURRENT_USER/Software/Ninja Kiwi/Zombie Assault:
+      tags:
+        - config
+  steam:
+    id: 2747660
+Zombie Ballz:
+  files:
+    "<base>/Zombie Ballz_Data/Custom Levels/*.zbl":
+      when:
+        - os: windows
+          store: steam
+    "<base>/Zombie Ballz_Data/saveData":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zombie Ballz: {}
+  launch:
+    "<base>/Zombie Ballz.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 581970
+Zombie Barricades:
+  steam:
+    id: 867720
+Zombie Battleground:
+  steam:
+    id: 997630
+Zombie Birds First Encounter Halloween:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/ZombieBirds Helloween":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zombie Birds First Encounter Halloween: {}
+  launch:
+    "<base>/ZombieBirdsHalloween.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 521110
+Zombie Bitcoin Defense:
+  installDir:
+    Zombie Builder Defense: {}
+  launch:
+    "<base>/ZBDefense.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 945460
+Zombie Bloxx:
+  files:
+    "<home>/AppData/LocalLow/Roosh/Zombie Bloxx/*.txt":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Roosh/Zombie Bloxx/*.txt":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Roosh/Zombie Bloxx/*.txt":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    Zombie Bloxx: {}
+  launch:
+    "<base>/zb_normal.app/Contents/MacOS/zb_normal":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zb_normal.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 713090
+Zombie Boom:
+  steam:
+    id: 516700
+Zombie Bowl-o-Rama:
+  cloud:
+    steam: true
+  installDir:
+    Zombie Bowl-O-Rama: {}
+  launch:
+    "<base>/ZombieBowl.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 32160
+Zombie Buster VR:
+  installDir:
+    Zombie Buster VR: {}
+  steam:
+    id: 618590
+Zombie Busters VR:
+  installDir:
+    ZombieBusters: {}
+  steam:
+    id: 1202550
+Zombie Camp:
+  installDir:
+    Zombie Camp: {}
+  steam:
+    id: 503410
+"Zombie Camp: Last Survivor":
+  installDir:
+    ZombieCamp: {}
+  launch:
+    "<base>/ZombieCamp.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 357840
+Zombie Car Massacre:
+  steam:
+    id: 703070
+Zombie Carnage 2:
+  installDir:
+    ZC2: {}
+  launch:
+    "<base>/ShooterGame2/Binaries/Win64/ShooterGameClient-Win64-Shipping.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1699200
+Zombie City:
+  installDir:
+    ZombieCity: {}
+  steam:
+    id: 771570
+Zombie City Defense 2:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Mozg Labs/ZOMBIE CITY DEFENSE 2/*.txt":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Mozg Labs/ZOMBIE CITY DEFENSE 2/*.txt":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.Mozg Labs.ZOMBIE CITY DEFENSE 2/*.txt":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Zombie City Defense 2: {}
+  launch:
+    "<base>/ZCD2.app/Contents/MacOS/ZCD2":
+      - arguments: "-vrmode none"
+        when:
+          - os: mac
+            store: steam
+    "<base>/ZCD2.exe":
+      - arguments: " -vrmode none"
+        when:
+          - os: windows
+            store: steam
+    "<base>/ZCD2.x86":
+      - arguments: "-vrmode none LC_ALL=C %command%"
+        when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/ZCD2.x86_64":
+      - arguments: "-vrmode none LC_ALL=C %command%_64"
+        when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 473970
+Zombie Claus:
+  installDir:
+    Zombie Claus: {}
+  launch:
+    "<base>/Zombie Claus.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1213640
+Zombie Clicker Defense:
+  installDir:
+    Zombie Clicker Defense: {}
+  launch:
+    "<base>/zcd.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 790230
+Zombie Commander:
+  installDir:
+    Zombie Commander: {}
+  launch:
+    "<base>/Zombie-Commander.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 847240
+Zombie Commando 3D:
+  files:
+    "<home>/AppData/LocalLow/WeiPubs/**/*.txt":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zombie Commando 3D: {}
+  launch:
+    "<base>/zommando.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 688330
+Zombie Crisis:
+  installDir:
+    Zombie Crisis: {}
+  launch:
+    "<base>/ZombieCrisis.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 757420
+Zombie Cubes:
+  installDir:
+    Zombie Cubes: {}
+  launch:
+    "<base>/ZombieCubes.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 959030
+Zombie Deathrace Feeding Frenzy:
+  installDir:
+    Zombie Deathrace Feeding Frenzy: {}
+  launch:
+    "<base>/Frenzy.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 951780
+Zombie Defense:
+  cloud:
+    steam: true
+  installDir:
+    Zombie Defense: {}
+  launch:
+    "<base>/ZombieDefense.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZombieDefense.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/ZombieDefenseOSX.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 533780
+Zombie Derby:
+  cloud:
+    steam: true
+  files:
+    "<base>/profile.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zombie Derby: {}
+  launch:
+    "<base>/Zombie Derby.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 831770
+Zombie Derby 2:
+  cloud:
+    steam: true
+  files:
+    "<base>/profile.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zombie Derby 2: {}
+  launch:
+    "<base>/Zombie Derby 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 762590
+"Zombie Derby: Blocky Roads":
+  files:
+    "<base>/profile.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+"Zombie Derby: Pixel Survival":
+  cloud:
+    steam: true
+  files:
+    "<base>/profile.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zombie Derby Pixel Survival: {}
+  launch:
+    "<base>/Zombie Derby Pixel Survival.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1271690
+Zombie Desperation:
+  installDir:
+    Zombie Desperation: {}
+  launch:
+    "<base>/ZombieDesperation.app/Contents/MacOS/ZombieDesperation":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZombieDesperation.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZombieDesperation.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/ZombieDesperation.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 818570
+Zombie Dinos from Planet Zeltoid:
+  gog:
+    id: 1650051827
+  installDir:
+    Zombie Dinos from Planet Zeltoid: {}
+  steam:
+    id: 1749720
+Zombie Driver:
+  cloud:
+    steam: true
+  installDir:
+    Zombie Driver: {}
+  launch:
+    "<base>/Release/ZombieDriver.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/Release"
+  steam:
+    id: 31410
+Zombie Driver HD:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/220820":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winDocuments>/ZombieDriverHD/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 220822
+      - 220823
+      - 220824
+      - 220825
+      - 301900
+  installDir:
+    Zombie_Driver_HD: {}
+  launch:
+    "<base>/bin/ZombieDriverHD.exe":
+      - arguments: nosetup=1
+        when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/bin"
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/bin"
+  steam:
+    id: 220820
+Zombie Estate 2:
+  installDir:
+    Zombie Estate 2: {}
+  launch:
+    "<base>/Zombie Estate 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 512490
+Zombie Exodus:
+  cloud:
+    steam: true
+  installDir:
+    ZombieExodus: {}
+  launch:
+    "<base>/Zombie Exodus.app/Contents/MacOS/Zombie Exodus":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZombieExodus":
+      - arguments: "--no-sandbox"
+        when:
+          - os: linux
+            store: steam
+    "<base>/ZombieExodus.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 411570
+"Zombie Exodus: Safe Haven":
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 548920
+  installDir:
+    Zombie Exodus Safe Haven: {}
+  launch:
+    "<base>/Zombie Exodus Safe Haven.app/Contents/MacOS/Zombie Exodus Safe Haven":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZombieExodusSafeHaven":
+      - arguments: "--no-sandbox"
+        when:
+          - os: linux
+            store: steam
+    "<base>/ZombieExodusSafeHaven.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 543980
+Zombie Forest 2:
+  installDir:
+    Zombie Forest 2: {}
+  launch:
+    "<base>/zf2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 833010
+Zombie Golf:
+  installDir:
+    Zombie Golf: {}
+  launch:
+    "<base>/Zombie Golf.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1131270
+Zombie Gotchi:
+  installDir:
+    ZombieGotchi: {}
+  launch:
+    "<base>/zombie.app/Contents/MacOS/zombie":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zombie.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/zombie.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/zombie.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 398890
+Zombie Graveyard Simulator:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/threeW/Zombie Graveyard Simulator":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zombie Graveyard Simulator: {}
+  launch:
+    "<base>/Zombie Graveyard Simulator.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3430450
+Zombie Grenades Practice:
+  steam:
+    id: 772490
+Zombie Grinder:
+  cloud:
+    steam: true
+  installDir:
+    ZombieGrinder: {}
+  launch:
+    "<base>/Binary/Game":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/Binary"
+    "<base>/Binary/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Binary"
+    "<base>/Binary/ZombieGrinder.app/Contents/MacOS/Game":
+      - when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/Binary"
+  steam:
+    id: 263920
+Zombie Head:
+  files:
+    "<base>/saves.dat":
+      when:
+        - store: steam
+  installDir:
+    Zombie Head: {}
+  launch:
+    "<base>/Zombie Head.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 888570
+Zombie Hobby VR:
+  installDir:
+    Zombie Hobby VR: {}
+  steam:
+    id: 665620
+Zombie Hotel:
+  installDir:
+    Zombie Hotel_Data: {}
+  launch:
+    "<base>/Zombie Hotel.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 851570
+"Zombie Hunter, Inc.":
+  installDir:
+    "Zombie Hunter, Inc": {}
+  launch:
+    "<base>/ZHI.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 387130
+Zombie Island:
+  installDir:
+    Zombie Island: {}
+  launch:
+    "<base>/Zombie Island.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1122970
+Zombie Kill:
+  installDir:
+    Zombie Kill: {}
+  steam:
+    id: 636430
+Zombie Kill of the Week - Reborn:
+  id:
+    steamExtra:
+      - 359540
+  installDir:
+    Zombie Kill of the Week - Reborn: {}
+  launch:
+    "<base>/reborn.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/reborn.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 342300
+Zombie Killer - Type to Shoot!:
+  installDir:
+    Zombie Killer - Type to Shoot!: {}
+  launch:
+    "<base>/ZombieKiller.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1009100
+Zombie Killers:
+  steam:
+    id: 1026270
+"Zombie Killin'":
+  installDir:
+    "Zombie Killin'": {}
+  launch:
+    "<base>/Zombie Killin.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 582350
+Zombie Killing Simulator:
+  installDir:
+    Zombie Killing Simulator: {}
+  launch:
+    "<base>/Zombie Killing Simulator.exe":
+      - when:
+          - bit: 64
+            store: steam
+  steam:
+    id: 872350
+Zombie Killtime:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Zombie Killtime: {}
+  launch:
+    "<base>/ZombieKilltime.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZombieKilltime.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 380700
+Zombie Lane Survival:
+  files:
+    "<home>/AppData/LocalLow/AggressiveGames/ZombieLaneSurvival/*.txt":
+      when:
+        - store: steam
+  installDir:
+    Zombie Lane Survival: {}
+  launch:
+    "<base>/ZLS.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZLS.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZLS.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/ZLS.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 794530
+Zombie Master:
+  steam:
+    id: 90047
+Zombie Murder:
+  installDir:
+    Zombie Murder: {}
+  launch:
+    "<base>/win32/ZombieMurder.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 810680
+Zombie Murder Hell Arrives:
+  installDir:
+    Zombie Murder Hell Arrives: {}
+  launch:
+    "<base>/ZombieMurderHellArrives.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 810720
+Zombie Night Terror:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/NoClip/Zombie Night Terror/Users/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/NoClip/Zombie Night Terror/Users/<storeUserId>/Settings.set":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/Library/Application Support/NoClip/Zombie Night Terror/Users":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<xdgConfig>/unity3d/NoClip/Zombie Night Terror/Users":
+      tags:
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 2071628374
+  id:
+    gogExtra:
+      - 1239682736
+    steamExtra:
+      - 498770
+  installDir:
+    Zombie Night Terror: {}
+  launch:
+    "<base>/znt.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/znt.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/znt.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/znt.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 416680
+Zombie Nightmare:
+  installDir:
+    Zombie Nightmare: {}
+  steam:
+    id: 725950
+Zombie Office Politics:
+  installDir:
+    Zombie Office Politics: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/zop.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 412860
+Zombie Panic In Wonderland DX:
+  files:
+    "<home>/AppData/LocalLow/Akaoni Studio/Zombie Panic in Wonderland DX/SaveData/ZPIW_SavedData.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zombie Panic In Wonderland DX: {}
+  launch:
+    "<base>/Zombie Panic in Wonderland DX.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1173850
+Zombie Panic!:
+  files:
+    "<base>/zp/config.cfg":
+      when:
+        - store: steam
+    "<base>/zp/config_zp.cfg":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 90044
+  installDir:
+    Zombie Panic Mod: {}
+  launch:
+    "<base>/zp.exe":
+      - arguments: "-game zp -gl -steam -secure"
+        when:
+          - os: windows
+            store: steam
+    "<base>/zp.sh":
+      - arguments: "-game zp -gl -steam -secure"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3825360
+Zombie Panic! Source:
+  cloud:
+    steam: true
+  files:
+    "<root>/steamapps/common/Zombie Panic Source/zps/cfg/config_default.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 633910
+  installDir:
+    Zombie Panic Source: {}
+  launch:
+    "<base>/zps.exe":
+      - arguments: "-game zps -steam"
+        when:
+          - os: windows
+            store: steam
+    "<base>/zps.sh":
+      - arguments: "-game zps -steam"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 17500
+Zombie Parking:
+  installDir:
+    Zombie Parking: {}
+  launch:
+    "<base>/ZombieCpp/Binaries/Linux/ZombieCpp-Linux-Shipping":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/ZombieParking.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zombie_Parking.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 449090
+Zombie Party:
+  files:
+    "<base>/data.win":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zombie Party: {}
+  launch:
+    "<base>/Zombie_Party_v2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 384500
+Zombie Pinball:
+  cloud:
+    steam: true
+  installDir:
+    ZombiePinball: {}
+  launch:
+    "<base>/ZombiePinball":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/ZombiePinball.exe":
+      - arguments: "--fullscreen"
+        when:
+          - os: windows
+            store: steam
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 458510
+Zombie Pirates:
+  installDir:
+    Zombie Pirates: {}
+  launch:
+    "<base>/ZombiePirates.exe":
+      - arguments: "-Launch"
+        when:
+          - store: steam
+  steam:
+    id: 46850
+Zombie Playground:
+  installDir:
+    Zombie Playground: {}
+  launch:
+    "<base>/zombieplayground.app":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/zombieplayground.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 215550
+Zombie Pop:
+  steam:
+    id: 739350
+Zombie Quarantine:
+  id:
+    steamExtra:
+      - 642500
+  installDir:
+    ZQ-FullPC: {}
+  launch:
+    "<base>/ZQ-FullLinux/ZQ.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/ZQ-FullPC/ZQ.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 360400
+Zombie Rampage:
+  installDir:
+    Zombie Rampage: {}
+  launch:
+    "<base>/zombie_rampage.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 864590
+Zombie Riot:
+  installDir:
+    ZombieRiot: {}
+  steam:
+    id: 639460
+Zombie Road Rider:
+  files:
+    "<winLocalAppData>/ZombieRoadRider/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zombie Road Rider: {}
+  launch:
+    "<base>/VehicleGame.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/VehicleGame.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1175640
+Zombie Rollerz:
+  alias: "Zombie Rollerz: Pinball Heroes"
+"Zombie Rollerz: Pinball Heroes":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winLocalAppData>/Daedalic Entertainment GmbH/Zombie Rollerz/<storeUserId>/playersave_release.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1974363009
+  installDir:
+    Zombie Rollerz: {}
+  launch:
+    "<base>/Zombie Rollerz.exe":
+      - arguments: "-noLog"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 915230
+"Zombie Rush : Extinction":
+  installDir:
+    ZombieRush_Extinction: {}
+  launch:
+    "<base>/ZombieRush_Extinction.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1070890
+Zombie School:
+  installDir:
+    Zombie school-丧尸学院: {}
+  steam:
+    id: 943290
+Zombie Scrapper:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Ransacked Studios/Zombie Scrapper/**/*.met":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Ransacked Studios/Zombie Scrapper/**/*.record":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Ransacked Studios/Zombie Scrapper/**/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Zombie Scrapper/*.met":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Zombie Scrapper/*.record":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Zombie Scrapper/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<xdgConfig>/unity3d/Ransacked Studios/Zombie Scrapper/*.met":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/unity3d/Ransacked Studios/Zombie Scrapper/*.record":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/unity3d/Ransacked Studios/Zombie Scrapper/*.sav":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    Zombie Scrapper: {}
+  launch:
+    "<base>/Zombie Scrapper.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zombie Scrapper.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zombie Scrapper.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Zombie Scrapper.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 997170
+Zombie Season:
+  installDir:
+    Zombie Season: {}
+  steam:
+    id: 1157120
+Zombie Serial Killer Incident:
+  cloud:
+    steam: true
+  files:
+    "<base>/data/*.dat":
+      when:
+        - store: steam
+  installDir:
+    Zombie Serial Killer Incident: {}
+  launch:
+    "<base>/zoren.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 792230
+Zombie Shooter:
+  files:
+    "<base>/ZombieShooter.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/ZombieShooter Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/ZombieShooter Saves/userdata/_global.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1207660363
+  installDir:
+    Zombie Shooter: {}
+  launch:
+    "<base>/ZombieShooter.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 33130
+Zombie Shooter 2:
+  files:
+    "<winDocuments>/Zombie Shooter 2 Saves":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207660503
+  installDir:
+    Zombie Shooter 2: {}
+  launch:
+    "<base>/ZombieShooter2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 33180
+Zombie Slayers:
+  installDir:
+    Zombie Slayers: {}
+  launch:
+    "<base>/zombieslayers.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1203600
+Zombie Soldier:
+  installDir:
+    Zombie Soldier: {}
+  launch:
+    "<base>/ZombieSoldier.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 954780
+Zombie Solitaire:
+  files:
+    "<winAppData>/rokapublish/Zombie Solitaire-Steam":
+      when:
+        - store: steam
+  installDir:
+    Zombie Solitaire: {}
+  launch:
+    "<base>/Zombie Solitaire.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 311850
+Zombie Solitaire 2 Chapter 1:
+  installDir:
+    Zombie Solitaire 2 Chapter 1: {}
+  launch:
+    "<base>/ZS2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 623160
+Zombie Solitaire 2 Chapter 2:
+  installDir:
+    Zombie Solitaire 2 Chapter 2: {}
+  launch:
+    "<base>/ZS2-Chapter2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 623170
+Zombie Solitaire 2 Chapter 3:
+  installDir:
+    Zombie Solitaire 2 Chapter 3: {}
+  launch:
+    "<base>/ZS2-Chapter3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 623180
+Zombie Soup:
+  cloud:
+    steam: true
+  files:
+    "<base>/ZombieSoup/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+    "<home>/.config/Epic/ZombieSoup/Saved/SaveGames/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Epic/ZombieSoup/Saved/SaveGames/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/ZombieSoup/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ZombieSoup: {}
+  launch:
+    "<base>/Zombiesoup.app/Contents/MacOS/Zombiesoup-Mac-Shipping":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zombiesoup.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1095290
+Zombie Survival Game Online:
+  installDir:
+    Zombie Survival Game Online: {}
+  launch:
+    "<base>/ZSGO.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2268560
+Zombie Tag Royale:
+  installDir:
+    Zombie Tag Royale: {}
+  launch:
+    "<base>/Zombie Tag Royale.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1194220
+Zombie Teacher:
+  installDir:
+    Zombie Teacher: {}
+  launch:
+    "<base>/Zombie Teacher 1.6.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 826020
+Zombie Town:
+  installDir:
+    Zombie Town: {}
+  launch:
+    "<base>/ApocTown.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 666600
+"Zombie Town : Online":
+  installDir:
+    Zombie Town Online: {}
+  launch:
+    "<base>/ZombieTownOnline.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 810190
+Zombie Town Ahhh:
+  installDir:
+    ZOMBIE TOWN AHHH: {}
+  launch:
+    "<base>/ZOMBIETOWNAHHH.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 456090
+Zombie Training Simulator:
+  installDir:
+    Zombie Training Simulator: {}
+  steam:
+    id: 446620
+Zombie Trigger:
+  installDir:
+    Zombie Trigger: {}
+  steam:
+    id: 512830
+"Zombie Tycoon 2: Brainhov's Revenge":
+  cloud:
+    steam: true
+  installDir:
+    ZombieTycoon2: {}
+  launch:
+    "<base>/Binaries/Win32/ZombieGame.exe":
+      - arguments: "-seekfreeloadingpcconsole"
+        when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/Binaries/Win64/ZombieGame.exe":
+      - arguments: "-seekfreeloadingpcconsole"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 252270
+Zombie Vikings:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 402640
+      - 402650
+      - 412960
+  installDir:
+    Zombie Vikings: {}
+  launch:
+    "<base>/ZombieVikings.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZombieVikings.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZombieVikings.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 337480
+"Zombie Vikings: Stab-a-thon":
+  cloud:
+    steam: true
+  installDir:
+    Zombie Vikings Stab-a-thon: {}
+  launch:
+    "<base>/Zombie Vikings Stab-a-thon.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 566910
+Zombie Waiting:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Saves/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zombie Waiting: {}
+  launch:
+    "<base>/zombiewaiting.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 680550
+Zombie Wars:
+  files:
+    "<base>/HARRY.CFG":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/ZWARS.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
+"Zombie Wars: Invasion":
+  installDir:
+    ZombieWarsInvasion: {}
+  launch:
+    "<base>/bin/ZombieWarsInvasion.exe":
+      - arguments: "-windowed"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 429060
+Zombie Watch:
+  installDir:
+    Zombie Watch: {}
+  launch:
+    "<base>/ZombieWatch.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 785860
+Zombie World:
+  installDir:
+    Zombie world: {}
+  steam:
+    id: 815170
+Zombie World Apocalypse VR:
+  installDir:
+    Zombie World Apocalypse: {}
+  steam:
+    id: 1206080
+Zombie Zoeds:
+  steam:
+    id: 366890
+Zombie horde:
+  installDir:
+    Zombie horde: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1163320
+Zombie in My City:
+  installDir:
+    Zombie in my city: {}
+  steam:
+    id: 594760
+Zombie school-丧尸学院:
+  alias: Zombie School
+Zombie valley:
+  installDir:
+    Zombie valley: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1168320
+ZombieCarz:
+  files:
+    "<winLocalAppData>/ZombieCarz/User Data":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 565340
+ZombieFight VR:
+  installDir:
+    ZombieFight VR: {}
+  steam:
+    id: 569640
+ZombieHunt:
+  installDir:
+    ZombieHunt: {}
+  launch:
+    "<base>/zombiehunt.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 799120
+ZombieHunterZ:
+  installDir:
+    ZombieHunterZ: {}
+  launch:
+    "<base>/zombiehunterz.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 857700
+ZombieRun:
+  files:
+    "<home>/.prefs/zombieRun":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.prefs/zombieRunScores":
+      tags:
+        - save
+      when:
+        - os: linux
+  installDir:
+    ZombieRun: {}
+  launch:
+    "<base>/ZombieRun.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZombieRun.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZombieRun.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 358840
+ZombieRush:
+  steam:
+    id: 467460
+ZombieThon:
+  installDir:
+    ZombieThon: {}
+  launch:
+    "<base>/ZombieThon.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 718270
+ZombieZoid Zenith:
+  cloud:
+    steam: true
+  files:
+    "<base>/Saves/**/*.sav":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 406370
+  installDir:
+    ZombieZoid - Zenith: {}
+  launch:
+    "<base>/Binaries/Win32/ZZZ.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 403230
+"Zombieland: Double Tap - Road Trip":
+  files:
+    "<home>/.config/unity3d/High Voltage Software/Zombieland/Saves/*.nom":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/High Voltage Software/Zombieland/Saves/*.nom":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/High Voltage Software/Zombieland/Saves/*.nom":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Zombieland: {}
+  launch:
+    "<base>/Zombieland.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 995430
+Zombien:
+  cloud:
+    steam: true
+  installDir:
+    Zombien: {}
+  launch:
+    "<base>/Zombien":
+      - arguments: "--no-sandbox"
+        when:
+          - os: linux
+            store: steam
+    "<base>/Zombien.app/Contents/MacOS/Zombien":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zombien.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1124400
+Zombies Ate My Femboy:
+  installDir:
+    Zombies Ate My Femboy: {}
+  launch:
+    "<base>/ZombiesAteMyFemboy.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3365000
+Zombies Ate My Neighbors and Ghoul Patrol:
+  cloud:
+    gog: true
+  gog:
+    id: 1148652715
+  id:
+    lutris: zombies-ate-my-neighbors-and-ghoul-patrol
+  installDir:
+    Zombies Ate My Neighbors and Ghoul Patrol: {}
+  launch:
+    "<base>/ZAMN_GP.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1137970
+Zombies Berserk:
+  files:
+    "<base>/Files/savegames/gameslot*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zombies Berserk: {}
+  launch:
+    "<base>/Zombies Berserk.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 693280
+Zombies In The Forest:
+  installDir:
+    Zombies In The Forest: {}
+  launch:
+    "<base>/ZombiesInTheForest.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1035190
+Zombies in the dark:
+  installDir:
+    Zombies in the dark: {}
+  launch:
+    "<base>/ZiD.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 928410
+Zombies on a Plane:
+  cloud:
+    steam: true
+  files:
+    "<base>/Binaries/Win32/PlayerProgress.sav":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 426080
+      - 426081
+      - 451560
+  installDir:
+    ZombiesOnAPlane: {}
+  steam:
+    id: 297450
+Zombies war:
+  installDir:
+    Zombies war: {}
+  launch:
+    "<base>/mygame.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1081140
+ZombiesTown VR:
+  installDir:
+    ZombiesTown VR: {}
+  steam:
+    id: 562740
+Zombieville USA 3D:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Exodus/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Exodus/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zombieville USA 3-D: {}
+  launch:
+    "<base>/Exodus/Binaries/Win64/Exodus-Win64-Shipping.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1801520
+Zombillie:
+  cloud:
+    steam: true
+  installDir:
+    Zombillie: {}
+  launch:
+    "<base>/Zombillie.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zombillie.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zombillie.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 456810
+Zombiotik:
+  installDir:
+    Zombiotik: {}
+  launch:
+    "<base>/Zombiotik":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Zombiotik.app/Contents/MacOS/Zombiotik":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zombiotik.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 932950
+"Zombitatos: The End of the PC Master Race":
+  steam:
+    id: 508140
+"Zombitatos: Ultimate Game of the Year Edition":
+  steam:
+    id: 682150
+Zombo Buster Rising:
+  cloud:
+    steam: true
+  files:
+    "<base>/SaveDir/**/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Zombo Buster Rising: {}
+  launch:
+    "<base>/zbr.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zbr.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/zbr.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 518730
+Zomborg:
+  installDir:
+    Zomborg: {}
+  launch:
+    "<base>/Zomborg.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/GameDevLab/Zomborg:
+      tags:
+        - config
+        - save
+  steam:
+    id: 729720
+Zombotron:
+  cloud:
+    gog: true
+  files:
+    "<home>/AppData/LocalLow/AntKarlovGames/Zombotron/Saves":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1235934261
+  installDir:
+    Zombotron: {}
+  launch:
+    "<base>/Zombotron.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zombotron.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zombotron.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 664830
+Zombow:
+  installDir:
+    Zombow: {}
+  launch:
+    "<base>/Zombow.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 823650
+Zombusters:
+  installDir:
+    Zombusters: {}
+  launch:
+    "<base>/ZombustersMac":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZombustersWindows.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1272300
+Zomby Soldier:
+  installDir:
+    ZombySoldier: {}
+  launch:
+    "<base>/Zombysoldier.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 769340
+Zone 10:
+  installDir:
+    Zone 10: {}
+  launch:
+    "<base>/Zone10.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1084530
+Zone 22:
+  installDir:
+    Zone 22: {}
+  launch:
+    "<base>/Z.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 321390
+Zone Anomaly:
+  steam:
+    id: 979830
+Zone Raiders:
+  files:
+    "<base>/PLAYER.PLR":
+      tags:
+        - save
+      when:
+        - os: dos
+Zone of Lacryma:
+  installDir:
+    Zone of Lacryma: {}
+  launch:
+    "<base>/nw.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/zoneoflacryma.app/Contents/MacOS/nwjs":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 496540
+"Zone of the Enders: The 2nd Runner MARS":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Zoe2Mars/SaveData00.zsv":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    ZONE OF THE ENDERS THE 2nd RUNNER MARS ANUBIS ZONE OF THE ENDERS MARS: {}
+  launch:
+    "<base>/cygames/launcher/Launcher.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 650510
+Zone4:
+  installDir:
+    Zone4: {}
+  launch:
+    "<base>/Zone4_GSP.exe":
+      - arguments: "-in-GSPSteam-id-pw-sixtar:0000"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 518660
+ZoneDriver:
+  installDir:
+    ZoneDriver: {}
+  launch:
+    "<base>/sZoneDriverClient.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 700770
+"Zoo 2: Animal Park":
+  installDir:
+    Zoo 2 Animal Park: {}
+  launch:
+    "<base>/zoo2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1352330
+Zoo Constructor:
+  files:
+    "<base>/Settings/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<base>/Settings/**/*.usr":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zoo Constructor: {}
+  launch:
+    "<base>/ZooConstructor-Steam.exe":
+      - arguments: "-console"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 868260
+Zoo Empire:
+  files:
+    "<base>/CONFIG.DAT":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/SAVE":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1385536342
+  id:
+    lutris: zoo-empire
+  installDir:
+    Zoo Empire: {}
+  launch:
+    "<base>/ze.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 286750
+Zoo Packs:
+  installDir:
+    Zoo Packs: {}
+  launch:
+    "<base>/ZooPacks.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZooPacks.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1135150
+Zoo Park:
+  installDir:
+    Zoo Park: {}
+  launch:
+    "<base>/zoopark.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zoopark.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 307760
+Zoo Rampage:
+  installDir:
+    Zoo Rampage: {}
+  launch:
+    "<base>/rampage.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/rampage.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 312900
+Zoo Tycoon:
+  files:
+    "<base>/Saved Games":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/zoo.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: zoo-tycoon
+Zoo Tycoon 2:
+  files:
+    "<winAppData>/Microsoft Games/Zoo Tycoon 2":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+"Zoo Tycoon: Ultimate Animal Collection":
+  cloud:
+    steam: true
+  installDir:
+    Zoo Tycoon: {}
+  launch:
+    "<base>/ZooTycoon.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 613880
+ZooKeeper:
+  files:
+    "<home>/AppData/LocalLow/PyramidGames/ZooKeeper/*.zooprofile":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ZooKeeper: {}
+  launch:
+    "<base>/ZooKeeper.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1027810
+ZooKeeper Simulator:
+  installDir:
+    ZooKeeperSimulator: {}
+  launch:
+    "<base>/ZooKeeperSimulator.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1194680
+Zoochosis:
+  files:
+    "<winLocalAppData>/Zoo_Single/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Zoo_Single/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zoochosis: {}
+  launch:
+    "<base>/Zoochosis.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2458560
+Zooicide:
+  installDir:
+    Zooicide: {}
+  launch:
+    "<base>/Zooicide.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zooicide.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Zooicide.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Zooicide.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 622040
+Zooistry:
+  steam:
+    id: 707800
+Zool Redimensioned:
+  files:
+    "<winAppData>/ZoolRedimensioned/config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/ZoolRedimensioned/inputmapconfig.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/ZoolRedimensioned/savedata.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zool Redimensioned: {}
+  launch:
+    "<base>/Zool.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1647730
+Zoological Era:
+  installDir:
+    Zoological Era: {}
+  launch:
+    "<base>/Zoological Era.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 950600
+Zoological Era II:
+  installDir:
+    Zoological Era II: {}
+  launch:
+    "<base>/Zoological Era II.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1128010
+Zooloretto:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/WhiteBear/Zooloretto/common/commonconfig.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/WhiteBear/Zooloretto/game/data":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zooloretto: {}
+  launch:
+    "<base>/Zooloretto.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 283450
+Zooma VR:
+  installDir:
+    Zooma: {}
+  steam:
+    id: 1214410
+Zoombinis:
+  installDir:
+    Zoombinis: {}
+  launch:
+    "<base>/Zoombinis.app":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/Zoombinis.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/FableVision/Zoombinis:
+      tags:
+        - config
+        - save
+  steam:
+    id: 397430
+"Zoop! - Hunter's Grimm":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/HuntersGrimm/*.rvdata":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "Hunter's Grimm": {}
+  launch:
+    "<base>/Hunters Grimm.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 577460
+Zoopunk:
+  id:
+    lutris: zoopunk
+"Zorbit's Orbits":
+  installDir:
+    Zorbits: {}
+  launch:
+    "<base>/ZorbitsOrbits.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 739410
+Zorg The Typing Warrior:
+  installDir:
+    Zorg The Typing Warrior: {}
+  launch:
+    "<base>/ZORG/ZORG.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1102750
+"Zoria: Age of Shattering":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/.config/unity3d/Tiny Trinket Games/Zoria - Age of Shattering/Saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/Tiny Trinket Games/Zoria - Age of Shattering/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1976780992
+  id:
+    gogExtra:
+      - 1236037870
+      - 1309939735
+      - 1573323120
+      - 1574573649
+      - 1609123037
+      - 1621185433
+      - 1823851167
+    steamExtra:
+      - 1313790
+      - 2726430
+      - 2769850
+      - 2769860
+      - 2853200
+      - 3217410
+  installDir:
+    Zoria Age of Shattering: {}
+  launch:
+    "<base>/Zoria AoS":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Zoria AoS.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1159090
+Zork 1 Remake:
+  installDir:
+    Zork Remake: {}
+  launch:
+    "<base>/ZorkRemake.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1083700
+"Zork II: The Wizard of Frobozz":
+  cloud:
+    gog: true
+  files:
+    "<base>/SAVE":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207661503
+  id:
+    gogExtra:
+      - 1207658903
+  installDir:
+    Zork Anthology: {}
+  launch:
+    "<base>/SierraLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 570580
+"Zork III: The Dungeon Master":
+  cloud:
+    gog: true
+  files:
+    "<base>/SAVE":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207661513
+  id:
+    gogExtra:
+      - 1207658903
+  installDir:
+    Zork Anthology: {}
+  launch:
+    "<base>/SierraLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 570580
+"Zork Nemesis: The Forbidden Lands":
+  cloud:
+    gog: true
+  gog:
+    id: 1207658913
+  installDir:
+    Zork Nemesis The Forbidden Lands: {}
+  launch:
+    "<base>/SierraLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 571060
+Zork Zero:
+  cloud:
+    gog: true
+  files:
+    "<base>/*.SAV":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207661523
+  id:
+    gogExtra:
+      - 1207658903
+  installDir:
+    Zork Anthology: {}
+  launch:
+    "<base>/SierraLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 570580
+"Zork: Grand Inquisitor":
+  cloud:
+    gog: true
+  gog:
+    id: 1207658948
+  installDir:
+    Zork Grand Inquisitor: {}
+  launch:
+    "<base>/Zengine.exe":
+      - arguments: "-f"
+        when:
+          - store: steam
+  steam:
+    id: 570680
+"Zork: The Great Underground Empire":
+  cloud:
+    gog: true
+  files:
+    "<base>/SAVE":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207661493
+  id:
+    gogExtra:
+      - 1207658903
+  installDir:
+    Zork Anthology: {}
+  launch:
+    "<base>/SierraLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 570580
+Zoroastra:
+  steam:
+    id: 918190
+"Zorro: The Chronicles":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/BKOM Studios/Zorro the Chronicles/*.dat":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/BKOM Studios/Zorro the Chronicles/*.dat":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/com.BKOM Studios.Zorro the Chronicles/*.dat":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: zorro-the-chronicles
+  installDir:
+    Zorro the Chronicles: {}
+  launch:
+    "<base>/Zorro_The_Chronicles.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1571460
+ZorroMoro:
+  installDir:
+    ZorroMoro: {}
+  launch:
+    "<base>/ZorroMoro.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1098530
+Zortch:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.save":
+      when:
+        - store: steam
+    "<base>/save/*.png":
+      when:
+        - store: steam
+    "<base>/save/*.sav":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 2443470
+  installDir:
+    Zortch: {}
+  launch:
+    "<base>/Zortch.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2443360
+"Zorya: The Celestial Sisters":
+  files:
+    "<base>/Zorya/Saved/SaveGames/zorya_savegame.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Zorya/Saved/SaveGames/zorya_savegame.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 1426420
+      - 1669450
+      - 1745870
+      - 1756360
+      - 1811160
+  installDir:
+    Zorya: {}
+  launch:
+    "<base>/Zorya.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1332150
+Zotrix:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/ZotrixEarlyAccess/SG-0006.SAV":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/ZotrixEarlyAccess/joystick.dat":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/ZotrixEarlyAccess/questsprogress.dat":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/ZotrixEarlyAccess/settings.dat":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/ZotrixEarlyAccess/tutorial.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zotrix: {}
+  launch:
+    "<base>/Zotrix":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Zotrix-Mac-EA_Feb18.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zotrix.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 343280
+Zotrix - Solar Division:
+  cloud:
+    steam: true
+  installDir:
+    SolarDivision: {}
+  launch:
+    "<base>/SolarDivision":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/SolarDivision.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SolarDivision.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 351720
+"Zpeciation: Tough Days (TD)":
+  steam:
+    id: 591950
+Zquirrels Jump:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Artists Entertainment/Zquirrels Jump/<storeUserId>/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zquirrels Jump: {}
+  launch:
+    "<base>/Zquirrels Jump.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 966580
+Zucc Simulator:
+  steam:
+    id: 849020
+Zueirama:
+  installDir:
+    Zueirama: {}
+  launch:
+    "<base>/Zueirama.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/nw":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 952290
+Zula:
+  id:
+    steamExtra:
+      - 714210
+      - 747610
+  installDir:
+    Zula EU: {}
+  launch:
+    "<base>/zula_launcher.exe":
+      - arguments: "-Steam"
+        when:
+          - store: steam
+  steam:
+    id: 513650
+Zulin Time:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/ZulinTime/User Data/Default/IndexedDB/**/*.log":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zulin Time: {}
+  launch:
+    "<base>/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1047430
+Zulu Response:
+  installDir:
+    Zulu Response: {}
+  launch:
+    "<base>/Binaries/Win32/UDK.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 401250
+Zuma:
+  files:
+    "<base>/userdata":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winProgramData>/Steam/Zuma/userdata":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: zuma-deluxe
+  installDir:
+    Zuma Deluxe: {}
+  launch:
+    "<base>/Zuma Deluxe.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zuma.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3330
+Zuma Legend VR:
+  installDir:
+    Zuma Legend VR: {}
+  steam:
+    id: 935960
+"Zuma's Revenge!":
+  files:
+    "<winProgramData>/PopCap Games/ZumasRevenge/users":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winProgramData>/Steam/ZumasRevenge/users":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: zumas-revenge
+    steamExtra:
+      - 3622
+  installDir:
+    "Zuma's Revenge": {}
+  launch:
+    "<base>/ZumasRevenge.exe":
+      - arguments: " "
+        when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/PopCap/ZumasRevenge:
+      tags:
+        - config
+    HKEY_CURRENT_USER/Software/SteamPopCap/ZumasRevenge:
+      tags:
+        - config
+      when:
+        - store: steam
+  steam:
+    id: 3620
+Zumbi Blocks:
+  steam:
+    id: 502020
+Zumou Battoru:
+  installDir:
+    ZumouBattoruRelease: {}
+  launch:
+    "<base>/zumoubattoru.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1085230
+Zunius:
+  installDir:
+    Zunius: {}
+  launch:
+    "<base>/zunius.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1058510
+Zup!:
+  files:
+    "<base>/levels.ini":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zup!: {}
+  launch:
+    "<base>/Zup!.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 533300
+Zup! 2:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    Zup! 2: {}
+  launch:
+    "<base>/Zup! 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 562220
+Zup! 3:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    Zup! 3: {}
+  launch:
+    "<base>/Zup! 3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 575640
+Zup! 4:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    Zup! 4: {}
+  launch:
+    "<base>/Zup! 4.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 591420
+Zup! 5:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    Zup! 5: {}
+  launch:
+    "<base>/Zup! 5.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 645090
+Zup! 6:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    Zup! 6: {}
+  launch:
+    "<base>/Zup! 6.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 566160
+Zup! 7:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    Zup! 7: {}
+  launch:
+    "<base>/Zup! 7.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 658560
+Zup! 8:
+  files:
+    SteamLibrary/steamapps/common/Zup! 8:
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Zup! 8: {}
+  launch:
+    "<base>/Zup! 8.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 799070
+Zup! 9:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    Zup! 9: {}
+  launch:
+    "<base>/Zup! 9.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1098340
+Zup! Arena:
+  cloud:
+    steam: true
+  installDir:
+    Zup! Arena: {}
+  launch:
+    "<base>/Zup! Arena.exe":
+      - arguments: "-popupwindow"
+        when:
+          - store: steam
+  steam:
+    id: 914160
+Zup! F:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    Zup! F: {}
+  launch:
+    "<base>/Zup! F.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 601220
+Zup! S:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    Zup! S: {}
+  launch:
+    "<base>/Zup! S.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 617670
+Zup! X:
+  files:
+    "<root>/steamapps/common/Zup! X/levels.ini":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Zup! X: {}
+  launch:
+    "<base>/Zup! X.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 508900
+Zup! XS:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    Zup! XS: {}
+  launch:
+    "<base>/Zup! XS.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 673800
+Zup! Zero:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    Zup! Zero: {}
+  launch:
+    "<base>/Zup! Zero.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 610360
+Zup! Zero 2:
+  files:
+    "<base>/**/levels.ini":
+      when:
+        - store: steam
+  installDir:
+    Zup! Zero 2: {}
+  launch:
+    "<base>/Zup! Zero 2.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 658550
+Zvezda:
+  installDir:
+    Zvezda: {}
+  launch:
+    "<base>/Zvezda":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Zvezda.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zvezda.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 956870
+"Zwei: The Arges Adventure":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/SaveData/<storeUserId>/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/SaveData/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 2049521547
+  installDir:
+    Zwei: {}
+  launch:
+    "<base>/zwei.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 427680
+"Zwei: The Ilvard Insurrection":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/FALCOM/ZWEI2P":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Saved Games/FALCOM/ZWEI2P/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1572922743
+  installDir:
+    Zwei II: {}
+  launch:
+    "<base>/ZWEI2PDX9.exe":
+      - when:
+          - store: steam
+    "<base>/config.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 427700
+"Zxill: A Legend of Time":
+  installDir:
+    Zxill A Legend of Time: {}
+  launch:
+    "<base>/Zxill - A Legend of Time.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 397830
+Zyconix:
+  gog:
+    id: 1281197999
+  installDir:
+    Zyconix: {}
+  steam:
+    id: 1658740
+Zykrun:
+  installDir:
+    ZYKRUN: {}
+  launch:
+    "<base>/ZYKRUN.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1052590
+Zyphoid:
+  installDir:
+    Zyphoid: {}
+  launch:
+    "<base>/Zyphoid.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1026020
+Zyternion:
+  installDir:
+    ZYTERNION: {}
+  launch:
+    "<base>/ZYTERNION.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ZYTERNION.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ZYTERNION.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 820690
+"Zyxia: Neon Termination":
+  installDir:
+    Zyxia Neon Termination: {}
+  launch:
+    "<base>/ZyxiaNeonTermination.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 768630
+Zzzz-Zzzz-Zzzz:
+  installDir:
+    Zzzz-Zzzz-Zzzz: {}
+  launch:
+    "<base>/Zzzz-Zzzz-Zzzz.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 507520
+Zzzzz:
+  installDir:
+    zzzzz: {}
+  launch:
+    "<base>/game-linux.AppImage":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/zzzzz.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zzzzz.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1154350

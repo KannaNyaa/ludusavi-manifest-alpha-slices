@@ -1,0 +1,8667 @@
+---
+J Connect:
+  steam:
+    id: 1083960
+J-Girl:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/ChairGameStudio/FlyingShotClient/saveData.txt":
+      when:
+        - store: steam
+  installDir:
+    J-Girl: {}
+  launch:
+    "<base>/J-Girl_Win/J-Girl.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 936820
+J.A.W.S:
+  installDir:
+    J.A.W.S: {}
+  launch:
+    "<base>/Survival.exe":
+      - arguments: "-fullscreen"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 753610
+J.U.L.I.A. Among the Stars:
+  files:
+    "<home>/Library/Application Support/JULIAAtS*R*":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/JULIAAtS*R*/settings.xml":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<winAppData>/JULIAAtS*R*":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/JULIAAtS*R*/settings.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgData>/JULIAAtS*R*":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/JULIAAtS*R*/settings.xml":
+      tags:
+        - config
+      when:
+        - os: linux
+  gog:
+    id: 1457085654
+  id:
+    steamExtra:
+      - 360340
+  installDir:
+    JULIA-Among the Stars: {}
+  launch:
+    "<base>/JULIA-ATS.app/Contents/MacOS/JULIA-ATS":
+      - arguments: "-ignore _sd"
+        when:
+          - os: mac
+            store: steam
+      - arguments: "-ignore _hd"
+        when:
+          - os: mac
+            store: steam
+    "<base>/Launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/rungame_hd.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 257690
+"J.U.R: Japan Underground Racing":
+  installDir:
+    J.U.R Windows: {}
+  launch:
+    "<base>/JUR.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 513930
+J15 Fighter Jet VR:
+  installDir:
+    J15FighterJetVR: {}
+  steam:
+    id: 880200
+JAGD LANZER:
+  installDir:
+    JAGD LANZER: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+    "<base>/manual-jap.pdf":
+      - when:
+          - store: steam
+  steam:
+    id: 1175590
+"JASEM: Just Another Shooter with Electronic Music":
+  installDir:
+    JASEM Just Another Shooter with Electronic Music: {}
+  launch:
+    "<base>/JASEM.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JASEM.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/JASEM.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 610840
+JBMod:
+  cloud:
+    steam: true
+  installDir:
+    JBMod: {}
+  launch:
+    "<base>/hl2.sh":
+      - arguments: "-steam -game jbmod"
+        when:
+          - os: linux
+            store: steam
+    "<base>/jbmod.exe":
+      - arguments: "-steam -game jbmod"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2158860
+"JCB Pioneer: Mars":
+  installDir:
+    JCB Pioneer Mars: {}
+  launch:
+    "<base>/mars_launcher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 536660
+JDM Tuner Racing:
+  installDir:
+    JDM Tuner Racing: {}
+  launch:
+    "<base>/JDM.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 488210
+"JDM: Japanese Drift Master":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/JDM/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1378826880
+  id:
+    gogExtra:
+      - 1250900179
+      - 1601175939
+      - 1891590752
+      - 1946788969
+    lutris: jdm-japanese-drift-master
+    steamExtra:
+      - 3749550
+      - 4054180
+      - 4449300
+  installDir:
+    JDM: {}
+  steam:
+    id: 1153410
+JEF:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/JEF/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    JEF: {}
+  launch:
+    "<base>/JEF.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1188760
+JERRY JOBHOPPER:
+  installDir:
+    JERRY JOBHOPPER: {}
+  launch:
+    "<base>/JerryJobhopper.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JerryJobhopper.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JerryJobhopper.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1116360
+JETBROS:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/JETBROs/User Data/Default/IndexedDB":
+      when:
+        - os: windows
+          store: steam
+    "<xdgData>/.config/JETBROs/Default/IndexedDB":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    JETBROS: {}
+  launch:
+    "<base>/JETBROS.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JETBROS.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JETBROS.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 601700
+JFK Reloaded:
+  id:
+    lutris: jfk-reloaded
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/JFK Reloaded:
+      tags:
+        - config
+JJBoom:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/gietv/JJBoom/*.json":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    JJBoom: {}
+  launch:
+    "<base>/JJBoom.app/Contents/MacOS/JJBoom":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JJBoom.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 895140
+JOBU-KI:
+  installDir:
+    JOBU-KI: {}
+  launch:
+    "<base>/JOBU-KI.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 993290
+"JOLT: Super Robot Racer":
+  cloud:
+    steam: true
+  files:
+    "<base>/savedata/*.jd":
+      when:
+        - store: steam
+  installDir:
+    Jolt: {}
+  launch:
+    "<base>/Jolt.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 485790
+JORRY:
+  files:
+    "<home>/Saved Games/Jorry":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 1213820
+  installDir:
+    JORRY: {}
+  launch:
+    "<base>/JORRY.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1206350
+JOY You-I-He 蘭花園:
+  files:
+    "<base>/Save/*.joyinf":
+      when:
+        - store: steam
+    "<base>/Save/*.joyprog":
+      when:
+        - store: steam
+  installDir:
+    JOY You-I-He: {}
+  launch:
+    "<base>/JOY You-I-He.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1087630
+JOYDOOR:
+  installDir:
+    steamworks: {}
+  launch:
+    "<base>/JOYDOOR.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 917800
+"JQ: Beautiful Japan":
+  id:
+    steamExtra:
+      - 923560
+  installDir:
+    JQ Beautiful Japan: {}
+  launch:
+    "<base>/JQBeautifulJapan.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 918070
+"JQ: Chemistry":
+  installDir:
+    JQ chemistry: {}
+  launch:
+    "<base>/JQ chemistry.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 826010
+"JQ: Cosmos":
+  id:
+    steamExtra:
+      - 1060610
+  installDir:
+    JQ cosmos: {}
+  launch:
+    "<base>/JQCosmos.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1054650
+"JQ: Countries":
+  installDir:
+    JQ countries: {}
+  launch:
+    "<base>/JQcountries.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 796360
+"JQ: Dogs & Cats":
+  installDir:
+    JQ dogs & cats: {}
+  launch:
+    "<base>/JQ dogs & cats.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 816250
+JU:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/张公子/JU/张公子/JU/*.xml":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/张公子/JU/*.xml":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.张公子.JU/张公子/JU/*.xml":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    JU: {}
+  launch:
+    "<base>/0.97.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/0.97.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 684430
+JUDA:
+  cloud:
+    steam: true
+  steam:
+    id: 1119910
+"JUMP AND RUN - DON'T FALL":
+  installDir:
+    "JUMP AND RUN - DON'T FALL": {}
+  launch:
+    "<base>/JumpAndRunDontFall.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 898680
+JUMP UP:
+  files:
+    "<winLocalAppData>/JUMP_UP/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    JUMP UP: {}
+  launch:
+    "<base>/JUMP_UP.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 951160
+JUMPGRID:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/Ian MacLarty/jumpgrid/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Ian MacLarty/jumpgrid/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Ian MacLarty/jumpgrid/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Jumpgrid: {}
+  launch:
+    "<base>/Jumpgrid.app/Contents/MacOS/amulet":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/jumpgrid":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/jumpgrid.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 942060
+JUST DASH:
+  installDir:
+    JUST DUSH: {}
+  launch:
+    "<base>/JUSTDASH.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 891350
+JUST a Game:
+  installDir:
+    JUSTaGAME: {}
+  launch:
+    "<base>/JustaGame.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 891090
+"Jabroni Brawl: Episode 3":
+  cloud:
+    steam: true
+  files:
+    "<root>/steamapps/common/Jabroni Brawl Episode 3/jbep3/cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Jabroni Brawl Episode 3: {}
+  launch:
+    "<base>/bin/win32/jbep3.exe":
+      - arguments: "-game jbep3 -steam"
+        when:
+          - os: windows
+            store: steam
+    "<base>/launcher.sh":
+      - arguments: "-game jbep3 -steam"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 869480
+Jack:
+  alias: Unleaving
+Jack & the creepy Castle:
+  installDir:
+    Jack & the creepy Castle: {}
+  launch:
+    "<base>/creepy_castle_3d.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 938210
+Jack Axe:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/JackAxe/*.dat":
+      when:
+        - store: steam
+    "<winAppData>/JackAxe/*.ini":
+      when:
+        - store: steam
+  installDir:
+    Jack Axe: {}
+  launch:
+    "<base>/JackAxe.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 985780
+Jack B. Nimble:
+  files:
+    "<home>/Library/Application Support/JackB.Nimble":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/JackB.Nimble":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Jack B. Nimble: {}
+  launch:
+    "<base>/jackb.nimble.app/Contents/MacOS/nwjs":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 718120
+"Jack Holmes: Master of Puppets":
+  installDir:
+    Jack Holmes MoP: {}
+  launch:
+    "<base>/JackHolmes.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2235820
+Jack In Town:
+  installDir:
+    Jack In Town: {}
+  launch:
+    "<base>/JackInTown.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1175500
+Jack Is Missing:
+  installDir:
+    Jack Is Missing: {}
+  launch:
+    "<base>/Jack Is Missing.app/Contents/MacOS/Jack Is Missing":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jack Is Missing.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Jack Is Missing.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 921500
+Jack Keane:
+  files:
+    "<winDocuments>/Jack Keane/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/Jack Keane/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1207659260
+  id:
+    lutris: jack-keane
+  installDir:
+    Jack Keane: {}
+  launch:
+    "<base>/bin/release/jackkeane.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/bin/release"
+  steam:
+    id: 12340
+"Jack Keane 2: The Fire Within":
+  files:
+    "<winDocuments>/Jack Keane and the Fire Within/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/Jack Keane and the Fire Within/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1207659241
+  id:
+    lutris: jack-keane-2-the-fire-within
+  installDir:
+    Jack Keane 2: {}
+  launch:
+    "<base>/JackKeane2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 236970
+Jack Lumber:
+  files:
+    "<home>/.config/unity3d/Owlchemy Labs/Jack Lumber":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    "<home>/Library/Preferences/unity.Owlchemy Labs.Jack Lumber.plist":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+  installDir:
+    jack_lumber: {}
+  launch:
+    "<base>/JackLumber.app":
+      - when:
+          - os: mac
+            store: steam
+      - arguments: "-show-screen-selector"
+        when:
+          - os: mac
+            store: steam
+    "<base>/JackLumber.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "-show-screen-selector"
+        when:
+          - os: windows
+            store: steam
+    "<base>/startgame.sh":
+      - when:
+          - os: linux
+            store: steam
+      - arguments: "-show-screen-selector"
+        when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Owlchemy Labs/Jack Lumber:
+      tags:
+        - config
+        - save
+  steam:
+    id: 220900
+Jack Move:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/SoRomantic/Jack Move/SaveFiles/autosave.jams":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/SoRomantic/Jack Move/SaveFiles/options.jams":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/SoRomantic/Jack Move/SaveFiles/savefile_*.jams":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 2075493778
+  id:
+    gogExtra:
+      - 1833136906
+    steamExtra:
+      - 1813150
+      - 1961320
+  installDir:
+    Jack Move: {}
+  launch:
+    "<base>/jack_move_OSX.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/jack_move_Win.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/SoRomantic/Jack Move:
+      tags:
+        - config
+  steam:
+    id: 1099640
+"Jack N' Jill DX":
+  cloud:
+    steam: true
+  files:
+    "<home>/Saved Games/Jack N' Jill DX/*.*":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "Jack N' Jill DX": {}
+  steam:
+    id: 873560
+Jack Nicklaus Perfect Golf:
+  cloud:
+    steam: true
+  installDir:
+    Perfect Golf: {}
+  launch:
+    "<base>/Perfect Golf.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Perfect Golf.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Perfect Golf.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 288140
+Jack Orlando:
+  files:
+    "<base>/Savegame":
+      tags:
+        - save
+      when:
+        - os: dos
+        - os: windows
+  gog:
+    id: 1207658741
+  installDir:
+    Jack Orlando: {}
+  launch:
+    "<base>/Jack Orlando Director's Cut.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JackStart.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/RunGame":
+      - when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_LOCAL_MACHINE/TopWare Poland/Jack Orlando:
+      tags:
+        - config
+  steam:
+    id: 253960
+Jack Spriggan:
+  installDir:
+    JackSpriggan: {}
+  steam:
+    id: 620660
+"Jack and Sara: Educational Game":
+  installDir:
+    JackAndSara: {}
+  launch:
+    "<base>/JackAndSara.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 841010
+Jack in the Dark:
+  cloud:
+    gog: true
+  gog:
+    id: 1207658923
+  steam:
+    id: 548090
+Jack the Barbarian:
+  installDir:
+    Jack the Barbarian: {}
+  launch:
+    "<base>/Jack the Barbarian.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 852160
+Jack the Nipper:
+  installDir:
+    Jack the Nipper: {}
+  launch:
+    "<base>/Jack.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2072680
+Jack troubles:
+  installDir:
+    Jack troubles: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1205020
+"Jack's Game":
+  steam:
+    id: 670790
+"Jack's Gang":
+  steam:
+    id: 607270
+Jack-In-A-Castle:
+  files:
+    "<home>/.renpy/game-1533144030":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/RenPy/game-1533144030":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/RenPy/game-1533144030":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Jack-In-A-Castle: {}
+  launch:
+    "<base>/JackInACastle_2.0.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JackInACastle_2.0.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1080790
+Jack-O-Lantern Covers of Darkness:
+  installDir:
+    Jack-O-Lantern Covers of Darkness: {}
+  launch:
+    "<base>/JOL-Cover Of Darkness.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1193660
+JackHammer:
+  steam:
+    id: 630040
+"JackQuest: The Tale of The Sword":
+  installDir:
+    JackQuest: {}
+  launch:
+    "<base>/JackQuest.app/Contents/MacOS/Mac_Runner":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JackQuest.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 937050
+Jackal (2016):
+  steam:
+    id: 454040
+Jacked:
+  files:
+    "<base>/data/pc/savegame.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: jacked--1
+Jackie Chan Stuntmaster (ReChan):
+  files:
+    "<base>/userfiles":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/userfiles/game.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    unknown:
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+Jackpot Poker by PokerStars:
+  installDir:
+    Jackpot Poker by PokerStars: {}
+  launch:
+    "<base>/JackpotPoker.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 455020
+"Jacktus Green: The Fluffy, the Spiky and the Spicy":
+  installDir:
+    Jacktus Green: {}
+  launch:
+    "<base>/Jacktus Green.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1986770
+Jacob:
+  installDir:
+    Jacob: {}
+  launch:
+    "<base>/Jacob.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 449780
+"Jacob Jones and the Bigfoot Mystery: Episode 1":
+  cloud:
+    steam: true
+  files:
+    "<base>/Binaries/Win32/JacobJonesGame/SaveFiles/**/*.jjs":
+      when:
+        - os: windows
+          store: steam
+    "<base>/JacobJonesAndTheBigFootMystery/Binaries/Win32/JacobJonesGame/SaveFiles/**/*.jjs":
+      when:
+        - os: windows
+          store: steam
+    "<base>/JacobJonesGame/SaveFiles/JJSavedGame/**/*.jjs":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    JacobJonesAndTheBigFootMysteryEpisode1: {}
+  launch:
+    "<base>/Binaries/Win32/JacobJonesGame.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 264400
+"Jacob Jones and the Bigfoot Mystery: Episode 2":
+  files:
+    "<base>/Binaries/Win32/JacobJonesEpisode2Game/SaveFiles/*.jjs":
+      when:
+        - store: steam
+    "<base>/JacobJonesEpisode2Game/SaveFiles/JJSavedGame/*.jjs":
+      when:
+        - store: steam
+  installDir:
+    JacobJonesAndTheBigfootMysteryEpisode2: {}
+  launch:
+    "<base>/Binaries/Win32/JacobJonesEpisode2Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 308180
+"Jade Empire: Special Edition":
+  cloud:
+    gog: true
+    origin: true
+  files:
+    "<base>/JadeEmpire.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207659237
+  id:
+    lutris: jade-empire-special-edition
+  installDir:
+    Jade Empire: {}
+  launch:
+    "<base>/JadeEmpireConfig.exe":
+      - when:
+          - store: steam
+    "<base>/JadeEmpireLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 7110
+"Jade's Ascension":
+  files:
+    "<home>/AppData/LocalLow/Papas con Mojo Games/JadesAscension/*.json":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    JadesAscension: {}
+  launch:
+    "<base>/JadesAscension.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1119680
+"Jade's Dungeon Descent":
+  installDir:
+    "Jade's Dungeon Descent": {}
+  launch:
+    "<base>/TempleAdventure.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 864600
+"Jade's Journey":
+  files:
+    "<base>/*.rxdata":
+      when:
+        - store: steam
+  installDir:
+    "Jade's Journey": {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 552580
+"Jade's Journey 2":
+  cloud:
+    steam: true
+  files:
+    "<base>/*.rxdata":
+      when:
+        - store: steam
+  installDir:
+    "Jade's Journey 2": {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 607030
+Jagged Alliance:
+  cloud:
+    gog: true
+  files:
+    "<base>/*.SAV":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/Jagged Alliance Gold/Jagged Alliance/Installed/JAGGED/*.SAV":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/SOUND.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+  gog:
+    id: 1207658689
+  id:
+    lutris: jagged-alliance-gold
+  installDir:
+    Jagged Alliance Gold: {}
+  launch:
+    "<base>/Jagged Alliance Deadly Games/run.bat":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Jagged Alliance Deadly Games"
+    "<base>/Jagged Alliance Deadly Games/run.sh":
+      - when:
+          - os: mac
+            store: steam
+          - os: linux
+            store: steam
+    "<base>/Jagged Alliance/run.bat":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Jagged Alliance"
+    "<base>/Jagged Alliance/run.sh":
+      - when:
+          - os: mac
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 283270
+Jagged Alliance 2:
+  files:
+    "<base>/Ja2.set":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/SavedGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207658696
+  id:
+    gogExtra:
+      - 2041310597
+    lutris: jagged-alliance-2
+    steamExtra:
+      - 2950
+      - 12370
+      - 545210
+  steam:
+    id: 1620
+"Jagged Alliance 2: Unfinished Business":
+  files:
+    "<base>/Ja2.set":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/SavedGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207658653
+  installDir:
+    Jagged Alliance 2 Gold Unfinished Business: {}
+  launch:
+    "<base>/ja2ub.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 12380
+"Jagged Alliance 2: Wildfire":
+  cloud:
+    steam: true
+  files:
+    "<base>/SavedGames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/WF6.set":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1207658743
+  id:
+    gogExtra:
+      - 1452824319
+      - 1744970334
+      - 1972971639
+      - 2041310597
+    steamExtra:
+      - 2482680
+      - 2482740
+      - 2513910
+  installDir:
+    ja2_wildfire: {}
+  launch:
+    "<base>/Jagged Alliance Wildfire.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/RunGame":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/RunGame.bat":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 215930
+Jagged Alliance 3:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/Jagged Alliance 3/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Roaming/Jagged Alliance 3/LocalStorage.lua":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1556263729
+  id:
+    gogExtra:
+      - 1807548763
+    steamExtra:
+      - 2386860
+      - 2469350
+  installDir:
+    Jagged Alliance 3: {}
+  launch:
+    "<base>/JA3.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JA3Debug.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1084160
+Jagged Alliance Flashback:
+  files:
+    "<winLocalAppData>/Full Control/Jagged Alliance Flashback":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: jagged-alliance-flashback
+  installDir:
+    Jagged Alliance Flashback: {}
+  launch:
+    "<base>/game.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/game.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 256010
+Jagged Alliance Online:
+  id:
+    steamExtra:
+      - 218450
+      - 416710
+      - 416711
+      - 416712
+      - 416713
+  installDir:
+    Jagged Alliance Online Reloaded: {}
+  launch:
+    "<base>/JAO.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JAO.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JAO.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 339640
+"Jagged Alliance Online: Reloaded":
+  alias: Jagged Alliance Online
+"Jagged Alliance: Back in Action":
+  files:
+    "C:/Users/Public/Documents/Jagged Alliance - Back in Action":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: jagged-alliance-back-in-action
+  installDir:
+    JABIA: {}
+  launch:
+    "<base>/JABIA.app":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/JabiaLinux.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/JaggedAllianceBIA.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 57740
+"Jagged Alliance: Crossfire":
+  id:
+    lutris: jagged-alliance-crossfire
+  installDir:
+    Jagged Alliance Crossfire: {}
+  launch:
+    "<base>/JaggedAllianceCF.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 205810
+"Jagged Alliance: Deadly Games":
+  cloud:
+    gog: true
+  files:
+    "<base>/*.SAV":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/DG.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<base>/SOUND.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+  gog:
+    id: 1207658690
+  id:
+    lutris: jagged-alliance-deadly-games
+  installDir:
+    Jagged Alliance Gold: {}
+  launch:
+    "<base>/Jagged Alliance Deadly Games/run.bat":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Jagged Alliance Deadly Games"
+    "<base>/Jagged Alliance Deadly Games/run.sh":
+      - when:
+          - os: mac
+            store: steam
+          - os: linux
+            store: steam
+    "<base>/Jagged Alliance/run.bat":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Jagged Alliance"
+    "<base>/Jagged Alliance/run.sh":
+      - when:
+          - os: mac
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 283270
+"Jagged Alliance: Rage!":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winDocuments>/Jagged Alliance Rage":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/Jagged Alliance Rage/Settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1861477436
+  installDir:
+    Jagged Alliance Rage: {}
+  launch:
+    "<base>/JAN.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/THQ Nordic/Jagged Alliance Rage:
+      tags:
+        - config
+  steam:
+    id: 463170
+Jailbreak:
+  steam:
+    id: 778420
+Jailbreak Craft:
+  steam:
+    id: 879220
+Jailbreak Russia:
+  steam:
+    id: 879210
+Jailbreak Simulator:
+  installDir:
+    Jailbreak Simulator: {}
+  launch:
+    "<base>/Jailbreak.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1131940
+Jak II:
+  alias: Jak II (OpenGOAL)
+Jak II (OpenGOAL):
+  files:
+    "<winAppData>/OpenGOAL/jak2/saves/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/OpenGOAL/jak2/settings":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgConfig>/OpenGOAL/jak2/saves/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/OpenGOAL/jak2/settings":
+      tags:
+        - config
+      when:
+        - os: linux
+Jak Project:
+  alias: "Jak and Daxter: The Precursor Legacy (OpenGOAL)"
+"Jak and Daxter: The Precursor Legacy":
+  alias: "Jak and Daxter: The Precursor Legacy (OpenGOAL)"
+"Jak and Daxter: The Precursor Legacy (OpenGOAL)":
+  files:
+    "<home>/.var/app/dev.opengoal.OpenGOAL/config/OpenGOAL/jak1/saves/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.var/app/dev.opengoal.OpenGOAL/config/OpenGOAL/jak1/settings":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<winAppData>/OpenGOAL/jak1/saves/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/OpenGOAL/jak1/settings":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgConfig>/OpenGOAL/jak1/saves/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/OpenGOAL/jak1/settings":
+      tags:
+        - config
+      when:
+        - os: linux
+Jake and the Giant:
+  installDir:
+    Jake and the Giant: {}
+  steam:
+    id: 940240
+"Jake's Love Story":
+  cloud:
+    steam: true
+  files:
+    "<home>/.renpy/JLS":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/RenPy/JLS":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/RenPy/JLS":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    JakesLoveStory: {}
+  launch:
+    "<base>/JLS.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JLS.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JLS.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 699080
+"Jaleco Sports: Bases Loaded":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winAppData>/Sickhead/JalecoSports/<storeUserId>/*.sav":
+      when:
+        - store: steam
+    "<winAppData>/Sickhead/JalecoSports/<storeUserId>/saves/nes_bl/*.sav":
+      when:
+        - store: steam
+    "<winAppData>/Sickhead/JalecoSports/<storeUserId>/saves/snes_bl/*.sav":
+      when:
+        - store: steam
+  gog:
+    id: 1845258085
+  installDir:
+    Jaleco Sports Bases Loaded: {}
+  launch:
+    "<base>/JalecoSports.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3428080
+"Jaleco Sports: Goal!":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winAppData>/Sickhead/JalecoSports/<storeUserId>/*.cfg":
+      when:
+        - store: steam
+    "<winAppData>/Sickhead/JalecoSports/<storeUserId>/saves/nes_goal/*.sav":
+      when:
+        - store: steam
+    "<winAppData>/Sickhead/JalecoSports/<storeUserId>/saves/snes_goal/*.sav":
+      when:
+        - store: steam
+  gog:
+    id: 1824838352
+  installDir:
+    Jaleco Sports Goal: {}
+  launch:
+    "<base>/JalecoSports.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3399110
+Jalopy:
+  files:
+    "<home>/AppData/LocalLow/MinskWorks/Jalopy":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1268302405
+  installDir:
+    Jalopy: {}
+  launch:
+    "<base>/Jalopy.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/MinskWorks/Jalopy:
+      tags:
+        - config
+  steam:
+    id: 446020
+Jam Session VR:
+  installDir:
+    Jam Session VR: {}
+  steam:
+    id: 732480
+Jam Studio VR:
+  installDir:
+    Jam Studio VR: {}
+  steam:
+    id: 670130
+Jam Studio VR - Education & Health Care Edition:
+  installDir:
+    Jam Studio VR - Education & Health Care Edition: {}
+  steam:
+    id: 947490
+JamG:
+  installDir:
+    JamG: {}
+  launch:
+    "<base>/JamG.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 383010
+Jambo:
+  installDir:
+    Jambo: {}
+  launch:
+    "<base>/Jambo.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 777860
+"Jambo's Adventure":
+  steam:
+    id: 1026190
+"James Bond 007: Blood Stone":
+  files:
+    "<winLocalAppData>/bizarre creations/blood stone/profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/bizarre creations/blood stone/settings.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: james-bond-blood-stone
+  installDir:
+    007 Blood Stone: {}
+  launch:
+    "<base>/bond.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 42730
+"James Bond 007: Nightfire":
+  files:
+    "<winLocalAppData>/Gearbox Software/Nightfire/bond/SAVE":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Gearbox Software/Nightfire/bond/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+"James Cameron's Avatar: The Game":
+  files:
+    "<winDocuments>/My Games/AVATAR/GamerProfile.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/AVATAR/Saved Games/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: james-camerons-avatartm-the-game
+  installDir:
+    James Cameron Avatar: {}
+  launch:
+    "<base>/bin/Avatar.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 33280
+James Town Courier Frog MD:
+  installDir:
+    James Town Courier Frog MD: {}
+  launch:
+    "<base>/James Town Courier Frog MD.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1204760
+Jamestown+:
+  cloud:
+    steam: true
+  files:
+    "<home>/Saved Games/JamestownPlus":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Jamestown+: {}
+  launch:
+    "<base>/JamestownPlus.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 377950
+"Jamestown: Legend of the Lost Colony":
+  files:
+    "<home>/.jamestown":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    "<winDocuments>/Saved Games/Jamestown":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: jamestown
+  installDir:
+    Jamestown: {}
+  launch:
+    "<base>/Jamestown.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jamestown.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 94200
+"Jamie's Dream":
+  steam:
+    id: 708020
+Jammerball:
+  installDir:
+    Jammerball: {}
+  launch:
+    "<base>/Jammerball.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 658880
+Jamping:
+  steam:
+    id: 857840
+Jamsouls:
+  installDir:
+    Jamsouls: {}
+  launch:
+    "<base>/Jamsouls.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 314460
+"Jane Angel: Templar Mystery":
+  installDir:
+    Jane Angel Templar Mystery: {}
+  launch:
+    "<base>/Jane Angel - Templar Mystery.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 323270
+"Jane Austen's 8-bit Adventure":
+  files:
+    "<home>/.local/share/BitwiseReprise/JaneGame/user/*.*":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Containers/com.BitwiseReprise.Jane/Data/Library/Application Support/BitwiseReprise/JaneGame/user/*.*":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/BitwiseReprise/JaneGame/user/*.*":
+      when:
+        - store: steam
+  installDir:
+    "Jane Austen's 8-bit Adventure": {}
+  launch:
+    "<base>/Jane.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/jane":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/jane.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2377660
+Jane Westlake Adventures - The Mystery Train:
+  installDir:
+    Jane Westlake Adventures - The Mystery Train: {}
+  launch:
+    "<base>/Jane Westlake Adventures - The Mystery Train.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Jane Westlake Adventures - The Mystery Train.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/build-macos.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1158430
+"Jane's Advanced Strike Fighters":
+  id:
+    lutris: janes-advanced-strike-fighters
+  installDir:
+    Janes Advanced Strike Fighters: {}
+  launch:
+    "<base>/GameLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 207790
+"Jane's Attack Squadron":
+  files:
+    "<base>/combat.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/user.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+"Jane's F-15":
+  registry:
+    "HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Jane's Combat Simulations/F15/Config":
+      tags:
+        - config
+"Jane's Fighters Anthology":
+  files:
+    "<base>/PltXXX.p":
+      tags:
+        - save
+      when:
+        - os: windows
+"Jane's Fleet Command":
+  files:
+    "<base>/*.log":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Fleet Command.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/scenario/*.svc":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/scenario/*.svs":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Fleet Command: {}
+  launch:
+    "<base>/SteamRun.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2910
+"Jane's Realty":
+  installDir:
+    "Jane's Realty": {}
+  launch:
+    "<base>/JanesRealty.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 412440
+"Jane's USAF":
+  files:
+    "<base>/Pilots":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Pilots/*.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Pilots/Master/Player.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+Janga:
+  steam:
+    id: 1106700
+Janitor Bleeds:
+  gog:
+    id: 1509866704
+  id:
+    steamExtra:
+      - 1571300
+  installDir:
+    JANITOR BLEEDS: {}
+  launch:
+    "<base>/JANITOR BLEEDS.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1552310
+Janken Cards:
+  installDir:
+    Janken Cards: {}
+  launch:
+    "<base>/JankenCards.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JankenCards.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 527210
+Janky Tanks:
+  id:
+    steamExtra:
+      - 371070
+  installDir:
+    Janky Tanks: {}
+  launch:
+    "<base>/janky-tanks.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/janky-tanks.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 344220
+Janosik:
+  cloud:
+    gog: true
+  files:
+    "<winLocalAppData>/Janosik1ver1.6/User Data/Default":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Janosik1ver1.6/User Data/Default/IndexedDB":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Janosik1ver1.6/User Data/Default/Session Storage":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1813565692
+  installDir:
+    Janosik: {}
+  launch:
+    "<base>/Janosik 1":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Janosik 1.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Janosik 1.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1412170
+Janosik 2:
+  cloud:
+    steam: true
+  files:
+    "<home>/Saved Games/Janosik 2":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1120985759
+  installDir:
+    Janosik 2: {}
+  launch:
+    "<base>/Janosik 2":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Janosik 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1640400
+Janus VR:
+  installDir:
+    Janus VR: {}
+  launch:
+    "<base>/janusvr.exe":
+      - arguments: "-render 2d"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 602090
+Japan Girls:
+  steam:
+    id: 1303110
+Japan Stigmatized Property:
+  files:
+    "<home>/AppData/LocalLow/Loxarc/事故物件監視協会/savedata.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Loxarc/jsp/savedata.dat":
+      tags:
+        - save
+      when:
+        - os: mac
+  id:
+    lutris: japan-stigmatized-property
+  installDir:
+    JSP_Loxarc: {}
+  launch:
+    "<base>/Steam/jsp.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Steam/jsp.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Loxarc/事故物件監視協会:
+      tags:
+        - config
+  steam:
+    id: 3809110
+Japan Stigmatized Property 2:
+  files:
+    "<home>/AppData/LocalLow/Loxarc/jsp2/savedata.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Loxarc/jsp2/savedata.dat":
+      tags:
+        - save
+      when:
+        - os: mac
+  id:
+    lutris: japan-stigmatized-property-2
+  installDir:
+    JSP2_Loxarc: {}
+  launch:
+    "<base>/Steam/jsp2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Steam/jsp2.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Loxarc/jsp2:
+      tags:
+        - config
+  steam:
+    id: 4193270
+Japan Stigmatized Property 3:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Loxarc/jsp3/savedata.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Loxarc/jsp3/savedata.dat":
+      tags:
+        - save
+      when:
+        - os: mac
+  id:
+    lutris: japan-stigmatized-property-3
+  installDir:
+    日本事故物件監視協会3 -Japan Stigmatized Property-: {}
+  launch:
+    "<base>/Steam/jsp3.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Steam/jsp3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4611990
+"Japanese Rail Sim: Hakone Town of Natural Beauty and Hot Springs":
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/Japanese Rail Sim Hakone Town of Natural Beauty and Hot Springs/Steam/<storeUserId>/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    鉄道にっぽん！路線たびＥＸ 登山電車 小田急箱根編: {}
+  launch:
+    "<base>/Japanese Rail Sim Hakone Town of Natural Beauty and Hot Springs.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3145510
+"Japanese Rail Sim: Journey to Kyoto":
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/Japanese Rail Sim Journey to Kyoto/Steam/<storeUserId>/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Japanese Rail Sim Journey to Kyoto: {}
+  launch:
+    "<base>/Japanese Rail Sim Journey to Kyoto.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1761290
+Japanese School Life:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/CODEJP/SEKAIPROJECT/JAPANESE SCHOOL LIFE":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Japanese School Life Trial: {}
+  launch:
+    "<base>/JAPANESE SCHOOL LIFE.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 555640
+Japanese Women - Animated Jigsaws:
+  files:
+    "<home>/AppData/LocalLow/jp_co_bottlecube/Japanese Women - Animated Jigsaws/Achievements.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/jp_co_bottlecube/Japanese Women - Animated Jigsaws/OpenStatus.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/jp_co_bottlecube/Japanese Women - Animated Jigsaws/PuzzleRecords.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/jp_co_bottlecube/Japanese Women - Animated Jigsaws/Settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Japanese Women - Animated Jigsaws: {}
+  launch:
+    "<base>/Japanese_Women_Animated_Jigsaws.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Japanese_Women_Animated_Jigsaws.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/jp.co.bottlecube/Japanese Women - Animated Jigsaws:
+      tags:
+        - config
+  steam:
+    id: 617610
+Japocaliptyca/ Япокалиптика:
+  installDir:
+    Japocaliptyca: {}
+  launch:
+    "<base>/Japacaliptyca.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Japacaliptyca.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Japacaliptyca.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1112950
+Jaques Roque:
+  installDir:
+    Jaques Roque: {}
+  launch:
+    "<base>/Jaques Roque.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 344960
+Jar Battlers:
+  installDir:
+    Jar Battlers: {}
+  launch:
+    "<base>/JarBattlers.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 921050
+Jar Sam:
+  installDir:
+    Jar Sam: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 921850
+Jardinains!:
+  files:
+    "<base>/DATA":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/DATA/SAVE":
+      tags:
+        - save
+      when:
+        - os: windows
+Jardinains! 2:
+  files:
+    "<base>/data":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/data/players":
+      tags:
+        - save
+      when:
+        - os: windows
+Jarheads:
+  steam:
+    id: 661250
+Jars:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Library/Application Support/Daedalic Entertainment GmbH/Jars/GAMESAVE.json":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/Daedalic Entertainment GmbH/Jars/GAMESAVE.json":
+      when:
+        - store: steam
+    "<xdgData>/Daedalic Entertainment GmbH/Jars/GAMESAVE.json":
+      when:
+        - os: linux
+          store: steam
+  gog:
+    id: 1159645322
+  installDir:
+    JARS: {}
+  launch:
+    "<base>/Jars.app/Contents/MacOS/Jars":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jars.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Jars.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1590750
+Jasmine Summer:
+  files:
+    "<base>/savedata":
+      when:
+        - store: steam
+  installDir:
+    Jasmine Summer: {}
+  launch:
+    "<base>/JasmineSummer_茉莉之夏.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 913160
+"Jasper's Journeys":
+  files:
+    "<home>/.lexaloffle/Jasper's Journeys":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    "<winAppData>/Jasper's Journeys":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Jasper's Journeys/config.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+Javva Juice:
+  files:
+    "<base>/JavvaJuice_Data/StreamingAssets/*.dat":
+      when:
+        - store: steam
+  installDir:
+    Javva Juice: {}
+  launch:
+    "<base>/Javva Juice.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 524940
+Jawbreaker:
+  id:
+    lutris: jawbreaker--4
+    steamExtra:
+      - 2274660
+  installDir:
+    Jawbreaker: {}
+  launch:
+    "<base>/Jawbreaker.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2137460
+Jawns:
+  files:
+    "<winAppData>/Jawns":
+      tags:
+        - config
+      when:
+        - os: windows
+Jaws Unleashed:
+  files:
+    "<base>/pcrt.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+Jaws of Extinction:
+  cloud:
+    steam: true
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Jaws Of Extinction: {}
+  steam:
+    id: 617850
+"Jaws: Retro Edition":
+  cloud:
+    steam: true
+  files:
+    "<home>/Saved Games/Limited Run Games/Jaws":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Mouth: {}
+  launch:
+    "<base>/Jaws.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3977380
+Jaxon The Thief:
+  installDir:
+    Jaxon The Thief: {}
+  launch:
+    "<base>/JaxonTheThief":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/JaxonTheThief.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1113650
+"Jay Fighter: Remastered":
+  installDir:
+    Jay Fighter Remastered: {}
+  launch:
+    "<base>/JFR.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JFR.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Jay Fighter Remastered.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 665890
+Jay Walker:
+  installDir:
+    Jay Walker: {}
+  launch:
+    "<base>/jWalker.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 937320
+"Jay and Silent Bob: Chronic Blunt Punch":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Interabang Entertainment/Jay and Silent Bob_ Chronic Blunt Punch/*.jasbs":
+      when:
+        - store: steam
+  id:
+    lutris: jay-and-silent-bob-chronic-blunt-punch
+  installDir:
+    Jay and Silent Bob Chronic Blunt Punch: {}
+  launch:
+    "<base>/Jay and Silent Bob Chronic Blunt Punch.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1346290
+"Jay and Silent Bob: Mall Brawl":
+  cloud:
+    gog: true
+  files:
+    "<home>/AppData/LocalLow/Interabang Entertainment/Jay and Silent Bob_ Mall Brawl/jasb_SRAM.bin":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 2032359334
+  installDir:
+    Jay and Silent Bob Mall Brawl: {}
+  launch:
+    "<base>/Jay and Silent Bob Mall Brawl.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1087440
+Jazz Age:
+  cloud:
+    steam: true
+  installDir:
+    Jazz Age: {}
+  launch:
+    "<base>/Jazz Age.app/Contents/MacOS/Jazz Age":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JazzAge":
+      - arguments: "--no-sandbox"
+        when:
+          - os: linux
+            store: steam
+    "<base>/JazzAge.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1183280
+Jazz Jackrabbit:
+  cloud:
+    gog: true
+  files:
+    "<base>/CONFIG.000":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<base>/SAVE.*":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/SOUNDCRD.INF":
+      tags:
+        - config
+      when:
+        - os: dos
+  gog:
+    id: 1808582759
+  id:
+    lutris: jazz-jackrabbit
+Jazz Jackrabbit 2:
+  files:
+    "<base>/JAZZ2.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/SAVEGAME.*":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1917711239
+  id:
+    gogExtra:
+      - 1351891846
+      - 1597842603
+    lutris: jazz-jackrabbit-2
+"Jazz Lightning : Castle Dungeons":
+  installDir:
+    Jazz Lightning: {}
+  launch:
+    "<base>/Jazz Lightning  Castle Dungeons.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1179570
+Jazzpunk:
+  files:
+    "<home>/AppData/LocalLow/Necrophone Games/Jazzpunk":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Necrophone Games/Jazzpunk_ Director_s Cut":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Caches/unity.Necrophone Games.Jazzpunk":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Preferences/unity.Necrophone Games.Jazzpunk.plist":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<xdgConfig>/unity3d/Necrophone Games/Jazzpunk":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Necrophone Games/Jazzpunk/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Necrophone Games/Jazzpunk_ Director_s Cut/saveGame_*.txt":
+      tags:
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 1207660673
+  id:
+    gogExtra:
+      - 1666367612
+    lutris: jazzpunk
+    steamExtra:
+      - 649410
+  installDir:
+    Jazzpunk: {}
+  launch:
+    "<base>/linux/Jazzpunk.x86":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/mac/Jazzpunk.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/windows/Jazzpunk.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Necrophone Games/Jazzpunk:
+      tags:
+        - config
+    "HKEY_CURRENT_USER/Software/Necrophone Games/Jazzpunk: Director's Cut":
+      tags:
+        - config
+  steam:
+    id: 250260
+Jected - Rivals:
+  id:
+    steamExtra:
+      - 2347970
+      - 2347971
+      - 2532380
+  installDir:
+    Stuntfest: {}
+  launch:
+    "<base>/JectedRivals/JectedRivals.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1366850
+Jeeboman:
+  id:
+    steamExtra:
+      - 460180
+  installDir:
+    Jeeboman: {}
+  steam:
+    id: 392680
+"Jeff Wayne's The War of the Worlds":
+  files:
+    "<base>/SaveGame":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    "HKEY_LOCAL_MACHINE/SOFTWARE/Rage/Jeff Wayne's 'The War Of The Worlds'/1.00.000":
+      tags:
+        - config
+Jeklynn Heights:
+  installDir:
+    Jeklynn Heights: {}
+  launch:
+    "<base>/Binaries/Win32/UDK.exe":
+      - arguments: "-seekfreeloadingpc"
+        when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 246820
+Jekyll & Hyde:
+  files:
+    "<base>/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Cryo/Jekyll:
+      tags:
+        - config
+Jelly Blocks:
+  installDir:
+    Jelly Blocks: {}
+  launch:
+    "<base>/JellyBlocks.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1048850
+Jelly Bomber:
+  installDir:
+    Jelly Bomber: {}
+  launch:
+    "<base>/Jelly Bomber.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 828270
+Jelly Escape:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+  installDir:
+    Jelly Escape: {}
+  launch:
+    "<base>/jellyEscape.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 771860
+Jelly Killer:
+  installDir:
+    Jelly Killer: {}
+  launch:
+    "<base>/Jelly Killer.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jelly Killer.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/run.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 441670
+Jelly Wants More:
+  installDir:
+    Jelly Wants More: {}
+  launch:
+    "<base>/Jelly Wants More.app/Contents/MacOS/Jelly Wants More":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jelly Wants More.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 893040
+Jelly Wrestle:
+  installDir:
+    Jelly Wrestle: {}
+  launch:
+    "<base>/Jelly Wrestle.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 886780
+Jelly in the sky:
+  installDir:
+    Jelly in the Sky: {}
+  launch:
+    "<base>/JellyInTheSky.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/JellyInTheSky32.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 593530
+JellyCar Worlds:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Walaber/Jellycar Worlds":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    JellyCar Worlds: {}
+  launch:
+    "<base>/linux/JellyCar Worlds.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/windows/JellyCar Worlds.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1740930
+JellyNoid:
+  steam:
+    id: 733190
+Jellyfish:
+  installDir:
+    Jellyfish: {}
+  launch:
+    "<base>/Jellyfish.app/Contents/MacOS/Jellyfish":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jellyfish.exe":
+      - arguments: "-windowed"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 700440
+Jellyfish Season:
+  id:
+    steamExtra:
+      - 938550
+  installDir:
+    Jellyfish Season: {}
+  launch:
+    "<base>/JellyfishSeason.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 937980
+Jellyfish the Ghost:
+  installDir:
+    JellyfishTheGhost: {}
+  launch:
+    "<base>/JellyfishTheGhost/JellyfishTheGhost.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 922510
+Jellyphant Escape:
+  steam:
+    id: 1043750
+Jengo:
+  steam:
+    id: 671430
+Jenny LeClue - Detectivu:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Mografi/Jenny LeClue/*.jlc":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Mografi/Jenny LeClue/*.jlc":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Containers/Jenny LeClue/Data/Library/Application Support/com.mografi.jlcdmac":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<xdgConfig>/unity3d/Mografi/Jenny LeClue/*.jlc":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Mografi/Jenny LeClue/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
+  gog:
+    id: 1285204674
+  id:
+    lutris: jenny-leclue-detectivu
+  installDir:
+    Jenny LeClue - Detectivu: {}
+  launch:
+    "<base>/Jenny LeClue - Detectivu.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jenny LeClue - Detectivu/Jenny LeClue - Detectivu.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Jenny LeClue - Detectivu/Jenny LeClue - Detectivu.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Jenny LeClue - Detectivu/Jenny LeClue.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Mografi/Jenny LeClue:
+      tags:
+        - config
+  steam:
+    id: 319870
+Jera:
+  installDir:
+    Jera: {}
+  launch:
+    "<base>/Jera.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1132860
+JermaSlots:
+  files:
+    "<winLocalAppData>/JermaSlots/Saved/SaveGames/jermaStatsSave.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    JermaSlots: {}
+  launch:
+    "<base>/JermaSlots.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1032520
+"Jerry Rice & Nitus' Dog Football":
+  installDir:
+    Jerry Rice Nitus Dog Football: {}
+  launch:
+    "<base>/bin/Dog Football.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/bin"
+  steam:
+    id: 438660
+Jerry and the Mystery Loot Box:
+  installDir:
+    Jerry and the mystery loot box: {}
+  launch:
+    "<base>/Jerry and the mystery loot box.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 782700
+Jersey Devil:
+  files:
+    "<base>/bin/SAVEGAME.DAT":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/bin/config.pc":
+      tags:
+        - config
+      when:
+        - os: windows
+Jesters Poker:
+  installDir:
+    Jesters Poker: {}
+  launch:
+    "<base>/Jesters Poker.app/Contents/MacOS/content":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jesters Poker.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 800840
+Jesus Christ RPG Trilogy:
+  cloud:
+    steam: true
+  files:
+    "<base>/'.'/**/*.rvdata2":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 455451
+  installDir:
+    Jesus Christ RPG: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 449040
+Jesus vs Muhammad:
+  steam:
+    id: 858310
+Jet Ant:
+  installDir:
+    Jet Ant: {}
+  launch:
+    "<base>/Jet Ant.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 869850
+Jet Buster:
+  cloud:
+    steam: true
+  files:
+    "<base>/**/*.jbr":
+      when:
+        - store: steam
+  installDir:
+    Jet Buster: {}
+  launch:
+    "<base>/Jet_Buster.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 618070
+Jet Car Stunts:
+  cloud:
+    steam: true
+  installDir:
+    JetCarStunts: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 274880
+Jet Gunner:
+  installDir:
+    Jet Force: {}
+  launch:
+    "<base>/jetgunner.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 314250
+Jet Hero:
+  cloud:
+    steam: true
+  files:
+    "<base>/JetHero_Data/layout/*.ini":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/JetHeroMac.app/Contents/layout/*.ini":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    JET HERO: {}
+  launch:
+    "<base>/JetHero.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JetHeroMac.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 586060
+Jet Island:
+  cloud:
+    steam: true
+  installDir:
+    Jet Island: {}
+  steam:
+    id: 587220
+Jet Kave Adventure:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/7Levels/Jet Kave Adventure":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1084856569
+  installDir:
+    Jet Kave Adventure: {}
+  launch:
+    "<base>/JetKaveAdventure.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1383700
+Jet Lancer:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Library/Application Support/com.nicolaigd.jetlancer/*.ini":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/JetLancer/*.ini":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1489231569
+  installDir:
+    JetLancer: {}
+  launch:
+    "<base>/JetLancer.app/Contents/MacOS/JetLancer":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 913060
+Jet Racing Extreme:
+  installDir:
+    JReX: {}
+  launch:
+    "<base>/jrex.app/Contents/MacOS/jrex":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/jrex.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/jrex.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/jrex.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/SRJ Studio/JReX:
+      tags:
+        - config
+  steam:
+    id: 385270
+Jet Set Knights:
+  installDir:
+    Jet Set Knights: {}
+  launch:
+    "<base>/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 405550
+Jet Set Radio:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/205950/local":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<root>/userdata/<storeUserId>/205950/remote":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: jet-set-radio
+  installDir:
+    Jet Set Radio: {}
+  launch:
+    "<base>/jetsetradio.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/jsrsetup.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 205950
+Jet-Story 2018:
+  installDir:
+    Jet-Story 2018: {}
+  launch:
+    "<base>/JetStory.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 872700
+JetBall Arena:
+  installDir:
+    JetBall Arena: {}
+  launch:
+    "<base>/jetBallArena.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1008890
+JetFighter 2015:
+  id:
+    lutris: jetfighter-2015
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/City Interactive/Jet Fighter 6:
+      tags:
+        - config
+"JetFighter V: Homeland Protector":
+  files:
+    "<base>/Config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Pilots.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+JetFly:
+  files:
+    "<winAppData>/MMFApplications/Fb.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "The Dark Age I  Zordon's Empire": {}
+  launch:
+    "<base>/2ndFinal ND.exe":
+      - arguments: Launch Game
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 683810
+JetX:
+  cloud:
+    steam: true
+  installDir:
+    JetX: {}
+  launch:
+    "<base>/JetX/Binaries/Win64/JetX.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 684620
+JetX Space Edition:
+  installDir:
+    JetX Space Edition: {}
+  launch:
+    "<base>/JetX/Binaries/Win64/JetX.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1073640
+Jetball:
+  files:
+    "<winLocalAppData>/Jetball/Saved/Config/WindowsNoEditor/Input.ini":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Jetball: {}
+  launch:
+    "<base>/Jetball-Mac-Shipping.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jetball.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Jetball.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 666590
+Jetboard Joust:
+  installDir:
+    JetboardJoust: {}
+  launch:
+    "<base>/JetboardJoust":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/JetboardJoust.Steam.MacOS.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JetboardJoust.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1181600
+"Jetboard Joust : Next-Generation Retro":
+  alias: Jetboard Joust
+Jetboy:
+  files:
+    "<home>/AppData/LocalLow/GameOverDog/JETBOY/*.binary":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/gameoverdog.jetboy/*.binary":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    JETBOY: {}
+  launch:
+    "<base>/JETBOY.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JETBOY/JETBOY.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1090020
+Jetlad:
+  installDir:
+    Jetlad: {}
+  launch:
+    "<base>/Jetlad.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1071600
+JetmanGo:
+  installDir:
+    JetmanGo: {}
+  launch:
+    "<base>/JetmanGo.exe":
+      - arguments: Sanctuary_Start?listen -FeatureLevelES31
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 665120
+Jetpack:
+  files:
+    "<base>/JETPACK.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<base>/SAVEGAME.DAT":
+      tags:
+        - save
+      when:
+        - os: dos
+Jetpack Dog:
+  id:
+    steamExtra:
+      - 880480
+  installDir:
+    Jetpack Dog: {}
+  launch:
+    "<base>/Jetpack.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 880370
+Jetpack Joyride:
+  files:
+    "<winLocalAppData>/Packages/HalfbrickStudiosPtyLtd.JetpackJoyride_w77bc8x1h5kya/LocalState":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+Jetpack Porter:
+  cloud:
+    steam: true
+  installDir:
+    JETPACK PORTER: {}
+  launch:
+    "<base>/JetpackPorter.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 558020
+Jetrunner:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/JETRUNNER/Saved/SaveGames/<storeUserId>/FlashSaveGameNew.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/JETRUNNER/Saved/SaveGames/<storeUserId>/JetSaveGame.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/JETRUNNER/Saved/SaveGames/<storeUserId>/Replays/Records/**/*.jetreplay":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/JETRUNNER/Saved/SaveGames/<storeUserId>/Replays/RecordsNew/**/*.jetreplay":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: jetrunner
+  installDir:
+    JETRUNNER: {}
+  steam:
+    id: 2865670
+"Jets'n'Guns":
+  files:
+    "<base>/Game.cfg":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<winDocuments>/JnGGold/Game.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/JnGGold/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: jetsnguns-gold
+  installDir:
+    JnG Gold: {}
+  launch:
+    "<base>/Jets'n'Guns Gold.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/jng_gold":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/jng_gold.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 262260
+"Jets'n'Guns 2":
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/jng2":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/jng2/game.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    "Jets'n'Guns 2": {}
+  launch:
+    "<base>/JnG2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 830820
+Jetstream:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/Clockwork Acorn/Jetstream/storage.achievements.sol":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/Clockwork Acorn/Jetstream/storage.progress.sol":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/Clockwork Acorn/Jetstream/storage.stats.sol":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Clockwork Acorn/Jetstream/storage.achievements.sol":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Clockwork Acorn/Jetstream/storage.progress.sol":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Clockwork Acorn/Jetstream/storage.stats.sol":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Clockwork Acorn/Jetstream/storage.achievements.sol":
+      when:
+        - store: steam
+    "<winAppData>/Clockwork Acorn/Jetstream/storage.progress.sol":
+      when:
+        - store: steam
+    "<winAppData>/Clockwork Acorn/Jetstream/storage.stats.sol":
+      when:
+        - store: steam
+  installDir:
+    Jetstream: {}
+  launch:
+    "<base>/Jetstream.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jetstream.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Jetstream.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 738860
+"Jett: The Far Shore":
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Superbrothers and Pine Scented/JETT_ The Far Shore":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    JETT The Far Shore: {}
+  launch:
+    "<base>/JETT The Far Shore.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1761600
+"Jettomero: Hero of the Universe":
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/676480/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 682240
+  installDir:
+    Jettomero: {}
+  launch:
+    "<base>/Jettomero.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jettomero.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Jettomero.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Jettomero.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 676480
+Jewel Bits:
+  installDir:
+    Jewel bits: {}
+  launch:
+    "<base>/jewelbits.app/Contents/MacOS/jewelbits":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/jewelbits.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 414140
+"Jewel Match Atlantis Solitaire - Collector's Edition":
+  installDir:
+    "Jewel Match Atlantis Solitaire - Collector's Edition": {}
+  launch:
+    "<base>/JewelMatchSolitaireAtlantis.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1126470
+Jewel Match Solitaire:
+  files:
+    "<winDocuments>/JewelMatchSolitaireWinterSteam":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Jewel Match Solitaire: {}
+  launch:
+    "<base>/JewelMatchSolitaire.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 886070
+Jewel Match Solitaire 2:
+  installDir:
+    "Jewel Match Solitaire 2 Collector's Edition": {}
+  launch:
+    "<base>/Jewel Match Solitaire 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1035770
+"Jewel Match Solitaire L'Amour":
+  installDir:
+    "Jewel Match Solitaire L'Amour": {}
+  launch:
+    "<base>/Jewel Match Solitaire LAmour.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1009700
+Jewel Match Solitaire Winterscapes:
+  installDir:
+    Jewel Match Solitaire Winterscapes: {}
+  launch:
+    "<base>/JewelMatchSolitaireWinterscapes.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 993780
+Jewel Match Twilight Solitaire:
+  installDir:
+    Jewel Match Twilight Solitaire: {}
+  launch:
+    "<base>/JewelMatchTwilightSolitaire.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 918670
+Jewel Puzzle Click:
+  installDir:
+    Jewel Puzzle Click: {}
+  launch:
+    "<base>/JewelPuzzleClick.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 995700
+Jewel Quest:
+  installDir:
+    Jewel Quest: {}
+  launch:
+    "<base>/JewelQuest.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 37960
+Jewel Quest II:
+  installDir:
+    Jewel Quest 2: {}
+  launch:
+    "<base>/JewelQuest2.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 37970
+Jewel Quest III:
+  installDir:
+    Jewel Quest 3: {}
+  launch:
+    "<base>/JewelQuest3.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 37980
+"Jewel Quest Mysteries: Curse of the Emerald Tear":
+  installDir:
+    Jewel Quest Mysteries: {}
+  launch:
+    "<base>/EmeraldTear.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 37990
+Jewel Quest Seven Seas:
+  installDir:
+    "Jewel Quest Seven Seas Collector's Edition": {}
+  launch:
+    "<base>/jewelquest_sevenseas.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/jq7_steam.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 540360
+Jewel Tree:
+  installDir:
+    Jewel Tree: {}
+  launch:
+    "<base>/JewelTree.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 938630
+Jewel Venture:
+  installDir:
+    Jewel Venture: {}
+  launch:
+    "<base>/Jewel Venture.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 656890
+Jewel of WonderLand:
+  installDir:
+    Jewel of WonderLand: {}
+  launch:
+    "<base>/Jewel of WonderLand.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 716850
+Jewels of the Mysterious Woodland:
+  installDir:
+    Jewels of the Mysterious Woodland: {}
+  launch:
+    "<base>/Jewels of the Mysterious Woodland.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 685370
+"Jey's Empire":
+  installDir:
+    "J.Edgar Hoover's FBI": {}
+  launch:
+    "<base>/Jey's Empire.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JeysEmpire.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JeysEmpire.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1051420
+JiPS:
+  registry:
+    HKEY_CURRENT_USER/Software/Trazzy Entertainment/JIPS:
+      tags:
+        - config
+        - save
+  steam:
+    id: 454460
+Jida Chronicle Chaos Frontier:
+  installDir:
+    ChaosFrontier: {}
+  steam:
+    id: 753960
+Jidousha Shakai:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/CloudWeight/Jidousha Shakai":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/CloudWeight/Jidousha Shakai/*.ini":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Jidousha Shakai: {}
+  launch:
+    "<base>/jshakai.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 611800
+"Jigoku Kisetsukan: Sense of the Seasons":
+  files:
+    "<winLocalAppData>/Jigoku_Kisetsukan/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Jigoku_Kisetsukan/save.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: jigoku-kisetsukan-sense-of-the-seasons
+  installDir:
+    Jigoku Kisetsukan: {}
+  launch:
+    "<base>/Jigoku_Kisetsukan.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 368950
+Jigsaw 360:
+  installDir:
+    Jigsaw 360: {}
+  steam:
+    id: 836610
+Jigsaw Masterpieces:
+  id:
+    steamExtra:
+      - 1011100
+      - 1013780
+  installDir:
+    Jigsaw Masterpieces: {}
+  launch:
+    "<base>/JigsawMasterpieces.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JigsawMasterpieces.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 977490
+Jigsaw Novel - Futanari Nurse:
+  installDir:
+    Jigsaw Novel - Futanari Nurse: {}
+  launch:
+    "<base>/Jigsaw Novel - Futanari Nurse.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1948650
+Jigsaw Puzzle - Futanari Roomate:
+  installDir:
+    Jigsaw Puzzle - Futanari Roomate: {}
+  launch:
+    "<base>/Jigsaw Puzzle - Futanari Roomate.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2067750
+Jigsaw Puzzle - Pro Edition:
+  installDir:
+    Jigsaw Puzzle - Pro Edition: {}
+  launch:
+    "<base>/Jigsaw Puzzle - Pro Edition.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1143800
+Jigsaw Puzzle Cats:
+  steam:
+    id: 1156070
+Jigsaw Puzzle Girls - Anime:
+  steam:
+    id: 1156080
+Jigsaw Puzzles:
+  installDir:
+    Watercolour Jigsaw Puzzles: {}
+  steam:
+    id: 707850
+Jigsaw Women:
+  steam:
+    id: 1156090
+Jigsaw Women 2:
+  steam:
+    id: 1156100
+Jigsaw puzzle - Evolution:
+  installDir:
+    Jigsaw puzzle - Evolution: {}
+  launch:
+    "<base>/Jigsaw Puzzle - Evolution.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Jigsaw Puzzle - Evolution.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/MacPro.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1153030
+JigsawMania:
+  installDir:
+    JigsawMania: {}
+  launch:
+    "<base>/JigsawMania.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 729740
+Jill of the Jungle:
+  cloud:
+    gog: true
+  gog:
+    id: 1129701343
+"Jill of the Jungle: Jill Goes Underground":
+  cloud:
+    gog: true
+  gog:
+    id: 1129701343
+"Jill of the Jungle: Jill Saves the Prince":
+  cloud:
+    gog: true
+  gog:
+    id: 1129701343
+Jim Bourke Airshow Trainer:
+  cloud:
+    steam: true
+  steam:
+    id: 1024740
+Jim Is Moving Out!:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/CINEMAX, s_r_o_/JIMO/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Jim is Moving Out!: {}
+  launch:
+    "<base>/JIMO.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 643940
+"Jim Power: The Lost Dimension":
+  gog:
+    id: 1480170019
+  installDir:
+    Jim Power Lost Dimension: {}
+  launch:
+    "<base>/DOSBox.app/Contents/MacOS/dosbox":
+      - arguments: "-conf JimPower.conf -noconsole -c"
+        when:
+          - os: mac
+            store: steam
+    "<base>/DOSBox.exe":
+      - arguments: "-conf JimPower.conf -noconsole -c"
+        when:
+          - os: windows
+            store: steam
+    "<base>/dosbox":
+      - arguments: "-conf JimPower.conf -noconsole -c"
+        when:
+          - os: linux
+            store: steam
+    "<base>/nes_jim_power/jim power.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/smd_jim_power/jim power.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/snes_jim_power/jim power.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 370270
+Jimmy Kamikaze:
+  steam:
+    id: 918370
+"Jimmy Neutron: Boy Genius":
+  files:
+    "<base>/JimmyGameX.tsk":
+      tags:
+        - save
+      when:
+        - os: windows
+Jimmy and the Pulsating Mass:
+  files:
+    "<base>/*.rvdata2":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Jimmy and the Pulsating Mass: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Jimmy and the Pulsating Mass.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 706560
+Jin Lin Love Story:
+  installDir:
+    JIN LIN LOVE STORY P: {}
+  launch:
+    "<base>/JLLS.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 896190
+Jinga Online:
+  installDir:
+    Jinga Online: {}
+  launch:
+    "<base>/Jinga Online.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1166760
+Jingle:
+  installDir:
+    Jingle: {}
+  launch:
+    "<base>/Jingle.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 763810
+Jinxed:
+  installDir:
+    Jinxed: {}
+  steam:
+    id: 1063850
+Jisei:
+  files:
+    "<winAppData>/RenPy/jisei/*.save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/renpy/jiseinew-1459530778/*.save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/renpy/jiseinew-1459530778/persistent":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Jisei: {}
+  launch:
+    "<base>/jisei.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/jisei.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/jisei.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 754460
+Jitsu Squad:
+  files:
+    "<winLocalAppData>/Jitsu_Squad/Save.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Jitsu Squad: {}
+  launch:
+    "<base>/Jitsu Squad.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1522080
+"JoJo Siwa: Worldwide Party":
+  installDir:
+    Jojo Siwa Worldwide Party: {}
+  launch:
+    "<base>/JojoSiwaWorldParty.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1910300
+"JoJo's Bizarre Adventure: All Star Battle R":
+  cloud:
+    steam: true
+  files:
+    "<base>/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/1372110/remote":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "JoJo's Bizarre Adventure All-Star Battle R": {}
+  launch:
+    "<base>/start_protected_game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1372110
+Joan Jade and the Gates of Xibalba:
+  installDir:
+    Joan Jade and the Gates of Xibalba: {}
+  launch:
+    "<base>/JoanJade.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1038640
+Joan of Arc：The Beginning:
+  steam:
+    id: 1212580
+"Joana's Life":
+  installDir:
+    "Joana's Life": {}
+  launch:
+    "<base>/JohanasLife.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 513740
+Job Simulator:
+  files:
+    "<home>/AppData/LocalLow/Owlchemy Labs/Job Simulator/User":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Job Simulator: {}
+  registry:
+    HKEY_CURRENT_USER/Software/Owlchemy Labs/Job Simulator:
+      tags:
+        - config
+  steam:
+    id: 448280
+Job the Leprechaun:
+  installDir:
+    Job the Leprechaun: {}
+  launch:
+    "<base>/Job the Leprechaun.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Job_the_Leprechaun_STEAM":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Job_the_Leprechaun_STEAM.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 386420
+Jobous the Alien R:
+  installDir:
+    Jobous the alien R: {}
+  launch:
+    "<base>/Jobous the alien R.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 695320
+Jockey Rush:
+  installDir:
+    Jockey Rush: {}
+  launch:
+    "<base>/jr.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 500680
+Joe & Mac Retro Collection:
+  steam:
+    id: 3672840
+Joe & Mac Returns:
+  gog:
+    id: 1274608754
+  installDir:
+    Retro Classix Joe and Mac Returns: {}
+  launch:
+    "<base>/Retro Classix Joe and Mac Returns.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1627150
+"Joe & Mac: Caveman Ninja":
+  id:
+    lutris: joe-and-mac-caveman-ninja
+"Joe & Mac: Caveman Ninja (2021)":
+  alias: "Joe & Mac: Caveman Ninja (Retro Classix)"
+"Joe & Mac: Caveman Ninja (Retro Classix)":
+  cloud:
+    gog: true
+  gog:
+    id: 1715681064
+  installDir:
+    Retro Classix Joe & Mac - Caveman Ninja: {}
+  launch:
+    "<base>/Retro Classix Joe and Mac.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1540410
+Joe Blunt - Up In Smoke:
+  installDir:
+    Joe Blunt Up In Smoke: {}
+  launch:
+    "<base>/Joe Blunt Up In Smoke.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1146000
+Joe Danger:
+  cloud:
+    steam: true
+  files:
+    "<base>/GameData/SaveGamesJD1/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Joe Danger: {}
+  launch:
+    "<base>/BIN/JD1Launcher":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/BIN"
+    "<base>/Joe Danger.app":
+      - when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/../../MacOS"
+    "<base>/bin/JD1Launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/bin"
+  steam:
+    id: 229890
+"Joe Danger 2: The Movie":
+  cloud:
+    steam: true
+  files:
+    "<base>/GAMEDATA/SAVEGAMESJD2/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
+    "<base>/GAMEDATA/SETTINGS.BIN":
+      tags:
+        - config
+      when:
+        - os: windows
+        - os: linux
+    "<root>/userdata/<storeUserId>/242110/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  installDir:
+    Joe Danger 2 The Movie: {}
+  launch:
+    "<base>/BIN/JD2Launcher":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/BIN"
+    "<base>/Joe Danger 2 The Movie.app":
+      - when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/../../MacOS"
+    "<base>/bin/JD2Launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/bin"
+  steam:
+    id: 242110
+"Joe Dever's Lone Wolf HD Remastered":
+  cloud:
+    steam: true
+  files:
+    "<base>/savegames/LWApplication.json":
+      when:
+        - store: steam
+    "<base>/savegames/savegame_000.json":
+      when:
+        - store: steam
+    "<base>/savegames/savegame_001.json":
+      when:
+        - store: steam
+    "<base>/savegames/savegame_002.json":
+      when:
+        - store: steam
+  installDir:
+    Joe Dever’s Lone Wolf: {}
+  launch:
+    "<base>/lonewolf.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/lonewolf.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 279440
+Joe Jump Impossible Quest:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Forsaken Games/Joe Jump/SavesDir/<storeUserId>/*.sf":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Joe Jump: {}
+  launch:
+    "<base>/Joe Jump.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1020430
+Joe Wander and the Enigmatic Adventures:
+  cloud:
+    steam: true
+  files:
+    "<base>/Joe Wander_Data/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Joe Wander: {}
+  launch:
+    "<base>/Joe Wander.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2063310
+"Joe's Diner":
+  installDir:
+    "Joe's Diner": {}
+  launch:
+    "<base>/JoesDiner.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JoesDiner.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JoesDiner.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 346040
+"Joe's Fists":
+  installDir:
+    "乔乔的铁拳 Joe's Fists": {}
+  steam:
+    id: 1200060
+"Joe's Wrath":
+  installDir:
+    "Joe's Wrath": {}
+  launch:
+    "<base>/Joe's Wrath.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JoesWrathMacOS.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 956280
+"Joel Mayer's Purgatory":
+  steam:
+    id: 1137480
+Joggernauts:
+  files:
+    "<home>/AppData/LocalLow/Space Mace/Joggernauts":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Joggernauts: {}
+  launch:
+    "<base>/joggernauts.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/joggernauts.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Space Mace/Joggernauts:
+      tags:
+        - config
+  steam:
+    id: 747620
+"John Black: Memories":
+  installDir:
+    John Black Memories: {}
+  launch:
+    "<base>/John Black Memories.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 915380
+"John Carpenter's Toxic Commando":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Saber/Toxic Commando/storage/EOS/user/<storeUserId>/Main/config":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: epic
+    "<winLocalAppData>/Saber/Toxic Commando/storage/platform/config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Saber/Toxic Commando/storage/steam/user/<storeUserId>/Main/config":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: john-carpenters-toxic-commando
+  installDir:
+    "John Carpenter's Toxic Commando": {}
+  launch:
+    "<base>/client_pc/root/bin/pc/John Carpenter's Toxic Commando.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/client_pc/root/bin/pc"
+  steam:
+    id: 2157830
+"John Daly's ProStroke Golf":
+  files:
+    "<winAppData>/John Daly's Pro Stroke Golf 2010/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/John Daly's Pro Stroke Golf 2010/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Oxygen/ProStroke:
+      tags:
+        - config
+"John Deere: American Builder Deluxe":
+  files:
+    "<base>/Data/Games/*.xml":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Game.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+"John Deere: American Farmer":
+  files:
+    "<base>/JohnDeere.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+"John Deere: American Farmer Deluxe":
+  files:
+    "<base>/Data/Games/*.xml":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/JohnDeere.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+"John Deere: Drive Green":
+  files:
+    "<base>/Drive Green/Profile01/Profile01.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Drive Green/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    John Deere Drive Green: {}
+  launch:
+    "<base>/DriveGreen1.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 33740
+"John Deere: North American Farmer":
+  files:
+    "<base>/Data/Games":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/JohnDeere.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+John Dungeon:
+  installDir:
+    John Dungeon: {}
+  launch:
+    "<base>/johndungeon.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 766970
+"John Lazarus - Episode 1: Dead Man's Origin":
+  installDir:
+    John Lazarus - Episode 1: {}
+  steam:
+    id: 776040
+John Mambo:
+  installDir:
+    John Mambo: {}
+  launch:
+    "<base>/JohnMambo.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 849280
+John Wick Chronicles:
+  files:
+    "<winLocalAppData>/wick/Saved":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    johnwick: {}
+  steam:
+    id: 382360
+John Wick Hex:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Bithell Games/John Wick Hex":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Bithell Games/John Wick Hex/settings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    John Wick Hex: {}
+  launch:
+    "<base>/John Wick Hex.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/JohnWickHex.app/Contents/MacOS/JohnWickHex":
+      - when:
+          - os: mac
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Bithell Games/John Wick Hex:
+      tags:
+        - config
+  steam:
+    id: 1405790
+"John's Wizard Dungeon":
+  installDir:
+    "John's Wizard Tower": {}
+  steam:
+    id: 1093750
+"John, The Zombie":
+  installDir:
+    "John, The Zombie": {}
+  launch:
+    "<base>/john the zombie.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 741500
+"John:Condemned":
+  installDir:
+    JohnCondemned: {}
+  launch:
+    "<base>/JohnCondemned.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 959170
+Johnny Bung:
+  steam:
+    id: 854340
+"Johnny Graves: The Unchosen One":
+  files:
+    "<winLocalAppData>/Stupid Stupid Games/Johnny Graves - The Unchosen One/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Johnny Graves—The Unchosen One: {}
+  launch:
+    "<base>/Johnny Graves The Unchosen One.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 476030
+Johns.game:
+  installDir:
+    johnsgame: {}
+  launch:
+    "<base>/johnsgame.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 597240
+Join Us:
+  cloud:
+    steam: true
+  steam:
+    id: 3401960
+"Joint Operations: Typhoon Rising":
+  id:
+    lutris: joint-operations-typhoon-rising
+  installDir:
+    Joint Operations Combined Arms: {}
+  launch:
+    "<base>/runme.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 32770
+Joint Task Force:
+  files:
+    "<base>/Profiles/<storeUserId>":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<base>/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: joint-task-force
+  installDir:
+    Joint Task Force: {}
+  launch:
+    "<base>/jtf.exe":
+      - when:
+          - store: steam
+    "<base>/workshop.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 6400
+Jolly Battle:
+  cloud:
+    steam: true
+  installDir:
+    Jolly Battle: {}
+  launch:
+    "<base>/Jb.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jb.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Jb.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/jb.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 824620
+Jolly Riot:
+  steam:
+    id: 882870
+Jolly Rover:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Brawsome/rover":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    JollyRover: {}
+  launch:
+    "<base>/JollyRover.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/jolly_rover.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 58200
+Jomp the Jumper:
+  installDir:
+    Jomp The Jumper: {}
+  launch:
+    "<base>/Jomp The Jumper.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Jomp The Jumper.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1113210
+"Jon Shafer's At the Gates":
+  files:
+    "<base>/Saved Games":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Settings":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/Library/Application Support/AtTheGates/Saved Games":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/AtTheGates/Settings":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<xdgData>/AtTheGates/Saved Games":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/AtTheGates/Settings":
+      tags:
+        - config
+      when:
+        - os: linux
+  installDir:
+    "Jon Shafer's At the Gates": {}
+  launch:
+    "<base>/At The Gates.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/At the Gates.app/Contents/MacOS/AtTheGates":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/AtTheGates":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 241000
+Jonah Lomu Rugby Challenge 4:
+  cloud:
+    steam: true
+  installDir:
+    Jonah Lomu Rugby Challenge 4: {}
+  launch:
+    "<base>/Rugby.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3251300
+"Jonah's Path":
+  installDir:
+    JonahsPath: {}
+  launch:
+    "<base>/JonahsPath_VIVE.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 493810
+Jones on Fire:
+  id:
+    steamExtra:
+      - 350260
+  installDir:
+    Jones On Fire: {}
+  launch:
+    "<base>/JonesOnFire.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JonesOnFire.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Glass Bottom Games/Jones On Fire:
+      tags:
+        - config
+        - save
+  steam:
+    id: 270810
+Jorji and Impossible Forest:
+  installDir:
+    Jorji and Impossible Forest: {}
+  launch:
+    "<base>/jorji.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 883190
+Jormungandr:
+  files:
+    "<base>/Jormungandr_Data/progress.dat":
+      when:
+        - os: windows
+          store: steam
+        - os: linux
+          store: steam
+  installDir:
+    Jormungandr: {}
+  launch:
+    "<base>/Jormungandr.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1037470
+Joshua and the Battle of Jericho:
+  installDir:
+    Spiritual Warfare & Wisdom Tree Collection: {}
+  launch:
+    "<base>/DOSBox.app/Contents/MacOS/DOSBox":
+      - arguments: "-conf ../Conf/exodus.cfg -noconsole"
+        when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/DOS"
+      - arguments: "-conf ../Conf/joshua.cfg -noconsole"
+        when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/DOS"
+      - arguments: "-conf ../Conf/spirit.cfg -noconsole"
+        when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/DOS"
+      - arguments: "-conf ../Conf/bibleunix.cfg -noconsole"
+        when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/DOS"
+    "<base>/dosbox":
+      - arguments: "-conf ../Conf/spirit.cfg -noconsole"
+        when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/DOS"
+      - arguments: "-conf ../Conf/bibleunix.cfg -noconsole"
+        when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/DOS"
+      - arguments: "-conf ../Conf/exodus.cfg -noconsole"
+        when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/DOS"
+      - arguments: "-conf ../Conf/joshua.cfg -noconsole"
+        when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/DOS"
+    "<base>/dosbox.exe":
+      - arguments: "-conf ../Conf/spirit.cfg -noconsole"
+        when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/DOS"
+      - arguments: "-conf ../Conf/bible.cfg -noconsole"
+        when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/DOS"
+      - arguments: "-conf ../Conf/exodus.cfg -noconsole"
+        when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/DOS"
+      - arguments: "-conf ../Conf/joshua.cfg -noconsole"
+        when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/DOS"
+  steam:
+    id: 624550
+"Josie's Tank":
+  installDir:
+    "Josie's Tank": {}
+  launch:
+    "<base>/Josie's Tank.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1149830
+Jotun:
+  cloud:
+    origin: true
+    steam: true
+    uplay: true
+  files:
+    "<home>/.config/unity3d/Thunder Lotus Games/Jotun":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/Thunder Lotus Games/Jotun":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1458127099
+  id:
+    lutris: jotun
+    steamExtra:
+      - 406470
+  installDir:
+    Jotun: {}
+  launch:
+    "<base>/Jotun.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jotun.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "-force-d3d9"
+        when:
+          - os: windows
+            store: steam
+    "<base>/Jotun.x86":
+      - when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Thunder Lotus Games/Jotun:
+      tags:
+        - config
+  steam:
+    id: 323580
+"Jotunnslayer: Hordes of Hel":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Games Farm/Jotunnslayer/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: epic
+  gog:
+    id: 1487122154
+  id:
+    gogExtra:
+      - 1204420157
+      - 1499687734
+      - 1505447751
+      - 1691429717
+      - 1710518481
+      - 2102768586
+      - 2119625893
+    steamExtra:
+      - 3400400
+      - 3424590
+      - 3431390
+      - 3883640
+      - 3921120
+  installDir:
+    Jotunnslayer Hordes of Hel: {}
+  launch:
+    "<base>/Jotunnslayer.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2820820
+Joumee the Hedgehog:
+  installDir:
+    Joumee: {}
+  launch:
+    "<base>/Joumee.app/Contents/MacOS/Joumee":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Joumee.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 673220
+Journal:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Journal: {}
+  launch:
+    "<base>/Journal":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/journal.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/journal.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 261680
+Journalism class:
+  steam:
+    id: 915740
+"Journalism class: PART 2":
+  steam:
+    id: 928250
+Journey:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/638230/remote/SAVE.BIN":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winLocalAppData>/Annapurna Interactive/Journey/Steam/Journey.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Annapurna Interactive/Journey/Steam/SAVE.BIN":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: journey
+  installDir:
+    Journey: {}
+  launch:
+    "<base>/Journey.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 638230
+Journey For Elysium:
+  installDir:
+    Journey For Elysium: {}
+  steam:
+    id: 1036260
+Journey of Greed:
+  installDir:
+    Journey of Greed: {}
+  launch:
+    "<base>/Journey of Greed.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JourneyOfGreed.app/Contents/MacOS/Journey of Greed":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1032790
+Journey of Haha:
+  installDir:
+    Journey of Haha: {}
+  launch:
+    "<base>/Journey of Haha.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/joh.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 697670
+Journey of Johann:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Journey_of_Johann/Save0.cfg":
+      when:
+        - store: steam
+    "<winLocalAppData>/Journey_of_Johann/Save1.cfg":
+      when:
+        - store: steam
+    "<winLocalAppData>/Journey_of_Johann/Save2.cfg":
+      when:
+        - store: steam
+    "<winLocalAppData>/Journey_of_Johann/Save3.cfg":
+      when:
+        - store: steam
+    "<winLocalAppData>/Journey_of_Johann/Save4.cfg":
+      when:
+        - store: steam
+    "<winLocalAppData>/Journey_of_Johann/Settings.cfg":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 631970
+  installDir:
+    Journey Of Johann: {}
+  launch:
+    "<base>/Journey_of_Johann.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 625630
+Journey of Life:
+  installDir:
+    Journey of Life: {}
+  launch:
+    "<base>/JourneyOfLife.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 794490
+Journey of a Roach:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Koboldgames/Journey of a Roach":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/Library/Application Support/Daedalic Entertainment/Journey of a Roach/Savegames":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winLocalAppData>/Daedalic Entertainment/Journey of a Roach/Savegames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgConfig>/Daedalic Entertainment/Journey of a Roach/Savegames":
+      tags:
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 1207661723
+  id:
+    lutris: journey-of-a-roach
+  installDir:
+    Journey of a Roach: {}
+  launch:
+    "<base>/JoaR.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JoaR.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JoaR.x86":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/JoaR.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/JoaR_config.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JoaR_config.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JoaR_config.x86":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/JoaR_config.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Koboldgames/Journey of a Roach:
+      tags:
+        - config
+  steam:
+    id: 255300
+Journey of the Fox:
+  installDir:
+    JourneyoftheFox: {}
+  launch:
+    "<base>/JourneyoftheFox":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 849880
+Journey of the King:
+  installDir:
+    Journey of the King: {}
+  launch:
+    "<base>/JotK.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 327960
+Journey of the Light:
+  cloud:
+    steam: true
+  steam:
+    id: 371440
+Journey of the Sword:
+  installDir:
+    Journey of the Sword: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 650310
+Journey through Memories:
+  installDir:
+    Journey Through Memories: {}
+  launch:
+    "<base>/BuildVer1.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 948340
+Journey to Alien Worlds:
+  installDir:
+    Journey to Alien Worlds: {}
+  steam:
+    id: 628960
+Journey to Luonto:
+  files:
+    "<base>/www/save/*.rpgsave":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Journey to Luonto: {}
+  launch:
+    "<base>/Journey to Luonto.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 737490
+Journey to New Atlantis:
+  installDir:
+    Journey to New Atlantis: {}
+  launch:
+    "<base>/Journey.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1211320
+Journey to Valhalla:
+  installDir:
+    Journey To Valhalla: {}
+  launch:
+    "<base>/JourneyToValhalla.app/Contents/MacOS/JourneyToValhalla":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JourneyToValhalla.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JourneyToValhalla.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 851240
+Journey to the Center of Hawkthorne:
+  files:
+    "<winAppData>/hawkthorne_release/controls-1.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/hawkthorne_release/gamesaves-*.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/hawkthorne_release/options-2.json":
+      tags:
+        - config
+      when:
+        - os: windows
+Journey to the Center of the Earth:
+  files:
+    "<base>/save/*.jpg":
+      when:
+        - store: steam
+  gog:
+    id: 1207658863
+  installDir:
+    Journey to the Center of the Earth: {}
+  launch:
+    "<base>/JourneyToTheCenterOfTheEarth.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 474240
+Journey to the Center of the Earth (2014):
+  alias: Journey to the Center of the Earth (2015)
+Journey to the Center of the Earth (2015):
+  installDir:
+    Journey To The Center Of The Earth: {}
+  launch:
+    "<base>/journey to the center of the earth.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/journey to the center of the earth.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/journey to the center of the earth.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 382120
+Journey to the Savage Planet:
+  cloud:
+    epic: true
+    gog: true
+  files:
+    "<winLocalAppData>/Packages/505GAMESS.P.A.JourneytotheSavagePlanet-EotMPCGP_tefn33qh9azfc/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Towers/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Towers/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Towers/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1519147341
+  id:
+    gogExtra:
+      - 1240193021
+    steamExtra:
+      - 1503200
+  installDir:
+    Journey to the Savage Planet: {}
+  launch:
+    "<base>/Towers.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 973810
+"Journey: Benjamin's Adventures":
+  installDir:
+    "Journey Benjamin's Adventures": {}
+  steam:
+    id: 584040
+JoustMania:
+  installDir:
+    JoustMania: {}
+  launch:
+    "<base>/piparty.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1093850
+Joy Climb:
+  installDir:
+    JoyClimb: {}
+  launch:
+    "<base>/Contents/MacOS/JoyClimbMacOS_X":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JoyClimb.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JoyClimb.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 792350
+Joy Pony:
+  files:
+    "<winAppData>/../LocalLow/Fat Pug Games/My Pocket Pony":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Joy Pony: {}
+  launch:
+    "<base>/JoyPony.app/Contents/MacOS/JoyPony":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JoyPony.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 685950
+"Joyfess: Martin's Secret Recipe":
+  files:
+    "<home>/AppData/LocalLow/Sand Wagon/Joyfess I/*.save":
+      when:
+        - store: steam
+  installDir:
+    Joyfess I: {}
+  launch:
+    "<base>/Joyfess I.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1095700
+Joyo Kanji Quiz:
+  cloud:
+    steam: true
+  files:
+    "<base>/game/saves":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Joyo Kanji Quiz: {}
+  launch:
+    "<base>/kanji.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 843120
+JuBOX:
+  steam:
+    id: 882370
+JuVentures:
+  installDir:
+    JuVentures: {}
+  launch:
+    "<base>/JuVentures.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 769420
+Juan v Juan:
+  installDir:
+    JuanvJuan: {}
+  launch:
+    "<base>/JuanvJuan.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 880860
+Juanito Arcade Mayhem:
+  cloud:
+    steam: true
+  installDir:
+    Juanito Arcade Mayhem: {}
+  launch:
+    "<base>/Juanito Arcade Mayhem.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 617440
+Jubilee:
+  installDir:
+    Jubilee: {}
+  launch:
+    "<base>/Jubilee.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1774220
+Jubox 2:
+  steam:
+    id: 906340
+Judas:
+  gog:
+    id: 1733717398
+  installDir:
+    Judas: {}
+  launch:
+    "<base>/Judas.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 581820
+Judas (2023):
+  alias: Judas (upcoming)
+Judas (upcoming):
+  steam:
+    id: 388860
+Judero:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Talha _ Jack Co/Judero/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/com.Talha---Jack-Co.Judero/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Judero: {}
+  launch:
+    "<base>/Judero.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Judero.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1960900
+Judge Dredd:
+  cloud:
+    steam: true
+  files:
+    "<base>/DAT2/HISCORE.DAT":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/DAT2/SLOT*.DAT":
+      tags:
+        - save
+      when:
+        - os: dos
+  installDir:
+    Judge Dredd: {}
+  launch:
+    "<base>/dosbox_linux/launch_judgedredd_game.sh":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/dosbox_windows/dosbox.exe":
+      - arguments: "-exit -noconsole -conf \"dosbox_dredd.conf\" ^ -c \"mount e '..\\Judge Dredd'\" ^ -c \"e:\" ^ -c \"imgmount d dredd.cue -t cdrom\" ^ -c \"cd ACCLAIM\\DREDD\" ^ -c \"law.exe -noconsole\" ^ -c \"exit\""
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 690250
+"Judge Dredd: Countdown Sector 106":
+  cloud:
+    steam: true
+  files:
+    "<base>/Documents/sav*":
+      when:
+        - os: windows
+          store: steam
+        - os: linux
+          store: steam
+    "<base>/Judge Dredd Countdown Sec 106.app/Documents/sav*":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Judge Dredd: {}
+  launch:
+    "<base>/Judge Dredd Countdown Sec 106.app":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/Judge Dredd Countdown Sec 106.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Judge Dredd Countdown Sec 106.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Judge Dredd Countdown Sec 106.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 352080
+"Judge Dredd: Dredd vs. Death":
+  files:
+    "<base>/save/save.dsg":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207658779
+  id:
+    lutris: judge-dredd-dredd-vs-death
+  installDir:
+    DreddVsDeath: {}
+  launch:
+    "<base>/Dredd.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3710
+"Judged: A Court Simulator":
+  installDir:
+    Judged A Court Simulator: {}
+  launch:
+    "<base>/Judged.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 384880
+Judgement:
+  installDir:
+    Judgement: {}
+  launch:
+    "<base>/Judgement.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 383780
+"Judgement Silversword: Resurrection":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Qute/JudgementSilversword/JSS2.SAV":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Qute/JudgementSilversword/cardinal.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Qute/JudgementSilversword/display_setting.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Qute/JudgementSilversword/preference.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    JUDGEMENT SILVERSWORD -Resurrection-: {}
+  launch:
+    "<base>/JSSResurrection.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 278510
+Judgment:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Sega/Judgment/Steam":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Sega/Judgment/Steam/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Judgment: {}
+  steam:
+    id: 2058180
+"Judgment: Apocalypse Survival Simulation":
+  cloud:
+    gog: true
+    origin: true
+    steam: true
+  files:
+    "<home>/.config/unity3d/Suncrash/Judgment/*.game":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Suncrash/Judgment/*.game":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/com.Suncrash.Judgment/*.game":
+      when:
+        - os: mac
+          store: steam
+  gog:
+    id: 1341338919
+  id:
+    gogExtra:
+      - 1987327876
+    steamExtra:
+      - 1089940
+      - 2416090
+  installDir:
+    Judgment: {}
+  launch:
+    "<base>/judgment.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 455980
+Juggernauts:
+  installDir:
+    Juggernauts: {}
+  launch:
+    "<base>/Juggernauts.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 999330
+Juggly:
+  installDir:
+    Juggly: {}
+  launch:
+    "<base>/Juggly.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 974070
+Juice Fresh:
+  steam:
+    id: 697640
+Juice Girl:
+  installDir:
+    Juice Girl: {}
+  launch:
+    "<base>/JuiceGirl.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 775760
+Juiced:
+  files:
+    "<winAppData>/THQ/Juiced/SAVE":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/Software/THQ/Juiced:
+      tags:
+        - config
+"Juiced 2: Hot Import Nights":
+  files:
+    "<winAppData>/THQ/Juiced2/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/My Games/Juiced2_HIN":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Juiced 2 Hot Import Nights: {}
+  launch:
+    "<base>/j2launcher.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/THQ/Juiced2_HIN:
+      tags:
+        - config
+  steam:
+    id: 9400
+Juicy Army:
+  installDir:
+    Juicy Army Demo: {}
+  launch:
+    "<base>/Juicy Army Demo.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1153060
+Juicy Futa:
+  installDir:
+    Juicy Futa: {}
+  launch:
+    "<base>/JuicyFuta.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2012290
+Juicy Realm:
+  files:
+    "<home>/AppData/LocalLow/SpaceCan/JuicyRealm/PLAYERPREFS*":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/com.spacecangames.JuicyRealm/PLAYERPREFS*":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Juicy Realm: {}
+  launch:
+    "<base>/JuicyRealm.app/Contents/MacOS/JuicyRealm":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JuicyRealm.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 732370
+Juju:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/JUJU/B1Game/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/JUJU/B1Game/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    JUJU: {}
+  launch:
+    "<base>/Binaries/Win32/PCLauncher.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Binaries/Win32"
+  steam:
+    id: 300840
+"Jujutsu Kaisen: Cursed Clash":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Jujutsu Kaisen CC/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Jujutsu Kaisen CC: {}
+  launch:
+    "<base>/Jujutsu Kaisen CC/Binaries/Win64/Jujutsu Kaisen CC.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1877020
+Juke:
+  installDir:
+    Juke: {}
+  launch:
+    "<base>/juke.app/Contents/MacOS/juke":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/juke.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 665780
+Julai:
+  steam:
+    id: 458900
+Juliantli:
+  installDir:
+    Juliantli: {}
+  launch:
+    "<base>/JuliantliLinux.x86":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/JuliantliOSX.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JuliantliWindows.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 898260
+"Julie's Sweets":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/SweetJulie/*.*":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "Julie's Sweets": {}
+  launch:
+    "<base>/Julie.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 970810
+July the Lost Child:
+  installDir:
+    July the Lost Child: {}
+  launch:
+    "<base>/July the Lost Child.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 932270
+"Jumanji: The VR Adventure":
+  installDir:
+    Jumanji The VR Adventure: {}
+  steam:
+    id: 780590
+"Jumanji: The Video Game":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Echo/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Jumanji: {}
+  launch:
+    "<base>/Echo.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 896950
+"Jumanji: Wild Adventures":
+  files:
+    "<home>/AppData/LocalLow/Cradle Games/Jumanji Wild Adventures":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Jumanji2: {}
+  launch:
+    "<base>/Jumanji 2.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1823200
+Jump:
+  installDir:
+    Jump: {}
+  steam:
+    id: 334410
+Jump & Shoot:
+  steam:
+    id: 994400
+Jump Boxer:
+  files:
+    "<winLocalAppData>/JumpBoxer/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    iaidoka_interlude: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 365330
+Jump Boy:
+  installDir:
+    JumpBoy: {}
+  launch:
+    "<base>/JumpBoy.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1227150
+Jump Doper (Cozy Pitch):
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Cozy Game Pals/Jump Doper/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Cozy Game Pals/Jump Doper/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Cozy Game Pals/Jump Doper/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Jump Doper: {}
+  launch:
+    "<base>/JumpDoper.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JumpDoper.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JumpDoper.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/JumpDoper.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 1017750
+Jump Force:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/816020/remote":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/JUMP_FORCE/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    JUMP FORCE: {}
+  launch:
+    "<base>/JUMP_FORCE.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 816020
+Jump Gunners:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/NerdRage Studios/Jump Gunners":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<xdgConfig>/NerdRage Studios/Jump Gunners":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+  installDir:
+    Jump Gunners: {}
+  launch:
+    "<base>/JumpGunners.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JumpGunners.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JumpGunners.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 697660
+Jump Jumpz:
+  installDir:
+    JumpJumpz: {}
+  launch:
+    "<base>/JumpJumpz.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JumpJumpz.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 968200
+Jump King:
+  cloud:
+    gog: true
+  files:
+    "<base>/Content/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Content/SavesPerma":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1644859307
+  id:
+    gogExtra:
+      - 2048833999
+    steamExtra:
+      - 1080900
+  installDir:
+    Jump King: {}
+  launch:
+    "<base>/JumpKing.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1061090
+Jump Like A Pirate:
+  steam:
+    id: 581010
+Jump Off The Bridge:
+  files:
+    "<winLocalAppData>/Jump_Off_The_Bridge":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Jump Off The Bridge: {}
+  launch:
+    "<base>/Jump Off The Bridge.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1057780
+Jump Space:
+  cloud:
+    steam: true
+  installDir:
+    JumpSpace: {}
+  launch:
+    "<base>/Jump Space.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1757300
+Jump Stars:
+  installDir:
+    Jump Stars: {}
+  launch:
+    "<base>/JumpStars.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 486990
+Jump Stop:
+  steam:
+    id: 774921
+Jump Tanks:
+  id:
+    steamExtra:
+      - 425630
+      - 436910
+  installDir:
+    JumpTanks: {}
+  launch:
+    "<base>/JumpTanks.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JumpTanks.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 296810
+"Jump and Ride: Riding Academy 3D":
+  files:
+    "<winDocuments>/Riding Academy 3D/savegame":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Riding Academy 3D/game.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+"Jump and Run: Don't Fall":
+  alias: "JUMP AND RUN - DON'T FALL"
+Jump to Die!!:
+  installDir:
+    Jump To Die: {}
+  launch:
+    "<base>/JumpToDie.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 581060
+Jump to the Circle:
+  steam:
+    id: 783980
+Jump with Friends:
+  installDir:
+    Jump with Friends: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1077550
+Jump! Jump! Jump!:
+  installDir:
+    Jump! Jump! Jump!: {}
+  steam:
+    id: 761100
+"Jump, Step, Step":
+  installDir:
+    "Jump, Step, Step": {}
+  launch:
+    "<base>/Pro/Binaries/Win32/Pro-Win32-Shipping.exe":
+      - when:
+          - bit: 32
+            store: steam
+    "<base>/Pro/Binaries/Win64/Pro-Win64-Shipping.exe":
+      - when:
+          - bit: 64
+            store: steam
+  steam:
+    id: 575710
+JumpBall:
+  steam:
+    id: 537360
+JumpBall 2:
+  installDir:
+    JumpBall 2: {}
+  launch:
+    "<base>/JumpBall 2(win32)/JumpBall 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 750870
+JumpFist:
+  installDir:
+    JumpFist: {}
+  launch:
+    "<base>/JumpFist.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JumpFist.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 707470
+"JumpHead: Battle4Fun!":
+  installDir:
+    JumpHead_Battle4Fun: {}
+  launch:
+    "<base>/JumpHead_Battle4Fun_x86(32).exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/JumpHead_Battle4Fun_x86(64).exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 402080
+JumpJet Rex:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/TreeFortress Games/JumpJetRex":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/TreeFortress Games/JumpJetRex/saves.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 360250
+      - 364400
+  installDir:
+    JumpJetRex: {}
+  launch:
+    "<base>/JumpJetRex.app/Contents/MacOS/JumpJetRex":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JumpJetRex.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JumpJetRex.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/JumpJetRex.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/TreeFortress Games/JumpJetRex:
+      tags:
+        - config
+  steam:
+    id: 329460
+JumpJumpMania:
+  steam:
+    id: 973470
+JumpSky:
+  installDir:
+    JumpSky: {}
+  launch:
+    "<base>/JumpSky.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JumpSky.exe":
+      - arguments: "-windowed"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 731910
+JumpStream:
+  installDir:
+    JumpStream: {}
+  launch:
+    "<base>/JumpStream.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 846780
+Jumpala:
+  cloud:
+    steam: true
+  gog:
+    id: 1527016770
+  id:
+    steamExtra:
+      - 1314740
+  installDir:
+    Jumpala: {}
+  launch:
+    "<base>/Jumpala":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Jumpala.app/Contents/MacOS/nwjs":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jumpala.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1278190
+Jumpdrive:
+  installDir:
+    JumpDrive: {}
+  launch:
+    "<base>/jumpdrive.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/jumpdrive_launcher":
+      - when:
+          - os: mac
+            store: steam
+          - bit: 32
+            os: linux
+            store: steam
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 291250
+Jumper Jape:
+  files:
+    "<home>/.config/unity3d/Team Jape/Jumper Jape/Saves/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Team Jape/Jumper Jape/Saves/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.Team Jape.Jumper Jape/Saves/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Jumper Jape: {}
+  launch:
+    "<base>/JumperJape.app/Contents/MacOS/JumperJape":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JumperJape.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JumperJape.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 526780
+Jumper Magic:
+  installDir:
+    Jumper Magic: {}
+  launch:
+    "<base>/JumperMagic.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 886020
+Jumper Tree:
+  installDir:
+    Jumper Tree: {}
+  launch:
+    "<base>/JT Remastered.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 983650
+"Jumper: Speedrun":
+  installDir:
+    JUMPER  SPEEDRUN: {}
+  launch:
+    "<base>/JumperLauncher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 688150
+"Jumpgate: The Reconstruction Initiative":
+  id:
+    lutris: jumpgate-the-reconstruction-initiative
+Jumphobia Classic:
+  installDir:
+    Jumphobia Classic: {}
+  launch:
+    "<base>/Jumphobia Classic.app/Contents/MacOS/Jumphobia Classic":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jumphobia Classic.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 703200
+Jumphobia XL:
+  alias: Jumphobia Classic
+"Jumphobia: Homeward Bound":
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/Wix Games/Jumphobia Homeward Bound":
+      when:
+        - store: steam
+    "<winLocalAppData>/Packages/Jumphobia Homeward Bound/LocalState":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Jumphobia Homeward Bound: {}
+  launch:
+    "<base>/Jumphobia Homeward Bound.app/Contents/MacOS/Jumphobia Homeward Bound":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jumphobia Homeward Bound.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1781380
+Jumping Jack:
+  cloud:
+    steam: true
+  installDir:
+    Jumping Jack: {}
+  launch:
+    "<base>/JumpingJack.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1978200
+Jumping Jazz Cats:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/JJC51/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/JJC51/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3558440
+      - 3558450
+  installDir:
+    Jumping Jazz Cats: {}
+  launch:
+    "<base>/JumpinJazzCats.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1951780
+"Jumping Man: Forest":
+  installDir:
+    Jumping Man: {}
+  launch:
+    "<base>/Jumping Man.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 822680
+Jumping Over It With Kang KiYun:
+  installDir:
+    Jumping Over It With Kang KiYun: {}
+  launch:
+    "<base>/Jumping Over It With Kang KiYun.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1107210
+Jumping Tank:
+  steam:
+    id: 582430
+JumpingBoy:
+  steam:
+    id: 976860
+Jumpix Jump:
+  installDir:
+    Jumpix Jump: {}
+  launch:
+    "<base>/JumpixJump.app/Contents/MacOS/JumpixJump":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JumpixJump.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JumpixJump.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 444320
+Jumplats:
+  steam:
+    id: 2852150
+Jumplord:
+  installDir:
+    Jumplord: {}
+  launch:
+    "<base>/Jumplord.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1214130
+Jumpman:
+  installDir:
+    Jumpman: {}
+  steam:
+    id: 1462970
+Jumpman Lives!:
+  files:
+    "<base>/JMLIVES!.HIS":
+      tags:
+        - save
+      when:
+        - os: dos
+Jumpo Joe:
+  steam:
+    id: 865240
+JumpoPitec:
+  installDir:
+    Jumpopitec: {}
+  launch:
+    "<base>/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 979590
+Jumponaut:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/jumponautSD":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Jumponaut: {}
+  launch:
+    "<base>/Jumponaut.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 870150
+Jumps:
+  installDir:
+    Jumps: {}
+  launch:
+    "<base>/Jumps.app/Contents/MacOS/Jumps":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jumps.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Jumps.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 544310
+Jumpy Hunt:
+  steam:
+    id: 983390
+Jungle Adventure:
+  installDir:
+    Jungle Adventure: {}
+  steam:
+    id: 1041630
+Jungle Defense:
+  installDir:
+    Jungle Defence: {}
+  steam:
+    id: 1032650
+Jungle Dino VR:
+  installDir:
+    Jungle Dino VR: {}
+  steam:
+    id: 600260
+Jungle Guardians:
+  installDir:
+    Jungle Guardians: {}
+  launch:
+    "<base>/Jungle Guardians.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 965460
+Jungle Hostages:
+  steam:
+    id: 645190
+Jungle Jorney:
+  steam:
+    id: 827890
+Jungle Juggle:
+  files:
+    "<winAppData>/SevenSails/JungleJuggle/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Jungle Juggle: {}
+  launch:
+    "<base>/Jungle_Juggle_1_0_2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 844580
+Jungle Z:
+  installDir:
+    Jungle Z: {}
+  launch:
+    "<base>/JungleZ.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1015580
+JungleShoot:
+  installDir:
+    JungleShoot: {}
+  launch:
+    "<base>/1jungleshoot.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 809760
+Junglex:
+  installDir:
+    Junglex: {}
+  launch:
+    "<base>/Junglex.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1036600
+Juniper Theory:
+  installDir:
+    Juniper Theory: {}
+  launch:
+    "<base>/junipertheory.exe":
+      - arguments: "-screen-fullscreen 1"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 564140
+"Juniper's Knot":
+  files:
+    "<base>/renpy/config.py":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/renpy/dischan_JunipersKnot":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    "Juniper's Knot": {}
+  launch:
+    "<base>/Junipers Knot.app/Contents/MacOS/Junipers Knot":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Junipers Knot.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Junipers Knot.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 687590
+Junk:
+  steam:
+    id: 1150420
+Junk Jack:
+  cloud:
+    steam: true
+  files:
+    "<home>/.junkjack/**/*.dat":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.junkjack/**/*.stat":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Junk Jack/**/*.dat":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Junk Jack/**/*.stat":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Junk Jack/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Junk Jack/**/*.stat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Junk Jack: {}
+  launch:
+    "<base>/Junk Jack.app/Contents/MacOS/Junk Jack":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/bin/junkjack":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/bin/x64/junkjack.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/bin/x86/junkjack.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 414190
+Junk on Wheels:
+  installDir:
+    Junk on Wheels: {}
+  launch:
+    "<base>/JoW":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/JoW.app/Contents/MacOS/JoW":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 983160
+JunkerBot:
+  files:
+    "<base>/JunkerBot.save":
+      when:
+        - store: steam
+  installDir:
+    JunkerBot: {}
+  launch:
+    "<base>/JunkerBot.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 730270
+Junkster:
+  cloud:
+    steam: true
+  steam:
+    id: 1675860
+Junkyard Simulator:
+  files:
+    "<winLocalAppData>/JunkYard/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Junkyard Simulator: {}
+  launch:
+    "<base>/JunkYard.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 671970
+Junkyard Wizard:
+  installDir:
+    Junkyard Wizard: {}
+  steam:
+    id: 931940
+"Juno's Darkest Hour":
+  installDir:
+    "Juno's Darkest Hour": {}
+  launch:
+    "<base>/Juno.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 516120
+"Juno: New Origins":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Jundroo/SimpleRockets 2":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Jundroo/SimpleRockets 2/ControlInputData.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Jundroo/SimpleRockets 2/Settings.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    SimpleRockets2: {}
+  launch:
+    "<base>/SimpleRockets2.app/Contents/MacOS/SimpleRockets 2":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SimpleRockets2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Jundroo/SimpleRockets 2:
+      tags:
+        - config
+  steam:
+    id: 870200
+Jupiter Hell:
+  cloud:
+    steam: true
+  files:
+    "<base>/configuration.lua":
+      tags:
+        - config
+      when:
+        - os: windows
+        - os: linux
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<base>/save*":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1603513052
+  installDir:
+    Jupiter Hell: {}
+  launch:
+    "<base>/JupiterHell.app/Contents/MacOS/jhapp":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/jh.exe":
+      - arguments: "--gl"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 811320
+Jupiteration:
+  installDir:
+    Jupiteration: {}
+  steam:
+    id: 592240
+Jurassic City Walk:
+  installDir:
+    Jurassic City Walk: {}
+  launch:
+    "<base>/Jurassic City Walk.app/Contents/MacOS/Jurassic City Walk":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jurassic City Walk.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 831520
+"Jurassic Island: The Dinosaur Zoo":
+  installDir:
+    Jurassic Island The Dinosaur Zoo: {}
+  launch:
+    "<base>/Jurassic Island The Dinosaur Zoo.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jurassic_Island_Steam_2_0.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 378420
+Jurassic Park Classic Games Collection:
+  cloud:
+    steam: true
+  files:
+    "<home>/Saved Games/Limited Run Games/Jurassic Park Classic Games Collection":
+      when:
+        - store: steam
+  installDir:
+    Jurassic Park Classic Games Collection: {}
+  launch:
+    "<base>/JurassicParkCGC.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2673080
+"Jurassic Park: Operation Genesis":
+  files:
+    "<base>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Options.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/col.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/light.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: jurassic-park-operation-genesis
+"Jurassic Park: Survival":
+  steam:
+    id: 2208810
+"Jurassic Park: The Game":
+  files:
+    "<home>/Library/Application Support/Telltale Games":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Telltale Games/JurassicPark100":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winDocuments>/Telltale Games/Jurassic Park The Game":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/telltale games/JurassicPark":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/telltale games/JurassicPark/prefs.prop":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: jurassic-park-the-game
+  installDir:
+    JurassicPark: {}
+  launch:
+    "<base>/JurassicPark100.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JurassicPark100.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 201830
+"Jurassic Park: Trespasser":
+  registry:
+    HKEY_CURRENT_USER/Software/DreamWorks Interactive/Trespasser:
+      tags:
+        - config
+Jurassic Safari Hunt:
+  installDir:
+    Dinosaur Safari: {}
+  launch:
+    "<base>/Jurassic Safari Hunt.app/Contents/MacOS/Jurassic Safari Hunt":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Jurassic Safari Hunt.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 850960
+Jurassic Survival:
+  installDir:
+    Jurassic Survival: {}
+  launch:
+    "<base>/Jurassic Survival.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 498280
+Jurassic World Evolution:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<home>/Saved Games/Frontier Developments/Jurassic World Evolution":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Frontier Developments/Jurassic World Evolution/Config_Local":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: jurassic-world-evolution
+  installDir:
+    Jurassic World Evolution: {}
+  launch:
+    "<base>/JWE.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 648350
+Jurassic World Evolution 2:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<home>/Saved Games/Frontier Developments/Jurassic World Evolution 2":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Frontier Developments/Jurassic World Evolution 2/Config_Local":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 1336321
+      - 1336322
+      - 1882470
+      - 1966010
+      - 2492640
+  installDir:
+    Jurassic World Evolution 2: {}
+  launch:
+    "<base>/JWE2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1244460
+Jurassic World Evolution 3:
+  cloud:
+    steam: true
+  files:
+    "<home>/Saved Games/Frontier Developments/Jurassic World Evolution 3/<storeUserId>/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3651190
+      - 3651200
+      - 4131660
+      - 4131670
+  installDir:
+    Jurassic World Evolution 3: {}
+  launch:
+    "<base>/JWE3.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2958130
+Jurig Escape:
+  id:
+    lutris: jurig-escape
+  installDir:
+    Jurig Escape: {}
+  launch:
+    "<base>/Jurig.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2957940
+Juro Janosik:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Black Deer Games/Juro Janosik/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Black Deer Games/Juro Janosik/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.blackdeergames.jurojanosik/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Juro Janosik: {}
+  launch:
+    "<base>/Juro Janosik Linux.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Juro Janosik.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Juro Mac Build.app/Contents/MacOS/Juro Mac Build":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 978630
+Jusant:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winLocalAppData>/ASC/Saved/Config/Windows/*.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/ASC/Saved/SaveGames/FullGame/MachineSettings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/ASC/Saved/SaveGames/FullGame/Save.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/ASC/Saved/SaveGames/FullGame/UserSettings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Packages/DONTNODEntertainment.Ascension-P9_1t8sv8k1cftdw/Settings/settings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/DONTNODEntertainment.Ascension-P9_1t8sv8k1cftdw/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  gog:
+    id: 2068936868
+  id:
+    lutris: jusant
+  installDir:
+    Jusant: {}
+  launch:
+    "<base>/ASC/Binaries/Win64/ASC-Win64-Shipping.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1977170
+Just A Dream:
+  files:
+    "<winLocalAppData>/JustADream*/.config":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/JustADream/save.txt":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Just A Dream: {}
+  launch:
+    "<base>/Just A Dream.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 712770
+Just Alone:
+  installDir:
+    Just Alone: {}
+  launch:
+    "<base>/Launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 388300
+Just Another Memory:
+  installDir:
+    Just Another Memory: {}
+  launch:
+    "<base>/Just Another Memory MAC.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Just Another Memory.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1121290
+Just Bat:
+  installDir:
+    JUST BAT (VR CRICKET): {}
+  steam:
+    id: 525950
+"Just Beat Em Up : World of Fury":
+  installDir:
+    Just Beat Em Up World of Fury: {}
+  launch:
+    "<base>/JBEU.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 857420
+Just Beneath The Skin 2D:
+  steam:
+    id: 605060
+Just Bones:
+  installDir:
+    Just Bones: {}
+  launch:
+    "<base>/justbones.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/justbones.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/justbones.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/justbones.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 470030
+Just Cause:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winDocuments>/JustCause/Saves/JCSaves":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1084263831
+  id:
+    lutris: just-cause
+  installDir:
+    Just Cause: {}
+  launch:
+    "<base>/JCSetup.exe":
+      - when:
+          - store: steam
+    "<base>/JustCause.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 6880
+Just Cause 2:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/8190":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winDocuments>/My Games/Just Cause 2":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/Square Enix/Just Cause 2/Saves/JC2Settings":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1833855510
+  id:
+    lutris: just-cause-2
+    steamExtra:
+      - 259080
+  installDir:
+    Just Cause 2: {}
+  launch:
+    "<base>/JustCause2.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 8190
+Just Cause 3:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/Square Enix/Just Cause 3/Saves/0":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Square Enix/Just Cause 3/Saves/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: just-cause-3
+    steamExtra:
+      - 619910
+  installDir:
+    Just Cause 3: {}
+  launch:
+    "<base>/JustCause3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 225540
+Just Cause 4:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/517630/remote":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<root>/userdata/<storeUserId>/517630/remote/local_settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/Square Enix/Just Cause 4":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/Square Enix/Just Cause 4/LocalData/startup_settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: just-cause-4
+  installDir:
+    Just Cause 4: {}
+  launch:
+    "<base>/JustCause4.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 517630
+Just Chatting:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/SunshineOvercast/JustChatting.*":
+      when:
+        - store: steam
+  installDir:
+    Just Chatting: {}
+  launch:
+    "<base>/JustChatting.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1221560
+Just Crow Things:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Unbound Creations/Just Crow Things/saves/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Unbound Creations/Just Crow Things/saves/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/com.UnboundCreations.JustCrowThings/saves/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Just Crow Things: {}
+  launch:
+    "<base>/Just Crow Things.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Just Crow Things.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Just Crow Things.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2537920
+Just Dance 2017:
+  cloud:
+    uplay: true
+  installDir:
+    Just Dance 2017: {}
+  launch:
+    "<base>/JD2017.exe":
+      - arguments: "-uplay_steam_mode"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 446560
+Just Death:
+  cloud:
+    steam: true
+  installDir:
+    JustDeath: {}
+  launch:
+    "<base>/JustDeath.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 336210
+Just Deserts:
+  cloud:
+    gog: true
+  files:
+    "<winAppData>/renpy/JustDeserts/*.save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/renpy/JustDeserts/persistent":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1434435597
+  id:
+    gogExtra:
+      - 1225571169
+      - 1483320779
+      - 1538657505
+      - 1767568081
+      - 1794159768
+      - 1883033826
+    steamExtra:
+      - 507020
+      - 517290
+      - 517291
+      - 517292
+  installDir:
+    Just Deserts: {}
+  launch:
+    "<base>/JustDeserts-32.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/JustDeserts.app/Contents/MacOS/JustDeserts":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JustDeserts.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/JustDeserts.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 488660
+Just Die Already:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/JDGame/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/JDGame/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Just Die Already: {}
+  launch:
+    "<base>/JDGame.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 979070
+Just Die Neon:
+  installDir:
+    Jack and the cat: {}
+  launch:
+    "<base>/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 668570
+Just Drift It !:
+  installDir:
+    Just Drift It: {}
+  launch:
+    "<base>/Just Drift It.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1151200
+Just Fishing:
+  installDir:
+    Just Fishing: {}
+  launch:
+    "<base>/Game.app/Contents/MacOS/JustFishing":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JustFishing.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 703950
+Just Flip - a physics game by Jeff Weber:
+  alias: That Flipping Mountain
+Just Get Through:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/JustGetThrough/*.lvl":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/JustGetThrough/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/JustGetThrough/scripts":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Just Get Through: {}
+  launch:
+    "<base>/JustGetThrough.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 338190
+Just Go:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Studio Amateur/JustGo/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Studio Amateur/JustGo/SaveFileOfficial_beta.es3":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: just-go
+  installDir:
+    Just Go: {}
+  launch:
+    "<base>/JustGo.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JustGo.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Studio Amateur/JustGo:
+      tags:
+        - config
+  steam:
+    id: 1862520
+Just Grandma and Me:
+  installDir:
+    Just Grandma and Me: {}
+  launch:
+    "<base>/Just Grandma And Me Launcher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3853780
+Just Hero:
+  id:
+    steamExtra:
+      - 528290
+  installDir:
+    Just Hero: {}
+  launch:
+    "<base>/JustHero.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 527760
+Just Ignore Them:
+  files:
+    "<home>/Saved Games/Just Ignore Them":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Saved Games/Just Ignore Them (Remake)":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Saved Games/Just Ignore Them (Remake)/acsetup.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/Saved Games/Just Ignore Them/acsetup.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: just-ignore-them
+  installDir:
+    Just Ignore Them: {}
+  launch:
+    "<base>/winsetup.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 561770
+"Just Ignore Them: Brea's Story":
+  files:
+    "<home>/Saved Games/Brea Story Tape 1":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Saved Games/Brea Story Tape 1/acsetup.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: just-ignore-them-breas-story-tape-1
+  installDir:
+    "Just Ignore Them Brea's Story": {}
+  steam:
+    id: 1900280
+Just In Time Incorporated:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Second Wind Interactive/Just In Time Incorporated/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Just In Time: {}
+  steam:
+    id: 592030
+Just Jump:
+  installDir:
+    WASD: {}
+  launch:
+    "<base>/just jump.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 749880
+Just King:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Vish Game Studio/King/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Just King: {}
+  launch:
+    "<base>/King.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1059980
+"Just Madness: Earth Apocalypse 1979":
+  steam:
+    id: 3652470
+Just N:
+  installDir:
+    Just N: {}
+  launch:
+    "<base>/Just N.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1095610
+Just One Color:
+  installDir:
+    Just One Color: {}
+  launch:
+    "<base>/Just One Color.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 805840
+Just One Line:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/JOL Studios/Just One Line/*.dat":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/JOL Studios/Just One Line/**/*.dat":
+      when:
+        - store: steam
+  installDir:
+    Just One Line: {}
+  launch:
+    "<base>/Just One Line":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Just One Line.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 640210
+Just Random Squares:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/PN/JustRandomSquares/AchievementsData.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/PN/JustRandomSquares/LeaderboardData.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/PN/JustRandomSquares/Saves":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Just Random Squares: {}
+  launch:
+    "<base>/JustRandomSquares.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1109880
+Just Ride:
+  files:
+    "<home>/AppData/LocalLow/HorusGames/JustRide/Save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Just Ride: {}
+  launch:
+    "<base>/JustRide.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 693960
+Just Roll With It:
+  installDir:
+    Just Roll With It: {}
+  launch:
+    "<base>/PUZZ BALL.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 981710
+Just Shapes & Beats:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/531510/remote/JSBSave_SaveData":
+      tags:
+        - save
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 873030
+  installDir:
+    Just Shapes & Beats: {}
+  launch:
+    "<base>/JSB.app/Contents/MacOS/JSB":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JSB.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JSB.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Berzerk Studio/JSB:
+      tags:
+        - config
+  steam:
+    id: 531510
+Just Ski:
+  installDir:
+    Just Ski: {}
+  launch:
+    "<base>/JustSki.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JustSki.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 740230
+"Just Sleep - Meditate, Focus, Relax":
+  installDir:
+    "Just Sleep - Meditate, Focus, Relax": {}
+  launch:
+    "<base>/Just Sleep.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1093150
+Just Spin:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Just Games Co/Just Spin/*.dat":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Just Games Co/Just Spin/*.dat":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Just Games Co/Just Spin/*.dat":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Just Spin: {}
+  launch:
+    "<base>/Just Spin.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1150140
+Just Survive:
+  id:
+    steamExtra:
+      - 362300
+  installDir:
+    Just Survive: {}
+  launch:
+    "<base>/LaunchPad.exe":
+      - arguments: "Updates:enable=0 Updates:PatchSelf=1 campaignID=1065726 promoID=155 launchPoint=steam launchArgs=STEAM_ENABLED=1"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 295110
+Just Us:
+  cloud:
+    steam: true
+  steam:
+    id: 612660
+Just VR Slingshot Target Practice:
+  installDir:
+    Just VR Slingshot Target Practice: {}
+  steam:
+    id: 586990
+Just a Cleric:
+  files:
+    "<base>/SAVES/*.ini":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 479270
+  installDir:
+    Just a Cleric: {}
+  launch:
+    "<base>/JAC.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 467330
+Just a Humble Swordsmith:
+  installDir:
+    Just A Humble Swordsmith: {}
+  launch:
+    "<base>/Just a Humble Swordsmith.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1997080
+Just a Jumping Square:
+  cloud:
+    steam: true
+  files:
+    "<base>/bin/*.ndm":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+        - os: linux
+          store: steam
+  installDir:
+    Just a Jumping Square: {}
+  launch:
+    "<base>/JaJS.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JaJS.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 800520
+"Just, Bearly":
+  installDir:
+    "Just, Bearly": {}
+  launch:
+    "<base>/justbearlyv3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 792030
+Justice:
+  files:
+    "<home>/AppData/LocalLow/OnTiltInteractive/Justice VR/<storeUserId>/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Justice: {}
+  steam:
+    id: 975100
+Justice League VR:
+  installDir:
+    Justice League VR: {}
+  steam:
+    id: 752750
+Justice Legion:
+  installDir:
+    JUSTICE LEGION: {}
+  launch:
+    "<base>/jl.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 819270
+Justice Strikes:
+  steam:
+    id: 1206020
+"Justice Sucks: Tactical Vacuum Action":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Samurai Punk/JUSTICE SUCKS/Steam/<storeUserId>/SaveGame.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<root>/userdata/<storeUserId>/856890/remote/SaveGame.dat":
+      tags:
+        - save
+      when:
+        - store: steam
+  gog:
+    id: 1152440995
+  id:
+    steamExtra:
+      - 1410350
+  installDir:
+    Justice Sucks: {}
+  launch:
+    "<base>/JUSTICE SUCKS.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 856890
+Justin Wack and the Big Time Hack:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Warm Kitten/Justin Wack and the Big Time Hack":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1240343320
+  id:
+    gogExtra:
+      - 1372655888
+      - 1799761285
+      - 1810165609
+    steamExtra:
+      - 2093080
+      - 2110800
+  installDir:
+    Justin Wack and the Big Time Hack: {}
+  launch:
+    "<base>/Justin Wack and the Big Time Hack.app/Contents/MacOS/Justin Wack and the Big Time Hack":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Justin Wack and the Big Time Hack.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Justin Wack and the Big Time Hack.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1131670
+Jut:
+  installDir:
+    jut: {}
+  launch:
+    "<base>/jut.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/jut.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1135030
+"Juufuutei Raden's Guide for Pixel Museum":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Jupiter Corporation/Pixel_Museum":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    PixelMuseum: {}
+  launch:
+    "<base>/PixelMuseum.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3204020
+Juxemon:
+  steam:
+    id: 1014780
+Jwing - the next puzzle game:
+  installDir:
+    jwing - the next puzzle game: {}
+  launch:
+    "<base>/jwing.app/Contents/MacOS/jwing":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/jwing.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1081990
+Jydge:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Library/Application Support/10tons/JYDGE/profiles":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winAppData>/10tons/JYDGE/profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1352176936
+  installDir:
+    JYDGE: {}
+  launch:
+    "<base>/JYDGE":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/JYDGE.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JYDGE.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 654050

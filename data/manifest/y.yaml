@@ -1,0 +1,4983 @@
+---
+"YANKAI'S PEAK.":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Kenny Sun/PEAK_/*.yankai":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Kenny Sun/PEAK/*.yankai":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.Kenny Sun.PEAK./*.yankai":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    "YANKAI'S PEAK": {}
+  launch:
+    "<base>/Pyramid.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Pyramid.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Pyramid.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/YANKAISPEAK.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 654910
+"YAPP2: Yet Another Pushing Puzzler":
+  cloud:
+    steam: true
+  files:
+    "<base>/yapp2_Data/*.sav":
+      when:
+        - store: steam
+  installDir:
+    YAPP2 Yet Another Pushing Puzzler: {}
+  launch:
+    "<base>/yapp2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 853410
+"YAPP: Yet Another Puzzle Platformer":
+  installDir:
+    YAPP Yet Another Puzzle Platformer: {}
+  launch:
+    "<base>/yapp.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 745250
+YARBAY:
+  steam:
+    id: 1141970
+YARG:
+  files:
+    "<home>/.config/unity3d/YARC/YARG/release/scores":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.config/unity3d/YARC/YARG/release/settings.json":
+      tags:
+        - config
+      when:
+        - os: linux
+YASG:
+  installDir:
+    YASG: {}
+  launch:
+    "<base>/YASG.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1143870
+YAWS - Yet Another Waveshooter:
+  installDir:
+    YAWS - Yet Another Waveshooter: {}
+  steam:
+    id: 1112670
+YBit:
+  installDir:
+    YBit: {}
+  launch:
+    "<base>/YBit.app/Contents/MacOS/YBit":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YBit.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YBit.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 712660
+YIIK Nameless Psychosis:
+  installDir:
+    YIIK IV - Demo: {}
+  launch:
+    "<base>/YIIK A Postmodern RPG.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YIIK A Postmodern RPG.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2863840
+"YIIK: A Postmodern RPG":
+  cloud:
+    gog: true
+  files:
+    "<home>/AppData/LocalLow/AckkStudios/YIIK_ A Postmodern RPG":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 2005058230
+  installDir:
+    YIIK A Postmodern RPG: {}
+  launch:
+    "<base>/YIIK A Postmodern RPG.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YIIK A Postmodern RPG.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/AckkStudios/YIIK: A Postmodern RPG":
+      tags:
+        - config
+  steam:
+    id: 459080
+YOLKED - The Egg Game:
+  installDir:
+    Yolked: {}
+  launch:
+    "<base>/Yolked.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Yolked.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1464010
+YOMOTSU:
+  cloud:
+    steam: true
+  files:
+    "<base>/www/save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    YOMOTSU: {}
+  launch:
+    "<base>/YOMOTSU.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 846020
+YORG.io:
+  cloud:
+    steam: true
+  files:
+    "<base>/gamesave/data.bin":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    yorgio: {}
+  launch:
+    "<base>/yorgio.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 880580
+YORG.io 3:
+  installDir:
+    YORG.io3: {}
+  launch:
+    "<base>/yorgio3.exe":
+      - arguments: "--disable-direct-composition --in-process-gpu --no-user-gesture-required --autoplay-policy=no-user-gesture-required"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1134480
+YOU - The Untold Stories:
+  alias: "You: The Untold Stories"
+"YOU and ME and HER: A Love Story":
+  files:
+    "<winAppData>/Nitroplus/totono":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    YOU and ME and HER - A Love Story: {}
+  launch:
+    "<base>/totono_Steam.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1293820
+"YU-NO: A Girl Who Chants Love at the Bound of this World":
+  alias: "YU-NO: A Girl Who Chants Love at the Bound of this World (2017)"
+"YU-NO: A Girl Who Chants Love at the Bound of this World (2017)":
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/mages_steam/YUNO/eng":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/My Games/mages_steam/YUNO/jpn":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    YU-NO: {}
+  launch:
+    "<base>/boot.bat":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 912450
+"YUNA: Sugar hearts and Love":
+  installDir:
+    YUNA Sugar hearts and Love: {}
+  steam:
+    id: 960340
+YUT YUT:
+  installDir:
+    YUT YUT: {}
+  launch:
+    "<base>/YUT_YUT":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/YUT_YUT.app/Contents/MacOS/YUT_YUT":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YUT_YUT.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1103340
+Yacht Simulator VR:
+  installDir:
+    Yacht Simulator VR: {}
+  steam:
+    id: 809610
+Yafti:
+  installDir:
+    Yafti: {}
+  launch:
+    "<base>/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 821410
+Yag:
+  files:
+    "<winDocuments>/My Games/Yag":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Yag: {}
+  launch:
+    "<base>/yag.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 736420
+Yaga:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Breadcrumbs/Yaga":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/888530/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  gog:
+    id: 1109405267
+  id:
+    gogExtra:
+      - 1213890761
+      - 1261939712
+      - 1905465635
+      - 1922153877
+    steamExtra:
+      - 1451180
+      - 1462090
+  installDir:
+    Yaga: {}
+  launch:
+    "<base>/yaga.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Breadcrumbs/Yaga:
+      tags:
+        - config
+  steam:
+    id: 888530
+Yager:
+  files:
+    "<base>/config.ysc":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/savgames":
+      tags:
+        - save
+      when:
+        - os: windows
+"Yago, the Coquerrestrial":
+  installDir:
+    Yago: {}
+  launch:
+    "<base>/Yago.EXE":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 744390
+Yahrit!:
+  files:
+    "<winLocalAppData>/Yahrit":
+      when:
+        - store: steam
+  installDir:
+    Yahrit: {}
+  launch:
+    "<base>/Yahrit.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 862370
+"Yaiba: Ninja Gaiden Z":
+  files:
+    "<winDocuments>/My Games/NRZGame/NRZGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/NRZGame/NRZGame/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yaiba Ninja Gaiden Z: {}
+  launch:
+    "<base>/Binaries/Win32/NRZGameLauncher.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/Binaries/Win32"
+  steam:
+    id: 252230
+Yakuza 0:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/638970/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winAppData>/Sega/Yakuza0":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/GOG.com/Galaxy/Applications/55966314534907843/Storage/Shared/Files":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<winLocalAppData>/Packages/SEGAofAmericaInc.Yakuza0PC_s751p9cej88mt/LocalCache/Local/Sega/Yakuza0":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/SEGAofAmericaInc.Yakuza0PC_s751p9cej88mt/SystemAppData/wgs/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  gog:
+    id: 1103602225
+  installDir:
+    Yakuza 0: {}
+  launch:
+    "<base>/media/Yakuza0.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/media"
+  steam:
+    id: 638970
+"Yakuza 0 Director's Cut":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Sega/Yakuza0_DirectorsCut/Steam/*.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Sega/Yakuza0_DirectorsCut/Steam/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yakuza 0 Directors Cut: {}
+  launch:
+    "<base>/runtime/media/startup.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/runtime/media"
+  steam:
+    id: 2988580
+Yakuza 3 Remastered:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/1088710/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winAppData>/Sega/Yakuza3":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Local/GOG.com/Galaxy/Applications/56296605655234780/Storage/Shared/Files":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<winLocalAppData>/Packages/SEGAofAmericaInc.Yakuza3PC_*/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  gog:
+    id: 1453650568
+  installDir:
+    Yakuza 3: {}
+  steam:
+    id: 1088710
+Yakuza 4 Remastered:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/1105500/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winAppData>/Sega/Yakuza4":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Local/GOG.com/Galaxy/Applications/56296605971762165/Storage/Shared/Files":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<winLocalAppData>/Packages/SEGAofAmericaInc.Yakuza4PC_*/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  gog:
+    id: 1311648027
+  installDir:
+    Yakuza 4: {}
+  launch:
+    "<base>/Yakuza4.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1105500
+Yakuza 5 Remastered:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/1105510/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winAppData>/Sega/Yakuza5":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/GOG.com/Galaxy/Applications/56296606783325117/Storage/Shared/Files":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<winLocalAppData>/Packages/SEGAofAmericaInc.Yakuza5PC_s751p9cej88mt/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  gog:
+    id: 1896187920
+  installDir:
+    Yakuza 5: {}
+  launch:
+    "<base>/main/Yakuza5.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/main"
+  steam:
+    id: 1105510
+"Yakuza 6: The Song of Life":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/1388590/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winAppData>/Sega/Yakuza6":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Sega/Yakuza6_GOG":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: gog
+    "<winLocalAppData>/GOG.com/Galaxy/Applications/56296606511683989/Storage/Shared/Files":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<winLocalAppData>/Packages/SEGAofAmericaInc.Yakuza6PC_s751p9cej88mt/LocalCache/Local/SEGA/Yakuza6":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+  gog:
+    id: 1086074447
+  id:
+    gogExtra:
+      - 1734118373
+    lutris: yakuza-6-the-song-of-life
+    steamExtra:
+      - 1478720
+  installDir:
+    Yakuza 6 - The Song of Life: {}
+  launch:
+    "<base>/Yakuza6.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1388590
+Yakuza Empire:
+  steam:
+    id: 1349300
+Yakuza Kiss:
+  installDir:
+    Yakuza Kiss: {}
+  launch:
+    "<base>/YakuzaKiss.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 847950
+Yakuza Kiwami:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/834530/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winAppData>/Sega/YakuzaKiwami":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/GOG.com/Galaxy/Applications/56296604923139714/Storage/Shared/Files":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<winLocalAppData>/Packages/SEGAofAmericaInc.YakuzaKiwamiPC_s751p9cej88mt/LocalCache/Local/Sega/YakuzaKiwami":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/SEGAofAmericaInc.YakuzaKiwamiPC_s751p9cej88mt/SystemAppData/wgs/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  gog:
+    id: 1951443960
+  installDir:
+    Yakuza Kiwami: {}
+  launch:
+    "<base>/media/YakuzaKiwami.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/media"
+  steam:
+    id: 834530
+Yakuza Kiwami (2025):
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/SEGA/YakuzaKiwami_R/Steam":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/SEGA/YakuzaKiwami_R/Steam/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Yakuza Kiwami R: {}
+  launch:
+    "<base>/runtime/media/startup.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/runtime/media"
+  steam:
+    id: 3717330
+Yakuza Kiwami 2:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winAppData>/Sega/YakuzaKiwami2":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Sega/YakuzaKiwami2/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Sega/YakuzaKiwami2_GOG":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<winLocalAppData>/Packages/SEGAofAmericaInc.YakuzaKiwami2PC_s751p9cej88mt/LocalCache/Local/Sega/YakuzaKiwami2":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+  gog:
+    id: 1478349159
+  id:
+    gogExtra:
+      - 1399668039
+    steamExtra:
+      - 1030500
+  installDir:
+    Yakuza Kiwami 2: {}
+  launch:
+    "<base>/YakuzaKiwami2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 927380
+Yakuza Kiwami 2 (2025):
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Sega/YakuzaKiwami2_R/Steam":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Sega/YakuzaKiwami2_R/Steam/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yakuza Kiwami 2 R: {}
+  launch:
+    "<base>/runtime/media/startup.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/runtime/media"
+  steam:
+    id: 3717340
+Yakuza Kiwami 3 & Dark Ties:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Sega/YakuzaKiwami3/Steam":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Sega/YakuzaKiwami3/Steam/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    YakuzaKiwami3: {}
+  launch:
+    "<base>/runtime/media/startup.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/runtime/media"
+  steam:
+    id: 3937550
+"Yakuza: Like a Dragon":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winAppData>/Sega/YakuzaLikeADragon/*.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Sega/YakuzaLikeADragon/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Sega/YakuzaLikeADragonWin10/*.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winAppData>/Sega/YakuzaLikeADragon_GOG/*.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: gog
+    "<winAppData>/Sega/YakuzaLikeADragon_GOG/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<winLocalAppData>/Packages/SEGAofAmericaInc.Yazawa_s751p9cej88mt/SystemAppData/wgs/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  gog:
+    id: 1229228729
+  id:
+    gogExtra:
+      - 1573344224
+      - 1583673857
+      - 1824922415
+      - 1851599391
+      - 2018318415
+      - 2138602937
+    steamExtra:
+      - 1253350
+      - 1259670
+      - 1261270
+      - 1289190
+      - 1289191
+      - 1289192
+      - 1289211
+      - 1289234
+  installDir:
+    Yakuza Like a Dragon: {}
+  launch:
+    "<base>/runtime/media/startup.exe":
+      - arguments: "-language=zhs -locale=english_us"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/runtime/media"
+  steam:
+    id: 1235140
+Yama:
+  installDir:
+    Yama: {}
+  launch:
+    "<base>/Yama.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 661610
+YamaYama:
+  installDir:
+    YamaYama: {}
+  launch:
+    "<base>/YamaYama.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 455770
+Yamaha Supercross:
+  files:
+    "<base>/Game.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+Yametei:
+  installDir:
+    Yametei: {}
+  launch:
+    "<base>/Yametei.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1011200
+Yandere Escape:
+  installDir:
+    Yandere Escape: {}
+  launch:
+    "<base>/Yandere Escape.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1172950
+Yandere School:
+  installDir:
+    Yandere School: {}
+  launch:
+    "<base>/yandere school/yandereschool.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 687750
+Yandere Simulator:
+  registry:
+    HKEY_CURRENT_USER/Software/YandereDev/Yandere Simulator Debug Build:
+      tags:
+        - config
+Yang2020 Path To Presidency:
+  installDir:
+    Yang2020 Path To Presidency: {}
+  launch:
+    "<base>/Yang2020.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Yang2020_Mac_v1.0.app/Contents/MacOS/Yang2020":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1204720
+YangBo Adventure:
+  installDir:
+    ET遊朝陽: {}
+  launch:
+    "<base>/YangBo Adventure.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 772460
+"Yankai's Triangle":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/Threefold/**/*.ini":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/com.sun.threefold/**/*.ini":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/Threefold/**/*.ini":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    YankaisTriangle: {}
+  launch:
+    "<base>/YankaisTriangle.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YankaisTriangle.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/run.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 527740
+"Yanone: Letter Splatter":
+  installDir:
+    Yanone: {}
+  steam:
+    id: 748830
+Yanpai Simulator:
+  installDir:
+    Yanpai Simulator: {}
+  launch:
+    "<base>/windows_content/Yanpai Simulator.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 990850
+"Yar's Revenge":
+  files:
+    "<base>/win32/AppSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/win32/Config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/win32/savegame.svg":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yars Revenge: {}
+  launch:
+    "<base>/win32/launch.bat":
+      - when:
+          - store: steam
+        workingDir: "<base>/win32"
+      - arguments: "-configure"
+        when:
+          - store: steam
+        workingDir: "<base>/win32"
+  steam:
+    id: 99120
+Yargis - Space Melee:
+  cloud:
+    steam: true
+  files:
+    "<base>/UserData/**/*.json":
+      when:
+        - store: steam
+    "<base>/UserData/**/*.ylv":
+      when:
+        - store: steam
+    "<base>/UserData/**/*.yslv":
+      when:
+        - store: steam
+    "<home>/Saved Games/Yargis/**/*.json":
+      when:
+        - store: steam
+    "<home>/Saved Games/Yargis/**/*.ylv":
+      when:
+        - store: steam
+    "<home>/Saved Games/Yargis/**/*.yslv":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 383610
+      - 402950
+  installDir:
+    Yargis - Space Melee: {}
+  launch:
+    "<base>/Yargis.exe":
+      - when:
+          - store: steam
+    "<base>/YargisServerConfig.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 369040
+Yars Rising:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/WayForward/Yars Rising/_savedata":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3000210
+  installDir:
+    Yars Rising: {}
+  launch:
+    "<base>/Yars.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2534370
+"Yars: Recharged":
+  cloud:
+    gog: true
+  files:
+    "<home>/AppData/LocalLow/Atari Inc_/Yars Recharged/Yars_Recharged/config.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Atari Inc_/Yars Recharged/Yars_Recharged/save.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 2098611621
+  installDir:
+    Yars Recharged: {}
+  launch:
+    "<base>/Yars Recharged.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YarsRecharged.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YarsRecharged.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Atari Inc./Yars Recharged:
+      tags:
+        - config
+  steam:
+    id: 2019990
+Yasai Ninja:
+  cloud:
+    steam: true
+  files:
+    "<base>/Yasai_Data/Resources/Data/settings.xml":
+      when:
+        - store: steam
+  installDir:
+    Yasai Ninja: {}
+  launch:
+    "<base>/Yasai.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 372150
+Yashik:
+  installDir:
+    Yashik: {}
+  launch:
+    "<base>/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 754800
+Yasuke Hentai Simulator:
+  installDir:
+    Yasuke Hentai Simulator: {}
+  launch:
+    "<base>/YasukeHentaiSimulator.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YasukeHentaiSimulator.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YasukeHentaiSimulator.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3624590
+Yasuke Simulator:
+  id:
+    steamExtra:
+      - 3599190
+      - 3599230
+      - 3599240
+  installDir:
+    Yasuke Simulator: {}
+  launch:
+    "<base>/Yasuke Simulator.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3272300
+"Yasuke: A Lost Descendant":
+  id:
+    lutris: yasuke-a-lost-descendant
+    steamExtra:
+      - 2861930
+      - 2862090
+  steam:
+    id: 2446760
+Yatagarasu Attack on Cataclysm:
+  files:
+    "<winAppData>/PDWHOTAPEN":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yatagarasu: {}
+  launch:
+    "<base>/YatagarasuLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 319280
+Yatsumitsu Fists of Wrath:
+  steam:
+    id: 696930
+Yatzy:
+  installDir:
+    Yatzy: {}
+  launch:
+    "<base>/Yatzy.app/Contents/MacOS/Yatzy":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Yatzy.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Yatzy.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 749010
+Ye Fenny - Revenge of the Evil Good Shepherd:
+  installDir:
+    Ye Fenny - Revenge of the Evil Good Shepherd: {}
+  launch:
+    "<base>/Ye Fenny.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 769020
+"Yeah Jam Fury: U, Me, Everybody!":
+  cloud:
+    steam: true
+  installDir:
+    YJFUME: {}
+  launch:
+    "<base>/YJFUME":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 633930
+Yeah Yeah Beebiss II:
+  installDir:
+    Yeah Yeah Beebiss II: {}
+  launch:
+    "<base>/Yeah Yeah Beebiss II.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1871700
+Year Walk:
+  files:
+    "<home>/AppData/LocalLow/Simogo/Year Walk/gamedata.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/unity.Simogo.Year Walk":
+      tags:
+        - save
+      when:
+        - os: mac
+  installDir:
+    YearWalk: {}
+  launch:
+    "<base>/yearwalk.app":
+      - when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/yearwalk.app"
+    "<base>/yearwalk.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 269050
+"Yearn Tyrant's Conquest":
+  installDir:
+    "YEARN Tyrant's Conquest": {}
+  launch:
+    "<base>/YEARN Tyrant's Conquest.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YEARN Tyrant's Conquest.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YEARN Tyrant's Conquest.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/YEARN Tyrant's Conquest.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 449070
+Yearning:
+  installDir:
+    Yearning: {}
+  launch:
+    "<base>/Yearning.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 969740
+"Yearning: A Gay Story":
+  files:
+    "<base>/game/saves":
+      when:
+        - store: steam
+  installDir:
+    Yearning A Gay Story: {}
+  launch:
+    "<base>/YAGS.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YAGS.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YAGS.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1690530
+Yelaxot:
+  id:
+    steamExtra:
+      - 388480
+  installDir:
+    Yelaxot: {}
+  launch:
+    "<base>/Yelaxot.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 340820
+Yeli Orog:
+  installDir:
+    Yeli Orog: {}
+  launch:
+    "<base>/Yeli Orog.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 886270
+Yello Bandana:
+  steam:
+    id: 681420
+Yellow Taxi Goes Vroom:
+  cloud:
+    gog: true
+    steam: true
+  gog:
+    id: 1470038634
+  id:
+    lutris: yellow-taxi-goes-vroom
+  installDir:
+    Yellow Taxi Goes Vroom: {}
+  launch:
+    "<base>/Yellow Taxi Goes Vroom.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Panik Arcade/Yellow Taxi Goes Vroom:
+      tags:
+        - config
+  steam:
+    id: 2011780
+"Yellow: The Yellow Artifact":
+  cloud:
+    steam: true
+  steam:
+    id: 486820
+Yellowtoy:
+  files:
+    "<winLocalAppData>/SavesDir/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    yellowtoy: {}
+  launch:
+    "<base>/yellowtoy.exe":
+      - when:
+          - os: windows
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 1073380
+Yemon:
+  steam:
+    id: 894320
+Yerah:
+  files:
+    "<home>/AppData/LocalLow/DigitalWolfByte/Yerah/*.octo":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Yerah: {}
+  steam:
+    id: 717380
+Yerba Buena:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Mad About Pandas/YerbaBuena Demo/savegame.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Mad About Pandas/YerbaBuena/savegame.json":
+      when:
+        - store: steam
+  installDir:
+    Yerba Buena: {}
+  launch:
+    "<base>/YerbaBuena.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2330110
+"Yes, Master!":
+  files:
+    "<winAppData>/Yes, Master!":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    "Yes, Master!": {}
+  launch:
+    "<base>/Yes, Master!.app/Contents/MacOS/YesMaster":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YesMaster.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YesMaster.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1090900
+"Yes, Your Grace":
+  cloud:
+    epic: true
+    gog: true
+  files:
+    "<home>/AppData/LocalLow/Brave At Night/Yes, Your Grace":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1482195316
+  id:
+    gogExtra:
+      - 1325987918
+    steamExtra:
+      - 1252080
+  installDir:
+    "Yes, Your Grace": {}
+  launch:
+    "<base>/Yes, Your Grace.app/Contents/MacOS/Yes, Your Grace":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Yes, Your Grace.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/Brave At Night/Yes, Your Grace":
+      tags:
+        - config
+  steam:
+    id: 1115690
+"Yes, Your Grace: Snowfall":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Brave At Night/Yes Your Grace Snowfall/Saves/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Brave At Night/Yes Your Grace Snowfall/Saves":
+      tags:
+        - save
+      when:
+        - os: mac
+  gog:
+    id: 1619000895
+  id:
+    lutris: yes-your-grace-snowfall
+  installDir:
+    Yes Your Grace Snowfall: {}
+  launch:
+    "<base>/Yes Your Grace Snowfall.app/Contents/MacOS/Yes Your Grace Snowfall":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Yes Your Grace Snowfall.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1373090
+YesterMorrow:
+  gog:
+    id: 1538004666
+  id:
+    steamExtra:
+      - 1313780
+  installDir:
+    YesterMorrow: {}
+  launch:
+    "<base>/YesterMorrow.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1210490
+Yesterday:
+  cloud:
+    gog: true
+  files:
+    "<winProgramData>/Pendulo Studios/Yesterday/SAVEGAME":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winProgramData>/Pendulo Studios/Yesterday/ps.config":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1455500057
+  installDir:
+    Yesterday: {}
+  launch:
+    "<base>/PSConfig.exe":
+      - when:
+          - store: steam
+    "<base>/Yesterday.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 205840
+Yesterday (Triple Tree Studio):
+  installDir:
+    Yesterday: {}
+  launch:
+    "<base>/Yesterday.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 649360
+Yesterday Origins:
+  cloud:
+    gog: true
+  files:
+    "<home>/AppData/LocalLow/PenduloStudios/Yesterday Origins/YesterdayOriginsConfig.yo":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/PenduloStudios/Yesterday Origins/YesterdayOriginsSaveGame*.yo":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1576683029
+  installDir:
+    Yesterday Origins: {}
+  launch:
+    "<base>/YesterdayOrigins.app/Contents/MacOS/YesterdayOrigins":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/YesterdayOrigins.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 465280
+Yet Another Hero Legend 英雄传说又一则:
+  files:
+    "<base>/progress.rvdata2":
+      when:
+        - store: steam
+  installDir:
+    Yet Another Hero Legend: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1083750
+Yet Another Hero Story:
+  files:
+    "<home>/Library/Application Support/Sinking Sheep/Yet Another Hero Story/Savegames/*.dat":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/Sinking Sheep/Yet Another Hero Story/Savegames/*.dat":
+      when:
+        - store: steam
+  installDir:
+    Yet Another Hero Story: {}
+  launch:
+    "<base>/YAHS.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Yet Another Hero Story.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/start":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1106150
+Yet Another Level:
+  installDir:
+    Yet Another Level: {}
+  launch:
+    "<base>/BL_Indy_Project.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1081630
+Yet Another Research Dog:
+  installDir:
+    Yet Another Research Dog: {}
+  launch:
+    "<base>/Yet Another Research Dog.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Yet Another Research Dog.exe":
+      - arguments: "-windowed"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 777650
+Yet Another Snake Game:
+  installDir:
+    Yet Another Snake Game: {}
+  launch:
+    "<base>/YASG.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 956590
+Yet Another Survival Game:
+  installDir:
+    Yet Another Survival Game: {}
+  launch:
+    "<base>/Yet Another Survival Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1023060
+Yet Another World:
+  installDir:
+    Yet Another World: {}
+  launch:
+    "<base>/yetanotherworld":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/yetanotherworld.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/yetanotherworld.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 411740
+Yet Another Zombie Defense:
+  files:
+    "<winDocuments>/SavedGames/YetAnotherZombieDefense":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yet Another Zombie Defense: {}
+  launch:
+    "<base>/YetAnotherZombieDefense.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 270550
+Yet Another Zombie Defense HD:
+  cloud:
+    steam: true
+  installDir:
+    Yet Another Zombie Defense HD: {}
+  launch:
+    "<base>/YAZD_HD.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 674750
+Yet Another Zombie Survivors:
+  cloud:
+    steam: true
+  id:
+    lutris: yet-another-zombie-survivors
+    steamExtra:
+      - 2265230
+      - 2281990
+      - 4377470
+  installDir:
+    Yet Another Zombie Survivors: {}
+  launch:
+    "<base>/Yet Another Zombie Survivors.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2163330
+Yet another tower defence:
+  files:
+    "<home>/AppData/LocalLow/FantasyLi/YetAnotherTowerDefense/Save/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/FantasyLi/YetAnotherTowerDefense/Save/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Yet another tower defence: {}
+  launch:
+    "<base>/YetAnotherTowerDefense.app/Contents/MacOS/YetAnotherTowerDefense":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YetAnotherTowerDefense.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 923890
+Yeti Adventure:
+  steam:
+    id: 604810
+"Yeti's Parole Officer":
+  cloud:
+    steam: true
+  installDir:
+    "Yeti's Parole Officer": {}
+  launch:
+    "<base>/Yeti's Parole Officer.app/Contents/MacOS/Yeti's Parole Officer":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YetisParoleOfficer":
+      - arguments: "--no-sandbox"
+        when:
+          - os: linux
+            store: steam
+    "<base>/YetisParoleOfficer.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 772320
+Yggdra Union:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/sting/Yggdra Union/configdata/CONFIG.DAT":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/sting/Yggdra Union/savedata/CONTINUE*.DAT":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/sting/Yggdra Union/savedata/STORY*.DAT":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/sting/Yggdra Union/savedata/SYSTEM.DAT":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yggdra Union: {}
+  launch:
+    "<base>/YggdraUnion.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2107860
+Yggdrasil Jigsaw Puzzle:
+  cloud:
+    steam: true
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+        - os: mac
+          store: steam
+        - os: linux
+          store: steam
+    "<base>/YJP.app/Contents/Resources/autorun/YJP.app/Contents/Resources/autorun/game/saves":
+      when:
+        - os: mac
+          store: steam
+    "<base>/YJP.app/Contents/Resources/autorun/game/saves":
+      when:
+        - store: steam
+        - os: mac
+          store: steam
+    "<base>/game/saves":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+        - os: linux
+          store: steam
+    "<home>/.renpy/YJP-1551456315":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/RenPy/YJP-1551456315":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/RenPy/YJP-1551456315":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 1045560
+  installDir:
+    YGGDRASIL JIGSAW PUZZLE: {}
+  launch:
+    "<base>/YJP.app/Contents/MacOS/YJP":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YJP.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YJP.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1045400
+Yi and the Thousand Moons:
+  installDir:
+    Yi and the Thousand Moons: {}
+  launch:
+    "<base>/Yi and the Thousand Moons.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Yi and the Thousand Moons.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 701730
+Yiki Action RPG:
+  steam:
+    id: 1062920
+Yinyang:
+  installDir:
+    Yinyang: {}
+  launch:
+    "<base>/Yinyang.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1043450
+Yissa Deep Realms:
+  files:
+    "<winLocalAppData>/YissaDeepRealms/User Data/Default/IndexedDB":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Yissa Deep Realms: {}
+  launch:
+    "<base>/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 750960
+Ylands:
+  files:
+    "<winDocuments>/Ylands/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 710560
+      - 1179720
+  installDir:
+    Ylands: {}
+  steam:
+    id: 298610
+Ymir:
+  installDir:
+    Ymir: {}
+  launch:
+    "<base>/Ymir.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 378360
+Yo Frankie!:
+  files:
+    "<base>/yofrankie-win32/YOFRAN~1.EXE.bgeconf":
+      tags:
+        - config
+      when:
+        - os: windows
+Yo My Yo!:
+  installDir:
+    Yo My Yo!: {}
+  launch:
+    "<base>/YMO.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 978490
+"Yo! Noid 2: Enter the Void":
+  files:
+    "<base>/SaveData.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+Yoba:
+  installDir:
+    Yoba: {}
+  launch:
+    "<base>/Yoba.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 688690
+Yoga Lesson VR:
+  installDir:
+    Yoga Lesson VR: {}
+  steam:
+    id: 895580
+Yogurt!:
+  installDir:
+    Yogurt!: {}
+  launch:
+    "<base>/Yogurt!!/Yogurt!.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/DefaultCompany/Yogurt!:
+      tags:
+        - config
+        - save
+  steam:
+    id: 1390740
+Yohane the Parhelion -BLAZE in the DEEPBLUE-:
+  alias: "Yohane the Parhelion: Blaze in the Deepblue"
+Yohane the Parhelion -NUMAZU in the MIRAGE-:
+  alias: "Yohane the Parhelion: Numazu in the Mirage"
+"Yohane the Parhelion: Blaze in the Deepblue":
+  files:
+    "<home>/Saved Games/INTI CREATES/YOHANE-BID/yhn*":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    YOHANE THE PARHELION -BLAZE in the DEEPBLUE-: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2404370
+"Yohane the Parhelion: Numazu in the Mirage":
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/2459750/remote":
+      tags:
+        - config
+        - save
+      when:
+        - store: steam
+  installDir:
+    Yohanuma: {}
+  launch:
+    "<base>/yohanuma.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2459750
+Yohjo Simulator:
+  installDir:
+    Yohjo Simulator: {}
+  launch:
+    "<base>/YohjoSimulator.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 415950
+Yoiyami Biscuit:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.ybs":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: yoiyami-biscuit
+  installDir:
+    rumiaVSv_yoiyamibiscuit: {}
+  launch:
+    "<base>/rumiaVSv.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3619760
+"Yoiyami Dancers: Twilight Danmaku Dancers":
+  cloud:
+    steam: true
+  files:
+    "<base>/game_Save.ydn":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/settings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: yoiyami-dancers-twilight-danmaku-dancers
+  installDir:
+    rumiaDDR_yoiyamidancers: {}
+  steam:
+    id: 1998530
+Yokai Mask:
+  files:
+    "<base>/Saves/*.rvdata2":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Yokai Mask: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 708160
+"Yokai's Secret":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Double W/Yokai's Secret/save_0.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Double W/Yokai's Secret/saveinfo.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    "Yokai's Secret": {}
+  launch:
+    "<base>/Yokai's Secret.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1146630
+Yoke Light:
+  installDir:
+    YokeLight: {}
+  launch:
+    "<base>/YokeLight.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 858730
+"Yoku's Island Express":
+  cloud:
+    gog: true
+    origin: true
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/334940/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winAppData>/Villa Gorilla/Yoku's Island Express":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Villa Gorilla/Yoku's Island Express/config.csv":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Packages/Team17DigitalLimited.YokusIslandExpressWin10_j5x4vj4y67jhc/LocalCache/Roaming/Villa Gorilla/Yoku's Island Express":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/Team17DigitalLimited.YokusIslandExpressWin10_j5x4vj4y67jhc/LocalCache/Roaming/Villa Gorilla/Yoku's Island Express/config.csv":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+  gog:
+    id: 1576137547
+  installDir:
+    Yokus Island Express: {}
+  launch:
+    "<base>/Yoku.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 334940
+Yoltrund:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Templarius Studios/Yoltrund":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/Templarius Studios/Yoltrund":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/unity.Templarius Studios.Yoltrund":
+      tags:
+        - save
+      when:
+        - os: mac
+  id:
+    steamExtra:
+      - 775550
+  installDir:
+    Yoltrund: {}
+  launch:
+    "<base>/Yoltrund.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Yoltrund.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Yoltrund.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Yoltrund.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 770120
+"Yomawari: Lost in the Dark":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Nippon Ichi Software, Inc/Yomawari Lost In the Dark":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yomawari Lost in the Dark: {}
+  launch:
+    "<base>/yomawariMaster.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1998330
+"Yomawari: Midnight Shadows":
+  cloud:
+    steam: true
+  files:
+    "<base>/savedata":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yomawari Midnight Shadows: {}
+  launch:
+    "<base>/yomawari2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 625980
+"Yomawari: Night Alone":
+  cloud:
+    steam: true
+  files:
+    "<base>/data/savedata":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 477880
+      - 477881
+  installDir:
+    Yomawari Night Alone: {}
+  launch:
+    "<base>/yomawari-steam.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 477870
+Yomi:
+  id:
+    steamExtra:
+      - 383050
+  installDir:
+    Yomi: {}
+  launch:
+    "<base>/Yomi.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Yomi.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Yomi.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Yomi.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 287960
+Yomi Alliance:
+  installDir:
+    Yomi Alliance: {}
+  launch:
+    "<base>/StarAlliance.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/StarAlliance.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/StarAlliance.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1160950
+Yon Paradox:
+  installDir:
+    Yon Paradox: {}
+  launch:
+    "<base>/YonParadox.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 450050
+"Yonder: The Cloud Catcher Chronicles":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Prideful Sloth/Yonder_ The Cloud Catcher Chronicles":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yonder The Cloud Catcher Chronicles: {}
+  launch:
+    "<base>/YonderCCC.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 580200
+Yono and the Celestial Elephants:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Neckbolt/Yono and the Celestial Elephants/Resources/savefiles":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 2051103599
+  installDir:
+    Yono and the Celestial Elephants: {}
+  launch:
+    "<base>/Yono and the Celestial Elephants.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Neckbolt/Yono and the Celestial Elephants:
+      tags:
+        - config
+  steam:
+    id: 602430
+Yooka-Laylee:
+  cloud:
+    epic: true
+    gog: true
+    origin: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Playtonic Ltd/Yooka-Laylee":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/360830/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winLocalAppData>/Packages/Team17DigitalLimited.5848AC421674_j5x4vj4y67jhc/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+    "<xdgConfig>/unity3d/Playtonic Ltd/Yooka-Laylee":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 1445853962
+  id:
+    gogExtra:
+      - 1354053863
+    steamExtra:
+      - 426750
+  installDir:
+    YookaLaylee: {}
+  launch:
+    "<base>/YookaLaylee.app/Contents/MacOS/YookaLaylee":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YookaLaylee.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/YookaLaylee64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: "-window-mode exclusive -screen-fullscreen 1"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Playtonic Ltd/Yooka-Laylee:
+      tags:
+        - config
+  steam:
+    id: 360830
+Yooka-Laylee and the Impossible Lair:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Playtonic Ltd/Yooka-Laylee and the Impossible Lair":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/846870/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winLocalAppData>/Packages/Team17DigitalLimited.20270001033A3_j5x4vj4y67jhc/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  gog:
+    id: 1314750105
+  id:
+    gogExtra:
+      - 1257476766
+      - 1323045572
+      - 1448752059
+      - 1476369156
+  installDir:
+    Yooka-Laylee and the Impossible Lair: {}
+  launch:
+    "<base>/YLILWin64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Playtonic Ltd/Yooka-Laylee and the Impossible Lair:
+      tags:
+        - config
+  steam:
+    id: 846870
+Yooka-Replaylee:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Playtonic Ltd/Yooka-Replaylee":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/2448020/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  installDir:
+    Game07: {}
+  launch:
+    "<base>/ReplayleeWin64.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Playtonic Ltd/Yooka-Replaylee:
+      tags:
+        - config
+  steam:
+    id: 2448020
+"Yoomurjak's Ring":
+  files:
+    "<winAppData>/Private Moon Studios/Yoomurjak/Save/agon.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Private Moon Studios/Yoomurjak/Yoomurjak.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    "YOOMURJAK'S RING": {}
+  launch:
+    "<base>/Yoomurjak.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 774151
+Yoot Tower:
+  id:
+    lutris: yoot-tower
+Yore VR:
+  installDir:
+    YoreVR: {}
+  steam:
+    id: 524380
+Yorkshire Gubbins:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/yorkshiregubbins/User Data":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yorkshire Gubbins: {}
+  launch:
+    "<base>/Yorkshire Gubbins.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Yorkshire Gubbins.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/yorkshiregubbins":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 716650
+Yosumin!:
+  files:
+    "<base>/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 23370
+  installDir:
+    Yosumin: {}
+  launch:
+    "<base>/Yosumin.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 23300
+Yotsunoha:
+  steam:
+    id: 880150
+You Are Empty:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/YaE":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/YaE/savegames":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 4760480
+You Are God:
+  installDir:
+    You Are God: {}
+  launch:
+    "<base>/YouAreGod.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 596280
+You Are Here:
+  installDir:
+    You Are Here: {}
+  steam:
+    id: 930500
+You Are King:
+  installDir:
+    YOU ARE KING: {}
+  launch:
+    "<base>/YOU ARE KING.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 697000
+You Are My Sanctuary:
+  files:
+    "<base>/Saves/*.rvdata2":
+      when:
+        - store: steam
+  installDir:
+    Yuyasc: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 938810
+You Are Not A Banana:
+  installDir:
+    You Are Not A Banana: {}
+  launch:
+    "<base>/YOU_ARE_NOT_A_BANANA.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YOU_ARE_NOT_A_BANANA.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YOU_ARE_NOT_A_BANANA.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 340470
+You Are Not The Hero:
+  installDir:
+    YANTH: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 268970
+You Are a Torpedo AI:
+  installDir:
+    You Are a Torpedo AI: {}
+  launch:
+    "<base>/TorpedoAI.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 750820
+You Are the Apple of My Eye:
+  files:
+    "<base>/savedata":
+      when:
+        - store: steam
+  installDir:
+    CoffeeTime: {}
+  launch:
+    "<base>/CoffeeTime.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 822440
+You Can(Not) Survive:
+  installDir:
+    You Can(Not) Survive: {}
+  launch:
+    "<base>/You Can(Not) Survive.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 976340
+You Complete Me:
+  steam:
+    id: 1122330
+You Deserve:
+  installDir:
+    You Deserve: {}
+  launch:
+    "<base>/YouDeserve.app/Contents/MacOS/YouDeserve":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/YouDeserve.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/YouDeserve.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 502240
+You Died but a Necromancer revived you:
+  cloud:
+    steam: true
+  installDir:
+    YouDied_BaNRY: {}
+  launch:
+    "<base>/YouDied_BaNRY":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/YouDied_BaNRY.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1037100
+"You Doesn't Exist":
+  installDir:
+    "You Doesn't Exist": {}
+  launch:
+    "<base>/openjdk/bin/java":
+      - arguments: "-jar rpgboss-library.jar --player gamedata"
+        when:
+          - os: linux
+            store: steam
+    "<base>/openjdk/bin/java.exe":
+      - arguments: "-jar rpgboss-library.jar --player gamedata"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 688650
+"You Don't Have Time":
+  installDir:
+    "You Don't Have Time": {}
+  launch:
+    "<base>/YouDontHaveTime.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1107040
+"You Don't Know Jack":
+  installDir:
+    YDKJ_VOL1XL: {}
+  launch:
+    "<base>/YDKJV1.EXE":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 252730
+"You Don't Know Jack Movies":
+  installDir:
+    YDKJ_MOVIES: {}
+  launch:
+    "<base>/YDKJVM.EXE":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 260000
+"You Don't Know Jack Sports":
+  installDir:
+    YDKJ_SPORTS: {}
+  launch:
+    "<base>/YDKJVS.EXE":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 260020
+"You Don't Know Jack: Head Rush":
+  installDir:
+    YDKJ_HEADRUSH: {}
+  launch:
+    "<base>/YDKJVH.EXE":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 260060
+"You Don't Know Jack: Television":
+  installDir:
+    YDKJ_TV: {}
+  launch:
+    "<base>/YDKJVT.EXE":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 260040
+"You Don't Know Jack: Volume 2":
+  installDir:
+    YDKJ_VOL2: {}
+  launch:
+    "<base>/YDKJV2.EXE":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 259940
+"You Don't Know Jack: Volume 3":
+  installDir:
+    YDKJ_VOL3: {}
+  launch:
+    "<base>/YDKJV3.EXE":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 259960
+"You Don't Know Jack: Volume 4 - The Ride":
+  installDir:
+    YDKJ_VOL4: {}
+  launch:
+    "<base>/YDKJV4.EXE":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 259980
+"You Don't Know Jack: Volume 6 - The Lost Gold":
+  installDir:
+    YDKJ_VOL6: {}
+  launch:
+    "<base>/YDKJ6.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 260080
+You Green Elephant:
+  steam:
+    id: 848670
+You Have 10 Seconds:
+  installDir:
+    You Have 10 Seconds: {}
+  launch:
+    "<base>/You Have 10 Secondsfinal.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 510050
+You Have 10 Seconds 2:
+  installDir:
+    You Have 10 Seconds 2: {}
+  launch:
+    "<base>/You Have 10 Seconds 2 Steam Release.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 521570
+You Have 10 Seconds 3:
+  installDir:
+    You Have 10 Seconds 3: {}
+  launch:
+    "<base>/You Have 10 Seconds 3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 978640
+You Have to Win the Game:
+  files:
+    "<base>/Autosave.vsg":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<base>/Config":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<winDocuments>/My Games/You Have to Win the Game/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/You Have to Win the Game/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    You Have to Win the Game: {}
+  launch:
+    "<base>/TheGame.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/TheGame.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/TheGame_NFML":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 286100
+You Know The Drill:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/godot/app_userdata/You Know the Drill!/saves/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<winAppData>/Godot/app_userdata/You Know the Drill!/saves/*.save":
+      when:
+        - store: steam
+  id:
+    lutris: you-know-the-drill--1
+    steamExtra:
+      - 4596600
+  installDir:
+    You Know The Drill: {}
+  launch:
+    "<base>/yktd.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "--rendering-driver vulkan"
+        when:
+          - os: windows
+            store: steam
+    "<base>/yktd.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3833760
+You Must Build a Boat:
+  files:
+    "<home>/AppData/LocalLow/EightyEightGames/*ymbab/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/EightyEightGames/*ymbab/settings/settings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/Library/Application Support/unity.EightyEightGames.*ymbab/save":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/unity.EightyEightGames.*ymbab/settings/settings.dat":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<xdgConfig>/unity3d/EightyEightGames/_ymbab":
+      tags:
+        - save
+      when:
+        - os: linux
+  installDir:
+    YMBAB: {}
+  launch:
+    "<base>/YMBAB.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YMBAB.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YMBAB.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 290890
+You Must be 18 or Older to Enter:
+  installDir:
+    You Must be 18 or Older to Enter: {}
+  launch:
+    "<base>/18orOlder.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 608510
+You Never Listen:
+  steam:
+    id: 1157600
+You Only Livez Twice:
+  installDir:
+    You Only Livez Twice: {}
+  launch:
+    "<base>/You Only Livez Twice.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/yolt.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/yolt_linux.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1172820
+You Shall Not Break!:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/YouShallNotBreak/Saved/SaveGames/ysnb_gmsv.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    You Shall Not Break!: {}
+  launch:
+    "<base>/YouShallNotBreak.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 959020
+"You Shall Not Jump: PC Master Race Edition":
+  installDir:
+    You Shall Not Jump PC Master Race Edition: {}
+  launch:
+    "<base>/You Shall Not Jump.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YouShallNotJump.app/Contents/MacOS/YouShallNotJump":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YouShallNotJump.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/YouShallNotJump.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 649000
+You Suck at Parking:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Happy Volcano/YSAP/Settings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    You Suck at Parking: {}
+  launch:
+    "<base>/YSAP.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 837880
+You Versus 27 Elves:
+  installDir:
+    uv27: {}
+  launch:
+    "<base>/You Versus 27 Elves.app/Contents/MacOS/You Versus 27 Elves":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/You Versus 27 Elves.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1043160
+You Will Die Here Tonight:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Spiral Bound Interactive/You Will Die Here Tonight":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Spiral Bound Interactive/You Will Die Here Tonight/save slot 1.ywdht":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    You Will Die Here Tonight: {}
+  launch:
+    "<base>/You Will Die Here Tonight.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Spiral Bound Interactive/You Will Die Here Tonight:
+      tags:
+        - config
+  steam:
+    id: 1446350
+You Will Never Get This Achievement:
+  installDir:
+    You Will Never Get This Achievement: {}
+  launch:
+    "<base>/You Will Never Get This Achievement.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 771410
+You are Never Alone:
+  installDir:
+    You are Never Alone: {}
+  launch:
+    "<base>/YouareNeverAlone.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 978020
+You are apt:
+  installDir:
+    You are apt: {}
+  launch:
+    "<base>/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1140930
+You are pig sitter:
+  installDir:
+    you are pig sitter: {}
+  launch:
+    "<base>/you_are_pig_sitter.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1183410
+You have a drunk friend:
+  installDir:
+    DrunkFriend: {}
+  launch:
+    "<base>/DrunkFriend.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 966530
+"You're Fired":
+  steam:
+    id: 843210
+"You're Fired!":
+  installDir:
+    "You're Fired!": {}
+  launch:
+    "<base>/Game.app/Contents/Resources/Youre Fired.icns":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Youre Fired.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1086050
+"You're My Favorite Person":
+  steam:
+    id: 3866380
+"You're Not Special":
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 994510
+  installDir:
+    "You're Not Special": {}
+  launch:
+    "<base>/Game.app":
+      - arguments: "--in-process-gpu"
+        when:
+          - os: mac
+            store: steam
+    "<base>/Game.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 991430
+"You, With Me - A Kinetic Novel":
+  installDir:
+    You With Me: {}
+  launch:
+    "<base>/You_With_Me.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/You_With_Me.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/You_With_Me.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 588050
+You... and Who Else?:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/You_Saves/**/*.*":
+      when:
+        - store: steam
+  installDir:
+    You... and who else: {}
+  launch:
+    "<base>/YOU.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 459640
+"You: The Untold Stories":
+  installDir:
+    YOU - The Untold Stories: {}
+  launch:
+    "<base>/You - The Untold Stories.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 904930
+YouTube VR:
+  installDir:
+    YouTubeVR: {}
+  steam:
+    id: 755770
+YouTubers Galaxy:
+  installDir:
+    iTowngameplay Universe: {}
+  launch:
+    "<base>/Universe.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 667120
+"Young Justice: Legacy":
+  files:
+    "<winDocuments>/YoungJustice/Data.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Young Justice Legacy: {}
+  launch:
+    "<base>/Launcher.exe":
+      - arguments: "-s"
+        when:
+          - os: windows
+            store: steam
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 235760
+Young Souls:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/1P2P/YoungSouls/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/1P2P/YoungSouls/preferences.bin":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Young Souls: {}
+  launch:
+    "<base>/YoungSouls.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 985900
+Young Suns:
+  cloud:
+    steam: true
+  steam:
+    id: 4149610
+Your Anime Waifu:
+  installDir:
+    Your Anime Waifu: {}
+  launch:
+    "<base>/YourAnimeWaifu.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1159020
+Your Ball Exploded:
+  steam:
+    id: 872980
+Your Bunny Wrote:
+  steam:
+    id: 756440
+Your Car Shooter:
+  steam:
+    id: 882510
+Your Diary+:
+  files:
+    "<base>/savedata":
+      when:
+        - store: steam
+  installDir:
+    your diary+: {}
+  launch:
+    "<base>/yourdiary.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 761700
+Your Doodles Are Bugged!:
+  cloud:
+    steam: true
+  installDir:
+    Your Doodles Are Bugged!: {}
+  launch:
+    "<base>/YourDoodlesAreBugged.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 95500
+Your Dry Delight:
+  cloud:
+    steam: true
+  installDir:
+    Your Dry Delight: {}
+  launch:
+    "<base>/YourDryDelight-1.9.8-pc/YourDryDelight.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YourDryDelight-1.9.8-pc/YourDryDelight.sh":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/renpy.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 913010
+Your Friend Hana:
+  installDir:
+    Your Friend Hana: {}
+  launch:
+    "<base>/Your_Friend_Hana.app/Contents/MacOS/Your_Friend_Hana":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Your_Friend_Hana.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Your_Friend_Hana.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 610810
+Your Future Self:
+  files:
+    "<home>/AppData/LocalLow/Contortionist Games/Your Future Self":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Your Future Self: {}
+  launch:
+    "<base>/YourFutureSelf.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YourFutureSelf.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YourFutureSelf.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/YourFutureSelf.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Contortionist Games/Your Future Self:
+      tags:
+        - config
+  steam:
+    id: 1030580
+Your Home:
+  installDir:
+    Your Home: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1015350
+Your Island -KIMI NO SIMA-:
+  files:
+    "<base>/dat2/my.dat":
+      when:
+        - os: windows
+          store: steam
+    "<base>/island/*.*":
+      when:
+        - os: windows
+          store: steam
+    "<base>/picture/*.jpg":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Your Island: {}
+  launch:
+    "<base>/zero_village.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1087720
+Your Quest:
+  cloud:
+    steam: true
+  files:
+    "<base>/Saves/*.save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Your Quest: {}
+  launch:
+    "<base>/Your Quest.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 416030
+Your Quest 2:
+  installDir:
+    Your Quest 2: {}
+  launch:
+    "<base>/Your Quest 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1220510
+Your Royal Gayness:
+  installDir:
+    Your Royal Gayness: {}
+  launch:
+    "<base>/YourRoyalGayness.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YourRoyalGayness.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YourRoyalGayness.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 765210
+Your Smile Beyond Twilight:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/com/lingtanstudio/yoursmilebeyondtwilight/lingtanstudio/YourSmileBeyondTwilight":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/lingtanstudio/YourSmileBeyondTwilight":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/com.lingtanstudio.yoursmilebeyondtwilight/lingtanstudio/YourSmileBeyondTwilight":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Your Smile Beyond Twilight: {}
+  launch:
+    "<base>/Station.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 653950
+Your Star:
+  installDir:
+    Your Star: {}
+  launch:
+    "<base>/YourStar.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 520080
+Your Turn To Die -Death Game By Majority-:
+  cloud:
+    steam: true
+  files:
+    "<base>/www/save/*.rpgsave":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/www/save/config.rpgsave":
+      tags:
+        - config
+      when:
+        - store: steam
+  installDir:
+    yttd: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2067780
+"Your little story: Valentine's Day":
+  steam:
+    id: 1218150
+"Your little story: Winter":
+  installDir:
+    Your little story Winter: {}
+  launch:
+    "<base>/nw.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1195350
+Your sisters:
+  installDir:
+    Your Sisters: {}
+  launch:
+    "<base>/Your Sisters/YourSisters.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 611150
+Youropa:
+  cloud:
+    steam: true
+  files:
+    "<base>/userdata":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Youropa: {}
+  launch:
+    "<base>/youropa_x64.exe":
+      - arguments: "-driver directx9"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: "-driver opengl"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 640120
+Yourself!Fitness:
+  files:
+    "<base>/gameData/<storeUserId>.yfp":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/gameData/fitness.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+Yousei:
+  files:
+    "<winAppData>/renpy/younew-1516399954/*.save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/renpy/younew-1516399954/persistent":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Yousei: {}
+  launch:
+    "<base>/yousei.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/yousei.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/yousei.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 771380
+Youth Feather:
+  cloud:
+    steam: true
+  files:
+    "<base>/savedata/**/*.*":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/NavilaSoftware/YouthFeather/SaveData/**/*.jpg":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/NavilaSoftware/YouthFeather/SaveData/**/*.nvlsav":
+      when:
+        - store: steam
+  installDir:
+    YouthFeather: {}
+  launch:
+    "<base>/YouthFeather.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1111450
+Youtubers Clicker:
+  steam:
+    id: 689750
+Youtubers Life:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/U-Play online/Youtubers Life/Saves/*.yls":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    YoutubersLife: {}
+  launch:
+    "<base>/YoutubersLife.app/Contents/MacOS/YoutubersLife":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YoutubersLife.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YoutubersLife.x86":
+      - arguments: "-nolog"
+        when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/YoutubersLife.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/U-Play online/Youtubers Life:
+      tags:
+        - config
+  steam:
+    id: 428690
+Youtubers Life 2:
+  files:
+    "<home>/AppData/LocalLow/U-Play online/Youtubers Life 2":
+      when:
+        - store: steam
+    "<home>/U-Play online/Youtubers Life 2":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Youtubers Life 2: {}
+  launch:
+    "<base>/Youtubers Life 2.app/Contents/MacOS/Youtubers Life 2":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Youtubers Life 2.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Youtubers Life 2.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 1493760
+Yozakura Wizard VR:
+  installDir:
+    Yozakura Wizard VR: {}
+  steam:
+    id: 790780
+Yozora Rhapsody:
+  cloud:
+    steam: true
+  files:
+    "<base>/game/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/renpy/config.py":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/renpy/Yozora Rhapsody-1456526552":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yozora Rhapsody: {}
+  launch:
+    "<base>/Yozora_Rhapsody.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Yozora_Rhapsody.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Yozora_Rhapsody.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 569210
+Yrminsul:
+  id:
+    steamExtra:
+      - 443470
+  installDir:
+    Yrminsul: {}
+  launch:
+    "<base>/Yrminsul.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Yrminsul.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Yrminsul.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Yrminsul.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 412490
+Ys I & II Chronicles+:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/FALCOM/ys12c/ys1":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Saved Games/FALCOM/ys12c/ys2":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Saved Games/FALCOM/ys12c/ysp_win.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/223810/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  gog:
+    id: 1422440106
+  id:
+    gogExtra:
+      - 1422357672
+    steamExtra:
+      - 223870
+  installDir:
+    Ys I: {}
+  launch:
+    "<base>/config.exe":
+      - when:
+          - store: steam
+    "<base>/ys1plus.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 223810
+"Ys IX: Monstrum Nox":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/Falcom/Ys9":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Ys9/settings.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1966471371
+  id:
+    gogExtra:
+      - 1273075469
+      - 1386314464
+      - 1602432417
+      - 1767144970
+      - 1833675945
+      - 1976464544
+      - 2137711397
+  installDir:
+    Ys IX Monstrum Nox: {}
+  launch:
+    "<base>/ys9.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1351630
+Ys Origin:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/FALCOM/yso_win":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/Saved Games/FALCOM/yso_win/yso_*.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/207350/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  gog:
+    id: 1422357892
+  installDir:
+    Ys Origin: {}
+  launch:
+    "<base>/config.exe":
+      - when:
+          - store: steam
+    "<base>/yso_win.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 207350
+Ys Seven:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/savedata":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/savedata/systemdata.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1344324173
+  installDir:
+    Ys SEVEN: {}
+  launch:
+    "<base>/Ys7.exe":
+      - arguments: "-nolauncher"
+        when:
+          - store: steam
+    "<base>/Ys7Launcher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 587100
+"Ys VI: The Ark of Napishtim":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/FALCOM/ys6_win":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/312540/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  gog:
+    id: 1429178878
+  installDir:
+    Ys VI: {}
+  launch:
+    "<base>/config_dx9.exe":
+      - when:
+          - store: steam
+    "<base>/ys6_win_dx9.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 312540
+"Ys VIII: Lacrimosa of DANA":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/adjust.bin":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/config.bin":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/savedata":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1622206415
+  id:
+    gogExtra:
+      - 1262450080
+      - 1268012943
+      - 1276704310
+      - 1277076693
+      - 1374961157
+      - 1493734913
+      - 1644448807
+      - 1778489316
+      - 1830098579
+  installDir:
+    Ys VIII Lacrimosa of Dana: {}
+  launch:
+    "<base>/ys8.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 579180
+"Ys X: Nordics":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/CLE/Ys_X_-NORDICS-/savedata":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Saved Games/Falcom/YsX":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Falcom/YsX":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1443135085
+  id:
+    gogExtra:
+      - 1126562535
+      - 1286158799
+      - 1332987236
+      - 1368603394
+      - 1506780032
+      - 1556875116
+      - 1831813295
+      - 1843755335
+    lutris: ys-x-nordics
+  installDir:
+    Ys X Nordics: {}
+  launch:
+    "<base>/ysx.exe":
+      - when:
+          - store: steam
+      - arguments: "-latest"
+        when:
+          - store: steam
+  steam:
+    id: 2731870
+"Ys X: Proud Nordics":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/Falcom/YsX_PN":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Falcom/YsX_PN":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1365167181
+  id:
+    lutris: ys-x-proud-nordics
+  installDir:
+    Ys X Proud Nordics: {}
+  launch:
+    "<base>/ysx_pn.exe":
+      - when:
+          - store: steam
+      - arguments: "-latest"
+        when:
+          - store: steam
+  steam:
+    id: 3949290
+"Ys vs. Trails in the Sky: Alternative Saga":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/Falcom/YsVsSora/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Falcom/YsVsSora/**/*.png":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Falcom/YsVsSora/**/*.txt":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1566737619
+  installDir:
+    Ys vs. Trails in the Sky Alternative Saga: {}
+  launch:
+    "<base>/ys_vs_ed.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1794880
+"Ys: Memories of Celceta":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/FALCOM/Ys Memories of Celceta/game":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Saved Games/FALCOM/Ys Memories of Celceta/systemdata.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 2000358318
+  installDir:
+    Ys Memories of Celceta: {}
+  launch:
+    "<base>/YscLauncher.exe":
+      - when:
+          - store: steam
+    "<base>/Ysc_dx11.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 587110
+"Ys: The Oath in Felghana":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/FALCOM/ysf_win":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Saved Games/FALCOM/ysf_win/ysf_win.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/207320/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  gog:
+    id: 1422357788
+  installDir:
+    Ys The Oath in Felghana: {}
+  launch:
+    "<base>/config.exe":
+      - when:
+          - store: steam
+    "<base>/config_dx9.exe":
+      - when:
+          - store: steam
+    "<base>/ysf_win_dx9.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 207320
+Yu Crossing Animals:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winAppData>/Yu Crossing Animals/**/*.save":
+      when:
+        - store: steam
+  gog:
+    id: 1186527913
+  installDir:
+    Yu Crossing Animals: {}
+  launch:
+    "<base>/Yu Crossing Animals.exe":
+      - when:
+          - bit: 64
+            store: steam
+  steam:
+    id: 1630290
+Yu Escape / Monday:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/1177720":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Yu Escape  Monday: {}
+  launch:
+    "<base>/Yu.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1177720
+Yu-Gi-Oh! Duel Links:
+  installDir:
+    Yu-Gi-Oh! Duel Links: {}
+  launch:
+    "<base>/dlpc.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 601510
+Yu-Gi-Oh! Early Days Collection:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Yu-Gi-Oh! Early Days Collection":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yu-Gi-Oh! Early Days Collection: {}
+  launch:
+    "<base>/yugioh_early_days_collection.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3013550
+Yu-Gi-Oh! Legacy of the Duelist:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 523500
+      - 523501
+      - 523502
+      - 523503
+      - 523504
+      - 523505
+      - 523506
+      - 523507
+      - 523508
+      - 523510
+      - 523511
+      - 523521
+      - 523530
+      - 523531
+      - 523532
+      - 523533
+      - 523534
+  installDir:
+    Yu-Gi-Oh! Legacy of the Duelist: {}
+  launch:
+    "<base>/YuGiOh.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 480650
+"Yu-Gi-Oh! Legacy of the Duelist: Link Evolution":
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/1150640/remote":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Yu-Gi-Oh! Legacy of the Duelist Link Evolution: {}
+  launch:
+    "<base>/YuGiOh.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1150640
+Yu-Gi-Oh! Master Duel:
+  installDir:
+    Yu-Gi-Oh!  Master Duel: {}
+  launch:
+    "<base>/masterduel.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1449850
+"Yu-Gi-Oh! Power of Chaos: Joey the Passion":
+  files:
+    "<base>/../Yu-Gi-Oh! Power of Chaos Common/*.ydc":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/../Yu-Gi-Oh! Power of Chaos Common/*.ydr":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/../Yu-Gi-Oh! Power of Chaos Common/system.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/KONAMI/Yu-Gi-Oh! Power Of Chaos/flcrc:
+      tags:
+        - save
+"Yu-Gi-Oh! Power of Chaos: Kaiba the Revenge":
+  files:
+    "<base>/../Yu-Gi-Oh! Power of Chaos Common/*.ydc":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/../Yu-Gi-Oh! Power of Chaos Common/*.ydr":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/../Yu-Gi-Oh! Power of Chaos Common/system.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/KONAMI/Yu-Gi-Oh! Power Of Chaos/flcrc:
+      tags:
+        - save
+"Yu-Gi-Oh! Power of Chaos: Yugi the Destiny":
+  files:
+    "<base>/../Yu-Gi-Oh! Power of Chaos Common/*.ydc":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/../Yu-Gi-Oh! Power of Chaos Common/*.ydr":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/../Yu-Gi-Oh! Power of Chaos Common/system.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/KONAMI/Yu-Gi-Oh! Power Of Chaos/flcrc:
+      tags:
+        - save
+Yu-Gi-Oh! Tag Force GX:
+  steam:
+    id: 4416300
+Yucatan:
+  cloud:
+    steam: true
+  steam:
+    id: 930220
+"Yujiro's Mansion":
+  installDir:
+    "Yujiro's_Mansion": {}
+  launch:
+    "<base>/Yujiro's Mansion.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2548070
+Yuki Onna:
+  installDir:
+    Yuki Onna 雪女: {}
+  launch:
+    "<base>/YukiOnna.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1191070
+"Yukie: A Japanese Winter Fairy Tale":
+  files:
+    "<base>/*.lsd":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Yukie A Japanese Winter Fairy Tale: {}
+  launch:
+    "<base>/RPG_RT.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 352810
+Yukinas Diary:
+  installDir:
+    Yukinas Diary: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1005080
+"Yuko: Tragic Love Story":
+  steam:
+    id: 828510
+"Yuletide Legends: Who Framed Santa Claus":
+  cloud:
+    steam: true
+  installDir:
+    Yuletide Legends: {}
+  launch:
+    "<base>/YuletideLegends.app/Contents/MacOS/YuletideLegends":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YuletideLegends.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YuletideLegends_amd64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/YuletideLegends_i386":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+  steam:
+    id: 1174500
+Yum Yum Cookstar:
+  files:
+    "<home>/AppData/LocalLow/KOCH MEDIA GMBH/Yum Yum Cookstar":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Yum Yum Cookstar: {}
+  launch:
+    "<base>/YYC.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1827430
+Yume Nikki:
+  files:
+    "<base>/yumenikki/Save*.lsd":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: yume-nikki
+  installDir:
+    Yume Nikki: {}
+  launch:
+    "<base>/yumenikki/RPG_RT.exe":
+      - arguments: "\"xx\" \"xx\" \"Window\""
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 650700
+Yume Puzzle:
+  installDir:
+    YumePuzzle: {}
+  launch:
+    "<base>/YumePuzzle/YumePuzzle.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/YumePuzzle/YumePuzzle.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/YumePuzzle/YumePuzzle.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1083990
+YumeCore:
+  installDir:
+    YumeCore: {}
+  launch:
+    "<base>/yumecore/yumecore_ver1_3_2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 771240
+"Yumenikki: Dream Diary":
+  id:
+    lutris: yume-nikki-dream-diary
+  installDir:
+    YUMENIKKI -DREAM DIARY-: {}
+  launch:
+    "<base>/YumeNikki.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Active Gaming Media/YUMENIKKI -DREAM DIARY-:
+      tags:
+        - config
+        - save
+  steam:
+    id: 774811
+"Yumeutsutsu Re:Master":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/KOGADO/Yuremaster":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/KOGADO/Yuremaster/Yuremaster.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    YureMaster: {}
+  launch:
+    "<base>/Yure.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1058140
+"Yumeutsutsu Re:Master / 夢現Re:Master":
+  alias: "Yumeutsutsu Re:Master"
+Yumori Forest:
+  installDir:
+    Yumori Forest: {}
+  launch:
+    "<base>/yumoriforest.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 911120
+"Yumsters 2: Around the World":
+  installDir:
+    Yumsters 2 Around the World: {}
+  launch:
+    "<base>/Yumsters2.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 29120
+Yuna and other troubles:
+  cloud:
+    steam: true
+  installDir:
+    Yuna and other troubles: {}
+  launch:
+    "<base>/Yuna.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1189210
+"Yuoni: Rises":
+  installDir:
+    YuoniZero: {}
+  launch:
+    "<base>/YuoniZero.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 989710
+Yuppie Psycho:
+  cloud:
+    steam: true
+  files:
+    "<base>/res/db":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/res/settings/settings.properties":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1712606960
+  id:
+    lutris: yuppie-psycho
+  installDir:
+    YuppiePsycho: {}
+  launch:
+    "<base>/yuppiepsycho.command":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/yuppiepsycho.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/yuppiepsycho.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 597760
+"Yuri Ovalnay's Bizarre Adventure":
+  installDir:
+    BATYA: {}
+  launch:
+    "<base>/Batya.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1178180
+"Yurukill: The Calumniation Games":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Izanagigames/Yurukill/SaveData/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Izanagigames/Yurukill/Savex":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    YurukillTheCalumniationGames: {}
+  launch:
+    "<base>/Yurukill.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1733840
+Yury:
+  installDir:
+    Yury: {}
+  launch:
+    "<base>/Yury.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Yury.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Yury.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 321950
+Yusetsu:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/DSGame/Yusetsu/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/DSGame/Yusetsu/Admin/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Yusetsu: {}
+  launch:
+    "<base>/Yusetsu.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1956600
+Yuso:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/VerticalReach/Yuso/**/*.txt":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Yuso: {}
+  launch:
+    "<base>/Yuso.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 819220
+YuuYuu Jiteki no Yuukarin:
+  files:
+    "<winLocalAppData>/YuuYuu Jiteki no Yuukarin/save":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/YuuYuu Jiteki no Yuukarin/save/config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/YuuYuu.Jiteki.no.Yuukarin/save/play_1.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    YuuYuu Jiteki no Yuukarin: {}
+  launch:
+    "<base>/player.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1727000
+Yuuki:
+  cloud:
+    steam: true
+  files:
+    "<base>/**/*.rvdata2":
+      when:
+        - store: steam
+  installDir:
+    Yuuki: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1158740
+"Yuyuko's Butterfly Dream":
+  installDir:
+    UUZ: {}
+  steam:
+    id: 765030
+"Yuzi Lims: Anime Runner":
+  installDir:
+    YLARunner: {}
+  launch:
+    "<base>/Yuzi Lims anime runner.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 776550
+"Yuzi Lims: Hentai":
+  id:
+    steamExtra:
+      - 966130
+      - 966150
+  installDir:
+    Yuzi Lims Hentai: {}
+  launch:
+    "<base>/YLH.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 960360
+Yuzu:
+  files:
+    "<base>/yuzu-windows-msvc/user/config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/yuzu-windows-msvc/user/nand/user/save/0000000000000000/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/yuzu/config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/yuzu/nand/user/save/0000000000000000/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+Yōdanji:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Kemco/Yōdanji/*.blob":
+      when:
+        - store: steam
+  installDir:
+    Yodanji: {}
+  launch:
+    "<base>/yodanji.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 736710

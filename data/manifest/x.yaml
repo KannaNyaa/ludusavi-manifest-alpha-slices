@@ -1,0 +1,2885 @@
+---
+X Archetype:
+  files:
+    "<winLocalAppData>/X Archetype/*.sav":
+      when:
+        - store: steam
+  installDir:
+    X Archetype: {}
+  launch:
+    "<base>/XArchetype.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/X_Archetype":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 984230
+"X Caeli: The Iron Hand of Love":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Nerd Commando/XCaeli*.svf":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Nerd Commando/XCaeli/*.svf":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.Nerd Commando.XCaeli*.svf":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    God Starfighter: {}
+  launch:
+    "<base>/God Starfighter.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/God Starfighter.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/God Starfighter.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 708970
+X Motor Racing:
+  alias: X-Motor Racing
+X Rebirth:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/Egosoft/X Rebirth/<storeUserId>/config.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Egosoft/X Rebirth/<storeUserId>/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgData>/.config/EgoSoft/X Rebirth/<storeUserId>/save":
+      tags:
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 1455645883
+  id:
+    gogExtra:
+      - 1455647768
+      - 1456399450
+    lutris: x-rebirth
+    steamExtra:
+      - 325580
+  installDir:
+    X Rebirth: {}
+  launch:
+    "<base>/XRebirth.app":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/XRebirth.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/testandlaunch":
+      - arguments: XRebirth
+        when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 2870
+X Rebirth VR Edition:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/EgoSoft/X Rebirth VR/<storeUserId>/inputmap*.xml":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/EgoSoft/X Rebirth VR/<storeUserId>/save/*.xml":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/EgoSoft/X Rebirth VR/<storeUserId>/save/*.xml.gz":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/EgoSoft/X Rebirth VR/<storeUserId>/uidata.xml":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Documents/EgoSoft/X Rebirth VR/<storeUserId>/inputmap*.xml":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Documents/EgoSoft/X Rebirth VR/<storeUserId>/save/*.xml":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Documents/EgoSoft/X Rebirth VR/<storeUserId>/save/*.xml.gz":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Documents/EgoSoft/X Rebirth VR/<storeUserId>/uidata.xml":
+      when:
+        - os: mac
+          store: steam
+    "<winDocuments>/Egosoft/X Rebirth VR/<storeUserId>/inputmap*.xml":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/Egosoft/X Rebirth VR/<storeUserId>/save/*.xml":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/Egosoft/X Rebirth VR/<storeUserId>/save/*.xml.gz":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/Egosoft/X Rebirth VR/<storeUserId>/uidata.xml":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    X Rebirth VR: {}
+  steam:
+    id: 570420
+X Wars Deluxe:
+  cloud:
+    steam: true
+  installDir:
+    X Wars Deluxe: {}
+  launch:
+    "<base>/X Wars Deluxe.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/X Wars Deluxe.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/XWDMac.app/Contents/MacOS/X Wars Deluxe":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1134150
+X-17:
+  installDir:
+    X-17: {}
+  launch:
+    "<base>/X-17.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 448060
+X-Blades:
+  cloud:
+    gog: true
+  files:
+    "<winAppData>/XBlades":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/XBlades":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1489204325
+  id:
+    gogExtra:
+      - 1237741022
+      - 1463987837
+      - 1799353301
+    lutris: x-blades
+    steamExtra:
+      - 604280
+      - 604290
+      - 3050910
+  installDir:
+    X-Blades: {}
+  launch:
+    "<base>/X-Blades.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 7510
+"X-COM: Apocalypse":
+  cloud:
+    gog: true
+  files:
+    "<base>/XCOMA/SAVEGAME":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1445249430
+  id:
+    lutris: x-com-apocalypse
+  installDir:
+    XCom Apocalypse: {}
+  launch:
+    "<base>/dosbox.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 7660
+"X-COM: Enforcer":
+  files:
+    "<base>/System":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/System/User.ini":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1445249599
+  id:
+    lutris: x-com-enforcer
+  installDir:
+    XCom Enforcer: {}
+  launch:
+    "<base>/system/xcom.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/system"
+  steam:
+    id: 7770
+"X-COM: Interceptor":
+  files:
+    "<base>/Saved Games":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1445249671
+  id:
+    lutris: x-com-interceptor
+  installDir:
+    XCom Interceptor: {}
+  launch:
+    "<base>/Interceptor.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/MicroProse Software/X-COM Interceptor/1.2:
+      tags:
+        - config
+  steam:
+    id: 7730
+"X-COM: Terror from the Deep":
+  cloud:
+    gog: true
+  files:
+    "<base>/TFD/game_*":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1445249983
+  id:
+    lutris: x-com-terror-from-the-deep
+  installDir:
+    X-COM Terror from the Deep: {}
+  launch:
+    "<base>/TFD/Terror From the Deep_patched.exe":
+      - when:
+          - store: steam
+    "<base>/runme.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 7650
+"X-COM: UFO Defense":
+  cloud:
+    gog: true
+  files:
+    "<base>/XCOM/game_*":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/sound/sound.cfg":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<home>/game_*":
+      tags:
+        - save
+      when:
+        - os: dos
+  gog:
+    id: 1445250340
+  id:
+    lutris: x-com-ufo-defense
+  installDir:
+    XCom UFO Defense: {}
+  launch:
+    "<base>/XCOM/UFO Defense_Patched.exe":
+      - when:
+          - store: steam
+    "<base>/dosbox.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 7760
+X-Force Under Attack:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Cube Games/X-Force Under Attack/*.cgsave":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: x-force-under-attack
+  installDir:
+    X-Force Under Attack: {}
+  launch:
+    "<base>/X-Force Under Attack.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2446740
+"X-Men Legends II: Rise of Apocalypse":
+  files:
+    "<winDocuments>/Activision/X-Men Legends 2/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+"X-Men Origins: Wolverine":
+  alias: "X-Men Origins: Wolverine - Uncaged Edition"
+"X-Men Origins: Wolverine - Uncaged Edition":
+  files:
+    "<winDocuments>/Wolverine/WGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Wolverine/WGame/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+"X-Men: The Ravages of Apocalypse":
+  files:
+    "<base>/xmen":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+"X-MiGuFighters: Stripper Anya":
+  files:
+    "<winLocalAppData>/XMF_StripperAnya2/*.S":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/XMF_StripperAnya2/*.XMF":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    X-MiGuFighters Stripper Anya: {}
+  launch:
+    "<base>/XMF_StripperAnya2_v3_NEWMEM_GLBLSPR_november2018.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 705700
+"X-Morph: Defense":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winDocuments>/X-Morph Defense":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/X-Morph Defense/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1135975449
+  installDir:
+    X-Morph Defense: {}
+  launch:
+    "<base>/bin/shooter_win64_release.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/bin"
+  steam:
+    id: 408410
+X-Motor Racing:
+  files:
+    "<base>/Profile0.prf":
+      tags:
+        - save
+      when:
+        - os: windows
+X-Note:
+  installDir:
+    X-note: {}
+  launch:
+    "<base>/x-note.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 337940
+"X-Out: Resurfaced":
+  files:
+    "<home>/AppData/LocalLow/United Games Entertainment GmbH/X-Out/XOut":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 2019706860
+  installDir:
+    X-Out Resurfaced: {}
+  launch:
+    "<base>/X-Out.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3047070
+X-POINT:
+  installDir:
+    X-POINT: {}
+  launch:
+    "<base>/X_POINT.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1018720
+X-Plane 10 Global:
+  id:
+    steamExtra:
+      - 294560
+      - 298620
+      - 310410
+      - 310420
+      - 310430
+      - 310440
+      - 315010
+      - 316280
+      - 316290
+      - 324780
+      - 325130
+      - 325131
+      - 325132
+      - 325133
+      - 325134
+      - 325135
+      - 325136
+      - 325137
+      - 325138
+      - 325139
+      - 325140
+      - 325141
+      - 325142
+      - 325143
+      - 325144
+      - 339380
+      - 339381
+      - 339382
+      - 339383
+      - 339384
+      - 339385
+      - 339386
+      - 339387
+      - 339388
+      - 339389
+      - 339390
+      - 339391
+      - 339393
+      - 339394
+      - 339395
+      - 339397
+      - 339398
+      - 339399
+      - 491570
+      - 493560
+      - 502850
+  installDir:
+    X-Plane 10: {}
+  launch:
+    "<base>/Airfoil-Maker-i386":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Airfoil-Maker.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Airfoil-Maker.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Plane-Maker-i386":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Plane-Maker.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Plane-Maker.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/X-Plane-32bit.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/X-Plane-32bit.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/X-Plane-i386":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/X-Plane-x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/X-Plane.app":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/X-Plane.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 292180
+X-Plane 11:
+  files:
+    "<base>/Output/preferences":
+      tags:
+        - config
+      when:
+        - os: windows
+        - os: linux
+  installDir:
+    X-Plane 11: {}
+  launch:
+    "<base>/Airfoil Maker-x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Airfoil Maker.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Airfoil Maker.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/X-Plane-x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/X-Plane.app":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/X-Plane.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 269950
+X-Plane 12:
+  installDir:
+    X-Plane 12: {}
+  launch:
+    "<base>/Airfoil Maker-x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Airfoil Maker.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Airfoil Maker.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/X-Plane-x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/X-Plane.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/X-Plane.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2014780
+X-Team:
+  files:
+    "<base>/profiles/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<base>/profiles/**/*.sfo":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    X-Team: {}
+  launch:
+    "<base>/bin/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/bin"
+  steam:
+    id: 290850
+X-Tension:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1441039809
+  id:
+    gogExtra:
+      - 1446131634
+    lutris: x-tension
+  installDir:
+    X-Tension: {}
+  launch:
+    "<base>/runme.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/EgoSoftware/X-TENSION:
+      tags:
+        - config
+  steam:
+    id: 2850
+X-Town 3D Game:
+  installDir:
+    rossprogrammproduct: {}
+  launch:
+    "<base>/XTown3Dgame.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 828160
+X-ray Hospital:
+  steam:
+    id: 850720
+"X2: The Threat":
+  cloud:
+    steam: true
+  files:
+    "<base>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1441032629
+  id:
+    lutris: x2-the-threat
+  installDir:
+    X2 - The Threat: {}
+  launch:
+    "<base>/x2.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2800
+"X2: Wolverine's Revenge":
+  files:
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Wolvie.INI":
+      tags:
+        - config
+      when:
+        - os: windows
+X2Roulette:
+  installDir:
+    x2Roulette: {}
+  launch:
+    "<base>/x2Roulette.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 956780
+"X3: Reunion":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/EgoSoft/X3":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/EgoSoft/X3/save/X00.sav":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<winDocuments>/Egosoft/X3/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1441038404
+  id:
+    lutris: x3-reunion
+  installDir:
+    X3 - Reunion: {}
+  launch:
+    "<base>/X3 - Reunion.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/testandlaunch":
+      - arguments: X3R_config
+        when:
+          - os: linux
+            store: steam
+    "<base>/x3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2810
+"X3: Terran Conflict":
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/EgoSoft/X3AP/profiles":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/EgoSoft/X3AP/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/EgoSoft/X3TC/profiles":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/EgoSoft/X3TC/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgConfig>/EgoSoft/X3AP/config.yaml":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/EgoSoft/X3AP/save":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/EgoSoft/X3FL/config.yaml":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/EgoSoft/X3FL/save":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/EgoSoft/X3TC/config.yaml":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/Egosoft/X3TC/save":
+      tags:
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 1441039322
+  id:
+    gogExtra:
+      - 1298684275
+    lutris: x3-terran-conflict
+    steamExtra:
+      - 201310
+      - 235940
+      - 235960
+      - 483330
+  installDir:
+    X3 Terran Conflict: {}
+  launch:
+    "<base>/X3 - Terran Conflict.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/X3TC.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/testandlaunch":
+      - arguments: X3TC_config
+        when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/EGOSOFT/X3TC:
+      tags:
+        - config
+  steam:
+    id: 2820
+"X4: Foundations":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/.config/EgoSoft/X4/<storeUserId>":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/EgoSoft/X4/<storeUserId>/save":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<winDocuments>/Egosoft/X4":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: gog
+    "<winDocuments>/Egosoft/X4/<storeUserId>":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/Egosoft/X4/<storeUserId>/save":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/Egosoft/X4/save":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+  gog:
+    id: 1395669635
+  id:
+    gogExtra:
+      - 1143004245
+      - 1238357884
+      - 1315103966
+      - 1439527793
+      - 1539694494
+      - 1579591687
+      - 1588366064
+      - 1636239177
+      - 1698001635
+      - 1811185500
+      - 1811574414
+      - 1835806356
+      - 1880320955
+      - 1897444972
+      - 1899940710
+      - 1995119004
+      - 2047621599
+      - 2099994529
+    lutris: x4-foundations
+    steamExtra:
+      - 942190
+      - 1133000
+      - 1239390
+      - 1277600
+      - 1288460
+      - 1288490
+      - 1701060
+      - 1788600
+      - 1990040
+      - 2375830
+      - 2700340
+      - 3419300
+      - 3778100
+  installDir:
+    X4 Foundations: {}
+  launch:
+    "<base>/X4.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/testandlaunch":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 392160
+"X: Beyond the Frontier":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1441039631
+  id:
+    gogExtra:
+      - 1446131634
+    lutris: x-beyond-the-frontier
+  installDir:
+    X Beyond the Frontier: {}
+  launch:
+    "<base>/runme.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Egosoft/X:
+      tags:
+        - config
+  steam:
+    id: 2840
+XANARTHRAXIA:
+  installDir:
+    XANARTHRAXIA: {}
+  launch:
+    "<base>/XANARTHRAXIA.exe":
+      - when:
+          - bit: 64
+            store: steam
+  steam:
+    id: 1073770
+XAOC:
+  installDir:
+    XAOC: {}
+  launch:
+    "<base>/bin/XAOC_Shipping.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+        workingDir: "<base>/bin"
+  steam:
+    id: 614860
+XBall Champion:
+  installDir:
+    XBall Champion: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 794570
+"XBlaze Code: Embryo":
+  cloud:
+    steam: true
+  files:
+    "<base>/_home/_win/savedata":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    XBlaze Code Embryo: {}
+  launch:
+    "<base>/_home/_win/BBADV_Steam.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/_home/_win"
+  steam:
+    id: 421610
+"XBlaze Lost: Memories":
+  cloud:
+    steam: true
+  files:
+    "<base>/_home/_win/savedata":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    XBlaze Lost Memories: {}
+  launch:
+    "<base>/_home/_win/BBADV2_Steam.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/_home/_win"
+  steam:
+    id: 438940
+XCOM 2:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/Library/Application Support/Feral Interactive/XCOM 2":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Feral Interactive/XCOM 2/VFS/Local/my games/XCOM2/XComGame/SaveData":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winDocuments>/My Games/XCOM2/XComGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/XCOM2/XComGame/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgData>/feral-interactive/XCOM 2 WotC/VFS/Local/my games/XCOM2 War of the Chosen/XComGame/SaveData":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/feral-interactive/XCOM2/Config":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgData>/feral-interactive/XCOM2/VFS/Local/my games/XCOM2/XComGame/SaveData":
+      tags:
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 1482002159
+  id:
+    lutris: xcom-2
+    steamExtra:
+      - 433050
+      - 593380
+  installDir:
+    XCOM 2: {}
+  launch:
+    "<base>/XCOM 2.app":
+      - when:
+          - bit: 64
+            os: mac
+            store: steam
+    "<base>/XCOM2.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/binaries/Win64/XCom2.exe":
+      - arguments: "-steam_auto_login -game-61483=-review -game-61483=-noRedscreens"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/launcher/launcher.exe":
+      - arguments: "-steam_auto_login -game-61483=-review -game-61483=-noRedscreens"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/launcher"
+  steam:
+    id: 268500
+"XCOM: Chimera Squad":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winDocuments>/My Games/XCOM Chimera Squad/XComGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/XCOM Chimera Squad/XComGame/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1914671919
+  id:
+    lutris: xcom-chimera-squad
+  installDir:
+    XCOM-Chimera-Squad: {}
+  launch:
+    "<base>/Launcher/launcher.exe":
+      - arguments: "-steam_auto_login -game-50546=-crashdumpwatcher -game-50546=-review -game-50546=-noRedscreens"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/Launcher"
+    "<base>/binaries/Win64/XCom.exe":
+      - arguments: "-steam_auto_login -game-50546=-crashdumpwatcher -game-50546=-review -game-50546=-noRedscreens"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 882100
+"XCOM: Enemy Unknown":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Library/Application Support/Feral Interactive/XCOM Enemy Unknown":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<winDocuments>/My Games/XCOM - Enemy Unknown/XComGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/XCOM - Enemy Unknown/XComGame/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/My Games/XCOM - Enemy Within/XComGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/XCOM - Enemy Within/XComGame/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgData>/feral-interactive/XCOM/WritableFiles":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgData>/feral-interactive/XCOM/XEW/savedata":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/feral-interactive/XCOM/savedata":
+      tags:
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 1558688142
+  id:
+    lutris: xcom-enemy-unknown
+    steamExtra:
+      - 209811
+      - 209812
+      - 225340
+  installDir:
+    XCom-Enemy-Unknown: {}
+  launch:
+    "<base>/Binaries/Win32/XComGame.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/XCOM Enemy Unknown.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/xcom.sh":
+      - arguments: "-arch=x86_64"
+        when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 200510
+XCavalypse:
+  installDir:
+    XCavalypse: {}
+  launch:
+    "<base>/XCav.exe":
+      - arguments: "-fullscreen"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/XCav/Binaries/Linux/XCav-Linux-Shipping":
+      - arguments: "-fullscreen"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 447960
+XDefiant:
+  files:
+    "<winDocuments>/My Games/XDefiant/state.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+XDrive VR:
+  installDir:
+    xDrive VR: {}
+  steam:
+    id: 623370
+XEL:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Tiny Roar/XEL/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1416650848
+  id:
+    gogExtra:
+      - 1443624368
+      - 1699087274
+      - 2128514206
+    steamExtra:
+      - 1875010
+      - 1954740
+      - 2119840
+  installDir:
+    XEL: {}
+  launch:
+    "<base>/XEL.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1674640
+XENOS Defense:
+  installDir:
+    XENOS Defense: {}
+  launch:
+    "<base>/Xenos Defense.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1122760
+"XERA: Survival":
+  installDir:
+    XERA: {}
+  launch:
+    "<base>/XERA_Launcher.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 625340
+XEYYEX:
+  installDir:
+    XEYEX: {}
+  launch:
+    "<base>/xeyyex.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1085990
+XF Extreme Formula:
+  cloud:
+    steam: true
+  files:
+    "<base>/XF ExtremeFormula_Data/ChalProgress.gs":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/XF ExtremeFormula_Data/ChalProgressSTORY.gs":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/XF ExtremeFormula_Data/Graphic Settings.gs":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/XF ExtremeFormula_Data/Records.gs":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/XF ExtremeFormula_Data/Save.gs":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/XF ExtremeFormula_Data/Settings.gs":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    XF Extreme Formula: {}
+  launch:
+    "<base>/XF ExtremeFormula.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2539910
+XF5700 Mantis Experimental Fighter:
+  gog:
+    id: 1382504295
+  installDir:
+    XF5700 Mantis Experimental Fighter: {}
+  steam:
+    id: 1357580
+XField Paintball 3:
+  installDir:
+    XFieldPaintball3: {}
+  launch:
+    "<base>/XFP3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 377510
+XGun-Weapon Evolution:
+  installDir:
+    XGun: {}
+  launch:
+    "<base>/XGun-WeaponEvolution.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/mac_content.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 534780
+XIII:
+  cloud:
+    gog: true
+  files:
+    "<base>/System":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207658920
+  id:
+    lutris: xiii
+  installDir:
+    XIII - Classic: {}
+  launch:
+    "<base>/system/XIII.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1170760
+XIII (2020):
+  cloud:
+    epic: true
+    gog: true
+  files:
+    "<home>/AppData/LocalLow/Microids/XIII/XIII_Save.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1169744036
+  id:
+    lutris: xiii--1
+  installDir:
+    XIII: {}
+  launch:
+    "<base>/XIII.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Microids/XIII:
+      tags:
+        - config
+  steam:
+    id: 1154790
+XIII - Lost Identity:
+  alias: "XIII: Lost Identity"
+"XIII Century: Blood of Europe":
+  alias: "XIII Century: Death or Glory"
+"XIII Century: Death or Glory":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winDocuments>/My Games/XIII Century Gold Edition/profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/My Games/XIII Century Gold Edition/profiles/*.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 2125623626
+  installDir:
+    XIII Century Gold Edition: {}
+  launch:
+    "<base>/config.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/engine.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 34420
+"XIII: Lost Identity":
+  installDir:
+    XIII - Lost Identity: {}
+  launch:
+    "<base>/XIII.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 812120
+XIIZEAL:
+  cloud:
+    steam: true
+  files:
+    "<base>/replay/*.*":
+      when:
+        - store: steam
+    "<base>/savedata_a.dat":
+      when:
+        - store: steam
+    "<base>/savedata_b.dat":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 406480
+  installDir:
+    XIIZEAL: {}
+  launch:
+    "<base>/xiizeal.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 364250
+"XING: The Land Beyond":
+  cloud:
+    steam: true
+  files:
+    "<base>/XING/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/XING/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    XING: {}
+  launch:
+    "<base>/XING.exe":
+      - arguments: "-noHMD -TESTANALYTICS"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 299400
+XL1-ClippingPoint:
+  files:
+    "<base>/clientconfig.g":
+      tags:
+        - config
+      when:
+        - os: windows
+    n/a:
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    XL1-ClippingPoint: {}
+  launch:
+    "<base>/Client.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 747240
+XLR:
+  installDir:
+    XLR: {}
+  steam:
+    id: 447100
+XLarn:
+  cloud:
+    steam: true
+  files:
+    "<base>/User/*.gds":
+      when:
+        - store: steam
+    "<base>/User/*.gdu":
+      when:
+        - store: steam
+  installDir:
+    XLarn: {}
+  launch:
+    "<base>/SteamLarn":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/SteamLarn.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/WinLarn.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 360030
+"XMinutes: Wings":
+  installDir:
+    XMinutes Wings: {}
+  launch:
+    "<base>/XMinutes Shooter.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 671050
+XMoon:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Will Whiteneck/xMoon/<storeUserId>/xMoon.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    xMoon: {}
+  launch:
+    "<base>/xMoon.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1035410
+XNemesis:
+  installDir:
+    XNemesis: {}
+  launch:
+    "<base>/GameLauncher.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/LevelDesigner.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 399240
+XO:
+  installDir:
+    XO: {}
+  launch:
+    "<base>/Contents/MacOS/XO":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/XO.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/XO.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 399720
+XO-Planets:
+  id:
+    steamExtra:
+      - 464460
+  installDir:
+    XO-Planets: {}
+  launch:
+    "<base>/XOPlanets.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 439730
+XONG VR:
+  steam:
+    id: 957800
+XOXO Blood Droplets:
+  installDir:
+    XOXO Blood Droplets: {}
+  launch:
+    "<base>/XOXOBloodDroplets.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/XOXOBloodDroplets.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 780820
+XOXO Droplets:
+  files:
+    "<winAppData>/renpy/XOXO-1436249064/*.save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/renpy/XOXO-1436249064/persistent":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 622710
+  installDir:
+    XOXO Droplets: {}
+  launch:
+    "<base>/XOXO_Droplets.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/XOXO_Droplets.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 622060
+XP Girls:
+  files:
+    "<home>/AppData/LocalLow/Oneshark/XpGirls/*.txt":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 1188830
+  installDir:
+    XP Girls: {}
+  launch:
+    "<base>/XPGirls.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1178120
+XRY:
+  steam:
+    id: 875420
+XXX Puzzle:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 884790
+      - 884791
+      - 888830
+      - 893750
+      - 933670
+  installDir:
+    XXX Puzzle: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 874650
+XXZ:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/692920":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    XXZ: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 692920
+"XXZ: Strip Club":
+  alias: "XXZ: XXL"
+"XXZ: XXL":
+  cloud:
+    steam: true
+  installDir:
+    XXZ XXL: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 696590
+XZ:
+  cloud:
+    steam: true
+  steam:
+    id: 771180
+"XZ: XL":
+  cloud:
+    steam: true
+  steam:
+    id: 771190
+Xagia Wars:
+  steam:
+    id: 727960
+Xanadu Next:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/FALCOM/X_NEXT":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Saved Games/FALCOM/X_NEXT/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1284895531
+  installDir:
+    Xanadu Next: {}
+  launch:
+    "<base>/XANADU.exe":
+      - when:
+          - store: steam
+    "<base>/xanadu_cfg.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 312560
+"Xander the Monster Morpher: Universe Breaker":
+  installDir:
+    Xander the Monster Morpher Universe Breaker: {}
+  launch:
+    "<base>/Xander Universe Breaker GMS2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1025160
+Xargon:
+  files:
+    "<base>/CONFIG.XR*":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<base>/SAVE_*.XR*":
+      tags:
+        - save
+      when:
+        - os: dos
+Xark:
+  steam:
+    id: 546670
+Xbird:
+  steam:
+    id: 580150
+Xecryst Remains:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves":
+      when:
+        - store: steam
+    "<home>/Saved Games/Xecryst Remains/saves":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 1022350
+  installDir:
+    Xecryst Remains: {}
+  steam:
+    id: 510000
+"Xemo: Robot Simulation":
+  installDir:
+    Xemo: {}
+  launch:
+    "<base>/Xemo.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Xemo.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 542210
+Xenia:
+  installDir:
+    Xenia: {}
+  launch:
+    "<base>/xenia.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 687310
+"Xenia's Ark":
+  installDir:
+    "Xenia's Ark": {}
+  launch:
+    "<base>/Xenia's Ark.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 944640
+Xeno Crisis:
+  cloud:
+    gog: true
+    steam: true
+  gog:
+    id: 1955095293
+  installDir:
+    Xeno Crisis: {}
+  launch:
+    "<base>/Xeno Crisis.app/Contents/MacOS/Xeno Crisis":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Xeno Crisis.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Xeno Crisis.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Xeno Crisis.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Bitmap Bureau/Xeno Crisis:
+      tags:
+        - config
+        - save
+  steam:
+    id: 464260
+Xeno Time Inception:
+  steam:
+    id: 721460
+XenoBloom:
+  installDir:
+    XenoBloom: {}
+  launch:
+    "<base>/XenoBloom.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 391440
+XenoGrove:
+  steam:
+    id: 869450
+XenoRaptor:
+  installDir:
+    XenoRaptor: {}
+  launch:
+    "<base>/XenoRaptor.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/XenoRaptor.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/XenoRaptor.x86":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 298280
+XenoShyft:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 429820
+      - 429870
+      - 429871
+      - 429872
+  installDir:
+    XenoShyft: {}
+  launch:
+    "<base>/XenoShyft.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Xenoshyft.app/Contents/MacOS/Xenoshyft":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 429390
+Xenobox VR:
+  installDir:
+    Xenobox VR: {}
+  steam:
+    id: 587710
+Xenochamber:
+  installDir:
+    Xenochamber: {}
+  launch:
+    "<base>/Xenochamber.app/Contents/MacOS/Xenochamber":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Xenochamber.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 961720
+Xenocide (2015):
+  files:
+    "<base>/*.cfg":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 400120
+  installDir:
+    Xenocide: {}
+  launch:
+    "<base>/xenocide.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 381910
+Xenociders:
+  installDir:
+    Xenociders: {}
+  steam:
+    id: 1146920
+Xenocite Clad:
+  installDir:
+    Xenocite Clad: {}
+  launch:
+    "<base>/XenociteClad.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 659720
+Xenoform:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Panic Ensues Software/Xenoform":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Panic Ensues Software/Xenoform/Replays":
+      when:
+        - store: steam
+  installDir:
+    Xenoform: {}
+  launch:
+    "<base>/Xenoform_win.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 796920
+Xenomarine:
+  installDir:
+    Xenomarine: {}
+  launch:
+    "<base>/Xenomarine.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Xenomarine.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Xenomarine.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Xenomarine.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 676830
+Xenomorph:
+  installDir:
+    X-Fire: {}
+  steam:
+    id: 768990
+Xenon Racer:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/3DClouds/XenonRacer/Saved":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/3DClouds/XenonRacer/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Xenon Racer: {}
+  launch:
+    "<base>/XenonRacer.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 899390
+Xenon Valkyrie:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/XenonValkyrie/savedata.sav":
+      when:
+        - store: steam
+  installDir:
+    Xenon Valkyrie: {}
+  launch:
+    "<base>/XenonValkyrie.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/XenonValkyrie.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/XenonValkyrie.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 573780
+Xenonauts:
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/Goldhawk Interactive/Xenonauts":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winAppData>/Goldhawk Interactive/Xenonauts":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Xenonauts":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgData>/Goldhawk Interactive/Xenonauts":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+  gog:
+    id: 1207664803
+  installDir:
+    Xenonauts: {}
+  launch:
+    "<base>/Xenonauts.app":
+      - when:
+          - os: mac
+            store: steam
+      - arguments: "-nolauncher"
+        when:
+          - os: mac
+            store: steam
+    "<base>/Xenonauts.bin.x86":
+      - when:
+          - os: linux
+            store: steam
+      - arguments: "-nolauncher"
+        when:
+          - os: linux
+            store: steam
+    "<base>/xenonauts.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Goldhawk Interactive/Xenonauts:
+      tags:
+        - config
+  steam:
+    id: 223830
+Xenonauts 2:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<winDocuments>/My Games/Xenonauts 2/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1412583633
+  id:
+    gogExtra:
+      - 1497289938
+    lutris: xenonauts-2
+  installDir:
+    Xenonauts2: {}
+  launch:
+    "<base>/Xenonauts2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 538030
+"Xenophage: Alien Bloodsport":
+  files:
+    "<base>/XPR.INI":
+      tags:
+        - config
+      when:
+        - os: dos
+  installDir:
+    Xenophage: {}
+  launch:
+    "<base>/Dosbox/dosbox":
+      - arguments: "-conf \"..\\XENO.conf\" -noconsole -c"
+        when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/Dosbox"
+    "<base>/Xenophage.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Xenophage/dosbox/dosbox.exe":
+      - arguments: "-conf \"..\\XENO.conf\" -noconsole -c"
+        when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Xenophage/dosbox"
+  steam:
+    id: 358420
+Xenoraid:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/10tons/Xenoraid/profiles/**/*.*":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Xenoraid: {}
+  launch:
+    "<base>/Xenoraid.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 460220
+"Xenosis: Alien Infection":
+  cloud:
+    steam: true
+  steam:
+    id: 611820
+Xenoslaive Overdrive:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/EVXIO/Xenoslaive Overdrive/<storeUserId>/*.crickets":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Xenoslaive Overdrive: {}
+  launch:
+    "<base>/xenoslaive.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 654240
+Xenrai:
+  installDir:
+    Xenrai: {}
+  launch:
+    "<base>/Xenrai/Xenrai.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1149800
+Xentripetal Force:
+  installDir:
+    Xentripetal Force: {}
+  launch:
+    "<base>/Xentripetal Force.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1131690
+Xenture:
+  installDir:
+    Xenture: {}
+  launch:
+    "<base>/Xenture.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1786730
+"Xenus II: White Gold":
+  files:
+    "<winPublic>/Documents/White Gold/INI":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winPublic>/Documents/White Gold/SAVE":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Xenus 2: {}
+  launch:
+    "<base>/Xenus.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 546230
+Xeodrifter:
+  cloud:
+    steam: true
+  installDir:
+    Xeodrifter: {}
+  launch:
+    "<base>/XeodrifterSteam.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 319140
+Xilost:
+  cloud:
+    steam: true
+  steam:
+    id: 943270
+Xion:
+  installDir:
+    Xion: {}
+  steam:
+    id: 644420
+"Xiu's SuperMarket":
+  installDir:
+    "Xiu's SuperMarket": {}
+  launch:
+    "<base>/TheGame.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1064440
+Xmas Apocalypse:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/gypynkt games/Xmas Apocalypse/save.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Xmas Apocalypse: {}
+  launch:
+    "<base>/Xmas Apocalypse.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2197050
+Xmas Shooting - Scramble!!:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/Fruitbat Factory/Xmas Shooting/*.cnq":
+      when:
+        - store: steam
+    "<winDocuments>/Fruitbat Factory/Xmas Shooting/*.rkg":
+      when:
+        - store: steam
+    "<winDocuments>/Fruitbat Factory/Xmas Shooting/*.rpl":
+      when:
+        - store: steam
+    "<winDocuments>/Fruitbat Factory/Xmas Shooting/*.slt":
+      when:
+        - store: steam
+    "<winDocuments>/Fruitbat Factory/Xmas Shooting/*.sys":
+      when:
+        - store: steam
+  installDir:
+    Xmas Shooting - Scramble: {}
+  launch:
+    "<base>/Xmas Shooting.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 560050
+Xmas Zombie Rampage:
+  installDir:
+    Xmas Zombie Rampage: {}
+  launch:
+    "<base>/Xmas Zombie Rampage.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 570690
+Xmas Zombie Rampage 2:
+  installDir:
+    Xmas Zombie Rampage 2: {}
+  launch:
+    "<base>/Xmas Zombie Rampage 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 769390
+Xmodule:
+  installDir:
+    XMODULE: {}
+  launch:
+    "<base>/XMODULE.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/XMODULE.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 520400
+XoEl Empire:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Greyman Studios/xoEl Empire/SavesDir":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Greyman Studios/xoEl Empire/SavesDir":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Greyman Studios/xoEl Empire/SavesDir":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    xoEl: {}
+  launch:
+    "<base>/xoEl.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/xoEl.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/xoEl.x64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/xoEl.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/xoEl.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 589270
+Xobox - circle and cross:
+  installDir:
+    Xobox: {}
+  launch:
+    "<base>/Xobox/MyXoboX/Binaries/Win32/MyXoboX-Win32-Shipping.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/Xobox/MyXoboX/Binaries/Win64/MyXoboX-Win64-Shipping.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 946240
+Xonotic:
+  files:
+    "<home>/.xonotic/data":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/Library/Application Support/xonotic":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Saved Games/xonotic":
+      tags:
+        - config
+      when:
+        - os: windows
+"XorceD - Sashiro's Laedrum":
+  installDir:
+    "XorceD - Sashiro's Laedrum": {}
+  launch:
+    "<base>/SashiroLaedrum.app/Contents/MacOS/SashiroLaedrum":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SashiroLaedrum.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/SashiroLaedrum.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 454170
+Xorple:
+  steam:
+    id: 800110
+Xotic:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/Xotic":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 92620
+      - 92621
+  installDir:
+    Xotic: {}
+  launch:
+    "<base>/Xotic.exe":
+      - arguments: ""
+        when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/WXP/Xotic/Settings:
+      tags:
+        - config
+  steam:
+    id: 92600
+Xpand Rally:
+  files:
+    "<base>/Data":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Data/profiles/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: xpand-rally
+  installDir:
+    Xpand Rally: {}
+  launch:
+    "<base>/ChromEd.exe":
+      - when:
+          - store: steam
+    "<base>/xpandrally.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3010
+Xpand Rally Xtreme:
+  files:
+    "<base>/Data/*.scr":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Data/RacesData":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Data/profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Xpand Rally Xtreme: {}
+  launch:
+    "<base>/ChromEd.exe":
+      - when:
+          - store: steam
+    "<base>/readme.txt":
+      - when:
+          - store: steam
+    "<base>/xrx.exe":
+      - when:
+          - store: steam
+      - arguments: avicodec
+        when:
+          - store: steam
+      - arguments: safemode
+        when:
+          - store: steam
+      - arguments: "-server -dedicated -internet"
+        when:
+          - store: steam
+  steam:
+    id: 3050
+Xploquest:
+  installDir:
+    Xploquest: {}
+  launch:
+    "<base>/xploquest.app/Contents/MacOS/Mac_Runner":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/xploquest.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/xploquest/runner":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 763870
+Xploquest 2:
+  installDir:
+    Xploquest2: {}
+  launch:
+    "<base>/xploquest2.app/Contents/MacOS/Mac_Runner":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/xploquest2.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/xploquest2/runner":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 791370
+Xsyon - Prelude:
+  installDir:
+    Xsyon: {}
+  launch:
+    "<base>/XsyonSteam.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 297470
+Xtractor Defender:
+  installDir:
+    Xtractor Defender: {}
+  launch:
+    "<base>/XtractorDefender.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 974140
+Xtreme League:
+  installDir:
+    XTreme League: {}
+  launch:
+    "<base>/Xtreme League.app/Contents/MacOS/Xtreme League":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Xtreme League.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1001760
+Xtreme Paddleball:
+  installDir:
+    Xtreme Paddleball: {}
+  steam:
+    id: 800640
+Xtreme Sports:
+  alias: Extreme Sports
+Xtrike:
+  files:
+    "<base>/conf/xtrike.config.json":
+      when:
+        - store: steam
+    "<base>/saves/*.json":
+      when:
+        - store: steam
+    "<base>/saves/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Xtrike: {}
+  launch:
+    "<base>/bin/java":
+      - arguments: "-XX:+UseZGC --enable-native-access=javafx.graphics,javafx.media -cp \"Xtrike.jar\" com.whitewoodcity.xtrike.Application"
+        when:
+          - os: mac
+            store: steam
+      - arguments: "-XX:+UseZGC --enable-native-access=javafx.graphics,javafx.media -cp \"Xtrike.jar\" com.whitewoodcity.xtrike.Application "
+        when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/bin/javaw.exe":
+      - arguments: "-XX:+UseZGC --enable-native-access=javafx.graphics,javafx.media -cp \"Xtrike.jar\" com.whitewoodcity.xtrike.Application "
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 658250
+"Xuan-Yuan Sword 3 EX: The Scar of the Sky":
+  files:
+    "<base>/Env.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Fame.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Save/*.*":
+      tags:
+        - save
+      when:
+        - store: steam
+        - os: windows
+    "<base>/swdghost.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/SOFTSTAR/SWD3E/env.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    SWD3E: {}
+  steam:
+    id: 1638220
+"Xuan-Yuan Sword EX: The Gate of Firmament":
+  cloud:
+    steam: true
+  installDir:
+    SWD6E: {}
+  launch:
+    "<base>/SWD6E.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 427030
+Xuan-Yuan Sword VII:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winLocalAppData>/SOFTSTAR/SWD7/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/SOFTSTAR/SWD7/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1112324255
+  id:
+    gogExtra:
+      - 1671224215
+      - 1736985433
+  installDir:
+    SWD7: {}
+  launch:
+    "<base>/SWD7/Binaries/Win64/SWD7-Win64-Shipping.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1249800
+X少女逃脱 x girl escape:
+  installDir:
+    XGirlEscape: {}
+  launch:
+    "<base>/XGirlEscape.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1140340

@@ -1,0 +1,568 @@
+---
+"! That Bastard Is Trying To Steal Our Gold !":
+  installDir:
+    "! That Bastard Is Trying To Steal Our Gold !": {}
+  launch:
+    "<base>/TDTTSOG.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/TDTTSOGLinux.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/TDTTSOGLinux.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/WTFOMGames/That Dick Trying To Steal Our Gold:
+      tags:
+        - config
+        - save
+  steam:
+    id: 449940
+"!4RC4N01D!":
+  steam:
+    id: 777010
+"!4RC4N01D! 2: Retro Edition":
+  steam:
+    id: 791550
+"!4RC4N01D! 3: Cold Space":
+  steam:
+    id: 809370
+"!4RC4N01D! 4: Kohbeep Edition":
+  steam:
+    id: 824660
+"!Anyway!":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/anyway":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 867990
+  installDir:
+    Anyway: {}
+  steam:
+    id: 866510
+"!BurnToDie!":
+  steam:
+    id: 928700
+"!Dead Pixels Adventure!":
+  steam:
+    id: 873700
+"!LABrpgUP!":
+  installDir:
+    "!LABrpgUP!": {}
+  launch:
+    "<base>/RPG.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 870990
+"!Peace Phantom 2!":
+  steam:
+    id: 805170
+"\"LIFE\" not found":
+  id:
+    steamExtra:
+      - 1908970
+      - 1909340
+      - 2061400
+  installDir:
+    LIFEnotfound: {}
+  launch:
+    "<base>/LIFEnotfound.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1908870
+$1 Ride:
+  installDir:
+    $1 Ride: {}
+  launch:
+    "<base>/ride.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Back to Basics Gaming/1$ Ride:
+      tags:
+        - config
+        - save
+  steam:
+    id: 508290
+"'83":
+  files:
+    "<winLocalAppData>/XV83/Saved/Config/Windows/*.ini":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/XV83/Saved/SaveGames/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 2680660
+      - 3934040
+  installDir:
+    "'83": {}
+  steam:
+    id: 1059220
+"'90s Football Stars":
+  installDir:
+    "'90s Football Stars": {}
+  launch:
+    "<base>/90s Football Stars.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/90s Football Stars.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 879310
+"'Member the Alamo?":
+  installDir:
+    "'Member the Alamo": {}
+  launch:
+    "<base>/Member The Alamo.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1364510
+"'n Verlore Verstand":
+  id:
+    steamExtra:
+      - 463190
+  installDir:
+    "'n Verlore Verstand": {}
+  launch:
+    "<base>/'nVerloreVerstand.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/'nVerloreVerstand.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/nVerloreVerstand.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/nVerloreVerstand.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 439550
+(Buried Tapes) The Cleaner:
+  id:
+    lutris: buried-tapes-the-cleaner
+  installDir:
+    (BURIED TAPES) The Cleaner: {}
+  launch:
+    "<base>/(BURIED TAPES) The Cleaner.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/release/(BURIED TAPES) The Cleaner.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3949740
+(Buried Tapes) The Parking:
+  installDir:
+    (BURIED TAPES) The Parking: {}
+  launch:
+    "<base>/(BURIED TAPES) The Parking.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/release/(BURIED TAPES) The Parking.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3949750
+(the) Gnorp Apologue:
+  cloud:
+    steam: true
+  files:
+    "<base>/options.ron":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winAppData>/Gnorp/Apologue/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Gnorp/Apologue/options.ron":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: the-gnorp-apologue
+  installDir:
+    Gnorp: {}
+  launch:
+    "<base>/(the) Gnorp Apologue.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1473350
+"***":
+  installDir:
+    SSS: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1034230
+"-KLAUS-":
+  alias: Klaus
+".Age":
+  cloud:
+    steam: true
+  installDir:
+    dotAge: {}
+  launch:
+    "<base>/dotAge.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/dotAge.exe":
+      - when:
+          - os: windows
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 638510
+".EXE":
+  id:
+    steamExtra:
+      - 489990
+  installDir:
+    ".EXE": {}
+  launch:
+    "<base>/EXE_linux.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/EXE_linux.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/EXE_mac.app/Contents/MacOS/EXE_mac":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/EXE_win32.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/EXE_win64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 471640
+".Projekt":
+  files:
+    "<home>/Library/Preferences/759000.plist":
+      tags:
+        - save
+      when:
+        - os: mac
+  installDir:
+    projekt: {}
+  launch:
+    "<base>/projekt.app/Contents/MacOS/projekt":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/projekt.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Stampede Games/.projekt:
+      tags:
+        - save
+  steam:
+    id: 759000
+".T.E.S.T: Expected Behaviour":
+  files:
+    "<home>/AppData/LocalLow/Veslo Games/Test Expected Behaviour/default.profile":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgConfig>/unity3d/Veslo Games/Test Expected Behaviour/default.profile":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Veslo Games/Test Expected Behaviour/pref":
+      tags:
+        - config
+      when:
+        - os: linux
+  installDir:
+    Test Expected Behaviour: {}
+  launch:
+    "<base>/Test Expected Behaviour.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Test Expected Behaviour.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Test Expected Behaviour.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/Test Expected Behaviour.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Veslo Games/Test Expected Behaviour:
+      tags:
+        - config
+  steam:
+    id: 771710
+".fall":
+  installDir:
+    fall: {}
+  launch:
+    "<base>/fall.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1087950
+".hack//G.U. Last Recode":
+  files:
+    "<root>/userdata/<storeUserId>/525480/remote/savedata":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 746970
+  installDir:
+    hackGU: {}
+  launch:
+    "<base>/hackGU.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 525480
+"~necromancy~Emily's Escape":
+  files:
+    "<base>/GameSave/**/*.save":
+      when:
+        - store: steam
+  installDir:
+    "~necromancy~Emily's Escape": {}
+  launch:
+    "<base>/~necromancy~Emily's Escape.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 975120
+"¡Zombies! : Faulty Towers":
+  installDir:
+    FaultyTowersZombies: {}
+  steam:
+    id: 451590
+€100:
+  installDir:
+    €100: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1036910
+∀kashicforce:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.sav":
+      when:
+        - store: steam
+    "<base>/StreamingAssets/*.lok":
+      when:
+        - store: steam
+    "<base>/StreamingAssets/st/prg":
+      when:
+        - store: steam
+    "<base>/StreamingAssets/stg.ulk":
+      when:
+        - store: steam
+    "<base>/manual_eng/**/*.*":
+      when:
+        - store: steam
+    "<base>/manual_jpn/**/*.*":
+      when:
+        - store: steam
+  installDir:
+    Akashicforce: {}
+  launch:
+    "<base>/Akashicforce.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 857460
+★Fallalypse ★ Disconnect ❄:
+  installDir:
+    Fallalypse Disconnect: {}
+  launch:
+    "<base>/Fallalypse Disconnect.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/_Linux/Fallalypse Disconnect.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/_Mac.app/Contents/MacOS/Fallalypse Disconnect":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 978610
+♞ The Tactics of War ♞:
+  installDir:
+    The Tactics of War: {}
+  launch:
+    "<base>/The Tactics of War.app/Contents/MacOS/The Tactics of War":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/The Tactics of War.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/The Tactics of War.linux/The Tactics of War.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/The Tactics of War.linux/The Tactics of War.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 937780
+✌ Johnny Rocket:
+  installDir:
+    Johnny Rocket: {}
+  launch:
+    "<base>/Johnny Rocket.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JohnnyRocket.app/Contents/MacOS/JohnnyRocket":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JohnnyRocket.linux/JohnnyRocket.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 942300
+《鬼畜战记：金坷垃传说》:
+  installDir:
+    JINKELA: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1087960
+【SCP】器関ノ彷徨 -The will of a single Tale- 第１部:
+  installDir:
+    SCP】器関ノ彷徨 -The will of a single Tale- 第１部: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1018930
+＜/reality＞:
+  cloud:
+    steam: true
+  files:
+    "<home>/.renpy/reality-1474579375/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/RenPy/reality-1474579375/*.save":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/RenPy/reality-1474579375/*.save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    reality: {}
+  launch:
+    "<base>/reality.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/reality.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/reality.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 562280

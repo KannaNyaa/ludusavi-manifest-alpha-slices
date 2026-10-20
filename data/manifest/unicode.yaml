@@ -1,0 +1,5688 @@
+---
+Élan Vital:
+  installDir:
+    elanvital: {}
+  launch:
+    "<base>/mac_201917_95457/elanedit.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/windows_201917_95349/elanedit.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1017690
+Été:
+  files:
+    "<home>/AppData/LocalLow/Impossible/Ete/Options.json":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Impossible/Ete/Saves":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: ete
+  installDir:
+    Ete: {}
+  launch:
+    "<base>/Ete.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1065070
+Ôpe:
+  installDir:
+    Ope: {}
+  launch:
+    "<base>/OPE.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1170200
+Öoo:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Ooo/main.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Ooo/option.bin":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: ooo-1
+  installDir:
+    Ooo: {}
+  launch:
+    "<base>/Ooo.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2721890
+ÜberSoldier:
+  files:
+    "<base>/SAVES":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Ubersoldier: {}
+  launch:
+    "<base>/xtend.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2905090
+ÜberSoldier II:
+  files:
+    "<winDocuments>/US2":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/US2/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Ubersoldier II: {}
+  launch:
+    "<base>/xtend.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 281410
+Černaja Metka:
+  files:
+    "<winProgramData>/Orion/TheHunt/Profile":
+      tags:
+        - save
+      when:
+        - os: windows
+Ōkami HD:
+  alias: Okami HD
+"ΔV: Rings of Saturn":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winAppData>/dV":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/dV/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgData>/dV":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/dV/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: linux
+  gog:
+    id: 1168832459
+  id:
+    gogExtra:
+      - 1305560807
+      - 1481429105
+      - 1582356324
+      - 1606695771
+      - 1680423754
+      - 1937014327
+      - 2029128068
+    steamExtra:
+      - 949730
+      - 1127590
+      - 1211880
+      - 1908440
+      - 1938680
+      - 2263460
+  installDir:
+    dV Rings of Saturn: {}
+  launch:
+    "<base>/Delta-V.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Delta-V.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Delta-V.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 846030
+Бухой Батя / Drunk Dad:
+  steam:
+    id: 964260
+В поисках Атлантиды:
+  installDir:
+    Atlantis: {}
+  launch:
+    "<base>/Atlantis.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Drevn.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 925640
+"В тылу врага: Диверсанты 2":
+  files:
+    "<base>/profiles/<storeUserId>/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/profiles/<storeUserId>/settings":
+      tags:
+        - config
+      when:
+        - os: windows
+"В тылу врага: Диверсанты 3":
+  files:
+    "<base>/profiles/<storeUserId>/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/profiles/<storeUserId>/settings":
+      tags:
+        - config
+      when:
+        - os: windows
+ВЗЛОМ ЖОПЫ:
+  installDir:
+    VZLOM JOPI: {}
+  launch:
+    "<base>/VZLOM_JOPI.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1206700
+Верни мне мой 2007:
+  alias: Emo Simulator
+Воин Хинора:
+  installDir:
+    WarriorHinora: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1031770
+"ДОКА 2! - КРОВЬ, КИШКИ, ГОЛЫЕ СИСЬКИ":
+  steam:
+    id: 980060
+ЕСТЬ ДВА СТУЛА:
+  installDir:
+    ЕСТЬ ДВА СТУЛА: {}
+  launch:
+    "<base>/Есть Два Стула.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 873190
+КАНДИДАТ:
+  steam:
+    id: 1031810
+МЫЛО УРОНИЛ:
+  installDir:
+    МЫЛО УРОНИЛ: {}
+  launch:
+    "<base>/YRONIL MILO.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 937210
+Не падай!:
+  installDir:
+    Ne Padai: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1056010
+Пацанский цитатник / Russian Test:
+  alias: Russian Test
+"Путин против Инопланетян: На Закате Справедливости (Linehot Putin: All Stars)":
+  steam:
+    id: 1014960
+Россия 2019:
+  installDir:
+    rus_build64: {}
+  launch:
+    "<base>/RussiaRogueLike.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1045010
+СЛАВА УКРАЇНІ:
+  steam:
+    id: 1099720
+Самозванец:
+  installDir:
+    Самозванец: {}
+  launch:
+    "<base>/Samozvanec.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1123510
+Симулятор Сидения у Подъезда:
+  installDir:
+    " Сидения у Подъезда": {}
+  steam:
+    id: 1031920
+Скуф на рыбалке:
+  installDir:
+    Skuf Fishing: {}
+  launch:
+    "<base>/SKUFFISHING.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3149840
+"Смешарики: Параллельные миры":
+  files:
+    "<base>/config.info":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Смешарики - Параллельные миры/settings.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+Тридевятые земли(Свет или тьма):
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    " Тридевятые земли(Свет или тьма)": {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 847100
+Тёмное отражение (Dark Reflection):
+  alias: Dark Reflection
+ШП:
+  installDir:
+    ShP: {}
+  launch:
+    "<base>/ShP-7ENG.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 727640
+"ШХД: ЗИМА / IT'S WINTER":
+  installDir:
+    "It's Winter": {}
+  launch:
+    "<base>/It's Winter.app":
+      - when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/It's Winter"
+    "<base>/It's Winter.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1003360
+יום פתוח (Open Day):
+  alias: Open Day
+おわかれのほし:
+  installDir:
+    farewellplanet: {}
+  launch:
+    "<base>/farewellplanet.app/Contents/MacOS/farewellplanet":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/farewellplanet.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1052580
+きりたんvsカニたん -ずんだもちを防衛せよ！-:
+  cloud:
+    steam: true
+  installDir:
+    KiritanVSKanitan: {}
+  launch:
+    "<base>/KiritanVSKanitan.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/KiritanVSKanitan.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 947430
+ばるばろっさ! ～すすめ? 赤軍少女旅団:
+  installDir:
+    Barbarossa: {}
+  launch:
+    "<base>/contents/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 793080
+ぶんまわしヒーロー / Full Swing Hero:
+  alias: Full Swing Hero
+まぜっこタワー:
+  installDir:
+    MAZEKOTOWER: {}
+  launch:
+    "<base>/MAZEKOTOWER.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 745280
+エルソード (ELSWORD):
+  alias: Elsword
+コイカツ！ / Koikatsu Party:
+  alias: Koikatsu
+シニサギ:
+  installDir:
+    シニサギ: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1113580
+テーマパークの虫:
+  installDir:
+    BugAviatorsinThemePark: {}
+  launch:
+    "<base>/Bug Aviators in Theme Park.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/テーマパークの虫.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1036270
+バインドを解除する(unbind):
+  id:
+    steamExtra:
+      - 993410
+  installDir:
+    unbind: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 977590
+バグダス - デバッガー検定 -:
+  installDir:
+    bugdas: {}
+  launch:
+    "<base>/BUGDASU.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1002360
+パトルの軍事博物館３ 超絶無敵究極兵器:
+  installDir:
+    パトルの軍事博物館３ 超絶無敵究極兵器: {}
+  launch:
+    "<base>/contents/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1212840
+プランZ PlanZ:
+  alias: PlanZ
+ポエニ戦争 地中海の稲妻:
+  installDir:
+    PunicWars: {}
+  launch:
+    "<base>/OSX.app/Contents/MacOS/ポエニ戦争":
+      - arguments: "-screen-width 1778 -screen-height 1000"
+        when:
+          - os: mac
+            store: steam
+    "<base>/ポエニ戦争.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1136900
+ライフワン- lifeOne:
+  alias: LifeOne
+レイジングループ:
+  alias: Raging Loop
+一字不落:
+  installDir:
+    一字不落: {}
+  launch:
+    "<base>/Chinatris.app/Contents/MacOS/Chinatris":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Chinatris.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1139800
+一方灵田:
+  files:
+    "<base>/SavesDir/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    ImmortalLife: {}
+  launch:
+    "<base>/ImmortalLife.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1201230
+七人杀阵 - Seven Sacrifices:
+  alias: Seven Sacrifices
+七夜怪谈 - 都市校园禁锢传说:
+  installDir:
+    Kwaidan School: {}
+  launch:
+    "<base>/school.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 932070
+三和大神:
+  installDir:
+    三和大神: {}
+  launch:
+    "<base>/GodsInSanhe.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 974450
+三国乱传Three Kingdoms Fantasy:
+  installDir:
+    Three_Kingdom_Legend: {}
+  launch:
+    "<base>/Three_Kingdom_Legend.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Three_Kingdom_Legend.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Three_Kingdom_Legend.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1217410
+三国佣兵传奇:
+  installDir:
+    三国佣兵传奇: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1011970
+三国时代2:
+  cloud:
+    steam: true
+  files:
+    "<base>/save_data/*.sg":
+      when:
+        - store: steam
+  installDir:
+    sanguos2: {}
+  launch:
+    "<base>/三国时代2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1154470
+三国游侠志:
+  installDir:
+    sgyxz: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 781590
+三国虎将传VR2-Sanguo Warriors VR2:
+  alias: Sanguo Warriors VR2
+三魂VR/The Spirits Within:
+  alias: The Spirits Within
+下一层的封魔塔 Forever War:
+  installDir:
+    下一层的倒悬塔 Forever War: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1089810
+不可思议佣兵团:
+  installDir:
+    不可思议佣兵团: {}
+  launch:
+    "<base>/IncredibleCrewPC.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1135380
+不惑英雄传(puzzled heroes):
+  alias: Puzzled Heroes
+不死/IMMORTAL:
+  alias: Immortal
+不落城-Unconquered Castle:
+  installDir:
+    Unconquered: {}
+  launch:
+    "<base>/Mac.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/UnconqueredCastle.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 873490
+世界尽头的蔷薇花园:
+  installDir:
+    "Rose Garden at the World's End": {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1098680
+东周拟战:
+  steam:
+    id: 1162080
+东方幻昼梦~ Touhou Fantasy Day:
+  alias: Touhou Fantasy Day
+东方幻灵录 / Touhou Hakanai Cards:
+  alias: Touhou Hakanai Cards
+东方梦月谈~Lunatic Dreaming:
+  steam:
+    id: 1134550
+东方梦零魂 -TouHou Nil Soul-:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    TouHou Nil Soul: {}
+  launch:
+    "<base>/Touhou Nil Soul.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/Touhou Nil Soul_Data"
+  steam:
+    id: 941300
+东方百问-TouHouAsked:
+  installDir:
+    TouHouAsked: {}
+  launch:
+    "<base>/东方百问~TouHouAsked.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 930840
+东方远空界 ~ Ultimate Vitality of Imagination:
+  files:
+    "<base>/replay":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/userdata/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/userdata/*.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Ultimate Vitality of Imagination: {}
+  launch:
+    "<base>/THUVoI.d3d11.exe":
+      - when:
+          - store: steam
+    "<base>/THUVoI.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1700220
+中世纪领主 Medieval Lords:
+  alias: Medieval Monarch
+中华三国志:
+  files:
+    "<winDocuments>/WorldOfTheThreeKingdoms/Save/*.json":
+      when:
+        - store: steam
+  installDir:
+    中华三国志: {}
+  launch:
+    "<base>/WorldOfTheThreeKingdoms.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1029500
+丰饶之角 不可思议之物居住的小镇:
+  cloud:
+    steam: true
+  steam:
+    id: 816600
+乌鸦:
+  installDir:
+    crows: {}
+  launch:
+    "<base>/crows.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 870100
+"乔乔的铁拳 Joe's Fists":
+  alias: "Joe's Fists"
+"九劫曲:诅咒之地 NineTrials Test Server":
+  installDir:
+    NineTrialsTestServer: {}
+  launch:
+    "<base>/NineTrials/Binaries/Win64/NineTrials.exe":
+      - arguments: "-ServerIP=120.78.152.44:8990"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1012730
+九劫曲：诅咒之地:
+  installDir:
+    NineTrials: {}
+  launch:
+    "<base>/NineTrials/Binaries/Win64/NineTrials.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 976800
+九州仙玉 Kyushu jade:
+  steam:
+    id: 1203900
+"九州：商旅（Nine Provinces: Caravan）":
+  alias: "Nine Provinces: Caravan"
+九霄缳神记 GOD SLAYER:
+  alias: 九霄缳神记 Jiu Xiao
+九霄缳神记 Jiu Xiao:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Meowpaw/九霄缳神记/savedata/*.sav":
+      when:
+        - store: steam
+  installDir:
+    九霄缳神记: {}
+  launch:
+    "<base>/九霄缳神记.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1096300
+书之旅人 Story Walker:
+  installDir:
+    StoryWalker: {}
+  launch:
+    "<base>/StoryWalker.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2101220
+云游志 The Clouds Travel Notes:
+  alias: The Clouds Travel Notes
+云聚：失落的魔法 Magic Ganglia:
+  alias: Magic Ganglia
+五日大逃亡:
+  installDir:
+    FiveDayEscape: {}
+  launch:
+    "<base>/FiveDayEscape.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 994290
+人工灭绝:
+  steam:
+    id: 1197930
+人气动漫大乱斗:
+  installDir:
+    DldXy: {}
+  steam:
+    id: 1000310
+人间 The Lost We Lost:
+  cloud:
+    steam: true
+  files:
+    "<base>/save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    人间 The Lost We Lost: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1057680
+人间之屑-艺术之名（I am the dirt-for art）:
+  cloud:
+    steam: true
+  files:
+    "<base>/I am the dirt-for-art_Data/JsonData/SavesDir/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "I'm the dirt - for art": {}
+  launch:
+    "<base>/I am the dirt-for art.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1116910
+人魔境共生譚:
+  installDir:
+    HarmonyStory: {}
+  launch:
+    "<base>/P5_HarmonyStory.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1179910
+从前有个仙儿 Taoist immortal:
+  files:
+    "<home>/AppData/LocalLow/Neuron Studio/Taoist Immortal/SaveDir":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Taoist Immortal: {}
+  launch:
+    "<base>/TaoistImmortal.exe":
+      - arguments: "-windowed"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1011220
+仙谕:
+  steam:
+    id: 973400
+伊勢志摩ミステリー案内 偽りの黒真珠:
+  id:
+    steamExtra:
+      - 1102160
+  installDir:
+    ISESHIMA STORY: {}
+  launch:
+    "<base>/ISESHIMA STORY.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1100030
+伊格利亚战记/The Heroic Legend Of Eagarlnia:
+  alias: The Heroic Legend of Eagarlnia
+伏龙 天元竞擂:
+  steam:
+    id: 1165390
+传奇世界:
+  steam:
+    id: 1222860
+佣兵地下城/Hell Warriors:
+  steam:
+    id: 1195080
+佣兵战歌:
+  installDir:
+    yongbingzhange: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1196620
+侍道外伝 KATANAKAMI:
+  cloud:
+    steam: true
+  installDir:
+    RD: {}
+  launch:
+    "<base>/KatanaKami.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1062340
+"侠隐行录：困境疑云Wuxia archive: Crisis escape":
+  alias: "Wuxia Archive: Crisis Escape"
+傲皇忆剑诀:
+  installDir:
+    AoHuang: {}
+  launch:
+    "<base>/AoHuang.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 997270
+元素战争 Elemental war:
+  installDir:
+    元素战争  Elemental war: {}
+  launch:
+    "<base>/Elemental war.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1063970
+光之迷城 / Dawn of the Lost Castle:
+  alias: Dawn of the Lost Castle
+光明决 DUEX:
+  steam:
+    id: 1045750
+光與暗之戀曲:
+  installDir:
+    GuangYuAn: {}
+  launch:
+    "<base>/光与暗之恋曲.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1128450
+克苏鲁异闻录:
+  files:
+    "<base>/LUS_Data/Save/*.lus":
+      when:
+        - os: windows
+          store: steam
+    "<base>/Lus.app/Contents/Save/*.lus":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    克苏鲁异闻录: {}
+  launch:
+    "<base>/Lus.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Lus.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 977500
+兔耳冒險譚:
+  steam:
+    id: 1024440
+全托教师:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/1785750":
+      tags:
+        - save
+      when:
+        - store: steam
+  installDir:
+    HostingTheTeacher: {}
+  launch:
+    "<base>/HostingTheTeacher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1785750
+全民王者:
+  installDir:
+    bzqj: {}
+  launch:
+    "<base>/bzqj.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 742360
+六界飞仙:
+  steam:
+    id: 1176450
+六阶谜题 six-step mystery:
+  cloud:
+    steam: true
+  files:
+    "<base>/game/saves":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Six-steps Mystery: {}
+  launch:
+    "<base>/SixStepsMystery.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1164000
+共产主义女孩 ~ ☭ Communism（￣ー￣）:
+  steam:
+    id: 962770
+关于我被小学女生绑架这件事:
+  alias: "Kid,napper: Gosh, I'm Kidnapped by a Pupil"
+兽耳攻略 - TFK Faculty:
+  files:
+    "<home>/AppData/LocalLow/DuolalaStudio/TFK_Faculty/**/*.*":
+      when:
+        - store: steam
+  installDir:
+    TFK Faculty: {}
+  launch:
+    "<base>/TFK_Faculty.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/TFK_Faculty.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1096330
+"冒险村的商人日记/Businessman's Diary of Dungeon Village":
+  alias: Adventures Diary of Merchant
+军团战棋 Legion War:
+  files:
+    "<home>/AppData/LocalLow/BearCat Studio/LegionWar":
+      when:
+        - store: steam
+  installDir:
+    " Legion War": {}
+  launch:
+    "<base>/LegionWar.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 975270
+冷月清辉照天涯(KUNG FU LEGEND):
+  installDir:
+    KUNG FU LEGEND32c: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 957150
+凡人飞仙:
+  steam:
+    id: 1143670
+凯旋岛:
+  installDir:
+    kxd: {}
+  launch:
+    "<base>/WindowsNoEditor/Client/Binaries/Win64/CleanThirdPerson-Win64-Shipping.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1038680
+出门:
+  installDir:
+    出门: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1175240
+刀剑天下:
+  steam:
+    id: 1155150
+刀锋突袭:
+  installDir:
+    刀锋突袭: {}
+  launch:
+    "<base>/刀锋突袭.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1184110
+创世-修真录:
+  installDir:
+    csvr: {}
+  steam:
+    id: 723420
+创造与挑战:
+  installDir:
+    AG: {}
+  launch:
+    "<base>/AG.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/UN/i wanna be the Creator.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/UNDB/i wanna be the Creator.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 913550
+初开在平安夜之花 -The Flower on Christmas Eve-:
+  cloud:
+    steam: true
+  files:
+    "<base>/game/saves/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    The Flower on Christmas Eve: {}
+  launch:
+    "<base>/TheFloweronChristmasEve.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1127140
+别以为你是开发者我就不敢打你:
+  installDir:
+    bz5: {}
+  launch:
+    "<base>/mac.app/Contents/MacOS/σê½Σ╗ÑΣ╕║Σ╜áµÿ»σ╝ÇσÅæΦÇàµêæσ░▒Σ╕ìµòóµëôΣ╜á":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/win/σê½Σ╗ÑΣ╕║Σ╜áµÿ»σ╝ÇσÅæΦÇàµêæσ░▒Σ╕ìµòóµëôΣ╜á.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1110650
+剑魄:
+  files:
+    "<winLocalAppData>/SoulOfBlade/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    剑魄: {}
+  launch:
+    "<base>/SoulOfBlade.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1091460
+剪刀石头布:
+  steam:
+    id: 977140
+副作用之瞳 (Tlicolity Eyes):
+  files:
+    "<winAppData>/Joymoe/TlicolityEyes/Vol1/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Joymoe/TlicolityEyes/Vol1/*.dat.png":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Joymoe/TlicolityEyes/Vol2/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Joymoe/TlicolityEyes/Vol2/*.dat.png":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Joymoe/TlicolityEyes/Vol3/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Joymoe/TlicolityEyes/Vol3/*.dat.png":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Tlicolity Eyes: {}
+  launch:
+    "<base>/SunG.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/TlicolityEyes.app/Contents/MacOS/TlicolityEyes":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1195830
+勇士HERO:
+  steam:
+    id: 1169400
+"勇者有点太嚣张。G(No Hero Allowed: No Puzzle Either!)":
+  installDir:
+    Yu-Nama: {}
+  launch:
+    "<base>/Yu-Nama.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1046600
+勿忘此铭:
+  steam:
+    id: 943100
+化者天狱 Revenant in the Paradise:
+  alias: Revenant in the Paradise
+匿名信：失心者:
+  steam:
+    id: 1025980
+匿名信：失心者 / Stayer:
+  alias: "Anonymous Letter: Lost Heart / Stayer"
+匿名信：隐匿者 / Anonymous Letter ：Prowler:
+  alias: "Anonymous Letter: Prowler"
+"十二刻度的月计时 / Lunar Timepiece : Shadow Of Twelve":
+  alias: "Lunar Timepiece: Shadow of Twelve"
+十天的溫度:
+  files:
+    "<base>/savedata/*.bmp":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/savedata/*.ksd":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/savedata/krenvprf.kep":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Connection: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1203970
+十日:
+  installDir:
+    No2119: {}
+  launch:
+    "<base>/TenDays.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1055660
+千面 Melancholy Love:
+  cloud:
+    steam: true
+  files:
+    "<home>/Documents/My Games/Melancholy Love":
+      when:
+        - os: mac
+          store: steam
+    "<winDocuments>/My Games/Melancholy Love":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    千面_Melancholy: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/千面.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1168470
+午餐13:
+  installDir:
+    "13": {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 702790
+单身狗的最后机会:
+  installDir:
+    单身狗的最后机会: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1194560
+南国育ち/Nangoku Sodachi:
+  alias: Nangoku Sodachi
+占星师Astrologer:
+  steam:
+    id: 1194800
+卡哇伊女孩 ~ Kawaii Girls (づ｡◕‿‿◕｡)づ:
+  steam:
+    id: 966230
+"卡片地下城Card Monsters: Dungeon":
+  cloud:
+    steam: true
+  steam:
+    id: 1077440
+原体:
+  installDir:
+    原体: {}
+  launch:
+    "<base>/FPSDemo.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1095540
+原始部落:
+  installDir:
+    StoneAge: {}
+  launch:
+    "<base>/StoneAge.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 812510
+反现实症候群γ - Counterrealstic Syndrome γ:
+  installDir:
+    CounterrealsticSyndrome: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1186860
+变量:
+  files:
+    "<base>/Variables_Data/StreamingAssets/Save/Data":
+      when:
+        - store: steam
+    "<base>/Variables_Data/StreamingAssets/Save/Data_Backup":
+      when:
+        - store: steam
+    "<base>/Variables_Data/StreamingAssets/Save/GameData":
+      when:
+        - store: steam
+  installDir:
+    Variables: {}
+  launch:
+    "<base>/Variables.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1054800
+"叙事曲2：星空下的诺言 / Ballade2: the Celestial Promise":
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/Ballade2":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Ballade2":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 1084940
+  installDir:
+    Ballade2 the Celestial Promise: {}
+  launch:
+    "<base>/Ballade2.app/Contents/MacOS/Ballade2":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Ballade2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1080990
+"叙事曲：难忘的回忆 / Ballade: with Memories":
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/Ballade":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Ballade":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 1092200
+  installDir:
+    Ballade with Memories: {}
+  launch:
+    "<base>/Ballade1.app/Contents/MacOS/Ballade1":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Ballade1.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1091720
+叫我铸造师:
+  files:
+    "<base>/UserDefault.xml":
+      when:
+        - os: windows
+          store: steam
+    "<base>/local.db":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    jwzzs2: {}
+  steam:
+    id: 1131280
+同居指南:
+  cloud:
+    steam: true
+  files:
+    "<base>/TJZN.app/Contents/MacOS/config":
+      when:
+        - os: windows
+          store: steam
+        - os: mac
+          store: steam
+    "<base>/config":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    CohabitationGuide: {}
+  launch:
+    "<base>/TJZN.app/Contents/MacOS/TJZN":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/TJZN.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 985740
+名媛女友-Girlfriend invites:
+  installDir:
+    vites: {}
+  launch:
+    "<base>/Gs.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1178330
+后遗症／Sequela:
+  cloud:
+    steam: true
+  files:
+    "<base>/www/save/*.rpgsave":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Sequela: {}
+  launch:
+    "<base>/HYZ.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1071900
+吞食天地 2019:
+  steam:
+    id: 1205670
+吞食孔明传 Tunshi Kongming Legends:
+  alias: Tunshi Kongming Legends
+吾光笔记Holimas Z Notebook:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    吾光笔记: {}
+  launch:
+    "<base>/吾光笔记.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1150130
+告死天使之言 - Death angel:
+  cloud:
+    steam: true
+  files:
+    "<base>/Saves":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 1124100
+  installDir:
+    Death angel: {}
+  launch:
+    "<base>/Game.exe":
+      - arguments: "-window"
+        when:
+          - store: steam
+  steam:
+    id: 1124090
+命运战歌:
+  steam:
+    id: 2015770
+咔叽探险队 Kaki Raid:
+  installDir:
+    " Kaki Raid": {}
+  launch:
+    "<base>/KakiRaid.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1137180
+咕啾！文鸟恋爱物语 Love Story of Sparrow:
+  alias: Love Story of Sparrow
+喵可莉的兔玩偶:
+  cloud:
+    steam: true
+  files:
+    "<base>/save/*.rpgsave":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+  installDir:
+    "Nyakori's Rabbit Doll": {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1162070
+噬元之主:
+  installDir:
+    SYZZ: {}
+  steam:
+    id: 868320
+囚われの館:
+  steam:
+    id: 986860
+四之石:
+  steam:
+    id: 1058400
+四圣传说1:
+  files:
+    "<base>/www/save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Four saints legend: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1063910
+四季 The Four Seasons:
+  cloud:
+    steam: true
+  files:
+    "<base>/Saves/*.rxdata":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    TheFourSeasons: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1152760
+回门 Way Back Home:
+  files:
+    "<base>/WayBackHome_Data/StreamingAssets/*.json":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    回门 Way Back Home: {}
+  launch:
+    "<base>/WayBackHome.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1218170
+圈圈工坊 OO.Inc:
+  installDir:
+    OO.Inc: {}
+  launch:
+    "<base>/OO.Inc.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 993860
+圣山ShenShan:
+  installDir:
+    SHENSHAN: {}
+  launch:
+    "<base>/SHENSHAN.exe":
+      - arguments: "-windowed"
+        when:
+          - os: windows
+            store: steam
+          - bit: 32
+            os: windows
+            store: steam
+  steam:
+    id: 1044900
+在末日前夕等待放晴:
+  installDir:
+    SJU: {}
+  launch:
+    "<base>/SJU.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1020930
+在线教育开发实习生 Elearning Development Intern:
+  installDir:
+    Elearning Development Intern: {}
+  launch:
+    "<base>/Elearning Development Intern.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1012180
+地城蔷薇:
+  steam:
+    id: 1073600
+地铁：恐怖末班车:
+  installDir:
+    Metro: {}
+  launch:
+    "<base>/Metro.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1062240
+坦克大战：共和国之辉:
+  installDir:
+    ProjTank: {}
+  launch:
+    "<base>/ProjSdtx.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1002930
+坦率的小红帽和爱说谎的狼:
+  installDir:
+    sunaonaakazukin: {}
+  launch:
+    "<base>/sunaonaakazukin.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1216080
+城堡传说：魔王觉醒:
+  files:
+    "<home>/AppData/LocalLow/ShanghaiChiSen/城堡传说：魔王觉醒/1/**/*.data":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.Shchisen.CastleLegend/1/*.data":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    DemonGame: {}
+  launch:
+    "<base>/DemonGame/DemonGame.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/DemonGame/城堡传说：魔王觉醒.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1042560
+城市生存计划:
+  alias: City Survival Project
+場外人生:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/HuohuaiStudio/HuohuaiProject/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    HuohuaiProject: {}
+  launch:
+    "<base>/HuohuaiProject.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1120370
+塔塔帝国:
+  installDir:
+    tower: {}
+  launch:
+    "<base>/tower.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1875590
+境界 Dice&Fighter:
+  files:
+    "<base>/www/save/*.rpgsave":
+      when:
+        - store: steam
+  installDir:
+    Dice&Fighter: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1191680
+墨色三国志:
+  installDir:
+    mosesanguo: {}
+  launch:
+    "<base>/mosesanguo.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1099980
+夏之扉：最后的圣骑士:
+  installDir:
+    Paralines The Last paladin: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 813110
+"夕鬼 零 Yuoni: Rises":
+  alias: "Yuoni: Rises"
+夜之归途 Night Homing:
+  files:
+    "<home>/AppData/LocalLow/AM02/NightHoming/*.txt":
+      when:
+        - store: steam
+  installDir:
+    NightHoming: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 964240
+夜孤城 · 何为侠义:
+  steam:
+    id: 1158680
+夜雪冰娇:
+  installDir:
+    夜雪冰娇: {}
+  launch:
+    "<base>/夜雪冰娇.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 801600
+夢物語ORIGIN:
+  installDir:
+    Windows_Content: {}
+  launch:
+    "<base>/Mac_Content.app/Contents/MacOS/Desktop":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Windows_Content/DreamStory.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 908940
+夢限ノ夜:
+  installDir:
+    夢限ノ夜: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1141660
+大圣归来:
+  steam:
+    id: 946980
+大巫 Great Witcher:
+  alias: Great Witcher
+大时代：三国立志:
+  installDir:
+    BigAgeSG: {}
+  launch:
+    "<base>/BigAgeSG/BigAgeSG.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1062200
+大老爷:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/DLYSave":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    GrandLordAuto: {}
+  launch:
+    "<base>/GrandLordAuto.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1005950
+天下往事 Journey of the world:
+  installDir:
+    Journey of the world: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1094020
+天仙月-GM畅玩版:
+  installDir:
+    txy: {}
+  launch:
+    "<base>/play.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1983940
+天火(TianHuo):
+  installDir:
+    GameOfTianHuo: {}
+  launch:
+    "<base>/TianHuoGame.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 996710
+天空傳説:
+  installDir:
+    SkyLegend: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1017380
+天罡星宿海 The sea of TianGang XinSu:
+  installDir:
+    The sea of TianGang XinSu: {}
+  launch:
+    "<base>/tgxsh.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 962290
+天降锦鲤 ~ My Lucky Koi:
+  alias: My Lucky Koi
+天风之光 ~ Touhou Fan of Destiny:
+  alias: Touhou Fan of Destiny
+失落的地下城 Lost Dungeon:
+  installDir:
+    Lost_Dungeon: {}
+  launch:
+    "<base>/Lost_Dungeon.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1069120
+失落的王座TCG:
+  steam:
+    id: 1188420
+奇幻与砍杀 Fantasy & Blade:
+  alias: Fantasy & Blade
+奇幻与砍杀 Fantasy & Blade Ⅱ:
+  alias: Fantasy & Blade II
+奇迹一刻 Surmount:
+  files:
+    "<home>/AppData/LocalLow/Maopaostudio/Surmount/*.data":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Maopaostudio/Surmount/*.index":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Maopaostudio/Surmount/*.png":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Surmount: {}
+  launch:
+    "<base>/Surmount.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1089630
+女友与我的恋爱日常:
+  steam:
+    id: 989800
+女神驾到(Happy together):
+  id:
+    steamExtra:
+      - 906670
+  steam:
+    id: 905940
+女装妹妹从没少过麻烦:
+  steam:
+    id: 820770
+如果一生只有三十岁Before Thirty:
+  steam:
+    id: 1128360
+如果成为勇者后只剩下一小时生命该如何打倒魔王活下去？:
+  steam:
+    id: 1160510
+妈妈，别走:
+  cloud:
+    steam: true
+  files:
+    "<base>/UserDefault.xml":
+      when:
+        - os: windows
+          store: steam
+    "<base>/local.db":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    mymother: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1175180
+妖师 Elf Manor:
+  alias: Elf Manor
+妖怪俱乐部 Demon Club:
+  installDir:
+    DemonClub: {}
+  launch:
+    "<base>/DemonClub.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 992620
+"妖诗-Yaokai's Poetry-":
+  steam:
+    id: 1082880
+孙悟空大战机器金刚 / Sun Wukong VS Robot:
+  alias: Sun Wukong VS Robot
+守护传说 Guardian Legend:
+  files:
+    "<base>/www/save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    守护传说: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1145550
+守护未来 GUARD THE FUTURE:
+  alias: Guard the Future
+守护神石 StoneDefence:
+  alias: Stone Defence
+安全教育:
+  installDir:
+    SafetyEducation: {}
+  steam:
+    id: 865150
+宣夜:
+  files:
+    "<home>/AppData/LocalLow/FangShengMeng/XuanYe/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/FangShengMeng/XuanYe/*.es3":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Float Night: {}
+  launch:
+    "<base>/XuanYe.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 958280
+家园 (Home Land):
+  alias: Home Land
+家园/HOME:
+  alias: Home Land
+家园VR:
+  files:
+    "<home>/AppData/LocalLow/com_lihuai99_jiayuan/jiayuan/*.sav":
+      when:
+        - store: steam
+  installDir:
+    家园VR: {}
+  steam:
+    id: 1160770
+容身之地铁:
+  installDir:
+    RongShenzhiDiTie: {}
+  launch:
+    "<base>/RongShenzhiDiTie.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1067270
+寄居隅怪奇事件簿:
+  alias: Hermitage Strange Case Files
+寄甡 Symbitic Love:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/Symbiotic Love":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Symbiotic: {}
+  launch:
+    "<base>/Symbiotic Love.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Symbiotic Love.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 948830
+寄给明日的希望:
+  steam:
+    id: 1033650
+密闭之城 The Airtight City:
+  alias: Airtight City
+对决之境:
+  steam:
+    id: 1179040
+寻迹 -A story of a song-:
+  steam:
+    id: 962940
+封神策:
+  steam:
+    id: 1213470
+封神纪:
+  installDir:
+    fengshen: {}
+  launch:
+    "<base>/封神纪OL.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1210680
+射就完事儿了消灭蔬菜:
+  steam:
+    id: 1177180
+小林正雪复仇之密室重制版:
+  installDir:
+    Koba: {}
+  launch:
+    "<base>/Koba.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 899160
+"小白的新衣 / Snower's New Clothes":
+  steam:
+    id: 1058850
+小苹果大冒险 Apple Story:
+  alias: Apple Story
+少年封神:
+  steam:
+    id: 1154500
+尘与土的边缘:
+  installDir:
+    尘与土的边缘: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 873820
+尘沙的选择 THE CHOICE OF SAND:
+  alias: The Choice of Sand
+尸如潮水:
+  installDir:
+    srch: {}
+  launch:
+    "<base>/srch.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 953740
+尺子和橡皮:
+  steam:
+    id: 809640
+"局外人 L'Etranger":
+  installDir:
+    "局外人 L'Etranger": {}
+  launch:
+    "<base>/L'etranger.app/Contents/MacOS/BKEngine":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/L'etranger.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1078970
+属性与生活:
+  installDir:
+    SXYSH: {}
+  launch:
+    "<base>/属性与生活.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 822470
+巅峰骑士团:
+  files:
+    "<base>/Knights.app/Contents/Resources/app.nw/save":
+      when:
+        - os: windows
+          store: steam
+        - os: mac
+          store: steam
+  installDir:
+    Knights: {}
+  launch:
+    "<base>/Knights.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Knights.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1132730
+巨龙召唤:
+  installDir:
+    summon: {}
+  launch:
+    "<base>/xy318.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1101420
+巫师超凡者 Legend of the wizard:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/MagicBook/game/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    game: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1106690
+巭孬嫑毖:
+  installDir:
+    GFBH: {}
+  launch:
+    "<base>/Main.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 905670
+"巴伦西亚传说：索菲亚的重生 Valencia Saga:Sophia's rebirth":
+  alias: "Valencia Saga: Sophia's Rebirth"
+希望之星:
+  steam:
+    id: 932050
+帝国与文明:
+  installDir:
+    Sim Empire: {}
+  launch:
+    "<base>/Sim Empire.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Sim Empire.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1041710
+干支セトラ 陰ノ卷｜干支etc. 陰之卷:
+  cloud:
+    steam: true
+  files:
+    "<base>/Save/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Et cetera In: {}
+  launch:
+    "<base>/eto_cetera.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 995330
+干支セトラ 陽ノ卷｜干支etc. 陽之卷:
+  cloud:
+    steam: true
+  files:
+    "<base>/Save/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Et cetera You: {}
+  launch:
+    "<base>/eto_cetera.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - store: steam
+  steam:
+    id: 1000100
+幸存者 / The Survivor:
+  installDir:
+    The Survivor: {}
+  launch:
+    "<base>/The Survivor.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1139000
+幻世情缘:
+  installDir:
+    FANTASY LOVE STORY: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 869660
+幻想三國誌5:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 899070
+  installDir:
+    FantasiaSango5: {}
+  launch:
+    "<base>/Exe/fs5.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Exe"
+  steam:
+    id: 859150
+幻想四倍剣^2 悔悟棒の謎:
+  cloud:
+    steam: true
+  files:
+    "<base>/SaveData/*.dat":
+      when:
+        - store: steam
+  installDir:
+    GensoYonbaiKen2: {}
+  launch:
+    "<base>/gsq2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 806720
+幻想异乡曲 Butterfly~Rin:
+  cloud:
+    steam: true
+  files:
+    "<base>/Save/*.rvdata2":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ButterflyRin: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1094290
+幻想英雄传 卡片对决:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/NeverWind Company/幻想英雄传 卡牌冒险/Data":
+      when:
+        - store: steam
+  installDir:
+    幻想英雄传: {}
+  launch:
+    "<base>/幻想英雄传 卡牌冒险.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 815300
+幽灵列车物语 TrainStory:
+  alias: Caver (TrainStory)
+建筑大冒险:
+  installDir:
+    jzdmx: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 907920
+异世江湖录(JiangHu Record Of Another World):
+  installDir:
+    JHROAW: {}
+  launch:
+    "<base>/JHROAW.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1103510
+异化之恶〇Abnormal Treatment:
+  files:
+    "<base>/0v0":
+      when:
+        - store: steam
+    "<base>/Saves/*.rvdata2":
+      when:
+        - store: steam
+  installDir:
+    AbnormalTreatment: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1122750
+异种战争少女:
+  steam:
+    id: 964300
+弹幕那个恶人:
+  installDir:
+    Release.win32_2: {}
+  launch:
+    "<base>/floatinglife.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1043470
+弹炸人2222:
+  installDir:
+    弹炸人2222: {}
+  launch:
+    "<base>/Bomber2222.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 767400
+强军:
+  installDir:
+    强军: {}
+  launch:
+    "<base>/QiangJun.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 825380
+彷徨之街 The Street of Adrift:
+  id:
+    steamExtra:
+      - 1854770
+  installDir:
+    TSOA: {}
+  launch:
+    "<base>/TSOA.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1672670
+後藤一家の孤島殺人事件:
+  installDir:
+    gotokotodelux: {}
+  launch:
+    "<base>/gotokoto.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/gotokotojapneseenglish.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1074530
+御俠客 Wuxia Master:
+  alias: Wuxia Master
+御剑 Yu Jian:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/MengGames/FlyingSword/*.es3":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Flying Sword: {}
+  launch:
+    "<base>/FlyingSword.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1144860
+御龙在天-平衡国战版:
+  id:
+    steamExtra:
+      - 1084650
+  installDir:
+    御龙在天-平衡国战版: {}
+  launch:
+    "<base>/ylzt.exe":
+      - arguments: lypf=20 qId=1052500 ctype=1
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1052500
+心の闇の先に Trial VersionⅡ:
+  installDir:
+    kokoro trial versionⅡv2: {}
+  launch:
+    "<base>/kokoro trialⅡ.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 661700
+心之檻:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/DimSumOne/心之檻/Saves":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/DimSumOne/心之檻/Saves":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Eine Kleine: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/心之檻.app/Contents/MacOS/心之檻":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 951130
+忆恋-Reverse Momories-:
+  steam:
+    id: 1036690
+快乐小鸡:
+  steam:
+    id: 1223240
+怪奇幻想夢物語 怪獣綺譚 朧十夜:
+  installDir:
+    oborozyuuya: {}
+  launch:
+    "<base>/oborozyuuya_win.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 931870
+怪奇幻想夢物語 怪獣綺譚 桜蛇伝:
+  installDir:
+    ouzyaden: {}
+  launch:
+    "<base>/ouzyaden_win.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 936150
+怪奇幻想夢物語 怪獣綺譚 誘宵地獄:
+  installDir:
+    怪奇幻想夢物語 怪獣綺譚 誘宵地獄: {}
+  launch:
+    "<base>/izayoizigoku.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1179350
+怪獣綺譚 朧十夜 空狐万華鏡:
+  installDir:
+    怪獣綺譚 朧十夜 空狐万華鏡: {}
+  launch:
+    "<base>/kuukomangekyou.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1018380
+恋 一些小清新的猎奇故事:
+  steam:
+    id: 1203980
+恋爱公寓（My Girl：Love Story）:
+  id:
+    steamExtra:
+      - 1087680
+  installDir:
+    lianai_win_Data: {}
+  launch:
+    "<base>/lianai2.app/Contents/MacOS/lianai2":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/lianai_win.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/lianai_win_Data"
+  steam:
+    id: 1044930
+恋爱总动员/Love Date:
+  installDir:
+    love date: {}
+  launch:
+    "<base>/nw.exe":
+      - arguments: "-windowed"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1095790
+恐龙大冒险:
+  installDir:
+    KONGLONG: {}
+  steam:
+    id: 1019180
+悪梦er-mo:
+  installDir:
+    er-mo: {}
+  launch:
+    "<base>/data.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 909900
+惊险极速:
+  installDir:
+    惊险极速: {}
+  launch:
+    "<base>/惊险极速.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1777280
+愚者地牢-UP主的消失:
+  installDir:
+    StupidDungeon: {}
+  launch:
+    "<base>/StupidDungeon.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1099110
+愛神餐館2:
+  installDir:
+    Cupid Bistro 2: {}
+  launch:
+    "<base>/BC2.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "-w"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 769680
+懒人修仙传:
+  files:
+    "<base>/Mods/**/*.dat":
+      when:
+        - store: steam
+    "<base>/Save/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    XiuXian: {}
+  launch:
+    "<base>/懒人修仙传.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 892420
+我们的国:
+  files:
+    "<home>/AppData/LocalLow/Victor Games Group/OurHomeland/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    OurHomeland: {}
+  launch:
+    "<base>/Our Homeland.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1156970
+我们的大学:
+  steam:
+    id: 1104400
+我们的房屋 OUR HOUSE:
+  steam:
+    id: 1098810
+我是渣男-Dishonest:
+  installDir:
+    dishonest: {}
+  launch:
+    "<base>/dishonest.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 965890
+我是键盘侠:
+  installDir:
+    win: {}
+  launch:
+    "<base>/我是键盘侠.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1159000
+我是院长 - 模拟经营医院游戏:
+  installDir:
+    WSYZ: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1163100
+我的兽耳后宫:
+  steam:
+    id: 1158000
+我的纸片人女友/Make butter together!:
+  cloud:
+    steam: true
+  files:
+    "<base>/save":
+      when:
+        - store: steam
+  installDir:
+    Make butter together!: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1070020
+战术狂想3-枪战足球(Chimera of Tactics 3-Gun and Soccer):
+  installDir:
+    Chimera of Tactics 3-Gun and Football: {}
+  launch:
+    "<base>/ZSKX3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 944030
+所谓侠客 So-called Hero:
+  installDir:
+    SWXK: {}
+  launch:
+    "<base>/GameSH/SH.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1116080
+打击者打字游戏集（Striker A Type Game Pack）:
+  files:
+    "<winLocalAppData>/TypeGame/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Striker A Type Game Pack: {}
+  launch:
+    "<base>/TypeGame.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1059860
+打工吧！天使酱 ~天使在魔界的劳改生活~:
+  files:
+    "<base>/save/*.rmmzsave":
+      when:
+        - store: steam
+  installDir:
+    打工吧！天使酱 ~天使在魔界的劳改生活~: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1984350
+打豹虎 Spider Derby:
+  alias: Spider Derby
+执行人 Executor:
+  installDir:
+    Executor: {}
+  launch:
+    "<base>/Executor.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 962950
+拖拉机:
+  installDir:
+    拖拉机: {}
+  launch:
+    "<base>/Bin/IFWinApp.exe":
+      - arguments: "app:UpgradeGame.dll w:1024 h:640 d3d11"
+        when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Bin"
+    "<base>/Bin/game.bat":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Bin"
+  steam:
+    id: 975860
+"拯救大魔王2:逆流 Falsemen2:Upstream":
+  cloud:
+    steam: true
+  files:
+    "<base>/save":
+      when:
+        - store: steam
+  installDir:
+    拯救大魔王2逆流 Falsemen2Upstream: {}
+  launch:
+    "<base>/Game.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1038820
+"拯救大魔王重生 Falsemen: Demon Rebirth":
+  alias: "Falsemen: Demon Rebirth"
+拼词游戏 2017:
+  installDir:
+    Cut2017: {}
+  launch:
+    "<base>/Cut2017.exe":
+      - when:
+          - store: steam
+    "<base>/Cut_2017_OSX.app/Contents/MacOS/Cut_2017_OSX":
+      - when:
+          - store: steam
+  steam:
+    id: 745840
+捕鱼勇者联盟:
+  steam:
+    id: 1179670
+掌控者:
+  installDir:
+    The Reign Man: {}
+  launch:
+    "<base>/Cards2048.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 832380
+探灵笔记-1v5(Notes of Ghost):
+  installDir:
+    NotesOfSoul: {}
+  steam:
+    id: 991780
+探险与魔法:
+  steam:
+    id: 1184330
+接头 / Contact Point:
+  installDir:
+    Contact Point: {}
+  launch:
+    "<base>/Contact Point.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1109070
+撞击公主 ! / Princess Hit !:
+  steam:
+    id: 1062380
+故郷をさがす三姉妹:
+  installDir:
+    故郷をさがす三姉妹: {}
+  launch:
+    "<base>/故郷をさがす三姉妹.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1094190
+救赎抉择Resurrection:
+  installDir:
+    jiushujueze: {}
+  launch:
+    "<base>/jiushujueze.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1144270
+散歩するキーボード使い:
+  installDir:
+    散歩するキーボード使い: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1183740
+文字獄:
+  installDir:
+    文字獄: {}
+  launch:
+    "<base>/PrisonOfWord.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/PrisonOfWord.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Word_Prison.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1035750
+斗三国:
+  steam:
+    id: 1976720
+斗地主VR:
+  installDir:
+    Poker3D: {}
+  steam:
+    id: 800160
+斩妖Raksasi:
+  steam:
+    id: 1016600
+新世勇者传:
+  files:
+    "<base>/save/**/*.rmmzsave":
+      when:
+        - store: steam
+  installDir:
+    YZ: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 957140
+新倾国之怒:
+  steam:
+    id: 1685470
+新巨商:
+  installDir:
+    windows_content: {}
+  launch:
+    "<base>/windows_content/GS3D.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1042590
+方块人 Cube Human:
+  alias: Human Cube
+方块联盟:
+  installDir:
+    AOC: {}
+  steam:
+    id: 998300
+方解夢異聞 ～ Avant-Garde Discerning Paralleler (東方二次創作STG):
+  installDir:
+    " Avant-Garde Discerning Paralleler": {}
+  launch:
+    "<base>/th_ADP.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1095590
+旅燕归航 Swallow Homing:
+  alias: Swallow Homing
+"无主之地:银河 4X-Galaxy":
+  installDir:
+    funclick_space: {}
+  launch:
+    "<base>/q3dgame.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 922450
+"无奇刀 Wookie's Blade":
+  installDir:
+    "Wookie's Blade": {}
+  steam:
+    id: 1058750
+无尽冲锋/RuPush/通关算我输X:
+  alias: RuPush
+无尽守卫:
+  steam:
+    id: 1940910
+无尽深渊:
+  steam:
+    id: 1006620
+无意识Navigation ~ Koishi Navigation:
+  alias: Koishi Navigation
+无限之心:
+  steam:
+    id: 1158870
+时之回廊/Corridor of time:
+  alias: Corridor of Time
+时之扉:
+  installDir:
+    jthdszf: {}
+  launch:
+    "<base>/patcher/patcher.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/patcher"
+  steam:
+    id: 1081810
+时之终Klock:
+  steam:
+    id: 1186200
+时间旅者(TimeWalker):
+  alias: Time Walker
+明日、初めて彼女と❤:
+  installDir:
+    明日、初めて彼女と❤: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2077040
+明日探险家:
+  installDir:
+    JimmysJourney: {}
+  steam:
+    id: 1131460
+暗黑破坏岛/Diablo IslanD:
+  installDir:
+    DiabloIsland: {}
+  launch:
+    "<base>/DiabloIslanD.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1138060
+暴走熊孩:
+  steam:
+    id: 683680
+曲阿小将 Minor Leader:
+  installDir:
+    "Qu'e Little General": {}
+  launch:
+    "<base>/t1.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1118100
+最后的47小时 - The Last 47 Hours:
+  alias: The Last 47 Hours
+最后的阳光 The Last Sunshine:
+  alias: The Last Sunshine (2019)
+"月影魅像-解放之羽- / Tsukikage no Simulacre:Kaihou no Hane":
+  alias: "Tsukikage no Simulacre: Kaihou no Hane"
+月牙楼风云:
+  cloud:
+    steam: true
+  files:
+    "<base>/save/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Tale Of Yueyalou: {}
+  launch:
+    "<base>/Tale Of Yueyalou.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1177480
+月球坠落时 Moon Fall:
+  files:
+    "<home>/AppData/LocalLow/XiheAnimation/MoonFall_Full/Save/*.*":
+      when:
+        - store: steam
+  installDir:
+    MoonFall: {}
+  launch:
+    "<base>/MoonFall_Full.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1092400
+末法仙路:
+  files:
+    "<home>/AppData/LocalLow/Linbay/Mfxl/save/*.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Linbay/Mfxl/save/*.save":
+      when:
+        - store: steam
+  installDir:
+    mfxl: {}
+  launch:
+    "<base>/Mfxl.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1062260
+机械星河:
+  cloud:
+    steam: true
+  steam:
+    id: 1036080
+机甲雄心：巡天者:
+  installDir:
+    JJXX: {}
+  launch:
+    "<base>/机甲雄心.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1142860
+机能女孩-Energy Girl:
+  installDir:
+    EnergyGirl: {}
+  launch:
+    "<base>/Game.app/Contents/MacOS/nwjs":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 962490
+机退怪兽:
+  installDir:
+    机退怪兽: {}
+  steam:
+    id: 1021670
+李教授的知识问答:
+  installDir:
+    LEEgame: {}
+  launch:
+    "<base>/Leegame.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 865100
+来人 LIGHTWORKERS:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/LocalLow/FIFTHD/Lightworkers01":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    LIGHTWORKERS: {}
+  launch:
+    "<base>/LIGHTWORKERS.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1997230
+東方幕華祭 春雪篇 ～ Fantastic Danmaku Festival Part II:
+  alias: Touhou Makuka Sai ～ Fantastic Danmaku Festival Part II
+東方幻夢箋 ~ Touhou Phantasm Dream:
+  alias: Touhou Phantasm Dream
+東方翠神廻廊 〜 Faith in the Goddess of Suwa.:
+  files:
+    "<base>/savedata/*.sav":
+      when:
+        - store: steam
+  installDir:
+    thsuijin: {}
+  launch:
+    "<base>/Mac.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/thsuijin.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/東方翠神廻廊.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1010850
+東方逆妙乱 ~ Ephemeral Unnatural Balance:
+  alias: Ephemeral Unnatural Balance
+東方龍隱談 ~ Touhou Chaos of Black Loong:
+  alias: Touhou Chaos of Black Loong
+枕边少女 MOE Hypnotist - share dreams with you:
+  cloud:
+    steam: true
+  files:
+    "<base>/MOE Hypnotist.app/Contents/Resources/app/savedata":
+      when:
+        - os: mac
+          store: steam
+    "<base>/resources/app/savedata":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    MOE Hypnotist: {}
+  launch:
+    "<base>/game.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 942930
+枝江第一舞斗会:
+  installDir:
+    枝江第一舞斗会: {}
+  launch:
+    "<base>/枝江第一舞斗会.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1864590
+某1种青春:
+  cloud:
+    steam: true
+  files:
+    "<base>/Saves/**/*.bksav":
+      when:
+        - os: windows
+          store: steam
+    "<base>/saveImg/*.png":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    某1种青春: {}
+  launch:
+    "<base>/TheBestStory.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1002290
+格斗之城:
+  steam:
+    id: 1993230
+梅塔特隆 Metatron:
+  steam:
+    id: 993980
+梅雨の日/Rainy Season:
+  alias: Rainy Season
+梦三英雄传:
+  files:
+    "<base>/write/project/dreamwar/save/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    DreamThreeKingdom: {}
+  launch:
+    "<base>/build/release/Dream War.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 907320
+梦乡 The Dreamcatcher:
+  alias: The Dreamcatcher
+梦幻糖果:
+  installDir:
+    candy_0_0_1: {}
+  launch:
+    "<base>/M1.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1182080
+梦本无忧:
+  installDir:
+    Menbenwuyou: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 909020
+梦涯:
+  installDir:
+    OldDays: {}
+  launch:
+    "<base>/OldDays.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1075120
+梦溪画坊 / DreamGallery:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/TQ/Puzzle/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/TQ/Puzzle/**/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.TQ.Puzzle/*.json":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Puzzle: {}
+  launch:
+    "<base>/DreamGallery.app/Contents/MacOS/DreamGallery":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Puzzle.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1041310
+模拟家装修:
+  installDir:
+    mnj: {}
+  launch:
+    "<base>/WindowsNoEditor/DrawHouse/Binaries/Win64/DrawHouse.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1065030
+横扫天下之万年强者:
+  steam:
+    id: 1219920
+樱之杜†净梦者 2 Sakura no Mori † Dreamers 2:
+  alias: Sakura no Mori † Dreamers 2
+"樱雪集～Yuyuko's Butterfly Dream":
+  alias: "Yuyuko's Butterfly Dream"
+橙天の銀翼 ～スカイランドの魔女と巫女～:
+  installDir:
+    toutennnoginnyoku: {}
+  launch:
+    "<base>/contents/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 793410
+欢乐逗病毒TD:
+  installDir:
+    Fun Virus TD: {}
+  launch:
+    "<base>/FunVirusTD.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1219310
+武儒绘卷 - 九五至尊:
+  steam:
+    id: 983060
+武儒绘卷 - 启示录:
+  installDir:
+    武儒绘卷-启示录: {}
+  launch:
+    "<base>/武儒绘卷-启示录.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1204490
+武林志（Wushu Chronicles）:
+  alias: Wushu Chronicles
+武道将魂:
+  steam:
+    id: 2068950
+武道戰姬 - 女僕(武道戦姫 - メイド / Budo Girl War - Maid):
+  id:
+    steamExtra:
+      - 1138480
+  installDir:
+    Budo Girl War Maid: {}
+  launch:
+    "<base>/wdnp.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1117040
+死亡投票 Death Voting Game:
+  alias: Death Voting Game
+死亡旅店 / Death Inn:
+  alias: Death Inn
+水月流夏 Memories in the Late Summer:
+  alias: Memories in the Late Summer
+永冻之壳 The Shell of Permafrost:
+  alias: The Shell of Permafrost
+汉末求生:
+  steam:
+    id: 1006800
+江湖余生:
+  files:
+    "<home>/.config/unity3d/Pomelo/JHYS_OV/Pomelo/JHYS_OV/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Pomelo/JHYS_OV/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.Pomelo.JHYS_OV/*.json":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    江湖余生: {}
+  launch:
+    "<base>/JHYS_OV.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1177400
+江湖侠客令:
+  steam:
+    id: 1147430
+江湖侠客行:
+  installDir:
+    jhxkx: {}
+  launch:
+    "<base>/jhxkx.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 842190
+江湖求生 Ganghood Survival:
+  installDir:
+    Ganghood Survival: {}
+  launch:
+    "<base>/江湖求生.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 965080
+沉浮（Sea of Craft）:
+  installDir:
+    Sea of Craft: {}
+  launch:
+    "<base>/Sea Of Craft.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 990920
+沉睡的法则:
+  files:
+    "<base>/Save/*.rxdata":
+      when:
+        - store: steam
+    "<base>/SavePicture/*.rxdata":
+      when:
+        - store: steam
+  installDir:
+    沉睡的法则: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 965820
+沙巴克传奇:
+  steam:
+    id: 1153870
+沙雕之路:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Road: {}
+  launch:
+    "<base>/Pack.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1092590
+没猫病制作人 / Psychosoft Ltd.:
+  installDir:
+    没毛病制作人: {}
+  launch:
+    "<base>/Psychosoft Ltd..exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1009070
+河南1942 The Henan Famine:
+  alias: "1942: The Henan Famine"
+活下去:
+  installDir:
+    survive: {}
+  launch:
+    "<base>/BluestacksGP.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1151610
+流氓读大学 liumang dudaxue:
+  steam:
+    id: 992630
+浮世万千之前世今生:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    All men are mortal: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1217190
+浴血战魂:
+  steam:
+    id: 1211280
+海底寻宝:
+  installDir:
+    VR203_Tutorial: {}
+  steam:
+    id: 936060
+涅槃之路:
+  installDir:
+    The road of Nirvana: {}
+  launch:
+    "<base>/涅槃之路/涅槃之路.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1043760
+消灭魔王军 Destroy the demon army:
+  files:
+    "<base>/*.sav":
+      when:
+        - store: steam
+  installDir:
+    xmmwj: {}
+  steam:
+    id: 1006170
+淑女同萌！-New Division- / Hello Lady! -New Division-:
+  alias: Hello Lady! -New Division-
+深海 DEEPSEA:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Deep Sea: {}
+  launch:
+    "<base>/Deep Sea.app/Contents/MacOS/DeepSea":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/DeepSea.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1061010
+深淵の探索者:
+  steam:
+    id: 981470
+混乱使者(Chaos Maker):
+  steam:
+    id: 981140
+港詭實錄ParanormalHK:
+  alias: Paranormal HK
+游物语 Travel story:
+  cloud:
+    steam: true
+  installDir:
+    youwuyu: {}
+  launch:
+    "<base>/TravelDiary.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1081900
+游离大陆 - Uniland:
+  installDir:
+    Uniland: {}
+  launch:
+    "<base>/UniLand.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 935970
+溪风谷之战(roguelike moba game):
+  installDir:
+    ValleyWar: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1513250
+漫步者 The Walker:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    漫步者 The Walker: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1189600
+"火柴人和七色彩虹 Stickman's Rainbow":
+  alias: "Stickman's Rainbow"
+火柴人联盟2:
+  installDir:
+    Stickman League: {}
+  launch:
+    "<base>/BluestacksGP.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1094010
+灭神:
+  steam:
+    id: 1153340
+"灵幻先生 : 致敬一代僵尸道长！":
+  installDir:
+    LingHuanXianSheng: {}
+  launch:
+    "<base>/LingHuanXianSheng.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1063340
+灵文西游:
+  installDir:
+    XiYou: {}
+  launch:
+    "<base>/XiYou.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 832520
+灵界 Sprites（测试版）:
+  installDir:
+    "  Sprites（测试版）": {}
+  steam:
+    id: 1043140
+炎之陨落 The Fallen of The Blaze Empire:
+  alias: The Fallen of the Blaze Empire
+炎黄战纪之三国烽烟:
+  installDir:
+    yanhuang: {}
+  launch:
+    "<base>/yh.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 590910
+炼妖记:
+  steam:
+    id: 1147900
+烈焰战纪:
+  installDir:
+    Embergarde: {}
+  launch:
+    "<base>/RuLauncher.exe":
+      - arguments: "-transcmd \"{-steam_enabled}\""
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 835500
+烛梦灯 The Dreams of Candlelight:
+  alias: The Dreams of Candlelight
+热血战歌:
+  alias: 神仙名单
+热血沙城:
+  steam:
+    id: 1147420
+烽火大秦:
+  installDir:
+    WarringStatePeriodWar: {}
+  launch:
+    "<base>/BluestacksGP.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1157330
+狐の旅路:
+  installDir:
+    狐の旅路: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1178050
+狼と香辛料VR/Spice&WolfVR:
+  alias: Spice & Wolf VR
+狼人杀单机版:
+  installDir:
+    Werewolf Standalone: {}
+  launch:
+    "<base>/Werewolf Standalone/Werewolf Standalone.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1065960
+猎魔者战纪:
+  installDir:
+    Demon_Hunter: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1066290
+猥琐吧！后宫佣兵团:
+  cloud:
+    steam: true
+  files:
+    "<base>/www/save":
+      when:
+        - store: steam
+  installDir:
+    hgybt: {}
+  launch:
+    "<base>/Game.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 657320
+玄尘仙途:
+  steam:
+    id: 1169790
+王国出击:
+  installDir:
+    df: {}
+  launch:
+    "<base>/df.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 698920
+王国幻境 fantastic kingdom:
+  installDir:
+    Fantastic_kingdom: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1097550
+王牌舰长:
+  steam:
+    id: 681010
+王者战车:
+  installDir:
+    ACEChariot: {}
+  launch:
+    "<base>/TGLauncher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 987980
+王者英雄 The Great Hero:
+  steam:
+    id: 930330
+瓶中精灵 - Fairy in a Jar:
+  alias: Fairy in a Jar
+生物大冒险:
+  files:
+    "<base>/BAdventure/www/save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    BAdventure: {}
+  launch:
+    "<base>/BAdventure/Play.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1211270
+生物知识格斗大赛:
+  installDir:
+    答题英雄——生物格斗: {}
+  launch:
+    "<base>/Bfight/Play.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1193350
+电竞传奇 / EsportsLegend:
+  alias: Esports Legend
+电筒侠:
+  installDir:
+    dtx: {}
+  launch:
+    "<base>/dtx.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1126230
+画江湖之杯莫停:
+  installDir:
+    画江湖之杯莫停: {}
+  launch:
+    "<base>/hjh.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1345730
+疑犯寻踪 In Pursuit:
+  steam:
+    id: 1036190
+疯狂的坦克:
+  steam:
+    id: 1143560
+疯狂西部/INSANE WEST:
+  alias: Insane West
+病毒恶化:
+  installDir:
+    VirusCrisis: {}
+  launch:
+    "<base>/VirusCrisis.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1036120
+登塔者们 Babel Climbers:
+  alias: Babel Climbers
+白石洲往事:
+  installDir:
+    Once Opon a Time in White Stone State: {}
+  launch:
+    "<base>/白石洲往事.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1101980
+百花三国志(Banner of the THREE KINGDOMS):
+  installDir:
+    百花三国志: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1137160
+皓月空华:
+  installDir:
+    haoyuekonghua: {}
+  steam:
+    id: 974200
+盛世传奇:
+  steam:
+    id: 1180460
+盛世遮天:
+  alias: 盛世传奇
+直到永远 Until Forever:
+  alias: Vaporwave Drift
+看不见的爱:
+  installDir:
+    InvisibleLove: {}
+  launch:
+    "<base>/看不见的爱.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1121980
+真龙主宰:
+  steam:
+    id: 1201920
+"瞳：祈愿 VR / Pupil: Wandering VR":
+  installDir:
+    Pupil_Wandering: {}
+  steam:
+    id: 773460
+破碎法术:
+  installDir:
+    Broken magic: {}
+  launch:
+    "<base>/Broken magic.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1124740
+碧落传说:
+  installDir:
+    Biluo: {}
+  launch:
+    "<base>/Biluo.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Biluo.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 973560
+礎の楯 -AEGIS-:
+  installDir:
+    AEGIS: {}
+  launch:
+    "<base>/Aegis.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1039550
+社稷终于幻想 ~ A Finality with Sheji:
+  installDir:
+    社稷终于幻想 ~ A Finality with Sheji: {}
+  launch:
+    "<base>/AFinalityWithSheji.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 992750
+祈風 Inorikaze:
+  files:
+    "<base>/savedata/**/*.*":
+      when:
+        - store: steam
+  installDir:
+    Inorikaze: {}
+  launch:
+    "<base>/Inorikaze.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 992740
+祛魅·入灭（祛魅2） - Disenchantment Nirvana:
+  cloud:
+    steam: true
+  files:
+    "<base>/www/save":
+      when:
+        - store: steam
+  installDir:
+    Disenchantment Nirvana: {}
+  launch:
+    "<base>/Disenchantment Nirvana.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 972200
+祛魅·教化（祛魅1）:
+  files:
+    "<base>/www/save":
+      when:
+        - store: steam
+  installDir:
+    Disenchantment Acculturation: {}
+  launch:
+    "<base>/Disenchantment Acculturation.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 850820
+神仙名单:
+  steam:
+    id: 1180390
+神国：创造:
+  files:
+    "<home>/AppData/LocalLow/Minshore/KingdomOfGod/Save/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/Minshore/KingdomOfGod/Save/*.dat":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    KingdomOfGod: {}
+  launch:
+    "<base>/KingdomOfGod.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/KingdomOfGod.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1185600
+神戒:
+  steam:
+    id: 1219930
+神明在上:
+  installDir:
+    Zengeon: {}
+  launch:
+    "<base>/Zengeon.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Zengeon.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1000080
+神枪少女:
+  steam:
+    id: 1181450
+神社的百合香 ~ Floral Aroma in the Shrine:
+  alias: Floral Aroma in the Shrine
+神谋:
+  installDir:
+    ShenMou: {}
+  launch:
+    "<base>/神谋.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1093900
+神马江湖:
+  installDir:
+    SMJH: {}
+  launch:
+    "<base>/shenma.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1012130
+祭品的逆襲 The Counterattack Of Sacrifice:
+  alias: The Counterattack of Sacrifice
+祭壇の花/Saidan no Hana:
+  installDir:
+    SaidannoHana: {}
+  launch:
+    "<base>/EstGame.exe":
+      - arguments: "-shipping"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1128150
+符文女孩/Rune Girl:
+  files:
+    "<home>/AppData/LocalLow/ADOG/Rune Girl/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    RuneGirl: {}
+  launch:
+    "<base>/Rune Girl.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1083210
+第四空间Fourth Space:
+  installDir:
+    Fourthspace: {}
+  launch:
+    "<base>/FourthSpace.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1065250
+答题英雄--细胞生物学:
+  files:
+    "<base>/questionbh/www/save":
+      when:
+        - store: steam
+  installDir:
+    questionbh: {}
+  launch:
+    "<base>/questionbh/questionbh.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1011860
+篮球计划 Project Dunk:
+  installDir:
+    ProjectDunk: {}
+  steam:
+    id: 1110830
+糖果店物语:
+  installDir:
+    Food dreamworks: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 780970
+红魔事件簿 The Note of Red Evil:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    红魔事件簿 The Note of Red Evil: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1211350
+约会世界~The dating world:
+  files:
+    "<base>/Ruthless Water_Data/Data/*.txt":
+      when:
+        - store: steam
+    "<base>/Ruthless Water_Data/Data/Ruthless Water_Data/Data/*.txt":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Ruthless Water: {}
+  launch:
+    "<base>/Ruthless Water.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 989000
+约拍女神 Private Model:
+  installDir:
+    PrivateModel: {}
+  launch:
+    "<base>/Private Model.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Private Model.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1064860
+纸人：第一章 Paper Dolls Original:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/PDS/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Paper Dolls Original: {}
+  launch:
+    "<base>/PaperDollsOriginal.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1051310
+纸片人3D:
+  steam:
+    id: 831600
+细胞战争:
+  installDir:
+    MyTest: {}
+  launch:
+    "<base>/CellWar.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1000040
+绝望监牢 / 絶望プリズン:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Studio Wasabi/ds_sc/Documents/**/*.db":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Studio Wasabi/ds_sc/Documents/**/*.txt":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ds_sc: {}
+  launch:
+    "<base>/ds_sc.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1167790
+绮罗四时谭:
+  installDir:
+    绮罗四时谭: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1172980
+绽于枝垂樱下~Flowering Across the Hakugyokurou:
+  alias: Flowering Across the Hakugyokurou
+绿洲Oasis:
+  alias: Oasis VR
+缸中之脑：谎言（Brain in a vat lies）:
+  alias: Brain in a Vat Lies
+罪業狂襲FrenzyRetribution:
+  installDir:
+    FrenzyRetribution: {}
+  launch:
+    "<base>/FrenzyRetribution.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1108560
+罪的第七章:
+  installDir:
+    SinChess: {}
+  launch:
+    "<base>/SinChess.app/Contents/MacOS/SinChess":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SinChess.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1200200
+美丽新世界i Brave New World i:
+  steam:
+    id: 895920
+美少女夏日欢乐!:
+  files:
+    "<base>/_save/PGPSavDat.sav":
+      when:
+        - store: steam
+  installDir:
+    GirlsSummerFun: {}
+  launch:
+    "<base>/美少女夏日欢乐.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 835040
+美少女麻将接龙:
+  cloud:
+    steam: true
+  files:
+    "<base>/SaveData/*.dat":
+      when:
+        - store: steam
+  installDir:
+    PrettyGirlsMahjong: {}
+  launch:
+    "<base>/美少女麻将接龙.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 908350
+"群星战纪: 遗失的星辰 - STARS ERA: LOST STARS":
+  alias: "Stars Era: Lost Stars"
+翔的堕落人生:
+  steam:
+    id: 1030280
+老板攻略:
+  installDir:
+    BossStrategy: {}
+  launch:
+    "<base>/BossStrategy/BossStrategy.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1115020
+老虎游戏:
+  installDir:
+    TigerEntertainment: {}
+  launch:
+    "<base>/TigerEntertainmentForSteam.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 887740
+聖剣レイヴランシル物語:
+  installDir:
+    My Games: {}
+  launch:
+    "<base>/rrs_English_ver/Game.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/rrs_English_ver/Game.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/rrs_macOS/Game.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/rrs_win/Game.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 729610
+肥啾大冒险:
+  steam:
+    id: 1175940
+肥肥大作战 fat battle:
+  installDir:
+    fatbattle: {}
+  launch:
+    "<base>/jszd.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 994250
+胜利即正义! / Victory is justice！:
+  steam:
+    id: 1058910
+腾起之蛇:
+  installDir:
+    Tqzs: {}
+  launch:
+    "<base>/tqzs.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1155730
+"航海日記：起航(Uncharted Ocean : Set Sail)":
+  alias: Uncharted Ocean
+艾恩洛亚：炼金起源之章:
+  steam:
+    id: 1220670
+苍夜:
+  files:
+    "<base>/SavesDir/**/*.sav":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+  installDir:
+    苍夜: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 923400
+英语杀:
+  installDir:
+    yingyusha: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 934710
+英雄群侠传:
+  files:
+    "<base>/Hero.app/Contents/Resources/app.nw/save":
+      when:
+        - os: windows
+          store: steam
+        - os: mac
+          store: steam
+  installDir:
+    Hero: {}
+  launch:
+    "<base>/Hero.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Hero.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1102980
+英雄群侠传II:
+  files:
+    "<base>/HeroII.app/Contents/Resources/app.nw/save":
+      when:
+        - os: windows
+          store: steam
+        - os: mac
+          store: steam
+  installDir:
+    HeroII: {}
+  launch:
+    "<base>/HeroII.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/HeroII.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1115640
+茉莉之夏 Jasmine Summer:
+  files:
+    "<base>/savedata":
+      when:
+        - store: steam
+  installDir:
+    Jasmine Summer: {}
+  launch:
+    "<base>/JasmineSummer_茉莉之夏.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 913160
+荒岛求生:
+  cloud:
+    steam: true
+  installDir:
+    Island: {}
+  launch:
+    "<base>/Island.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1152250
+荒漠求生:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    DFJW: {}
+  launch:
+    "<base>/DFJW01.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 880620
+荒野大蛮神:
+  cloud:
+    steam: true
+  installDir:
+    Frozen: {}
+  launch:
+    "<base>/wildsuperman.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 998150
+荒野寻踪:
+  installDir:
+    hyxz: {}
+  launch:
+    "<base>/hyxz.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 855670
+莫比乌斯之环-不属于任何人的交响悲歌-MOBIUS & ELEGY BELONGS TO NOBODY:
+  files:
+    "<home>/AppData/LocalLow/Sleeeeepfly/Mobius/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Sleeeeepfly/Mobius/*.gdat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/Sleeeeepfly/Mobius/*.dat":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Sleeeeepfly/Mobius/*.gdat":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    莫比乌斯之环-不属于任何人的交响悲歌-MOBIUS & ELEGY BELONGS TO NOBODY: {}
+  launch:
+    "<base>/Contents/MacOS/Mobius_Steam":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Mobius.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1094320
+萌娘战记:
+  cloud:
+    steam: true
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    mengniangzhanji: {}
+  steam:
+    id: 1052430
+萌萌２次大戰（略）３ Moe Moe World War II-3:
+  alias: Moe Moe World War II-3
+落华居:
+  installDir:
+    落华居: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1133610
+落尘之域:
+  steam:
+    id: 985820
+蓝宝石般的被害妄想少女:
+  installDir:
+    蓝宝石般的被害妄想少女: {}
+  launch:
+    "<base>/Sapphire - like murdered paranoid girl.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Sapphire - like murdered paranoid girl.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 970510
+蔚蓝月下:
+  steam:
+    id: 964970
+血腥之日228-Vampire Martina-Bloody Day 2.28:
+  installDir:
+    Vampire_Martina-Bloody_Day_228: {}
+  steam:
+    id: 1060360
+"行界：遗 WENT:OneAlive":
+  steam:
+    id: 1005560
+街头英雄:
+  installDir:
+    funclick_heros: {}
+  launch:
+    "<base>/q3dgame.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 924500
+街机之三国戰記:
+  steam:
+    id: 2086830
+被虫娘养育着繁殖后代:
+  steam:
+    id: 1020060
+裁決者 -The White Butcher-:
+  steam:
+    id: 758270
+覇県を握れ ～47都道府県大戦～:
+  installDir:
+    hakennwonigire: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 928690
+覺醒之刻 The Time Of Awakening:
+  alias: The Time Of Awakening
+觅长生:
+  files:
+    "<home>/AppData/LocalLow/yusuiInc/觅长生/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/yusuiInc/觅长生test/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    觅长生: {}
+  steam:
+    id: 1189490
+解梦事务所 (Dream Solutions):
+  alias: Dream Solutions
+记忆重构/Memories:
+  cloud:
+    steam: true
+  installDir:
+    Imprison: {}
+  launch:
+    "<base>/imprison.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/imprison.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1015020
+记忆重现/Rememory:
+  cloud:
+    steam: true
+  installDir:
+    记忆重现: {}
+  launch:
+    "<base>/记忆重现.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/记忆重现.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1158840
+诛神乾坤:
+  steam:
+    id: 1146040
+请给我你的胖次，让我拯救世界:
+  steam:
+    id: 1049620
+豆腐脑模拟器 Tofu Pudding Simulator:
+  alias: Tofu Pudding Simulator
+贤者挽歌之马略卡协奏曲:
+  installDir:
+    lianjingongfang: {}
+  launch:
+    "<base>/lianjigongfang.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 745820
+败家仔 Last Wish:
+  installDir:
+    Last Wish: {}
+  launch:
+    "<base>/LastWish.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 952850
+赛博司机 Cyber Driver:
+  alias: Cyber Driver
+赫炎的印加诺克 Fullvoice ReBORN:
+  files:
+    "<base>/save/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<base>/save_hd/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Inganock of The Rage Fire Fullvoice ReBORN: {}
+  steam:
+    id: 982400
+超级机甲战争OL:
+  installDir:
+    MechWar: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1138620
+超音神樂《七音圖騰篇》- UltraKagura -:
+  installDir:
+    TianlaoSokoban: {}
+  launch:
+    "<base>/Game.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 925120
+跳跳大咖:
+  installDir:
+    跳跳大咖: {}
+  launch:
+    "<base>/jumpmaster.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1000110
+蹩脚的炼金术师(Incompetent Alchemist):
+  alias: Incompetent Alchemist
+轻梦谭 - 瓮之篇 -:
+  steam:
+    id: 1214720
+"辣条杂货店:回到1997，我当小商贩":
+  installDir:
+    ltzhd: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 687650
+迷宫战争(Maze Wars):
+  installDir:
+    Maze_Wars: {}
+  launch:
+    "<base>/MazePC.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1037950
+迷雾 The Mist:
+  files:
+    "<base>/TheMist_Data/StreamingAssets/Data/Saves/*.themist":
+      when:
+        - store: steam
+  installDir:
+    TheMist: {}
+  launch:
+    "<base>/TheMist.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1048470
+退休模拟器:
+  steam:
+    id: 1220840
+退廃思考:
+  installDir:
+    DecadanceThinking: {}
+  launch:
+    "<base>/Decadance_thinking.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1205160
+逃離地獄邊緣 - Escape from the cursed convent:
+  files:
+    "<base>/Saves/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Escape from the Cursed Convent: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1142740
+逍遥修真:
+  steam:
+    id: 1983840
+逍遥游:
+  steam:
+    id: 2004780
+逝去的回忆3：四叶草之梦:
+  files:
+    "<base>/Saves/Global.pro":
+      when:
+        - store: steam
+    "<base>/Saves/Save1.sav":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 1110630
+      - 1110631
+      - 1110632
+      - 1114180
+      - 1114190
+      - 1114200
+  installDir:
+    Lost_Memories_3: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1109130
+遠古大陸外傳-古道的盡頭:
+  files:
+    "<base>/www/save/*.rpgsave":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Ancient continent: {}
+  launch:
+    "<base>/Game.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1169460
+那美克星人:
+  installDir:
+    那美克星人: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1214210
+"邻居大叔/UncleNeighbor:uncle Dating Simulator":
+  files:
+    "<home>/AppData/LocalLow/GameUncle/UncleNeighbor":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/GameUncle/UncleNeighbor":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    UncleNeighbor: {}
+  launch:
+    "<base>/UncleNeighbor.app/Contents/MacOS/UncleNeighbor":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/UncleNeighbor.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1177420
+部落与弯刀:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/汉家松鼠/DesertLegend/Save/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/汉家松鼠/DesertLegend/Save/**/*.jpg":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/汉家松鼠/DesertLegend/Save/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    DesertLegend: {}
+  launch:
+    "<base>/DesertLegend.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1094520
+都市恐怖故事:
+  installDir:
+    UrbanTerror: {}
+  launch:
+    "<base>/UrbanTerror.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1048320
+酒店:
+  installDir:
+    酒店: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 934810
+酒店二 The Hotel 2:
+  installDir:
+    酒店2 The Hotel 2: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1077540
+酔いどれクイズshow 標鍛:
+  installDir:
+    hyoutan: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1037270
+重生轮回/Reborn Not Again:
+  installDir:
+    Reborn Not Again: {}
+  launch:
+    "<base>/Reborn Not Again.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1068190
+长天 Long Sky:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/FangShengMeng/LongSky/*.es3":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    The Long Sky: {}
+  launch:
+    "<base>/LongSky.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1043030
+长歌行:
+  steam:
+    id: 1223850
+閃電對決Lightning Wings II:
+  installDir:
+    Lightning Wings II: {}
+  launch:
+    "<base>/ThunderRobotX.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1124850
+闇行者 Dark Heroic:
+  alias: Dark Xingzer
+阿比斯的宝藏Treasure of abyss:
+  cloud:
+    steam: true
+  files:
+    "<base>/www/save":
+      when:
+        - store: steam
+  installDir:
+    Treasure_of_abyss: {}
+  launch:
+    "<base>/Treasure_of_abyss.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 932570
+阿津:
+  installDir:
+    阿津: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1036960
+阿达三国志2018:
+  installDir:
+    adasanguozhi2018: {}
+  launch:
+    "<base>/sanguo.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 910320
+阿达三国志2018 竖版 Three Kingdoms 2018:
+  alias: Three Kingdoms 2019
+陆大迹神Ⅱ:
+  files:
+    "<base>/www/save/**/*.rpgsave":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    陆大迹神Ⅱ: {}
+  steam:
+    id: 1220880
+隐-Stealth:
+  installDir:
+    Stealth: {}
+  launch:
+    "<base>/Stealth.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 800170
+隐秘的角落:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/ALUBA/The Bad Kids/**/*.es3":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/ALUBA/The Bad Kids/SaveAndRead":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/ALUBA/The Bad Kids/**/*.es3":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/ALUBA/The Bad Kids/SaveAndRead":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    The Bad Kids: {}
+  launch:
+    "<base>/The Bad Kids.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/The Bad Kids.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2071200
+雀姬:
+  installDir:
+    sparrowhime: {}
+  launch:
+    "<base>/game.app/Contents/MacOS/game":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1084520
+雨鸦 - You are my sanctuary:
+  alias: You Are My Sanctuary
+雪·疑:
+  installDir:
+    Sknow: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1001010
+雪策边境:
+  installDir:
+    "3655457": {}
+  launch:
+    "<base>/Snow_Border_Plan.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 979500
+雪色废都 Abandoned Snowy Castle:
+  alias: Abandoned Snowy Castle
+雪鹰领主:
+  installDir:
+    xueyinglingzhu: {}
+  launch:
+    "<base>/xycq.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1114050
+零下记忆:
+  installDir:
+    lxjy: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1166050
+零怨 The curse of the deab:
+  installDir:
+    The curse of the dead: {}
+  launch:
+    "<base>/The curse of the dead.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1221420
+零界战线:
+  installDir:
+    ZeroFront: {}
+  launch:
+    "<base>/零界战线.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1195870
+霎时晴荫:
+  installDir:
+    3acg-qy: {}
+  launch:
+    "<base>/win/win/霎时晴荫.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/霎时晴荫.app/Contents/MacOS/霎时晴荫":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 883870
+青岚血枫:
+  installDir:
+    青岚血枫: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1103620
+青箱:
+  alias: Snowdome
+青蛙跳模拟器:
+  installDir:
+    Frog Jump: {}
+  launch:
+    "<base>/Frog Jump.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1013890
+非一般职场:
+  files:
+    "<home>/AppData/LocalLow/叽咪叽咪游戏公司/非一般职场/*.db":
+      when:
+        - store: steam
+  installDir:
+    JMGame: {}
+  steam:
+    id: 1163140
+非正式警探 Informal Detective:
+  alias: Informal Detective
+音灵 INVAXION:
+  alias: Invaxion
+顶酱:
+  cloud:
+    steam: true
+  steam:
+    id: 1117210
+风信楼:
+  files:
+    "<base>/game/saves":
+      when:
+        - store: steam
+        - os: mac
+          store: steam
+        - os: linux
+          store: steam
+    "<home>/.renpy/qinglou-1557175488":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/RenPy/qinglou-1557175488":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/RenPy/qinglou-1557175488":
+      when:
+        - store: steam
+  installDir:
+    fxl: {}
+  launch:
+    "<base>/fxl.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/fxl.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/fxl.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1126310
+风暴岛:
+  installDir:
+    StormIsland: {}
+  launch:
+    "<base>/MagicGame.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 769720
+风流刀客:
+  cloud:
+    steam: true
+  installDir:
+    FengLiuDaoKe: {}
+  launch:
+    "<base>/Knife.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1209000
+食用系少女：美食內戰 Food Girls：Civil War:
+  alias: "Food Girls: Civil War"
+香山31号:
+  installDir:
+    Mountain: {}
+  launch:
+    "<base>/Mountain.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1110230
+香江之龙，Dragon of Hongkong:
+  installDir:
+    Dragon of Hongkong: {}
+  launch:
+    "<base>/Dragon of Hongkong.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1126430
+骑士与魔法战争:
+  installDir:
+    HeroWars: {}
+  launch:
+    "<base>/KingWar.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 965180
+骰子勇士 Dice Warrior:
+  files:
+    "<home>/AppData/LocalLow/LighterZebra/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    DiceWarrior: {}
+  launch:
+    "<base>/DiceWarrior.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 924710
+高考工厂模拟(Crazy School Simulator):
+  steam:
+    id: 1011230
+高能小队 Superpower Squad:
+  steam:
+    id: 1179730
+鬼山:
+  installDir:
+    A Ghost Around Me: {}
+  launch:
+    "<base>/A Ghost Around Me.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 682490
+鬼畜大冒险 Gui Chu Da Mao Xian:
+  cloud:
+    steam: true
+  files:
+    "<base>/game/saves":
+      when:
+        - store: steam
+  installDir:
+    GuichuOdyssey: {}
+  launch:
+    "<base>/GuiChuOdyssey.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/GuiChuOdyssey.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/GuiChuOdyssey.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 668680
+魔塔2018:
+  installDir:
+    Magic_Tower_2018: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 948770
+"魔杖战争 Wand Wars: Rise":
+  alias: "Wand Wars: Rise"
+魔物娘物语:
+  installDir:
+    魔物娘物语: {}
+  launch:
+    "<base>/mwnStory.exe":
+      - arguments: "-windowed"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 835530
+魔物讨伐团:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Monster_Slayers_CN":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    魔物讨伐团: {}
+  launch:
+    "<base>/Monster Slayers CN.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/MonsterSlayers.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 905690
+魔装術師アカネ:
+  files:
+    "<winLocalAppData>/robo/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Magic_MechSuit_Akane: {}
+  launch:
+    "<base>/akane.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 880320
+鸿门一宴(Malicious Dinner) 中英:
+  installDir:
+    (Malicious Dinner): {}
+  launch:
+    "<base>/GameLauncher.app/Contents/MacOS/GameLauncher":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/GameLauncher.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1091520
+麻神消消乐:
+  installDir:
+    xxl: {}
+  launch:
+    "<base>/launcher/Launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1063330
+"黎明生机:启示录-Survival:Revelation":
+  alias: "Survival: Revelation"
+黎明霞光:
+  files:
+    "<base>/savedata/*.bmp":
+      when:
+        - os: windows
+          store: steam
+    "<base>/savedata/*.ksd":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    story of a servant maid: {}
+  launch:
+    "<base>/krkr.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1130900
+黑暗料理?!:
+  installDir:
+    TestPackage: {}
+  launch:
+    "<base>/Start.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 970530
+龍炎高校伝説２ The Legend of the Dragonflame High School 2:
+  alias: The Legend of the Dragonflame High School 2
+누가 그녀를 죽였나:
+  installDir:
+    SteamPipe: {}
+  launch:
+    "<base>/WhokilledherPC.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Whokilledher_mac_v1.0_B.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1054520
+무연:
+  installDir:
+    무연: {}
+  launch:
+    "<base>/Contents/MacOS/Mac_Runner":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1077560
+미래의 여친님이 나에게 인사를 건네왔다(My so-called future girlfriend):
+  alias: My So-Called Future Girlfriend
+"암전:Blackout":
+  installDir:
+    Blackout: {}
+  launch:
+    "<base>/BlackOut.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 871810

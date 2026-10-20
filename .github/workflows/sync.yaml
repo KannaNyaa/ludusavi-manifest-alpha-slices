@@ -1,0 +1,60 @@
+name: Sync
+
+# 定时从上游拉取 manifest.yaml -> 切分成 29 个分片 -> 提交
+on:
+  schedule:
+    # 每天 4 次（UTC 03:17 / 09:17 / 15:17 / 21:17，约合北京时间 11:17 / 17:17 / 23:17 / 05:17）
+    - cron: "17 3,9,15,21 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "忽略 ETag，强制重新下载上游 manifest"
+        type: boolean
+        default: false
+      allow_shrink:
+        description: "允许条目数大幅下降（上游数据异常时才勾选）"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync upstream manifest
+        run: >
+          python scripts/sync_manifest.py --with-missing
+          ${{ inputs.force && '--force' || '' }}
+
+      - name: Split into shards
+        run: >
+          python scripts/split_manifest.py
+          ${{ inputs.allow_shrink && '--allow-shrink' || '' }}
+
+      - name: Verify shards
+        run: python scripts/verify_shards.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/manifest data/missing.md
+          if git diff --cached --quiet; then
+            echo "No manifest change; committing nothing."
+          else
+            GAMES=$(python -c "import sys,pathlib;sys.path.insert(0,'scripts');import shardlib as l;print(l.read_info_meta(pathlib.Path('data/manifest')).get('manifest.games','?'))")
+            git commit -m "chore(manifest): sync upstream (${GAMES} games)"
+            git push
+          fi
