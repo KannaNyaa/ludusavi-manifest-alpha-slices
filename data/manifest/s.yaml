@@ -28972,6 +28972,9 @@ Shredders:
         - config
   steam:
     id: 1874170
+Shrek 2 Remastered:
+  steam:
+    id: 2523740
 "Shrek 2: Team Action":
   files:
     "<base>/Game/Save":
@@ -58511,6 +58514,12 @@ Sparkour:
   steam:
     id: 2449800
 "Sparky Rush: Purrils in Pawsville!":
+  installDir:
+    Sparky Rush Purrils in Pawsville!: {}
+  launch:
+    "<base>/Vapor Snake.exe":
+      - when:
+          - store: steam
   steam:
     id: 3592020
 "Sparky's Hunt":

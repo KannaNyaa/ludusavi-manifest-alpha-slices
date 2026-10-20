@@ -32337,6 +32337,11 @@ Anima Flux:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1133349270
+  id:
+    gogExtra:
+      - 1187788294
   installDir:
     Anima Gate of Memories I & II Remastered: {}
   launch:

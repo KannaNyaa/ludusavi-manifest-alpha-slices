@@ -24376,6 +24376,8 @@ Football Manager 2015:
       when:
         - os: linux
           store: steam
+  id:
+    lutris: football-manager-2015
   installDir:
     Football Manager 2015: {}
   launch:

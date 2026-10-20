@@ -369,6 +369,9 @@
             store: steam
   steam:
     id: 1015140
+10 Million Pixels:
+  steam:
+    id: 4738100
 10 Minute Barbarian:
   installDir:
     10 Minute Barbarian: {}
