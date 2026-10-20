@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-20T05:46:58Z"
+generatedAt: "2026-10-20T06:22:18Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,7 +9,7 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: ""
+  etag: "\"ff55214b58b47858a0abe61ac5daa5c4f0bd809047c92d820bf328c6d0de33af\""
   lastModified: ""
   sha256: "e8ab7e4b2fbff5ce2d007834c3fa0293e108cb088a7e299f0ed04293c64ccea3"
   sizeBytes: 17699110
