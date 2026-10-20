@@ -16595,6 +16595,12 @@ Escape From Cozy Island:
     lutris: escape-from-crimson-manor-trapped-together
     steamExtra:
       - 4214870
+  installDir:
+    Escape From Crimson Manor Trapped Together: {}
+  launch:
+    "<base>/Escape From Crimson Manor.exe":
+      - when:
+          - store: steam
   steam:
     id: 2345430
 Escape From Darkmoor Manor:

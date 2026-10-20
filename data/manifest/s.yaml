@@ -26788,6 +26788,22 @@ Shipped:
             store: steam
   steam:
     id: 1037190
+Shipping Store Simulator 2037:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Playstrom/Shipping Store Simulator 2037/FileData/Release":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Shipping Store Simulator 2037: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4098030
 Ships 2017:
   installDir:
     Ship Special: {}

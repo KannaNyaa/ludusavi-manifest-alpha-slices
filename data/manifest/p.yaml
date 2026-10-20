@@ -9374,6 +9374,8 @@ Payday 3:
   steam:
     id: 1272080
 "Payday: Aces High":
+  id:
+    lutris: payday-aces-high
   steam:
     id: 3456660
 "Payday: The Heist":
@@ -34246,6 +34248,11 @@ Probably Archery:
             store: steam
   steam:
     id: 263420
+Probably Stolen:
+  cloud:
+    steam: true
+  steam:
+    id: 4348910
 Procyon:
   cloud:
     steam: true

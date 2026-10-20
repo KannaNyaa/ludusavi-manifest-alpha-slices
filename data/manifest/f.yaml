@@ -11765,6 +11765,8 @@ Fearmonium:
 Fearwoods:
   id:
     lutris: fearwoods
+    steamExtra:
+      - 4025550
   steam:
     id: 3296990
 "Feast Your Eyes: Little Marshmallow":

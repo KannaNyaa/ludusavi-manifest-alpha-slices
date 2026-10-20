@@ -12728,7 +12728,7 @@ Helldivers 2:
   installDir:
     Helldivers 2: {}
   launch:
-    "<base>/bin/helldivers2.exe":
+    "<base>/start_protected_game.exe":
       - arguments: "--bundle-dir data --release"
         when:
           - bit: 64

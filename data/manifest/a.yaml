@@ -20442,6 +20442,24 @@ Aker Fern:
 "Akhenaten: Rule as Pharaoh":
   steam:
     id: 719160
+Akiba Lost:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/IzanagiGames/AKIBA LOST":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: akiba-lost
+    steamExtra:
+      - 4441050
+      - 4885210
+      - 4889930
+  steam:
+    id: 4131220
 "Akiba's Trip: Hellbound & Debriefed":
   cloud:
     gog: true
