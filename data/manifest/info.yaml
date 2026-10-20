@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-20T11:50:36Z"
+generatedAt: "2026-10-20T19:19:39Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"28b36b8466f76a8bd28ea0de444fdba719d28b79551eb38cb7ed682233295b79\""
+  etag: "\"7543f7930cfcf18453e72ef91292d93a6854c52f15e6c4825289719eafd76500\""
   lastModified: ""
-  sha256: "7c0e9d72c7b824e48b9d41f8b9dddd273f0289c11b391a87b8dd87b8ad692ac2"
-  sizeBytes: 17700063
-  lines: 881929
+  sha256: "b767fe0fe22d12588bd09585e5682de7fd32286ab68ed24b2bd9b0b1fae93f8a"
+  sizeBytes: 17700965
+  lines: 881978
 
 manifest:
-  games: 53353
+  games: 53354
   shards: 29
   files: 30
-  bytes: 17700175
-  withSaveTag: 13581
+  bytes: 17701077
+  withSaveTag: 13582
   sections:
     alias: 1118
     cloud: 15675
-    files: 22479
-    gog: 5578
-    id: 10090
+    files: 22480
+    gog: 5580
+    id: 10092
     installDir: 43826
     launch: 39579
     registry: 2842
-    steam: 49197
+    steam: 49198
 
 sharding:
   rule: "first-character"
@@ -49,9 +49,9 @@ shards:
   - path: "b.yaml"
     key: "B"
     group: "letter"
-    games: 2987
-    bytes: 981790
-    sha256: "987e2d84b3e9100f66aad404d1bdcf6b32d762f961212ffe1f86ad46b5e8395a"
+    games: 2988
+    bytes: 981884
+    sha256: "5460fdf09212e14260f171ab0f09ed71720094b3cb5e7b69e22892e04272a265"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -82,8 +82,8 @@ shards:
     key: "E"
     group: "letter"
     games: 1586
-    bytes: 515849
-    sha256: "f66ae2b21ab2aa4c3444d2bf174d19e5fc3dedc1ac4dce38e719f73223ee5d37"
+    bytes: 515966
+    sha256: "d7033031db11a96038d16e2a87418d90596857e769ad273ed41b8769a27ac2a4"
     first: "E-Ball"
     last: "Ezy"
   - path: "f.yaml"
@@ -154,8 +154,8 @@ shards:
     key: "N"
     group: "letter"
     games: 1338
-    bytes: 437030
-    sha256: "a06f825aef57656525d48514f1344a1134b70f5757698554ffe66d3039ec196d"
+    bytes: 437306
+    sha256: "0ba4aa0dac605967d999eb91c64ded2b71103c54ae31b88e0f0d22f392c5be8b"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
@@ -210,8 +210,8 @@ shards:
     key: "T"
     group: "letter"
     games: 5521
-    bytes: 1940343
-    sha256: "f6f25e20af6a8eddaa9526705e23e5d520a0293afe1b2f16cae708a4cd3a9a31"
+    bytes: 1940758
+    sha256: "2ccd04bdfd1558a1a85c6298a440dae044684cb7442869a4a9d90597ddf6ae78"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"

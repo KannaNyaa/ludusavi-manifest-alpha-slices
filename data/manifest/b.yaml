@@ -6665,6 +6665,13 @@ Baptism:
             store: steam
   steam:
     id: 747160
+Baptiste:
+  id:
+    lutris: baptiste
+    steamExtra:
+      - 2922270
+  steam:
+    id: 2922250
 Baptize Billy:
   installDir:
     Baptize Billy: {}

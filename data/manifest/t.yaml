@@ -32441,7 +32441,29 @@ The Han Dynasty Imperial Mausoleums:
     id: 568330
 The Hand of Glory:
   cloud:
+    gog: true
     steam: true
+  files:
+    "<winLocalAppData>/The Hand of Glory/Savegames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/The Hand of Glory/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1338405553
+  id:
+    gogExtra:
+      - 1785498767
+      - 1835120204
+    lutris: the-hand-of-glory
+    steamExtra:
+      - 989730
+      - 1934010
   installDir:
     The Hand of Glory: {}
   launch:

@@ -12346,6 +12346,11 @@ Endless Legend 2:
           - bit: 64
             os: windows
             store: steam
+      - arguments: "-force-d3d11"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3407390
 Endless Maneuver:

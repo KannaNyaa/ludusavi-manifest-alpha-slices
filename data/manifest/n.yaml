@@ -12092,23 +12092,38 @@ Nexus 5X:
     id: 6420
 Neyyah:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Defy Reality Entertainment/Neyyah/Savegames/*.DAT":
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1528554507
   id:
+    gogExtra:
+      - 1287118854
+      - 1623167881
+      - 1799109882
     lutris: neyyah
     steamExtra:
       - 3539930
   installDir:
     Neyyah: {}
   launch:
+    "<base>/Neyyah.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Neyyah.exe":
       - when:
           - bit: 64
             os: windows
+            store: steam
+    "<base>/start":
+      - when:
+          - os: linux
             store: steam
   steam:
     id: 1289720
