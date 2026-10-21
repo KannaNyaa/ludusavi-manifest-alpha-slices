@@ -5114,6 +5114,9 @@ Velev:
             store: steam
   steam:
     id: 2790930
+"Velma's Costume Closet":
+  steam:
+    id: 5464760
 Velocibox:
   installDir:
     Velocibox: {}

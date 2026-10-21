@@ -68349,6 +68349,18 @@ Star Trek Timelines:
       when:
         - os: windows
 "Star Trek: Outposts Unknown":
+  installDir:
+    Star Trek Outposts Unknown: {}
+  launch:
+    "<base>/StarTrekOutpostsUnknown.app/Contents/MacOS/StarTrekOutpostsUnknown":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/StarTrekOutpostsUnknown.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3469910
 "Star Trek: Resurgence":

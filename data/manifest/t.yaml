@@ -30907,6 +30907,9 @@ The Ghosts of Hackney Mills:
             store: steam
   steam:
     id: 739240
+"The Gigglebone Gang: World Tour":
+  steam:
+    id: 5460970
 The Girl and the Robot:
   id:
     steamExtra:
@@ -85978,6 +85981,15 @@ Treasure Adventure Game:
         - os: windows
   gog:
     id: 1207659013
+  installDir:
+    TreasureAdventureGame: {}
+  launch:
+    "<base>/tag_launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 863940
 Treasure Adventure World:
   cloud:
     steam: true

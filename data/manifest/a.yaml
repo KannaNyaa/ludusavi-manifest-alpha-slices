@@ -20458,6 +20458,14 @@ Akiba Lost:
       - 4441050
       - 4885210
       - 4889930
+  installDir:
+    AKIBA LOST: {}
+  launch:
+    "<base>/AKIBA LOST.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4131220
 "Akiba's Trip: Hellbound & Debriefed":
@@ -35674,6 +35682,10 @@ Antivirus Survivors 2003 Professional:
       when:
         - os: linux
           store: steam
+    "<home>/.local/share/AntivirusSurvivors/profiles/<storeUserId>/*.json":
+      when:
+        - os: linux
+          store: steam
     "<home>/Library/Application Support/AntivirusSurvivors/*.save":
       when:
         - os: mac
@@ -35682,10 +35694,17 @@ Antivirus Survivors 2003 Professional:
       when:
         - os: mac
           store: steam
+    "<home>/Library/Application Support/AntivirusSurvivors/profiles/<storeUserId>/*.json":
+      when:
+        - os: mac
+          store: steam
     "<winAppData>/AntivirusSurvivors/*.save":
       when:
         - store: steam
     "<winAppData>/AntivirusSurvivors/profiles/*.json":
+      when:
+        - store: steam
+    "<winAppData>/AntivirusSurvivors/profiles/<storeUserId>/*.json":
       when:
         - store: steam
   id:

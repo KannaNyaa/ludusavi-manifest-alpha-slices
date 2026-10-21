@@ -21417,6 +21417,18 @@ Demented Pixie:
 Dementium II:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Dementium II/saves/*.*":
+      when:
+        - store: steam
+  installDir:
+    Dementium II: {}
+  launch:
+    "<base>/Dementium II.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 5342930
 Dementium II HD:
