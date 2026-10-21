@@ -35595,6 +35595,48 @@ Root Letter:
         - config
   steam:
     id: 550310
+"Roots in the Sky: The Hand of Glory 2":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winLocalAppData>/Madit Entertainment/Roots in the Sky - The Hand of Glory 2/Savegames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Madit Entertainment/Roots in the Sky - The Hand of Glory 2/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1910404586
+  id:
+    gogExtra:
+      - 1768727131
+      - 1788507471
+    lutris: roots-in-the-sky-the-hand-of-glory-2
+    steamExtra:
+      - 2285560
+      - 5167490
+  installDir:
+    Roots in the Sky - The Hand of Glory 2: {}
+  launch:
+    "<base>/Roots in the Sky - The Hand of Glory 2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Roots in the Sky.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/start":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2062380
 Roots of Insanity:
   id:
     lutris: roots-of-insanity

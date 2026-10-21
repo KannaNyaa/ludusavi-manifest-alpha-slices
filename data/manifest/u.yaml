@@ -6422,6 +6422,12 @@ Unhappy Ever After:
             store: steam
   steam:
     id: 552350
+Unharvest:
+  id:
+    steamExtra:
+      - 5165160
+  steam:
+    id: 5138990
 Unheard:
   cloud:
     steam: true

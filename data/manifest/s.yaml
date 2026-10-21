@@ -83725,10 +83725,30 @@ Stupid Invaders:
       when:
         - os: windows
 Stupid Never Dies:
+  files:
+    "<base>/StupidNeverDies/Saved/SaveGames/<storeUserId>/*.json":
+      when:
+        - store: steam
+    "<base>/StupidNeverDies/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/StupidNeverDies/Saved/SaveGames/<storeUserId>/*.json":
+      when:
+        - store: steam
+    "<winLocalAppData>/StupidNeverDies/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
   id:
     lutris: stupid-never-dies
     steamExtra:
       - 4880100
+  installDir:
+    StupidNeverDies: {}
+  launch:
+    "<base>/StupidNeverDies.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3486530
 Stupid Quest - Medieval Adventures:

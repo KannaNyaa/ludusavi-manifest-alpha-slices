@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-21T08:39:27Z"
+generatedAt: "2026-10-21T14:31:36Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"78896487e3d3f097dc9e62fde65968bca6e1e510d14711c258227b91d85fa749\""
+  etag: "\"bf196f46c9110edaecba5ba9c15d08a980221ba6d7714b95445baa483b7c0882\""
   lastModified: ""
-  sha256: "0ae893f955101fb03ac8a987a6a1c8ac48608f7373f0ca2ce750eee5377de10e"
-  sizeBytes: 17702835
-  lines: 882061
+  sha256: "81d054a851a719b7b37f0c389413fd6dcea0eb6f3a265799450e70ce457f0960"
+  sizeBytes: 17704529
+  lines: 882134
 
 manifest:
-  games: 53360
+  games: 53363
   shards: 29
   files: 30
-  bytes: 17702947
-  withSaveTag: 13582
+  bytes: 17704641
+  withSaveTag: 13583
   sections:
     alias: 1119
-    cloud: 15675
-    files: 22481
-    gog: 5581
-    id: 10094
-    installDir: 43831
-    launch: 39584
+    cloud: 15677
+    files: 22483
+    gog: 5582
+    id: 10096
+    installDir: 43833
+    launch: 39586
     registry: 2842
-    steam: 49204
+    steam: 49207
 
 sharding:
   rule: "first-character"
@@ -67,7 +67,7 @@ shards:
     group: "letter"
     games: 3441
     bytes: 1160672
-    sha256: "2fff51e526b10be64c209e7cbca704624f066b8e06406089db1a3361e90a57ea"
+    sha256: "c99510fd4fbfba153ed68e2656b7816b53246db6871b4f75acf59b2076c69ea9"
     first: "D Series Off Road Racing Simulation"
     last: "Dōkyūsei: Bangin' Summer"
   - path: "digits.yaml"
@@ -105,9 +105,9 @@ shards:
   - path: "h.yaml"
     key: "H"
     group: "letter"
-    games: 2180
-    bytes: 712553
-    sha256: "4bc9d8ea1dbb3fdffb017be487a3c8cd49ba636ed45b6d6314349bdd7cde0d25"
+    games: 2181
+    bytes: 712617
+    sha256: "ba73833f836de55b9f61bc9e8c08a4836a1e68562f9bd778775a2c4da6db1c47"
     first: "H Chan: Girl"
     last: "Höllenjob"
   - path: "i.yaml"
@@ -185,17 +185,17 @@ shards:
   - path: "r.yaml"
     key: "R"
     group: "letter"
-    games: 2480
-    bytes: 814977
-    sha256: "5c0078a728e98b1c037326f9a50770d5557b71d822bfdd8bdc2ed770694e889b"
+    games: 2481
+    bytes: 815951
+    sha256: "19b94103bdebc2570afc442ac626aefb0d3cd57e0344589258052cfdd55a6723"
     first: "R Academy"
     last: "RŌA"
   - path: "s.yaml"
     key: "S"
     group: "letter"
     games: 5916
-    bytes: 2053257
-    sha256: "cdf33cf4de899505cef3fff81c1d2e64f648c234e90305326adecb76627de3b6"
+    bytes: 2053839
+    sha256: "824578132427ce6b58c5d0246ad508a3972d55a8a203eb2271344eaa8612cc66"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -217,9 +217,9 @@ shards:
   - path: "u.yaml"
     key: "U"
     group: "letter"
-    games: 631
-    bytes: 207161
-    sha256: "d68b9e6ccb8dfeb60635d4ffb86ffe64ba8322e1eca00718679fb4c66a5d5dc1"
+    games: 632
+    bytes: 207235
+    sha256: "1b34e95f5f163225752979776489b751f295765fac3e6e6fd1e88abed5329bf0"
     first: "U-BOOT 1945"
     last: "Uznali ? soglasnbI ?"
   - path: "unicode.yaml"
