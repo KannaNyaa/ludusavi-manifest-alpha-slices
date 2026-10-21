@@ -43567,6 +43567,9 @@ Mr. Pumpkin Adventure:
 Mr. Records:
   gog:
     id: 1897263287
+  id:
+    steamExtra:
+      - 4869950
   steam:
     id: 3053470
 Mr. Rescue:

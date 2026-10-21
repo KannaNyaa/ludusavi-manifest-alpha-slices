@@ -2862,6 +2862,22 @@ A Pixel Story:
             store: steam
   steam:
     id: 339460
+A Place Out Here:
+  files:
+    "<base>/Stillmere/Saved/SaveGames":
+      when:
+        - store: steam
+    "<base>/Stillmere/Saved/SaveGames/DISv4":
+      when:
+        - store: steam
+  installDir:
+    A Place Out Here: {}
+  launch:
+    "<base>/SurvivalGame.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3149450
 A Place for the Unwilling:
   cloud:
     steam: true

@@ -10325,6 +10325,18 @@ Usurper:
   steam:
     id: 1151450
 "Utawarerumono: ZAN 2":
+  files:
+    "<base>/savedata":
+      when:
+        - store: steam
+  installDir:
+    Utawarerumono ZAN 2: {}
+  launch:
+    "<base>/UtawarerumonoZAN2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3074850
 Uterine Supremacy:

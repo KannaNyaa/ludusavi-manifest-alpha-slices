@@ -21460,6 +21460,8 @@ Dementium II HD:
     "<winLocalAppData>/Dementium - The Ward/saves/*.*":
       when:
         - store: steam
+  id:
+    lutris: dementium-the-ward
   installDir:
     Dementium - The Ward: {}
   launch:

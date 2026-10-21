@@ -4263,6 +4263,8 @@
   steam:
     id: 745670
 3D Ultra Minigolf Adventures:
+  id:
+    lutris: 3d-ultra-minigolf-adventures-deluxe
   installDir:
     3D Ultra Mini Golf Adventures: {}
   launch:

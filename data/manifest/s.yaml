@@ -18664,6 +18664,11 @@ Serious Sam Fusion 2017:
           - store: steam
   steam:
     id: 41060
+"Serious Sam: The Third Encounter":
+  cloud:
+    steam: true
+  steam:
+    id: 459920
 "Serious Sam: Tormental":
   cloud:
     steam: true
@@ -77951,8 +77956,7 @@ Still Wakes the Deep:
   steam:
     id: 3465690
 Stillmere:
-  steam:
-    id: 3149450
+  alias: A Place Out Here
 Stilt Fella:
   cloud:
     steam: true

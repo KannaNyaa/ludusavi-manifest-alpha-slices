@@ -13922,6 +13922,14 @@ GloGo:
             store: steam
   steam:
     id: 764080
+Glob & the Missing Globbies:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 4950650
+  steam:
+    id: 4935930
 Global ATC Simulator:
   installDir:
     Global ATC Simulator: {}
