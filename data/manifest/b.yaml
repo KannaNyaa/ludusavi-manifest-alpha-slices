@@ -31537,8 +31537,20 @@ Bloodthief:
   steam:
     id: 2533600
 Bloodville:
+  files:
+    "<winLocalAppData>/BLOODVILLE/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: bloodville
+  installDir:
+    BLOODVILLE: {}
+  launch:
+    "<base>/BLOODVILLE.exe":
+      - when:
+          - bit: 64
+            store: steam
   steam:
     id: 3802770
 "Bloodwings: Pumpkinhead's Revenge":
@@ -44296,6 +44308,23 @@ Brotato:
             store: steam
   steam:
     id: 1942280
+Brothel Master:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/BrothelSim/Saved/SaveGames/save.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Brothel Master: {}
+  launch:
+    "<base>/BrothelMaster.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3892630
 Brother Bear:
   files:
     "<winProgramData>/Disney Interactive/Brother Bear/System":

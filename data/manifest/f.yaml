@@ -15263,6 +15263,21 @@ Final Fantasy IX:
 Final Fantasy Resonance:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/FFRS/Steam/<storeUserId>/GameSaveData*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/FFRS_DEMO/Steam/<storeUserId>/GameSaveData*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    FINAL FANTASY RESONANCE: {}
+  launch:
+    "<base>/FFRS.exe":
+      - when:
+          - store: steam
   steam:
     id: 3259780
 Final Fantasy Tactics - The Ivalice Chronicles:

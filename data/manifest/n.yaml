@@ -18586,6 +18586,14 @@ Nomad:
             store: steam
   steam:
     id: 378370
+Nomad Drive:
+  id:
+    steamExtra:
+      - 4451030
+      - 4568400
+      - 5199100
+  steam:
+    id: 2223980
 Nomad Fleet:
   installDir:
     Nomad Fleet: {}

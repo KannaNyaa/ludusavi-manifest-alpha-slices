@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-22T14:32:39Z"
+generatedAt: "2026-10-22T19:14:37Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"8adceefafeb33ddcbc688a566c34733d8ea86ff74679ff8a089f228543e62c46\""
+  etag: "\"0ec043e166204074a2e59346199472653bfed1382b9e043c7b07865d4f72d36d\""
   lastModified: ""
-  sha256: "53cdee7341043a3b1592b126e70aef2c2e62dddce6aa3c39f49c0b0046e786d9"
-  sizeBytes: 17707298
-  lines: 882277
+  sha256: "22ea91d858edfdb60a16fe512bc6e62743f3aa39c2ea7cb5ea0cad97508801e3"
+  sizeBytes: 17709216
+  lines: 882370
 
 manifest:
-  games: 53375
+  games: 53378
   shards: 29
   files: 30
-  bytes: 17707410
-  withSaveTag: 13585
+  bytes: 17709328
+  withSaveTag: 13586
   sections:
     alias: 1120
-    cloud: 15680
-    files: 22488
-    gog: 5582
-    id: 10103
-    installDir: 43839
-    launch: 39593
-    registry: 2842
-    steam: 49217
+    cloud: 15682
+    files: 22492
+    gog: 5583
+    id: 10106
+    installDir: 43843
+    launch: 39597
+    registry: 2843
+    steam: 49220
 
 sharding:
   rule: "first-character"
@@ -49,9 +49,9 @@ shards:
   - path: "b.yaml"
     key: "B"
     group: "letter"
-    games: 2989
-    bytes: 982023
-    sha256: "dce07cd392cef301e4d8b1e86a72bc20459074675af75c7bc79fcf2818cb1d5e"
+    games: 2990
+    bytes: 982613
+    sha256: "990cda984d75e7031a24940b1e348f24522eaf70aefc3423b6b64f30692e90a8"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -90,8 +90,8 @@ shards:
     key: "F"
     group: "letter"
     games: 2251
-    bytes: 759270
-    sha256: "e9fff0882bf678bb0fe8e31675d01b33eb57c380f769ea6bf19f46860882f90d"
+    bytes: 759652
+    sha256: "0ae518eff318fe92b772d7fcab27a0717934a0e974de5da8b644bceec3722180"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
@@ -106,8 +106,8 @@ shards:
     key: "H"
     group: "letter"
     games: 2181
-    bytes: 712617
-    sha256: "ba73833f836de55b9f61bc9e8c08a4836a1e68562f9bd778775a2c4da6db1c47"
+    bytes: 712747
+    sha256: "2aa47247fb4d229df6cb2896c45d1b76b5f516c79eddf8ba1912b00818198681"
     first: "H Chan: Girl"
     last: "Höllenjob"
   - path: "i.yaml"
@@ -138,8 +138,8 @@ shards:
     key: "L"
     group: "letter"
     games: 1827
-    bytes: 604570
-    sha256: "8ec7fc3c7d057d1fe69e45ca1a84004ce92e24e43946996f3dd2960dac37b102"
+    bytes: 604681
+    sha256: "a73dbface46ab80c750347df477c00ef4608c9211879887429d3ea33b82c7d10"
     first: "L U N E"
     last: "Lá Camila: A VR Experience"
   - path: "m.yaml"
@@ -153,17 +153,17 @@ shards:
   - path: "n.yaml"
     key: "N"
     group: "letter"
-    games: 1338
-    bytes: 437306
-    sha256: "0ba4aa0dac605967d999eb91c64ded2b71103c54ae31b88e0f0d22f392c5be8b"
+    games: 1339
+    bytes: 437414
+    sha256: "f29fe52c85932d87cb8c00da4322a3ebb15dbfb01dae6f5151b2c50a2e174ba2"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
     key: "O"
     group: "letter"
     games: 1076
-    bytes: 356993
-    sha256: "317a0272691bf61671338ba30ac104fe4315e8e85f9339d00b4fbab58e54fc7a"
+    bytes: 357035
+    sha256: "a406d01695a9a51ab329c469a24c68aaadfa3efdf1e3ca4ba0d515536754cecb"
     first: "O Rei"
     last: "Ozymandias"
   - path: "p.yaml"
@@ -233,9 +233,9 @@ shards:
   - path: "v.yaml"
     key: "V"
     group: "letter"
-    games: 934
-    bytes: 259052
-    sha256: "ac861b045f30bc9115a527e7fc067156b599127606775f2a6c10500a975da9ea"
+    games: 935
+    bytes: 259607
+    sha256: "0d63173dcdcfc17fba0101287fa22fa51974d92ceed2190e350b5df84483d83c"
     first: "V"
     last: "Vzerthos: The Heir of Thunder"
   - path: "w.yaml"

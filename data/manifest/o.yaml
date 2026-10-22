@@ -7908,6 +7908,8 @@ One Piece Odyssey:
 "One Piece: Grand Gourmet":
   cloud:
     steam: true
+  id:
+    lutris: one-piece-grand-gourmet
   steam:
     id: 3905010
 "One Piece: Pirate Warriors 3":

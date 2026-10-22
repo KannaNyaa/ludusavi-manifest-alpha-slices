@@ -25343,6 +25343,10 @@ Love Language Japanese:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Initiative Media/Love Language Japanese:
+      tags:
+        - save
   steam:
     id: 445800
 Love Letter:

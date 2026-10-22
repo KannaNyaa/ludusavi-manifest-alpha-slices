@@ -29006,6 +29006,7 @@ Hotel Architect:
     id: 1602000
 Hotel Barcelona:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/The Cult Games Ltd/HOTEL BARCELONA/*.data":
@@ -29013,6 +29014,14 @@ Hotel Barcelona:
         - save
       when:
         - os: windows
+  gog:
+    id: 1296112477
+  id:
+    gogExtra:
+      - 1082855294
+      - 1216529154
+    steamExtra:
+      - 4582750
   installDir:
     HOTEL BARCELONA: {}
   launch:
