@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-21T19:20:05Z"
+generatedAt: "2026-10-22T00:01:28Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,17 +9,17 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"9d8a46bbe07e2645f6e7ff2d09458d5374ffd9fa5fc4fdca2228ade0230b496a\""
+  etag: "\"95bb914eef64d24f2bf422d23934cec37f809f766927b04f862cd17cce8c0d99\""
   lastModified: ""
-  sha256: "6b8b33ac7978b9caa7242ec22d7878fad30b3bb38427e401f17c147951427507"
-  sizeBytes: 17705426
-  lines: 882181
+  sha256: "b0197b76d52328f120479d317c6e73fda2d3c984003c11c4883d56936f3cf31c"
+  sizeBytes: 17705598
+  lines: 882190
 
 manifest:
-  games: 53366
+  games: 53369
   shards: 29
   files: 30
-  bytes: 17705538
+  bytes: 17705710
   withSaveTag: 13583
   sections:
     alias: 1120
@@ -30,7 +30,7 @@ manifest:
     installDir: 43835
     launch: 39588
     registry: 2842
-    steam: 49209
+    steam: 49212
 
 sharding:
   rule: "first-character"
@@ -97,9 +97,9 @@ shards:
   - path: "g.yaml"
     key: "G"
     group: "letter"
-    games: 1919
-    bytes: 617731
-    sha256: "7f8a0f0a9e737ef9fb1abddf10ce5702c8a6b770d59281bf66248148ed6965c1"
+    games: 1920
+    bytes: 617778
+    sha256: "813fbfc5165d8c2a61c47c22f15829aa721ef8f30fe677abba93af315dc89749"
     first: "G Prime"
     last: "Géants disparus VR"
   - path: "h.yaml"
@@ -209,9 +209,9 @@ shards:
   - path: "t.yaml"
     key: "T"
     group: "letter"
-    games: 5522
-    bytes: 1940990
-    sha256: "fe1aac3459c58baa855d168c029e8d63e8549f8c0121fb3f9903d9822ff2ec36"
+    games: 5524
+    bytes: 1941115
+    sha256: "a2bab898ac3c82acb4a12a7187ef1eda28dd2261d6124e2e3d7d51faef16199a"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"

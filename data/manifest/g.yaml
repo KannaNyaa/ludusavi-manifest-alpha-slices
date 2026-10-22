@@ -26946,6 +26946,9 @@ Grounds of Glory:
             store: steam
   steam:
     id: 869120
+Groundwork Simulator:
+  steam:
+    id: 5306540
 Grove flowers:
   installDir:
     Grove flowers: {}
