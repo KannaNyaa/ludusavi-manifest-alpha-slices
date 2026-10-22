@@ -29958,6 +29958,16 @@ Lyne:
         - config
   steam:
     id: 266010
+"Lynked: Banner of the Spark":
+  installDir:
+    Lynked Banner of the Spark: {}
+  launch:
+    "<base>/Saturn.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3159570
 Lynne:
   files:
     "<base>/game/saves":

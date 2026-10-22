@@ -57292,6 +57292,16 @@ SpaceShot:
             store: steam
   steam:
     id: 675940
+SpaceTanks:
+  installDir:
+    Space Tanks: {}
+  launch:
+    "<base>/Space_Tanks.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4185150
 SpaceTone:
   cloud:
     steam: true
@@ -83745,6 +83755,7 @@ Stupid Never Dies:
   id:
     lutris: stupid-never-dies
     steamExtra:
+      - 4228930
       - 4880100
   installDir:
     StupidNeverDies: {}

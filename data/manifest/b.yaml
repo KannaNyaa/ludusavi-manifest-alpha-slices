@@ -47802,6 +47802,13 @@ Buried Alive VR:
     Buried Alive VR: {}
   steam:
     id: 678830
+Buried stars:
+  files:
+    "<home>/AppData/LocalLow/LINE Games/BURIED STARS":
+      tags:
+        - save
+      when:
+        - os: windows
 "Buried: An Interactive Story":
   installDir:
     Buried An Interactive Story: {}

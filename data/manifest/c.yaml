@@ -38174,6 +38174,9 @@ Concrete and Steel:
   steam:
     id: 444830
 Concubine:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<winLocalAppData>/Concubine/Saved/Config/Windows":
       tags:
