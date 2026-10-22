@@ -11292,6 +11292,18 @@ We Were Here Together:
 We Were Here Tomorrow:
   cloud:
     steam: true
+  files:
+    "<base>/SavesDir/*.data":
+      when:
+        - store: steam
+  installDir:
+    We Were Here Tomorrow: {}
+  launch:
+    "<base>/We Were Here Tomorrow.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2315050
 We Were Here Too:
@@ -17757,6 +17769,11 @@ Wildcat Gun Machine:
             store: steam
   steam:
     id: 1288610
+Wildekin:
+  id:
+    lutris: wildekin
+  steam:
+    id: 1368180
 Wildermyth:
   cloud:
     gog: true

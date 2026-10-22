@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-22T08:41:32Z"
+generatedAt: "2026-10-22T14:32:39Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"dcbec5f4dc071acea699bcf9f11b43d265ee9b08f12a55990cb72dc60f28c7b3\""
+  etag: "\"8adceefafeb33ddcbc688a566c34733d8ea86ff74679ff8a089f228543e62c46\""
   lastModified: ""
-  sha256: "3fa12a5679ffbd555ba6042e802f78862d39a970a9ac1f6dc4bdaefa4ef73d7c"
-  sizeBytes: 17706233
-  lines: 882224
+  sha256: "53cdee7341043a3b1592b126e70aef2c2e62dddce6aa3c39f49c0b0046e786d9"
+  sizeBytes: 17707298
+  lines: 882277
 
 manifest:
-  games: 53373
+  games: 53375
   shards: 29
   files: 30
-  bytes: 17706345
-  withSaveTag: 13584
+  bytes: 17707410
+  withSaveTag: 13585
   sections:
     alias: 1120
     cloud: 15680
-    files: 22486
+    files: 22488
     gog: 5582
-    id: 10100
-    installDir: 43837
-    launch: 39590
+    id: 10103
+    installDir: 43839
+    launch: 39593
     registry: 2842
-    steam: 49215
+    steam: 49217
 
 sharding:
   rule: "first-character"
@@ -81,17 +81,17 @@ shards:
   - path: "e.yaml"
     key: "E"
     group: "letter"
-    games: 1586
-    bytes: 515966
-    sha256: "d7033031db11a96038d16e2a87418d90596857e769ad273ed41b8769a27ac2a4"
+    games: 1587
+    bytes: 516498
+    sha256: "b0f5dc72810ba63d4ef1a6d8d1a6994570169f5e368e39f77b8dfe46b1f1403d"
     first: "E-Ball"
     last: "Ezy"
   - path: "f.yaml"
     key: "F"
     group: "letter"
     games: 2251
-    bytes: 759296
-    sha256: "962c7e33fe6d0d20164e5c05d6876facf590bcab32015e234aa9428d837c9425"
+    bytes: 759270
+    sha256: "e9fff0882bf678bb0fe8e31675d01b33eb57c380f769ea6bf19f46860882f90d"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
@@ -186,8 +186,8 @@ shards:
     key: "R"
     group: "letter"
     games: 2481
-    bytes: 815951
-    sha256: "19b94103bdebc2570afc442ac626aefb0d3cd57e0344589258052cfdd55a6723"
+    bytes: 816161
+    sha256: "2c1ec5ba259091d74156336523e120620227af3b47a40935dc8c0308090f5817"
     first: "R Academy"
     last: "RŌA"
   - path: "s.yaml"
@@ -210,8 +210,8 @@ shards:
     key: "T"
     group: "letter"
     games: 5525
-    bytes: 1941179
-    sha256: "29b5ddc3e0947a9ba12c15e8b690f7e04a85633837eaa58a1ffbdb5f1d4014ff"
+    bytes: 1941215
+    sha256: "4e612482f5a1249c186e14a7e74d4b05f3182113a018fe1b3bd971d8f9e06b10"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"
@@ -241,9 +241,9 @@ shards:
   - path: "w.yaml"
     key: "W"
     group: "letter"
-    games: 1708
-    bytes: 584432
-    sha256: "6aec97ae8aecfc49cee988fa7fcd339df35cd269e06713e0e3470f39808d029e"
+    games: 1709
+    bytes: 584745
+    sha256: "cf0e28c5076a74f82df13a5956168c08144fed0c0ffc67cd20f0e7cb50e34cd2"
     first: "W. T. B."
     last: "Włatcy móch: Wrzód na dópie"
   - path: "x.yaml"

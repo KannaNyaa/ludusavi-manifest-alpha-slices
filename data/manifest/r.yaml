@@ -2910,6 +2910,7 @@ RaceRoom Racing Experience:
       when:
         - os: windows
   id:
+    lutris: raceroom-racing-experience
     steamExtra:
       - 272770
       - 331800
@@ -2922,6 +2923,13 @@ RaceRoom Racing Experience:
       - 455280
   installDir:
     raceroom racing experience: {}
+  launch:
+    "<base>/Game/x64dxvk/RRRE64.exe":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+        workingDir: "<base>/Game/x64dxvk"
   steam:
     id: 211500
 RaceXXL Space:

@@ -86292,6 +86292,8 @@ Treasure of Nadia:
         - os: windows
   gog:
     id: 1592693763
+  id:
+    lutris: treasure-of-nadia
   installDir:
     Treasure of Nadia: {}
   launch:

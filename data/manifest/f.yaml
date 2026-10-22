@@ -1560,6 +1560,8 @@ FIFA 17:
         - config
       when:
         - os: windows
+  id:
+    lutris: fifa-17
 FIFA 18:
   cloud:
     origin: true
@@ -8919,8 +8921,6 @@ Farming Incremental But With Guns:
         - save
       when:
         - os: windows
-  id:
-    lutris: farming-incremental-but-with-guns
   installDir:
     Farming Incremental But With Guns: {}
   launch:

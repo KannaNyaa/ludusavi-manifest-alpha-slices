@@ -17547,6 +17547,32 @@ Escape from Paradise 2:
           - store: steam
   steam:
     id: 47120
+Escape from Playtime:
+  files:
+    "<winLocalAppData>/EscapeFromPlaytime/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/EscapeFromPlaytime/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 5309180
+      - 5401680
+  installDir:
+    Escape From Playtime: {}
+  launch:
+    "<base>/EscapeFromPlaytime.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2087540
 Escape from Pleasure Planet:
   installDir:
     Escape from Pleasure Planet: {}
