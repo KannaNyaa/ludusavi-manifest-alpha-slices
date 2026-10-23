@@ -58244,6 +58244,14 @@ Cyberpunk 2077:
         - config
       when:
         - os: windows
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/CDPROJEKTSA.4d0e9834-20b1-4580-9bdc-4501ef2ffaac_0xkrdv0gjmk28/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     gogExtra:
       - 1256837418

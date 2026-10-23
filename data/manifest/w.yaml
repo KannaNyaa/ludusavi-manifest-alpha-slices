@@ -7222,6 +7222,8 @@ Warlords Battlecry:
         - os: windows
   gog:
     id: 1207659110
+  id:
+    lutris: warlords-battlecry
 Warlords Battlecry II:
   files:
     "<winDocuments>/Warlords Battlecry II":
@@ -7241,6 +7243,8 @@ Warlords Battlecry III:
         - os: windows
   gog:
     id: 1207658725
+  id:
+    lutris: warlords-battlecry-iii
   installDir:
     Warlords Battlecry III: {}
   launch:

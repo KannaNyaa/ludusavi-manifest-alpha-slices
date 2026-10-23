@@ -15907,6 +15907,13 @@ Invicta Beam:
   steam:
     id: 2060870
 Invincible VS:
+  files:
+    "<winLocalAppData>/TagFighter/Saved/SaveGames/<storeUserId>/EnhancedInputUserSettings.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/TagFighter/Saved/SaveGames/<storeUserId>/Slot*.sav":
+      when:
+        - store: steam
   id:
     lutris: invincible-vs
     steamExtra:

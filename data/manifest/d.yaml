@@ -30530,7 +30530,12 @@ Dimetrosaur:
   steam:
     id: 887550
 Dimhaven - The Lost Source:
+  alias: "Dimhaven: The Lost Source"
+Dimhaven Enigmas:
+  alias: "Dimhaven: The Lost Source"
+"Dimhaven: The Lost Source":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Zadbox Entertainment/Dimhaven - The Lost Source/**/*.*":
@@ -30544,10 +30549,15 @@ Dimhaven - The Lost Source:
       when:
         - os: linux
           store: steam
+  gog:
+    id: 1308963382
   id:
+    gogExtra:
+      - 1949666569
     lutris: dimhaven-the-lost-source
     steamExtra:
       - 3010310
+      - 5215080
   installDir:
     Dimhaven - The Lost Source: {}
   launch:
@@ -30565,8 +30575,6 @@ Dimhaven - The Lost Source:
             store: steam
   steam:
     id: 2458980
-Dimhaven Enigmas:
-  alias: Dimhaven - The Lost Source
 Diminutive:
   id:
     steamExtra:

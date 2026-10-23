@@ -7908,8 +7908,19 @@ One Piece Odyssey:
 "One Piece: Grand Gourmet":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/OPGG/saves/<storeUserId>":
+      when:
+        - store: steam
   id:
     lutris: one-piece-grand-gourmet
+  installDir:
+    ONE PIECE Grand Gourmet: {}
+  launch:
+    "<base>/OPGG.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3905010
 "One Piece: Pirate Warriors 3":

@@ -9835,13 +9835,21 @@ Ace Attorney Investigations Collection:
   id:
     steamExtra:
       - 3594180
+      - 3635880
   installDir:
     ACE COMBAT 8: {}
   steam:
     id: 2288340
 "Ace Combat Zero: The Belkan War":
+  cloud:
+    steam: true
   files:
     "<base>/ACE COMBAT 8/ACZero/settings/setting.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/ACZero/settings/setting.ini":
       tags:
         - config
       when:
@@ -9852,8 +9860,13 @@ Ace Attorney Investigations Collection:
       when:
         - os: windows
           store: steam
+  id:
+    steamExtra:
+      - 3635880
+  installDir:
+    ACE COMBAT ZERO THE BELKAN WAR (Steam Version): {}
   steam:
-    id: 3635880
+    id: 5370600
 "Ace Combat: Assault Horizon - Enhanced Edition":
   cloud:
     steam: true
