@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-23T14:16:34Z"
+generatedAt: "2026-10-23T19:18:28Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"73c195a3c4c382c3f80d8b674a6231eb6ba0a3b62ff50eb94d22689070f8b451\""
+  etag: "\"f55794af8ab756d3b1940e62071c81d91526e8369647400bfcf6a3df1e9912c2\""
   lastModified: ""
-  sha256: "fb109ae92fd35215ecce27613530e24f0804695e95fad7e08e237afdcd52303c"
-  sizeBytes: 17712364
-  lines: 882512
+  sha256: "3732d11934df726ded186268298f5f53f1ed8466eaeeba9e38384aa2214488e8"
+  sizeBytes: 17712630
+  lines: 882528
 
 manifest:
-  games: 53381
+  games: 53382
   shards: 29
   files: 30
-  bytes: 17712476
-  withSaveTag: 13587
+  bytes: 17712742
+  withSaveTag: 13588
   sections:
     alias: 1121
     cloud: 15686
     files: 22496
     gog: 5584
     id: 10114
-    installDir: 43847
-    launch: 39600
+    installDir: 43848
+    launch: 39601
     registry: 2844
-    steam: 49222
+    steam: 49223
 
 sharding:
   rule: "first-character"
@@ -90,8 +90,8 @@ shards:
     key: "F"
     group: "letter"
     games: 2252
-    bytes: 760499
-    sha256: "39973c67a17cdd320cd5c476a9aee51a8223c6edfdf006973d78e46673c44b94"
+    bytes: 760469
+    sha256: "18a4b502989065dacdc685ca31d10ac5b9657b380d5d4d36f5862cf46cea7236"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
@@ -193,9 +193,9 @@ shards:
   - path: "s.yaml"
     key: "S"
     group: "letter"
-    games: 5918
-    bytes: 2054115
-    sha256: "d6e13481714a360408787052a157d20f0ef997713b5ab5876399e871c9a6ca1b"
+    games: 5919
+    bytes: 2054411
+    sha256: "6d3f4b599e70b0b0e196df693999e7d7161bd14f340816b8213dd9abff69d7ba"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"

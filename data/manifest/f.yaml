@@ -15264,14 +15264,16 @@ Final Fantasy Resonance:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/FFRS/Steam/<storeUserId>/GameSaveData*.sav":
+    "<winLocalAppData>/FFRS/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
-    "<winLocalAppData>/FFRS_DEMO/Steam/<storeUserId>/GameSaveData*.sav":
+    "<winLocalAppData>/FFRS/Steam/<storeUserId>":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   id:
     steamExtra:
       - 4347910
