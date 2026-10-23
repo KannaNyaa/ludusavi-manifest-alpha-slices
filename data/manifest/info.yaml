@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-22T19:14:37Z"
+generatedAt: "2026-10-23T00:00:09Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"0ec043e166204074a2e59346199472653bfed1382b9e043c7b07865d4f72d36d\""
+  etag: "\"f3b94cefff4840378f84fd95a28ec1bd2c3cee5c826d12d1ab5066539655ffa3\""
   lastModified: ""
-  sha256: "22ea91d858edfdb60a16fe512bc6e62743f3aa39c2ea7cb5ea0cad97508801e3"
-  sizeBytes: 17709216
-  lines: 882370
+  sha256: "e793309ce8104a84aaee35a7720913ca3a9030031385915d03d3209821abcbeb"
+  sizeBytes: 17710063
+  lines: 882407
 
 manifest:
-  games: 53378
+  games: 53379
   shards: 29
   files: 30
-  bytes: 17709328
+  bytes: 17710175
   withSaveTag: 13586
   sections:
     alias: 1120
-    cloud: 15682
-    files: 22492
+    cloud: 15683
+    files: 22493
     gog: 5583
-    id: 10106
-    installDir: 43843
-    launch: 39597
+    id: 10107
+    installDir: 43844
+    launch: 39598
     registry: 2843
-    steam: 49220
+    steam: 49221
 
 sharding:
   rule: "first-character"
@@ -89,9 +89,9 @@ shards:
   - path: "f.yaml"
     key: "F"
     group: "letter"
-    games: 2251
-    bytes: 759652
-    sha256: "0ae518eff318fe92b772d7fcab27a0717934a0e974de5da8b644bceec3722180"
+    games: 2252
+    bytes: 760499
+    sha256: "39973c67a17cdd320cd5c476a9aee51a8223c6edfdf006973d78e46673c44b94"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
