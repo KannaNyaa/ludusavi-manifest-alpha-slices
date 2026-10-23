@@ -38190,6 +38190,8 @@ Concubine:
         - save
       when:
         - os: windows
+  gog:
+    id: 1237009719
   id:
     lutris: concubine
   installDir:

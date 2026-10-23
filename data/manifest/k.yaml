@@ -10015,6 +10015,27 @@ Kinky Fight Club:
           - store: steam
   steam:
     id: 1237530
+"KinnikuNeko: Super Muscle Cat":
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Kamotachi/KinnikuNeko SUPER MUSCLE CAT":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: kinnikuneko-super-muscle-cat
+  installDir:
+    KinnikuNeko SUPER MUSCLE CAT: {}
+  launch:
+    "<base>/KinnikuNeko SUPER MUSCLE CAT.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1332950
 "Kio's Adventure":
   steam:
     id: 612070

@@ -8022,6 +8022,32 @@ Neon Boost:
             store: steam
   steam:
     id: 1057850
+"Neon Breaker: Endless Arcade":
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/NeonBreaker":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/NeonBreaker/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<winLocalAppData>/NeonBreaker":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/NeonBreaker/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  steam:
+    id: 5054650
 Neon Brood:
   steam:
     id: 801360

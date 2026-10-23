@@ -6920,6 +6920,8 @@ Mahjongg The Ultimate Collection 2:
   steam:
     id: 503480
 Mahou Arms:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/MagicalGirlDF/Saved/Config/WindowsNoEditor":
       tags:
@@ -39080,15 +39082,11 @@ Moonlighter:
     lutris: moonlighter-2-the-endless-vault
     steamExtra:
       - 3670000
-      - 4036250
       - 4935250
+      - 5026660
+      - 5031290
   installDir:
     Moonlighter 2 The Endless Vault: {}
-  launch:
-    "<base>/Moonlighter 2 The Endless Vault.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
     id: 2350790
 Moonlit Mayhem:
@@ -41389,6 +41387,8 @@ Moto Racer 3:
         - os: windows
   gog:
     id: 1207658897
+  id:
+    lutris: moto-racer-3-gold-edition
   installDir:
     Moto Racer Collection: {}
   launch:
