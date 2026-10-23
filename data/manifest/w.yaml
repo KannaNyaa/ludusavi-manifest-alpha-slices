@@ -7967,6 +7967,10 @@ Warring States:
 "Warrior Cats: Clans of the Forest":
   cloud:
     steam: true
+  id:
+    lutris: warrior-cats-clans-of-the-forest
+    steamExtra:
+      - 4467800
   steam:
     id: 3960600
 Warrior Fighter:

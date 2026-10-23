@@ -16804,6 +16804,9 @@ Ben and Ed - Blood Party:
   steam:
     id: 500260
 Bendy and the Dark Revival:
+  cloud:
+    epic: true
+    steam: true
   files:
     "<home>/AppData/LocalLow/Joey Drew Studios/Bendy and the Dark Revival/data":
       tags:
@@ -16812,6 +16815,10 @@ Bendy and the Dark Revival:
         - os: windows
   gog:
     id: 1466311710
+  id:
+    lutris: bendy-and-the-dark-revival
+    steamExtra:
+      - 4297080
   installDir:
     Bendy and the Dark Revival: {}
   launch:

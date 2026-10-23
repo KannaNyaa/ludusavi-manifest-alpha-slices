@@ -85446,6 +85446,42 @@ Trash Bomber:
           - store: steam
   steam:
     id: 2067760
+Trash Day:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/OffByOne/Trash/achievements.json*":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/OffByOne/Trash/options.json*":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/OffByOne/Trash/save_*":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 5386580
+      - 5394290
+  installDir:
+    TrashDay: {}
+  launch:
+    "<base>/Trash.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/OffByOne/Trash:
+      tags:
+        - config
+  steam:
+    id: 3314580
 Trash Rage:
   installDir:
     Trash Rage: {}

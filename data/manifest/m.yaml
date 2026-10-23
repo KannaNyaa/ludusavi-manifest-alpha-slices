@@ -23648,6 +23648,11 @@ Metro 2033 Redux:
         - save
       when:
         - os: mac
+    "<root>/userdata/<storeUserId>/286690/remote/user.cfg":
+      tags:
+        - config
+      when:
+        - store: steam
     "<winDocuments>/4A Games/Metro 2033":
       tags:
         - save

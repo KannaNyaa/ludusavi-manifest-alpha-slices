@@ -3379,6 +3379,8 @@ Call of Duty Black Ops Cold War:
         - save
       when:
         - os: windows
+  id:
+    lutris: call-of-duty-modern-warfare-4
   steam:
     id: 4435490
 "Call of Duty: Modern Warfare II":
