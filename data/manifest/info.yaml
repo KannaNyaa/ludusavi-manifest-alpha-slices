@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-24T18:11:49Z"
+generatedAt: "2026-10-24T23:19:09Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,24 +9,24 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"77e6ef51a7d57fc77f7d8cd5f44b061c2f4869eb008b2a4e221555acfffad649\""
+  etag: "\"d3bc283f484b415a02111d524973673d1a99260a41c5a374c03702779d6f0d0e\""
   lastModified: ""
-  sha256: "fcb3077681b08b596ad4f82b891ae392c518935dfa983fb65744505758cbb198"
-  sizeBytes: 17717296
-  lines: 882779
+  sha256: "aa0117747b78c3157fd3f933d937ba17d721950975b49d45194ef38340fa11b0"
+  sizeBytes: 17717464
+  lines: 882790
 
 manifest:
   games: 53401
   shards: 29
   files: 30
-  bytes: 17717408
+  bytes: 17717576
   withSaveTag: 13593
   sections:
     alias: 1121
-    cloud: 15699
+    cloud: 15700
     files: 22505
-    gog: 5586
-    id: 10125
+    gog: 5587
+    id: 10126
     installDir: 43858
     launch: 39609
     registry: 2844
@@ -58,8 +58,8 @@ shards:
     key: "C"
     group: "letter"
     games: 3499
-    bytes: 1184751
-    sha256: "e7f3f4ab9d8126c7be835ec68379a65183a79642f58cce8470f876186f7a9c7c"
+    bytes: 1184903
+    sha256: "ec5697db28aecbfc1640809050ce6c311b75165448ba7846ce39701c7fdf8bfd"
     first: "C"
     last: "CyubeVR"
   - path: "d.yaml"
@@ -82,8 +82,8 @@ shards:
     key: "E"
     group: "letter"
     games: 1587
-    bytes: 516498
-    sha256: "b0f5dc72810ba63d4ef1a6d8d1a6994570169f5e368e39f77b8dfe46b1f1403d"
+    bytes: 516514
+    sha256: "8601530c4032a18eb848bd112adc259a94f81dcc032e9eb78b30b0aa489858d2"
     first: "E-Ball"
     last: "Ezy"
   - path: "f.yaml"

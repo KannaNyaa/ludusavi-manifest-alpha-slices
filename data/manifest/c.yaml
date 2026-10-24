@@ -14714,6 +14714,16 @@ Celsius:
   steam:
     id: 1130640
 Celsius Strays:
+  cloud:
+    steam: true
+  gog:
+    id: 1426577730
+  id:
+    gogExtra:
+      - 1468565130
+    lutris: celsius-strays--1
+    steamExtra:
+      - 4272400
   steam:
     id: 4271620
 Celtabula:
