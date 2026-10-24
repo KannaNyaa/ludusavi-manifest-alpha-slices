@@ -83778,19 +83778,15 @@ Stupid Invaders:
       when:
         - os: windows
 Stupid Never Dies:
+  cloud:
+    steam: true
   files:
-    "<base>/StupidNeverDies/Saved/SaveGames/<storeUserId>/*.json":
+    "<base>/StupidNeverDies/Saved/SaveGames/<storeUserId>":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
-    "<base>/StupidNeverDies/Saved/SaveGames/<storeUserId>/*.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/StupidNeverDies/Saved/SaveGames/<storeUserId>/*.json":
-      when:
-        - store: steam
-    "<winLocalAppData>/StupidNeverDies/Saved/SaveGames/<storeUserId>/*.sav":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: stupid-never-dies
     steamExtra:
