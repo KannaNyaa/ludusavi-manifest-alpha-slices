@@ -32330,6 +32330,13 @@ Discontinue:
     Discontinue: {}
   steam:
     id: 1061220
+Discord Times:
+  files:
+    "<base>/_Global.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Discounty:
   cloud:
     steam: true
@@ -38255,6 +38262,12 @@ Don Bradman Cricket 17:
             store: steam
   steam:
     id: 793600
+"Don't Pick Up":
+  id:
+    steamExtra:
+      - 5208890
+  steam:
+    id: 4878690
 "Don't Play This Game":
   steam:
     id: 679240

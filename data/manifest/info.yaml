@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-24T13:22:32Z"
+generatedAt: "2026-10-24T18:11:49Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"5383d00b9a34be243a5d4c704336de6643bc09af854485dc336ab33a5940fbcd\""
+  etag: "\"77e6ef51a7d57fc77f7d8cd5f44b061c2f4869eb008b2a4e221555acfffad649\""
   lastModified: ""
-  sha256: "e8e10f67b377a12c808eb78d27b61c8d5cd3e453c262a735b0fc286743ceb8f0"
-  sizeBytes: 17715889
-  lines: 882698
+  sha256: "fcb3077681b08b596ad4f82b891ae392c518935dfa983fb65744505758cbb198"
+  sizeBytes: 17717296
+  lines: 882779
 
 manifest:
-  games: 53393
+  games: 53401
   shards: 29
   files: 30
-  bytes: 17716001
-  withSaveTag: 13592
+  bytes: 17717408
+  withSaveTag: 13593
   sections:
     alias: 1121
-    cloud: 15696
-    files: 22501
-    gog: 5585
-    id: 10121
-    installDir: 43856
-    launch: 39607
+    cloud: 15699
+    files: 22505
+    gog: 5586
+    id: 10125
+    installDir: 43858
+    launch: 39609
     registry: 2844
-    steam: 49234
+    steam: 49239
 
 sharding:
   rule: "first-character"
@@ -50,8 +50,8 @@ shards:
     key: "B"
     group: "letter"
     games: 2991
-    bytes: 983037
-    sha256: "1ff9caa55e69e46c4164b3312e5df914e387a53542b335e207f62c1089555533"
+    bytes: 983113
+    sha256: "a059f505e4a75ee23fd63057f609e818a1cc47aad5d8bb5812981f379d6f6022"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -65,9 +65,9 @@ shards:
   - path: "d.yaml"
     key: "D"
     group: "letter"
-    games: 3443
-    bytes: 1160929
-    sha256: "3cb57e7926f117fbf61d2582ba58575c14e85ed47934f652231c991c5162a502"
+    games: 3445
+    bytes: 1161122
+    sha256: "61303167a124db4ac31418fb7eb34339779300f7f4ab5eecf2811da3615e7648"
     first: "D Series Off Road Racing Simulation"
     last: "Dōkyūsei: Bangin' Summer"
   - path: "digits.yaml"
@@ -113,17 +113,17 @@ shards:
   - path: "i.yaml"
     key: "I"
     group: "letter"
-    games: 1211
-    bytes: 398902
-    sha256: "b2b17e3b0689a1aa1d701f04804e953fe4ffc0f88ae87876040bdf346e191551"
+    games: 1212
+    bytes: 399004
+    sha256: "05f6643bd34d17ded43051b4927ef30d6c76ad8a057354d31b11cc096066934a"
     first: "I (Don't) Hate Hentai Puzzles"
     last: "I・S・U"
   - path: "j.yaml"
     key: "J"
     group: "letter"
-    games: 560
-    bytes: 174666
-    sha256: "025c993bd7e6239f75dfd9407f7890c28ab1650f6c00129845a3edf090b69fa3"
+    games: 561
+    bytes: 174733
+    sha256: "32914625c149f4cc2cde675f9a77929a021b9548118b458034599c13d1414147"
     first: "J Connect"
     last: "Jydge"
   - path: "k.yaml"
@@ -154,16 +154,16 @@ shards:
     key: "N"
     group: "letter"
     games: 1341
-    bytes: 438182
-    sha256: "2122a146feef09410a49a3f09d83e61bbf7fb91962542574cea3e00fef3fde14"
+    bytes: 438206
+    sha256: "d95e32b1ca21d20097c0e15f1321c0f7bf4dc14573b0961a97421b53a35b97b3"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
     key: "O"
     group: "letter"
-    games: 1076
-    bytes: 357271
-    sha256: "1affd317eff8cce91508d21b70b0097ceea6f7019cd3f7f1cbe80c447f1ed7d9"
+    games: 1077
+    bytes: 357852
+    sha256: "31e5a853afa7aad916db38b8889071240c1627ff8faa06e8076dcf37561de089"
     first: "O Rei"
     last: "Ozymandias"
   - path: "p.yaml"
@@ -193,9 +193,9 @@ shards:
   - path: "s.yaml"
     key: "S"
     group: "letter"
-    games: 5920
-    bytes: 2054767
-    sha256: "b7658e812c876faec8bb11b7f87ced08a3b308b386f5f63aa7c1774797693bc1"
+    games: 5921
+    bytes: 2055023
+    sha256: "af16b122a4811115ac855744846d997308aa849704560d0b2a4e66fd2415dc8b"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -209,9 +209,9 @@ shards:
   - path: "t.yaml"
     key: "T"
     group: "letter"
-    games: 5526
-    bytes: 1941933
-    sha256: "66e27d1c1dbb093ab3c9cd4553b56cf26f8a16488345852ff3ff59b70657fd34"
+    games: 5528
+    bytes: 1942041
+    sha256: "e0a3850849c3d2b005cd2b29b23bf2b4962d78e287916a61ce5bf8cf25f7472d"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"

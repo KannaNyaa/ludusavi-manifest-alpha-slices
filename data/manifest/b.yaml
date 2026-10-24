@@ -1359,6 +1359,10 @@ BRKÖUT:
   steam:
     id: 616690
 "BROK - Natal Tail, A New Christmas":
+  gog:
+    id: 1435190833
+  id:
+    lutris: brok-natal-tail-a-new-christmas
   installDir:
     BROKChristmas: {}
   launch:

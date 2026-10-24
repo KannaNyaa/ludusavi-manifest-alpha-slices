@@ -39644,6 +39644,21 @@ Slayaway Camp:
         - config
   steam:
     id: 530390
+Slayblade:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Slayblade/*.save":
+      when:
+        - store: steam
+  installDir:
+    Slayblade: {}
+  launch:
+    "<base>/Slayblade.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4117730
 Slayer Shock:
   cloud:
     steam: true

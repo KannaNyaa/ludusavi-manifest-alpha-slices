@@ -8427,6 +8427,11 @@ Just VR Slingshot Target Practice:
     Just VR Slingshot Target Practice: {}
   steam:
     id: 586990
+Just Volleyball:
+  cloud:
+    steam: true
+  steam:
+    id: 5037200
 Just a Cleric:
   files:
     "<base>/SAVES/*.ini":

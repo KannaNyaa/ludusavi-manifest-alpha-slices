@@ -22148,6 +22148,9 @@ The Coin Game:
             store: steam
   steam:
     id: 598980
+The Coin Goblin:
+  steam:
+    id: 5254020
 The Cold War Era:
   id:
     steamExtra:
@@ -92839,6 +92842,9 @@ Turok (2015):
             store: steam
   steam:
     id: 1996770
+"Turok: Dinosaur Hunter":
+  id:
+    lutris: turok-dinosaur-hunter
 "Turok: Dinosaur Hunter (2015)":
   alias: Turok (2015)
 "Turok: Escape from Lost Valley":

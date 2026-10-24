@@ -6018,6 +6018,13 @@ Immunity:
           - store: steam
   steam:
     id: 811470
+Imp:
+  files:
+    "<base>/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Imp of the Sun:
   files:
     "<winLocalAppData>/IotS/Saved/Config/WindowsNoEditor":

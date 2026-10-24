@@ -18626,6 +18626,7 @@ Nomad:
     id: 378370
 Nomad Drive:
   id:
+    lutris: nomad-drive
     steamExtra:
       - 4451030
       - 4568400

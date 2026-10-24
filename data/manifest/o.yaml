@@ -15601,6 +15601,36 @@ Outerverse:
             store: steam
   steam:
     id: 1293540
+Outhold:
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/Godot/app_userdata/Outhold":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winAppData>/Godot/app_userdata/Outhold":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: outhold
+  installDir:
+    Outhold: {}
+  launch:
+    "<base>/outhold_macos.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/windows/outhold_windows.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3767740
 Outland:
   cloud:
     steam: true
