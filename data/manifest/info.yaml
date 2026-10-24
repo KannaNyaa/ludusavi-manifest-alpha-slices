@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-23T23:52:16Z"
+generatedAt: "2026-10-24T08:12:14Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"8aaf25b0a177ab27ea69f0e1e6bb0f4ef89fb4774231665eb596cebbad4d8881\""
+  etag: "\"fede6a7b6eab81a44b8f5f741bbe0ca574043aee592ee2a3b8ec05b900ec3c6d\""
   lastModified: ""
-  sha256: "244be2b890f86c90a709795fd30556bc6c00bca6fa6568611daa8f66193ad77e"
-  sizeBytes: 17713937
-  lines: 882595
+  sha256: "d5eb9f6581ecc5240fcb2db16a9f5f34ed1ac2a81a8443e96770b210a7b92818"
+  sizeBytes: 17715780
+  lines: 882683
 
 manifest:
-  games: 53385
+  games: 53391
   shards: 29
   files: 30
-  bytes: 17714049
-  withSaveTag: 13590
+  bytes: 17715892
+  withSaveTag: 13591
   sections:
     alias: 1121
-    cloud: 15690
-    files: 22498
+    cloud: 15694
+    files: 22501
     gog: 5585
-    id: 10116
-    installDir: 43850
-    launch: 39602
+    id: 10120
+    installDir: 43855
+    launch: 39606
     registry: 2844
-    steam: 49226
+    steam: 49232
 
 sharding:
   rule: "first-character"
@@ -49,9 +49,9 @@ shards:
   - path: "b.yaml"
     key: "B"
     group: "letter"
-    games: 2990
-    bytes: 982762
-    sha256: "faea5f39faf4076244f93abfbb7561e3178cd77d7c6ce73f11a2c191ef724e87"
+    games: 2991
+    bytes: 983037
+    sha256: "1ff9caa55e69e46c4164b3312e5df914e387a53542b335e207f62c1089555533"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -65,9 +65,9 @@ shards:
   - path: "d.yaml"
     key: "D"
     group: "letter"
-    games: 3442
-    bytes: 1160865
-    sha256: "8f42ed31d45a3dee756afbbc3bf6620df2e6be8798cf0bc6aeb59805801e4c71"
+    games: 3443
+    bytes: 1160929
+    sha256: "3cb57e7926f117fbf61d2582ba58575c14e85ed47934f652231c991c5162a502"
     first: "D Series Off Road Racing Simulation"
     last: "Dōkyūsei: Bangin' Summer"
   - path: "digits.yaml"
@@ -153,9 +153,9 @@ shards:
   - path: "n.yaml"
     key: "N"
     group: "letter"
-    games: 1340
-    bytes: 437953
-    sha256: "9f440bae8a1242654256bd5ebb00ca7d3402b9f8a6b558f0c699f56448eba675"
+    games: 1341
+    bytes: 438182
+    sha256: "2122a146feef09410a49a3f09d83e61bbf7fb91962542574cea3e00fef3fde14"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
@@ -169,17 +169,17 @@ shards:
   - path: "p.yaml"
     key: "P"
     group: "letter"
-    games: 2674
-    bytes: 862481
-    sha256: "b48df352bb6d53418aef3aa8d668bea61e334e7a85e16cc125cec557df133e7d"
+    games: 2675
+    bytes: 862705
+    sha256: "2c90fe422e7daa909f07587318235d38fb220aba2618b1eb43d6aaf7ebf025d8"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"
     key: "Q"
     group: "letter"
-    games: 201
-    bytes: 71107
-    sha256: "1ec0a2fa0445c9a332a7574bb1d19770c1fc8500f5b335b2429a626797d97c0f"
+    games: 202
+    bytes: 71213
+    sha256: "f8473241098333434e4d72a78e44b741abc014ecca1e0370eb4d26f45715faf8"
     first: "Q"
     last: "Qybe"
   - path: "r.yaml"
@@ -193,9 +193,9 @@ shards:
   - path: "s.yaml"
     key: "S"
     group: "letter"
-    games: 5919
-    bytes: 2054411
-    sha256: "6d3f4b599e70b0b0e196df693999e7d7161bd14f340816b8213dd9abff69d7ba"
+    games: 5920
+    bytes: 2055032
+    sha256: "a166f46e9426f0d4191e5548d6eb55496c86149efdb6b91caf980ce7868af446"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -242,8 +242,8 @@ shards:
     key: "W"
     group: "letter"
     games: 1710
-    bytes: 585190
-    sha256: "6cf6e8c10931106010d55d7405ab9b5b60de9b06596ca125d15a070c6388edb3"
+    bytes: 585514
+    sha256: "9c9645957316aa81050d47498a83728bc29102a7877d2f1f1de4511c329d6998"
     first: "W. T. B."
     last: "Włatcy móch: Wrzód na dópie"
   - path: "x.yaml"

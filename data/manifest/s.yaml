@@ -24851,6 +24851,29 @@ Sheltered 2:
           - store: steam
   steam:
     id: 1289380
+Shelve the Potions!:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Knight Owl Games/Shelve the Potions!/<storeUserId>":
+      when:
+        - store: steam
+    "<xdgData>/.local/share/steam/steamapps/compatdata/2521630/pfx/drive_c/users/steamuser/AppData/LocalLow/Knight Owl Games/Shelve the Potions!/<storeUserId>":
+      when:
+        - os: linux
+          store: steam
+  id:
+    steamExtra:
+      - 4959170
+      - 4959200
+  installDir:
+    Shelf the Potions!: {}
+  launch:
+    "<base>/Shelve the Potions!.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4928820
 Shenmue I & II:
   cloud:
     steam: true
@@ -32825,8 +32848,10 @@ Silver Pines:
     steam: true
   files:
     "<home>/AppData/LocalLow/Wych Elm/Silver Pines/<storeUserId>":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: silver-pines
     steamExtra:

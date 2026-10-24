@@ -23703,6 +23703,18 @@ Black Forest:
             store: steam
   steam:
     id: 523070
+"Black Friday Janitor: Clean the Whole Mall":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/BlackFridayJanitor/Saved/SaveGames/cloud/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    blackfridayjanitor: {}
+  steam:
+    id: 3396010
 "Black Friday: The Game":
   installDir:
     Black Friday The Game: {}

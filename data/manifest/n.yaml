@@ -4747,6 +4747,18 @@ Nautical Life:
             store: steam
   steam:
     id: 817200
+Nautical Survival:
+  id:
+    lutris: nautical-survival
+  installDir:
+    Nautical Survival: {}
+  launch:
+    "<base>/Nautical Survival.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2860990
 Nauticrawl:
   cloud:
     steam: true

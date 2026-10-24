@@ -28954,6 +28954,11 @@ Dice Gambit:
           - store: steam
   steam:
     id: 1812860
+Dice Hoarder:
+  cloud:
+    steam: true
+  steam:
+    id: 3687090
 Dice Keeper:
   installDir:
     Dice Keeper: {}

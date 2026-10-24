@@ -7979,10 +7979,23 @@ Warring States:
 "Warrior Cats: Clans of the Forest":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Wrc/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: warrior-cats-clans-of-the-forest
     steamExtra:
       - 4467800
+  installDir:
+    Warrior Cats Clans of the Forest: {}
+  launch:
+    "<base>/Wrc/Binaries/Win64/Wrc-Win64-ShippingDRM.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3960600
 Warrior Fighter:

@@ -36677,6 +36677,19 @@ Project SolarBot:
             store: steam
   steam:
     id: 1144690
+Project Solaris:
+  id:
+    steamExtra:
+      - 3400280
+  installDir:
+    Project Solaris: {}
+  launch:
+    "<base>/ProjectSolaris.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3002740
 Project Songbird:
   id:
     lutris: project-songbird
