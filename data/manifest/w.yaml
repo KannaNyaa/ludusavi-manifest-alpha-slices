@@ -15564,6 +15564,7 @@ While I Sleep I Am Debug:
     id: 619150
 While We Wait Here:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/While_We_Wait_Here/Saved/Config/Windows/GameUserSettings.ini":
@@ -15576,6 +15577,12 @@ While We Wait Here:
         - save
       when:
         - os: windows
+  gog:
+    id: 1985859739
+  id:
+    gogExtra:
+      - 1283879645
+      - 1866861783
   installDir:
     While We Wait Here: {}
   launch:
@@ -17037,6 +17044,7 @@ Wienne:
     id: 1180370
 Wife Quest:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Pippin Games/Wife Quest/*.save":
@@ -17047,7 +17055,13 @@ Wife Quest:
       when:
         - os: mac
           store: steam
+  gog:
+    id: 1465434701
   id:
+    gogExtra:
+      - 1196876641
+      - 1506609383
+      - 1863214247
     lutris: wife-quest
     steamExtra:
       - 1627460

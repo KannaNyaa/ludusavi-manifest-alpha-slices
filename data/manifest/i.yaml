@@ -14377,6 +14377,9 @@ Interregnum-Alpha:
         - os: windows
   gog:
     id: 1500286266
+  id:
+    gogExtra:
+      - 1285751719
   installDir:
     Interrogation: {}
   launch:

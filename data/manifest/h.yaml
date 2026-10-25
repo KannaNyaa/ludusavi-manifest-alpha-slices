@@ -26815,6 +26815,9 @@ Hookbots:
             store: steam
   steam:
     id: 1866180
+Hookeye:
+  steam:
+    id: 4670350
 Hooklings:
   installDir:
     Hooklings: {}

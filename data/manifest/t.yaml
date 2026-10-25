@@ -89939,6 +89939,11 @@ Tropico 3:
         - save
       when:
         - os: windows
+    "<winAppData>/Tropico 3/UserConfig2.lua":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1207659056
   id:

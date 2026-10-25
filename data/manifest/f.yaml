@@ -20910,6 +20910,13 @@ Flex Apocalypse Racing:
             store: steam
   steam:
     id: 1000790
+Flick:
+  id:
+    lutris: flick
+    steamExtra:
+      - 5267890
+  steam:
+    id: 4450660
 FlickSync - Mad Hatter VR:
   installDir:
     FlickSync - Mad Hatter VR: {}
@@ -21509,6 +21516,11 @@ FlipWitch - Forbidden Sex Hex:
         - save
       when:
         - os: windows
+  gog:
+    id: 1196438244
+  id:
+    gogExtra:
+      - 1968799206
   installDir:
     FlipWitch Forbidden Sex Hex: {}
   launch:
@@ -35056,6 +35068,7 @@ Fruit for the Village:
     id: 528930
 Fruitbus:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Krillbite/Fruitbus":

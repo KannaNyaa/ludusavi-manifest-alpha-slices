@@ -7411,6 +7411,27 @@ ASKA:
           - store: steam
   steam:
     id: 1898300
+ASPIS:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/ASPIS/Saved/SaveGames/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: aspis
+  installDir:
+    ASPIS: {}
+  launch:
+    "<base>/Aspis.exe":
+      - arguments: "-SaveToUserDir"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3129420
 ASRECorp:
   installDir:
     ASRECorp: {}

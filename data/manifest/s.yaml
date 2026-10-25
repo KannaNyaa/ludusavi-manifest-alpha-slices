@@ -15038,6 +15038,26 @@ Secrets of Rætikon:
             store: steam
   steam:
     id: 246680
+Secrets of Velendar Castle - Escape Room:
+  files:
+    "<home>/AppData/LocalLow/mc2games/SecretsOfVelendarCastle":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1475441601
+  id:
+    lutris: secrets-of-velendar-castle-escape-room
+  installDir:
+    Secrets of Velendar Castle - Escape Room: {}
+  launch:
+    "<base>/SecretsOfVelendarCastle.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4016880
 Secrets of War:
   installDir:
     SecretsOfWar: {}
@@ -83519,6 +83539,7 @@ Stuart Little 2:
         - os: windows
 Stubbs the Zombie in Rebel Without a Pulse:
   cloud:
+    gog: true
     steam: true
   files:
     "<root>/userdata/<storeUserId>/7800":

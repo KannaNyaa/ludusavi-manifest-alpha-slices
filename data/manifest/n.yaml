@@ -16618,6 +16618,8 @@ No More Heroes:
   gog:
     id: 1952635766
   id:
+    gogExtra:
+      - 1993197743
     lutris: no-more-heroes
   installDir:
     No More Heroes: {}
@@ -16645,13 +16647,12 @@ No More Heroes:
         - os: windows
   gog:
     id: 2123918043
+  id:
+    gogExtra:
+      - 1993197743
   installDir:
     No More Heroes 2 Desperate Struggle: {}
   launch:
-    "<base>/ConfigurationTool.exe":
-      - arguments: en
-        when:
-          - store: steam
     "<base>/nmh2.exe":
       - when:
           - os: windows
@@ -16680,6 +16681,12 @@ No More Heroes 3:
         - os: windows
   gog:
     id: 1608160993
+  id:
+    gogExtra:
+      - 1251489693
+      - 1408957560
+      - 1944219414
+      - 1993197743
   installDir:
     No More Heroes 3: {}
   launch:
@@ -18627,6 +18634,13 @@ Nomad:
   steam:
     id: 378370
 Nomad Drive:
+  files:
+    "<home>/AppData/LocalLow/Indie Devil/Nomad Drive":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   id:
     lutris: nomad-drive
     steamExtra:
