@@ -4869,6 +4869,24 @@ Johnny Bung:
             store: steam
   steam:
     id: 476030
+Johnny Rocket:
+  installDir:
+    Johnny Rocket: {}
+  launch:
+    "<base>/Johnny Rocket.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JohnnyRocket.app/Contents/MacOS/JohnnyRocket":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JohnnyRocket.linux/JohnnyRocket.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 942300
 Johns.game:
   installDir:
     johnsgame: {}

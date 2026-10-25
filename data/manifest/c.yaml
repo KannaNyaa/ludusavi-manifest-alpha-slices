@@ -2257,6 +2257,8 @@ Caketomino:
   steam:
     id: 517770
 "Cakey's Twisted Bakery":
+  id:
+    lutris: cakeys-twisted-bakery
   installDir:
     "Cakey's Twisted Bakery": {}
   launch:
@@ -12539,6 +12541,9 @@ Catizens:
         when:
           - os: windows
             store: steam
+    "<base>/game.exe":
+      - when:
+          - store: steam
   steam:
     id: 957660
 Catlateral Damage:

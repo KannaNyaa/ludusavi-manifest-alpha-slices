@@ -90200,6 +90200,26 @@ Trouble Witches Origin - Episode1 Daughters of Amalgam -:
             store: steam
   steam:
     id: 460630
+Troublemaker:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winLocalAppData>/Troublemaker/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1560920637
+  installDir:
+    Troublemaker: {}
+  launch:
+    "<base>/Troublemaker.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1498740
 Troubles Land:
   installDir:
     Troubles Land: {}

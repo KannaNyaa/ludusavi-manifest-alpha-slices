@@ -17016,6 +17016,8 @@ No Rest for the Wicked:
         - os: windows
   id:
     lutris: no-rest-for-the-wicked--1
+    steamExtra:
+      - 4600710
   installDir:
     NoRestForTheWicked: {}
   launch:
@@ -19575,6 +19577,14 @@ Northgard:
             store: steam
   steam:
     id: 466560
+Northgard Battlegrounds:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 5090100
+  steam:
+    id: 4487060
 Northland:
   files:
     "<base>/Saves/singleplayer/savegames/**/*.sav":

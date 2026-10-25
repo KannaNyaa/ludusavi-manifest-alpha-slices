@@ -496,23 +496,7 @@ $1 Ride:
   steam:
     id: 937780
 ✌ Johnny Rocket:
-  installDir:
-    Johnny Rocket: {}
-  launch:
-    "<base>/Johnny Rocket.exe":
-      - when:
-          - os: windows
-            store: steam
-    "<base>/JohnnyRocket.app/Contents/MacOS/JohnnyRocket":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/JohnnyRocket.linux/JohnnyRocket.x86_64":
-      - when:
-          - os: linux
-            store: steam
-  steam:
-    id: 942300
+  alias: Johnny Rocket
 《鬼畜战记：金坷垃传说》:
   installDir:
     JINKELA: {}

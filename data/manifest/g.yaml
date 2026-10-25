@@ -10699,6 +10699,11 @@ Ghost of a Tale:
         - config
   steam:
     id: 417290
+Ghost of a Tale 2:
+  cloud:
+    steam: true
+  steam:
+    id: 5141030
 Ghost on the Shore:
   cloud:
     gog: true

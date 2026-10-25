@@ -23638,6 +23638,7 @@ Metro 2033:
 Metro 2033 Redux:
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/<storeUserId>/user.cfg":
       tags:

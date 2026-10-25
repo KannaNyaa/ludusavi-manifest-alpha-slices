@@ -11557,6 +11557,15 @@ Hektor:
             store: steam
   steam:
     id: 334070
+Hela:
+  alias: "Hela: Of Mice & Magic"
+"Hela: Of Mice & Magic":
+  cloud:
+    steam: true
+  id:
+    lutris: hela-of-mice-and-magic
+  steam:
+    id: 3161310
 Heldric - The legend of the shoemaker:
   installDir:
     Heldric: {}

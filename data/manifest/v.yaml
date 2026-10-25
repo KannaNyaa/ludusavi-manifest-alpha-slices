@@ -10459,6 +10459,21 @@ Vivisector - Beast Within:
         - os: windows
   id:
     lutris: vivisector-beast-within
+Vixen 357:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves":
+      when:
+        - store: steam
+  installDir:
+    Vixen 357: {}
+  launch:
+    "<base>/Vixen357.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4365560
 Vixen Wars:
   installDir:
     Vixen Wars: {}

@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-25T08:30:01Z"
+generatedAt: "2026-10-25T13:44:41Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"76aa29cea0913c4e7ba808fd825b297f17f245febae865d9965c2817954b1713\""
+  etag: "\"832a67beb8a1d9ea7dd2cbbb93ff3e8c7b66c53c5771679d0ec36ce15d44a0f0\""
   lastModified: ""
-  sha256: "a7a1128136741bedd458a00369f1e23676980eedcffecb50ad45d331d6259452"
-  sizeBytes: 17718062
-  lines: 882822
+  sha256: "4b0ef6866190e58492137906c83984c30417b2d482ecfd71de41e0a6ba66fe46"
+  sizeBytes: 17719189
+  lines: 882889
 
 manifest:
-  games: 53404
+  games: 53411
   shards: 29
   files: 30
-  bytes: 17718174
+  bytes: 17719301
   withSaveTag: 13594
   sections:
-    alias: 1121
-    cloud: 15702
-    files: 22506
-    gog: 5588
-    id: 10128
-    installDir: 43859
-    launch: 39610
+    alias: 1123
+    cloud: 15707
+    files: 22508
+    gog: 5589
+    id: 10131
+    installDir: 43861
+    launch: 39612
     registry: 2844
-    steam: 49240
+    steam: 49245
 
 sharding:
   rule: "first-character"
@@ -58,8 +58,8 @@ shards:
     key: "C"
     group: "letter"
     games: 3499
-    bytes: 1184903
-    sha256: "ec5697db28aecbfc1640809050ce6c311b75165448ba7846ce39701c7fdf8bfd"
+    bytes: 1185005
+    sha256: "9d7d210e661d8aae84601157448645875611fd61a4b717a1860b7335c86970ef"
     first: "C"
     last: "CyubeVR"
   - path: "d.yaml"
@@ -97,17 +97,17 @@ shards:
   - path: "g.yaml"
     key: "G"
     group: "letter"
-    games: 1920
-    bytes: 617778
-    sha256: "813fbfc5165d8c2a61c47c22f15829aa721ef8f30fe677abba93af315dc89749"
+    games: 1921
+    bytes: 617847
+    sha256: "1f3fea70f07f73c05ab268669727c22ddf80d8ee2fc6f408adbe8d001f4f314c"
     first: "G Prime"
     last: "Géants disparus VR"
   - path: "h.yaml"
     key: "H"
     group: "letter"
-    games: 2181
-    bytes: 712747
-    sha256: "2aa47247fb4d229df6cb2896c45d1b76b5f516c79eddf8ba1912b00818198681"
+    games: 2183
+    bytes: 712902
+    sha256: "991778e8c9bb1fc036dfaa2e991510fe82332fc91c2b68b81230e45c385801d2"
     first: "H Chan: Girl"
     last: "Höllenjob"
   - path: "i.yaml"
@@ -121,9 +121,9 @@ shards:
   - path: "j.yaml"
     key: "J"
     group: "letter"
-    games: 561
-    bytes: 174733
-    sha256: "32914625c149f4cc2cde675f9a77929a021b9548118b458034599c13d1414147"
+    games: 562
+    bytes: 175145
+    sha256: "375f7c5dfa2b01ba5a01e3d16bf17cb2b262895549ba5d3a72a40b897fd53a99"
     first: "J Connect"
     last: "Jydge"
   - path: "k.yaml"
@@ -146,16 +146,16 @@ shards:
     key: "M"
     group: "letter"
     games: 3179
-    bytes: 1025361
-    sha256: "3b3e7bfcc7c37b9fd343e46e5cd78ea8f86508acf4287dac16756370789cb87d"
+    bytes: 1025377
+    sha256: "ea3871208e4996881a9724241447853590455ce37d435c92cf42a9712c87f730"
     first: "M Mania"
     last: "Möbius Front '83"
   - path: "n.yaml"
     key: "N"
     group: "letter"
-    games: 1341
-    bytes: 438206
-    sha256: "d95e32b1ca21d20097c0e15f1321c0f7bf4dc14573b0961a97421b53a35b97b3"
+    games: 1342
+    bytes: 438351
+    sha256: "48efdce6080b7c48f32c40e2964ecd46ed602f1dbc18b025c11df8d41103ef3c"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
@@ -202,16 +202,16 @@ shards:
     key: "SYMBOLS"
     group: "symbols"
     games: 37
-    bytes: 11610
-    sha256: "2c18b2d8055c7d64e5902bb9b68f0e18f55a0abbbae50f772fed3a1a1ed35257"
+    bytes: 11236
+    sha256: "6956b45f60dac2036f347ecaf6c71f160fb54209f93fbfbabd59fcdac7b513d8"
     first: "! That Bastard Is Trying To Steal Our Gold !"
     last: "＜/reality＞"
   - path: "t.yaml"
     key: "T"
     group: "letter"
-    games: 5529
-    bytes: 1942258
-    sha256: "fcfffe5d603820e9e3649fb6442c0cd22377358c296495963b2b799bb1c42b3e"
+    games: 5530
+    bytes: 1942627
+    sha256: "e5deef00080d720fffbbda76d449acd595332bf37e5267ba2492ddde6035e780"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"
@@ -233,9 +233,9 @@ shards:
   - path: "v.yaml"
     key: "V"
     group: "letter"
-    games: 935
-    bytes: 259607
-    sha256: "0d63173dcdcfc17fba0101287fa22fa51974d92ceed2190e350b5df84483d83c"
+    games: 936
+    bytes: 259840
+    sha256: "c3b46aa7e7a94bec6a851ab7f0e12dc6e4361e4d7f139f1af281853654899d5d"
     first: "V"
     last: "Vzerthos: The Heir of Thunder"
   - path: "w.yaml"
