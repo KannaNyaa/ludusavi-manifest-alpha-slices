@@ -54429,6 +54429,16 @@ The Spatials:
             store: steam
   steam:
     id: 450700
+"The Spectre Files: Deathstalker":
+  installDir:
+    The Spectre Files Deathstalker: {}
+  launch:
+    "<base>/SpectreFiles.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1356760
 The Spectrum Retreat:
   cloud:
     epic: true

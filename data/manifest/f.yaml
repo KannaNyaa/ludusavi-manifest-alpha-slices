@@ -12447,10 +12447,18 @@ Femboy Besties:
   steam:
     id: 1572450
 Femboy Futa House:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Femboy Futa House":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     FEMBOY FUTA HOUSE: {}
   launch:
-    "<base>/FEMBOY FUTA HOUSE/FEMBOY FUTA HOUSE.exe":
+    "<base>/FEMBOY FUTA HOUSE.exe":
       - when:
           - bit: 64
             os: windows

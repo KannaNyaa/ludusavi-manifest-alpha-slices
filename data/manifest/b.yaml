@@ -43279,11 +43279,15 @@ Brok the InvestiGator:
       - 1129298921
       - 1191894002
       - 1428415487
-      - 1611369673
       - 2127411015
     lutris: brok-the-investigator
     steamExtra:
       - 1318790
+      - 1538690
+      - 2116310
+      - 2156870
+      - 2931330
+      - 4309650
   installDir:
     Brok: {}
   launch:
@@ -43301,6 +43305,13 @@ Brok the InvestiGator:
             store: steam
   steam:
     id: 949480
+"Brok: The Brawl Bar":
+  cloud:
+    steam: true
+  gog:
+    id: 1611369673
+  id:
+    lutris: brok-the-investigator-the-brawl-bar
 Broke Girl:
   steam:
     id: 1077580

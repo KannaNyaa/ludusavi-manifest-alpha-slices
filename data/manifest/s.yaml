@@ -101760,6 +101760,9 @@ Sébastien Loeb Rally EVO:
       tags:
         - config
         - save
+"Söldner: Secret Wars":
+  id:
+    lutris: soldner-secret-wars--1
 "Söldner: Secret Wars Remastered":
   cloud:
     steam: true

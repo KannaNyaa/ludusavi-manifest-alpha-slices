@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-24T23:19:09Z"
+generatedAt: "2026-10-25T08:30:01Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"d3bc283f484b415a02111d524973673d1a99260a41c5a374c03702779d6f0d0e\""
+  etag: "\"76aa29cea0913c4e7ba808fd825b297f17f245febae865d9965c2817954b1713\""
   lastModified: ""
-  sha256: "aa0117747b78c3157fd3f933d937ba17d721950975b49d45194ef38340fa11b0"
-  sizeBytes: 17717464
-  lines: 882790
+  sha256: "a7a1128136741bedd458a00369f1e23676980eedcffecb50ad45d331d6259452"
+  sizeBytes: 17718062
+  lines: 882822
 
 manifest:
-  games: 53401
+  games: 53404
   shards: 29
   files: 30
-  bytes: 17717576
-  withSaveTag: 13593
+  bytes: 17718174
+  withSaveTag: 13594
   sections:
     alias: 1121
-    cloud: 15700
-    files: 22505
-    gog: 5587
-    id: 10126
-    installDir: 43858
-    launch: 39609
+    cloud: 15702
+    files: 22506
+    gog: 5588
+    id: 10128
+    installDir: 43859
+    launch: 39610
     registry: 2844
-    steam: 49239
+    steam: 49240
 
 sharding:
   rule: "first-character"
@@ -49,9 +49,9 @@ shards:
   - path: "b.yaml"
     key: "B"
     group: "letter"
-    games: 2991
-    bytes: 983113
-    sha256: "a059f505e4a75ee23fd63057f609e818a1cc47aad5d8bb5812981f379d6f6022"
+    games: 2992
+    bytes: 983302
+    sha256: "638317becd268fcf342f44319845fe916084732dc332f7484d73447ade101e17"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -90,8 +90,8 @@ shards:
     key: "F"
     group: "letter"
     games: 2252
-    bytes: 760469
-    sha256: "18a4b502989065dacdc685ca31d10ac5b9657b380d5d4d36f5862cf46cea7236"
+    bytes: 760595
+    sha256: "bdd655b225b17d8fcb4d32b74691c42322e3eb1434a5e557c644752d71dd7062"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
@@ -193,9 +193,9 @@ shards:
   - path: "s.yaml"
     key: "S"
     group: "letter"
-    games: 5921
-    bytes: 2055023
-    sha256: "af16b122a4811115ac855744846d997308aa849704560d0b2a4e66fd2415dc8b"
+    games: 5922
+    bytes: 2055089
+    sha256: "84717931b2b35101d13dd4e799adcb7bc3dbb228095441e6615ddec889174f29"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -209,9 +209,9 @@ shards:
   - path: "t.yaml"
     key: "T"
     group: "letter"
-    games: 5528
-    bytes: 1942041
-    sha256: "e0a3850849c3d2b005cd2b29b23bf2b4962d78e287916a61ce5bf8cf25f7472d"
+    games: 5529
+    bytes: 1942258
+    sha256: "fcfffe5d603820e9e3649fb6442c0cd22377358c296495963b2b799bb1c42b3e"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"
