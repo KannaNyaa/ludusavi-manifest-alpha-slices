@@ -6897,6 +6897,10 @@ Car Parking Multiplayer 2:
       - when:
           - os: windows
             store: steam
+    "<base>/CarParking2.app":
+      - when:
+          - os: mac
+            store: steam
   steam:
     id: 4252340
 Car Puzzler:

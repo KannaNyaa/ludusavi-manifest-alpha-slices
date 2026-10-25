@@ -89965,6 +89965,11 @@ Tropico 4:
         - save
       when:
         - os: mac
+    "<winAppData>/Tropico 4/Users.lua":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winAppData>/Tropico 4/users":
       tags:
         - save

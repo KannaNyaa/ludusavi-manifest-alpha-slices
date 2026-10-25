@@ -6839,6 +6839,9 @@ Barbie Fashion Designer:
         - os: windows
   id:
     lutris: barbie-horse-adventures-riding-camp
+Barbie Horse Ride & Rescue:
+  steam:
+    id: 4436840
 Barbie Horse Trails:
   files:
     "<home>/AppData/LocalLow/Outright Games Ltd/Barbie":

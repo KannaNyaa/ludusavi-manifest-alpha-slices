@@ -21290,7 +21290,6 @@ High on Life 2:
         - os: windows
     "<winLocalAppData>/Packages/2637SquanchGamesInc.HighOnLife2_mh7dg3tfmz2cj/SystemAppData":
       tags:
-        - config
         - save
       when:
         - os: windows
