@@ -916,6 +916,17 @@ NBA 2K26:
           - store: steam
   steam:
     id: 3472040
+NBA 2K27:
+  cloud:
+    steam: true
+  installDir:
+    NBA 2K27: {}
+  launch:
+    "<base>/start_protected_game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4356430
 NBA 2K9:
   installDir:
     NBA 2K9: {}

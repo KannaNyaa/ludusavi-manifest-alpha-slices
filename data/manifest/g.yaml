@@ -14257,10 +14257,19 @@ Gloomgrave:
   installDir:
     Gloomgrave: {}
   launch:
+    "<base>/Gloomgrave.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Gloomgrave.exe":
       - when:
           - bit: 64
             os: windows
+            store: steam
+    "<base>/Gloomgrave_x86_64":
+      - when:
+          - bit: 64
+            os: linux
             store: steam
   steam:
     id: 1907000

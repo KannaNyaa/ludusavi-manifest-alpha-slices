@@ -6601,6 +6601,11 @@ Impossible Jumpy Quest:
             store: steam
   steam:
     id: 787050
+Impossible Mission II:
+  installDir:
+    Impossible Mission II: {}
+  steam:
+    id: 1400680
 Impossible Quest:
   cloud:
     steam: true

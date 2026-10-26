@@ -49781,6 +49781,21 @@ Mysterium:
             store: steam
   steam:
     id: 438560
+"Mystery Case Files: Huntsville":
+  files:
+    HKEY_CURRENT_USER/Software/Big Fish Games/Games/Mystery Case Files - Huntsville:
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Mystery Case Files Huntsville: {}
+  launch:
+    "<base>/Huntsville.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 50960
 "Mystery Case Files: Key to Ravenhearst":
   installDir:
     "Mystery Case Files Key to Ravenhearst Collector's Edition": {}

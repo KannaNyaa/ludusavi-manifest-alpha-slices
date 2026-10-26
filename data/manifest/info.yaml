@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-25T23:18:49Z"
+generatedAt: "2026-10-26T09:02:01Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"cab5a7dae642514763a55acbd71b42c851a1a43e4f4678b2c09c22c7bccdcc66\""
+  etag: "\"103b6866fbe211a34b2ae8c8a2deaf3e6e51e4dc5d42ed5396d55daad521a631\""
   lastModified: ""
-  sha256: "5fb6bca0365fcde8c8a72a75503d2ea99285797a4a80b48f9d9fdd2fcdaf50d9"
-  sizeBytes: 17721110
-  lines: 882998
+  sha256: "9ea737f2594a4150d51b28cd02f87b192b2407f193766f245623b13a0e743e65"
+  sizeBytes: 17721924
+  lines: 883038
 
 manifest:
-  games: 53416
+  games: 53419
   shards: 29
   files: 30
-  bytes: 17721222
-  withSaveTag: 13596
+  bytes: 17722036
+  withSaveTag: 13597
   sections:
     alias: 1123
-    cloud: 15708
-    files: 22511
+    cloud: 15709
+    files: 22512
     gog: 5593
     id: 10139
-    installDir: 43863
-    launch: 39614
+    installDir: 43866
+    launch: 39616
     registry: 2844
-    steam: 49250
+    steam: 49253
 
 sharding:
   rule: "first-character"
@@ -98,8 +98,8 @@ shards:
     key: "G"
     group: "letter"
     games: 1921
-    bytes: 617847
-    sha256: "1f3fea70f07f73c05ab268669727c22ddf80d8ee2fc6f408adbe8d001f4f314c"
+    bytes: 618048
+    sha256: "007fe2c2cd38ab93f10009b79e272e209d2410f81556826a7d6ccfe816139e30"
     first: "G Prime"
     last: "Géants disparus VR"
   - path: "h.yaml"
@@ -113,9 +113,9 @@ shards:
   - path: "i.yaml"
     key: "I"
     group: "letter"
-    games: 1212
-    bytes: 399043
-    sha256: "f0bb3f869ba2447a5c639df0ef619bc1304cf2b6043645bded93e6872d28c3ab"
+    games: 1213
+    bytes: 399135
+    sha256: "4e33bd978fd3f4003a92a83a6c8c9665e854ddc7cb57b363e614c1eb2081048f"
     first: "I (Don't) Hate Hentai Puzzles"
     last: "I・S・U"
   - path: "j.yaml"
@@ -145,17 +145,17 @@ shards:
   - path: "m.yaml"
     key: "M"
     group: "letter"
-    games: 3179
-    bytes: 1025448
-    sha256: "1f6f2de09103241e8c96b2ff4337bf947d46545ce1fead22dd4e2633d7a16c6f"
+    games: 3180
+    bytes: 1025790
+    sha256: "602a82e818caaef6e6bed04f19caa1e01d079eb212d897a24850ff9435ddfa48"
     first: "M Mania"
     last: "Möbius Front '83"
   - path: "n.yaml"
     key: "N"
     group: "letter"
-    games: 1342
-    bytes: 438564
-    sha256: "4044932606b29404ca350ea55606c51f6e13da72688c869d2149267f0b7eaf40"
+    games: 1343
+    bytes: 438743
+    sha256: "21540fb519e33437c3b00b84f9a89c6d32865c2d606747ee8a1e123b4d4b319f"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
