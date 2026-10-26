@@ -40956,6 +40956,12 @@ Break the Empire:
           - store: steam
   steam:
     id: 2975180
+Break the Piñatas:
+  id:
+    steamExtra:
+      - 5211050
+  steam:
+    id: 5210430
 Break the Targets:
   cloud:
     steam: true

@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-26T09:02:01Z"
+generatedAt: "2026-10-26T16:10:14Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"103b6866fbe211a34b2ae8c8a2deaf3e6e51e4dc5d42ed5396d55daad521a631\""
+  etag: "\"5fba282a7540a6d00478d2c6339d7b872275b8181e2b9a9e13c1545153051d5e\""
   lastModified: ""
-  sha256: "9ea737f2594a4150d51b28cd02f87b192b2407f193766f245623b13a0e743e65"
-  sizeBytes: 17721924
-  lines: 883038
+  sha256: "523595e826e70f5b00ffa4c77303c35054e10064e8e8f90fdab9fd1feaa738b3"
+  sizeBytes: 17722146
+  lines: 883051
 
 manifest:
-  games: 53419
+  games: 53421
   shards: 29
   files: 30
-  bytes: 17722036
+  bytes: 17722258
   withSaveTag: 13597
   sections:
     alias: 1123
     cloud: 15709
     files: 22512
     gog: 5593
-    id: 10139
+    id: 10141
     installDir: 43866
     launch: 39616
     registry: 2844
-    steam: 49253
+    steam: 49255
 
 sharding:
   rule: "first-character"
@@ -49,9 +49,9 @@ shards:
   - path: "b.yaml"
     key: "B"
     group: "letter"
-    games: 2993
-    bytes: 983355
-    sha256: "58710c85ab0aa42c53e083f8f4d4b39ffed2788578c4dade024ed3206920313b"
+    games: 2994
+    bytes: 983438
+    sha256: "d3194e6b0644f067027d71a737d1fe9347f5df3a1efe4d7043a4fc682257977b"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -145,9 +145,9 @@ shards:
   - path: "m.yaml"
     key: "M"
     group: "letter"
-    games: 3180
-    bytes: 1025790
-    sha256: "602a82e818caaef6e6bed04f19caa1e01d079eb212d897a24850ff9435ddfa48"
+    games: 3181
+    bytes: 1025929
+    sha256: "3b80c618f2223b5ed0cd560ad8d80ec4a1d8a069f1d35effeb2e000d49280be5"
     first: "M Mania"
     last: "Möbius Front '83"
   - path: "n.yaml"
