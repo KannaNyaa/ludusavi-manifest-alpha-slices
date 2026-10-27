@@ -15503,6 +15503,29 @@ Afterparty:
         - config
   steam:
     id: 762220
+"Aftershock: Coastline":
+  files:
+    "<home>/AppData/LocalLow/Alex Rassloff/Aftershock_ Coastline/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: aftershock-coastline
+  installDir:
+    Aftershock Coastline: {}
+  launch:
+    "<base>/Aftershock Coastline.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/Alex Rassloff/Aftershock: Coastline":
+      tags:
+        - config
+  steam:
+    id: 2450040
 Again:
   steam:
     id: 810570

@@ -13338,8 +13338,23 @@ Phantom Astronaut Lucid VR:
   steam:
     id: 1146810
 Phantom Blade Zero:
+  cloud:
+    steam: true
+  files:
+    "<base>/ProjectPBZ/Saved/SaveGames/Steam/<storeUserId>/**/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: phantom-blade-0
+  installDir:
+    PBZ: {}
+  launch:
+    "<base>/steam/PBZ.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4115450
 Phantom Brave PC:

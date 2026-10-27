@@ -83901,9 +83901,16 @@ Stupid Raft Battle Simulator:
   gog:
     id: 1777704954
   id:
+    gogExtra:
+      - 1411519552
+      - 1729223972
+      - 1947569167
+      - 2108929928
     lutris: stygian-outer-gods
     steamExtra:
       - 4060460
+      - 5404580
+      - 5445690
   installDir:
     Stygian - Outer Gods: {}
   launch:

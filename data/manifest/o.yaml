@@ -7686,6 +7686,9 @@ One More Roll:
             store: steam
   steam:
     id: 911520
+One Mote:
+  steam:
+    id: 5480410
 One Move Away:
   files:
     "<home>/AppData/LocalLow/Ramage Games/One Move Away/<storeUserId>/*.sav":

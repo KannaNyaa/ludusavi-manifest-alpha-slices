@@ -25300,6 +25300,9 @@ Ring the City:
             store: steam
   steam:
     id: 1070320
+Ringfort:
+  steam:
+    id: 5480400
 Ringies:
   installDir:
     Ringies: {}

@@ -14519,6 +14519,17 @@ Glory of Deep Skies:
         - os: windows
   id:
     lutris: touhou-mukyuushi-glory-of-deep-skies
+Glory of the Heroes:
+  installDir:
+    Glory to the Heroes: {}
+  launch:
+    "<base>/GloryToTheHeroes.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2239670
 Glory of the Self-Styled Diehard Girl:
   installDir:
     Glory of the Self-Styled Diehard girl: {}

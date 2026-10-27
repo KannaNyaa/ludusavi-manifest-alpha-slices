@@ -4467,6 +4467,9 @@ Ecotone:
   steam:
     id: 446070
 Ecstatica:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<base>/saved":
       tags:
@@ -4477,9 +4480,25 @@ Ecstatica:
         - os: windows
   gog:
     id: 1333226285
+  id:
+    gogExtra:
+      - 1335460878
+      - 1942439921
+    steamExtra:
+      - 5418140
+      - 5418150
+  installDir:
+    Ecstatica: {}
+  launch:
+    "<base>/Ecstatica.exe":
+      - when:
+          - store: steam
   steam:
     id: 4834840
 Ecstatica II:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<base>/saved":
       tags:
@@ -4490,6 +4509,12 @@ Ecstatica II:
         - os: windows
   gog:
     id: 1434747230
+  installDir:
+    Ecstatica II: {}
+  launch:
+    "<base>/Ecstatica II.exe":
+      - when:
+          - store: steam
   steam:
     id: 4834850
 Ectolibrium:

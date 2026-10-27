@@ -9110,19 +9110,14 @@ Dawn of Magic 2:
     id: 1839978015
   id:
     lutris: dawn-of-magic-2
+    steamExtra:
+      - 33550
   installDir:
     Dawn of Magic II: {}
   launch:
-    "<base>/launcher-ia32.exe":
+    "<base>/dawnofmagic2.exe":
       - when:
-          - bit: 32
-            os: windows
-            store: steam
-    "<base>/launcher-x64.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
+          - store: steam
   steam:
     id: 33540
 Dawn of Man:
