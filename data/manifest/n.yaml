@@ -8083,6 +8083,18 @@ Neon Boost:
         - config
       when:
         - os: windows
+  installDir:
+    Neon Breaker: {}
+  launch:
+    "<base>/Neon Breaker.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/NeonBreaker.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 5054650
 Neon Brood:

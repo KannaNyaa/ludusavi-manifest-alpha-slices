@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-27T09:05:31Z"
+generatedAt: "2026-10-27T15:24:08Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,26 +9,26 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"f41d582031caafd31fe9af1ce9d3818d63fe6f9e5e9baec7f5fbb9e52a077ca5\""
+  etag: "\"ef3b5100e3a990fc8e5108660f40ec71d822687ec6e7322eddb7c72e9c69a0c1\""
   lastModified: ""
-  sha256: "54826bdd79226d179ff4d2adcc36286c619377fb77781637e9bc7edd8ee990bc"
-  sizeBytes: 17724635
-  lines: 883183
+  sha256: "d01d74e9f331a0d794a9eeb076bfc0cac3589ec857e7a3e19db96d34d87cbb03"
+  sizeBytes: 17724970
+  lines: 883199
 
 manifest:
   games: 53428
   shards: 29
   files: 30
-  bytes: 17724747
+  bytes: 17725082
   withSaveTag: 13599
   sections:
     alias: 1123
     cloud: 15712
     files: 22515
     gog: 5593
-    id: 10151
-    installDir: 43871
-    launch: 39621
+    id: 10153
+    installDir: 43872
+    launch: 39622
     registry: 2845
     steam: 49262
 
@@ -154,8 +154,8 @@ shards:
     key: "N"
     group: "letter"
     games: 1343
-    bytes: 439077
-    sha256: "a25d65e5d818b96e3f9a1cde9fd876ee8d9337b63f0e9b3d70ed5df15922ccbc"
+    bytes: 439325
+    sha256: "6461afa9d01c77430a6c5ec8859f8a20bbfd5e0e7546286184a4cd0b201cc557"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
@@ -242,8 +242,8 @@ shards:
     key: "W"
     group: "letter"
     games: 1711
-    bytes: 585767
-    sha256: "2e598c8e839bcb528a238f10bdeda8f7cf4bc6f02af0b34bc7bf8e4896d36c15"
+    bytes: 585854
+    sha256: "90d03772ac158f792c0e93d2291bbde49797ca72ba989e44d035d729b33d6ab4"
     first: "W. T. B."
     last: "Włatcy móch: Wrzód na dópie"
   - path: "x.yaml"
