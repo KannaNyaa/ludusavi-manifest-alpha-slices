@@ -908,6 +908,8 @@ NBA 2K25:
 NBA 2K26:
   cloud:
     steam: true
+  id:
+    lutris: nba-2k26
   installDir:
     NBA 2K26: {}
   launch:
@@ -919,6 +921,18 @@ NBA 2K26:
 NBA 2K27:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/2K Sports/NBA 2K27/VideoSettings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Packages/79ACB67D.NBA2K27PC_yn88nk35a38zw/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   installDir:
     NBA 2K27: {}
   launch:

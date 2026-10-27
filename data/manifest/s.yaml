@@ -48780,6 +48780,7 @@ Song of Farca:
     id: 1435670
 Song of Horror:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -48796,6 +48797,7 @@ Song of Horror:
   gog:
     id: 1957403324
   id:
+    lutris: song-of-horror
     steamExtra:
       - 1151730
       - 1157230

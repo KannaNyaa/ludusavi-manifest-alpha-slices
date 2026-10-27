@@ -334,6 +334,8 @@ D3D Inside:
 "D: The Game":
   gog:
     id: 1852354510
+  id:
+    lutris: d-the-game
   installDir:
     D: {}
   launch:

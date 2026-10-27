@@ -15788,13 +15788,22 @@ Reka:
         - os: windows
   id:
     lutris: reka
+    steamExtra:
+      - 1783630
+      - 3179550
   installDir:
     Reka: {}
   launch:
     "<base>/Reka.exe":
-      - when:
-          - os: windows
-            store: steam
+      - arguments: "-force-d3d11"
+        when:
+          - store: steam
+      - arguments: "-force-d3d12"
+        when:
+          - store: steam
+      - arguments: "-force-vulkan"
+        when:
+          - store: steam
   steam:
     id: 1737870
 Rekindling:

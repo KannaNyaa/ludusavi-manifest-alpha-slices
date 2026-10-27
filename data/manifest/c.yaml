@@ -1246,6 +1246,8 @@ CS2D:
         - save
       when:
         - os: windows
+  id:
+    lutris: csi-hard-evidence
   installDir:
     CSI Hard Evidence: {}
   launch:
@@ -1255,6 +1257,8 @@ CS2D:
   steam:
     id: 21730
 "CSI: NY - The Game":
+  id:
+    lutris: csi-ny-the-game
   installDir:
     CSI New York: {}
   launch:

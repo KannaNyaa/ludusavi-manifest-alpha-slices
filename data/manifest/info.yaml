@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-26T16:10:14Z"
+generatedAt: "2026-10-27T00:30:01Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"5fba282a7540a6d00478d2c6339d7b872275b8181e2b9a9e13c1545153051d5e\""
+  etag: "\"111fda13b77f124b1e124e3dbbe5eba94c35ccc426832e740f8c2c0f3bb53f23\""
   lastModified: ""
-  sha256: "523595e826e70f5b00ffa4c77303c35054e10064e8e8f90fdab9fd1feaa738b3"
-  sizeBytes: 17722146
-  lines: 883051
+  sha256: "24252d45c63b9bc4e77d080b0a50b12e64c4aacf67ae436d4e1f554314a29c9c"
+  sizeBytes: 17723075
+  lines: 883098
 
 manifest:
-  games: 53421
+  games: 53423
   shards: 29
   files: 30
-  bytes: 17722258
-  withSaveTag: 13597
+  bytes: 17723187
+  withSaveTag: 13598
   sections:
     alias: 1123
     cloud: 15709
-    files: 22512
+    files: 22513
     gog: 5593
-    id: 10141
+    id: 10149
     installDir: 43866
     launch: 39616
     registry: 2844
-    steam: 49255
+    steam: 49257
 
 sharding:
   rule: "first-character"
@@ -58,24 +58,24 @@ shards:
     key: "C"
     group: "letter"
     games: 3499
-    bytes: 1185094
-    sha256: "c420a254d27a0a9ed896f74dbe0083256b9b25f955459c9672fd0e0a497d4f09"
+    bytes: 1185164
+    sha256: "881d7766308ffeddc4edab887e33de786197d3f7504d18fd2ec732440edea057"
     first: "C"
     last: "CyubeVR"
   - path: "d.yaml"
     key: "D"
     group: "letter"
     games: 3445
-    bytes: 1161122
-    sha256: "61303167a124db4ac31418fb7eb34339779300f7f4ab5eecf2811da3615e7648"
+    bytes: 1161151
+    sha256: "462a3a14de47491fe5783aa76750e7d552fcc79eb8d455e9c976695adc3f7b5f"
     first: "D Series Off Road Racing Simulation"
     last: "Dōkyūsei: Bangin' Summer"
   - path: "digits.yaml"
     key: "0-9"
     group: "digits"
-    games: 447
-    bytes: 150495
-    sha256: "d7453edf7d7d9cddb88f6af76d2b1f5636fc5fed11bd4bb38c48ba5416808f6c"
+    games: 448
+    bytes: 150566
+    sha256: "e2de32e083c6b6fba66ff42b78ea6e6b82067d8a8d6e5d01a4d6616ca1efe1ab"
     first: "0 A.D."
     last: "9th Dawn III"
   - path: "e.yaml"
@@ -106,8 +106,8 @@ shards:
     key: "H"
     group: "letter"
     games: 2184
-    bytes: 712919
-    sha256: "4a9face936e1ea07f94ff945239ea660db19d882afb47c4c4b288b3cab3f68b3"
+    bytes: 713027
+    sha256: "725108f174c0b1df00091c1f89b919ea59ea307c651265e0735f7843bb848d7c"
     first: "H Chan: Girl"
     last: "Höllenjob"
   - path: "i.yaml"
@@ -154,8 +154,8 @@ shards:
     key: "N"
     group: "letter"
     games: 1343
-    bytes: 438743
-    sha256: "21540fb519e33437c3b00b84f9a89c6d32865c2d606747ee8a1e123b4d4b319f"
+    bytes: 439077
+    sha256: "a25d65e5d818b96e3f9a1cde9fd876ee8d9337b63f0e9b3d70ed5df15922ccbc"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
@@ -186,16 +186,16 @@ shards:
     key: "R"
     group: "letter"
     games: 2481
-    bytes: 816161
-    sha256: "2c1ec5ba259091d74156336523e120620227af3b47a40935dc8c0308090f5817"
+    bytes: 816366
+    sha256: "012560097b73718f8b170b6af389e7931f0f887307209c27229ea7e9586cb878"
     first: "R Academy"
     last: "RŌA"
   - path: "s.yaml"
     key: "S"
     group: "letter"
     games: 5923
-    bytes: 2055558
-    sha256: "b5fa350806564050687c490895e56596f5eaf6e8b8cb8a6d95a442592ba4cfb2"
+    bytes: 2055600
+    sha256: "5e423fe4fc9bf5436c4f63d60a982acd182587c8d0c18cf53397b1093aeeb6f6"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -209,9 +209,9 @@ shards:
   - path: "t.yaml"
     key: "T"
     group: "letter"
-    games: 5530
-    bytes: 1942837
-    sha256: "586c2971a07ce3fa0eeb19e5e9aa101545a047d30a19be2e9618b1f68d87be71"
+    games: 5531
+    bytes: 1942907
+    sha256: "aa4dec41d0720ec274a58298e66ce416af6e72ea338dd7e8be72b8e871998ec9"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"

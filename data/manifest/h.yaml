@@ -28743,6 +28743,8 @@ Hot Wheels Unleashed:
         - save
       when:
         - os: windows
+  id:
+    lutris: hot-wheels-unleashedtm-2-turbocharged
   installDir:
     HOT WHEELS UNLEASHED™ 2 - Turbocharged: {}
   launch:
@@ -28782,6 +28784,8 @@ Hot Wheels World Race:
         - save
       when:
         - os: windows
+  id:
+    lutris: hot-wheelstm-worlds-best-drivertm
   installDir:
     Hot Wheels WBD: {}
   launch:

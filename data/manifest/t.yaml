@@ -91527,6 +91527,12 @@ Tube Tycoon:
             store: steam
   steam:
     id: 611040
+Tube2K:
+  id:
+    steamExtra:
+      - 4907870
+  steam:
+    id: 756510
 TubeLife:
   cloud:
     steam: true
