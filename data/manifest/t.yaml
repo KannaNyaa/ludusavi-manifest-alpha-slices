@@ -1750,6 +1750,9 @@ TTT Classic:
     "<base>/ttt/karma.txt":
       when:
         - store: steam
+    "<base>/ttt/sprays/*.wad":
+      when:
+        - store: steam
     "<base>/ttt/voice_ban.dt":
       when:
         - store: steam
@@ -1757,12 +1760,17 @@ TTT Classic:
       when:
         - store: steam
   installDir:
-    TTT Classic: {}
+    TTTClassic: {}
   launch:
     "<base>/ttt.exe":
-      - arguments: "-game ttt -gl -steam -secure"
+      - arguments: "-game ttt -gl -steam -secure -addons"
         when:
           - os: windows
+            store: steam
+    "<base>/ttt.sh":
+      - arguments: "-steam -game ttt -addons -gl -secure"
+        when:
+          - os: linux
             store: steam
   steam:
     id: 4570530
@@ -40344,6 +40352,21 @@ The Legend of Viccess:
         - config
       when:
         - os: windows
+        - os: linux
+    "<xdgData>/soh/Save/file*.sav":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/soh/Save/global.sav":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgData>/soh/shipofharkinian.json":
+      tags:
+        - config
+      when:
         - os: linux
 "The Legend of Zelda: Ocarina of Time (Ship of Harkinian/unofficial PC port)":
   alias: "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)"

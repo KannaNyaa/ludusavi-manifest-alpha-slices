@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-27T15:24:08Z"
+generatedAt: "2026-10-28T00:33:07Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"ef3b5100e3a990fc8e5108660f40ec71d822687ec6e7322eddb7c72e9c69a0c1\""
+  etag: "\"bdc366a3436d0cec66f421ed01a7f2ab37de83d6670615c9e15162d722bb5798\""
   lastModified: ""
-  sha256: "d01d74e9f331a0d794a9eeb076bfc0cac3589ec857e7a3e19db96d34d87cbb03"
-  sizeBytes: 17724970
-  lines: 883199
+  sha256: "525de0f970cb07f4b6f1d19f273ec5529b434111a348d5db412418b4daf45396"
+  sizeBytes: 17729188
+  lines: 883398
 
 manifest:
-  games: 53428
+  games: 53432
   shards: 29
   files: 30
-  bytes: 17725082
-  withSaveTag: 13599
+  bytes: 17729300
+  withSaveTag: 13603
   sections:
     alias: 1123
-    cloud: 15712
-    files: 22515
-    gog: 5593
-    id: 10153
-    installDir: 43872
-    launch: 39622
-    registry: 2845
-    steam: 49262
+    cloud: 15713
+    files: 22523
+    gog: 5595
+    id: 10154
+    installDir: 43880
+    launch: 39630
+    registry: 2846
+    steam: 49265
 
 sharding:
   rule: "first-character"
@@ -42,8 +42,8 @@ shards:
     key: "A"
     group: "letter"
     games: 3311
-    bytes: 1108464
-    sha256: "9d18d5a771822b955462d92233cae25f4eab6ad74cdc7ac2f6ec3e0eced78408"
+    bytes: 1108694
+    sha256: "dc4718dd48b96667abcbf9d7a66bc873b66cb6e0055ae67a554121827a9e6ffd"
     first: "A Bastard's Tale"
     last: "Azusa RP Online"
   - path: "b.yaml"
@@ -58,16 +58,16 @@ shards:
     key: "C"
     group: "letter"
     games: 3499
-    bytes: 1185164
-    sha256: "881d7766308ffeddc4edab887e33de786197d3f7504d18fd2ec732440edea057"
+    bytes: 1185443
+    sha256: "578e4c06f6ce58b2ddcf25feb4998dd5bd42f07570a8c2e8a9e1f590e8767971"
     first: "C"
     last: "CyubeVR"
   - path: "d.yaml"
     key: "D"
     group: "letter"
     games: 3445
-    bytes: 1161022
-    sha256: "f52875b9fa3ce84de7bb04b1c714e338a679ffab7f6a134cd801e60d8d7139e2"
+    bytes: 1161630
+    sha256: "71429f4e96c5ea58888355fd7728c48b2a8cd3a6a2f94ac91b2bedfb5c606210"
     first: "D Series Off Road Racing Simulation"
     last: "Dōkyūsei: Bangin' Summer"
   - path: "digits.yaml"
@@ -97,9 +97,9 @@ shards:
   - path: "g.yaml"
     key: "G"
     group: "letter"
-    games: 1922
-    bytes: 618264
-    sha256: "6a4112930b0300923359e9c7c5de0be36887eca63e54fb635aa31d18662f9755"
+    games: 1923
+    bytes: 618745
+    sha256: "6c4a3a0c0c0c125305277e8e55b0512e75f51f1187b48ace994aaa54c1781a00"
     first: "G Prime"
     last: "Géants disparus VR"
   - path: "h.yaml"
@@ -138,32 +138,32 @@ shards:
     key: "L"
     group: "letter"
     games: 1827
-    bytes: 604681
-    sha256: "a73dbface46ab80c750347df477c00ef4608c9211879887429d3ea33b82c7d10"
+    bytes: 605089
+    sha256: "d366b7943c6a075a836e46eb2f487bf062afef5e8afd807f4d28f1f6ae7898c9"
     first: "L U N E"
     last: "Lá Camila: A VR Experience"
   - path: "m.yaml"
     key: "M"
     group: "letter"
     games: 3181
-    bytes: 1025929
-    sha256: "3b80c618f2223b5ed0cd560ad8d80ec4a1d8a069f1d35effeb2e000d49280be5"
+    bytes: 1025945
+    sha256: "d6711b9d19e68489ca455cf73dc27102a120c7bf9776e2d1516acfbc1379b265"
     first: "M Mania"
     last: "Möbius Front '83"
   - path: "n.yaml"
     key: "N"
     group: "letter"
     games: 1343
-    bytes: 439325
-    sha256: "6461afa9d01c77430a6c5ec8859f8a20bbfd5e0e7546286184a4cd0b201cc557"
+    bytes: 439599
+    sha256: "2989e1e0c4d5c9a45d3d8b2f26ce6708e0412b15c7adeb2c278a1817518e290d"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
     key: "O"
     group: "letter"
     games: 1078
-    bytes: 357887
-    sha256: "9a297e708c1766af65dc9f55f7f3cfe0e318ace892363ff9c8b0bf5661d9a651"
+    bytes: 357913
+    sha256: "c4aa663d4c8fe53c11ddb21b7513f37245c20f2c6dd41ab8d4959da21107966c"
     first: "O Rei"
     last: "Ozymandias"
   - path: "p.yaml"
@@ -177,25 +177,25 @@ shards:
   - path: "q.yaml"
     key: "Q"
     group: "letter"
-    games: 202
-    bytes: 71213
-    sha256: "f8473241098333434e4d72a78e44b741abc014ecca1e0370eb4d26f45715faf8"
+    games: 203
+    bytes: 71251
+    sha256: "b4a2b0fa685f696e4c4bfeced4d9cfa7656c658de257bb4191f3be94468977a9"
     first: "Q"
     last: "Qybe"
   - path: "r.yaml"
     key: "R"
     group: "letter"
-    games: 2482
-    bytes: 816401
-    sha256: "3efdaad223a20366142f6e00bea1130a68f1f93df01f3b68970f63707a675540"
+    games: 2483
+    bytes: 817028
+    sha256: "7ca469908236c4122d5394dfcd145380f304fce00a9b2004ebe9ad9a63802382"
     first: "R Academy"
     last: "RŌA"
   - path: "s.yaml"
     key: "S"
     group: "letter"
-    games: 5923
-    bytes: 2055722
-    sha256: "e768c7d8f7181575ee1c340ae4412fa431463bc9c2f8ad61be89b47cf710ed38"
+    games: 5924
+    bytes: 2056009
+    sha256: "20aab1929039b02e583611a5c12e94a887610fe28771463f17347a1dbc0afdaa"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -210,8 +210,8 @@ shards:
     key: "T"
     group: "letter"
     games: 5532
-    bytes: 1942951
-    sha256: "987ce91ca4c6f7ece7f6c32b70a0ec956fa72c4d29adad919f4fc4b4c5dc92b5"
+    bytes: 1943460
+    sha256: "82a126987e9767d182c4ea2971bac1009f20e057c6e5807c11028bbdbbaee587"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"
@@ -234,8 +234,8 @@ shards:
     key: "V"
     group: "letter"
     games: 936
-    bytes: 259840
-    sha256: "c3b46aa7e7a94bec6a851ab7f0e12dc6e4361e4d7f139f1af281853654899d5d"
+    bytes: 260141
+    sha256: "ca043be5f13df7ac4e0de80df91499b9f0f2affbe4c06aca45eb4ddee741104a"
     first: "V"
     last: "Vzerthos: The Heir of Thunder"
   - path: "w.yaml"
@@ -258,8 +258,8 @@ shards:
     key: "Y"
     group: "letter"
     games: 284
-    bytes: 100682
-    sha256: "0fdb278a345beb5ed173197b8384696cf4e1df975af058589bdede4e43a876f7"
+    bytes: 100816
+    sha256: "756c9b30d2edbed9d07a51ca1d2db003fa9f5a0ab5e2a2813b90c7392ae2d563"
     first: "YANKAI'S PEAK."
     last: "Yōdanji"
   - path: "z.yaml"

@@ -16806,6 +16806,16 @@ Link the animals:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Zelda_LA/achievements":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Zelda_LA/advanced":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Zelda_LA/settings":
       tags:
         - config
@@ -16814,6 +16824,16 @@ Link the animals:
     "<xdgData>/Zelda_LA/SaveFiles":
       tags:
         - save
+      when:
+        - os: linux
+    "<xdgData>/Zelda_LA/achievements":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/Zelda_LA/advanced":
+      tags:
+        - config
       when:
         - os: linux
     "<xdgData>/Zelda_LA/settings":

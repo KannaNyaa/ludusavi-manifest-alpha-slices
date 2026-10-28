@@ -16540,6 +16540,8 @@ Over the Hill:
         - config
       when:
         - os: windows
+  gog:
+    id: 1442763024
   id:
     lutris: over-the-hill
     steamExtra:

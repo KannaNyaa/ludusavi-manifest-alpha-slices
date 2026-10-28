@@ -2684,6 +2684,12 @@ You Are Empty:
         - save
       when:
         - os: windows
+  installDir:
+    You Are Empty Absolute Edition: {}
+  launch:
+    "<base>/you_are_empty.exe":
+      - when:
+          - store: steam
   steam:
     id: 4760480
 You Are God:

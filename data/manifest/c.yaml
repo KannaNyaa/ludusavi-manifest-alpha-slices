@@ -55633,6 +55633,19 @@ Cuit:
   steam:
     id: 614890
 Culdcept The First:
+  files:
+    "<home>/Saved Games/Culdcept The First/*.bin":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Culdcept The First: {}
+  launch:
+    "<base>/S-Tribute.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3825600
 "Culina: Hands in the Kitchen":

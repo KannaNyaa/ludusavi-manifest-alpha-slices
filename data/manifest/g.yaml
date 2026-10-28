@@ -8739,6 +8739,30 @@ Genius! NAZI-GIRL GoePPels-Chan ep3:
             store: steam
   steam:
     id: 1111220
+Gennady:
+  files:
+    "<winAppData>/Feed 64/Gennady/stable/345961400/controls.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Feed 64/Gennady/stable/345961400/savegame.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Feed 64/Gennady/stable/config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1268630104
+  id:
+    steamExtra:
+      - 5456610
+  steam:
+    id: 2430010
 Geno The Fallen King:
   installDir:
     Geno The Fallen King 1: {}

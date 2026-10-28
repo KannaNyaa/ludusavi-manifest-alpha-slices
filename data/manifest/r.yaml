@@ -16839,13 +16839,29 @@ Remorses:
 "Remothered: Red Nun's Legacy":
   cloud:
     epic: true
+    gog: true
     steam: true
+  files:
+    "<winLocalAppData>/Remothered3/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1933416452
   id:
     lutris: remothered-red-nuns-legacy
     steamExtra:
+      - 5312420
+      - 5312450
       - 5312670
+  installDir:
+    REMT: {}
+  launch:
+    "<base>/Remothered.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3335310
 "Remothered: Tormented Fathers":
@@ -20471,6 +20487,22 @@ Retro Racers 2:
             store: steam
   steam:
     id: 887870
+Retro Racing 2:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Mr Qwak/Retro Racing 2/player":
+      when:
+        - store: steam
+  installDir:
+    Retro Racing 2: {}
+  launch:
+    "<base>/retroracing_2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3739960
 Retro Racing City:
   steam:
     id: 1027110

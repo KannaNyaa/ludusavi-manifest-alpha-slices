@@ -51824,6 +51824,20 @@ SoulSet:
             store: steam
   steam:
     id: 589860
+SoulTrap:
+  files:
+    "<base>/Games":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/Software/Microforum/SoulTrap:
+      tags:
+        - config
+    HKEY_LOCAL_MACHINE/Software/WOW6432Node/Microforum/SoulTrap:
+      tags:
+        - config
 SoulWorker:
   installDir:
     Soulworker_GB: {}

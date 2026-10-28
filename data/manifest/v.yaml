@@ -9668,10 +9668,21 @@ Virtually Real Life:
   steam:
     id: 1209610
 Virtue and a Sledgehammer:
+  files:
+    "<base>/Sledgehammer/UserDir/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
   id:
     lutris: virtue-and-a-sledgehammer
     steamExtra:
       - 3743280
+  installDir:
+    Virtue and a Sledgehammer: {}
+  launch:
+    "<base>/Virtue and a Sledgehammer.exe":
+      - arguments: "-UserDir=\".\\UserDir\""
+        when:
+          - store: steam
   steam:
     id: 3743260
 Virtuelle Moorhuhn Jagd:

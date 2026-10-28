@@ -54353,9 +54353,16 @@ Ayakashigami:
   cloud:
     steam: true
   files:
-    "<base>/Aya/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Aya/Saved/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/Aya/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: ayasa-shadows-of-silence
     steamExtra:
@@ -54366,7 +54373,11 @@ Ayakashigami:
   launch:
     "<base>/Aya.exe":
       - when:
-          - bit: 64
+          - os: windows
+            store: steam
+    "<base>/Aya.sh":
+      - when:
+          - os: linux
             store: steam
   steam:
     id: 3146120

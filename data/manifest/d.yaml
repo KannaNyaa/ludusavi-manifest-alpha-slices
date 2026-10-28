@@ -14294,6 +14294,19 @@ Deadweight:
   steam:
     id: 3228590
 "Deadzone: Rogue 2":
+  files:
+    "<winLocalAppData>/Oak/Saved/Config/Windows":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Oak/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   steam:
     id: 4465790
 "Dealer's Life":
@@ -36085,6 +36098,19 @@ Dog Jam:
 "Dog Man: Bark in Action":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Floor 84 Studio/Dog Man_ Bark in Action/<storeUserId>/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Dog Man Bark in Action: {}
+  launch:
+    "<base>/Dog Man Bark in Action.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4782240
 "Dog Man: Mission Impawsible":

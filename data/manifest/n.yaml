@@ -18684,6 +18684,12 @@ Nomad Drive:
       - 4451030
       - 4568400
       - 5199100
+  installDir:
+    Nomad Drive: {}
+  launch:
+    "<base>/Nomad Drive.exe":
+      - when:
+          - store: steam
   steam:
     id: 2223980
 Nomad Fleet:
@@ -19634,6 +19640,13 @@ Northgard Battlegrounds:
   id:
     steamExtra:
       - 5090100
+  installDir:
+    Northgard Battlegrounds: {}
+  launch:
+    "<base>/Northgard Battlegrounds.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4487060
 Northland:
