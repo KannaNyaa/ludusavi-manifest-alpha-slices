@@ -19865,6 +19865,12 @@ Airport CEO:
 Airport Contraband:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/AirportContraband/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Airport Contraband: {}
   steam:
     id: 1167820
 Airport Fire Department - The Simulation:

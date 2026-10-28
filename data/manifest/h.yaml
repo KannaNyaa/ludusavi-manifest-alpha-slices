@@ -5236,6 +5236,8 @@ Happy Wars:
   steam:
     id: 246280
 Happy Wheels:
+  cloud:
+    steam: true
   files:
     "<winAppData>/HappyWheels":
       tags:

@@ -82229,6 +82229,8 @@ Strider (2014):
         - save
       when:
         - store: steam
+  id:
+    lutris: strider-2014
   installDir:
     Strider: {}
   launch:
@@ -100236,11 +100238,15 @@ Syberia 3:
         - save
       when:
         - os: windows
+        - os: windows
+          store: microsoft
     "<home>/AppData/LocalLow/Microids/Syberia3/Options":
       tags:
         - config
       when:
         - os: windows
+        - os: windows
+          store: microsoft
   gog:
     id: 1965973671
   id:

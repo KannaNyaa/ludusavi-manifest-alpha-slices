@@ -16842,13 +16842,24 @@ Remorses:
     gog: true
     steam: true
   files:
-    "<winLocalAppData>/Remothered3/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Remothered3/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/Remothered3/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   gog:
     id: 1933416452
   id:
+    gogExtra:
+      - 1362656589
+      - 1522902240
+      - 1722156069
     lutris: remothered-red-nuns-legacy
     steamExtra:
       - 5312420

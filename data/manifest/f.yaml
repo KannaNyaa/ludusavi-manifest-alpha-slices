@@ -34039,6 +34039,7 @@ Front Mission Evolved:
       when:
         - os: windows
   id:
+    lutris: front-mission-evolved
     steamExtra:
       - 43005
       - 43006

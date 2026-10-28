@@ -19368,6 +19368,11 @@ Winds of Trade:
             store: steam
   steam:
     id: 576260
+Winds of Viridia:
+  cloud:
+    steam: true
+  steam:
+    id: 5178570
 Windscape:
   files:
     "<home>/AppData/LocalLow/Headup/Windscape/Savegames":

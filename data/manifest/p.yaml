@@ -12623,6 +12623,9 @@ Petal Crash:
             store: steam
   steam:
     id: 1211110
+Petal Runner:
+  steam:
+    id: 2795110
 "Peter Jackson's King Kong":
   files:
     "<base>/KingKong.sav":
@@ -34266,6 +34269,17 @@ Probably Archery:
 Probably Stolen:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Questing Goose Studio/Probably Stolen/*.es3":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Probably Stolen: {}
+  launch:
+    "<base>/Probably Stolen.exe":
+      - when:
+          - store: steam
   steam:
     id: 4348910
 Procyon:

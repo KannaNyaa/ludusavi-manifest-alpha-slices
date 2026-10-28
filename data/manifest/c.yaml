@@ -15171,17 +15171,12 @@ Chained Beasts:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/Featherweight Games/ChainedBeasts/SaveData":
+    "<home>/AppData/LocalLow/Featherweight Games/ChainedBeasts":
+      tags:
+        - config
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/Featherweight Games/ChainedBeasts/SaveData":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/unity.Featherweight Games.ChainedBeasts/SaveData":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   installDir:
     Chained Beasts: {}
   launch:
@@ -40656,6 +40651,7 @@ Control Freak:
 Control Resonant:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<root>/userdata/<storeUserId>/3669870/remote":
@@ -40669,7 +40665,16 @@ Control Resonant:
         - config
       when:
         - os: windows
+  gog:
+    id: 1627372090
   id:
+    gogExtra:
+      - 1339377452
+      - 1454509523
+      - 1532195723
+      - 1723844482
+      - 1846427364
+      - 1885803931
     lutris: control-resonant--1
     steamExtra:
       - 4403940

@@ -1572,6 +1572,8 @@ MX vs. ATV Reflex:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: mx-vs-atv-reflex
   installDir:
     MX vs ATV Reflex: {}
   launch:
@@ -46643,6 +46645,9 @@ My Arctic Farm:
             store: steam
   steam:
     id: 1025390
+My Arms Are Longer Now:
+  steam:
+    id: 2646170
 My Beastly Lovers:
   files:
     "<home>/AppData/LocalLow/Holy Potato Studios":

@@ -3807,6 +3807,17 @@ Zombie Army VR:
     steamExtra:
       - 3929860
       - 4377450
+  installDir:
+    Zombie Assault: {}
+  launch:
+    "<base>/zombieassault.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zombieassault.exe":
+      - when:
+          - os: windows
+            store: steam
   registry:
     HKEY_CURRENT_USER/Software/Ninja Kiwi/Zombie Assault:
       tags:
