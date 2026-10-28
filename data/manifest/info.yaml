@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-28T00:33:07Z"
+generatedAt: "2026-10-28T09:46:09Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,17 +9,17 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"bdc366a3436d0cec66f421ed01a7f2ab37de83d6670615c9e15162d722bb5798\""
+  etag: "\"7426f95228b9f4212427c5d0f935ca83890385c882de5f1b10ba12c2214829c3\""
   lastModified: ""
-  sha256: "525de0f970cb07f4b6f1d19f273ec5529b434111a348d5db412418b4daf45396"
-  sizeBytes: 17729188
+  sha256: "58467d72663f0212abdb23fe0a10be56d73489522adfb2aeaae4984921efe81b"
+  sizeBytes: 17729182
   lines: 883398
 
 manifest:
   games: 53432
   shards: 29
   files: 30
-  bytes: 17729300
+  bytes: 17729294
   withSaveTag: 13603
   sections:
     alias: 1123
@@ -210,8 +210,8 @@ shards:
     key: "T"
     group: "letter"
     games: 5532
-    bytes: 1943460
-    sha256: "82a126987e9767d182c4ea2971bac1009f20e057c6e5807c11028bbdbbaee587"
+    bytes: 1943454
+    sha256: "03b88cb26cc22f917e35d504a52063fe4c7957e2cc03d38ac30599d8f5e6361a"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"
