@@ -26027,6 +26027,8 @@ World of Goo (2008):
         - os: windows
   gog:
     id: 1421855536
+  id:
+    lutris: world-of-goo
   installDir:
     World of Goo: {}
   launch:

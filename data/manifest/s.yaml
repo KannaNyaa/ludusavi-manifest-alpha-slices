@@ -16772,6 +16772,7 @@ Sengoku Neet:
 Sengoku Rance:
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/SaveData":
       tags:
@@ -35465,6 +35466,9 @@ Skate City:
             store: steam
   steam:
     id: 1361670
+Skate Shop Simulator:
+  steam:
+    id: 1919480
 Skate Story:
   cloud:
     gog: true
@@ -62135,6 +62139,9 @@ Spirit Arena:
             store: steam
   steam:
     id: 2113850
+Spirit Crossing:
+  steam:
+    id: 2321960
 Spirit Fighters:
   installDir:
     Spirit Fighters: {}

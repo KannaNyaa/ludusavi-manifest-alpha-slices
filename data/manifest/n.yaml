@@ -515,6 +515,7 @@ NASCAR Heat Evolution:
       when:
         - os: windows
   id:
+    lutris: nascar-heat-evolution
     steamExtra:
       - 524630
       - 525180

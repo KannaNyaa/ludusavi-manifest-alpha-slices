@@ -2878,6 +2878,49 @@ A Place Out Here:
           - store: steam
   steam:
     id: 3149450
+A Place for Every Potion:
+  files:
+    "<home>/AppData/LocalLow/CubeQuad/A Place for Every Potion/GlobalProgress":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/CubeQuad/A Place for Every Potion/PlayerProgress":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/CubeQuad/A Place for Every Potion/PlayerSettings":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/CubeQuad/A Place for Every Potion/PotionsPersistentData_*":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/CubeQuad/A Place for Every Potion/GlobalProgress":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/CubeQuad/A Place for Every Potion/PlayerProgress":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/CubeQuad/A Place for Every Potion/PlayerSettings":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/CubeQuad/A Place for Every Potion/PotionsPersistentData_*":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    A Place for Every Potion: {}
+  launch:
+    "<base>/A Place for Every Potion.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/A Place for Every Potion.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 5189500
 A Place for the Unwilling:
   cloud:
     steam: true
@@ -31952,6 +31995,13 @@ Angry Birds:
     "<winAppData>/Rovio/Angry Birds/settings.lua":
       tags:
         - config
+      when:
+        - os: windows
+Angry Birds Epic:
+  files:
+    "<home>/AppData/LocalLow/Rovio Entertainment Ltd_/Epic/prefs/player":
+      tags:
+        - save
       when:
         - os: windows
 Angry Birds Rio:

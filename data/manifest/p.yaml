@@ -13350,6 +13350,8 @@ Phantom Blade Zero:
           store: steam
   id:
     lutris: phantom-blade-0
+    steamExtra:
+      - 5041150
   installDir:
     PBZ: {}
   launch:

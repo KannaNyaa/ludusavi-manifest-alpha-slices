@@ -12170,6 +12170,10 @@ Battlestar Galactica Deadlock:
   installDir:
     BattlestarGalacticaScatteredHopes: {}
   launch:
+    "<base>/BattlestarGalacticaScatteredHopes.app/Contents/MacOS/Battlestar Galactica Scattered Hopes":
+      - when:
+          - os: mac
+            store: steam
     "<base>/BattlestarGalacticaScatteredHopes.exe":
       - when:
           - bit: 64

@@ -4172,6 +4172,9 @@ Jim Is Moving Out!:
 Jimmy Kamikaze:
   steam:
     id: 918370
+Jimmy Neutron vs. Jimmy Negatron:
+  id:
+    lutris: jimmy-neutron-vs-jimmy-negatron
 "Jimmy Neutron: Boy Genius":
   files:
     "<base>/JimmyGameX.tsk":
@@ -4392,6 +4395,14 @@ Jockey Rush:
   steam:
     id: 500680
 Joe & Mac Retro Collection:
+  installDir:
+    Joe & Mac Retro Collection: {}
+  launch:
+    "<base>/Joe & Mac.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3672840
 Joe & Mac Returns:
