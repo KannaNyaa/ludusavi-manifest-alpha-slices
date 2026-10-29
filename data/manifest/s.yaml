@@ -86165,6 +86165,12 @@ Sulfur:
         - save
       when:
         - os: windows
+  id:
+    lutris: sulfur
+    steamExtra:
+      - 2845200
+      - 3025640
+      - 4268010
   installDir:
     SULFUR: {}
   launch:

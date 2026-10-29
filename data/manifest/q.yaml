@@ -3592,6 +3592,17 @@ Qvadriga:
   steam:
     id: 297760
 Qwak Reborn:
+  installDir:
+    Qwak: {}
+  launch:
+    "<base>/qwak.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/qwakreborn-steam.app/Contents/MacOS/qwakreborn-steam":
+      - when:
+          - os: mac
+            store: steam
   steam:
     id: 4704570
 "Qwerty's Prison":

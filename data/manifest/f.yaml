@@ -2761,6 +2761,8 @@ Faces of War:
         - os: windows
   gog:
     id: 1428586504
+  id:
+    lutris: faces-of-war
   installDir:
     Faces of War: {}
   launch:

@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-28T20:19:52Z"
+generatedAt: "2026-10-29T01:00:57Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,26 +9,26 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"0718eb76ea4c20281b36690571a6fa36bc06ff08d84ee25cadf757a70e7f453c\""
+  etag: "\"03396657b6ad7ffce8906a8330161ffa813deffa93fdea0dbf206d2500227f96\""
   lastModified: ""
-  sha256: "6476ffce2f434362a669cb3bd7f244d963bab472d75f4db90dee93bad1dcd642"
-  sizeBytes: 17730343
-  lines: 883464
+  sha256: "830d81fa796f0c5093d3e8ad37a0bb6ea45fa0f5b4f8ba49de7c21d1a71bd055"
+  sizeBytes: 17730712
+  lines: 883483
 
 manifest:
   games: 53435
   shards: 29
   files: 30
-  bytes: 17730455
+  bytes: 17730824
   withSaveTag: 13605
   sections:
     alias: 1123
     cloud: 15715
     files: 22525
     gog: 5596
-    id: 10156
-    installDir: 43883
-    launch: 39632
+    id: 10158
+    installDir: 43884
+    launch: 39633
     registry: 2846
     steam: 49268
 
@@ -90,8 +90,8 @@ shards:
     key: "F"
     group: "letter"
     games: 2253
-    bytes: 760796
-    sha256: "00f7a1fdc2d24a181840793b14206aead2be1877fc53f6ef54233a628cfcd638"
+    bytes: 760827
+    sha256: "b056bf696fe94f605629f2abe79605fe8548ae5c4024026da7a2df6c77243771"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
@@ -178,8 +178,8 @@ shards:
     key: "Q"
     group: "letter"
     games: 203
-    bytes: 71251
-    sha256: "b4a2b0fa685f696e4c4bfeced4d9cfa7656c658de257bb4191f3be94468977a9"
+    bytes: 71500
+    sha256: "4e86f1822781ea25f3e2146be9da6ab5871962cfa25171b52b114b154da7dac3"
     first: "Q"
     last: "Qybe"
   - path: "r.yaml"
@@ -194,8 +194,8 @@ shards:
     key: "S"
     group: "letter"
     games: 5924
-    bytes: 2056138
-    sha256: "3e709970ee3479ed11c38bc2f9243a182982dbb6629bf4f6d8a7d56989f6ca3b"
+    bytes: 2056227
+    sha256: "b129047a16350e908c2e724f34a8538d825a6992fec8d1186ce29571b156421e"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
