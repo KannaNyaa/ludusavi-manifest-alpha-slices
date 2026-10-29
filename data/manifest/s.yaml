@@ -14447,6 +14447,14 @@ Secret Files 3:
           - store: steam
   steam:
     id: 40330
+"Secret Files: Tunguska - Remastered":
+  gog:
+    id: 1362256803
+  id:
+    steamExtra:
+      - 5363640
+  steam:
+    id: 4504840
 Secret Government:
   cloud:
     steam: true
@@ -64720,6 +64728,8 @@ Spy Drops Gaiden:
     "<base>/Saves/*.*":
       when:
         - store: steam
+  id:
+    lutris: spy-fox-2-some-assembly-required
   installDir:
     Spy Fox 2: {}
   launch:
@@ -64749,6 +64759,8 @@ Spy Drops Gaiden:
     "<base>/Saves/*.*":
       when:
         - store: steam
+  id:
+    lutris: spy-fox-3-operation-ozone
   installDir:
     Spy Fox 3: {}
   launch:
@@ -64802,6 +64814,8 @@ Spy Drops Gaiden:
         - config
       when:
         - os: windows
+  id:
+    lutris: spy-fox-in-cheese-chase
   installDir:
     Spy Fox In Cheese Chase: {}
   launch:
@@ -64831,6 +64845,8 @@ Spy Drops Gaiden:
     "<base>/Saves/*.*":
       when:
         - store: steam
+  id:
+    lutris: spy-fox-in-hold-the-mustard
   installDir:
     Spy Fox In Hold the Mustard: {}
   launch:
@@ -64872,6 +64888,8 @@ Spy Drops Gaiden:
         - save
       when:
         - os: windows
+  id:
+    lutris: spy-fox-in-dry-cereal
   installDir:
     Spy Fox 1: {}
   launch:
@@ -99591,6 +99609,7 @@ Sword of the Samurai:
 Sword of the Sea:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/SwordOfTheSea/Saved":
@@ -99603,7 +99622,11 @@ Sword of the Sea:
         - save
       when:
         - os: windows
+  gog:
+    id: 1798252985
   id:
+    gogExtra:
+      - 1250101750
     lutris: sword-of-the-sea
   installDir:
     Sword of the Sea: {}

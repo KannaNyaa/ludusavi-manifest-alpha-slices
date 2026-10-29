@@ -13344,10 +13344,21 @@ Phantom Blade Zero:
   cloud:
     steam: true
   files:
-    "<base>/ProjectPBZ/Saved/SaveGames/Steam/<storeUserId>/**/*.sav":
+    "<base>/ProjectPBZ/Saved":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<base>/ProjectPBZ/Saved/SaveGames/Steam/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/ProjectPBZ/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: phantom-blade-0
     steamExtra:

@@ -11031,6 +11031,9 @@ Tenis PC3:
         - config
       when:
         - os: windows
+Tenjutsu:
+  steam:
+    id: 1363940
 Tenkyu:
   installDir:
     tenkyu: {}
@@ -14798,18 +14801,22 @@ That Which Binds Us:
     "<winAppData>/Godot/app_userdata/That's not my neighbor":
       tags:
         - config
+      when:
+        - os: windows
+    "<winAppData>/That's not my Neighbor":
+      tags:
         - save
       when:
         - os: windows
   installDir:
     "That's not my Neighbor": {}
   launch:
-    "<base>/That's not my neighbor (Steam).exe":
+    "<base>/That's not my neighbor.exe":
       - when:
           - bit: 64
             os: windows
             store: steam
-    "<base>/That's not my neighbor (Steam).x86_64":
+    "<base>/That's not my neighbor.x86_64":
       - when:
           - bit: 64
             os: linux
@@ -61131,9 +61138,19 @@ The Wolf Among Us:
 The Wolf Among Us Remastered:
   cloud:
     steam: true
+  files:
+    "<winDocuments>/Telltale Games/The Wolf Among Us Remastered":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 5280090
+  installDir:
+    The Wolf Among Us Remastered: {}
+  launch:
+    "<base>/TheWolfAmongUsRemastered.exe":
+      - when:
+          - store: steam
   steam:
     id: 3884860
 "The Wolf's Bite":

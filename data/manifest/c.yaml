@@ -2187,6 +2187,11 @@ Cairn:
   gog:
     id: 1300489906
   id:
+    gogExtra:
+      - 1421906078
+      - 1855069799
+      - 1883087033
+      - 2073429017
     lutris: cairn--3
     steamExtra:
       - 3937220
@@ -49998,9 +50003,24 @@ Croc 2:
         - config
 "Croc 2: Kingdom of the Gobbos":
   cloud:
+    gog: true
     steam: true
+  files:
+    "<winAppData>/Croc 2/saves/<storeUserId>":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1402283956
+  id:
+    lutris: croc-2-kingdom-of-the-gobbos
+  installDir:
+    Croc 2: {}
+  launch:
+    "<base>/croc2.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4198360
 "Croc's World Construction Kit":

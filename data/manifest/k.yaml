@@ -8412,6 +8412,18 @@ Kingdom Elemental:
             store: steam
   steam:
     id: 285350
+Kingdom Hearts 358/2 Days:
+  files:
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/saves/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Kingdom Hearts HD 1.5 + 2.5 ReMIX:
   cloud:
     steam: true

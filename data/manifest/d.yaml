@@ -34413,6 +34413,7 @@ Dive Inside:
     id: 955980
 "Dive or Die: Children of Rain":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/DropRateStudio/Dive or Die":
@@ -34421,6 +34422,8 @@ Dive Inside:
         - save
       when:
         - os: windows
+  gog:
+    id: 1169559449
   id:
     lutris: dive-or-die-children-of-rain
     steamExtra:
@@ -54285,6 +54288,38 @@ Dungeons & Darkness:
             store: steam
   steam:
     id: 479990
+Dungeons & Degenerate Gamblers:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/godot/app_userdata/Dungeons & Degenerate Gamblers/1/*.cfg":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Godot/app_userdata/Dungeons & Degenerate Gamblers/1/*.cfg":
+      when:
+        - store: steam
+    "<winAppData>/Godot/app_userdata/Dungeons & Degenerate Gamblers/1/*.cfg":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Dungeons & Degenerate Gamblers: {}
+  launch:
+    "<base>/DnDG_64.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/DnDG_linux.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Dungeons & Degenerate Gamblers.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 2400510
 Dungeons & Dragons Online:
   files:
     "<winDocuments>/Dungeons and Dragons Online":

@@ -722,6 +722,13 @@ USAGIRI:
             store: steam
   steam:
     id: 1153950
+USAR Hooters ProCup Racing:
+  files:
+    "<base>/VIDEO.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
 "USC: Counterforce":
   cloud:
     gog: true

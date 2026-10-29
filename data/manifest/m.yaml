@@ -915,6 +915,12 @@ MINImax Tinyverse:
     gog: true
     steam: true
   files:
+    "<winLocalAppData>/MIO/Saves/Steam/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
     "<winLocalAppData>/Packages/FocusHomeInteractiveSA.MioMemoriesinOrbit_4hny5m903y3g0/SystemAppData/wgs":
       tags:
         - save
@@ -7518,6 +7524,8 @@ Majesty Gold HD:
         - config
       when:
         - os: linux
+  id:
+    lutris: majesty-gold-edition
   installDir:
     Majesty Gold Edition: {}
   launch:

@@ -2684,6 +2684,16 @@ You Are Empty:
         - save
       when:
         - os: windows
+    "<winDocuments>/My Games/YaE_Absolute/config_*":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/YaE_Absolute/savegames/Save*":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     You Are Empty Absolute Edition: {}
   launch:
