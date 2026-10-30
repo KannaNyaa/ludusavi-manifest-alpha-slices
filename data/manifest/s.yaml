@@ -23943,28 +23943,7 @@ Shattered:
   steam:
     id: 712620
 Shattered - Tale of the Forgotten King:
-  cloud:
-    gog: true
-    steam: true
-  files:
-    "<winLocalAppData>/ShatteredTOTFK/Saved/SaveGames/*.sav":
-      when:
-        - os: windows
-          store: steam
-  gog:
-    id: 1402489296
-  id:
-    lutris: shattered-tale-of-the-forgotten-king
-  installDir:
-    Shattered - Tale of the Forgotten King: {}
-  launch:
-    "<base>/ShatteredTOTFK.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 1045180
+  alias: "Shattered: Tale of the Forgotten King"
 Shattered God - Quest for the Divine Relic:
   cloud:
     steam: true
@@ -24207,6 +24186,29 @@ Shattered Universe:
             store: steam
   steam:
     id: 1179840
+"Shattered: Tale of the Forgotten King":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winLocalAppData>/ShatteredTOTFK/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1402489296
+  id:
+    lutris: shattered-tale-of-the-forgotten-king
+  installDir:
+    Shattered - Tale of the Forgotten King: {}
+  launch:
+    "<base>/ShatteredTOTFK.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1045180
 Shatterline:
   files:
     "<winLocalAppData>/Shatterline":

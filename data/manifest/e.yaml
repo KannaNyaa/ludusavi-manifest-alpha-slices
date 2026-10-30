@@ -4495,6 +4495,45 @@ Ecstatica:
           - store: steam
   steam:
     id: 4834840
+Ecstatica (2026):
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winAppData>/SNEG/Ecstatica/Save Slots/000*.ecs":
+      when:
+        - store: steam
+    "<winAppData>/SNEG/Ecstatica/Save Slots/000*.png":
+      when:
+        - store: steam
+    "<winAppData>/SNEG/Ecstatica/controls.bin":
+      when:
+        - store: steam
+    "<winAppData>/SNEG/Ecstatica/settings.json":
+      when:
+        - store: steam
+    "<winAppData>/SNEG/Ecstatica/store.bin":
+      when:
+        - store: steam
+  gog:
+    id: 1333226285
+  id:
+    gogExtra:
+      - 1335460878
+      - 1942439921
+    lutris: ecstatica
+    steamExtra:
+      - 5307880
+      - 5418140
+      - 5418150
+  installDir:
+    Ecstatica: {}
+  launch:
+    "<base>/Ecstatica.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4834840
 Ecstatica II:
   cloud:
     gog: true

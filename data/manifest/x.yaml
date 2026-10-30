@@ -2312,6 +2312,29 @@ Xenoraid:
             store: steam
   steam:
     id: 460220
+Xenosensory:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Xenosensory":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: xenosensory
+    steamExtra:
+      - 4289240
+  installDir:
+    Xenosensory: {}
+  launch:
+    "<base>/Xenosensory.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4037830
 "Xenosis: Alien Infection":
   cloud:
     steam: true

@@ -25254,7 +25254,11 @@ Blackshard:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1447508775
   id:
+    gogExtra:
+      - 1953880831
     lutris: blackshard
     steamExtra:
       - 3462270

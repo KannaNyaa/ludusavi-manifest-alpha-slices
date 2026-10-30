@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-29T20:20:58Z"
+generatedAt: "2026-10-30T05:35:27Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"79da008288366380d5ccea308b5f47a65fc8156e7d3b02047503bd6c7643d336\""
+  etag: "\"7fd0c532a927d8adb8f5ef950a6e824a4daa2bf06c63a864a6ae7e1d20ddb4a3\""
   lastModified: ""
-  sha256: "3a5e83591f750327e71d21d3c7af5eedb4005339716c321df56e0ea0f8c61934"
-  sizeBytes: 17735942
-  lines: 883706
+  sha256: "45488b9318674e4c657069cfe9ba6e58c27ac4bf5f7a85f9bd4f0479045a711f"
+  sizeBytes: 17737992
+  lines: 883814
 
 manifest:
-  games: 53446
+  games: 53451
   shards: 29
   files: 30
-  bytes: 17736054
-  withSaveTag: 13608
+  bytes: 17738104
+  withSaveTag: 13610
   sections:
-    alias: 1123
-    cloud: 15716
-    files: 22532
-    gog: 5599
-    id: 10168
-    installDir: 43889
-    launch: 39638
+    alias: 1124
+    cloud: 15719
+    files: 22536
+    gog: 5602
+    id: 10171
+    installDir: 43891
+    launch: 39640
     registry: 2846
-    steam: 49275
+    steam: 49279
 
 sharding:
   rule: "first-character"
@@ -50,8 +50,8 @@ shards:
     key: "B"
     group: "letter"
     games: 2995
-    bytes: 983641
-    sha256: "eb4b1acf565b48fb29354358bf36fe00c745be80da2f9449d38b4eebb4726904"
+    bytes: 983700
+    sha256: "8aaa2f8ee603f4e79dd9cfc73cd79aca26299c10c5763352b698287526e60140"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -81,9 +81,9 @@ shards:
   - path: "e.yaml"
     key: "E"
     group: "letter"
-    games: 1587
-    bytes: 516922
-    sha256: "7d80463ebea047a26d7d7e95bb6a2cfce856b2191d9fbee7f8020ea73c76b365"
+    games: 1588
+    bytes: 517719
+    sha256: "d0a99018ffa0c096bf4cab3c537d8a282e1a8259bbae136b971899c6c466804f"
     first: "E-Ball"
     last: "Ezy"
   - path: "f.yaml"
@@ -97,17 +97,17 @@ shards:
   - path: "g.yaml"
     key: "G"
     group: "letter"
-    games: 1923
-    bytes: 618745
-    sha256: "6c4a3a0c0c0c125305277e8e55b0512e75f51f1187b48ace994aaa54c1781a00"
+    games: 1924
+    bytes: 618781
+    sha256: "3638381d4a72c960bfdde3d57c86f0e777256507183b3f52901a308c37da22f3"
     first: "G Prime"
     last: "Géants disparus VR"
   - path: "h.yaml"
     key: "H"
     group: "letter"
     games: 2184
-    bytes: 713052
-    sha256: "2c47864c5c10cc67f952b5eda15aaf219b70d45c22da6161ca413f8eece76e04"
+    bytes: 713512
+    sha256: "5636fc1b590489568954e88418332109bef9fb2636971d61809fff8c202227ce"
     first: "H Chan: Girl"
     last: "Höllenjob"
   - path: "i.yaml"
@@ -193,9 +193,9 @@ shards:
   - path: "s.yaml"
     key: "S"
     group: "letter"
-    games: 5927
-    bytes: 2056756
-    sha256: "96633eae772e52db7983e8c1c03b4320c969e152735fa9ae5af427ecbc81d2b8"
+    games: 5928
+    bytes: 2056846
+    sha256: "54f422d7f760a1031e24451bbca6b745346f0f8819919a5611ad8ed58fbb0897"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -209,9 +209,9 @@ shards:
   - path: "t.yaml"
     key: "T"
     group: "letter"
-    games: 5533
-    bytes: 1943815
-    sha256: "06e63f587757516a982791a444afa20e7d461f2e0f387a5eb6367c4bd7bee885"
+    games: 5534
+    bytes: 1944037
+    sha256: "9846d1d10891949a0717f163c2b32be07b4a430f2c983b9c8ac32b9dc4a3fcdb"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"
@@ -249,9 +249,9 @@ shards:
   - path: "x.yaml"
     key: "X"
     group: "letter"
-    games: 149
-    bytes: 56201
-    sha256: "8fa1c49bc2190022c71db9167c0c8452dc3d10e2a7462965f5aec4cc374250f8"
+    games: 150
+    bytes: 56587
+    sha256: "1b75d97b683f5fc049f662828803c8cd8ce0bdea6bbf231ff799d77aa38cb15a"
     first: "X Archetype"
     last: "X少女逃脱 x girl escape"
   - path: "y.yaml"

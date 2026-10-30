@@ -61135,6 +61135,11 @@ The Wolf Among Us:
             store: steam
   steam:
     id: 250320
+The Wolf Among Us 2:
+  id:
+    lutris: the-wolf-among-us-2
+  steam:
+    id: 1884870
 The Wolf Among Us Remastered:
   cloud:
     steam: true
@@ -75041,6 +75046,12 @@ Too Many F*cking Nazis:
   steam:
     id: 3900950
 Too Many Toys!:
+  files:
+    "<home>/AppData/LocalLow/Jakub T & 4ydam/Too Many Toys!/*.es3":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Too Many Toys!: {}
   launch:

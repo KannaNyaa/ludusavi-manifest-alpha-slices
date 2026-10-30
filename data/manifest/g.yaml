@@ -780,6 +780,9 @@ GPRO:
             store: steam
   steam:
     id: 2169220
+GRASS.EXE:
+  steam:
+    id: 5459380
 GRAV:
   installDir:
     GRAV: {}
