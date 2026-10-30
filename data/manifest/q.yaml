@@ -2232,9 +2232,19 @@ Queen of Thieves:
 "Queen's Domain":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/QueensDomain/Saved/SaveGames/<storeUserId>/**/*.sav":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 4081520
+  installDir:
+    QueensDomain: {}
+  launch:
+    "<base>/QueensDomain.exe":
+      - when:
+          - store: steam
   steam:
     id: 1799840
 "Queen's Garden: Halloween":

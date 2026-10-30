@@ -25982,6 +25982,29 @@ Love the game:
     "Love, Sam": {}
   steam:
     id: 1073820
+"Love: Fall in Death":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/SNR/Love Fall in Death":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: love-fall-in-death
+    steamExtra:
+      - 5090500
+  installDir:
+    Love Fall in Death: {}
+  launch:
+    "<base>/Love Fall in Death.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3077540
 LoveBeat:
   installDir:
     LoveBeat: {}

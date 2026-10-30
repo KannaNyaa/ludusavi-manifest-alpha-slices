@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-30T05:35:27Z"
+generatedAt: "2026-10-30T19:56:34Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"7fd0c532a927d8adb8f5ef950a6e824a4daa2bf06c63a864a6ae7e1d20ddb4a3\""
+  etag: "\"e2b492403b62c3aa11541214e07ed30fcbd87313d633d932e655a1b802a206ef\""
   lastModified: ""
-  sha256: "45488b9318674e4c657069cfe9ba6e58c27ac4bf5f7a85f9bd4f0479045a711f"
-  sizeBytes: 17737992
-  lines: 883814
+  sha256: "2678e332db392a7f84247360ae7dd27fbd5666afac95a3bfab30b8eee76e1309"
+  sizeBytes: 17740394
+  lines: 883958
 
 manifest:
-  games: 53451
+  games: 53457
   shards: 29
   files: 30
-  bytes: 17738104
-  withSaveTag: 13610
+  bytes: 17740506
+  withSaveTag: 13614
   sections:
     alias: 1124
-    cloud: 15719
-    files: 22536
+    cloud: 15723
+    files: 22543
     gog: 5602
-    id: 10171
-    installDir: 43891
-    launch: 39640
+    id: 10175
+    installDir: 43898
+    launch: 39646
     registry: 2846
-    steam: 49279
+    steam: 49284
 
 sharding:
   rule: "first-character"
@@ -42,8 +42,8 @@ shards:
     key: "A"
     group: "letter"
     games: 3313
-    bytes: 1110385
-    sha256: "4cee6c742184d6d52a02d5b446287f061444029a7dad8cd04c51f4c92c2ede87"
+    bytes: 1110387
+    sha256: "154c14e266a6c87e8d6cf783d131a981fa329f05880f973189d17f8d341c22a5"
     first: "A Bastard's Tale"
     last: "Azusa RP Online"
   - path: "b.yaml"
@@ -65,9 +65,9 @@ shards:
   - path: "d.yaml"
     key: "D"
     group: "letter"
-    games: 3446
-    bytes: 1162524
-    sha256: "56a2729b60b5f066b7743396957d8a646a04bb73a15038b49b5142b59c3f90f5"
+    games: 3448
+    bytes: 1165142
+    sha256: "ca8770b9a77b39cdf82a62eba96894232fc9667e8ba96169ff1dcce39978d537"
     first: "D Series Off Road Racing Simulation"
     last: "Dōkyūsei: Bangin' Summer"
   - path: "digits.yaml"
@@ -98,8 +98,8 @@ shards:
     key: "G"
     group: "letter"
     games: 1924
-    bytes: 618781
-    sha256: "3638381d4a72c960bfdde3d57c86f0e777256507183b3f52901a308c37da22f3"
+    bytes: 618823
+    sha256: "0d3b0d760e563217fa6838cf2777d2c83201564645ed417cbe66e2ae9b4ec4c5"
     first: "G Prime"
     last: "Géants disparus VR"
   - path: "h.yaml"
@@ -137,9 +137,9 @@ shards:
   - path: "l.yaml"
     key: "L"
     group: "letter"
-    games: 1827
-    bytes: 605089
-    sha256: "d366b7943c6a075a836e46eb2f487bf062afef5e8afd807f4d28f1f6ae7898c9"
+    games: 1828
+    bytes: 605523
+    sha256: "59a83e3e989c274a65aa6fdb9fcb7f67a500fa425bae54743592c48141595278"
     first: "L U N E"
     last: "Lá Camila: A VR Experience"
   - path: "m.yaml"
@@ -169,17 +169,17 @@ shards:
   - path: "p.yaml"
     key: "P"
     group: "letter"
-    games: 2676
-    bytes: 863555
-    sha256: "fd091358219b414452e3adc6880cf799cf2ad6ad21445ee170bd0f862c1067c4"
+    games: 2677
+    bytes: 861812
+    sha256: "91301ff00e1003f6cce06b2c6399ff5500172a01cfdc9c0506f1d9a2ded5d873"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"
     key: "Q"
     group: "letter"
     games: 203
-    bytes: 71500
-    sha256: "4e86f1822781ea25f3e2146be9da6ab5871962cfa25171b52b114b154da7dac3"
+    bytes: 71736
+    sha256: "6c25f77bddde620fa415860ddca7c145b97a5a4fa600ec079a48923f6c48480c"
     first: "Q"
     last: "Qybe"
   - path: "r.yaml"
@@ -193,9 +193,9 @@ shards:
   - path: "s.yaml"
     key: "S"
     group: "letter"
-    games: 5928
-    bytes: 2056846
-    sha256: "54f422d7f760a1031e24451bbca6b745346f0f8819919a5611ad8ed58fbb0897"
+    games: 5929
+    bytes: 2057249
+    sha256: "f3b7096a96dbe99532a973280b1b9a83fb9204b12204e528365cee1053a31270"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -209,9 +209,9 @@ shards:
   - path: "t.yaml"
     key: "T"
     group: "letter"
-    games: 5534
-    bytes: 1944037
-    sha256: "9846d1d10891949a0717f163c2b32be07b4a430f2c983b9c8ac32b9dc4a3fcdb"
+    games: 5535
+    bytes: 1944447
+    sha256: "577d82ccb2e78fce87cfe507da8ebcbdaa991822241662b882365dd841c54cc2"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"

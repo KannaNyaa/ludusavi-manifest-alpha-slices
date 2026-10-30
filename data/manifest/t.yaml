@@ -12971,6 +12971,17 @@ Terrible Laboratory:
             store: steam
   steam:
     id: 985430
+Terrible Lizards:
+  cloud:
+    steam: true
+  files:
+    "<base>/Windows/terrible_lizards/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Terrible Lizards: {}
+  steam:
+    id: 2920220
 Terrifier The ARTcade Game:
   id:
     lutris: terrifier-the-artcade-game
@@ -21136,6 +21147,12 @@ The Cat in the Hat (2003):
       when:
         - os: windows
 "The Cat in the Hat: Rainy Day Mayhem":
+  installDir:
+    Project CITH: {}
+  launch:
+    "<base>/Cat In The Hat.exe":
+      - when:
+          - store: steam
   steam:
     id: 3465710
 "The Cat! Porfirio's Adventure":
@@ -61142,11 +61159,16 @@ The Wolf Among Us 2:
     id: 1884870
 The Wolf Among Us Remastered:
   cloud:
+    epic: true
     steam: true
   files:
     "<winDocuments>/Telltale Games/The Wolf Among Us Remastered":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
+          store: steam
   id:
     steamExtra:
       - 5280090

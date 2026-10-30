@@ -20158,6 +20158,8 @@ Gorky 17:
         - save
       when:
         - os: windows
+  id:
+    lutris: gorky-zero-beyond-honor
 Gorn:
   installDir:
     GORN: {}

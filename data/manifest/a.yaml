@@ -48542,7 +48542,6 @@ Asylopole:
 Asylum:
   cloud:
     epic: true
-    gog: true
     steam: true
   files:
     "<winLocalAppData>/Asylum/Saved/Config/WindowsNoEditor":
@@ -48561,6 +48560,7 @@ Asylum:
     lutris: asylum--1
     steamExtra:
       - 1311020
+      - 1311030
   installDir:
     Asylum: {}
   launch:

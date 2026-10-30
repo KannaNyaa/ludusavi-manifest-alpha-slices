@@ -3618,6 +3618,11 @@ Pangeon:
             store: steam
   steam:
     id: 983670
+Pangit:
+  id:
+    lutris: pangit
+  steam:
+    id: 3841640
 Panic 64:
   id:
     lutris: panic-64
@@ -36307,72 +36312,21 @@ Project OutFox:
     id: 1751820
 Project P.I.T.T.:
   files:
-    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/*.save":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/*.save.bak":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/keybindings.cfg":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/locale.cfg":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/profile.cfg":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/settings.cfg":
-      when:
-        - os: mac
-          store: steam
-    "<winAppData>/Godot/app_userdata/Project P.I.T.T/*.save":
-      when:
-        - store: steam
-    "<winAppData>/Godot/app_userdata/Project P.I.T.T/*.save.bak":
-      when:
-        - store: steam
-    "<winAppData>/Godot/app_userdata/Project P.I.T.T/keybindings.cfg":
-      when:
-        - store: steam
-    "<winAppData>/Godot/app_userdata/Project P.I.T.T/locale.cfg":
-      when:
-        - store: steam
-    "<winAppData>/Godot/app_userdata/Project P.I.T.T/profile.cfg":
-      when:
-        - store: steam
-    "<winAppData>/Godot/app_userdata/Project P.I.T.T/settings.cfg":
-      when:
-        - store: steam
-    "<xdgData>/godot/app_userdata/Project P.I.T.T/*.save":
+    "<home>/.local/share/godot/app_userdata/Project P.I.T.T":
+      tags:
+        - save
       when:
         - os: linux
-          store: steam
-    "<xdgData>/godot/app_userdata/Project P.I.T.T/*.save.bak":
+    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<xdgData>/godot/app_userdata/Project P.I.T.T/keybindings.cfg":
+        - os: mac
+    "<winAppData>/Godot/app_userdata/Project P.I.T.T":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<xdgData>/godot/app_userdata/Project P.I.T.T/locale.cfg":
-      when:
-        - os: linux
-          store: steam
-    "<xdgData>/godot/app_userdata/Project P.I.T.T/profile.cfg":
-      when:
-        - os: linux
-          store: steam
-    "<xdgData>/godot/app_userdata/Project P.I.T.T/settings.cfg":
-      when:
-        - os: linux
-          store: steam
+        - os: windows
   id:
     lutris: project-pitt
     steamExtra:

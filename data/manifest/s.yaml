@@ -11867,6 +11867,26 @@ Scram:
       - 889820
   steam:
     id: 773920
+Scramble Knights Online:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    ScrambleKnights: {}
+  launch:
+    "<base>/Game/eac_launcher":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/ScrambleKnightsBootstrapper.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2379350
 "Scramble: Battle of Britain":
   files:
     "<home>/AppData/LocalLow/Slitherine/ScrambleBattleOfBritain":
