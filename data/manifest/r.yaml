@@ -19357,6 +19357,20 @@ Resident Evil Zero HD Remaster:
             store: steam
   steam:
     id: 287290
+"Resident Evil: The Umbrella Chronicles":
+  files:
+    "<base>/config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: resident-evil-the-umbrella-chronicles
 Residual:
   files:
     "<winAppData>/residual":

@@ -50050,6 +50050,8 @@ Croc 2:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Argonaut Software/Croc:
       tags:
         - config
+  steam:
+    id: 5226010
 "Croc: Legend of the Gobbos (2024)":
   alias: "Croc: Legend of the Gobbos (2025)"
 "Croc: Legend of the Gobbos (2025)":

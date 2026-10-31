@@ -12634,12 +12634,27 @@ Level 99 Axe Rage:
 Level Devil:
   cloud:
     steam: true
+  files:
+    "<xdgConfig>/share/leveldevil":
+      tags:
+        - config
+      when:
+        - os: linux
   installDir:
     Level Devil: {}
   launch:
+    "<base>/Level Devil.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Level Devil.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
+    "<base>/LevelDevil.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 3242750
 Level Up!:
@@ -17745,6 +17760,34 @@ Little Comet:
             store: steam
   steam:
     id: 856100
+Little Devil:
+  cloud:
+    steam: true
+  files:
+    "<xdgConfig>/share/leveldevil":
+      tags:
+        - config
+      when:
+        - os: linux
+  id:
+    lutris: game-level-devil
+  installDir:
+    Level Devil: {}
+  launch:
+    "<base>/Level Devil.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Level Devil.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/LevelDevil.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3242750
 Little Diggel:
   steam:
     id: 580960

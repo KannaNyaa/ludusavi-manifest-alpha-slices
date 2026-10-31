@@ -22098,6 +22098,23 @@ Everything is Black and White:
             store: steam
   steam:
     id: 365430
+Everything is Crab:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Odd Dreams Digital/Everything is Crab/SyncedData/Steam/**/Slot_*_*v*save":
+      when:
+        - store: steam
+  installDir:
+    Everything is Crab: {}
+  launch:
+    "<base>/Everything is Crab.exe":
+      - arguments: "-timestamps"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3526710
 Everything is Mayo:
   installDir:
     Everything is Mayo: {}

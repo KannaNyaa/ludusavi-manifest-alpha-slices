@@ -42528,6 +42528,9 @@ Smelter:
   steam:
     id: 1094540
 "Smersh: Wolfhound":
+  id:
+    steamExtra:
+      - 5453940
   steam:
     id: 4431400
 Smile To Fly:

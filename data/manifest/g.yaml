@@ -26592,6 +26592,27 @@ Groove Runner:
   steam:
     id: 1197500
 "Groovekeeper: Sort the Record Shop":
+  files:
+    "<home>/AppData/LocalLow/NoRyte Studios/Groovekeeper/save_slot_*.es3":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/NoRyte Studios/Groovekeeper/save_slot_*.es3.bak":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/NoRyte Studios/Groovekeeper/save_slot_*.es3.tmp.bak":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Groovekeeper: {}
+  launch:
+    "<base>/Groovekeeper.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4953280
 Groovy:
@@ -28001,6 +28022,8 @@ Gubble 2:
     HKEY_CURRENT_USER/Software/Actual Entertainment/Gubble 2:
       tags:
         - config
+  steam:
+    id: 5511700
 Gubble HD:
   files:
     "<base>/*.sav":
