@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-31T00:50:46Z"
+generatedAt: "2026-10-31T09:43:29Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"3b0002a011a2a81db54c1efd989c6492d918dbfc39fb80376e937a31878391a1\""
+  etag: "\"b1b3fe5db5a61daec7ff8e9787f00a1faee9cb704fd831831dfa34783571f9ad\""
   lastModified: ""
-  sha256: "9eb6e11effb4f53895c12e0c8d2adacc76d6f1b160791be450e767593f266bde"
-  sizeBytes: 17742573
-  lines: 884060
+  sha256: "458fbf2fa5a1934a5e364959261640835e345607212586738758b42edfb26055"
+  sizeBytes: 17743031
+  lines: 884087
 
 manifest:
-  games: 53460
+  games: 53462
   shards: 29
   files: 30
-  bytes: 17742685
-  withSaveTag: 13615
+  bytes: 17743143
+  withSaveTag: 13616
   sections:
     alias: 1124
-    cloud: 15725
-    files: 22548
-    gog: 5602
-    id: 10178
-    installDir: 43901
-    launch: 39649
+    cloud: 15726
+    files: 22549
+    gog: 5603
+    id: 10179
+    installDir: 43902
+    launch: 39650
     registry: 2846
-    steam: 49288
+    steam: 49290
 
 sharding:
   rule: "first-character"
@@ -41,9 +41,9 @@ shards:
   - path: "a.yaml"
     key: "A"
     group: "letter"
-    games: 3313
-    bytes: 1110387
-    sha256: "154c14e266a6c87e8d6cf783d131a981fa329f05880f973189d17f8d341c22a5"
+    games: 3314
+    bytes: 1110534
+    sha256: "5826352a59f5d545e4b5be93d3c793f33e723ecf96b1aaea92dc8c145ebbd0e3"
     first: "A Bastard's Tale"
     last: "Azusa RP Online"
   - path: "b.yaml"
@@ -58,8 +58,8 @@ shards:
     key: "C"
     group: "letter"
     games: 3499
-    bytes: 1185788
-    sha256: "e2350560882822ea42e1a6db4a06e9068543f49efde7fc74a614c63a2c8acef1"
+    bytes: 1186014
+    sha256: "a6540633b6a170f36af9e977386c3355d64491e060f9c2d7a5020ea92fb4ae06"
     first: "C"
     last: "CyubeVR"
   - path: "d.yaml"
@@ -81,9 +81,9 @@ shards:
   - path: "e.yaml"
     key: "E"
     group: "letter"
-    games: 1589
-    bytes: 518121
-    sha256: "2789398ac8b663a487a27ac0edb535a59726025ed5e92bfed6aa3de9be485033"
+    games: 1590
+    bytes: 518206
+    sha256: "5ee10338f657fc5f11f66057b5655fae49aa8698422b0e8efef800fec469f1ae"
     first: "E-Ball"
     last: "Ezy"
   - path: "f.yaml"

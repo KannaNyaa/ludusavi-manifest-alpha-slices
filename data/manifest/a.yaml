@@ -39726,6 +39726,15 @@ Arctico:
             store: steam
   steam:
     id: 325210
+Ardennes Offensive:
+  files:
+    "<base>/AO_op":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: ardennes-offensive
 Ardent Seas:
   steam:
     id: 1355680

@@ -16479,6 +16479,11 @@ Escape Academy:
         - config
   steam:
     id: 1812090
+"Escape Academy 2: Back 2 School":
+  cloud:
+    steam: true
+  steam:
+    id: 3296060
 Escape Architect VR:
   installDir:
     Escape Architect VR: {}

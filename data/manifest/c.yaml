@@ -41286,6 +41286,13 @@ Cop Academy:
   steam:
     id: 982710
 Cop Bastard:
+  installDir:
+    COP BASTARD: {}
+  launch:
+    "<base>/COP BASTARD game.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1742440
 Copa City:
@@ -49995,12 +50002,18 @@ Croakwood:
   steam:
     id: 2261380
 Croc 2:
+  gog:
+    id: 2126885033
   id:
+    gogExtra:
+      - 1339998951
     lutris: croc-2
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/Argonaut Software/Croc2/1.00:
       tags:
         - config
+  steam:
+    id: 5349950
 "Croc 2: Kingdom of the Gobbos":
   cloud:
     gog: true
