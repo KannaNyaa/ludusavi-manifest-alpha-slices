@@ -97532,6 +97532,15 @@ Survivor of Eschewal:
             store: steam
   steam:
     id: 738260
+"Survivor: Castaway Island":
+  installDir:
+    Survivor: {}
+  launch:
+    "<base>/Survivor.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2396060
 "Survivor: The Living Dead":
   installDir:
     Survivor The Living Dead: {}

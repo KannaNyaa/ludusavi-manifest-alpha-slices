@@ -41177,6 +41177,11 @@ The Lion King:
     gog: true
     uplay: true
   files:
+    "<base>/engine.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Mipumi/TLS/*.save":
       tags:
         - save
@@ -41190,8 +41195,15 @@ The Lion King:
   gog:
     id: 1740490644
   id:
+    gogExtra:
+      - 1645403563
+    lutris: the-lions-song
     steamExtra:
+      - 459140
+      - 477020
+      - 477030
       - 477040
+      - 774871
   installDir:
     "The Lion's Song": {}
   launch:

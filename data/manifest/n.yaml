@@ -11378,6 +11378,9 @@ New World Horizon:
             store: steam
   steam:
     id: 1017670
+New World Order:
+  id:
+    lutris: new-world-order
 "New World: The Tupis":
   installDir:
     New World The Tupis: {}

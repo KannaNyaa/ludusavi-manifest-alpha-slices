@@ -7234,6 +7234,8 @@ Warlords Battlecry II:
         - os: windows
   gog:
     id: 1207659137
+  id:
+    lutris: warlords-battlecry-2
 Warlords Battlecry III:
   files:
     "<winDocuments>/Warlords Battlecry III/Saved Games":
@@ -23572,6 +23574,12 @@ Wolfpack:
   steam:
     id: 490920
 Wolfschanze:
+  files:
+    "<base>/Data/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: wolfschanze
 Wolfsong:

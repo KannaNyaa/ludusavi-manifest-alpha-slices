@@ -15888,6 +15888,27 @@ Outline:
             store: steam
   steam:
     id: 812850
+Outlive 25:
+  files:
+    "<winAppData>/Continuum/Outlive25/Players/<storeUserId>":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/Outlive25/User Maps/**/*.map":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: outlive-25
+  installDir:
+    Outlive 25: {}
+  launch:
+    "<base>/Outlive2025.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2948680
 "Outliver: Redemption":
   installDir:
     Outliver Redemption: {}
