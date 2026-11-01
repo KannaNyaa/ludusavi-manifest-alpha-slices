@@ -4434,6 +4434,17 @@ Campus Notes - forget me not.:
         - config
       when:
         - os: windows
+"Can 'Em All":
+  installDir:
+    "Can 'Em All": {}
+  launch:
+    "<base>/Can 'Em All.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 5133900
 Can You Eat by Yourself:
   steam:
     id: 761720

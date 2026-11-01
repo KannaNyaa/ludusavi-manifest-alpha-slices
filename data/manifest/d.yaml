@@ -12811,6 +12811,9 @@ Dead of Night:
   steam:
     id: 656630
 Dead of the Brain:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<home>/.pcx/DeadoftheBrain/*.bin":
       when:
@@ -12878,6 +12881,8 @@ Dead of the Brain:
     "<winAppData>/PCX/DeadoftheBrain/persistent":
       when:
         - store: steam
+  gog:
+    id: 1645689113
   id:
     lutris: dead-of-the-brain
   installDir:

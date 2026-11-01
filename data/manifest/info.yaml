@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-10-31T19:20:22Z"
+generatedAt: "2026-11-01T00:10:56Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"52b0d33604efba64026d93ae684b3d770fa0d525f30eb1c2a52409d881195ac6\""
+  etag: "\"4d3da45d0c629818df0c205fe2ad791b7b4052527dd3e24027c767c47c22ad12\""
   lastModified: ""
-  sha256: "fb2e764fdd267a74c0b37517257e42d18033f6afac7b3e1195729780052b5dcd"
-  sizeBytes: 17744283
-  lines: 884153
+  sha256: "6a6a0f92ff91853d0460516a292539e86448fb952fa1898ad97b641d814bcbc6"
+  sizeBytes: 17744539
+  lines: 884169
 
 manifest:
-  games: 53466
+  games: 53467
   shards: 29
   files: 30
-  bytes: 17744395
+  bytes: 17744651
   withSaveTag: 13618
   sections:
     alias: 1124
-    cloud: 15726
+    cloud: 15727
     files: 22552
-    gog: 5603
+    gog: 5604
     id: 10183
-    installDir: 43904
-    launch: 39652
+    installDir: 43905
+    launch: 39653
     registry: 2847
-    steam: 49292
+    steam: 49293
 
 sharding:
   rule: "first-character"
@@ -57,17 +57,17 @@ shards:
   - path: "c.yaml"
     key: "C"
     group: "letter"
-    games: 3499
-    bytes: 1186014
-    sha256: "a6540633b6a170f36af9e977386c3355d64491e060f9c2d7a5020ea92fb4ae06"
+    games: 3500
+    bytes: 1186213
+    sha256: "e1cfbf875302b19a4ebfe5e341b271fbdff6997999527ebd4aab449186d4fd5d"
     first: "C"
     last: "CyubeVR"
   - path: "d.yaml"
     key: "D"
     group: "letter"
     games: 3449
-    bytes: 1165402
-    sha256: "735a70a03b0e82fd6e8e0507b2e5bf0c00082a7dd25739e20b0d89218ecbd12a"
+    bytes: 1165467
+    sha256: "3eb87588c538ca973232fbdbf0f75fb4b051bfef35e7596d83d9340df0327cde"
     first: "D Series Off Road Racing Simulation"
     last: "Dōkyūsei: Bangin' Summer"
   - path: "digits.yaml"
@@ -138,8 +138,8 @@ shards:
     key: "L"
     group: "letter"
     games: 1829
-    bytes: 606359
-    sha256: "e60eeaf058238dcc4a91cb4864432afcdb5a9aace3c2b6a8e5268ccc4848a4fd"
+    bytes: 606351
+    sha256: "ec687d00d03a13da3710d7e98b668eeb1134416b16cf33efc0e4e284d7624d49"
     first: "L U N E"
     last: "Lá Camila: A VR Experience"
   - path: "m.yaml"

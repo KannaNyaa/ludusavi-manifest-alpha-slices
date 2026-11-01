@@ -12635,7 +12635,7 @@ Level Devil:
   cloud:
     steam: true
   files:
-    "<xdgConfig>/share/leveldevil":
+    "<xdgData>/leveldevil":
       tags:
         - config
       when:
