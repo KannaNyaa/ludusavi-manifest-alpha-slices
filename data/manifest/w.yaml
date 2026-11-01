@@ -24748,9 +24748,11 @@ Wordle:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/cBlck/Wordle":
+    "<home>/AppData/LocalLow/GigantumGames/Wordle":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Wordle: {}
   launch:

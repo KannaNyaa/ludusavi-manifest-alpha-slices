@@ -4898,6 +4898,7 @@ Kiai Resonance:
     id: 3306040
 Kiborg:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/KIBORG/Saved/SaveGames/**/*.sav":
@@ -4911,6 +4912,7 @@ Kiborg:
     id: 2050916447
   id:
     gogExtra:
+      - 1074692008
       - 1089097517
       - 1379840164
       - 1882717012
@@ -4919,6 +4921,7 @@ Kiborg:
       - 3590420
       - 3760560
       - 4298680
+      - 5384860
   installDir:
     KIBORG: {}
   launch:

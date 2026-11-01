@@ -20755,12 +20755,12 @@ RetroSpace:
   cloud:
     steam: true
   files:
-    "<home>/LocalLow/The Wild Gentlemen/Retrospace":
+    "<home>/AppData/LocalLow/The Wild Gentlemen/Retrospace":
       tags:
         - config
       when:
         - os: windows
-    "<home>/LocalLow/The Wild Gentlemen/Retrospace/Saves":
+    "<home>/AppData/LocalLow/The Wild Gentlemen/Retrospace/Saves":
       tags:
         - save
       when:

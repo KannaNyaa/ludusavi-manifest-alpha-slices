@@ -11053,17 +11053,11 @@ Castlevania Dominus Collection:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/KONAMI/Castlevania Belmont's Curse/*.sav":
+    "<home>/AppData/LocalLow/KONAMI/Castlevania Belmont's Curse":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/KONAMI/Castlevania Belmont's Curse/*.sav":
-      when:
-        - os: linux
-          store: steam
-    "<home>/Library/Application Support/KONAMI/Castlevania Belmont's Curse/*.sav":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   id:
     lutris: castlevania-belmonts-curse
     steamExtra:

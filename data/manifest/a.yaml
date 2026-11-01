@@ -35599,6 +35599,8 @@ Antikiller:
         - config
       when:
         - os: windows
+  id:
+    lutris: antikiller
   installDir:
     Antikiller: {}
   launch:
