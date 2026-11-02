@@ -18470,6 +18470,26 @@ Beyond Critical:
             store: steam
   steam:
     id: 960630
+Beyond Dark Castle:
+  installDir:
+    Beyond Dark Castle: {}
+  launch:
+    "<base>/Beyond Dark Castle.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Linux/Beyond Dark Castle":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/Linux"
+    "<base>/Win32/Beyond Dark Castle.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Win32"
+  steam:
+    id: 4706300
 Beyond Despair:
   cloud:
     steam: true
@@ -21839,13 +21859,12 @@ Bionic Bay:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/PsychoflowStudio/BionicBay/*.sav":
+    "<winDocuments>/Saved Games/BionicBay":
+      tags:
+        - config
+        - save
       when:
-        - os: linux
-          store: steam
-    "<winDocuments>/Saved Games/BionicBay/**/*.sav":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: bionic-bay
   installDir:

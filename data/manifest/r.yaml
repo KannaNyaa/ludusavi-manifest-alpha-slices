@@ -21550,6 +21550,8 @@ Return to Zork:
     gog: true
   gog:
     id: 1207658907
+  id:
+    lutris: return-to-zork
   installDir:
     Return to Zork: {}
   launch:

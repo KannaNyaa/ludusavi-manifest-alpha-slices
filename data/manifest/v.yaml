@@ -10403,6 +10403,24 @@ ViviEon:
 Vivid!:
   steam:
     id: 1147870
+Vividlope:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/VIVIDLOPE/*.viv":
+      when:
+        - store: steam
+    "<winLocalAppData>/VIVIDLOPE/*.vivi":
+      when:
+        - store: steam
+  installDir:
+    VIVIDLOPE: {}
+  launch:
+    "<base>/VIVIDLOPE.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2078510
 Vividstasis:
   cloud:
     steam: true

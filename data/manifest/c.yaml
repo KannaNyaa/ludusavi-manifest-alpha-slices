@@ -24114,9 +24114,16 @@ Cineris Somnia:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Nayuta Studio/Cineris Somnia/save/*.sav":
+    "<winAppData>/LocalLow/Nayuta Studio/Cineris Somnia":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winAppData>/LocalLow/Nayuta Studio/Cineris Somnia/save":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: cineris-somnia
     steamExtra:

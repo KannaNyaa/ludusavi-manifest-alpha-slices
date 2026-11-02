@@ -16529,6 +16529,34 @@ Selini:
             store: steam
   steam:
     id: 1434050
+"Selkie's Salvage&Co.":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Selkies Salvage/playerconfig.tres":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Selkies Salvage/save*.tres":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    SelkieSalvage&Co: {}
+  launch:
+    "<base>/Selkie.exe":
+      - when:
+          - store: steam
+      - arguments: "--rendering-driver opengl3"
+        when:
+          - store: steam
+      - arguments: "--rendering-driver d3d12"
+        when:
+          - store: steam
+  steam:
+    id: 4984870
 Selknam Defense:
   cloud:
     steam: true
@@ -65011,6 +65039,8 @@ SpyParty:
         - os: dos
   gog:
     id: 1207659115
+  id:
+    lutris: spycraft-the-great-game
   installDir:
     Spycraft - The Great Game: {}
   launch:

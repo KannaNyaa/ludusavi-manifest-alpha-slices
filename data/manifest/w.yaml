@@ -1949,7 +1949,7 @@ Wally and the FANTASTIC PREDATORS:
         - save
       when:
         - os: windows
-    "C:/Windows/disney.ini":
+    "<winDir>/disney.ini":
       tags:
         - config
       when:
