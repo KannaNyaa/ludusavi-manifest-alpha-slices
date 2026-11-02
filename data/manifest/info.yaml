@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-01T19:43:52Z"
+generatedAt: "2026-11-02T00:48:14Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,24 +9,24 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"f6fe26db1933cb07310de8394fbc281bbb8cf4e4bb98464e00ec760940f49e79\""
+  etag: "\"7458e6410118a1bdac64ade300ef9eb60b74a59774981e5f3b89d065009e5e32\""
   lastModified: ""
-  sha256: "abf62f8e1df780abe78045ba69def7f2a1b031def5d0b29b680c6534abc942e7"
-  sizeBytes: 17743376
-  lines: 884142
+  sha256: "4eda906f4e73244b15db5504c24f833c07ef9aa090b6e014f4c7c670486cbec1"
+  sizeBytes: 17743453
+  lines: 884146
 
 manifest:
   games: 53467
   shards: 29
   files: 30
-  bytes: 17743488
+  bytes: 17743565
   withSaveTag: 13621
   sections:
     alias: 1124
     cloud: 15727
     files: 22552
     gog: 5604
-    id: 10184
+    id: 10186
     installDir: 43905
     launch: 39653
     registry: 2847
@@ -242,8 +242,8 @@ shards:
     key: "W"
     group: "letter"
     games: 1712
-    bytes: 586121
-    sha256: "de726c461a4cc49a752bf8d5b0f30d4e8f11dc3e81bf30375c43d8364788c8e0"
+    bytes: 586198
+    sha256: "695f51fe19287d8793b6dcdab0f2469a0f5de779509959a5cd3ade178490abf3"
     first: "W. T. B."
     last: "Włatcy móch: Wrzód na dópie"
   - path: "x.yaml"
