@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-02T00:48:14Z"
+generatedAt: "2026-11-02T11:18:14Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,23 +9,23 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"7458e6410118a1bdac64ade300ef9eb60b74a59774981e5f3b89d065009e5e32\""
+  etag: "\"e851c3a939b642480d0b51d0c22796a6e71a7bb6b3054e7de09c86e628e840de\""
   lastModified: ""
-  sha256: "4eda906f4e73244b15db5504c24f833c07ef9aa090b6e014f4c7c670486cbec1"
-  sizeBytes: 17743453
-  lines: 884146
+  sha256: "755052f80c4cd2458133c2a86a1b9d7714f6de9958d4fe29006d06d1e064be56"
+  sizeBytes: 17743862
+  lines: 884169
 
 manifest:
   games: 53467
   shards: 29
   files: 30
-  bytes: 17743565
-  withSaveTag: 13621
+  bytes: 17743974
+  withSaveTag: 13622
   sections:
     alias: 1124
-    cloud: 15727
+    cloud: 15726
     files: 22552
-    gog: 5604
+    gog: 5605
     id: 10186
     installDir: 43905
     launch: 39653
@@ -66,8 +66,8 @@ shards:
     key: "D"
     group: "letter"
     games: 3449
-    bytes: 1165467
-    sha256: "3eb87588c538ca973232fbdbf0f75fb4b051bfef35e7596d83d9340df0327cde"
+    bytes: 1165514
+    sha256: "2411148f6b3525c4a11448dc73775f6aad6c4e2a0f4a93c0316ea52d42a03741"
     first: "D Series Off Road Racing Simulation"
     last: "Dōkyūsei: Bangin' Summer"
   - path: "digits.yaml"
@@ -186,16 +186,16 @@ shards:
     key: "R"
     group: "letter"
     games: 2484
-    bytes: 817528
-    sha256: "a78c8e02b39a23ddf0569347af2de15c96a30de64773a2dc4490d1b06d249ef1"
+    bytes: 817847
+    sha256: "42c3d30c47b5dc83043aa31ad04ef6de34d32545e02f0ca5a0a95d1e28d1dc59"
     first: "R Academy"
     last: "RŌA"
   - path: "s.yaml"
     key: "S"
     group: "letter"
     games: 5930
-    bytes: 2056383
-    sha256: "285ccf9acf4eacc6744c0e5e13d712c11206410bd9d71dc466973807ba3ff8f3"
+    bytes: 2056426
+    sha256: "81046390e33f7ea5c169f38527cb0b5a5f8f9f70dc2f5f28935c76191ae56f44"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"

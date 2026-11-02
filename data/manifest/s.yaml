@@ -63797,9 +63797,11 @@ Spooky Bonus:
     id: 388450
 Spooky Cats:
   files:
-    "<base>/SavesDir/*.sav":
+    "<winLocalAppData>/SpookyCats/User Data":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Spooky Cats: {}
   launch:

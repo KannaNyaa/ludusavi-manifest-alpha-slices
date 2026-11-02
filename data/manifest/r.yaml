@@ -6891,8 +6891,6 @@ Raptor Valley:
   steam:
     id: 358360
 "Raptor: Call of the Shadows 2010 Edition":
-  cloud:
-    steam: true
   files:
     "<base>/CHAR*.FIL":
       tags:
@@ -6900,6 +6898,26 @@ Raptor Valley:
       when:
         - os: windows
     "<base>/saveoptions.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/ACH_*.DAT":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/CHAR*.ACH":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/CHAR*.FIL":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/options.dat":
       tags:
         - config
       when:

@@ -805,32 +805,6 @@ DEFCON VR:
             store: steam
   steam:
     id: 1091320
-DERELIKT:
-  files:
-    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/*.drt":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/data.ctg":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/settings.stg":
-      tags:
-        - config
-      when:
-        - os: windows
-  id:
-    steamExtra:
-      - 5242870
-  registry:
-    HKEY_CURRENT_USER/Software/Visuwyg/DERELIKT:
-      tags:
-        - config
-  steam:
-    id: 3810510
 DERU - The Art of Cooperation:
   cloud:
     steam: true
@@ -24025,6 +23999,35 @@ Dereliction:
             store: steam
   steam:
     id: 969420
+Derelikt:
+  files:
+    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/*.drt":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/data.ctg":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/settings.stg":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1370908824
+  id:
+    lutris: derelikt
+    steamExtra:
+      - 5242870
+  registry:
+    HKEY_CURRENT_USER/Software/Visuwyg/DERELIKT:
+      tags:
+        - config
+  steam:
+    id: 3810510
 Derora:
   installDir:
     Derora: {}
