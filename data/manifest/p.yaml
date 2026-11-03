@@ -24260,9 +24260,12 @@ Pocket Mirror ~ GoldenerTraum:
   cloud:
     steam: true
   files:
-    "<base>/save/*.rmmzsave":
+    "<base>/save":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Pocket Mirror - Goldenertraum: {}
   launch:

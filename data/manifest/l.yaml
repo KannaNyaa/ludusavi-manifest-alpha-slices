@@ -5641,7 +5641,10 @@ Layers of Fear:
     id: 1455107123
   id:
     gogExtra:
+      - 1096897883
       - 1256894029
+      - 1562968029
+    lutris: layers-of-fear
     steamExtra:
       - 493530
       - 550210

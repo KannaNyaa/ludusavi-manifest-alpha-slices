@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-03T10:57:30Z"
+generatedAt: "2026-11-03T21:03:50Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"ff42333bf7f4804ae16600509783e6291092c9205be34e5b5854e97e5f1a0e65\""
+  etag: "\"ff0c7893003acbd75fba80f2ff80ca56679856cfe39d9d2a80937a21dbabd2e4\""
   lastModified: ""
-  sha256: "88fa10a0565e890f1a289ffad83ff0a83b0202d63f276d2e27302cfd8232e481"
-  sizeBytes: 17746975
-  lines: 884331
+  sha256: "a2f58daea353bfe13ab74b1181bd2e5c3bedab5d18a08eb5749fa5b59bc0e294"
+  sizeBytes: 17749359
+  lines: 884448
 
 manifest:
-  games: 53474
+  games: 53479
   shards: 29
   files: 30
-  bytes: 17747087
-  withSaveTag: 13628
+  bytes: 17749471
+  withSaveTag: 13633
   sections:
     alias: 1124
-    cloud: 15730
-    files: 22557
+    cloud: 15732
+    files: 22561
     gog: 5605
-    id: 10189
-    installDir: 43911
-    launch: 39659
+    id: 10192
+    installDir: 43915
+    launch: 39663
     registry: 2847
-    steam: 49300
+    steam: 49305
 
 sharding:
   rule: "first-character"
@@ -58,16 +58,16 @@ shards:
     key: "C"
     group: "letter"
     games: 3500
-    bytes: 1186126
-    sha256: "7013d33fc0b1bdeec6833b1c63801e8c84bcd654d08b1619dfe7535979f87b95"
+    bytes: 1186130
+    sha256: "99b7f88d10af3947ecf22749cb0dfadb5d217f6dc7a6bd175dd16e6e300df9e0"
     first: "C"
     last: "CyubeVR"
   - path: "d.yaml"
     key: "D"
     group: "letter"
     games: 3449
-    bytes: 1165514
-    sha256: "2411148f6b3525c4a11448dc73775f6aad6c4e2a0f4a93c0316ea52d42a03741"
+    bytes: 1165543
+    sha256: "6ba6e3086c7e2d10c629d7c5ae6f25701deeeaa7cdbbda1f6ab55792ed094917"
     first: "D Series Off Road Racing Simulation"
     last: "Dōkyūsei: Bangin' Summer"
   - path: "digits.yaml"
@@ -98,8 +98,8 @@ shards:
     key: "G"
     group: "letter"
     games: 1925
-    bytes: 619711
-    sha256: "ba1f68624f7d2fdbf15136fbc13a0189d78c6d2a6656803bec89ebf27757465d"
+    bytes: 619782
+    sha256: "741c55e1cc719d57ccd533cf4c42706e96d7bd5828e838689f187293ca64a4d2"
     first: "G Prime"
     last: "Géants disparus VR"
   - path: "h.yaml"
@@ -113,9 +113,9 @@ shards:
   - path: "i.yaml"
     key: "I"
     group: "letter"
-    games: 1213
-    bytes: 399135
-    sha256: "4e33bd978fd3f4003a92a83a6c8c9665e854ddc7cb57b363e614c1eb2081048f"
+    games: 1214
+    bytes: 399184
+    sha256: "3d0cbcba9c67b1db79d1c2802a8ff6f0ff58dcb1fec972e85530343986eaeca8"
     first: "I (Don't) Hate Hentai Puzzles"
     last: "I・S・U"
   - path: "j.yaml"
@@ -138,8 +138,8 @@ shards:
     key: "L"
     group: "letter"
     games: 1829
-    bytes: 606351
-    sha256: "ec687d00d03a13da3710d7e98b668eeb1134416b16cf33efc0e4e284d7624d49"
+    bytes: 606416
+    sha256: "d3e2a65e0df3cd180797b7da95e8c0087486de376f283ea570a766e7b1e0ef57"
     first: "L U N E"
     last: "Lá Camila: A VR Experience"
   - path: "m.yaml"
@@ -154,8 +154,8 @@ shards:
     key: "N"
     group: "letter"
     games: 1344
-    bytes: 439684
-    sha256: "644f3a0375bb9d651de3708cd921e1d6e8c3d3ecbc718636569761ca2985228c"
+    bytes: 439770
+    sha256: "5fac283bd318df059bd5d2ad154dcb4f6a74a36770ad3409b69edc182664fed3"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
@@ -170,8 +170,8 @@ shards:
     key: "P"
     group: "letter"
     games: 2677
-    bytes: 861812
-    sha256: "91301ff00e1003f6cce06b2c6399ff5500172a01cfdc9c0506f1d9a2ded5d873"
+    bytes: 861844
+    sha256: "95674f6b93423099f62b5057eab1a1d260af9a2ff43081adffec234c42703da8"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"
@@ -209,9 +209,9 @@ shards:
   - path: "t.yaml"
     key: "T"
     group: "letter"
-    games: 5535
-    bytes: 1944774
-    sha256: "d9e016f1c7aeb94fd027e31a0d2084ebc40cab9f306b819257dcb4a9e4792615"
+    games: 5539
+    bytes: 1946822
+    sha256: "7785a6bfefa451b0e4899f1c8ca2be135d6739d85d02982a7799d55a5cb57480"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"

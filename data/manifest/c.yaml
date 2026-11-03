@@ -24114,12 +24114,12 @@ Cineris Somnia:
   cloud:
     steam: true
   files:
-    "<winAppData>/LocalLow/Nayuta Studio/Cineris Somnia":
+    "<home>/AppData/LocalLow/Nayuta Studio/Cineris Somnia":
       tags:
         - config
       when:
         - os: windows
-    "<winAppData>/LocalLow/Nayuta Studio/Cineris Somnia/save":
+    "<home>/AppData/LocalLow/Nayuta Studio/Cineris Somnia/save":
       tags:
         - save
       when:

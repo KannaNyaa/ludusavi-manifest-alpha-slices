@@ -9006,6 +9006,9 @@ Indian Summer:
             store: steam
   steam:
     id: 900380
+Indian Truck Simulator:
+  steam:
+    id: 5346150
 Indiana Boy Steam Edition:
   installDir:
     Indiana Boy Steam Edition: {}

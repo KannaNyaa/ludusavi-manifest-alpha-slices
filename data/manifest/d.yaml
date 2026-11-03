@@ -46415,6 +46415,8 @@ DreadOut 2:
 DreadOut 3:
   cloud:
     steam: true
+  id:
+    lutris: dreadout-3
   steam:
     id: 3500810
 DreadOut Remastered Collection:

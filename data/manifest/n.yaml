@@ -1797,6 +1797,10 @@ NIMBY Rails:
       - when:
           - os: windows
             store: steam
+    "<base>/nimbyrails":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 1134710
 NIMRODS:

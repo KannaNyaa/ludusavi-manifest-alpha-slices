@@ -14383,6 +14383,10 @@ Gloomy Eyes:
   gog:
     id: 1854583896
   id:
+    gogExtra:
+      - 1524112552
+      - 1686978672
+      - 2012213766
     lutris: gloomy-eyes--1
     steamExtra:
       - 3986200
