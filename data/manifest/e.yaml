@@ -4500,21 +4500,16 @@ Ecstatica (2026):
     gog: true
     steam: true
   files:
-    "<winAppData>/SNEG/Ecstatica/Save Slots/000*.ecs":
+    "<winAppData>/SNEG/Ecstatica":
+      tags:
+        - config
       when:
-        - store: steam
-    "<winAppData>/SNEG/Ecstatica/Save Slots/000*.png":
+        - os: windows
+    "<winAppData>/SNEG/Ecstatica/Save Slots":
+      tags:
+        - save
       when:
-        - store: steam
-    "<winAppData>/SNEG/Ecstatica/controls.bin":
-      when:
-        - store: steam
-    "<winAppData>/SNEG/Ecstatica/settings.json":
-      when:
-        - store: steam
-    "<winAppData>/SNEG/Ecstatica/store.bin":
-      when:
-        - store: steam
+        - os: windows
   gog:
     id: 1333226285
   id:

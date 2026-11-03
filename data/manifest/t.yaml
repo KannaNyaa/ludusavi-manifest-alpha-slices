@@ -63687,7 +63687,14 @@ Thief Town:
   gog:
     id: 1477689565
   id:
+    gogExtra:
+      - 1234906600
+      - 2045456986
+      - 2101051339
     lutris: thief-the-dark-project-remastered
+    steamExtra:
+      - 5407730
+      - 5497820
   steam:
     id: 4200960
 Thievery:

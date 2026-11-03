@@ -32649,6 +32649,36 @@ Mixed Estate:
     Mixed Estate: {}
   steam:
     id: 944840
+"Mixed Spirits: Bartender":
+  files:
+    "<home>/.config/unity3d/Rogue Duck Interactive/Mixed Spirits/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Rogue Duck Interactive/Mixed Spirits/**/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Rogue Duck Interactive/Mixed Spirits/*.json":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Mixed Spirits Bartender Simulator: {}
+  launch:
+    "<base>/Mixed Spirits.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/app.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/mac.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 3891400
 Mixolumia:
   cloud:
     steam: true

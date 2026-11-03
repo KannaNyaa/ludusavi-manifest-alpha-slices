@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-02T23:07:38Z"
+generatedAt: "2026-11-03T10:57:30Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"0a88c49b274bf450ef2d264d6226738376a76a52c9b9fc6b36f3bc8e5dbd57ee\""
+  etag: "\"ff42333bf7f4804ae16600509783e6291092c9205be34e5b5854e97e5f1a0e65\""
   lastModified: ""
-  sha256: "ad51199859079a219504a6d06d01022957088c45452dc5dd4bedd7d00d231526"
-  sizeBytes: 17745383
-  lines: 884245
+  sha256: "88fa10a0565e890f1a289ffad83ff0a83b0202d63f276d2e27302cfd8232e481"
+  sizeBytes: 17746975
+  lines: 884331
 
 manifest:
-  games: 53470
+  games: 53474
   shards: 29
   files: 30
-  bytes: 17745495
-  withSaveTag: 13625
+  bytes: 17747087
+  withSaveTag: 13628
   sections:
     alias: 1124
-    cloud: 15728
-    files: 22554
+    cloud: 15730
+    files: 22557
     gog: 5605
-    id: 10188
-    installDir: 43908
-    launch: 39656
+    id: 10189
+    installDir: 43911
+    launch: 39659
     registry: 2847
-    steam: 49296
+    steam: 49300
 
 sharding:
   rule: "first-character"
@@ -41,17 +41,17 @@ shards:
   - path: "a.yaml"
     key: "A"
     group: "letter"
-    games: 3314
-    bytes: 1110563
-    sha256: "9238182e7bf08bbe16610cdcc35f0ef6b37c143176ed7d7176bfea46064c8d5e"
+    games: 3315
+    bytes: 1111077
+    sha256: "b9367bbb2d6d1b398a2c4730a6d85a0dc1af4c699417daff7d7d5f22e4171d4c"
     first: "A Bastard's Tale"
     last: "Azusa RP Online"
   - path: "b.yaml"
     key: "B"
     group: "letter"
     games: 2996
-    bytes: 984084
-    sha256: "773bfdf00b2842904d39cada492e270eb885519f7f985171c51b1567a5007864"
+    bytes: 984103
+    sha256: "674f3383a89239e2db5ded0b87ecaea74022fcfa896ec04dc215d593ddd4feeb"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -82,24 +82,24 @@ shards:
     key: "E"
     group: "letter"
     games: 1590
-    bytes: 518206
-    sha256: "5ee10338f657fc5f11f66057b5655fae49aa8698422b0e8efef800fec469f1ae"
+    bytes: 517984
+    sha256: "7177152267a42cad506d11aa1d3d48a5ab7bb00701b1f8ed2746fb75df1fe97e"
     first: "E-Ball"
     last: "Ezy"
   - path: "f.yaml"
     key: "F"
     group: "letter"
     games: 2253
-    bytes: 760827
-    sha256: "b056bf696fe94f605629f2abe79605fe8548ae5c4024026da7a2df6c77243771"
+    bytes: 760899
+    sha256: "7d33d0987b35fff236ab88762206e4c967d47cb4c545a24ada9a0b8f0417cc6c"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
     key: "G"
     group: "letter"
-    games: 1924
-    bytes: 619424
-    sha256: "4db3e07c6263f21777191d2c2b5a7dcc5ae3cde18e21a2896388ac351fd284c4"
+    games: 1925
+    bytes: 619711
+    sha256: "ba1f68624f7d2fdbf15136fbc13a0189d78c6d2a6656803bec89ebf27757465d"
     first: "G Prime"
     last: "Géants disparus VR"
   - path: "h.yaml"
@@ -145,9 +145,9 @@ shards:
   - path: "m.yaml"
     key: "M"
     group: "letter"
-    games: 3182
-    bytes: 1026207
-    sha256: "11e576046517be1caedf49374cf6dd29510110f0dc071d4e4222167db8e20f62"
+    games: 3183
+    bytes: 1026978
+    sha256: "ad9e58019c620a34fbd5ecd33971429a160f13972cd2665ec5258c93a93a68a2"
     first: "M Mania"
     last: "Möbius Front '83"
   - path: "n.yaml"
@@ -210,8 +210,8 @@ shards:
     key: "T"
     group: "letter"
     games: 5535
-    bytes: 1944655
-    sha256: "0c64e6f021290387d8007e8e579cd9f0b7a0c4048269701e9a1a3eff6cc02e98"
+    bytes: 1944774
+    sha256: "d9e016f1c7aeb94fd027e31a0d2084ebc40cab9f306b819257dcb4a9e4792615"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"
@@ -265,8 +265,8 @@ shards:
   - path: "z.yaml"
     key: "Z"
     group: "letter"
-    games: 465
-    bytes: 135311
-    sha256: "ce58a1b400edee6229c3acc61f4e7994837d85f67c2380b395d13646c16227e1"
+    games: 466
+    bytes: 135343
+    sha256: "db7d209ac987415f68bf1a7235dcece230454f5617136447eed6c7ad551dfa8a"
     first: "Z (2012)"
     last: "Zzzzz"

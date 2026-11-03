@@ -34588,10 +34588,14 @@ Frostpunk 2:
       - 1800456002
       - 1967910805
       - 2072738332
+    lutris: frostpunk-2
     steamExtra:
       - 2791490
       - 2791500
       - 2791510
+      - 3197520
+      - 4124750
+      - 4124760
   installDir:
     Frostpunk2: {}
   launch:

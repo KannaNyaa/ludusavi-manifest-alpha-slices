@@ -24965,6 +24965,23 @@ Grey Hack:
             store: steam
   steam:
     id: 605230
+"Grey Heritage: Noble Duty":
+  cloud:
+    steam: true
+  files:
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Grey Heritage Noble Duty: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2424300
 Grey Phobia:
   cloud:
     steam: true

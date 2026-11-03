@@ -34244,6 +34244,35 @@ Anomalies:
             store: steam
   steam:
     id: 546780
+Anomalith:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/FURYU Corporation/Anomalith/<storeUserId>":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: anomalith
+    steamExtra:
+      - 4383910
+      - 4424530
+      - 4424540
+      - 4682820
+      - 5240430
+      - 5240440
+  installDir:
+    Anomalith: {}
+  launch:
+    "<base>/Anomalith.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4017880
 Anomaly 1729:
   installDir:
     Anomaly 1729: {}
