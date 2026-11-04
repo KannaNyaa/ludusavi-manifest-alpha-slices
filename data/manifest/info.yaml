@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-04T01:26:29Z"
+generatedAt: "2026-11-04T11:01:20Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"c45192886e0faeba2c242920a496886e74eaebe9f84a564b17074c91888a67c5\""
+  etag: "\"870a93362487328150de86ff83d7ab6a8e0a25b7e5e9beb6244ebb3a041b9cd8\""
   lastModified: ""
-  sha256: "459974a832c2ceef46b059f6f7092c141862ab94ab1c24475ba4c3e43585fdec"
-  sizeBytes: 17751934
-  lines: 884561
+  sha256: "3b4a7e7e5d6ef0184623a5a486d149fb69f508164fd8831ad478f68eebae7203"
+  sizeBytes: 17752426
+  lines: 884583
 
 manifest:
-  games: 53482
+  games: 53484
   shards: 29
   files: 30
-  bytes: 17752046
-  withSaveTag: 13633
+  bytes: 17752538
+  withSaveTag: 13634
   sections:
     alias: 1124
     cloud: 15733
-    files: 22563
+    files: 22564
     gog: 5606
-    id: 10197
+    id: 10198
     installDir: 43918
     launch: 39666
     registry: 2847
-    steam: 49308
+    steam: 49309
 
 sharding:
   rule: "first-character"
@@ -49,9 +49,9 @@ shards:
   - path: "b.yaml"
     key: "B"
     group: "letter"
-    games: 2996
-    bytes: 984159
-    sha256: "d5e918823a26895dc6da870c4bf4b55acdadd3f733c910fdf5dea636091d0176"
+    games: 2997
+    bytes: 984227
+    sha256: "986abfe4cc9f1ac77884e0706fd456d0b369148905fae14917b1e2605e9da7cf"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -169,9 +169,9 @@ shards:
   - path: "p.yaml"
     key: "P"
     group: "letter"
-    games: 2677
-    bytes: 861919
-    sha256: "7b56a9d0b8dd60a6124d70a70f4d667e68fb9f62199a2d5c054aa9ed30a3f52c"
+    games: 2678
+    bytes: 862343
+    sha256: "3c63b1d959a9d7b3738bff0cda674c4af8c2ab8bf053dd24d0d9ecea679a0d3f"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"

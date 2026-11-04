@@ -20806,6 +20806,9 @@ Bildo:
             store: steam
   steam:
     id: 674390
+"Bill & Ted's Excellent Adventure Arcade":
+  steam:
+    id: 5359820
 "Billiard: VR":
   steam:
     id: 566290
