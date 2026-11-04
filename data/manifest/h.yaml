@@ -9821,6 +9821,24 @@ Heartbound:
             store: steam
   steam:
     id: 836350
+Heartfall — A Tale in Three Lives:
+  installDir:
+    Heartfall — A Tale in Three Lives: {}
+  launch:
+    "<base>/3rdRPG-shell2.app/Contents/MacOS/3rdRPG-shell2":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Heartfall.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Heartfall.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 5257930
 Hearthlands:
   files:
     "<base>/config.txt":
@@ -19799,6 +19817,21 @@ Hexzen:
         - os: linux
   id:
     lutris: hexzen
+  installDir:
+    Hexzen: {}
+  launch:
+    "<base>/Hexzen.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/hexzen_game":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/hexzen_game.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4886450
 "Hi-5: Create, Paint and Play":

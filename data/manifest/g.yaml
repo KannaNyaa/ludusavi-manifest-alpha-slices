@@ -17341,6 +17341,22 @@ Godzilla Voxel Wars:
   steam:
     id: 2439780
 "Godzilla: Destroy All Monsters Melee Remastered":
+  files:
+    "<winLocalAppData>/GZPro/Saved/SaveGames/<storeUserId>/GZProSave.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 4653170
+  installDir:
+    Godzilla Destroy All Monsters Melee Remastered: {}
+  launch:
+    "<base>/GZPro/Binaries/Win64/GZProSteam-Win64-Shipping.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4251460
 Goetia:

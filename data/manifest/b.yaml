@@ -41690,6 +41690,8 @@ Brews & Bastards:
   steam:
     id: 2556240
 Brian Lara International Cricket 2007:
+  id:
+    lutris: brian-lara-international-cricket-2007
   installDir:
     Brian Lara International Cricket 2007: {}
   launch:

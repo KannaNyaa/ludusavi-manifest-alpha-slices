@@ -7894,6 +7894,9 @@ Task Force:
         workingDir: "<base>/dosbox_windows"
   steam:
     id: 329680
+Task Force Delta ‑ Afghanistan:
+  steam:
+    id: 1700370
 Task is to Survive:
   installDir:
     Task is to Survive: {}
@@ -21982,6 +21985,12 @@ The Citadel:
             store: steam
   steam:
     id: 1378290
+The Citadel Project:
+  id:
+    steamExtra:
+      - 5111940
+  steam:
+    id: 4795460
 The Clans - Saga of the Twins:
   cloud:
     steam: true
@@ -76448,6 +76457,7 @@ Tormentor X Punisher:
     id: 500670
 Tormentum II:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/.config/unity3d/OhNoo Studio/Tormentum II":
@@ -76461,6 +76471,8 @@ Tormentum II:
         - save
       when:
         - os: windows
+  gog:
+    id: 1169385437
   id:
     lutris: tormentum-ii
     steamExtra:

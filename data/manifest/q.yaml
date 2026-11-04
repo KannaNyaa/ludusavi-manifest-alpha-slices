@@ -383,6 +383,31 @@ Qajary Cat:
   steam:
     id: 734080
 Qanga:
+  files:
+    "<winLocalAppData>/Qanga/Saved/SaveGames/*Tutorial.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Qanga/Saved/SaveGames/BACKUP_Offline/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Qanga/Saved/SaveGames/LocalData.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Qanga/Saved/SaveGames/Offline":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Qanga/Saved/SaveGames/QStorage/Offline/**/*.qst":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Qanga/Saved/SaveGames/QStorage/Offline/**/*.qst.bak":
+      when:
+        - os: windows
+          store: steam
   installDir:
     Qanga: {}
   launch:

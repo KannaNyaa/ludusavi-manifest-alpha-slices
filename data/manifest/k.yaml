@@ -2728,12 +2728,12 @@ Katana Dragon:
   installDir:
     Katana Dragon: {}
   launch:
-    "<base>/katana_dragon.exe":
+    "<base>/katana-dragon.exe":
       - when:
           - bit: 64
             os: windows
             store: steam
-    "<base>/katana_dragon.x86_64":
+    "<base>/katana-dragon.x86_64":
       - when:
           - bit: 64
             os: linux

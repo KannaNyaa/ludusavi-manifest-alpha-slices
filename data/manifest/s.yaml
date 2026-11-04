@@ -32446,6 +32446,8 @@ Silhouette:
   steam:
     id: 526310
 Silica:
+  cloud:
+    steam: true
   installDir:
     Silica: {}
   launch:
@@ -40284,6 +40286,16 @@ Slice & Dice:
         - save
       when:
         - os: windows
+    "<home>/.prefs/slice-and-dice-3":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.prefs/slice-and-dice-3x":
+      tags:
+        - save
+      when:
+        - os: linux
   installDir:
     Slice_n_Dice: {}
   launch:

@@ -11681,6 +11681,8 @@ Perimeter:
         - os: windows
   gog:
     id: 1207658667
+  id:
+    lutris: perimeter
   installDir:
     Perimeter: {}
   launch:
@@ -11715,6 +11717,8 @@ Perimeter:
           store: steam
   gog:
     id: 1454498998
+  id:
+    lutris: perimeter-emperors-testament
   installDir:
     PerimeterET: {}
   launch:
