@@ -6928,6 +6928,16 @@ Raptor Valley:
         - save
       when:
         - store: steam
+    "<winAppData>/Raptor2015":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Raptor2015/options.dat":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1207658879
   installDir:

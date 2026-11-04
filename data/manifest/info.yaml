@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-04T11:01:20Z"
+generatedAt: "2026-11-04T21:21:10Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"870a93362487328150de86ff83d7ab6a8e0a25b7e5e9beb6244ebb3a041b9cd8\""
+  etag: "\"ed4dbe7825c3b9a1cfb3ed60081bbf6e29eeb4be90fdc52fd47c0aa8c76d304d\""
   lastModified: ""
-  sha256: "3b4a7e7e5d6ef0184623a5a486d149fb69f508164fd8831ad478f68eebae7203"
-  sizeBytes: 17752426
-  lines: 884583
+  sha256: "cc70fe5423800e8e1f034f745946bee3bde13fe60a74a016042ccfd769f82f4d"
+  sizeBytes: 17753999
+  lines: 884664
 
 manifest:
-  games: 53484
+  games: 53488
   shards: 29
   files: 30
-  bytes: 17752538
-  withSaveTag: 13634
+  bytes: 17754111
+  withSaveTag: 13636
   sections:
-    alias: 1124
-    cloud: 15733
-    files: 22564
-    gog: 5606
-    id: 10198
-    installDir: 43918
-    launch: 39666
-    registry: 2847
-    steam: 49309
+    alias: 1125
+    cloud: 15736
+    files: 22567
+    gog: 5607
+    id: 10200
+    installDir: 43920
+    launch: 39668
+    registry: 2848
+    steam: 49311
 
 sharding:
   rule: "first-character"
@@ -41,17 +41,17 @@ shards:
   - path: "a.yaml"
     key: "A"
     group: "letter"
-    games: 3315
-    bytes: 1111230
-    sha256: "e84b2e3bbb60e830602e6781393f7ec285c2b5d7524316ee1575d1004df8be7b"
+    games: 3316
+    bytes: 1111341
+    sha256: "d0db655ddcad1898faed693814a1f737e9ec9e1f078ff935f96f611b5bfdddb5"
     first: "A Bastard's Tale"
     last: "Azusa RP Online"
   - path: "b.yaml"
     key: "B"
     group: "letter"
     games: 2997
-    bytes: 984227
-    sha256: "986abfe4cc9f1ac77884e0706fd456d0b369148905fae14917b1e2605e9da7cf"
+    bytes: 984243
+    sha256: "e44eaf1f04282ea95e5b729154017656a6b9b549243f6b96a8c61516b9394682"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -106,8 +106,8 @@ shards:
     key: "H"
     group: "letter"
     games: 2185
-    bytes: 714248
-    sha256: "98369e93ecf35c12e74111b9d3c199f0052b7909cadb50e99257704a25749a0c"
+    bytes: 714276
+    sha256: "077274f4fa4481209309bc5c311c9ff6f5c6e6a082c46d226efc504b0addda5a"
     first: "H Chan: Girl"
     last: "Höllenjob"
   - path: "i.yaml"
@@ -169,9 +169,9 @@ shards:
   - path: "p.yaml"
     key: "P"
     group: "letter"
-    games: 2678
-    bytes: 862343
-    sha256: "3c63b1d959a9d7b3738bff0cda674c4af8c2ab8bf053dd24d0d9ecea679a0d3f"
+    games: 2680
+    bytes: 863244
+    sha256: "2cecb87d715909d57cc8857134974fa6b65f996f7e07748a562b2f9c83847aed"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"
@@ -186,8 +186,8 @@ shards:
     key: "R"
     group: "letter"
     games: 2484
-    bytes: 817880
-    sha256: "afea442a32d03b5a91f1473315b2d6273be19f21ccff41e95067cc3054dd55c7"
+    bytes: 818078
+    sha256: "44576a2725659ddc3d14f8ceecea9cc1f1f26f2a1a29feb8f90eeaef94536f10"
     first: "R Academy"
     last: "RŌA"
   - path: "s.yaml"
@@ -241,9 +241,9 @@ shards:
   - path: "w.yaml"
     key: "W"
     group: "letter"
-    games: 1712
-    bytes: 586196
-    sha256: "eaa522a0affa4af1cb29c5d036f7f12ed72dbdcc6fbccea9f2d1be6d8ee3e8ef"
+    games: 1713
+    bytes: 586515
+    sha256: "3a3fc688f3d53a4cfad65af661fd8d26eb980dc27bcf0a114dfa1743acc00dc3"
     first: "W. T. B."
     last: "Włatcy móch: Wrzód na dópie"
   - path: "x.yaml"

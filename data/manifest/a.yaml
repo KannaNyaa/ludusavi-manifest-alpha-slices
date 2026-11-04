@@ -50511,6 +50511,13 @@ Atrocity:
             store: steam
   steam:
     id: 979620
+Atrox:
+  files:
+    "<base>/Users/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
 Attached:
   installDir:
     Attached: {}

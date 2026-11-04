@@ -13028,6 +13028,22 @@ Wells:
             store: steam
   steam:
     id: 789700
+"WendyQuest: Legend of the Four Corner Stones":
+  cloud:
+    steam: true
+  files:
+    "<base>/package.nw/save/*.rmmzsave":
+      when:
+        - store: steam
+  installDir:
+    Wendy Quest: {}
+  launch:
+    "<base>/WendyQuest.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3339970
 Wenjia:
   installDir:
     Wenjia: {}

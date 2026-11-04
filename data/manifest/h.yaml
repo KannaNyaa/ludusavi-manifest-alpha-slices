@@ -19535,6 +19535,8 @@ Hexologic:
         - save
       when:
         - store: steam
+  id:
+    lutris: hexologic
   installDir:
     Hexologic: {}
   launch:
