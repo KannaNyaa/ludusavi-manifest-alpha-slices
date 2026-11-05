@@ -11335,11 +11335,10 @@ Void/Breaker:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/VOIDBREAKER/Saved/Config/Windows/*.ini":
+    "<winLocalAppData>/VOIDBREAKER/Saved/SaveGames/LimaSaveGame.sav":
       when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/VOIDBREAKER/Saved/SaveGames/*.sav":
+        - store: steam
+    "<winLocalAppData>/VOIDBREAKER/Saved/SaveGames/TimePlayed.sav":
       when:
         - store: steam
   installDir:

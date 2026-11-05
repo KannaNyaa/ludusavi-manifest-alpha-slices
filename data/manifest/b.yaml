@@ -42462,9 +42462,15 @@ Brief Karate Foolish:
     "<base>/SavesDir/*.sav":
       when:
         - store: steam
+  id:
+    lutris: brief-karate-foolish
   installDir:
     Brief Karate Foolish: {}
   launch:
+    "<base>/BriefKarateLauncher.exe":
+      - arguments: "-netplay"
+        when:
+          - store: steam
     "<base>/SFWinCf.EXE":
       - when:
           - store: steam

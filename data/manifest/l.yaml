@@ -19175,6 +19175,27 @@ Living The Deal:
             store: steam
   steam:
     id: 647550
+"Living With Sister: Monochrome Fantasy":
+  cloud:
+    steam: true
+  files:
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3062990
+      - 3155140
+  installDir:
+    Living With SIster Monochrome Fantasy: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2429860
 Living with Jaguars:
   installDir:
     Jaguars VR: {}

@@ -18500,6 +18500,7 @@ MegaRace:
   id:
     gogExtra:
       - 1207658758
+    lutris: megarace
   installDir:
     MegaRace 1: {}
   launch:
@@ -18535,6 +18536,7 @@ MegaRace 2:
   id:
     gogExtra:
       - 1207658758
+    lutris: megarace-2
   installDir:
     MegaRace 2: {}
   launch:
@@ -18572,6 +18574,8 @@ MegaRace 3:
         - os: windows
   gog:
     id: 1207658764
+  id:
+    lutris: megarace-3
   installDir:
     MegaRace 3: {}
   launch:
@@ -43829,6 +43833,25 @@ Mr. Vegan:
             store: steam
   steam:
     id: 1198310
+Mr.Mine:
+  cloud:
+    steam: true
+  id:
+    lutris: mr-dot-mine
+  installDir:
+    MrMine: {}
+  launch:
+    "<base>/Mr.Mine.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/win-unpacked/Mr.Mine.exe":
+      - arguments: "--in-process-gpu --process-start-args \"-disable-features=HardwareMediaKeyHandling\""
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1397920
 Mr.President Prologue Episode:
   installDir:
     mrpresidentprologue: {}
@@ -48686,6 +48709,23 @@ My Sweet Waifu:
             store: steam
   steam:
     id: 793760
+My Sweet Waifu Konko:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    My Sweet Waifu Konko: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3099780
 My Therapist is a Futanari:
   installDir:
     My Therapist is a Futanari: {}

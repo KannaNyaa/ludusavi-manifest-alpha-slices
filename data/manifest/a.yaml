@@ -7601,6 +7601,13 @@ ATOM RPG:
         - os: linux
   gog:
     id: 1673367037
+  id:
+    gogExtra:
+      - 1531569593
+      - 2085203195
+    steamExtra:
+      - 1093400
+      - 5210340
   installDir:
     ATOM RPG: {}
   launch:

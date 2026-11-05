@@ -6290,6 +6290,11 @@ Samorost 2:
   cloud:
     epic: true
   files:
+    "<home>/Library/Application Support/Amanita Design/Samorost 2/s2save.bin":
+      tags:
+        - save
+      when:
+        - os: mac
     "<winAppData>/amanita-design.samorost3/Local Store":
       tags:
         - config

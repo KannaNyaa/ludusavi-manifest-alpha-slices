@@ -216,22 +216,6 @@ YORG.io 3:
     id: 1134480
 YOU - The Untold Stories:
   alias: "You: The Untold Stories"
-"YOU and ME and HER: A Love Story":
-  files:
-    "<winAppData>/Nitroplus/totono":
-      tags:
-        - save
-      when:
-        - os: windows
-  installDir:
-    YOU and ME and HER - A Love Story: {}
-  launch:
-    "<base>/totono_Steam.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1293820
 "YU-NO: A Girl Who Chants Love at the Bound of this World":
   alias: "YU-NO: A Girl Who Chants Love at the Bound of this World (2017)"
 "YU-NO: A Girl Who Chants Love at the Bound of this World (2017)":
@@ -3262,6 +3246,22 @@ You Will Never Get This Achievement:
             store: steam
   steam:
     id: 771410
+"You and Me and Her: A Love Story":
+  files:
+    "<winAppData>/Nitroplus/totono":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    YOU and ME and HER - A Love Story: {}
+  launch:
+    "<base>/totono_Steam.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1293820
 You are Never Alone:
   installDir:
     You are Never Alone: {}

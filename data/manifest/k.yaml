@@ -4957,6 +4957,16 @@ Kiborg:
             store: steam
   steam:
     id: 2796130
+Kick:
+  installDir:
+    Kick it: {}
+  launch:
+    "<base>/Kick.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3760370
 Kick Ass Commandos:
   installDir:
     Kick Ass Commandos: {}

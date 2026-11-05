@@ -3807,6 +3807,7 @@ Zombie Army VR:
   cloud:
     steam: true
   id:
+    lutris: zombie-assault-resurgence
     steamExtra:
       - 3929860
       - 4377450

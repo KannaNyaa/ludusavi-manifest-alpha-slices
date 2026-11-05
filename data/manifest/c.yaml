@@ -3385,6 +3385,11 @@ Call of Duty Black Ops Cold War:
     id: 115300
 "Call of Duty: Modern Warfare 4":
   files:
+    "<winAppData>/Local/Activision/Call of Duty/players":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Activision/Call of Duty/players/<storeUserId>":
       tags:
         - save
@@ -44904,6 +44909,17 @@ Cozy Game Restoration:
       - 4668150
       - 4742270
       - 5338940
+  installDir:
+    Cozy Game Restoration: {}
+  launch:
+    "<base>/CozyGameRestoration.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/CozyGameRestoration.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3581230
 Cozy Grove:

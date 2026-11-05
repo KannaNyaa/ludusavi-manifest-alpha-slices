@@ -3174,6 +3174,8 @@ Nanairo Reincarnation:
   steam:
     id: 220420
 "Nancy Drew: The Final Scene":
+  id:
+    lutris: nancy-drew-the-final-scene
   installDir:
     Nancy Drew The Final Scene: {}
   launch:
@@ -3306,6 +3308,8 @@ Nanairo Reincarnation:
   steam:
     id: 42230
 "Nancy Drew: Treasure in the Royal Tower":
+  id:
+    lutris: nancy-drew-treasure-in-the-royal-tower
   installDir:
     Nancy Drew Treasure in the Royal Tower: {}
   launch:

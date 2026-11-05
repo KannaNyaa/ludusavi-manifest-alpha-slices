@@ -4085,6 +4085,23 @@ Tale Of Starship:
             store: steam
   steam:
     id: 1081430
+Tale Sweeper:
+  files:
+    "<home>/AppData/LocalLow/DefaultCompany/Tale Sweeper/save.dat":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/DefaultCompany/Tale Sweeper/save.dat":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Tale Sweeper: {}
+  launch:
+    "<base>/Tale Sweeper.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4764420
 Tale of Alamar:
   installDir:
     Tale of Alamar: {}
@@ -6020,6 +6037,16 @@ Tametsi:
         - save
       when:
         - os: windows
+    "<xdgData>/Epic/Shadows/Config/LinuxNoEditor":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgData>/Epic/Shadows/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: linux
   gog:
     id: 1883930697
   id:
