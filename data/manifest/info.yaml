@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-05T11:01:50Z"
+generatedAt: "2026-11-05T21:28:49Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,27 +9,27 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"5037bac5e20fa538c8b27396161a88f359439a67cfd133bcb39f0b178e38defd\""
+  etag: "\"05052bd913bf667517fce247b5e1ae9aa99419f70bf016deccb395502f15c296\""
   lastModified: ""
-  sha256: "125edee1cd00fb0f5db7151953585c1d574934119285892eb9bb6a2de90126df"
-  sizeBytes: 17756803
-  lines: 884800
+  sha256: "fa567415fdc1831fa7c48728baa5dfae16227035a23fc2953c41a476b30ec67d"
+  sizeBytes: 17757873
+  lines: 884840
 
 manifest:
-  games: 53493
+  games: 53495
   shards: 29
   files: 30
-  bytes: 17756915
+  bytes: 17757985
   withSaveTag: 13638
   sections:
     alias: 1125
     cloud: 15739
     files: 22570
     gog: 5607
-    id: 10207
+    id: 10224
     installDir: 43926
     launch: 39674
-    registry: 2848
+    registry: 2849
     steam: 49316
 
 sharding:
@@ -153,9 +153,9 @@ shards:
   - path: "n.yaml"
     key: "N"
     group: "letter"
-    games: 1344
-    bytes: 439872
-    sha256: "a275ed26f6150d18878eb60a706114b364e156025f9bb7efc87fedee32b3f6b2"
+    games: 1345
+    bytes: 440784
+    sha256: "aa18b2da723519ca8b9163c0f915f8fe8fcfc5b3c1478312f9caeebfbeac50a6"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
@@ -194,8 +194,8 @@ shards:
     key: "S"
     group: "letter"
     games: 5931
-    bytes: 2057417
-    sha256: "5ea89a0d1b36e7c1644d3c95c2c948b7f181d274c50b0a53e456f68b9ccf5c7e"
+    bytes: 2057461
+    sha256: "3f62160274ae795cc687079690dba931c7e5c93d088d954cfc8de63e2dbb2376"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -209,9 +209,9 @@ shards:
   - path: "t.yaml"
     key: "T"
     group: "letter"
-    games: 5542
-    bytes: 1947620
-    sha256: "98857d259f55155343214679d46793ff3bef5fe3ade0580ba12a15f5d5d31587"
+    games: 5543
+    bytes: 1947734
+    sha256: "d8b7c9b9689c8a2d90ad2d4fd66d97ef86d2d4696e454465efe21c5be7473341"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"

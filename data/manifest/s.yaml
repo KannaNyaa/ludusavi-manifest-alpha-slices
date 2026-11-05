@@ -10863,6 +10863,8 @@ Schein:
         - os: windows
   gog:
     id: 1471706990
+  id:
+    lutris: schizm-mysterious-journey
   installDir:
     Schizm Mysterious Journey: {}
   launch:

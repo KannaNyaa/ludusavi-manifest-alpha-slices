@@ -2783,6 +2783,8 @@ Nanairo Reincarnation:
         - save
       when:
         - os: windows
+  id:
+    lutris: nancy-drew-dossier-lights-camera-curses
   installDir:
     "Nancy Drew Lights, Camera, Curses": {}
   launch:
@@ -2792,6 +2794,8 @@ Nanairo Reincarnation:
   steam:
     id: 31870
 "Nancy Drew Dossier: Resorting to Danger!":
+  id:
+    lutris: nancy-drew-dossier-resorting-to-danger
   installDir:
     Nancy Drew Dossier - Resorting to Danger: {}
   launch:
@@ -2829,6 +2833,8 @@ Nanairo Reincarnation:
         - os: windows
   gog:
     id: 1207659205
+  id:
+    lutris: nancy-drew-curse-of-blackmoor-manor
   installDir:
     Nancy Drew Curse of Blackmoor Manor: {}
   launch:
@@ -2838,6 +2844,8 @@ Nanairo Reincarnation:
   steam:
     id: 31830
 "Nancy Drew: Danger by Design":
+  id:
+    lutris: nancy-drew-danger-by-design
   installDir:
     Nancy Drew Danger by Design: {}
   launch:
@@ -2869,6 +2877,8 @@ Nanairo Reincarnation:
         - config
       when:
         - os: windows
+  id:
+    lutris: nancy-drew-ghost-dogs-of-moon-lake
   installDir:
     Nancy Drew Ghost Dogs of Moon Lake: {}
   launch:
@@ -2940,6 +2950,8 @@ Nanairo Reincarnation:
   steam:
     id: 572710
 "Nancy Drew: Last Train to Blue Moon Canyon":
+  id:
+    lutris: nancy-drew-last-train-to-blue-moon-canyon
   installDir:
     Nancy Drew Last Train to Blue Moon Canyon: {}
   launch:
@@ -2949,6 +2961,8 @@ Nanairo Reincarnation:
   steam:
     id: 31810
 "Nancy Drew: Legend of the Crystal Skull":
+  id:
+    lutris: nancy-drew-legend-of-the-crystal-skull
   installDir:
     Nancy Drew Legend of The Crystal Skull: {}
   launch:
@@ -2958,6 +2972,8 @@ Nanairo Reincarnation:
   steam:
     id: 31860
 "Nancy Drew: Message in a Haunted Mansion":
+  id:
+    lutris: nancy-drew-message-in-a-haunted-mansion
   installDir:
     Nancy Drew Message in a Haunted Mansion: {}
   launch:
@@ -3074,6 +3090,8 @@ Nanairo Reincarnation:
   steam:
     id: 572700
 "Nancy Drew: Secret of the Old Clock":
+  id:
+    lutris: nancy-drew-secret-of-the-old-clock
   installDir:
     Nancy Drew Secret of the Old Clock: {}
   launch:
@@ -3083,6 +3101,8 @@ Nanairo Reincarnation:
   steam:
     id: 31880
 "Nancy Drew: Secret of the Scarlet Hand":
+  id:
+    lutris: nancy-drew-secret-of-the-scarlet-hand
   installDir:
     Nancy Drew Secret of the Scarlet Hand: {}
   launch:
@@ -3091,6 +3111,9 @@ Nanairo Reincarnation:
           - store: steam
   steam:
     id: 31890
+"Nancy Drew: Secrets Can Kill":
+  id:
+    lutris: nancy-drew-secrets-can-kill
 "Nancy Drew: Secrets Can Kill Remastered":
   installDir:
     Nancy Drew Secrets Can Kill: {}
@@ -3149,6 +3172,8 @@ Nanairo Reincarnation:
   steam:
     id: 42220
 "Nancy Drew: The Creature of Kapu Cave":
+  id:
+    lutris: nancy-drew-the-creature-of-kapu-cave
   installDir:
     Nancy Drew The Creature of Kapu Cave: {}
   launch:
@@ -3197,6 +3222,8 @@ Nanairo Reincarnation:
   steam:
     id: 31820
 "Nancy Drew: The Haunting of Castle Malloy":
+  id:
+    lutris: nancy-drew-the-haunting-of-castle-malloy
   installDir:
     Nancy Drew The Haunting of Castle Malloy: {}
   launch:
@@ -3217,6 +3244,8 @@ Nanairo Reincarnation:
         - config
       when:
         - os: windows
+  id:
+    lutris: nancy-drew-the-phantom-of-venice
   installDir:
     Nancy Drew The Phantom of Venice: {}
   launch:
@@ -3269,6 +3298,8 @@ Nanairo Reincarnation:
   steam:
     id: 572730
 "Nancy Drew: The White Wolf of Icicle Creek":
+  id:
+    lutris: nancy-drew-the-white-wolf-of-icicle-creek
   installDir:
     Nancy Drew - The White Wolf of Icicle Creek: {}
   launch:
@@ -3320,6 +3351,8 @@ Nanairo Reincarnation:
   steam:
     id: 615780
 "Nancy Drew: Warnings at Waverly Academy":
+  id:
+    lutris: nancy-drew-warnings-at-waverly-academy
   installDir:
     Nancy Drew Warnings at Waverly Academy: {}
   launch:

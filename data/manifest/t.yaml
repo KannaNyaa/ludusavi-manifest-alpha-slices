@@ -15845,6 +15845,11 @@ The Adventures of Kusoge:
           - store: steam
   steam:
     id: 787140
+The Adventures of Lomax:
+  registry:
+    HKEY_CURRENT_USER/Software/Psygnosis/Lomax:
+      tags:
+        - config
 The Adventures of Looppy:
   installDir:
     The Adventures of Looppy: {}
