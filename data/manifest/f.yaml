@@ -30482,6 +30482,8 @@ Fragile Allegiance:
         - os: dos
   gog:
     id: 1207659059
+  id:
+    lutris: fragile-allegiance
   installDir:
     Fragile Allegiance: {}
   launch:

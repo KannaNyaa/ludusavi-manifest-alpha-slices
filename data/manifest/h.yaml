@@ -6086,6 +6086,8 @@ Hardwar:
         - save
       when:
         - os: windows
+  id:
+    lutris: hardwar
   installDir:
     Hardwar: {}
   launch:

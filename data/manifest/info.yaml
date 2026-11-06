@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-06T10:59:44Z"
+generatedAt: "2026-11-06T20:55:38Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"c9e436484fa6a16f93734d673a6e1bd3068f4cf58359f859d0241f535c415be9\""
+  etag: "\"5f5111c965a56534e7369f62f0fc1c83bd1559c2823a47044b14f95286ce4536\""
   lastModified: ""
-  sha256: "d9a7122b92e6cd3d2c7ac4a93ac3b9212dae4bdab803bb70c324e5124c892f14"
-  sizeBytes: 17765046
-  lines: 885176
+  sha256: "22646aee60e337f4bb50111ae00c6f0dfec8e53946b4fbb3f7058d54f1764273"
+  sizeBytes: 17765425
+  lines: 885198
 
 manifest:
   games: 53497
   shards: 29
   files: 30
-  bytes: 17765158
+  bytes: 17765537
   withSaveTag: 13638
   sections:
     alias: 1125
-    cloud: 15742
+    cloud: 15743
     files: 22573
-    gog: 5607
-    id: 10239
-    installDir: 43952
-    launch: 39691
+    gog: 5608
+    id: 10243
+    installDir: 43953
+    launch: 39692
     registry: 2849
-    steam: 49341
+    steam: 49342
 
 sharding:
   rule: "first-character"
@@ -58,8 +58,8 @@ shards:
     key: "C"
     group: "letter"
     games: 3500
-    bytes: 1188047
-    sha256: "bcb0849c610a9dc3641f65a865a6ff44d6ea721ae45241eba2c8862d34a4362e"
+    bytes: 1188099
+    sha256: "1a5d0e7e377a87f6c2967d618c9d8a956e8bc0830526a8975a4b8dcdf13b5c4f"
     first: "C"
     last: "CyubeVR"
   - path: "d.yaml"
@@ -90,8 +90,8 @@ shards:
     key: "F"
     group: "letter"
     games: 2253
-    bytes: 760922
-    sha256: "f2017c5c2e73ff4e5d7c79f710a60996c0675aaf98bfb47baca3070f33d86795"
+    bytes: 760959
+    sha256: "9689cce6612148feb2496eece285a03be57a282f0fcbbb5fcb3ba44f126b5931"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
@@ -106,8 +106,8 @@ shards:
     key: "H"
     group: "letter"
     games: 2185
-    bytes: 714276
-    sha256: "077274f4fa4481209309bc5c311c9ff6f5c6e6a082c46d226efc504b0addda5a"
+    bytes: 714302
+    sha256: "d5b0e6771ef2041c8b41cc61d928d9356214817554bfa1a663588f303132be1d"
     first: "H Chan: Girl"
     last: "Höllenjob"
   - path: "i.yaml"
@@ -163,7 +163,7 @@ shards:
     group: "letter"
     games: 1079
     bytes: 358351
-    sha256: "819de641bef5962c91f7bfe6b31a55bc4630364a7a5d4bd006cad2d6852d9b18"
+    sha256: "0ee9855c235433879fa5bb6ce7601518b6de06ad453d487b1e09435845de51be"
     first: "O Rei"
     last: "Ozymandias"
   - path: "p.yaml"
@@ -186,8 +186,8 @@ shards:
     key: "R"
     group: "letter"
     games: 2484
-    bytes: 818078
-    sha256: "44576a2725659ddc3d14f8ceecea9cc1f1f26f2a1a29feb8f90eeaef94536f10"
+    bytes: 818342
+    sha256: "e37b981782c63d3f9b8169ed953ae9cfb1a104c77146ccc47dd285bdf790205c"
     first: "R Academy"
     last: "RŌA"
   - path: "s.yaml"

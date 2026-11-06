@@ -10808,6 +10808,8 @@ Realms of the Haunting:
         - os: dos
   gog:
     id: 1207658921
+  id:
+    lutris: realms-of-the-haunting
   installDir:
     Realms of the Haunting: {}
   launch:
@@ -28695,11 +28697,25 @@ Road Rage Royale:
   steam:
     id: 884610
 Road Rash:
+  cloud:
+    gog: true
+    steam: true
+  gog:
+    id: 2141922451
+  installDir:
+    RoadRash: {}
+  launch:
+    "<base>/RoadRash95.exe":
+      - when:
+          - os: windows
+            store: steam
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Electronic Arts/RoadRash 95:
       tags:
         - config
         - save
+  steam:
+    id: 2448570
 Road Redemption:
   cloud:
     gog: true

@@ -8654,6 +8654,8 @@ Carnivores 2:
 "Carnivores: Dinosaur Hunter Reborn":
   cloud:
     steam: true
+  id:
+    lutris: carnivores-dinosaur-hunter-reborn
   installDir:
     CarnivoresReborn: {}
   launch:

@@ -3478,17 +3478,6 @@ Off Grid:
     steam: true
   steam:
     id: 526720
-Off The Grid:
-  files:
-    "<winLocalAppData>/G01/Saved/Config/WindowsClient/GameUserSettings.ini":
-      tags:
-        - config
-      when:
-        - os: windows
-  installDir:
-    OffTheGrid: {}
-  steam:
-    id: 3659280
 "Off The Record: The Art of Deception":
   installDir:
     "Off The Record The Art of Deception Collector's Edition": {}
@@ -3501,6 +3490,17 @@ Off The Grid:
     id: 600170
 "Off The Record: The Art of Deception Collector's Edition":
   alias: "Off The Record: The Art of Deception"
+Off the Grid:
+  files:
+    "<winLocalAppData>/G01/Saved/Config/WindowsClient/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    OffTheGrid: {}
+  steam:
+    id: 3659280
 "Off the Record: Liberty Stone":
   installDir:
     "Off The Record Liberty Stone Collector's Edition": {}
