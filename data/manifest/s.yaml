@@ -82444,6 +82444,7 @@ Strike Cars:
 Strike Commander:
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/*.SAV":
       tags:
@@ -82462,6 +82463,15 @@ Strike Commander:
         - os: dos
   gog:
     id: 1207659195
+  installDir:
+    Strike Commander: {}
+  launch:
+    "<base>/DOSBOX/Strike Commander.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/DOSBOX"
+  steam:
+    id: 3067110
 Strike Force Remastered:
   cloud:
     steam: true

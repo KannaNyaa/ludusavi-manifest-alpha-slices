@@ -9381,6 +9381,14 @@ Payday 3:
 "Payday: Aces High":
   id:
     lutris: payday-aces-high
+    steamExtra:
+      - 5021070
+      - 5031920
+      - 5031930
+      - 5031940
+      - 5031950
+  installDir:
+    PAYDAY Aces High: {}
   steam:
     id: 3456660
 "Payday: The Heist":
@@ -33386,6 +33394,7 @@ Private Detective Punch Drunk:
 "Privateer 2: The Darkening":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/DARK.CFG":
       tags:
@@ -33400,7 +33409,15 @@ Private Detective Punch Drunk:
         - os: dos
         - os: windows
   gog:
-    id: 1207659613
+    id: 2120290282
+  id:
+    gogExtra:
+      - 1207659613
+      - 1649380437
+  installDir:
+    Privateer 2 The Darkening: {}
+  steam:
+    id: 3067130
 Privateers:
   files:
     "<base>/Saves/*.bin":

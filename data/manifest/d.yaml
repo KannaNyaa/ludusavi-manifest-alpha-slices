@@ -31037,6 +31037,13 @@ Dino Crisis 2:
           - store: steam
   steam:
     id: 4249140
+Dino Crisis 3:
+  files:
+    "<base>/dc3.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 Dino D-Day:
   cloud:
     steam: true

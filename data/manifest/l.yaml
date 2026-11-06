@@ -19179,6 +19179,11 @@ Living The Deal:
   cloud:
     steam: true
   files:
+    "<base>/Game.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/Save":
       tags:
         - save

@@ -1212,6 +1212,7 @@ Ultima Defesa:
 "Ultima I: The First Age of Darkness":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/PLAYER*.U1":
       tags:
@@ -1224,9 +1225,19 @@ Ultima Defesa:
     gogExtra:
       - 1207658961
     lutris: ultima
+  installDir:
+    Ultima I: {}
+  launch:
+    "<base>/DOSBOX/Ultima I.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/DOSBOX"
+  steam:
+    id: 3067480
 "Ultima II: The Revenge of the Enchantress":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/PLAYER":
       tags:
@@ -1239,9 +1250,19 @@ Ultima Defesa:
     gogExtra:
       - 1207658961
     lutris: ultima-ii-the-revenge-of-the-enchantress
+  installDir:
+    Ultima II: {}
+  launch:
+    "<base>/DOSBOX/Ultima II.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/DOSBOX"
+  steam:
+    id: 3067490
 "Ultima III: Exodus":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/PARTY.ULT":
       tags:
@@ -1264,9 +1285,19 @@ Ultima Defesa:
     gogExtra:
       - 1207658961
     lutris: exodus-ultima-iii
+  installDir:
+    Ultima III: {}
+  launch:
+    "<base>/DOSBOX/Ultima III.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/DOSBOX"
+  steam:
+    id: 3067500
 "Ultima IV: Quest of the Avatar":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/*.SAV":
       tags:
@@ -1277,10 +1308,20 @@ Ultima Defesa:
     id: 1207658962
   id:
     lutris: ultima-iv-quest-of-the-avatar
+  installDir:
+    Ultima IV: {}
+  launch:
+    "<base>/DOSBOX/Ultima IV.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/DOSBOX"
+  steam:
+    id: 3067510
 "Ultima IX: Ascension":
   cloud:
     gog: true
     origin: true
+    steam: true
   files:
     "<base>/Options.ini":
       tags:
@@ -1294,12 +1335,21 @@ Ultima Defesa:
         - os: windows
   gog:
     id: 1207659093
+  installDir:
+    Ultima IX: {}
+  launch:
+    "<base>/u9.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3067560
 Ultima Online:
   id:
     lutris: ultima-online
 "Ultima Underworld II: Labyrinth of Worlds":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/SAVE*":
       tags:
@@ -1317,9 +1367,19 @@ Ultima Online:
     gogExtra:
       - 1207658937
     lutris: ultima-underworld-ii-labyrinth-of-worlds
+  installDir:
+    Ultima Underworld II: {}
+  launch:
+    "<base>/DOSBOX/Ultima Underworld II.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/DOSBOX"
+  steam:
+    id: 3067590
 "Ultima Underworld: The Stygian Abyss":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/SAVE*":
       tags:
@@ -1337,9 +1397,19 @@ Ultima Online:
     gogExtra:
       - 1207658937
     lutris: ultima-underworld-the-stygian-abyss
+  installDir:
+    Ultima Underworld I: {}
+  launch:
+    "<base>/DOSBOX/Ultima Underworld I.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/DOSBOX"
+  steam:
+    id: 3067580
 "Ultima V: Warriors of Destiny":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/SAVED.GAM":
       tags:
@@ -1352,9 +1422,19 @@ Ultima Online:
     gogExtra:
       - 1207658965
     lutris: ulltima-v-warriors-of-destiny
+  installDir:
+    Ultima V: {}
+  launch:
+    "<base>/DOSBOX/Ultima V.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/DOSBOX"
+  steam:
+    id: 3067520
 "Ultima VI: The False Prophet":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/CONFIG.U6":
       tags:
@@ -1372,9 +1452,19 @@ Ultima Online:
     gogExtra:
       - 1207658965
     lutris: ultima-vi
+  installDir:
+    Ultima VI: {}
+  launch:
+    "<base>/DOSBOX/Ultima VI.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/DOSBOX"
+  steam:
+    id: 3067530
 "Ultima VII Part Two: Serpent Isle":
   cloud:
     origin: true
+    steam: true
   files:
     "<base>/GAME*.U7":
       tags:
@@ -1388,10 +1478,15 @@ Ultima Online:
         - os: mac
   gog:
     id: 1207662633
+  installDir:
+    Ultima VII: {}
+  steam:
+    id: 3067540
 "Ultima VII: The Black Gate":
   cloud:
     gog: true
     origin: true
+    steam: true
   files:
     "<base>/GAME*.U7":
       tags:
@@ -1409,10 +1504,15 @@ Ultima Online:
     gogExtra:
       - 1207658984
     lutris: ultima-viitm-the-black-gate-the-forge-of-virtue
+  installDir:
+    Ultima VII: {}
+  steam:
+    id: 3067540
 "Ultima VIII: Pagan":
   cloud:
     gog: true
     origin: true
+    steam: true
   files:
     "<base>/SAVEGAME":
       tags:
@@ -1428,6 +1528,15 @@ Ultima Online:
     id: 1207659015
   id:
     lutris: ultima-8-gold-edition
+  installDir:
+    Ultima VIII: {}
+  launch:
+    "<base>/DOSBOX/Ultima VIII.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/DOSBOX"
+  steam:
+    id: 3067550
 "Ultima Worlds of Adventure 2: Martian Dreams":
   cloud:
     gog: true

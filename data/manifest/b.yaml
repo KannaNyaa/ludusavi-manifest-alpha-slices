@@ -17515,6 +17515,21 @@ Besiege:
             store: steam
   steam:
     id: 346010
+"Bessie's Milk Delivery":
+  cloud:
+    steam: true
+  files:
+    "<base>/www/save/*.rpgsave":
+      when:
+        - store: steam
+  installDir:
+    Milkdelivery: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3367320
 Best Buds vs Bad Guys:
   installDir:
     Best Buds: {}

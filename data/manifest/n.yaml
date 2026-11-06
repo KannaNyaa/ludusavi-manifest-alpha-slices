@@ -2805,6 +2805,8 @@ Nanairo Reincarnation:
   steam:
     id: 42200
 "Nancy Drew: Alibi in Ashes":
+  id:
+    lutris: nancy-drew-alibi-in-ashes
   installDir:
     Nancy Drew Alibi in Ashes: {}
   launch:
@@ -2913,6 +2915,8 @@ Nanairo Reincarnation:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: nancy-drew-ghost-of-thornton-hall
   installDir:
     Nancy Drew The Ghost of Thornton Hall: {}
   launch:
@@ -2940,6 +2944,8 @@ Nanairo Reincarnation:
         - config
       when:
         - os: windows
+  id:
+    lutris: nancy-drew-labyrinth-of-lies
   installDir:
     Nancy Drew Labyrinth of Lies: {}
   launch:
@@ -2995,6 +3001,8 @@ Nanairo Reincarnation:
         - config
       when:
         - os: windows
+  id:
+    lutris: nancy-drew-midnight-in-salem
   installDir:
     NancyDrew_MidnightInSalem: {}
   launch:
@@ -3045,6 +3053,8 @@ Nanairo Reincarnation:
       when:
         - os: mac
           store: steam
+  id:
+    lutris: nancy-drew-mystery-of-the-seven-keys
   installDir:
     NancyDrew_MysteryOfTheSevenKeys: {}
   launch:
@@ -3080,6 +3090,8 @@ Nanairo Reincarnation:
         - config
       when:
         - os: windows
+  id:
+    lutris: nancy-drew-sea-of-darkness
   installDir:
     Nancy Drew The Sea of Darkness: {}
   launch:
@@ -3130,6 +3142,8 @@ Nanairo Reincarnation:
   steam:
     id: 42210
 "Nancy Drew: Shadow at the Water's Edge":
+  id:
+    lutris: nancy-drew-shadow-at-the-waters-edge
   installDir:
     Nancy Drew - Shadow Waters Edge: {}
   launch:
@@ -3157,6 +3171,8 @@ Nanairo Reincarnation:
       when:
         - os: windows
 "Nancy Drew: The Captive Curse":
+  id:
+    lutris: nancy-drew-the-captive-curse
   installDir:
     Nancy Drew The Captive Curse: {}
   launch:
@@ -3183,6 +3199,8 @@ Nanairo Reincarnation:
   steam:
     id: 31900
 "Nancy Drew: The Deadly Device":
+  id:
+    lutris: nancy-drew-the-deadly-device
   installDir:
     Nancy Drew - TheDeadlyDevice: {}
   launch:
@@ -3267,6 +3285,8 @@ Nanairo Reincarnation:
   steam:
     id: 572740
 "Nancy Drew: The Shattered Medallion":
+  id:
+    lutris: nancy-drew-the-shattered-medallion
   installDir:
     Nancy Drew The Shattered Medallion: {}
   launch:
@@ -3288,6 +3308,8 @@ Nanairo Reincarnation:
         - config
       when:
         - os: windows
+  id:
+    lutris: nancy-drew-the-silent-spy
   installDir:
     Nancy Drew The Silent Spy: {}
   launch:
@@ -3309,6 +3331,8 @@ Nanairo Reincarnation:
   steam:
     id: 31930
 "Nancy Drew: Tomb of the Lost Queen":
+  id:
+    lutris: nancy-drew-tomb-of-the-lost-queen
   installDir:
     Nancy Drew - Tomb of the Lost Queen: {}
   launch:
@@ -3324,6 +3348,8 @@ Nanairo Reincarnation:
   steam:
     id: 210230
 "Nancy Drew: Trail of the Twister":
+  id:
+    lutris: nancy-drew-trail-of-the-twister
   installDir:
     Nancy Drew Trail of the Twister: {}
   launch:

@@ -35221,6 +35221,8 @@ Fuel:
         - save
       when:
         - os: windows
+  id:
+    lutris: fuel
   installDir:
     FUEL: {}
   launch:

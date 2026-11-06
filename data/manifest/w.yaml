@@ -19636,6 +19636,7 @@ Wing Commander:
   cloud:
     gog: true
     origin: true
+    steam: true
   files:
     "<base>/00000*.WSG":
       tags:
@@ -19644,10 +19645,20 @@ Wing Commander:
         - os: dos
         - os: windows
   gog:
-    id: 1207658966
+    id: 1418263391
   id:
+    gogExtra:
+      - 1207658966
+      - 1784225157
     lutris: wing-commander-iii-heart-of-the-tiger
+  installDir:
+    Wing Commander III: {}
+  steam:
+    id: 2008740
 "Wing Commander IV: The Price of Freedom":
+  cloud:
+    gog: true
+    steam: true
   files:
     "<base>/*.WSG":
       tags:
@@ -19662,12 +19673,20 @@ Wing Commander:
         - os: dos
         - os: windows
   gog:
-    id: 1207659021
+    id: 1154804755
   id:
+    gogExtra:
+      - 1207659021
+      - 2023550212
     lutris: wing-commander-iv-the-price-of-freedom
+  installDir:
+    Wing Commander IV: {}
+  steam:
+    id: 2008750
 "Wing Commander: Academy":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/MISSIONS":
       tags:
@@ -19678,9 +19697,19 @@ Wing Commander:
     id: 1207659473
   id:
     lutris: wing-commander-academy
+  installDir:
+    Wing Commander - Academy: {}
+  launch:
+    "<base>/DOSBOX/Wing Commander Academy.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/DOSBOX"
+  steam:
+    id: 3067090
 "Wing Commander: Armada":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/GAME.OPT":
       tags:
@@ -19696,10 +19725,15 @@ Wing Commander:
     id: 1207659603
   id:
     lutris: wing-commander-armada
+  installDir:
+    Wing Commander Armada: {}
+  steam:
+    id: 3067100
 "Wing Commander: Privateer":
   cloud:
     gog: true
     origin: true
+    steam: true
   files:
     "<base>/*.PRS":
       tags:
@@ -19715,7 +19749,19 @@ Wing Commander:
     id: 1207658938
   id:
     lutris: wing-commander-privateer
+  installDir:
+    Wing Commander Privateer: {}
+  launch:
+    "<base>/DOSBOX/Wing Commander Privateer.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/DOSBOX"
+  steam:
+    id: 2008760
 "Wing Commander: Prophecy":
+  cloud:
+    gog: true
+    steam: true
   files:
     "<base>/save":
       tags:
@@ -19723,18 +19769,53 @@ Wing Commander:
       when:
         - os: windows
   gog:
-    id: 1207662663
+    id: 2051767712
   id:
     gogExtra:
       - 1207660153
+      - 1207662663
     lutris: wing-commandertm-5-prophecy-gold-edition
+  installDir:
+    Wing Commander - Prophecy: {}
+  steam:
+    id: 3067120
 "Wing Commander: Secret Ops":
+  files:
+    "<base>/Enhanced/Secret Ops/save/**/*.*":
+      when:
+        - os: windows
+          store: steam
+    "<base>/Enhanced/history/**/*.*":
+      when:
+        - os: windows
+          store: steam
+    "<base>/Enhanced/save/**/*.*":
+      when:
+        - os: windows
+          store: steam
+    "<base>/Original/Secret Ops/save/**/*.*":
+      when:
+        - os: windows
+          store: steam
+    "<base>/Original/history/**/*.*":
+      when:
+        - os: windows
+          store: steam
+    "<base>/Original/save/**/*.*":
+      when:
+        - os: windows
+          store: steam
   gog:
-    id: 1207662673
+    id: 2051767712
   id:
     gogExtra:
       - 1207660153
+      - 1207662673
     lutris: wing-commandertm-5-prophecy-gold-edition
+  installDir:
+    Wing Commander - Prophecy: {}
+  steam:
+    id: 3067120
 Wing of Darkness:
   files:
     "<winLocalAppData>/YF/Saved/SaveGames/*.sav":

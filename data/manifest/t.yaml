@@ -62523,6 +62523,7 @@ Theme Hospital:
   cloud:
     gog: true
     origin: true
+    steam: true
   files:
     "<base>/HOSPITAL.CFG":
       tags:
@@ -62540,6 +62541,15 @@ Theme Hospital:
     id: 1207659026
   id:
     lutris: theme-hospital
+  installDir:
+    Theme Hospital: {}
+  launch:
+    "<base>/DOSBOX/Theme Hospital.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/DOSBOX"
+  steam:
+    id: 2229820
 Theme Park:
   cloud:
     gog: true

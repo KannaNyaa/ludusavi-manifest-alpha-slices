@@ -5000,6 +5000,11 @@ Veil of Darkness:
   cloud:
     steam: true
   files:
+    "<base>/GRAPH.INI (No text editable)":
+      tags:
+        - config
+      when:
+        - os: dos
     "<base>/SAVES":
       tags:
         - save
