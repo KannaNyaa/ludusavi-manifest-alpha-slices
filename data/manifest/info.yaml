@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-07T00:57:35Z"
+generatedAt: "2026-11-07T10:19:51Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,26 +9,26 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"1ca6cbe6afc5474eff653298b9dd22a24d384d7b2b07edbe4c8879bfe3774e7a\""
+  etag: "\"aad10526b059c6249588cefdc55dcfb71c0da078eda312885a856bf66a80a97e\""
   lastModified: ""
-  sha256: "bb046db15715da43ae08db87107618b29b82fbb906706d2f2d4cabc0aed6efb9"
-  sizeBytes: 17766352
-  lines: 885241
+  sha256: "5026ca4ea07beefd79014fefac3cbb6b3661d74640aa38866340911ca1e6c8b5"
+  sizeBytes: 17767196
+  lines: 885272
 
 manifest:
-  games: 53497
+  games: 53498
   shards: 29
   files: 30
-  bytes: 17766464
+  bytes: 17767308
   withSaveTag: 13639
   sections:
-    alias: 1125
+    alias: 1126
     cloud: 15744
-    files: 22575
+    files: 22576
     gog: 5608
     id: 10245
-    installDir: 43955
-    launch: 39694
+    installDir: 43956
+    launch: 39695
     registry: 2850
     steam: 49342
 
@@ -41,9 +41,9 @@ shards:
   - path: "a.yaml"
     key: "A"
     group: "letter"
-    games: 3316
-    bytes: 1111447
-    sha256: "1dce1a924d0ab082ab4f5b3a9bdb3847091bcbbc76a3ad455889952936707cfa"
+    games: 3317
+    bytes: 1111513
+    sha256: "ac2499e6621599b51b473fa656d4c424ea21816fb7d3e0e053762e616f32d8ff"
     first: "A Bastard's Tale"
     last: "Azusa RP Online"
   - path: "b.yaml"
@@ -154,8 +154,8 @@ shards:
     key: "N"
     group: "letter"
     games: 1345
-    bytes: 441422
-    sha256: "b07752026f8459d81bd60e5d633aca49f89e20f972060620a43f44a9c99f13ef"
+    bytes: 442200
+    sha256: "85aa4efed7d46f325dbeddcacaedc135d410fdb750d4e3e2b405ae510c3a70e7"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"

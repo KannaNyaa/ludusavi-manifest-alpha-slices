@@ -21452,9 +21452,38 @@ Number Hunt:
   steam:
     id: 851770
 "Number Machine: Math Factory":
+  files:
+    "<home>/.config/unity3d/ARIELEK/Number Machine/Steam_<storeUserId>/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/ARIELEK/Number Machine/Steam_<storeUserId>/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/com.ARIELEK.Number Machine/Steam_<storeUserId>/*.sav":
+      when:
+        - os: mac
+          store: steam
   id:
     steamExtra:
       - 2243290
+  installDir:
+    Number Machine: {}
+  launch:
+    "<base>/Number Machine.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Number Machine.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Number Machine.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 2231090
 Number World:
