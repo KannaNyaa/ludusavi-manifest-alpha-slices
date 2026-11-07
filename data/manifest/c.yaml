@@ -4440,6 +4440,17 @@ Campus Notes - forget me not.:
       when:
         - os: windows
 "Can 'Em All":
+  files:
+    "<home>/AppData/LocalLow/LuisDev/Can 'Em All/save.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/LuisDev/Can 'Em All/settings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     "Can 'Em All": {}
   launch:
@@ -4448,6 +4459,10 @@ Campus Notes - forget me not.:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/LuisDev/Can 'Em All":
+      tags:
+        - config
   steam:
     id: 5133900
 Can You Eat by Yourself:

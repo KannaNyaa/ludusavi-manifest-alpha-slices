@@ -52033,6 +52033,8 @@ Soulbringer:
         - os: windows
   gog:
     id: 1207659003
+  id:
+    lutris: soulbringer
   installDir:
     Soulbringer: {}
   launch:

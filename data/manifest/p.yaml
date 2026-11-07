@@ -9417,7 +9417,8 @@ Payday 3:
   launch:
     "<base>/payday_win32_release.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
   steam:
     id: 24240
 Payroll:
@@ -27031,6 +27032,9 @@ Pool of Radiance:
   steam:
     id: 1882370
 "Pool of Radiance: Ruins of Myth Drannor":
+  cloud:
+    gog: true
+    steam: true
   files:
     "<base>/savegames":
       tags:
@@ -27041,6 +27045,12 @@ Pool of Radiance:
     id: 1405279681
   id:
     lutris: pool-of-radiance-ruins-of-myth-drannor
+  installDir:
+    Pool of Radiance Ruins of Myth Drannor: {}
+  launch:
+    "<base>/por2launch.exe":
+      - when:
+          - store: steam
   steam:
     id: 4834760
 Pools:

@@ -15160,6 +15160,10 @@ Max and the Magic Marker:
         - save
       when:
         - store: steam
+  id:
+    lutris: max-the-curse-of-brotherhood
+    steamExtra:
+      - 272390
   installDir:
     Max The Curse of Brotherhood: {}
   launch:

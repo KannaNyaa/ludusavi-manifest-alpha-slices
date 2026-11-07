@@ -7040,6 +7040,18 @@ Has-Been Heroes:
   steam:
     id: 492290
 Hasbro Games Junior Collection:
+  files:
+    "<home>/AppData/LocalLow/Casual Brothers/Hasbro Games Junior Collection":
+      when:
+        - store: steam
+  installDir:
+    HBGC: {}
+  launch:
+    "<base>/HBGC.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4124830
 Hasfax:
