@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-07T10:19:51Z"
+generatedAt: "2026-11-07T19:27:51Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,24 +9,24 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"aad10526b059c6249588cefdc55dcfb71c0da078eda312885a856bf66a80a97e\""
+  etag: "\"fce354e2d2477076bfc588a48b2abd6d1b3f7e4b18cde5d01b0ba6ec12f6325d\""
   lastModified: ""
-  sha256: "5026ca4ea07beefd79014fefac3cbb6b3661d74640aa38866340911ca1e6c8b5"
-  sizeBytes: 17767196
-  lines: 885272
+  sha256: "bf31fb4f72412d37dbb9454a34a52599aaf0a40851f3e15b1ccdc7d0f76e879f"
+  sizeBytes: 17767459
+  lines: 885286
 
 manifest:
-  games: 53498
+  games: 53499
   shards: 29
   files: 30
-  bytes: 17767308
-  withSaveTag: 13639
+  bytes: 17767571
+  withSaveTag: 13640
   sections:
     alias: 1126
     cloud: 15744
-    files: 22576
+    files: 22577
     gog: 5608
-    id: 10245
+    id: 10246
     installDir: 43956
     launch: 39695
     registry: 2850
@@ -153,9 +153,9 @@ shards:
   - path: "n.yaml"
     key: "N"
     group: "letter"
-    games: 1345
-    bytes: 442200
-    sha256: "85aa4efed7d46f325dbeddcacaedc135d410fdb750d4e3e2b405ae510c3a70e7"
+    games: 1346
+    bytes: 442403
+    sha256: "d72d08db240fcf94a9380c5016c832697de374cb71c5687676f3ee7836b5e86f"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
@@ -210,8 +210,8 @@ shards:
     key: "T"
     group: "letter"
     games: 5543
-    bytes: 1947937
-    sha256: "a63d1af1d3e25e6ac4f2ee7b0e40a9d83113f12204aec713f566a9b1c3ebe792"
+    bytes: 1947997
+    sha256: "211b24ca23aa4a175cec68a8872dadbf58839ba17767d2b94fdbdb9eba892d22"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"

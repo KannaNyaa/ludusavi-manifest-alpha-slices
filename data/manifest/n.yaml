@@ -1827,6 +1827,18 @@ NIMRODS:
     id: 2086430
 "NIMRODS: GunCraft Survivor":
   alias: NIMRODS
+"NIRA: Intense Import Drag Racing":
+  files:
+    "<base>/NIRA.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<base>/SAVE":
+      tags:
+        - save
+      when:
+        - os: dos
 NIRO:
   id:
     lutris: nero

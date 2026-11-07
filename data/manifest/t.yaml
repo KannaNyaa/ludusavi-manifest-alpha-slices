@@ -20589,6 +20589,8 @@ The Callisto Protocol:
   steam:
     id: 1544020
 "The Cameron Files: The Secret at Loch Ness":
+  id:
+    lutris: the-cameron-files-the-secret-at-loch-ness
   installDir:
     The Cameron Files The Secret at Loch Ness: {}
   launch:
