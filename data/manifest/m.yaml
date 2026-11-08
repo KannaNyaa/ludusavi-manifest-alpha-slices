@@ -34121,6 +34121,13 @@ Molly - Can you survive 100 nights?:
             store: steam
   steam:
     id: 1177350
+Molokaust:
+  id:
+    lutris: molokaust
+    steamExtra:
+      - 4592180
+  steam:
+    id: 4503570
 Molten Armor:
   files:
     "<winLocalAppData>/MOLTEN_ARMOR":

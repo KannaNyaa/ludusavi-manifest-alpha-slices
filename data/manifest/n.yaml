@@ -13769,6 +13769,7 @@ Nighthaw-X3000:
 Nighthawks:
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/saves/**/*.*":
       when:

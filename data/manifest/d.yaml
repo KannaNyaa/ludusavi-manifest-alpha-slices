@@ -33231,6 +33231,7 @@ Disjunction:
   id:
     gogExtra:
       - 1515245162
+    lutris: disney-classic-games-aladdin-and-the-lion-king
     steamExtra:
       - 1636800
   installDir:
@@ -54545,6 +54546,7 @@ Dungeons & Dragons Online:
         - os: windows
           store: microsoft
   id:
+    lutris: dungeons-dragons-dark-alliance
     steamExtra:
       - 1670843
   installDir:

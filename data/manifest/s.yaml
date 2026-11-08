@@ -32948,12 +32948,6 @@ Silver Pines:
       - 5153460
   installDir:
     Silver Pines: {}
-  launch:
-    "<base>/Carpenter.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
   steam:
     id: 2333000
 Silver Tale:
