@@ -8856,6 +8856,45 @@ Genome Guardian:
             store: steam
   steam:
     id: 2891310
+Genotype:
+  files:
+    "<home>/AppData/LocalLow/BolverkGames/GenotypeGame/0":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/BolverkGames/GenotypeGame/1":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/BolverkGames/GenotypeGame/2":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/BolverkGames/GenotypeGame/3":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/BolverkGames/GenotypeGame/4":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/BolverkGames/GenotypeGame/GameSettings.data":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3023920
+  installDir:
+    Genotype: {}
+  steam:
+    id: 2667980
 Genshin Impact:
   registry:
     HKEY_CURRENT_USER/SOFTWARE/miHoYo/Genshin Impact:

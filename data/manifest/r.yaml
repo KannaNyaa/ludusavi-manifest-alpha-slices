@@ -28699,6 +28699,7 @@ Road Rage Royale:
 Road Rash:
   cloud:
     gog: true
+    origin: true
     steam: true
   gog:
     id: 2141922451

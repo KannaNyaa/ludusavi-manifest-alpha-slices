@@ -34381,10 +34381,11 @@ Probably Stolen:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Questing Goose Studio/Probably Stolen/*.es3":
+    "<winLocalAppData>/Questing Goose Studio/Probably Stolen":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     Probably Stolen: {}
   launch:

@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-08T00:42:52Z"
+generatedAt: "2026-11-08T10:28:29Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"1b641f6c4946958e522f29db85227f6a76de1027a3ad3aaae45db68401a1c805\""
+  etag: "\"3a686fd21657c4fd38413c21799adfb9812b8038ae21e26d129441ee60cc6de9\""
   lastModified: ""
-  sha256: "d7a855911f772d4b6669aa53589dc8f5b95300125e9c878948675708c6e409e8"
-  sizeBytes: 17768315
-  lines: 885331
+  sha256: "b4e516e2eaf726f7e42a79563d11198a5c456ed08c82ce1f5caff700c1fd1e62"
+  sizeBytes: 17769234
+  lines: 885375
 
 manifest:
-  games: 53501
+  games: 53503
   shards: 29
   files: 30
-  bytes: 17768427
-  withSaveTag: 13642
+  bytes: 17769346
+  withSaveTag: 13644
   sections:
     alias: 1126
     cloud: 15745
-    files: 22579
+    files: 22580
     gog: 5608
-    id: 10247
-    installDir: 43956
+    id: 10249
+    installDir: 43957
     launch: 39695
     registry: 2850
-    steam: 49344
+    steam: 49345
 
 sharding:
   rule: "first-character"
@@ -97,9 +97,9 @@ shards:
   - path: "g.yaml"
     key: "G"
     group: "letter"
-    games: 1925
-    bytes: 620188
-    sha256: "af5b080477ee4011aabe87b2fc8582bb73b1658db8cfde33d1665f670a1a2c22"
+    games: 1926
+    bytes: 621039
+    sha256: "91a0ec552a414f7d4a5ff97f680e25ca2c8e431a5aa503d4f4245f297bb62da1"
     first: "G Prime"
     last: "Géants disparus VR"
   - path: "h.yaml"
@@ -170,8 +170,8 @@ shards:
     key: "P"
     group: "letter"
     games: 2681
-    bytes: 863836
-    sha256: "867b9beac0978c404e81d719d0fbd680e90899c692d48847293e9599e63a1bd2"
+    bytes: 863828
+    sha256: "68c67883d26b7a9d0c8c76fa1753a5a1765036749fc4286f23604dcab6e217bf"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"
@@ -186,16 +186,16 @@ shards:
     key: "R"
     group: "letter"
     games: 2484
-    bytes: 818442
-    sha256: "69087ffa53ec1eceb37322f3525be1f2497e8b5db9ad81a42a9ed25967f2ed01"
+    bytes: 818459
+    sha256: "702b369e9bf6bed4329be0d6a80984f3ba7cf5ccfc871b6294474902eca4ef00"
     first: "R Academy"
     last: "RŌA"
   - path: "s.yaml"
     key: "S"
     group: "letter"
-    games: 5931
-    bytes: 2057698
-    sha256: "6858f81fa5534f99ec4445ca7e19bd65ed0e440a5d450fdd11598fac062d8de4"
+    games: 5932
+    bytes: 2057757
+    sha256: "56cfbf41bbe37610742cb951fe530bcedde97b525ce2c60332b4f44da5d0bdb9"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"

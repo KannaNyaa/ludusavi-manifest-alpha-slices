@@ -67109,6 +67109,9 @@ Star Fox 64 (Starship):
         - save
       when:
         - os: windows
+Star Fox Adventures:
+  id:
+    lutris: star-fox-adventures
 Star Garden:
   steam:
     id: 3370970
