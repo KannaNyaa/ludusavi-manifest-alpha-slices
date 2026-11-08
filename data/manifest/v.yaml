@@ -1456,6 +1456,8 @@ VRobot:
   steam:
     id: 588560
 VRog:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Illusion Walk/VRog/*.dat":
       when:
@@ -12607,6 +12609,12 @@ Vox:
   steam:
     id: 252770
 Vox Machinae:
+  files:
+    "<home>/AppData/LocalLow/SpaceBulletDynamicsCorporation/VoxMachinae":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Vox Machinae: {}
   launch:

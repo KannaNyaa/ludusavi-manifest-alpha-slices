@@ -5677,12 +5677,12 @@ Layers of Fear (2023):
     gog: true
     steam: true
   files:
-    "<winLocalAppData>/Local/Cron/Saved/Config/Windows":
+    "<winLocalAppData>/Cron/Saved/Config/Windows":
       tags:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/Local/Cron/Saved/SaveGames/<storeUserId>":
+    "<winLocalAppData>/Cron/Saved/SaveGames/<storeUserId>":
       tags:
         - save
       when:

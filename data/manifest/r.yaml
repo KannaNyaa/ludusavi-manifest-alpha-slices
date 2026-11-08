@@ -31986,6 +31986,11 @@ Rockman X7:
         - config
       when:
         - os: windows
+    "<base>/RData/Misc/strujen.opt":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/RData/Save":
       tags:
         - save

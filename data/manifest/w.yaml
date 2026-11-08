@@ -19644,6 +19644,22 @@ Wing Commander:
       when:
         - os: dos
         - os: windows
+    "<base>/DOS/*.WSG":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/Kilrathi_Saga/*.WSG":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winAppData>/wc3w_en/*.WSG":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1418263391
   id:

@@ -33336,6 +33336,13 @@ Prison Tycoon Alcatraz:
             store: steam
   steam:
     id: 1515460
+Prison of Husks:
+  id:
+    lutris: prison-of-husks
+    steamExtra:
+      - 3746300
+  steam:
+    id: 2975260
 Prisoner:
   installDir:
     Prisoner: {}

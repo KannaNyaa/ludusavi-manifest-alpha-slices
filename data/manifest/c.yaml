@@ -13198,6 +13198,12 @@ Cave Confectioner:
   steam:
     id: 1181900
 Cave Digger:
+  files:
+    "<home>/AppData/LocalLow/Mekiwi/Cave Digger_ Riches/progress.save":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Cave Digger: {}
   steam:

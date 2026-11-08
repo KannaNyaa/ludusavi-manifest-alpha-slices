@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-07T19:27:51Z"
+generatedAt: "2026-11-08T00:42:52Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"fce354e2d2477076bfc588a48b2abd6d1b3f7e4b18cde5d01b0ba6ec12f6325d\""
+  etag: "\"1b641f6c4946958e522f29db85227f6a76de1027a3ad3aaae45db68401a1c805\""
   lastModified: ""
-  sha256: "bf31fb4f72412d37dbb9454a34a52599aaf0a40851f3e15b1ccdc7d0f76e879f"
-  sizeBytes: 17767459
-  lines: 885286
+  sha256: "d7a855911f772d4b6669aa53589dc8f5b95300125e9c878948675708c6e409e8"
+  sizeBytes: 17768315
+  lines: 885331
 
 manifest:
-  games: 53499
+  games: 53501
   shards: 29
   files: 30
-  bytes: 17767571
-  withSaveTag: 13640
+  bytes: 17768427
+  withSaveTag: 13642
   sections:
     alias: 1126
-    cloud: 15744
-    files: 22577
+    cloud: 15745
+    files: 22579
     gog: 5608
-    id: 10246
+    id: 10247
     installDir: 43956
     launch: 39695
     registry: 2850
-    steam: 49342
+    steam: 49344
 
 sharding:
   rule: "first-character"
@@ -49,17 +49,17 @@ shards:
   - path: "b.yaml"
     key: "B"
     group: "letter"
-    games: 2998
-    bytes: 984649
-    sha256: "967ff931d0d06c23fa9e8e903d7f64821fd2e3a2f8e5bee30bec7bdd0c0b625e"
+    games: 2999
+    bytes: 984698
+    sha256: "5081e4482584ac36cbbb05381794efad0a63174fd466d5cc703b0c7b61c2a67b"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
     key: "C"
     group: "letter"
     games: 3500
-    bytes: 1188451
-    sha256: "80a63349f4a3ae9dc66683f9699dfc2b9280028bd5a749db93b922bfd69557df"
+    bytes: 1188593
+    sha256: "f8167b3aef5662a5f3f4bc13024a4e71f1847961f92cf66802383e6c0a44bc55"
     first: "C"
     last: "CyubeVR"
   - path: "d.yaml"
@@ -138,8 +138,8 @@ shards:
     key: "L"
     group: "letter"
     games: 1830
-    bytes: 606869
-    sha256: "bf7ea95e9972ccab6c6bd19a753cc0a02c04c06bea71d709df2bacc738766724"
+    bytes: 606857
+    sha256: "0afe9f0bd62762abf862d17b561acb4bc0eb0c1d2f5f04fd4c64a78ed968e0f6"
     first: "L U N E"
     last: "Lá Camila: A VR Experience"
   - path: "m.yaml"
@@ -169,9 +169,9 @@ shards:
   - path: "p.yaml"
     key: "P"
     group: "letter"
-    games: 2680
-    bytes: 863728
-    sha256: "9114e9893804399424175703d519e582e244b870f39d899dda1f65831adf3371"
+    games: 2681
+    bytes: 863836
+    sha256: "867b9beac0978c404e81d719d0fbd680e90899c692d48847293e9599e63a1bd2"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"
@@ -186,8 +186,8 @@ shards:
     key: "R"
     group: "letter"
     games: 2484
-    bytes: 818342
-    sha256: "e37b981782c63d3f9b8169ed953ae9cfb1a104c77146ccc47dd285bdf790205c"
+    bytes: 818442
+    sha256: "69087ffa53ec1eceb37322f3525be1f2497e8b5db9ad81a42a9ed25967f2ed01"
     first: "R Academy"
     last: "RŌA"
   - path: "s.yaml"
@@ -234,16 +234,16 @@ shards:
     key: "V"
     group: "letter"
     games: 937
-    bytes: 260568
-    sha256: "8990eefb98c9b492520762916fa8071223b01d80360844bb9396d9fcd5dc99e3"
+    bytes: 260737
+    sha256: "b67c918651707b961cb3c0966897410582a1e3af9ead146bab6ff4f3cf0788f5"
     first: "V"
     last: "Vzerthos: The Heir of Thunder"
   - path: "w.yaml"
     key: "W"
     group: "letter"
     games: 1713
-    bytes: 588146
-    sha256: "ac19180ab1e4e895dfb7bcc2729a4b602b398cd201305183f5be7b3353a0a80c"
+    bytes: 588446
+    sha256: "9cbbab4ff789a526dd2e2aa015f766f5dc3e3e93390d258922638417646dcd3d"
     first: "W. T. B."
     last: "Włatcy móch: Wrzód na dópie"
   - path: "x.yaml"
