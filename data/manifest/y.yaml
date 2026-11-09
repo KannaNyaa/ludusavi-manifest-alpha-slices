@@ -2874,6 +2874,16 @@ You Died but a Necromancer revived you:
             store: steam
   steam:
     id: 252730
+"You Don't Know Jack (2011)":
+  installDir:
+    "You Don't Know Jack": {}
+  launch:
+    "<base>/bin/win/JackGame.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/bin/win"
+  steam:
+    id: 99200
 "You Don't Know Jack Movies":
   installDir:
     YDKJ_MOVIES: {}
@@ -2930,6 +2940,8 @@ You Died but a Necromancer revived you:
   steam:
     id: 259940
 "You Don't Know Jack: Volume 3":
+  id:
+    lutris: you-dont-know-jack-vol-3
   installDir:
     YDKJ_VOL3: {}
   launch:

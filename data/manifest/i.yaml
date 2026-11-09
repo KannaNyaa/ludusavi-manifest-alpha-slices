@@ -2945,12 +2945,12 @@ IRON GUARD VR:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Xlab Digital/**/*.json":
+    "<home>/AppData/LocalLow/Xlab Digital/IronGuard/save.igsv":
       when:
         - os: windows
           store: steam
   installDir:
-    IRON GUARD VR: {}
+    IRON GUARD: {}
   steam:
     id: 1213220
 IRacing:

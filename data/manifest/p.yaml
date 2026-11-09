@@ -4117,6 +4117,8 @@ Panzer General 3D Assault:
         - os: windows
   gog:
     id: 1207658866
+  id:
+    lutris: panzer-general-3d-assault
 Panzer General II:
   cloud:
     gog: true
@@ -4128,6 +4130,8 @@ Panzer General II:
         - os: windows
   gog:
     id: 1207658871
+  id:
+    lutris: panzer-general-2
 Panzer Hearts:
   files:
     "<base>/PanzerHearts.app/Contents/Resources/autorun/game/saves":
@@ -10825,6 +10829,8 @@ People of Note:
         - os: windows
   gog:
     id: 1356099797
+  id:
+    lutris: peoples-general
 PeoplePackages:
   installDir:
     PeoplePackages: {}

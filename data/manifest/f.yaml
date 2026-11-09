@@ -6594,6 +6594,7 @@ Fantasy General II:
   gog:
     id: 1090255211
   id:
+    lutris: fantasy-general-ii
     steamExtra:
       - 1193870
       - 1193871
@@ -15870,6 +15871,18 @@ Final Fantasy XIII-2:
         - save
       when:
         - store: steam
+    "<winDocuments>/Square Enix/FFXIII-2/MS/config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/39EA002F.FFXIII-2_n746a19ndrrjg/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/SquareEnix/FinalFantasyXIII-2/save":
       tags:
         - save

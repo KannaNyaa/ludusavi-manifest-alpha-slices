@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-09T11:40:49Z"
+generatedAt: "2026-11-09T23:48:04Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"84dfb34a764cd6148191ebd6782eeebf0f0a89777b7b7f829692f5261050f7a8\""
+  etag: "\"06f84388db0a50a25a81d4fd6a192829dd372f4312bab2673e0fdc382b096fb0\""
   lastModified: ""
-  sha256: "3d2e02820f8fcd43e31a9dd3f7ea0a388b1adc7c070fb70923473aef4588a275"
-  sizeBytes: 17770679
-  lines: 885437
+  sha256: "d9ecfb96d7ae3077a4cbe9e108d16f7d1b4f897237f6c5dbb639eefbbe60ca2f"
+  sizeBytes: 17771604
+  lines: 885481
 
 manifest:
-  games: 53510
+  games: 53512
   shards: 29
   files: 30
-  bytes: 17770791
+  bytes: 17771716
   withSaveTag: 13645
   sections:
     alias: 1129
-    cloud: 15745
+    cloud: 15746
     files: 22581
     gog: 5608
-    id: 10252
-    installDir: 43958
-    launch: 39695
+    id: 10256
+    installDir: 43960
+    launch: 39697
     registry: 2850
-    steam: 49348
+    steam: 49350
 
 sharding:
   rule: "first-character"
@@ -90,8 +90,8 @@ shards:
     key: "F"
     group: "letter"
     games: 2253
-    bytes: 761053
-    sha256: "87e845105f3474bdb6c1ad6c5e771524d64370af88bcb41786e13059647a6f39"
+    bytes: 761404
+    sha256: "f832062def044f1c8c3af8d5a2b98f2c364330b76c2940ca7f9fcccae780a196"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
@@ -114,8 +114,8 @@ shards:
     key: "I"
     group: "letter"
     games: 1214
-    bytes: 399214
-    sha256: "916dda1961bb0f41bb1b645ad146e4edfcaf2f2d718bae6398a119a85dd1fbfc"
+    bytes: 399221
+    sha256: "eb1704dbd46553c3782243189efdc1cdb25c99779138b70046929d33125d9d43"
     first: "I (Don't) Hate Hentai Puzzles"
     last: "I・S・U"
   - path: "j.yaml"
@@ -153,9 +153,9 @@ shards:
   - path: "n.yaml"
     key: "N"
     group: "letter"
-    games: 1346
-    bytes: 442419
-    sha256: "ac3ca73efa553a800754826d314a633dd0375ad3a76079298375018792b9adc1"
+    games: 1347
+    bytes: 442580
+    sha256: "173523a49d1c36112301b53d99b3eb34c458c44bfa0be39131f9c912d5d0dc0c"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
@@ -170,8 +170,8 @@ shards:
     key: "P"
     group: "letter"
     games: 2681
-    bytes: 863828
-    sha256: "68c67883d26b7a9d0c8c76fa1753a5a1765036749fc4286f23604dcab6e217bf"
+    bytes: 863941
+    sha256: "01b3cf7d833355779cef8e8679ce8b40e0b52011d337abbcc391f75425a4e393"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"
@@ -242,8 +242,8 @@ shards:
     key: "W"
     group: "letter"
     games: 1713
-    bytes: 588446
-    sha256: "9cbbab4ff789a526dd2e2aa015f766f5dc3e3e93390d258922638417646dcd3d"
+    bytes: 588478
+    sha256: "d72156909062e31ad6481d2049ac55ee8f02c9d730de817e699067e2db5699f9"
     first: "W. T. B."
     last: "Włatcy móch: Wrzód na dópie"
   - path: "x.yaml"
@@ -257,9 +257,9 @@ shards:
   - path: "y.yaml"
     key: "Y"
     group: "letter"
-    games: 284
-    bytes: 101314
-    sha256: "54edf1afb8133d3823d3de43ee480750626a7f1f6458c0c9c1778039955d3d8e"
+    games: 285
+    bytes: 101575
+    sha256: "627c49d849de7cc5c3c8e7e963b0e89cedb6196209fb261970b6b368f1f3a41a"
     first: "YANKAI'S PEAK."
     last: "Yōdanji"
   - path: "z.yaml"

@@ -120,6 +120,17 @@ N.I.C.E. 2:
         - config
   steam:
     id: 853330
+N.O.M.A.D:
+  cloud:
+    steam: true
+  installDir:
+    NOMAD: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2213260
 N.P.P.D. RUSH - The Milk of Ultraviolet:
   installDir:
     NPPD Rush: {}
