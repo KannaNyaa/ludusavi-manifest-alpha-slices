@@ -2658,6 +2658,16 @@ You Are Empty:
   cloud:
     steam: true
   files:
+    "<winAppData>/YaE_Absolute/config_*":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/YaE_Absolute/savegames/Save*":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winDocuments>/My Games/YaE":
       tags:
         - config
@@ -2852,6 +2862,8 @@ You Died but a Necromancer revived you:
   steam:
     id: 1107040
 "You Don't Know Jack":
+  id:
+    lutris: you-dont-know-jack-vol-1-xl
   installDir:
     YDKJ_VOL1XL: {}
   launch:

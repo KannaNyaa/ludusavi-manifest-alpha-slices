@@ -7196,12 +7196,6 @@ Gears of War 4:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/FairlightConcept/Saved/Config/WinGDK":
-      tags:
-        - config
-      when:
-        - os: windows
-          store: microsoft
     "<winLocalAppData>/Microsoft/Gears of War E-Day/Saves":
       tags:
         - config
@@ -7214,6 +7208,12 @@ Gears of War 4:
       when:
         - os: windows
           store: steam
+    "<winLocalAppData>/Microsoft/Gears of War E-Day/WinGDK/<storeUserId>/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/Packages/Microsoft.Fairlightbasegame_8wekyb3d8bbwe/SystemAppData/wgs":
       tags:
         - config

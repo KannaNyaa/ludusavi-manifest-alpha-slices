@@ -6254,6 +6254,8 @@ Imperial Glory:
 Imperialism:
   gog:
     id: 1207659139
+  id:
+    lutris: imperialism
 "Imperialism II: The Age of Exploration":
   gog:
     id: 1207659153

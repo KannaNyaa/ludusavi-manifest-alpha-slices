@@ -7553,6 +7553,7 @@ Jurassic World Evolution 2:
       when:
         - os: windows
   id:
+    lutris: jurassic-world-evolution-2
     steamExtra:
       - 1336321
       - 1336322
@@ -7579,6 +7580,7 @@ Jurassic World Evolution 3:
       when:
         - os: windows
   id:
+    lutris: jurassic-world-evolution-3
     steamExtra:
       - 3651190
       - 3651200

@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-08T19:44:12Z"
+generatedAt: "2026-11-09T00:56:46Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"83b025f477e0d903a60d234e6571eb315486048cd2f3fee3c5ea627d336e1532\""
+  etag: "\"958eedc0a47316d9e07ad9c98ec7b1e6559eaf20cbbc099f10b9135ec3afef07\""
   lastModified: ""
-  sha256: "deee6082f26a502cad3d6f26a70fba5e6ab2a531e5194c11ef30c0aacd76287c"
-  sizeBytes: 17769327
-  lines: 885379
+  sha256: "e7c430acbe7bc6d37dc66aaaf073e21bf9a42f8f77feecc4db954f6c583480b0"
+  sizeBytes: 17769767
+  lines: 885398
 
 manifest:
-  games: 53504
+  games: 53505
   shards: 29
   files: 30
-  bytes: 17769439
+  bytes: 17769879
   withSaveTag: 13644
   sections:
     alias: 1126
     cloud: 15745
     files: 22580
     gog: 5608
-    id: 10250
+    id: 10252
     installDir: 43957
     launch: 39694
     registry: 2850
-    steam: 49346
+    steam: 49347
 
 sharding:
   rule: "first-character"
@@ -57,9 +57,9 @@ shards:
   - path: "c.yaml"
     key: "C"
     group: "letter"
-    games: 3500
-    bytes: 1188593
-    sha256: "f8167b3aef5662a5f3f4bc13024a4e71f1847961f92cf66802383e6c0a44bc55"
+    games: 3501
+    bytes: 1188631
+    sha256: "036a07bc7211a279fc4210e314644b95c7902bc89667f52ec29a85e8b5bc7231"
     first: "C"
     last: "CyubeVR"
   - path: "d.yaml"
@@ -98,8 +98,8 @@ shards:
     key: "G"
     group: "letter"
     games: 1926
-    bytes: 621039
-    sha256: "91a0ec552a414f7d4a5ff97f680e25ca2c8e431a5aa503d4f4245f297bb62da1"
+    bytes: 621072
+    sha256: "e027a3447fec00122ed7e6f82a27907bf7e923382449758736155ce8bc42033b"
     first: "G Prime"
     last: "Géants disparus VR"
   - path: "h.yaml"
@@ -114,16 +114,16 @@ shards:
     key: "I"
     group: "letter"
     games: 1214
-    bytes: 399184
-    sha256: "3d0cbcba9c67b1db79d1c2802a8ff6f0ff58dcb1fec972e85530343986eaeca8"
+    bytes: 399214
+    sha256: "916dda1961bb0f41bb1b645ad146e4edfcaf2f2d718bae6398a119a85dd1fbfc"
     first: "I (Don't) Hate Hentai Puzzles"
     last: "I・S・U"
   - path: "j.yaml"
     key: "J"
     group: "letter"
     games: 563
-    bytes: 175399
-    sha256: "ae5e2ca7788d6be8f2835070be60019c1bf55ccb7db2c7ece60273025aa1a4f7"
+    bytes: 175477
+    sha256: "a9dee10956317647630759b0353b4181326268343df35ee02029b612d76f39b3"
     first: "J Connect"
     last: "Jydge"
   - path: "k.yaml"
@@ -258,8 +258,8 @@ shards:
     key: "Y"
     group: "letter"
     games: 284
-    bytes: 101053
-    sha256: "3fc5ea4c471b80e9e2b64e0e680cf600c3aa63b50f05036e837ef3bdd3ae210a"
+    bytes: 101314
+    sha256: "54edf1afb8133d3823d3de43ee480750626a7f1f6458c0c9c1778039955d3d8e"
     first: "YANKAI'S PEAK."
     last: "Yōdanji"
   - path: "z.yaml"

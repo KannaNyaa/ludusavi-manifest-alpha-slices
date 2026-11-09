@@ -23231,6 +23231,9 @@ Chrono Project:
             store: steam
   steam:
     id: 893810
+Chrono Punk:
+  steam:
+    id: 5081550
 Chrono Trigger:
   cloud:
     steam: true
