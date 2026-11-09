@@ -10224,6 +10224,10 @@ Telling Lies:
         - config
   steam:
     id: 762830
+Telltale Batman Season 1:
+  alias: "Batman: The Telltale Series"
+Telltale Batman Season 2:
+  alias: "Batman: The Enemy Within - The Telltale Series"
 "Telltale Texas Hold 'Em":
   files:
     "<base>/prefs.prop":

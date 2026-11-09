@@ -29693,6 +29693,10 @@ Four Last Things:
   installDir:
     Four Last Things: {}
   launch:
+    "<base>/Four Last Things.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Four Last Things.exe":
       - when:
           - os: windows

@@ -33492,6 +33492,7 @@ Anna - Extended Edition:
     id: 217690
 "Anna's Quest":
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/Daedalic Entertainment GmbH/Anna's Quest/Savegames":

@@ -45180,6 +45180,17 @@ Bubblien Pop:
             store: steam
   steam:
     id: 764870
+Bubbly:
+  installDir:
+    Bubbly: {}
+  launch:
+    "<base>/Bubbly.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4706340
 Bubli:
   installDir:
     Bubli: {}
@@ -47228,14 +47239,7 @@ Bunker - Nightmare Begins:
   steam:
     id: 1053740
 Bunker - The Underground Game:
-  installDir:
-    Bunker: {}
-  launch:
-    "<base>/Bunker.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 354180
+  alias: "Bunker: The Underground Game"
 Bunker 56:
   installDir:
     Bunker: {}
@@ -47313,6 +47317,15 @@ Bunker Tidy Up:
           - store: steam
   steam:
     id: 5212940
+"Bunker: The Underground Game":
+  installDir:
+    Bunker: {}
+  launch:
+    "<base>/Bunker.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 354180
 Bunny & Piggy:
   steam:
     id: 549810

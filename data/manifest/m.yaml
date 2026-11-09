@@ -9924,6 +9924,23 @@ Marble Blast Gold:
         - save
       when:
         - os: windows
+Marble Blast Ultra:
+  files:
+    "<winAppData>/GarageGames/Marble Blast Ultra/achievements.cs":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/GarageGames/Marble Blast Ultra/prefs.cs":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/GarageGames/Marble Blast Ultra/scores.cs":
+      tags:
+        - save
+      when:
+        - os: windows
 Marble Combat:
   files:
     "<winLocalAppData>/P8Ball/*.sav":
