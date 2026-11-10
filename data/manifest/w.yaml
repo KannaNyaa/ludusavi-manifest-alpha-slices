@@ -3249,6 +3249,18 @@ War Thunder:
             store: steam
   steam:
     id: 236390
+"War Times: European Frontline":
+  files:
+    "<base>/Datos/configuracion.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
 War Trains:
   installDir:
     War Trains: {}
@@ -5418,6 +5430,8 @@ Warhalla:
 "Warhammer 40,000: Dark Heresy":
   gog:
     id: 1591170775
+  id:
+    lutris: warhammer-40000-dark-heresy
   steam:
     id: 3710600
 "Warhammer 40,000: Darktide":
@@ -14249,6 +14263,23 @@ What the Buck?!:
       - 5006340
       - 5155800
       - 5155820
+  installDir:
+    WhattheBuck: {}
+  launch:
+    "<base>/What the Buck.app/Contents/MacOS/What the Buck":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/What the Buck.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/What the Buck.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 4832970
 What the Car?:

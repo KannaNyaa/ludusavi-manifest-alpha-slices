@@ -741,6 +741,10 @@
   installDir:
     1000xRESIST: {}
   launch:
+    "<base>/1000xRESIST.app/Contents/MacOS/1000xRESIST":
+      - when:
+          - os: mac
+            store: steam
     "<base>/1000xRESIST.exe":
       - when:
           - store: steam

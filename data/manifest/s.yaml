@@ -75641,6 +75641,12 @@ Steel Division 2:
   cloud:
     gog: true
     steam: true
+  files:
+    "<home>/Saved Games/EugenSystems/SteelDivision2":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1911255510
   id:

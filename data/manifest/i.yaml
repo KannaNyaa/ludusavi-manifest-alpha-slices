@@ -2941,18 +2941,6 @@ IREC:
             store: steam
   steam:
     id: 557260
-IRON GUARD VR:
-  cloud:
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/Xlab Digital/IronGuard/save.igsv":
-      when:
-        - os: windows
-          store: steam
-  installDir:
-    IRON GUARD: {}
-  steam:
-    id: 1213220
 IRacing:
   files:
     "<winDocuments>/iRacing":
@@ -16739,6 +16727,18 @@ Iron Ground:
     Iron Ground: {}
   steam:
     id: 853120
+Iron Guard VR:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Xlab Digital/IronGuard/save.igsv":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    IRON GUARD: {}
+  steam:
+    id: 1213220
 Iron Harvest:
   cloud:
     gog: true

@@ -7835,6 +7835,34 @@ Neo Cab:
             store: steam
   steam:
     id: 794540
+Neo Junk City:
+  files:
+    "<home>/AppData/LocalLow/StarBlade Games/Neo Junk City/CloudSaves/<storeUserId>/Data/NeoJunkCity_*.jpg":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/StarBlade Games/Neo Junk City/CloudSaves/<storeUserId>/Data/NeoJunkCity_*.save":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/StarBlade Games/Neo Junk City/CloudSaves/<storeUserId>/Data/Profile_*.language":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/StarBlade Games/Neo Junk City/CloudSaves/<storeUserId>/Data/Profile_*.profile":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/StarBlade Games/Neo Junk City/CloudSaves/<storeUserId>/Data/active.profile-id":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/StarBlade Games/Neo Junk City/CloudSaves/<storeUserId>/Data/storage.state":
+      when:
+        - store: steam
+  installDir:
+    Neo Junk City: {}
+  launch:
+    "<base>/Neo Junk City.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2378230
 Neo Neo:
   cloud:
     steam: true
@@ -12699,8 +12727,6 @@ Nickelodeon Extreme Tennis Next!:
   steam:
     id: 1383960
 "Nickelodeon Kart Racers 3: Slime Speedway":
-  cloud:
-    steam: true
   files:
     "<winLocalAppData>/Nor/Saved/Config/WindowsNoEditor":
       tags:

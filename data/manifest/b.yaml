@@ -36362,6 +36362,11 @@ Booster Trooper:
           - store: steam
   steam:
     id: 27920
+BoosterWare:
+  cloud:
+    steam: true
+  steam:
+    id: 2268510
 "Boot : Game Dev Sim":
   files:
     "<winLocalAppData>/BootGameDevSim/Saved/**/*.ini":

@@ -20095,6 +20095,8 @@ Pixplode:
   steam:
     id: 631770
 Pixross:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Kenney/Pixross/Pixross.save":
       tags:

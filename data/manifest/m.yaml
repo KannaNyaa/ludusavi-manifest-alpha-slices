@@ -8033,12 +8033,6 @@ Makeover Desire - HENSHIN GANBO:
   steam:
     id: 46770
 "Making History: The Calm & the Storm":
-  files:
-    "<winProgramData>/Muzzy Lane Software/Making History Gold":
-      tags:
-        - save
-      when:
-        - os: windows
   id:
     lutris: making-history-the-calm-the-storm
     steamExtra:

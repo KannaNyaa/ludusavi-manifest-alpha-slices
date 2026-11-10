@@ -91781,9 +91781,19 @@ Tube Tycoon:
   steam:
     id: 611040
 Tube2K:
+  files:
+    "<home>/AppData/LocalLow/Chronik Spartan/Tube2K/*.txt":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 4907870
+  installDir:
+    Tube2K: {}
+  launch:
+    "<base>/Tube2K.exe":
+      - when:
+          - store: steam
   steam:
     id: 756510
 TubeLife:
