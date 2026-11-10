@@ -6643,6 +6643,14 @@ Warhammer Quest:
 Warhammer Survivors:
   cloud:
     steam: true
+  installDir:
+    Warhammer Survivors: {}
+  launch:
+    "<base>/WarhammerSurvivors.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3669620
 "Warhammer Underworlds: Online":

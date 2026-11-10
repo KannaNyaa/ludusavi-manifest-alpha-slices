@@ -580,6 +580,8 @@ PGA Tour 2K23:
   steam:
     id: 1588010
 PGA Tour 2K25:
+  id:
+    lutris: pga-tour-2k25
   installDir:
     PGA TOUR 2K25: {}
   launch:
@@ -34389,7 +34391,7 @@ Probably Stolen:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Questing Goose Studio/Probably Stolen":
+    "<home>/AppData/LocalLow/Questing Goose Studio/Probably Stolen":
       tags:
         - save
       when:

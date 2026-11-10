@@ -36365,6 +36365,16 @@ Booster Trooper:
 BoosterWare:
   cloud:
     steam: true
+  files:
+    "<base>/Save/<storeUserId>":
+      tags:
+        - save
+      when:
+        - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Overhead Games/BoosterWare:
+      tags:
+        - config
   steam:
     id: 2268510
 "Boot : Game Dev Sim":

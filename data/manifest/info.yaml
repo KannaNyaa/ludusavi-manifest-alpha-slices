@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-10T11:18:51Z"
+generatedAt: "2026-11-10T21:19:39Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,27 +9,27 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"bc4a96cd942c1d1578cebfdc2f689240a257a7d5780c4d33cec144b21b98a2a5\""
+  etag: "\"f118f64581d4c8b9b5e8adfb092d5570a1790e5f40613a3282ede305b7e74b40\""
   lastModified: ""
-  sha256: "f788bb235ec5150e8c06dc17510e801ed1157a78e4c46f3ba73b335ece8fcfbd"
-  sizeBytes: 17773674
-  lines: 885559
+  sha256: "94de3abe0d94b1e3fe1e7704e74c2fa96ec32fabf72a7079899e89ea8aaffa8c"
+  sizeBytes: 17774511
+  lines: 885597
 
 manifest:
   games: 53515
   shards: 29
   files: 30
-  bytes: 17773786
-  withSaveTag: 13645
+  bytes: 17774623
+  withSaveTag: 13646
   sections:
     alias: 1129
     cloud: 15747
-    files: 22584
+    files: 22586
     gog: 5608
-    id: 10257
-    installDir: 43963
-    launch: 39700
-    registry: 2850
+    id: 10258
+    installDir: 43965
+    launch: 39701
+    registry: 2851
     steam: 49352
 
 sharding:
@@ -50,8 +50,8 @@ shards:
     key: "B"
     group: "letter"
     games: 3002
-    bytes: 985013
-    sha256: "a4d56ac35569b09e6858e5ac2eaaa5023512c8761196652889325f69d003daec"
+    bytes: 985217
+    sha256: "2c3251ff240705bc6d0ad8813caf8b71ba89b6e938839b4e7013a6655a600c96"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -114,8 +114,8 @@ shards:
     key: "I"
     group: "letter"
     games: 1214
-    bytes: 399221
-    sha256: "a286c27f237adc842bab87d6bebe72f2bf9cc7911b58733ea9c7af20133e1edf"
+    bytes: 399742
+    sha256: "9ff47169a5448e1e64fc359963696b57317c7c93088cb2b0bff36cdf538e8f08"
     first: "I (Don't) Hate Hentai Puzzles"
     last: "I・S・U"
   - path: "j.yaml"
@@ -170,8 +170,8 @@ shards:
     key: "P"
     group: "letter"
     games: 2681
-    bytes: 863966
-    sha256: "3195ec538287d06d1193e83049316ec881eb67ae1fc30b7f3652768b5d8d3787"
+    bytes: 864004
+    sha256: "6a26a683905423243ec19cce1dd1259ed9e502cfdab6da2776b9cd49b0066e68"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"
@@ -194,8 +194,8 @@ shards:
     key: "S"
     group: "letter"
     games: 5932
-    bytes: 2057762
-    sha256: "90233be59a080d02e606c71966ef45851b84d6ef1015f7eea9216d167ac1c3ec"
+    bytes: 2057664
+    sha256: "4be632f10e9144478125c266f17680d719bee8a4e9d2ebd15f05ac13d5d4803d"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -242,8 +242,8 @@ shards:
     key: "W"
     group: "letter"
     games: 1714
-    bytes: 589142
-    sha256: "38f1158c3ef995afb4e0de705716993c9c36122c013878dcfb7042d05aee2b83"
+    bytes: 589314
+    sha256: "220ce9d129df7681c9a28eec843923c648aac10314d1529d7a13cbd9a1c88a29"
     first: "W. T. B."
     last: "Włatcy móch: Wrzód na dópie"
   - path: "x.yaml"

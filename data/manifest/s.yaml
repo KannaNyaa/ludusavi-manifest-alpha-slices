@@ -95804,11 +95804,6 @@ Supraworld:
         - os: windows
   installDir:
     Supraworld: {}
-  launch:
-    "<base>/Supraworld.exe":
-      - when:
-          - bit: 64
-            store: steam
   steam:
     id: 1869290
 Supremacy 1914:

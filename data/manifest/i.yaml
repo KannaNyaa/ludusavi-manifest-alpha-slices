@@ -3783,6 +3783,29 @@ Iconoclasts:
   steam:
     id: 684200
 Icy Tower (2026):
+  files:
+    "<base>/lists/*.lst":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/icytower/lists/*.lst":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/icytower/lists/*.lst":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    icytower: {}
+  launch:
+    "<base>/icytower.app/Contents/MacOS/love":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/icytower.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3014860
 "Icycle: On Thin Ice":
