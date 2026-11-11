@@ -2344,6 +2344,30 @@ IGT Slots Paradise Garden:
             store: steam
   steam:
     id: 320970
+"IGTAP: An Incremental Game That's Also a Platformer":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Pepper tango games/IGTAPfullGame":
+      when:
+        - store: steam
+    "<xdgConfig>/unity3d/Pepper tango games/IGTAPfullGame":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    "IGTAP an Incremental Game That's Also a Platformer": {}
+  launch:
+    "<base>/IGTAP.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/IGTAPfullGame.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4364730
 IGrow Game:
   installDir:
     iGrow Game: {}

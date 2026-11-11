@@ -18434,10 +18434,25 @@ Nocturnal:
 Nocturnal 2:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Sunnyside Games/Nocturnal 2/Steam/<storeUserId>":
+      when:
+        - store: steam
   id:
     lutris: nocturnal-2
     steamExtra:
       - 4325830
+  installDir:
+    Nocturnal 2: {}
+  launch:
+    "<base>/Nocturnal 2.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "-force-vulkan"
+        when:
+          - os: windows
+            store: steam
   steam:
     id: 2847780
 Nocturnal Hunt:
@@ -19811,6 +19826,17 @@ Northland:
             store: steam
   steam:
     id: 307010
+Northmen:
+  installDir:
+    Northmen: {}
+  launch:
+    "<base>/NORTHMEN.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 5481810
 Nortinium:
   steam:
     id: 805220

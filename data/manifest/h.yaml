@@ -22498,10 +22498,41 @@ Hillsfar:
 Hillthorn:
   cloud:
     steam: true
+  files:
+    "<home>/.var/app/com.valvesoftware.Steam/.config/unity3d/FOOL MOON/Hillthorn/**/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/FOOL MOON/Hillthorn/**/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/FOOL MOON/Hillthorn/**/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<xdgConfig>/unity3d/FOOL MOON/Hillthorn/**/*.json":
+      when:
+        - os: linux
+          store: steam
   id:
     lutris: hillthorn
     steamExtra:
       - 3615330
+  installDir:
+    Hillthorn: {}
+  launch:
+    "<base>/Hillthorn.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Hillthorn.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Hillthorn.sh":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 3504050
 Him and I:

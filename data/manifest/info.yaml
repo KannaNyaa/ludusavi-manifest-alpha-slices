@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-10T21:19:39Z"
+generatedAt: "2026-11-11T11:05:25Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"f118f64581d4c8b9b5e8adfb092d5570a1790e5f40613a3282ede305b7e74b40\""
+  etag: "\"ee5212be6a07cd374cac88df6e713789df05988c2cd18515fd6199a9fb495c0f\""
   lastModified: ""
-  sha256: "94de3abe0d94b1e3fe1e7704e74c2fa96ec32fabf72a7079899e89ea8aaffa8c"
-  sizeBytes: 17774511
-  lines: 885597
+  sha256: "7c000158072d033b679e34169de09858204e7634a73f4c60493a759624cd0bcc"
+  sizeBytes: 17779706
+  lines: 885827
 
 manifest:
-  games: 53515
+  games: 53520
   shards: 29
   files: 30
-  bytes: 17774623
-  withSaveTag: 13646
+  bytes: 17779818
+  withSaveTag: 13649
   sections:
     alias: 1129
-    cloud: 15747
-    files: 22586
-    gog: 5608
-    id: 10258
-    installDir: 43965
-    launch: 39701
-    registry: 2851
-    steam: 49352
+    cloud: 15753
+    files: 22593
+    gog: 5609
+    id: 10265
+    installDir: 43976
+    launch: 39712
+    registry: 2853
+    steam: 49357
 
 sharding:
   rule: "first-character"
@@ -42,32 +42,32 @@ shards:
     key: "A"
     group: "letter"
     games: 3317
-    bytes: 1111528
-    sha256: "21451bddccee37de1b621abf0d9c0697122f2157a03d38382abbbecdd6d0c93d"
+    bytes: 1111706
+    sha256: "2ccb4c759115f4f08e836ce29c7eccdb88f244dd9cdd21d860650db9173ff0bf"
     first: "A Bastard's Tale"
     last: "Azusa RP Online"
   - path: "b.yaml"
     key: "B"
     group: "letter"
-    games: 3002
-    bytes: 985217
-    sha256: "2c3251ff240705bc6d0ad8813caf8b71ba89b6e938839b4e7013a6655a600c96"
+    games: 3003
+    bytes: 985672
+    sha256: "1b5c9ae54f1942578fe75e169714aa1006861f30120cd039dae9c256afce18b9"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
     key: "C"
     group: "letter"
-    games: 3501
-    bytes: 1188631
-    sha256: "036a07bc7211a279fc4210e314644b95c7902bc89667f52ec29a85e8b5bc7231"
+    games: 3502
+    bytes: 1189205
+    sha256: "0b4b890db3711c8bdc612908de0f071cb9bd3b013ade097d5c1dcf0656964123"
     first: "C"
     last: "CyubeVR"
   - path: "d.yaml"
     key: "D"
     group: "letter"
     games: 3450
-    bytes: 1165754
-    sha256: "089530ffbad46fe9ea596539d5a540f7f3db01b3ea7f0978f0caf68185863043"
+    bytes: 1165785
+    sha256: "4fdb08a9201d4bf32a9fb52e5a1b4b382256d52418486cfb74ab11ee3cd0d71f"
     first: "D Series Off Road Racing Simulation"
     last: "Dōkyūsei: Bangin' Summer"
   - path: "digits.yaml"
@@ -106,16 +106,16 @@ shards:
     key: "H"
     group: "letter"
     games: 2185
-    bytes: 714567
-    sha256: "b0d0ba7a0e8de595db3ddae600b071d471356759eae5f294d7b6d3d6ea5ebd84"
+    bytes: 715365
+    sha256: "4135abf119cf19da8a0a745476a2d594946d7de386cfc86d17ef010780d6e269"
     first: "H Chan: Girl"
     last: "Höllenjob"
   - path: "i.yaml"
     key: "I"
     group: "letter"
-    games: 1214
-    bytes: 399742
-    sha256: "9ff47169a5448e1e64fc359963696b57317c7c93088cb2b0bff36cdf538e8f08"
+    games: 1215
+    bytes: 400338
+    sha256: "0d8d209a7b70b516c6133a35436f2c4a5ee0698ae3d4f31d47f3cb33f6822333"
     first: "I (Don't) Hate Hentai Puzzles"
     last: "I・S・U"
   - path: "j.yaml"
@@ -153,9 +153,9 @@ shards:
   - path: "n.yaml"
     key: "N"
     group: "letter"
-    games: 1348
-    bytes: 443583
-    sha256: "b8d0283b6b2edd2c3597b6dfd90183ee4cf29afc0753b7c7a68bb811a792c86e"
+    games: 1349
+    bytes: 444127
+    sha256: "b616504c82bf799c3b3febb686a911d05cf620edc0dbc80e8eb4a75dc2cc40e4"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
@@ -170,8 +170,8 @@ shards:
     key: "P"
     group: "letter"
     games: 2681
-    bytes: 864004
-    sha256: "6a26a683905423243ec19cce1dd1259ed9e502cfdab6da2776b9cd49b0066e68"
+    bytes: 864228
+    sha256: "3002e9d9063ce8b877595a1f8ddd8500669c273630c03c02d10d04fa17175655"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"
@@ -194,8 +194,8 @@ shards:
     key: "S"
     group: "letter"
     games: 5932
-    bytes: 2057664
-    sha256: "4be632f10e9144478125c266f17680d719bee8a4e9d2ebd15f05ac13d5d4803d"
+    bytes: 2057884
+    sha256: "cfa7dc3d32423736b954215553bd56b0ddaceafa73f275d5d74d16de8c826693"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -209,9 +209,9 @@ shards:
   - path: "t.yaml"
     key: "T"
     group: "letter"
-    games: 5545
-    bytes: 1948353
-    sha256: "b1366b9d80d5d684507a3d3324859eede6b1c40635f0ecef2215d7e1791ba626"
+    games: 5546
+    bytes: 1948882
+    sha256: "0d282063fe3289212fb0955b229b625ea72a62986961687a7723621a2300bf52"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"
@@ -234,16 +234,16 @@ shards:
     key: "V"
     group: "letter"
     games: 937
-    bytes: 260737
-    sha256: "b67c918651707b961cb3c0966897410582a1e3af9ead146bab6ff4f3cf0788f5"
+    bytes: 261747
+    sha256: "b33371c6a9b2efba1bfdd8919523b36c7477d0d5a8891770c74027916a32c823"
     first: "V"
     last: "Vzerthos: The Heir of Thunder"
   - path: "w.yaml"
     key: "W"
     group: "letter"
     games: 1714
-    bytes: 589314
-    sha256: "220ce9d129df7681c9a28eec843923c648aac10314d1529d7a13cbd9a1c88a29"
+    bytes: 589350
+    sha256: "40e2e250583708a8f340a1d4a3faab9e3d13605f216dd8e9f615bf58f072bcb6"
     first: "W. T. B."
     last: "Włatcy móch: Wrzód na dópie"
   - path: "x.yaml"

@@ -44853,6 +44853,16 @@ Ashes of the Singularity:
   steam:
     id: 228880
 Ashes of the Singularity II:
+  cloud:
+    steam: true
+  installDir:
+    Ashes II: {}
+  launch:
+    "<base>/bin/Ashes2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3499790
 "Ashes of the Singularity: Escalation":

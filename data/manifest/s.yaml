@@ -29101,6 +29101,17 @@ Shredders:
   steam:
     id: 1874170
 Shrek 2 Remastered:
+  cloud:
+    steam: true
+  installDir:
+    Shrek2Remastered: {}
+  launch:
+    "<base>/Shrek.exe":
+      - arguments: "--process.steam=1"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2523740
 "Shrek 2: Team Action":

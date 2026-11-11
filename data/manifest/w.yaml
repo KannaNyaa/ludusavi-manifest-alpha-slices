@@ -11350,9 +11350,12 @@ We Were Here Tomorrow:
   cloud:
     steam: true
   files:
-    "<base>/SavesDir/*.data":
+    "<base>/SavesDir":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     We Were Here Tomorrow: {}
   launch:

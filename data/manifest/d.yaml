@@ -14443,6 +14443,8 @@ Dear Camy:
         - config
       when:
         - os: windows
+  id:
+    lutris: dear-camy--1
 Dear Esther:
   files:
     "<base>/dearesther/SAVE":

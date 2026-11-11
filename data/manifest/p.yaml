@@ -7623,6 +7623,17 @@ Path:
   steam:
     id: 1208400
 Path Defenders:
+  installDir:
+    Path Defenders: {}
+  launch:
+    "<base>/3d-td":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Path Defenders.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4819620
 Path Of Aurora:

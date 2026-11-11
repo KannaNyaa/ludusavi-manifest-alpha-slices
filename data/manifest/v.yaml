@@ -3356,12 +3356,45 @@ Vampire of the Sands:
   steam:
     id: 1290270
 "Vampire: The Masquerade - Oaths & Ashes":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Revive The Spark/Vampire the Masquerade Oaths _ Ashes/**/metadata.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/Revive The Spark/Vampire the Masquerade Oaths _ Ashes/**/save.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Revive The Spark/Vampire the Masquerade Oaths _ Ashes/**/metadata.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Revive The Spark/Vampire the Masquerade Oaths _ Ashes/**/save.json":
+      when:
+        - store: steam
   gog:
     id: 1980751921
   id:
+    gogExtra:
+      - 1269970804
+      - 1437141527
     lutris: vampire-the-masquerade-oaths-and-ashes
     steamExtra:
       - 4746430
+      - 5440640
+  installDir:
+    Vampire The Masquerade - Oaths and Ashes: {}
+  launch:
+    "<base>/Vampire the Masquerade Oaths & Ashes.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Vampire the Masquerade Oaths & Ashes.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 4191110
 "Vampire: The Masquerade - Out for Blood":

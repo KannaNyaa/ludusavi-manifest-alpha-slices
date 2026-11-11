@@ -11237,6 +11237,32 @@ Casual Spider Solitaire:
             store: steam
   steam:
     id: 722810
+"Casualties: Unknown":
+  files:
+    "<home>/AppData/LocalLow/Orsoniks/CasualtiesUnknown":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Orsoniks/CasualtiesUnknown/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: casualties-unknown
+  installDir:
+    Casualties Unknown: {}
+  launch:
+    "<base>/CasualtiesUnknown.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Orsoniks/CasualtiesUnknown:
+      tags:
+        - config
+  steam:
+    id: 4576490
 "Casus Belli: Battle of Annihilation":
   installDir:
     Casus Belli Battle Of Annihilation: {}

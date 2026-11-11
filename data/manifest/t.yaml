@@ -4060,6 +4060,30 @@ Takenoko:
 Takeout food:
   steam:
     id: 887670
+Takeover 2:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/pelikan 13/Takeover2":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4425280
+  installDir:
+    Takeover 2: {}
+  launch:
+    "<base>/Takeover2.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/pelikan 13/Takeover2:
+      tags:
+        - config
+  steam:
+    id: 4423270
 Taking Valhalla VR:
   installDir:
     Taking Valhalla VR: {}
@@ -31289,6 +31313,8 @@ The Golden Compass:
   steam:
     id: 10440
 The Golf Club:
+  id:
+    lutris: the-golf-club
   installDir:
     TheGolfClub: {}
   launch:
@@ -31304,6 +31330,8 @@ The Golf Club:
   steam:
     id: 269730
 The Golf Club 2:
+  id:
+    lutris: the-golf-club-2tm
   installDir:
     TheGolfClub2: {}
   launch:
@@ -31328,6 +31356,8 @@ The Golf Club 2019 featuring PGA Tour:
   steam:
     id: 695290
 The Golf Club VR:
+  id:
+    lutris: the-golf-club-vr
   installDir:
     The Golf Club VR: {}
   steam:
