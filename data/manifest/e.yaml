@@ -19137,6 +19137,29 @@ Eternal Maze:
             store: steam
   steam:
     id: 652990
+Eternal Palace Sakura:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/DennekoYugi/SakuraTower/Steam/<storeUserId>/System/SaveFile":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: eternal-palace-sakura
+    steamExtra:
+      - 4070720
+  installDir:
+    星樹の機神 夢幻桜楼閣: {}
+  launch:
+    "<base>/SakuraTower.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2991310
 Eternal Radiance:
   cloud:
     steam: true

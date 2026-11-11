@@ -14802,6 +14802,7 @@ Kung Fu Panda:
         - config
 "Kung Fu Panda: Showdown of Legendary Legends":
   id:
+    lutris: kung-fu-panda-showdown-of-legendary-legends
     steamExtra:
       - 413800
       - 413801

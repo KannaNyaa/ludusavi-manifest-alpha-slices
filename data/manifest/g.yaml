@@ -795,6 +795,25 @@ GRAV:
         workingDir: "<base>/Binaries/Win64"
   steam:
     id: 332500
+GRAVHOUNDS:
+  files:
+    "<base>/WFO/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/WFO/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    GravHounds: {}
+  launch:
+    "<base>/WFOSteam.exe":
+      - arguments: "-SaveToUserDir"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2440760
 GRAY:
   files:
     "<winAppData>/MMFApplications/DontReadME":

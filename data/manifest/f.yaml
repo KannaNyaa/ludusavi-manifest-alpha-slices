@@ -25110,6 +25110,38 @@ Football Manager 26:
             store: steam
   steam:
     id: 3551340
+Football Manager 27:
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/Sports Interactive/Football Manager 27/cloud/**/*.fmf":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Sports Interactive/Football Manager 27/cloud/games/*.fm":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/Sports Interactive/Football Manager 27/cloud/**/*.fmf":
+      when:
+        - store: steam
+    "<winLocalAppData>/Sports Interactive/Football Manager 27/cloud/games/*.fm":
+      when:
+        - store: steam
+  installDir:
+    Football Manager 27: {}
+  launch:
+    "<base>/fm.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/fm.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4530370
 Football Manager Touch 2016:
   cloud:
     steam: true

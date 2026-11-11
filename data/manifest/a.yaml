@@ -608,6 +608,28 @@ A Dance of Fire and Ice:
             store: steam
   steam:
     id: 977950
+A Dark Cave:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/A Dark Cave Demo/adc-steam-demo-save.dat":
+      when:
+        - store: steam
+    "<winAppData>/A Dark Cave/adc-steam-demo-save.dat":
+      when:
+        - store: steam
+    "<winAppData>/A Dark Cave/adc-steam-save.dat":
+      when:
+        - store: steam
+  installDir:
+    A Dark Cave: {}
+  launch:
+    "<base>/A Dark Cave.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4882240
 "A Dark World: The Glowing City":
   installDir:
     A Dark World The Glowing City: {}
