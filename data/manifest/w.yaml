@@ -6642,7 +6642,16 @@ Warhammer Quest:
     id: 910450
 Warhammer Survivors:
   cloud:
+    gog: true
     steam: true
+  files:
+    "<root>/userdata/<storeUserId>/3669620/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  gog:
+    id: 2068449424
   installDir:
     Warhammer Survivors: {}
   launch:
@@ -6651,6 +6660,10 @@ Warhammer Survivors:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Auroch Digital/Warhammer Survivors:
+      tags:
+        - config
   steam:
     id: 3669620
 "Warhammer Underworlds: Online":

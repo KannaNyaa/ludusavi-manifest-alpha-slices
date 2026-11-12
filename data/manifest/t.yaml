@@ -65729,6 +65729,12 @@ Thronefall:
   cloud:
     steam: true
   files:
+    "<home>/AppData/Local/Packages/Mythwright.Thronefall_9b483820r0x2c/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<home>/AppData/LocalLow/Grizzly Games/Thronefall/ThroneSave.sav":
       tags:
         - save
