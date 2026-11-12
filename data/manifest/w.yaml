@@ -11198,6 +11198,63 @@ We Stay Behind:
     id: 1229497338
   steam:
     id: 1142570
+"We Steal From Old People: The Game":
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/WeStealFromOldPeople.staging/save/cloud/users/<storeUserId>/**/*.data":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/WeStealFromOldPeople.staging/save/cloud/users/<storeUserId>/**/*.webp":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/WeStealFromOldPeople/save/cloud/users/<storeUserId>/**/*.data":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/WeStealFromOldPeople/save/cloud/users/<storeUserId>/**/*.webp":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/WeStealFromOldPeople.staging/save/cloud/users/<storeUserId>/**/*.data":
+      when:
+        - store: steam
+    "<winAppData>/WeStealFromOldPeople.staging/save/cloud/users/<storeUserId>/**/*.webp":
+      when:
+        - store: steam
+    "<winAppData>/WeStealFromOldPeople/save/cloud/users/<storeUserId>/**/*.data":
+      when:
+        - store: steam
+    "<winAppData>/WeStealFromOldPeople/save/cloud/users/<storeUserId>/**/*.webp":
+      when:
+        - store: steam
+    "<xdgData>/WeStealFromOldPeople.staging/save/cloud/users/<storeUserId>/**/*.data":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/WeStealFromOldPeople.staging/save/cloud/users/<storeUserId>/**/*.webp":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/WeStealFromOldPeople/save/cloud/users/<storeUserId>/**/*.data":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/WeStealFromOldPeople/save/cloud/users/<storeUserId>/**/*.webp":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    We Steal From Old People The Game: {}
+  launch:
+    "<base>/WeStealFromOldPeople.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 5051080
 We Walked in Darkness:
   installDir:
     We Walked In Darkness: {}

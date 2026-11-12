@@ -30815,6 +30815,16 @@ Clutchball:
             store: steam
   steam:
     id: 733810
+"Cluttermancer: Tidy Up the Nightmare Alley":
+  installDir:
+    Cluttermancer Tidy Up the Nightmare Alley: {}
+  launch:
+    "<base>/Cluttermancer.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 5032140
 Cmoar VR Cinema:
   installDir:
     Cmoar VR Cinema: {}
@@ -40732,8 +40742,13 @@ Control Resonant:
       tags:
         - save
       when:
+        - store: steam
+    "<winLocalAppData>/GOG.com/Galaxy/Applications/60085018752855325/Storage/Shared/Files":
+      tags:
+        - save
+      when:
         - os: windows
-          store: steam
+          store: gog
     "<winLocalAppData>/Remedy/CONTROLResonant/renderer.ini":
       tags:
         - config
@@ -45131,6 +45146,73 @@ Crab God:
             store: steam
   steam:
     id: 2289390
+Crack:
+  files:
+    "<home>/.config/unity3d/Rafoli/CRACK/world_slot*":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/Rafoli/CRACK/world_slot0_timelapse":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/Rafoli/CRACK/world_slot1_timelapse":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/Rafoli/CRACK/world_slot2_timelapse":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Rafoli/CRACK/world_slot*":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Rafoli/CRACK/world_slot0_timelapse":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Rafoli/CRACK/world_slot1_timelapse":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Rafoli/CRACK/world_slot2_timelapse":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Rafoli/CRACK/world_slot*":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Rafoli/CRACK/world_slot0_timelapse":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Rafoli/CRACK/world_slot1_timelapse":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Rafoli/CRACK/world_slot2_timelapse":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    CRACK: {}
+  launch:
+    "<base>/CRACK.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/CRACK.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "-force-vulkan"
+        when:
+          - os: windows
+            store: steam
+    "<base>/CRACK.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 4312190
 Crack Down:
   files:
     "<base>/CRACKDWN.SAV":
@@ -57492,6 +57574,24 @@ Cutlass:
     Cutlass: {}
   steam:
     id: 663020
+Cutout Village:
+  files:
+    "<base>/saved":
+      when:
+        - store: steam
+  installDir:
+    Cutout Village: {}
+  launch:
+    "<base>/CutoutVillage.app/Contents/MacOS/CutoutVillage":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/CutoutVillage.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3907910
 Cutthroat:
   files:
     "<base>/SavesDir/*.txt":

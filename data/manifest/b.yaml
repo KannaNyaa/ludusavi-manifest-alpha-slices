@@ -33656,6 +33656,25 @@ Bob Came in Pieces:
         - config
   steam:
     id: 46000
+Bob Logistics:
+  files:
+    "<winLocalAppData>/BOBLOGISTICS/Saved/SaveGames/BOBLOGISTICS_Main.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BOBLOGISTICS/Saved/SaveGames/BOBLOGISTICS_Main_Backup.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BOBLOGISTICS/Saved/SaveGames/BOBLOGISTICS_Main_Branch.sav":
+      when:
+        - store: steam
+  installDir:
+    BOB LOGISTICS: {}
+  launch:
+    "<base>/BOBLOGISTICS.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 5009390
 Bob Was Hungry:
   installDir:
     Bob Was Hungry: {}
@@ -38608,6 +38627,18 @@ Box Align:
             store: steam
   steam:
     id: 768590
+Box Flow:
+  installDir:
+    Box Flow: {}
+  launch:
+    "<base>/box-flow.exe":
+      - when:
+          - store: steam
+      - arguments: "--use-webgpu-adapter=d3d11"
+        when:
+          - store: steam
+  steam:
+    id: 4909100
 Box It:
   cloud:
     steam: true
@@ -41909,6 +41940,28 @@ Brick Breaker with Risa:
             store: steam
   steam:
     id: 910420
+Brick Buddies:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/BunnyHopHome/BrickBuddies/Steam/<storeUserId>/*.json":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/BunnyHopHome/BrickBuddies/Steam/<storeUserId>/BrickProgressIndependent/*.json":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    CigBreak: {}
+  launch:
+    "<base>/2026September.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4901540
 Brick Inventions:
   files:
     "<home>/AppData/LocalLow/BrickInventions/Brick Inventions/Inventions/*.bim":

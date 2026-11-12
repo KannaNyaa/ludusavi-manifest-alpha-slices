@@ -64509,8 +64509,20 @@ Spring of Decadence:
 "Springs, Eternal":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Fullbright/Springs, Eternal/*.es3*":
+      when:
+        - store: steam
   id:
     lutris: springs-eternal
+  installDir:
+    "Springs, Eternal": {}
+  launch:
+    "<base>/Springs, Eternal.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3677850
 "Sprint Cars: Road to Knoxville":

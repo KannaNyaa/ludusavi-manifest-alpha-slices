@@ -20985,6 +20985,11 @@ Alabaster Dawn:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/Alabaster Dawn/Saves/Default":
+      tags:
+        - save
+      when:
+        - os: windows
     "<xdgConfig>/Alabaster Dawn":
       tags:
         - config

@@ -22066,9 +22066,17 @@ The Citadel:
   steam:
     id: 1378290
 The Citadel Project:
+  cloud:
+    steam: true
   id:
     steamExtra:
       - 5111940
+  installDir:
+    The Citadel Project: {}
+  launch:
+    "<base>/TheCitadelProject.exe":
+      - when:
+          - store: steam
   steam:
     id: 4795460
 The Clans - Saga of the Twins:

@@ -2679,6 +2679,22 @@ Ultra Hardcore:
   steam:
     id: 793720
 Ultra Maze:
+  installDir:
+    Ultra Maze: {}
+  launch:
+    "<base>/UltraMaze.app/Contents/MacOS/UltraMaze":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/UltraMaze.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/UltraMaze.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 3341190
 "Ultra Off-Road Simulator 2019: Alaska":

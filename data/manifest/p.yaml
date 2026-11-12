@@ -32879,6 +32879,19 @@ Princessfall:
 "Prinny Party: Going Overboard!":
   cloud:
     steam: true
+  files:
+    "<winAppData>/Nippon Ichi Software, Inc/Prinny Party Going Overboard!/<storeUserId>/.systemsave":
+      when:
+        - store: steam
+    "<winAppData>/Nippon Ichi Software, Inc/Prinny Party Going Overboard!/<storeUserId>/save.*":
+      when:
+        - store: steam
+  installDir:
+    Prinny Party Going Overboard!: {}
+  launch:
+    "<base>/PrinnyParty.exe":
+      - when:
+          - store: steam
   steam:
     id: 4509300
 Prism:

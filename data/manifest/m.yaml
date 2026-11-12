@@ -12098,6 +12098,10 @@ Marvel Cosmic Invasion:
       when:
         - os: windows
           store: microsoft
+  id:
+    steamExtra:
+      - 4436470
+      - 5032670
   installDir:
     MARVEL Cosmic Invasion: {}
   launch:
