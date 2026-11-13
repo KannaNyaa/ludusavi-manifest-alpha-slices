@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-12T21:52:10Z"
+generatedAt: "2026-11-13T11:06:17Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"cc0230e11964e84cfb348f30068643a59f34b9b0578935e896f92e3fcc404ee3\""
+  etag: "\"8255d28972e51614dca254b914d9f7bd7e9c4d624cd0347ba21c10c73617e27c\""
   lastModified: ""
-  sha256: "81fce8f77c0e64218f6c53653c7aa0141624c9cc51698072ff2cfe5a4a9edf21"
-  sizeBytes: 17790531
-  lines: 886250
+  sha256: "a31d0964095ab95f78f6798f7bb17f0db3014e4374de44717b7ecff3eb746835"
+  sizeBytes: 17792614
+  lines: 886340
 
 manifest:
-  games: 53532
+  games: 53534
   shards: 29
   files: 30
-  bytes: 17790643
-  withSaveTag: 13651
+  bytes: 17792726
+  withSaveTag: 13652
   sections:
     alias: 1129
-    cloud: 15760
-    files: 22607
+    cloud: 15761
+    files: 22609
     gog: 5610
-    id: 10267
-    installDir: 43993
-    launch: 39729
+    id: 10270
+    installDir: 43997
+    launch: 39733
     registry: 2854
-    steam: 49369
+    steam: 49371
 
 sharding:
   rule: "first-character"
@@ -42,32 +42,32 @@ shards:
     key: "A"
     group: "letter"
     games: 3318
-    bytes: 1112303
-    sha256: "0f8155160fdd96b76a629d469d2e828d7967e50dfb39c2c4833bcb93f28c3117"
+    bytes: 1112443
+    sha256: "12051078a6e92fa1e28c123a086bac8100b8f553b6f1ca6648662d7aeff22bfb"
     first: "A Bastard's Tale"
     last: "Azusa RP Online"
   - path: "b.yaml"
     key: "B"
     group: "letter"
     games: 3006
-    bytes: 986950
-    sha256: "a87630851b312a82838ce9963043ef8439c1f1395f7b1537899b4670f150832b"
+    bytes: 987277
+    sha256: "f18d9a78a64aa235fcb43996c5451fc3b422b24a9308fd39f277ba0ead019815"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
     key: "C"
     group: "letter"
     games: 3505
-    bytes: 1191773
-    sha256: "f206a3605b7e6feb5d9680f4f70bc3cb639724338493029ff4a1927a3c8137af"
+    bytes: 1191912
+    sha256: "fa549abb5446b5df8951d3cf4ccddc0a68be10ef813e7d293d40e63a58f6cc64"
     first: "C"
     last: "CyubeVR"
   - path: "d.yaml"
     key: "D"
     group: "letter"
-    games: 3450
-    bytes: 1165785
-    sha256: "4fdb08a9201d4bf32a9fb52e5a1b4b382256d52418486cfb74ab11ee3cd0d71f"
+    games: 3451
+    bytes: 1165821
+    sha256: "09574b0cafe7c9911606451415680ec9579ce05b0498781ec85a44800b8edf8a"
     first: "D Series Off Road Racing Simulation"
     last: "Dōkyūsei: Bangin' Summer"
   - path: "digits.yaml"
@@ -90,16 +90,16 @@ shards:
     key: "F"
     group: "letter"
     games: 2254
-    bytes: 762250
-    sha256: "87d203d8d22a9b6707cca89b7e82d3810ab59e4baf7b62663bd116c253461f83"
+    bytes: 762695
+    sha256: "a1c1fba66ab8610c95ede1fe0290393d5388ec744365efad79aeef9810a70a3f"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
     key: "G"
     group: "letter"
     games: 1927
-    bytes: 621473
-    sha256: "c113414d09de52473cde11026c21c15661240062742d7f956571a60d3a46ff67"
+    bytes: 621616
+    sha256: "aff2b972b7268267428408eeaad3b0ed0cb4e3dc351734891de5da8b782ea7b5"
     first: "G Prime"
     last: "Géants disparus VR"
   - path: "h.yaml"
@@ -178,8 +178,8 @@ shards:
     key: "Q"
     group: "letter"
     games: 203
-    bytes: 72482
-    sha256: "2433c21af26be4c5e7fcc7bb3fcc783c30eb37b88bea4775ae2daa399fd20139"
+    bytes: 72615
+    sha256: "c97e5becd1d63aea150a49b2232a0f19d2d7dc59e682bddd6f3e9bd082a3e0df"
     first: "Q"
     last: "Qybe"
   - path: "r.yaml"
@@ -193,9 +193,9 @@ shards:
   - path: "s.yaml"
     key: "S"
     group: "letter"
-    games: 5932
-    bytes: 2058732
-    sha256: "7cf5f2a36e0fcb484425293423af8eb5c914d085200f588da43a85cc260e1118"
+    games: 5933
+    bytes: 2059452
+    sha256: "65dc99f258745dbe53e68874d842364f94853d1f80e5e94983b00ab4bb3197bc"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"

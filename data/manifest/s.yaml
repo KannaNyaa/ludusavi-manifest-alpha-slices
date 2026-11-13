@@ -65642,6 +65642,34 @@ Squeakers:
             store: steam
   steam:
     id: 798650
+"Squeakross: Home Squeak Home":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Alblune/Squeakross/<storeUserId>/*.dat":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Alblune/Squeakross/<storeUserId>/*.dat":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Alblune/Squeakross/<storeUserId>/*.dat":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Squeakross Home Squeak Home: {}
+  launch:
+    "<base>/Squeakross.app/Contents/MacOS/Squeakross":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Squeakross.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2871440
 Squeezone:
   steam:
     id: 513630

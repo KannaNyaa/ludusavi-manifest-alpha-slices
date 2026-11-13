@@ -6856,6 +6856,19 @@ Barbie Horse Trails:
   steam:
     id: 2786660
 Barbie Rewind:
+  files:
+    "<home>/AppData/LocalLow/Atari/Barbie Rewind/campaign/default.brf":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Atari/Barbie Rewind/classic":
+      when:
+        - store: steam
+  installDir:
+    Barbie Rewind: {}
+  launch:
+    "<base>/Barbie Rewind.exe":
+      - when:
+          - store: steam
   steam:
     id: 4082030
 Barbie Sparkling Ice Show:

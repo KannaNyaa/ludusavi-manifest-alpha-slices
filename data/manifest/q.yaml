@@ -2258,9 +2258,16 @@ Queen of Thieves:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/QueensDomain/Saved/SaveGames/<storeUserId>/**/*.sav":
+    "<winLocalAppData>/QueensDomain/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/QueensDomain/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 4081520

@@ -31814,6 +31814,9 @@ Dirt Bike Insanity:
             store: steam
   steam:
     id: 851940
+Dirt Town:
+  steam:
+    id: 5275590
 Dirty Bomb:
   files:
     "<winDocuments>/My Games/UnrealEngine3/ShooterGame":

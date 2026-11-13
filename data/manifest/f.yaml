@@ -20698,6 +20698,24 @@ Flaws in the People We Love:
   steam:
     id: 1069380
 Flea Madness:
+  id:
+    lutris: flea-madness
+  installDir:
+    Flea Madness: {}
+  launch:
+    "<base>/FleaMadnessClient-Mac-Shipping.app/Contents/MacOS/FleaMadnessClient-Mac-Shipping":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/FleaMadnessClient.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/FleaMadnessClient.sh":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 1025560
 Fleazer:

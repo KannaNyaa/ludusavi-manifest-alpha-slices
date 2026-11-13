@@ -781,6 +781,15 @@ GPRO:
   steam:
     id: 2169220
 GRASS.EXE:
+  id:
+    steamExtra:
+      - 5570420
+  installDir:
+    GRASS.EXE: {}
+  launch:
+    "<base>/GRASS.exe":
+      - when:
+          - store: steam
   steam:
     id: 5459380
 GRAV:

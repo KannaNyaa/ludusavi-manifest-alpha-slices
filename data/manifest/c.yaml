@@ -7160,17 +7160,22 @@ CarX Street:
   installDir:
     CarX Street: {}
   launch:
-    "<base>/CarX Street Launcher.exe":
+    "<base>/CarX Street Launcher.app":
       - when:
+          - os: mac
+            store: steam
+    "<base>/CarX Street Launcher.exe":
+      - arguments: "-force-d3d11"
+        when:
+          - os: windows
+            store: steam
+      - arguments: "-force-d3d12"
+        when:
           - os: windows
             store: steam
     "<base>/eac_launcher":
       - when:
           - os: linux
-            store: steam
-    "<base>/eac_launcher.app":
-      - when:
-          - os: mac
             store: steam
   registry:
     HKEY_CURRENT_USER/Software/CarX Technologies/CarX Street:
