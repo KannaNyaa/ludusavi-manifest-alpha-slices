@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-13T11:06:17Z"
+generatedAt: "2026-11-13T21:26:37Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"8255d28972e51614dca254b914d9f7bd7e9c4d624cd0347ba21c10c73617e27c\""
+  etag: "\"c81887317de79d74b32ebf0b41ee604ec6876465803c31e837aed62b67f18ed1\""
   lastModified: ""
-  sha256: "a31d0964095ab95f78f6798f7bb17f0db3014e4374de44717b7ecff3eb746835"
-  sizeBytes: 17792614
-  lines: 886340
+  sha256: "da97abab6ffafc161741139eff094ae533bf897f26bfd2722f5188c89f48e3eb"
+  sizeBytes: 17793392
+  lines: 886376
 
 manifest:
-  games: 53534
+  games: 53536
   shards: 29
   files: 30
-  bytes: 17792726
-  withSaveTag: 13652
+  bytes: 17793504
+  withSaveTag: 13653
   sections:
     alias: 1129
-    cloud: 15761
-    files: 22609
+    cloud: 15762
+    files: 22610
     gog: 5610
     id: 10270
-    installDir: 43997
-    launch: 39733
-    registry: 2854
-    steam: 49371
+    installDir: 43998
+    launch: 39734
+    registry: 2856
+    steam: 49372
 
 sharding:
   rule: "first-character"
@@ -50,8 +50,8 @@ shards:
     key: "B"
     group: "letter"
     games: 3006
-    bytes: 987277
-    sha256: "f18d9a78a64aa235fcb43996c5451fc3b422b24a9308fd39f277ba0ead019815"
+    bytes: 987380
+    sha256: "52e2915d05eac8bf65a5b1d804c026fc350128ba142ed469644d02d2b27a9003"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -105,9 +105,9 @@ shards:
   - path: "h.yaml"
     key: "H"
     group: "letter"
-    games: 2185
-    bytes: 715365
-    sha256: "4135abf119cf19da8a0a745476a2d594946d7de386cfc86d17ef010780d6e269"
+    games: 2186
+    bytes: 715641
+    sha256: "12de8a14843ebf0d21a3dafeccc8c6f9a7d586ee230d74c196708283f5c4b48d"
     first: "H Chan: Girl"
     last: "Höllenjob"
   - path: "i.yaml"
@@ -209,9 +209,9 @@ shards:
   - path: "t.yaml"
     key: "T"
     group: "letter"
-    games: 5547
-    bytes: 1949600
-    sha256: "8af7716718a14d19c3fa018f87bf7c22a5426584ff9328878fba80c0dcf6e39e"
+    games: 5548
+    bytes: 1949999
+    sha256: "23582468549e74566c4d07a5a1a4bb2dbd0b4687552aaf894ce79cbe4bd8055e"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"

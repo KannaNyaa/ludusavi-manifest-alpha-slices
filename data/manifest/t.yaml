@@ -22161,6 +22161,23 @@ The Climate Trail:
             store: steam
   steam:
     id: 1162400
+The Climb:
+  files:
+    "<base>/crytek-the-climb/crytek_climb_wip/user/options/default":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/crytek-the-climb/crytek_climb_wip/user/profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/crytek-the-climb/crytek_climb_wip/user/savegames":
+      tags:
+        - save
+      when:
+        - os: windows
 The Climber:
   installDir:
     sdk: {}

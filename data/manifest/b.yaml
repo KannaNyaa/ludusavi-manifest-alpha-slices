@@ -20947,6 +20947,10 @@ Bills Must Be Paid:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Rike Games/Bills Must Be Paid:
+      tags:
+        - config
   steam:
     id: 4421010
 Billy:

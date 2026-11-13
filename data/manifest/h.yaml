@@ -27159,6 +27159,17 @@ Hope in Hell:
             store: steam
   steam:
     id: 410040
+Hope in the City:
+  cloud:
+    steam: true
+  installDir:
+    Hope in the City: {}
+  launch:
+    "<base>/HITC.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3610790
 Hope is in 23:
   installDir:
     Hope23: {}
@@ -30917,6 +30928,10 @@ How to Fish:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Dazed Games/How to Fish:
+      tags:
+        - config
   steam:
     id: 4001890
 How to Fool a Liar King:
