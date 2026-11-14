@@ -87939,7 +87939,7 @@ Sunken (2018):
     id: 884470
 Sunkenland:
   files:
-    "<home>/AppData/LocalLow/Vector3 Studio/Sunkenland":
+    "<home>/AppData/LocalLow/Vector3 Studio/Sunkenland/SteamCloudData/<storeUserId>":
       when:
         - os: windows
           store: steam

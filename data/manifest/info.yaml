@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-14T10:33:28Z"
+generatedAt: "2026-11-14T19:57:15Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,17 +9,17 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"0c03a5c16f840707d403d46545492ddcb1672f85bf51eaea34a2b293f2e3d461\""
+  etag: "\"807102e51f0415f72a201a10740e179ac7b7026a120a4b8ea72d444d864a6d53\""
   lastModified: ""
-  sha256: "da91e01c0c263a074848414d1c59f8db3a3e6991ddb0c00e0725596556ee3199"
-  sizeBytes: 17795408
+  sha256: "4a15389044f5150f30b757429e86deea23c4c390db212f769796c90715192078"
+  sizeBytes: 17795398
   lines: 886474
 
 manifest:
   games: 53541
   shards: 29
   files: 30
-  bytes: 17795520
+  bytes: 17795510
   withSaveTag: 13656
   sections:
     alias: 1129
@@ -194,8 +194,8 @@ shards:
     key: "S"
     group: "letter"
     games: 5933
-    bytes: 2059452
-    sha256: "65dc99f258745dbe53e68874d842364f94853d1f80e5e94983b00ab4bb3197bc"
+    bytes: 2059481
+    sha256: "d2baf3d058fef67a6ef25abc1c298bc9d4a59be8156cdee9878b9308bf4bd1aa"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -210,8 +210,8 @@ shards:
     key: "T"
     group: "letter"
     games: 5548
-    bytes: 1950003
-    sha256: "396b3eed2539e5feec847b079173d288b120f39f8b0c5a5ec705f8e57e1f8bed"
+    bytes: 1949964
+    sha256: "2765e62a948bfdb1afc17a2376d11a28eb767d87065b77f1a3e67e4806fbec52"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"

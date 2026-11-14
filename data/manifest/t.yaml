@@ -58006,7 +58006,7 @@ The Twins:
     id: 246580
 The Typing of the Dead:
   files:
-    "The 'pol' directory where you installed the game.":
+    "<base>/pol":
       tags:
         - save
       when:
