@@ -11244,7 +11244,7 @@ Casual Spider Solitaire:
     id: 722810
 "Casualties: Unknown":
   files:
-    "<home>/AppData/LocalLow/Orsoniks/CasualtiesUnknown":
+    "<home>/AppData/LocalLow/Orsoniks/CasualtiesUnknown/save.sv":
       tags:
         - save
       when:
@@ -37676,6 +37676,7 @@ Company of Heroes 3:
       - 4095900
       - 4523380
       - 4836540
+      - 5210790
   installDir:
     Company of Heroes 3: {}
   launch:
@@ -49440,11 +49441,11 @@ Crimson Moon:
   cloud:
     steam: true
   files:
-    "<home>/CrimsonMoonNG/Saved/SaveGames/*.*":
+    "<home>/CrimsonMoonNG/Saved/SaveGames/*.sav":
       when:
         - os: linux
           store: steam
-    "<winLocalAppData>/CrimsonMoonNG/Saved/SaveGames/*.*":
+    "<winLocalAppData>/CrimsonMoonNG/Saved/SaveGames/*.sav":
       when:
         - store: steam
   id:

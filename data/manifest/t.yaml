@@ -255,9 +255,10 @@ TANKNAROK:
     steam: true
   files:
     "<home>/AppData/LocalLow/Denkiworks/TANUKI_ Pon's Summer/SaveData":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     "TANUKI Pon's Summer": {}
   launch:

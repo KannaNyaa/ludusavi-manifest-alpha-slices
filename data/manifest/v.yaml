@@ -2699,6 +2699,12 @@ Valor Mortis:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/Packages/LyricalGamesLLC.ValorMortis_72fag5ekhk96y/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/ValorMortis/Saved/Config/Windows":
       tags:
         - config
@@ -2709,6 +2715,12 @@ Valor Mortis:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/ValorMortisMSG/Saved/Config/Windows":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: valor-mortis
     steamExtra:

@@ -24024,6 +24024,12 @@ Derelikt:
     lutris: derelikt
     steamExtra:
       - 5242870
+  installDir:
+    DERELIKT: {}
+  launch:
+    "<base>/DERELIKT.exe":
+      - when:
+          - store: steam
   registry:
     HKEY_CURRENT_USER/Software/Visuwyg/DERELIKT:
       tags:
@@ -29068,6 +29074,13 @@ Dice Gambit:
 Dice Hoarder:
   cloud:
     steam: true
+  installDir:
+    Dice Hoarder: {}
+  launch:
+    "<base>/DiceHoarder.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3687090
 Dice Keeper:

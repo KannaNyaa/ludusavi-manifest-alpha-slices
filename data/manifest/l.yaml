@@ -13364,6 +13364,7 @@ Lie In My Heart:
     id: 1116490
 Lies of P:
   cloud:
+    epic: true
     steam: true
   files:
     "<base>/LiesofP/Saved/Config/WindowsNoEditor":
@@ -27425,6 +27426,11 @@ Luckslinger:
             store: steam
   steam:
     id: 358810
+"Lucky Luke: The Lonesome Cowboy Collection":
+  cloud:
+    steam: true
+  steam:
+    id: 4934830
 "Lucky Luke: Western Fever":
   files:
     "<base>/DATA/BOARD/BUTTONS.DAT":

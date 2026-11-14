@@ -33854,11 +33854,14 @@ Body of Evidence:
   steam:
     id: 656830
 Bodycam:
+  cloud:
+    steam: true
   files:
-    "<base>/Bodycam/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Bodycam/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
   installDir:
     Bodycam: {}
   launch:

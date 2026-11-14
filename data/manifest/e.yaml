@@ -5047,6 +5047,17 @@ Edge of Memories:
   steam:
     id: 2738170
 Edge of Nowhere:
+  files:
+    "<home>/.insomniac/InsomniacEngine":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/.insomniac/InsomniacEngine/EdgeOfNowhere_userprefs.save":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: edge-of-nowhere
 Edge of Reality Visual Novel:
@@ -10404,6 +10415,15 @@ Emoji TD:
             store: steam
   steam:
     id: 1058220
+Emotional Labor Laboratory:
+  installDir:
+    Emotional Labor Laboratory: {}
+  launch:
+    "<base>/Emotional Labor Laboratory.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4678050
 "Empathy: Path of Whispers":
   files:
     "<winLocalAppData>/Empathy/Saved/Config/WindowsNoEditor":

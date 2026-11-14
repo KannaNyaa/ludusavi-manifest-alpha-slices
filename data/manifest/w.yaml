@@ -20823,6 +20823,9 @@ Winx Club:
         - config
       when:
         - os: windows
+"Winx Club: Moonlight Quest":
+  steam:
+    id: 5189950
 Wipe Out VR:
   installDir:
     WipeOut: {}

@@ -3822,13 +3822,13 @@ Icy Tower (2026):
   installDir:
     icytower: {}
   launch:
-    "<base>/icytower.app/Contents/MacOS/love":
-      - when:
-          - os: mac
-            store: steam
     "<base>/icytower.exe":
       - when:
           - os: windows
+            store: steam
+    "<base>/steam_launcher.sh":
+      - when:
+          - os: mac
             store: steam
   steam:
     id: 3014860
@@ -15005,7 +15005,7 @@ Into the Core:
   installDir:
     Into the Dead Our Darkest Days: {}
   launch:
-    "<base>/IntoTheDeadOurDarkestDays.app/Contents/MacOS/IntoTheDeadOurDarkestDays":
+    "<base>/IntoTheDeadOurDarkestDays.app":
       - when:
           - os: mac
             store: steam
