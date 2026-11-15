@@ -4401,6 +4401,20 @@ Fake/SuperSonia:
           - store: steam
   steam:
     id: 1070390
+"Fakin' It XL":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Jackbox Games/Fakin It XL":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 5309490
+  steam:
+    id: 5054700
 Falcon:
   cloud:
     gog: true

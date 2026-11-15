@@ -38594,6 +38594,8 @@ Psi Project 2:
         - save
       when:
         - os: windows
+  id:
+    lutris: psi-ops-the-mindgate-conspiracy
 "PsiSyn: The Game":
   files:
     "<base>/savedata/*.class":

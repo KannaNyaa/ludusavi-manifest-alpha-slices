@@ -3713,6 +3713,11 @@ Tainted Grail:
         - config
   steam:
     id: 1466060
+Tairum:
+  cloud:
+    steam: true
+  steam:
+    id: 5043840
 Taisei Project:
   files:
     "<home>/.var/app/org.taisei_project.Taisei/data/taisei":
@@ -35738,6 +35743,14 @@ The Itch:
             store: steam
   steam:
     id: 1095520
+The Jackbox Naughty Pack:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 3233700
+  steam:
+    id: 2652000
 The Jackbox Party Pack:
   cloud:
     steam: true

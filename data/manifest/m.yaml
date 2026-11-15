@@ -40154,6 +40154,18 @@ Morphe:
             store: steam
   steam:
     id: 931830
+Morpheus:
+  files:
+    "<base>/Partidas grabadas":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Settings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
 Morphies Law:
   installDir:
     MorphiesLaw: {}

@@ -2896,6 +2896,8 @@ You Died but a Necromancer revived you:
   steam:
     id: 260000
 "You Don't Know Jack Sports":
+  id:
+    lutris: you-dont-know-jack-sports
   installDir:
     YDKJ_SPORTS: {}
   launch:

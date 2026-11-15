@@ -24451,11 +24451,6 @@ Hogwarts Legacy:
     epic: true
     steam: true
   files:
-    "<winLocalAppData>/Hogwarts Legacy/Saved/Config/WindowsNoEditor":
-      tags:
-        - config
-      when:
-        - os: windows
     "<winLocalAppData>/Hogwarts Legacy/Saved/SaveGames/<storeUserId>":
       tags:
         - save
@@ -24469,6 +24464,11 @@ Hogwarts Legacy:
     "<winLocalAppData>/Hogwarts/Saved/SaveGames/<storeUserId>":
       tags:
         - save
+      when:
+        - os: windows
+    "<winLocalAppData>/HogwartsLegacy/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
       when:
         - os: windows
     "<winLocalAppData>/HogwartsLegacy/Saved/SaveGames/<storeUserId>":
@@ -32071,6 +32071,10 @@ Human.exe:
 HumanitZ:
   files:
     "<winLocalAppData>/HumanitZ/Saved/Minimap/*.exr":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/HumanitZ/Saved/SaveGames/**/*.exr":
       when:
         - os: windows
           store: steam

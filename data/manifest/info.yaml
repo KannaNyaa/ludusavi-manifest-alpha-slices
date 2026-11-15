@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-14T19:57:15Z"
+generatedAt: "2026-11-15T01:05:28Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"807102e51f0415f72a201a10740e179ac7b7026a120a4b8ea72d444d864a6d53\""
+  etag: "\"87efa137d3455277225033c99f6c83375176a24c947d0f80e86a09556d54aa45\""
   lastModified: ""
-  sha256: "4a15389044f5150f30b757429e86deea23c4c390db212f769796c90715192078"
-  sizeBytes: 17795398
-  lines: 886474
+  sha256: "4c54d6537cf5b1f883b19e474b3eafd2e0036bc08f644851ac53fd8b917bb82f"
+  sizeBytes: 17796613
+  lines: 886544
 
 manifest:
-  games: 53541
+  games: 53546
   shards: 29
   files: 30
-  bytes: 17795510
-  withSaveTag: 13656
+  bytes: 17796725
+  withSaveTag: 13658
   sections:
     alias: 1129
-    cloud: 15764
-    files: 22613
+    cloud: 15767
+    files: 22615
     gog: 5610
-    id: 10272
+    id: 10277
     installDir: 44002
     launch: 39738
     registry: 2856
-    steam: 49376
+    steam: 49379
 
 sharding:
   rule: "first-character"
@@ -89,9 +89,9 @@ shards:
   - path: "f.yaml"
     key: "F"
     group: "letter"
-    games: 2254
-    bytes: 762695
-    sha256: "a1c1fba66ab8610c95ede1fe0290393d5388ec744365efad79aeef9810a70a3f"
+    games: 2255
+    bytes: 762920
+    sha256: "2dc95af9d66ffaec5dee4c05c30fe1e8e65d02f51a1d277d0347cd1448e95f94"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
@@ -106,8 +106,8 @@ shards:
     key: "H"
     group: "letter"
     games: 2186
-    bytes: 715641
-    sha256: "12de8a14843ebf0d21a3dafeccc8c6f9a7d586ee230d74c196708283f5c4b48d"
+    bytes: 715756
+    sha256: "1cd6cc2de36ccfb6d0cecb137ff894f40a3367d4c67c0608b13706fd2e3253bf"
     first: "H Chan: Girl"
     last: "Höllenjob"
   - path: "i.yaml"
@@ -145,9 +145,9 @@ shards:
   - path: "m.yaml"
     key: "M"
     group: "letter"
-    games: 3188
-    bytes: 1028718
-    sha256: "5e97b5fd2bfd2f373022355b27c67c54cd9f0cc1a5721444979932dd69b0b137"
+    games: 3189
+    bytes: 1028920
+    sha256: "8b57431a9790d0750b2010e09428c07137f21c2eee73179a455e7952faab5f0e"
     first: "M Mania"
     last: "Möbius Front '83"
   - path: "n.yaml"
@@ -170,8 +170,8 @@ shards:
     key: "P"
     group: "letter"
     games: 2682
-    bytes: 864927
-    sha256: "2e7625fc6853edfe277d3f76e553aab53b94b4576078c170984dbc2c49811b91"
+    bytes: 864977
+    sha256: "f205ca52a7916b6aa30118cb8c54c81595b8448226f65a3c31700f4182ea88f2"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"
@@ -209,17 +209,17 @@ shards:
   - path: "t.yaml"
     key: "T"
     group: "letter"
-    games: 5548
-    bytes: 1949964
-    sha256: "2765e62a948bfdb1afc17a2376d11a28eb767d87065b77f1a3e67e4806fbec52"
+    games: 5550
+    bytes: 1950136
+    sha256: "958d8d9868d01abfc1c0e8a0d2b47433ec27fd48b6bcfb3c32f08f6fd5a265b8"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"
     key: "U"
     group: "letter"
     games: 633
-    bytes: 210023
-    sha256: "42b3fe2f0a7ee1f1b81a6e07465c2626a3b60ac3e480adda02131a64667e8bf1"
+    bytes: 210387
+    sha256: "1df0bb885ebf644d9042c49a11992079461f585eb2c90a0ee1bf6b0e9463e5ed"
     first: "U-BOOT 1945"
     last: "Uznali ? soglasnbI ?"
   - path: "unicode.yaml"
@@ -241,9 +241,9 @@ shards:
   - path: "w.yaml"
     key: "W"
     group: "letter"
-    games: 1716
-    bytes: 591621
-    sha256: "47a0428c8dd7abc4cbfeee8e1b8f02d6c50f8104368b0587eb5881ecd7bbd896"
+    games: 1717
+    bytes: 591664
+    sha256: "8a1e9a376a35c328ae45e92cdab93795fae143eea3a35f80db17385fd76d7291"
     first: "W. T. B."
     last: "Włatcy móch: Wrzód na dópie"
   - path: "x.yaml"
@@ -258,8 +258,8 @@ shards:
     key: "Y"
     group: "letter"
     games: 285
-    bytes: 101575
-    sha256: "627c49d849de7cc5c3c8e7e963b0e89cedb6196209fb261970b6b368f1f3a41a"
+    bytes: 101619
+    sha256: "34244a37e3f31eec2645805566d083d63fdd59f79a31452513dd80ee280fa1ed"
     first: "YANKAI'S PEAK."
     last: "Yōdanji"
   - path: "z.yaml"

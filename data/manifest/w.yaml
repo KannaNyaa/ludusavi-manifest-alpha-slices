@@ -7007,6 +7007,9 @@ Warhead Destined:
             store: steam
   steam:
     id: 1097400
+Wario World:
+  id:
+    lutris: wario-world
 Warium:
   installDir:
     Warium: {}

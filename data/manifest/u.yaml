@@ -1386,6 +1386,26 @@ Ultima Online:
         - save
       when:
         - os: dos
+    "<base>/UNDEROM1/SAVE1":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/UNDEROM1/SAVE2":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/UNDEROM1/SAVE3":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/UNDEROM1/SAVE4":
+      tags:
+        - save
+      when:
+        - store: steam
     "<home>/Library/Application Support/Boxer/Gamebox States/com.gog.ultima-underworld-1+2/Current.boxerstate/C Ultima Underworld 1 and 2.harddisk/UNDEROM1":
       tags:
         - save
