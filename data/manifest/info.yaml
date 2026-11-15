@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-15T11:02:18Z"
+generatedAt: "2026-11-15T20:25:09Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,24 +9,24 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"425c29e2d011300389af74cb44e65c429c43ce6ab8c3b0c0b1585999dba5bae7\""
+  etag: "\"dfcb2686581c96c08d34750968d9e825d355a8905217287b31f1ceb3b7b40205\""
   lastModified: ""
-  sha256: "c5c8962d361d104ffaf49974768c4ab847ced93773bf012f675eb962e3cf1f91"
-  sizeBytes: 17797671
-  lines: 886593
+  sha256: "dfe62a9743edc60c14a74b787f0c48ef8201d97f57e769edefbb22b282198c1f"
+  sizeBytes: 17797766
+  lines: 886598
 
 manifest:
-  games: 53547
+  games: 53548
   shards: 29
   files: 30
-  bytes: 17797783
+  bytes: 17797878
   withSaveTag: 13658
   sections:
     alias: 1129
     cloud: 15767
     files: 22615
     gog: 5610
-    id: 10279
+    id: 10281
     installDir: 44005
     launch: 39741
     registry: 2856
@@ -89,9 +89,9 @@ shards:
   - path: "f.yaml"
     key: "F"
     group: "letter"
-    games: 2255
-    bytes: 763359
-    sha256: "626ba4afd2c96e34ae8e32871d7115d5dfcd9bebf42da1d2be58a19c73e82590"
+    games: 2256
+    bytes: 763409
+    sha256: "20d2ba13883bdd64f2be710aa63409c0ef181dd1da75f38a6468420108945c20"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
@@ -234,8 +234,8 @@ shards:
     key: "V"
     group: "letter"
     games: 937
-    bytes: 262078
-    sha256: "d6edc7f43c330c6e452935d988b6fd497bcc3aac408b7188851a3ddb064e446c"
+    bytes: 262123
+    sha256: "c96c55ba65d7aa478f33118a0fe8f8b343eb8871af24772cd35cbe1aae6b2952"
     first: "V"
     last: "Vzerthos: The Heir of Thunder"
   - path: "w.yaml"

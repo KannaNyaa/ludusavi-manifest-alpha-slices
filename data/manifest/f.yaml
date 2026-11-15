@@ -186,6 +186,9 @@ F-22 Lightning 3:
             store: steam
   steam:
     id: 3146140
+F-Zero X (G-Diffuser):
+  id:
+    lutris: f-zero-x
 "F.D.N.Y. Firefighter: American Hero":
   files:
     "<base>/FDNYFireFighter.cfg":

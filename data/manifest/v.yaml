@@ -2335,6 +2335,8 @@ Valiant:
         - save
       when:
         - store: uplay
+  id:
+    lutris: valiant-hearts-coming-home
   installDir:
     Valiant Hearts Coming Home: {}
   launch:
