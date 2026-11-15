@@ -2234,7 +2234,7 @@ Machinarium:
         - save
       when:
         - os: linux
-    "<root>/userdata/<root>/40700/remote":
+    "<root>/userdata/<storeUserId>/40700/remote":
       tags:
         - save
       when:

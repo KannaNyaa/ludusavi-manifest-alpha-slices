@@ -6652,6 +6652,8 @@ Warhammer Survivors:
         - store: steam
   gog:
     id: 2068449424
+  id:
+    lutris: warhammer-survivors
   installDir:
     Warhammer Survivors: {}
   launch:
@@ -13913,6 +13915,15 @@ Wet Warfare:
             store: steam
   steam:
     id: 914350
+Wet Wealth:
+  installDir:
+    Wet Wealth: {}
+  launch:
+    "<base>/Wet Wealth.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4293850
 Wetlands:
   gog:
     id: 1465732730

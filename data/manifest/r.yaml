@@ -18589,6 +18589,8 @@ Resident Evil 2:
         - store: steam
   gog:
     id: 1534123252
+  id:
+    lutris: resident-evil-2
   installDir:
     4249110_Biohazard2: {}
   launch:

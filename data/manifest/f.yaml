@@ -4413,6 +4413,25 @@ Fake/SuperSonia:
   id:
     steamExtra:
       - 5309490
+  installDir:
+    Fakin It XL: {}
+  launch:
+    "<base>/Launcher.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/launch_megapicker":
+      - arguments: product/fakin-it-xl
+        when:
+          - os: mac
+            store: steam
+    "<base>/launch_megapicker.exe":
+      - arguments: product/fakin-it-xl
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 5054700
 Falcon:

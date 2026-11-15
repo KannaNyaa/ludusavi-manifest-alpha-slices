@@ -35749,6 +35749,23 @@ The Jackbox Naughty Pack:
   id:
     steamExtra:
       - 3233700
+  installDir:
+    The Jackbox Naughty Pack: {}
+  launch:
+    "<base>/Launcher.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/The Jackbox Naughty Pack.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/The Jackbox Naughty Pack.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2652000
 The Jackbox Party Pack:
