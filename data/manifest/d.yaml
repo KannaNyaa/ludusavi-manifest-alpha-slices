@@ -57116,7 +57116,7 @@ Dynasty Feud:
         - config
       when:
         - os: windows
-    "<winDocuments>/KOEI/Dynasty Warriors 4 Hyper/Savedata/*.dat":
+    "<winDocuments>/KOEI/Dynasty Warriors 4 Hyper/Savedata/save.dat":
       tags:
         - save
       when:

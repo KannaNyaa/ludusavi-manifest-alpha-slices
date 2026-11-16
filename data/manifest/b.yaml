@@ -31459,6 +31459,10 @@ Bloodshed:
         - os: windows
   gog:
     id: 1525025499
+  id:
+    lutris: bloodshed
+    steamExtra:
+      - 3240090
   installDir:
     Bloodshed: {}
   launch:

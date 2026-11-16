@@ -747,7 +747,8 @@
             store: steam
     "<base>/1000xRESIST.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
   registry:
     HKEY_CURRENT_USER/Software/sunset visitor 斜陽過客/1000xRESIST:
       tags:

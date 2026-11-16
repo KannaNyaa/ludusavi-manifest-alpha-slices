@@ -34794,6 +34794,8 @@ Professor Fizzwizzle and the Molten Mystery:
   steam:
     id: 50910
 Professor Layton and the New World of Steam:
+  cloud:
+    steam: true
   steam:
     id: 3384600
 Professor Lupo and His Horrible Pets:

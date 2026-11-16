@@ -33349,6 +33349,13 @@ SimSafari:
         - config
       when:
         - os: windows
+SimTractor:
+  files:
+    "<base>/SAV":
+      tags:
+        - save
+      when:
+        - os: windows
 SimTunes:
   files:
     "<base>/Tunes":
