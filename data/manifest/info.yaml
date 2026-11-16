@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-15T20:25:09Z"
+generatedAt: "2026-11-16T01:05:20Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"dfcb2686581c96c08d34750968d9e825d355a8905217287b31f1ceb3b7b40205\""
+  etag: "\"a2f740575d5949a1bea371253c37e45c60ecc9e394f3506e5617fa5a2d249d8a\""
   lastModified: ""
-  sha256: "dfe62a9743edc60c14a74b787f0c48ef8201d97f57e769edefbb22b282198c1f"
-  sizeBytes: 17797766
-  lines: 886598
+  sha256: "e1958fa20148075480c97b67a48cce4f1e3ece04845aa64438b5ffafe5832d86"
+  sizeBytes: 17798084
+  lines: 886613
 
 manifest:
-  games: 53548
+  games: 53549
   shards: 29
   files: 30
-  bytes: 17797878
-  withSaveTag: 13658
+  bytes: 17798196
+  withSaveTag: 13659
   sections:
     alias: 1129
     cloud: 15767
-    files: 22615
+    files: 22616
     gog: 5610
     id: 10281
     installDir: 44005
     launch: 39741
     registry: 2856
-    steam: 49380
+    steam: 49381
 
 sharding:
   rule: "first-character"
@@ -50,8 +50,8 @@ shards:
     key: "B"
     group: "letter"
     games: 3006
-    bytes: 987421
-    sha256: "3a6ef49f850c2eec08609cbd0f1cdb335ef303bce4dcb602acf4dee69a79a999"
+    bytes: 987673
+    sha256: "f7a02beeafa4e1fb53f9b211b0330f77724f9c697af6b33b1931771f18c5d4c3"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -114,8 +114,8 @@ shards:
     key: "I"
     group: "letter"
     games: 1215
-    bytes: 400282
-    sha256: "73d431f4772a106a519f2cac78172c8e7162a2db481953d128d1f0d57ac0325f"
+    bytes: 400300
+    sha256: "e4e64add27a05a585f7ee3666ddafa66a12a2d10d4fe05a5504f55a4b1409881"
     first: "I (Don't) Hate Hentai Puzzles"
     last: "I・S・U"
   - path: "j.yaml"
@@ -193,9 +193,9 @@ shards:
   - path: "s.yaml"
     key: "S"
     group: "letter"
-    games: 5933
-    bytes: 2059481
-    sha256: "d2baf3d058fef67a6ef25abc1c298bc9d4a59be8156cdee9878b9308bf4bd1aa"
+    games: 5934
+    bytes: 2059529
+    sha256: "10ac2ae14bbcd04285d2551c7a212c81c08849fb4c28c8e8becc9fec159b14f0"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"

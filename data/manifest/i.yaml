@@ -2778,6 +2778,7 @@ INFRA:
       when:
         - os: windows
   id:
+    lutris: infra
     steamExtra:
       - 432450
   installDir:

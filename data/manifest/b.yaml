@@ -18050,6 +18050,17 @@ Better Off Tread:
   steam:
     id: 656070
 Better Than Dead:
+  files:
+    "<winLocalAppData>/BTD/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/BTD/Saved/SaveGames/Settings/MyOptions.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: better-than-dead
   installDir:
