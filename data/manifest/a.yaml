@@ -45682,6 +45682,8 @@ Asphyxia:
         - config
       when:
         - os: windows
+  id:
+    lutris: assassins-creed-iii-remastered
   installDir:
     "Assassin's Creed III Remastered": {}
   steam:
@@ -45921,6 +45923,7 @@ Asphyxia:
       when:
         - os: windows
   id:
+    lutris: assassins-creed-shadows
     steamExtra:
       - 3362550
       - 3362570
@@ -46005,6 +46008,8 @@ Asphyxia:
         - config
       when:
         - os: windows
+  id:
+    lutris: assassins-creed-unity
   installDir:
     "Assassin's Creed Unity": {}
   launch:

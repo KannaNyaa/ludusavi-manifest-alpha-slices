@@ -8316,7 +8316,7 @@ Neon Drive:
         - save
       when:
         - os: windows
-    "<home>/Library/Application Support/unity.Fraoula.Neon Drive":
+    "<home>/Library/Application Support/Fraoula/Neon Drive/NeonDrive.sav":
       tags:
         - save
       when:

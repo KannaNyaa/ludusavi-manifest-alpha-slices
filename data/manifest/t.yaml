@@ -86870,6 +86870,17 @@ Trees Hate You:
       - 4307190
       - 5364210
       - 5378320
+  installDir:
+    Trees Hate You: {}
+  launch:
+    "<base>/Trees Hate You.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/TreesHateYou.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 4171850
 Treis Zoes:

@@ -8461,6 +8461,37 @@ Just VR Slingshot Target Practice:
 Just Volleyball:
   cloud:
     steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/volleyball/data/character.json":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Godot/app_userdata/volleyball/data/character_slots.json":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Godot/app_userdata/volleyball/data/profiles.json":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    just volleyball: {}
+  launch:
+    "<base>/volleyball.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: " --rendering-driver vulkan"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: "--rendering-driver opengl3"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 5037200
 Just a Cleric:

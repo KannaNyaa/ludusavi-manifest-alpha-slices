@@ -48,6 +48,8 @@ I Am Alive:
         - os: windows
   gog:
     id: 1632475257
+  id:
+    lutris: i-am-alive
   installDir:
     I am Alive: {}
   steam:

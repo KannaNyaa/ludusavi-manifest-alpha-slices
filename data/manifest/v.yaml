@@ -1569,6 +1569,9 @@ VTree Beach Volleyball:
             store: steam
   steam:
     id: 855160
+"VVVVK: Road of Eternal Night":
+  steam:
+    id: 5582480
 VVVVV:
   installDir:
     VVVVV: {}

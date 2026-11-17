@@ -497,6 +497,7 @@ OMORI:
         - os: windows
           store: steam
   id:
+    lutris: omsi-2
     steamExtra:
       - 271390
       - 299350
@@ -526,6 +527,9 @@ OMORI:
             store: steam
   steam:
     id: 252530
+"OMSI: The Bus Simulator":
+  id:
+    lutris: omsi-the-bus-simulator
 ONE:
   cloud:
     steam: true
@@ -1203,9 +1207,19 @@ Obey Me:
   steam:
     id: 1034890
 "Obey Me! Sinner's Choice: Lucifer":
+  files:
+    "<base>/savedata":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 5282320
+  installDir:
+    "Obey Me! Sinner's Choice Lucifer": {}
+  launch:
+    "<base>/SCLucifer.exe":
+      - when:
+          - store: steam
   steam:
     id: 4444800
 "Object \"Cleaning\"":

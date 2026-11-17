@@ -30040,6 +30040,19 @@ Fox Hime Zero:
             store: steam
   steam:
     id: 844930
+"Fox Spirit Sweethearts: Complete Edition":
+  files:
+    "<base>/FoxSpiritSweethearts/saves/*.json":
+      when:
+        - store: steam
+  installDir:
+    Fox Spirit Sweethearts: {}
+  launch:
+    "<base>/fox-spirit-sweethearts.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 5261050
 Fox and Bunny:
   installDir:
     Fox and Bunny: {}

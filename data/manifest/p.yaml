@@ -16308,6 +16308,14 @@ Pimp Tight:
   id:
     steamExtra:
       - 4941930
+  installDir:
+    Pinata Smash Incremental Circus: {}
+  launch:
+    "<base>/Pinata Smash Incremental Circus.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4918810
 Pinball:

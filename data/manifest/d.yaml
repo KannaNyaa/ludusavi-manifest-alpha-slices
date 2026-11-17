@@ -1219,6 +1219,26 @@ DOWN MEANS UP:
 "DPS: Desktop Pension Squad":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/DetailGames/DPS/saves/<storeUserId>/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/DetailGames/DPS/saves/<storeUserId>/**/*.sav.bak":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/DetailGames/DPS/saves/<storeUserId>/archive/**/*.json":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    DPS Desktop Pension Squad: {}
+  launch:
+    "<base>/DPS.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 5135440
 DR LIVESEY ROM AND DEATH EDITION:
