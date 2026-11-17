@@ -9822,6 +9822,8 @@ Reagan Gorbachev:
         - os: windows
   gog:
     id: 1911151506
+  id:
+    lutris: reah-face-the-unknown
 Reaktron:
   installDir:
     reaktron: {}

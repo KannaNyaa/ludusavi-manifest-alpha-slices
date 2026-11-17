@@ -12535,6 +12535,8 @@ Insane (2016):
   steam:
     id: 452930
 Insane 2:
+  cloud:
+    steam: true
   files:
     "<root>/userdata/<storeUserId>/35320/remote":
       tags:

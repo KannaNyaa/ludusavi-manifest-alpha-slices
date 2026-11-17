@@ -1216,6 +1216,11 @@ DOWN MEANS UP:
             store: steam
   steam:
     id: 1980920
+"DPS: Desktop Pension Squad":
+  cloud:
+    steam: true
+  steam:
+    id: 5135440
 DR LIVESEY ROM AND DEATH EDITION:
   installDir:
     DR LIVESEY GIGA BASED EDITION: {}
@@ -27893,9 +27898,16 @@ DevilConnection:
   cloud:
     steam: true
   files:
-    "<base>/_storage/**/*.sav":
+    "<base>/_storage/DevilConnection_sf.sav":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<base>/_storage/DevilConnection_tyrano_data.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     でびるコネクショん: {}
   launch:
@@ -38910,6 +38922,9 @@ Donkey Kong 64:
         - save
       when:
         - os: linux
+Donkey Kong Bananza (DKB Recomp):
+  id:
+    lutris: donkey-kong-bananza
 Donkey Xote:
   files:
     "<base>/SaveGame.sav":

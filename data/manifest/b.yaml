@@ -11706,7 +11706,7 @@ Battlefleet Engineer:
   installDir:
     Battlefleet Gothic Armada II: {}
   launch:
-    "<base>/BattlefleetGothic2.exe":
+    "<base>/BattlefleetGothic2-Win64-Shipping.exe":
       - when:
           - bit: 64
             os: windows

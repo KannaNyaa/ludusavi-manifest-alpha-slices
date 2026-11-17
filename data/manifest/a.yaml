@@ -5030,6 +5030,8 @@ A.D. 2044:
         - os: windows
   gog:
     id: 2075976504
+  id:
+    lutris: ad-2044
 A.I. Invasion:
   id:
     steamExtra:

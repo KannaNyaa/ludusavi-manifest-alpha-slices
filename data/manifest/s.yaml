@@ -16550,6 +16550,9 @@ Selini:
         - save
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 5132160
   installDir:
     SelkieSalvage&Co: {}
   launch:
@@ -62255,6 +62258,8 @@ Spirit Arena:
   steam:
     id: 2113850
 Spirit Crossing:
+  installDir:
+    Spirit Crossing: {}
   steam:
     id: 2321960
 Spirit Fighters:

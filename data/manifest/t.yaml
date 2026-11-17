@@ -250,25 +250,6 @@ TANKNAROK:
             store: steam
   steam:
     id: 1029760
-"TANUKI: Pon's Summer":
-  cloud:
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/Denkiworks/TANUKI_ Pon's Summer/SaveData":
-      tags:
-        - save
-      when:
-        - os: windows
-  installDir:
-    "TANUKI Pon's Summer": {}
-  launch:
-    "<base>/TANUKI Pon's Summer.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 3218570
 TAOTH - The Adventures of the Herkulez:
   installDir:
     TAOTH: {}
@@ -7457,6 +7438,29 @@ Tannenberg:
 "Tano's Fate":
   steam:
     id: 888910
+"Tanuki: Pon's Summer":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Denkiworks/TANUKI_ Pon's Summer/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    "TANUKI Pon's Summer": {}
+  launch:
+    "<base>/TANUKI Pon's Summer.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    "HKEY_CURRENT_USER/SOFTWARE/Denkiworks/TANUKI: Pon's Summer":
+      tags:
+        - config
+  steam:
+    id: 3218570
 Tanzia:
   files:
     "<home>/AppData/LocalLow/Arcanity/Tanzia/*.autosave":
@@ -86864,6 +86868,8 @@ Trees Hate You:
     lutris: trees-hate-you
     steamExtra:
       - 4307190
+      - 5364210
+      - 5378320
   steam:
     id: 4171850
 Treis Zoes:

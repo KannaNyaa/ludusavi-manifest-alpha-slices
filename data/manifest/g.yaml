@@ -6371,6 +6371,7 @@ Gates of Nowhere:
     id: 614260
 Gates of Skeldal:
   cloud:
+    gog: true
     steam: true
   files:
     "<base>/sav.*":
@@ -6379,6 +6380,8 @@ Gates of Skeldal:
       when:
         - os: dos
         - os: windows
+  gog:
+    id: 1399674434
   id:
     lutris: brany-skeldalu
   installDir:

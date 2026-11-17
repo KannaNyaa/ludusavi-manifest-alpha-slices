@@ -1203,6 +1203,9 @@ Obey Me:
   steam:
     id: 1034890
 "Obey Me! Sinner's Choice: Lucifer":
+  id:
+    steamExtra:
+      - 5282320
   steam:
     id: 4444800
 "Object \"Cleaning\"":
