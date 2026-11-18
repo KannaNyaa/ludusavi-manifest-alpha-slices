@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-18T11:49:45Z"
+generatedAt: "2026-11-18T22:37:08Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,23 +9,23 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"bcb9d288c482056df40f557ac6368f7628a13c7b3324c3d21a54317026d0371c\""
+  etag: "\"ab762a5c9d6c054fa7bd4cd407c7aa2ac34cd7e07ef8a66d44c33aaeb74600c0\""
   lastModified: ""
-  sha256: "f848dfff0c671dc143201dc18e5901d257c1a7d283ddf21a348fa3365ebe363d"
-  sizeBytes: 17802668
-  lines: 886826
+  sha256: "543bb7a5d3fef486ff879e053e8098c697f7d0fa6b52b21c538bfcc0bef8b83a"
+  sizeBytes: 17802909
+  lines: 886834
 
 manifest:
   games: 53557
   shards: 29
   files: 30
-  bytes: 17802780
+  bytes: 17803021
   withSaveTag: 13663
   sections:
     alias: 1129
     cloud: 15772
-    files: 22623
-    gog: 5611
+    files: 22624
+    gog: 5612
     id: 10291
     installDir: 44015
     launch: 39748
@@ -50,8 +50,8 @@ shards:
     key: "B"
     group: "letter"
     games: 3006
-    bytes: 987748
-    sha256: "39ceddb595dc50635d491ed93eca00bda0d04cc7b8f85f9d2bef928d041530d3"
+    bytes: 987975
+    sha256: "b1f66084777296c5c462eff8e25fb2ecf2119b6e5d1bb7115b9d2a91658fd65a"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -66,8 +66,8 @@ shards:
     key: "D"
     group: "letter"
     games: 3453
-    bytes: 1166943
-    sha256: "d8b451d9e8dfa7ddac2e0cc002613283d1e42684e2e56c5c4a4ba83a11f44fbd"
+    bytes: 1166949
+    sha256: "4379d591b8e050b6926d9428ecf00ad1ee7a4a995721bcf9bfcf08796e1cbb53"
     first: "D Series Off Road Racing Simulation"
     last: "Dōkyūsei: Bangin' Summer"
   - path: "digits.yaml"
@@ -90,8 +90,8 @@ shards:
     key: "F"
     group: "letter"
     games: 2257
-    bytes: 763705
-    sha256: "992aa6b26550fd9a3c2fc15373a52364a511230ce5e2c436e47d3259cda5c872"
+    bytes: 763708
+    sha256: "08675d3478b85e45167932d03d3a47ed720e4b22695522e8c4f3e1629ef13881"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
@@ -106,8 +106,8 @@ shards:
     key: "H"
     group: "letter"
     games: 2186
-    bytes: 715756
-    sha256: "1cd6cc2de36ccfb6d0cecb137ff894f40a3367d4c67c0608b13706fd2e3253bf"
+    bytes: 715379
+    sha256: "12a19d7da04e3265f95d195d41446c021ff01579e60876aa6d83604c0fd8b030"
     first: "H Chan: Girl"
     last: "Höllenjob"
   - path: "i.yaml"
@@ -194,8 +194,8 @@ shards:
     key: "S"
     group: "letter"
     games: 5936
-    bytes: 2060076
-    sha256: "4e7d4484df5adbce34c8f85ae40472b0284ea1f7eb74d9ebf3216fefcc2920cf"
+    bytes: 2060195
+    sha256: "b1482f9950dd9b30254b228791cb0a84ea0f8915c2ba14a3f7c054adcce059ba"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -266,7 +266,7 @@ shards:
     key: "Z"
     group: "letter"
     games: 466
-    bytes: 135381
-    sha256: "319eed3573585500d08445c40e8bbc098f07a68988eeb263d9c837d6dbfd3152"
+    bytes: 135644
+    sha256: "760a25c029939647caf97377c0f44cf51e3e69c7c732643493aa2236ec00577e"
     first: "Z (2012)"
     last: "Zzzzz"

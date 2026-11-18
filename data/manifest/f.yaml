@@ -29473,7 +29473,7 @@ Foto Flash 2:
     id: 861760
 Fotonica:
   files:
-    "<home>/.config/unity3d/Santa Ragione/FOTONICA":
+    "<xdgConfig>/unity3d/Santa Ragione/FOTONICA/perfs":
       tags:
         - config
         - save

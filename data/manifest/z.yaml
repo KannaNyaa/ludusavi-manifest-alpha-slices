@@ -2109,6 +2109,13 @@ Zenza:
   steam:
     id: 519990
 Zenzizenzic:
+  files:
+    "<xdgConfig>/unity3d/Ruud Koorevaar/Zenzizenzic/perfs":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
   installDir:
     Zenzizenzic: {}
   launch:
@@ -2133,6 +2140,7 @@ Zenzizenzic:
   registry:
     HKEY_CURRENT_USER/Software/Ruud Koorevaar/Zenzizenzic:
       tags:
+        - config
         - save
   steam:
     id: 327500
@@ -3167,12 +3175,6 @@ Ziggurat:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/Milkstone Studios/Ziggurat":
-      tags:
-        - config
-        - save
-      when:
-        - os: linux
     "<home>/AppData/LocalLow/Milkstone Studios/Ziggurat/config.xml":
       tags:
         - config
@@ -3194,6 +3196,16 @@ Ziggurat:
         - save
       when:
         - store: steam
+    "<xdgConfig>/unity3d/Milkstone Studios/Ziggurat":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Milkstone Studios/Ziggurat/perfs":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1437564865
   installDir:

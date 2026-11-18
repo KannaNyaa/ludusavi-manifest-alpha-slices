@@ -17902,26 +17902,6 @@ Heroes of Might and Magic II:
       when:
         - os: dos
         - os: windows
-    "<winAppData>/fheroes2":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winLocalAppData>/fheroes2/GAMES":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<xdgConfig>/fheroes2":
-      tags:
-        - config
-      when:
-        - os: linux
-    "<xdgData>/fheroes2/GAMES":
-      tags:
-        - config
-      when:
-        - os: linux
   gog:
     id: 1207658785
 Heroes of Might and Magic III:

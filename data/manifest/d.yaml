@@ -25444,7 +25444,7 @@ Despotism 3k:
         - save
       when:
         - os: windows
-    "<xdgConfig>/unity3d/Konfa Games/Despotism3k":
+    "<xdgConfig>/unity3d/Konfa Games/Despotism3k/*.dat":
       tags:
         - save
       when:

@@ -18134,16 +18134,6 @@ Serial Cleaner:
     gog: true
     steam: true
   files:
-    "<home>/.config/unity3d/iFun4all/Serial Cleaner/*.sav":
-      tags:
-        - save
-      when:
-        - os: linux
-    "<home>/.config/unity3d/iFun4all/Serial Cleaner/settings.conf":
-      tags:
-        - config
-      when:
-        - os: linux
     "<home>/AppData/LocalLow/iFun4all/Serial Cleaner/*.sav":
       tags:
         - save
@@ -18164,6 +18154,16 @@ Serial Cleaner:
         - config
       when:
         - os: mac
+    "<xdgConfig>/unity3d/iFun4all/Serial Cleaner/*.sav":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/iFun4all/Serial Cleaner/settings.conf":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1264767742
   installDir:
@@ -34931,6 +34931,11 @@ Sir Whoopass:
         - save
       when:
         - os: windows
+    "<xdgConfig>/unity3d/Big Robot/SirYouAreBeingHunted/perfs":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1207664303
   installDir:
