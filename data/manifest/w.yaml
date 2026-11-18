@@ -7404,10 +7404,14 @@ Warm Snow:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/BadMudStudio/WarmSnow":
+    "<home>/AppData/LocalLow/BadMudStudio/WarmSnow/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/BadMudStudio/WarmSnow/Save/_SettingMenuData":
       tags:
         - config
-        - save
       when:
         - os: windows
   id:

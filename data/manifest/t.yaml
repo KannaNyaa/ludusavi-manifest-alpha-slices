@@ -24004,8 +24004,15 @@ The Dark Eye (1995):
     steam: true
   files:
     "<base>/Saves":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<base>/scummvm.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     "Edgar Allan Poe's Interactive Horror 1995 Edition": {}
   launch:

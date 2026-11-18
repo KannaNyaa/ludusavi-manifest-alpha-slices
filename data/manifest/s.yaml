@@ -45545,6 +45545,22 @@ Soccer Kid:
             store: steam
   steam:
     id: 1104480
+Soccer Kid Collection:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/QUByte Interactive/SoccerKidCollection/<storeUserId>/*.json":
+      when:
+        - store: steam
+  installDir:
+    Soccer Kid Collection (QUByte Classics): {}
+  launch:
+    "<base>/SoccerKid.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4447890
 Soccer Legends:
   installDir:
     Soccer Legends: {}

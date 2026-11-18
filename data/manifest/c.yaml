@@ -25699,6 +25699,16 @@ City Gangs San Andreas:
   steam:
     id: 1150610
 City Hunter:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/3984650/remote":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: steam
   installDir:
     City Hunter: {}
   launch:
