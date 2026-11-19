@@ -7532,6 +7532,9 @@ Fantom Feast:
           - store: steam
   steam:
     id: 962280
+Fantôme Rapport -Intermezzo-:
+  steam:
+    id: 3622860
 Fap Queen:
   installDir:
     Fap Queen: {}
@@ -20984,6 +20987,13 @@ Flick:
     lutris: flick
     steamExtra:
       - 5267890
+  installDir:
+    Flick: {}
+  launch:
+    "<base>/Flick.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4450660
 FlickSync - Mad Hatter VR:

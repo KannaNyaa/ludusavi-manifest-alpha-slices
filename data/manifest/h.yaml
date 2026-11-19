@@ -20298,17 +20298,21 @@ Hidden Folks:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/Adriaan de Jongh/Hidden Folks":
-      tags:
-        - config
-        - save
-      when:
-        - os: linux
-    "<home>/AppData/LocalLow/Adriaan de Jongh/Hidden Folks":
+    "<home>/AppData/LocalLow/Adriaan de Jongh/Hidden Folks/*.data":
       tags:
         - save
       when:
         - os: windows
+    "<xdgConfig>/unity3d/Adriaan de Jongh/Hidden Folks/*.data":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Adriaan de Jongh/Hidden Folks/perfs":
+      tags:
+        - config
+      when:
+        - os: linux
   installDir:
     HiddenFolks: {}
   launch:
@@ -20324,6 +20328,10 @@ Hidden Folks:
       - when:
           - os: linux
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Adriaan de Jongh/Hidden Folks:
+      tags:
+        - config
   steam:
     id: 435400
 Hidden Life:

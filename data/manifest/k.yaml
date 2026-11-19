@@ -14098,16 +14098,28 @@ KrissX:
 Kristala:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Kristala/Saved/SaveGames/*.sav":
       when:
         - os: windows
           store: steam
+  gog:
+    id: 2052069523
   id:
+    gogExtra:
+      - 1389773565
+      - 1541632216
+      - 1730693353
+      - 1731891413
+      - 1830954867
+      - 1981264863
+      - 2048031151
     lutris: kristala
     steamExtra:
       - 2493530
+      - 4602480
       - 4602520
       - 4602530
       - 4602540

@@ -8321,9 +8321,14 @@ Neon Drive:
         - save
       when:
         - os: mac
-    "<xdgData>/unity3d/Fraoula/Neon Drive/prefs":
+    "<xdgConfig>/unity3d/Fraoula/Neon Drive/NeonDrive.sav":
       tags:
         - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Fraoula/Neon Drive/prefs":
+      tags:
+        - config
       when:
         - os: linux
   id:
@@ -10221,6 +10226,8 @@ Never Alone:
   steam:
     id: 295790
 Never Alone 2:
+  id:
+    lutris: never-alone-2
   steam:
     id: 2154420
 Never Breakup:

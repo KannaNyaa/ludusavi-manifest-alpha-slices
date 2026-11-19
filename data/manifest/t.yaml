@@ -17022,6 +17022,8 @@ The Apartment:
   steam:
     id: 752020
 The Apartment (2026):
+  alias: The Apartment (2027)
+The Apartment (2027):
   steam:
     id: 4333430
 The Apotheosis Project:
@@ -22078,6 +22080,8 @@ The Citadel:
 The Citadel Project:
   cloud:
     steam: true
+  gog:
+    id: 1622151550
   id:
     steamExtra:
       - 5111940
