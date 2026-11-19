@@ -18922,17 +18922,17 @@ Pixel Painter:
     id: 648120
 Pixel Piracy:
   files:
-    "<home>/.config/PixelPiracy":
-      tags:
-        - save
-      when:
-        - os: mac
-        - os: linux
-    "<winAppData>/PixelPiracy":
+    "<base>/SaveFile/PixelPiracy":
       tags:
         - save
       when:
         - os: windows
+        - os: linux
+    "<xdgConfig>/unity3d/VitaliKirpuProductions/Pixel Piracy/perfs":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1207667073
   id:
@@ -18959,7 +18959,7 @@ Pixel Piracy:
             os: linux
             store: steam
   registry:
-    HKEY_CURRENT_USER/Software/VITALI KIRPU & QUADRO DELTA/Pixel Piracy:
+    HKEY_CURRENT_USER/Software/VitaliKirpuProductions/Pixel Piracy:
       tags:
         - config
   steam:
@@ -27045,10 +27045,23 @@ Pool of Death:
 Pool of Madness:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/BitGolem/PoolOfMadness/PoolOfMadness_SaveFile*.es3":
+      when:
+        - store: steam
   id:
     lutris: pool-of-madness
     steamExtra:
       - 2887480
+      - 5597880
+  installDir:
+    Pool of Madness: {}
+  launch:
+    "<base>/PoolOfMadness.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2873750
 Pool of Radiance:

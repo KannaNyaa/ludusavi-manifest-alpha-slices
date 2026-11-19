@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-18T22:37:08Z"
+generatedAt: "2026-11-19T11:46:31Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,22 +9,22 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"ab762a5c9d6c054fa7bd4cd407c7aa2ac34cd7e07ef8a66d44c33aaeb74600c0\""
+  etag: "\"196b76564f9c750ae462e2ac104932d1028f2bf61558e8da1f0d0f3423ac0a90\""
   lastModified: ""
-  sha256: "543bb7a5d3fef486ff879e053e8098c697f7d0fa6b52b21c538bfcc0bef8b83a"
-  sizeBytes: 17802909
-  lines: 886834
+  sha256: "e0af7be1b1baf6a6403dce491f9b6f44ad11747d5bd907af7dc6287ee60aeaf4"
+  sizeBytes: 17803090
+  lines: 886839
 
 manifest:
   games: 53557
   shards: 29
   files: 30
-  bytes: 17803021
+  bytes: 17803202
   withSaveTag: 13663
   sections:
     alias: 1129
     cloud: 15772
-    files: 22624
+    files: 22625
     gog: 5612
     id: 10291
     installDir: 44015
@@ -170,8 +170,8 @@ shards:
     key: "P"
     group: "letter"
     games: 2682
-    bytes: 865199
-    sha256: "dd78f2e7bb208758e35dce3d23c4e69c72794f3bb4a933c2c5190c46c605be0b"
+    bytes: 865541
+    sha256: "4ce89575cead3e215e4a997bec7cd16578707f6a5e39896bb71652edd626e034"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"
@@ -210,8 +210,8 @@ shards:
     key: "T"
     group: "letter"
     games: 5550
-    bytes: 1951020
-    sha256: "c5e00324b8d35c015a94b808bf6f3f18093ee9a56a3faaa78fb8f7089f33e3a4"
+    bytes: 1950859
+    sha256: "b111c587022cb58b710f682682b4d8212fcf360d0c52aeee691a62c8ece85631"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"

@@ -43588,14 +43588,6 @@ The Matchless Kungfu:
         - config
       when:
         - os: windows
-  installDir:
-    The Matchless KungFu: {}
-  launch:
-    "<base>/HMS_00.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
   steam:
     id: 1696440
 "The Matrix: Path of Neo":
