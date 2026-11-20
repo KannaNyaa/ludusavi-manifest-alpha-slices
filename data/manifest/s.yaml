@@ -34931,7 +34931,7 @@ Sir Whoopass:
         - save
       when:
         - os: windows
-    "<xdgConfig>/unity3d/Big Robot/SirYouAreBeingHunted/perfs":
+    "<xdgConfig>/unity3d/Big Robot/SirYouAreBeingHunted/prefs":
       tags:
         - config
       when:

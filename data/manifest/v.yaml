@@ -12289,6 +12289,16 @@ Volvox:
   steam:
     id: 392600
 "Volvy’s Adventure: Reslimed":
+  files:
+    "<winLocalAppData>/Volvys_Adventure_6/default/*.onion":
+      when:
+        - store: steam
+  installDir:
+    Volvy’s Adventure: {}
+  launch:
+    "<base>/Volvys_Adventure_6.exe":
+      - when:
+          - store: steam
   steam:
     id: 4523120
 Vomitoreum:

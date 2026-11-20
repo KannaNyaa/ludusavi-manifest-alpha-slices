@@ -53724,6 +53724,12 @@ Awareness Rooms:
   steam:
     id: 453290
 Awaria:
+  files:
+    "<xdgConfig>/unity3d/vanripper/Awaria/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
   id:
     steamExtra:
       - 3394230

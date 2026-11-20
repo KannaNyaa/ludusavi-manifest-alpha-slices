@@ -25449,7 +25449,7 @@ Despotism 3k:
         - save
       when:
         - os: linux
-    "<xdgConfig>/unity3d/Konfa Games/Despotism3k/perfs":
+    "<xdgConfig>/unity3d/Konfa Games/Despotism3k/prefs":
       tags:
         - config
       when:
@@ -32395,6 +32395,12 @@ Disco Ball Simulator 2000:
   id:
     steamExtra:
       - 5089460
+  installDir:
+    Disco Ball Simulator 2000: {}
+  launch:
+    "<base>/Disco Ball Simulator 2000.exe":
+      - when:
+          - store: steam
   steam:
     id: 5089020
 Disco Bullets:

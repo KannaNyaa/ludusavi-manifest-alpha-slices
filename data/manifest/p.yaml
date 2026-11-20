@@ -16305,6 +16305,19 @@ Pimp Tight:
   steam:
     id: 555100
 "Pinata Smash: Incremental Circus":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/punkfuncgames/Piñata Smash_ Incremental Circus/save.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/4918810/remote/save.dat":
+      tags:
+        - save
+      when:
+        - store: steam
   id:
     steamExtra:
       - 4941930
@@ -18928,7 +18941,7 @@ Pixel Piracy:
       when:
         - os: windows
         - os: linux
-    "<xdgConfig>/unity3d/VitaliKirpuProductions/Pixel Piracy/perfs":
+    "<xdgConfig>/unity3d/VitaliKirpuProductions/Pixel Piracy/prefs":
       tags:
         - config
       when:

@@ -2776,18 +2776,23 @@ Race the Sun:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/Flippfly/RaceTheSun":
-      tags:
-        - config
-        - save
-      when:
-        - os: linux
     "<home>/Library/Preferences/unity.Flippfly.RaceTheSun.plist":
       tags:
         - config
         - save
       when:
         - os: mac
+    "<root>/userdata/<storeUserId>/253030/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<xdgConfig>/unity3d/Flippfly/RaceTheSun/prefs":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
   gog:
     id: 1207660134
   id:

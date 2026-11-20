@@ -1282,30 +1282,7 @@ BR Logic Pack:
   steam:
     id: 35800
 "BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT":
-  files:
-    "<home>/Saved Games/Aviao":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winAppData>/Aviao/config.cfg":
-      tags:
-        - config
-      when:
-        - os: windows
-  id:
-    lutris: brazilian-drug-dealer-3-i-opened-a-portal-to-hell-
-    steamExtra:
-      - 3476440
-  installDir:
-    AVIAOZIN3: {}
-  launch:
-    "<base>/AVIAO3.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 3191050
+  alias: Brazilian Drug Dealer 3
 "BRAZILIAN DRUG DEALER BEFORE 4: DEMONS FROM THE PORTAL TO HELL I OPENED ARE STILL IN THE FAVELA AND NOW I HAVE TO SAVE MAMADAS FROM RONALDO":
   installDir:
     AviaoPre4: {}
@@ -34631,7 +34608,7 @@ Bomber Crew:
         - save
       when:
         - os: linux
-    "<xdgConfig>/unity3d/Runner Duck/Bomber Crew/perfs":
+    "<xdgConfig>/unity3d/Runner Duck/Bomber Crew/prefs":
       tags:
         - config
       when:
@@ -40654,6 +40631,36 @@ Brazilian Adventure:
             store: steam
   steam:
     id: 764880
+Brazilian Drug Dealer 3:
+  files:
+    "<home>/Saved Games/Aviao":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Aviao/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1298669607
+  id:
+    gogExtra:
+      - 1391632422
+      - 2011757279
+    lutris: brazilian-drug-dealer-3-i-opened-a-portal-to-hell-
+    steamExtra:
+      - 3476440
+  installDir:
+    AVIAOZIN3: {}
+  launch:
+    "<base>/AVIAO3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3191050
 Brazilian Root:
   installDir:
     BrazilianRoot: {}

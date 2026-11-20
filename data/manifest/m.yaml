@@ -11149,6 +11149,7 @@ Mark After Dark:
     id: 713980
 Mark of the Deep:
   cloud:
+    epic: true
     steam: true
   files:
     "<base>/MarkOfTheDeep/Saved/SaveGames/*.sav":
@@ -11157,6 +11158,16 @@ Mark of the Deep:
     "<winLocalAppData>/MarkOfTheDeep/Saved/SaveGames/*.sav":
       when:
         - store: steam
+  gog:
+    id: 1749756718
+  id:
+    gogExtra:
+      - 1268617634
+      - 1594619696
+    lutris: mark-of-the-deep
+    steamExtra:
+      - 3480440
+      - 4374400
   installDir:
     Mark of the Deep: {}
   launch:
@@ -18045,7 +18056,7 @@ Mega Balls:
     id: 1185500
 Mega Coin Squad:
   files:
-    "<xdgConfig>/unity3d/Big Pixel Studios/Mega Coin Squad/perfs":
+    "<xdgConfig>/unity3d/Big Pixel Studios/Mega Coin Squad/prefs":
       tags:
         - config
         - save
@@ -48745,6 +48756,12 @@ My Super Tower 3:
   steam:
     id: 838640
 My Sweet Floating in the Void:
+  files:
+    "<home>/AppData/LocalLow/Oculus Digital/My Sweet Floating In The Void/mysweetsave.game":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     My Sweet Floating In The Void: {}
   launch:
@@ -48756,6 +48773,10 @@ My Sweet Floating in the Void:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Oculus Digital/My Sweet Floating In The Void:
+      tags:
+        - config
   steam:
     id: 2738740
 My Sweet Waifu:
