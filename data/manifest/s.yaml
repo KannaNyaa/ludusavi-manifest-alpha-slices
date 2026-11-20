@@ -47559,8 +47559,23 @@ Soldiers Lost Forever (1914-1918):
   steam:
     id: 508630
 Soldiers at War:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/Save_g":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1731348684
+  installDir:
+    Soldiers at War: {}
+  launch:
+    "<base>/SAW_Game.exe":
+      - when:
+          - store: steam
   steam:
     id: 4834810
 Soldiers of Freedom:

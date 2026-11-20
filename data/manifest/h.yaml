@@ -5941,6 +5941,66 @@ HardCube:
     steam: true
   steam:
     id: 493730
+Hardcoded:
+  files:
+    "<home>/.godot/app_userdata/HARDCODED":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<home>/.local/share/godot/app_userdata/HARDCODED/gamesettings.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.local/share/godot/app_userdata/HARDCODED/savefile0.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.local/share/godot/app_userdata/HARDCODED/savefile1.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.local/share/godot/app_userdata/HARDCODED/savefile2.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.local/share/godot/app_userdata/HARDCODED/savefile3.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<winAppData>/Godot/app_userdata/HARDCODED":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    HARDCODED: {}
+  launch:
+    "<base>/hardcoded":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/hardcoded.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/hardcoded.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "--rendering-driver opengl3 opengl3_es"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2693710
 Hardcore Bunny Jumper:
   steam:
     id: 1076320

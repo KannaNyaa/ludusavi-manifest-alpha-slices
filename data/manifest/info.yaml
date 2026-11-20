@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-20T11:47:34Z"
+generatedAt: "2026-11-20T22:15:18Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,28 +9,28 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"2a677c7bc6ea3386a5adb74e6b2d8cfb515a9725b5474182ab10e93a5ffd2cc3\""
+  etag: "\"820f34cfc9a20a170e2fc3ee6cd6b82ec0d9a42930082019b6b5ef9b67c5b9c4\""
   lastModified: ""
-  sha256: "c8372f5de45d4f53b3d6e77ab6ddc9a669cfda696ce144f46ed039b595111c8b"
-  sizeBytes: 17805499
-  lines: 886953
+  sha256: "f0628b0856c513091c526c2fdb772adc24ad07f702b8bb32f9e32983817bc901"
+  sizeBytes: 17807283
+  lines: 887037
 
 manifest:
-  games: 53561
+  games: 53562
   shards: 29
   files: 30
-  bytes: 17805611
-  withSaveTag: 13665
+  bytes: 17807395
+  withSaveTag: 13667
   sections:
     alias: 1131
-    cloud: 15773
-    files: 22629
+    cloud: 15775
+    files: 22631
     gog: 5617
     id: 10293
-    installDir: 44018
-    launch: 39751
+    installDir: 44021
+    launch: 39754
     registry: 2859
-    steam: 49390
+    steam: 49391
 
 sharding:
   rule: "first-character"
@@ -105,9 +105,9 @@ shards:
   - path: "h.yaml"
     key: "H"
     group: "letter"
-    games: 2186
-    bytes: 715600
-    sha256: "4fdb9f15ff1b7ab2908a3dabd91b768b7e5d4244cabf564d9ee802a8d0f74e8b"
+    games: 2187
+    bytes: 716972
+    sha256: "b75fe37841c5b0e69ec46fb3e89f7e5de67ef03e5d2eaccfa837434d590f4c96"
     first: "H Chan: Girl"
     last: "Höllenjob"
   - path: "i.yaml"
@@ -194,8 +194,8 @@ shards:
     key: "S"
     group: "letter"
     games: 5937
-    bytes: 2060232
-    sha256: "6487a44679eb577e77b5c0d74d5e9895fcac93c37f8da9fcbe880a155a32131f"
+    bytes: 2060476
+    sha256: "a4fa4c8ee38768e953a64e9dd9a637da732b3e947dd84139404c59c012e5d5f1"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -242,8 +242,8 @@ shards:
     key: "W"
     group: "letter"
     games: 1718
-    bytes: 592182
-    sha256: "558830b7b7bbc4d8538152fd94340dcf1be01409d5edf2141c649d80e62cbb61"
+    bytes: 592350
+    sha256: "bc5fe7536e15505b26e58dbef654aaaacb7f0032fccb07776387392b1b5d87ee"
     first: "W. T. B."
     last: "Włatcy móch: Wrzód na dópie"
   - path: "x.yaml"
