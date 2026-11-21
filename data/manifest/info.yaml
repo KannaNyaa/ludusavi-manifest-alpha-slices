@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-21T11:13:19Z"
+generatedAt: "2026-11-21T20:55:00Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,24 +9,24 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"ccd2e774138f7a5be46e3eb430d54ae350ca07c76255317ca98a76a740a55219\""
+  etag: "\"9056c364c170dc5574a484154691cf27d0a658792a2c6eb0ffcd0299d558cb34\""
   lastModified: ""
-  sha256: "afd3dcea12e3678924e33c02d3536a4b37ba5de27cde16eb25081c4b582ec035"
-  sizeBytes: 17808067
-  lines: 887080
+  sha256: "21a25c96aef09392376bd123d7713c503231606d5919c9ed5e2f22d8fe3b41ee"
+  sizeBytes: 17808145
+  lines: 887084
 
 manifest:
   games: 53564
   shards: 29
   files: 30
-  bytes: 17808179
+  bytes: 17808257
   withSaveTag: 13667
   sections:
     alias: 1131
-    cloud: 15776
+    cloud: 15777
     files: 22633
     gog: 5618
-    id: 10296
+    id: 10297
     installDir: 44022
     launch: 39755
     registry: 2859
@@ -202,8 +202,8 @@ shards:
     key: "SYMBOLS"
     group: "symbols"
     games: 37
-    bytes: 11236
-    sha256: "6956b45f60dac2036f347ecaf6c71f160fb54209f93fbfbabd59fcdac7b513d8"
+    bytes: 11314
+    sha256: "88b6e8a4b055ac2c7d2629dba6e9a33b2f8787ea9279c36747edd4f8711b272d"
     first: "! That Bastard Is Trying To Steal Our Gold !"
     last: "＜/reality＞"
   - path: "t.yaml"
