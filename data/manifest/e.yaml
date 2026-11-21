@@ -25659,6 +25659,13 @@ Extreme Assault:
         - config
       when:
         - os: dos
+Extreme Boards & Blades:
+  files:
+    "<base>/xboards.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Extreme Burger Defense:
   files:
     "<winLocalAppData>/ExtremeBurgerDefense":

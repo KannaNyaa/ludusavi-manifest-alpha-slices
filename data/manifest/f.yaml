@@ -9826,6 +9826,8 @@ Fast Food Tycoon 2:
         - os: windows
   gog:
     id: 1175067557
+  id:
+    lutris: pizza-connection-2
   installDir:
     Pizza Connection 2: {}
   launch:

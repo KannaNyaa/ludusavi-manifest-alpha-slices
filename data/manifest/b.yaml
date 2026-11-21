@@ -33597,6 +33597,13 @@ Boardfall:
     id: 4026170
 Boardfall Zero:
   alias: Boardfall
+Boards and Blades 2:
+  files:
+    "<base>/System/BB2.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Boardwalk Carnival Game:
   installDir:
     Boardwalk Carnival Game: {}

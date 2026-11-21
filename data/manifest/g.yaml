@@ -21692,6 +21692,8 @@ Grand Theft Auto V Enhanced:
         - config
       when:
         - os: windows
+  id:
+    lutris: grand-theft-auto-v-enhanced
   installDir:
     Grand Theft Auto V Enhanced: {}
   launch:

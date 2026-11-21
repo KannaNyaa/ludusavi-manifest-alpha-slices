@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-20T22:15:18Z"
+generatedAt: "2026-11-21T11:13:19Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,26 +9,26 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"820f34cfc9a20a170e2fc3ee6cd6b82ec0d9a42930082019b6b5ef9b67c5b9c4\""
+  etag: "\"ccd2e774138f7a5be46e3eb430d54ae350ca07c76255317ca98a76a740a55219\""
   lastModified: ""
-  sha256: "f0628b0856c513091c526c2fdb772adc24ad07f702b8bb32f9e32983817bc901"
-  sizeBytes: 17807283
-  lines: 887037
+  sha256: "afd3dcea12e3678924e33c02d3536a4b37ba5de27cde16eb25081c4b582ec035"
+  sizeBytes: 17808067
+  lines: 887080
 
 manifest:
-  games: 53562
+  games: 53564
   shards: 29
   files: 30
-  bytes: 17807395
+  bytes: 17808179
   withSaveTag: 13667
   sections:
     alias: 1131
-    cloud: 15775
-    files: 22631
-    gog: 5617
-    id: 10293
-    installDir: 44021
-    launch: 39754
+    cloud: 15776
+    files: 22633
+    gog: 5618
+    id: 10296
+    installDir: 44022
+    launch: 39755
     registry: 2859
     steam: 49391
 
@@ -49,9 +49,9 @@ shards:
   - path: "b.yaml"
     key: "B"
     group: "letter"
-    games: 3007
-    bytes: 988111
-    sha256: "fafa69b334c279ddfe44b7ae7392c8dd8a014d81ccc55a6f3d94ec073fbeefe2"
+    games: 3008
+    bytes: 988233
+    sha256: "1ddbd3f86d318df48d602251f7dd6bf12df4f654d891515bfb687ce088e4a26f"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -81,25 +81,25 @@ shards:
   - path: "e.yaml"
     key: "E"
     group: "letter"
-    games: 1592
-    bytes: 518904
-    sha256: "0aa5762386b3cee8c3bdeeffd7575d878ffc1f0b5ed0e7cb6b28716e8b2389c2"
+    games: 1593
+    bytes: 519027
+    sha256: "96d437f517158fa5880c0aadde81f2051ab68e16431315bd33b156af3c3436aa"
     first: "E-Ball"
     last: "Ezy"
   - path: "f.yaml"
     key: "F"
     group: "letter"
     games: 2258
-    bytes: 763889
-    sha256: "a014e624a9a5aadd35cf6c8b47a1d679e13a95b0bae44c6f56d4304587891796"
+    bytes: 763926
+    sha256: "ef601c28d755ebf66a2e46c61f5e34628bf43a7c66385e18adcbba94e77c8f50"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
     key: "G"
     group: "letter"
     games: 1927
-    bytes: 621656
-    sha256: "da99c4a9e7494a3caacfc4cde05a1ec5e406620150c603675554a55f5eb07ff0"
+    bytes: 621702
+    sha256: "6414bbbad4d49edd1f47f032666a6732a4252b18513a2782289d0a9caa997c96"
     first: "G Prime"
     last: "Géants disparus VR"
   - path: "h.yaml"
@@ -146,8 +146,8 @@ shards:
     key: "M"
     group: "letter"
     games: 3189
-    bytes: 1029384
-    sha256: "e452e9c17482034be32ceab304b501c1b253c53bc38eb1e2b2c714dd3094dad0"
+    bytes: 1029434
+    sha256: "c550057a15c0684b71bee72e82d9c648f928748e429337fd671036de91c5521c"
     first: "M Mania"
     last: "Möbius Front '83"
   - path: "n.yaml"
@@ -170,8 +170,8 @@ shards:
     key: "P"
     group: "letter"
     games: 2682
-    bytes: 865847
-    sha256: "b7eadc1254883b76fb348a5e785a6e21f9c4b7999f8f7a22dcc1f69d2d29bc11"
+    bytes: 865878
+    sha256: "6308c8211d17dbbce9b4a3fc8fcfe0bac0c2698849cf83a71fc54af98d5966f3"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"
@@ -210,8 +210,8 @@ shards:
     key: "T"
     group: "letter"
     games: 5551
-    bytes: 1950937
-    sha256: "55cdfd4be4202ceb42dd4c81125bc15efe33c099a05eb37d964cb4eec4526dc5"
+    bytes: 1951312
+    sha256: "2a1139a71bd1e7642cbce4b1767e43b3e208c97e6b637d0589cc0aff4f17eaa9"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"

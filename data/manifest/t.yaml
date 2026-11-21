@@ -2322,7 +2322,7 @@ Tabletop Simulator:
       - when:
           - os: mac
             store: steam
-      - arguments: "-force-metal"
+      - arguments: "-force-glcore"
         when:
           - os: mac
             store: steam
@@ -62833,6 +62833,9 @@ TheoTown:
   steam:
     id: 1084020
 Theocracy:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<base>/.gamesettings":
       tags:
@@ -62849,8 +62852,20 @@ Theocracy:
         - save
       when:
         - os: windows
+    "<home>/Saved Games/Theocracy/save/*.tsg":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1355762673
+  installDir:
+    Theocracy: {}
+  launch:
+    "<base>/theocracy-0.6.85.exe":
+      - when:
+          - store: steam
   steam:
     id: 4834790
 Theocracy (2022):
@@ -92219,6 +92234,11 @@ Tungulus:
     id: 636470
 "Tunguska: Legend of Faith":
   files:
+    "<base>/TUNGUS.INI":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/TUNGUSKA.S*":
       tags:
         - save
