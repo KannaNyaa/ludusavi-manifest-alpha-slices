@@ -60559,6 +60559,25 @@ Spellbreak:
             store: steam
   steam:
     id: 1399780
+Spellbroken Dream Festival:
+  files:
+    "<base>/config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/data":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/replay":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: touhou-danmuki-spellbroken-dream-festival
 Spellcaster University:
   cloud:
     gog: true

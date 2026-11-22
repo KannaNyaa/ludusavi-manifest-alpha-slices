@@ -19611,6 +19611,16 @@ Loco Motive:
         - save
       when:
         - os: windows
+    "<home>/.config/unity3d/Robust Games/Loco Motive/Saves/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Library/Application Support/unity.Robust Games.Loco Motive/Saves/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: mac
   gog:
     id: 1690056578
   id:
@@ -19624,10 +19634,6 @@ Loco Motive:
   installDir:
     Loco Motive: {}
   launch:
-    "<base>/Loco Motive":
-      - when:
-          - os: linux
-            store: steam
     "<base>/Loco Motive.app":
       - when:
           - os: mac
@@ -19635,6 +19641,10 @@ Loco Motive:
     "<base>/Loco Motive.exe":
       - when:
           - os: windows
+            store: steam
+    "<base>/Loco Motive.x86_64":
+      - when:
+          - os: linux
             store: steam
   steam:
     id: 1709880

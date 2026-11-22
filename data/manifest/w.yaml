@@ -14374,6 +14374,19 @@ What if George Washington was a Girl?:
   steam:
     id: 2098470
 What the Buck?!:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/What the Buck/savegame_full.save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Godot/app_userdata/What the Buck/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     steamExtra:
       - 5006340

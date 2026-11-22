@@ -14555,6 +14555,13 @@ Eon Altar:
 Eon Fleet:
   steam:
     id: 838980
+Eona:
+  id:
+    lutris: eona
+    steamExtra:
+      - 4362000
+  steam:
+    id: 3779800
 Eonia:
   installDir:
     EONIA: {}
