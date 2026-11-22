@@ -14324,6 +14324,10 @@ Krunker.io:
     lutris: kknd2-krossfire
   installDir:
     KKND 2 Krossfire: {}
+  launch:
+    "<base>/kknd2.exe":
+      - when:
+          - store: steam
   steam:
     id: 1292180
 "Krush Kill 'N Destroy Xtreme":
@@ -14346,6 +14350,10 @@ Krunker.io:
     lutris: kknd-krush-kill-n-destroy-xtreme
   installDir:
     KKND Xtreme: {}
+  launch:
+    "<base>/kknd.exe":
+      - when:
+          - store: steam
   steam:
     id: 1292170
 KryptCrawler:

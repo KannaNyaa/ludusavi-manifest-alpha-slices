@@ -7483,6 +7483,8 @@ Jurassic Park Classic Games Collection:
   steam:
     id: 201830
 "Jurassic Park: Trespasser":
+  id:
+    lutris: trespasser
   registry:
     HKEY_CURRENT_USER/Software/DreamWorks Interactive/Trespasser:
       tags:

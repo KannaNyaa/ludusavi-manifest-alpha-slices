@@ -11420,6 +11420,14 @@ We Were Here Together:
         - save
       when:
         - os: windows
+  id:
+    lutris: we-were-here-together
+    steamExtra:
+      - 1163640
+      - 1170850
+      - 1170860
+      - 1246990
+      - 1614610
   installDir:
     We Were Here Together: {}
   launch:

@@ -50186,6 +50186,13 @@ Croc 2:
     gogExtra:
       - 1339998951
     lutris: croc-2
+  installDir:
+    Croc 2 Classic: {}
+  launch:
+    "<base>/Croc2.exe":
+      - when:
+          - os: windows
+            store: steam
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/Argonaut Software/Croc2/1.00:
       tags:
@@ -50237,6 +50244,13 @@ Croc 2:
     gogExtra:
       - 2036105119
     lutris: croc-legend-of-the-gobbos
+  installDir:
+    Croc Classic: {}
+  launch:
+    "<base>/croc.exe":
+      - when:
+          - os: windows
+            store: steam
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Argonaut Software/Croc:
       tags:

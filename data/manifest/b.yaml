@@ -12786,7 +12786,7 @@ Beach Head 2000:
   installDir:
     Beachhead 2000: {}
   launch:
-    "<base>/Launcher/BHLauncher.exe":
+    "<base>/Beachhead 2000.exe":
       - when:
           - os: windows
             store: steam
@@ -48382,6 +48382,31 @@ Burning Out:
             store: steam
   steam:
     id: 2016510
+Burning Sword Death Sun:
+  files:
+    "<winLocalAppData>/BurningSwordDeathSun/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BurningSwordDeathSun/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: burning-sword-death-sun
+    steamExtra:
+      - 2824590
+  installDir:
+    Burning Sword Death Sun: {}
+  launch:
+    "<base>/BurningSwordDeathSun.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2561460
 BurningBridges VR:
   files:
     "<base>/BurningBridges/Saved/**/*.save":

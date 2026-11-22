@@ -15926,6 +15926,17 @@ Invicta Beam:
   steam:
     id: 611690
 "Invictus: In the Shadow of Olympus":
+  files:
+    "<base>/DAGamePrefs.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/savegames":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1207658655
   installDir:

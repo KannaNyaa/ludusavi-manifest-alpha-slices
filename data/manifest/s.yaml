@@ -73532,9 +73532,19 @@ Startopia:
   installDir:
     Startopia: {}
   launch:
+    "<base>/Startopia":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Startopia.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Startopia.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
   steam:
     id: 243040
 Startup Company:

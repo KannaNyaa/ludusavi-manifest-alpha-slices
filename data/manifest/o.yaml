@@ -5839,6 +5839,8 @@ Omensight:
   steam:
     id: 455820
 Omerta - City of Gangsters:
+  alias: "Omerta: City of Gangsters"
+"Omerta: City of Gangsters":
   cloud:
     steam: true
   files:

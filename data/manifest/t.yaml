@@ -68075,6 +68075,35 @@ Time Clickers:
 Time Commando:
   cloud:
     gog: true
+  files:
+    "<home>/AppData/LocalLow/2 POINT 21/Time Commando/Saves/*.tcs":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/2 POINT 21/Time Commando/Saves/progress.cfg":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/2 POINT 21/Time Commando/Saves/tcsaves.idx":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/2 POINT 21/Time Commando/Saves/timeco.def":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/2 POINT 21/Time Commando/Saves/*.tcs":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/2 POINT 21/Time Commando/Saves/progress.cfg":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/2 POINT 21/Time Commando/Saves/tcsaves.idx":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/2 POINT 21/Time Commando/Saves/timeco.def":
+      when:
+        - os: mac
+          store: steam
   gog:
     id: 1207658987
   id:
