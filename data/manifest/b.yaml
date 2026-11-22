@@ -44379,6 +44379,9 @@ Broken of Darkness:
             store: steam
   steam:
     id: 3014520
+"BrokenLore: Miki-chan":
+  steam:
+    id: 3975870
 "BrokenLore: Unfollow":
   cloud:
     steam: true

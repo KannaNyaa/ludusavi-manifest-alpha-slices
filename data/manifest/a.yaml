@@ -36991,6 +36991,8 @@ Apocalyptica:
         - save
       when:
         - os: windows
+  id:
+    lutris: apocalyptica
   registry:
     HKEY_CURRENT_USER/Software/ExtremeFX/Apocalyptica:
       tags:

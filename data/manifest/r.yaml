@@ -31485,6 +31485,8 @@ Rocket Island:
   steam:
     id: 883630
 Rocket Jockey:
+  id:
+    lutris: rocket-jockey
   installDir:
     Rocket Jockey: {}
   launch:

@@ -22307,6 +22307,8 @@ Metal Gear Solid - Master Collection Version:
         - os: windows
   gog:
     id: 2069117974
+  id:
+    lutris: metal-gear-solid-2-substance
 "Metal Gear Solid 3: Snake Eater - Master Collection Version":
   cloud:
     steam: true

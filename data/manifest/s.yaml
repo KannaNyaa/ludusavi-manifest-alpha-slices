@@ -18962,6 +18962,8 @@ Servant of the Lake:
         - config
       when:
         - os: mac
+  gog:
+    id: 2142293863
   id:
     lutris: servant-of-the-lake
     steamExtra:

@@ -44848,7 +44848,11 @@ The Mr. Rabbit Magic Show:
         - save
       when:
         - os: windows
+  gog:
+    id: 1834699820
   id:
+    gogExtra:
+      - 2137155569
     steamExtra:
       - 3701380
   installDir:
