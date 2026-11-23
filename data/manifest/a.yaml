@@ -28653,6 +28653,13 @@ American Fugitive:
 American Hero:
   cloud:
     gog: true
+  files:
+    "<winAppData>/Ziggurat/American Hero/USR-DATA":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   gog:
     id: 1718511445
   id:

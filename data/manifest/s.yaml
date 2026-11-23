@@ -7563,6 +7563,19 @@ Sandstorm:
   steam:
     id: 548710
 Sandustry:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/sandustry/meta":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/sandustry/saves":
+      tags:
+        - save
+      when:
+        - os: linux
   id:
     steamExtra:
       - 3490390
@@ -18434,7 +18447,7 @@ Serious Sam Double D:
           - store: steam
   steam:
     id: 111600
-Serious Sam Fusion 2017:
+Serious Sam Fusion:
   cloud:
     steam: true
   files:
@@ -18460,6 +18473,8 @@ Serious Sam Fusion 2017:
     Serious Sam Fusion 2017: {}
   steam:
     id: 564310
+Serious Sam Fusion 2017:
+  alias: Serious Sam Fusion
 "Serious Sam HD: The First Encounter":
   files:
     "<root>/userdata/<storeUserId>/41000/local/SeriousSamHD.ini":
@@ -84691,6 +84706,8 @@ Submarine Titans:
         - os: windows
   gog:
     id: 1476453752
+  id:
+    lutris: submarine-titans
   installDir:
     Submarine Titans: {}
   launch:

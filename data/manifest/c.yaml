@@ -41386,6 +41386,23 @@ Cop Academy:
   steam:
     id: 982710
 Cop Bastard:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/targim_/COP BASTARD game/Saves/Steam/<storeUserId>":
+      when:
+        - store: steam
+  gog:
+    id: 1286862415
+  id:
+    gogExtra:
+      - 1256467534
+      - 1682691070
+      - 1688981549
+    lutris: cop-bastard
+    steamExtra:
+      - 2174740
+      - 5484030
   installDir:
     COP BASTARD: {}
   launch:

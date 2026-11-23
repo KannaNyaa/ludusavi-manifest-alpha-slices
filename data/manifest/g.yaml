@@ -7276,6 +7276,12 @@ Gears of War 4:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/Microsoft.Pender_8wekyb3d8bbwe/SystemAppData":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: gears-of-war-reloaded
   installDir:

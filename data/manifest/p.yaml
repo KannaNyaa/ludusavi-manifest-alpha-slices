@@ -32306,6 +32306,8 @@ Prince of Qin:
         - store: steam
   gog:
     id: 1273860392
+  id:
+    lutris: prince-of-qin
   installDir:
     Prince of Qin: {}
   launch:

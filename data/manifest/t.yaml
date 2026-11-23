@@ -37574,8 +37574,10 @@ The Language of Love:
   steam:
     id: 1027620
 The Lantern of the Laughless Saint:
+  cloud:
+    steam: true
   files:
-    "<winLocalAppData>/The_Holy_Fool/Saved":
+    "<winLocalAppData>/The_Holy_Fool/Saved/SaveGames":
       when:
         - os: windows
           store: steam
@@ -46969,6 +46971,8 @@ The Outforce:
         - config
       when:
         - os: windows
+  id:
+    lutris: the-outforce
   installDir:
     The Outforce: {}
   launch:

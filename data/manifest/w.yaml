@@ -9753,6 +9753,8 @@ Watergate Xtreme:
 Waterloo:
   gog:
     id: 1356354968
+  id:
+    lutris: waterloo
   installDir:
     waterloo: {}
   launch:

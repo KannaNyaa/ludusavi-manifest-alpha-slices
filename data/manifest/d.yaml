@@ -32392,6 +32392,29 @@ Dischord:
   steam:
     id: 281450
 Disco Ball Simulator 2000:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Timi Ocean/Disco Ball Simulator 2000/save.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Timi Ocean/Disco Ball Simulator 2000/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/5089020/remote/save.json":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/5089020/remote/settings.json":
+      tags:
+        - config
+      when:
+        - store: steam
   id:
     steamExtra:
       - 5089460
@@ -44531,6 +44554,8 @@ Dragon Stone - Legendary Archer:
         - save
       when:
         - os: windows
+  id:
+    lutris: dragon-throne-battle-of-red-cliffs
   installDir:
     Dragon Throne - Battle of Red Cliffs: {}
   launch:
