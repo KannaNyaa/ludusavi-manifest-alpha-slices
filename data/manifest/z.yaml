@@ -2417,19 +2417,18 @@ Zero Gravity Pool:
   steam:
     id: 778600
 Zero Gunner 2-:
+  id:
+    steamExtra:
+      - 1342250
   installDir:
-    ZERO GUNNER 2-: {}
+    PSIKYO Zero Gunner 2: {}
   launch:
-    "<base>/ZERO GUNNER 2-.exe":
-      - when:
-          - os: windows
-            store: steam
-    "<base>/setting.exe":
+    "<base>/Zero Gunner 2.exe":
       - when:
           - os: windows
             store: steam
   steam:
-    id: 1342250
+    id: 4123660
 Zero Hour:
   cloud:
     epic: true

@@ -24027,6 +24027,8 @@ Dereliction:
   steam:
     id: 969420
 Derelikt:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/*.drt":
       tags:
@@ -43489,20 +43491,16 @@ Dragon Battle:
 Dragon Blaze:
   id:
     steamExtra:
-      - 4123700
+      - 1279420
   installDir:
-    Dragon Blaze: {}
+    PSIKYO Dragon Blaze: {}
   launch:
     "<base>/dragonblaze.exe":
       - when:
           - os: windows
             store: steam
-    "<base>/setting.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
-    id: 1279420
+    id: 4123700
 Dragon Blood:
   installDir:
     Dragon Blood: {}

@@ -11065,19 +11065,18 @@ Tenebrous Dungeon:
   steam:
     id: 1016420
 Tengai:
+  id:
+    steamExtra:
+      - 1279370
   installDir:
-    TENGAI: {}
+    PSIKYO TENGAI: {}
   launch:
     "<base>/sblade.exe":
       - when:
           - os: windows
             store: steam
-    "<base>/setting.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
-    id: 1279370
+    id: 4027800
 Tengami:
   cloud:
     steam: true

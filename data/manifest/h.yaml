@@ -4036,8 +4036,16 @@ Hammer Heads:
 Hammer of the Gods:
   cloud:
     gog: true
+    steam: true
   gog:
     id: 2088011259
+  id:
+    gogExtra:
+      - 1688438535
+    steamExtra:
+      - 5391870
+  steam:
+    id: 4622690
 HammerHelm:
   files:
     "<home>/AppData/LocalLow/Super6Games/HammerHelm/*.txt":

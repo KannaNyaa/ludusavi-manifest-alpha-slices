@@ -6716,6 +6716,24 @@ UniTower:
             store: steam
   steam:
     id: 1139670
+"Unicorn Academy: Island of Magic":
+  cloud:
+    steam: true
+  files:
+    "<base>/Corn/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Corn/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Unicorn Academy Island of Magic: {}
+  launch:
+    "<base>/Corn.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4380910
 Unicorn Dungeon:
   installDir:
     Unicorn Dungeon: {}

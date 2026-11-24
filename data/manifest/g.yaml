@@ -19664,6 +19664,15 @@ Goodbye Deponia:
 Goodbye My King:
   steam:
     id: 647410
+Goodbye Seoul:
+  cloud:
+    steam: true
+  id:
+    lutris: goodbye-seoul
+    steamExtra:
+      - 2711590
+  steam:
+    id: 2551550
 Goodbye Volcano High:
   cloud:
     steam: true
@@ -29375,19 +29384,18 @@ Gunball:
   steam:
     id: 632240
 Gunbarich:
+  id:
+    steamExtra:
+      - 1342240
   installDir:
-    GUNBARICH: {}
+    PSIKYO Gunbarich: {}
   launch:
     "<base>/Gunbarich.exe":
       - when:
           - os: windows
             store: steam
-    "<base>/setting.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
-    id: 1342240
+    id: 4123560
 Gunbird:
   files:
     "<winAppData>/gunbird/savedata.bin":
@@ -29400,33 +29408,31 @@ Gunbird:
         - config
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 1261970
   installDir:
-    GUNBIRD: {}
+    PSIKYO GUNBIRD: {}
   launch:
     "<base>/gunbird.exe":
       - when:
           - os: windows
             store: steam
-    "<base>/setting.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
-    id: 1261970
+    id: 4123540
 Gunbird 2:
+  id:
+    steamExtra:
+      - 1279410
   installDir:
-    GUNBIRD2: {}
+    PSIKYO GUNBIRD 2: {}
   launch:
     "<base>/gunbird2.exe":
       - when:
           - os: windows
             store: steam
-    "<base>/setting.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
-    id: 1279410
+    id: 4123550
 Gunboat:
   gog:
     id: 1442803102

@@ -6544,19 +6544,18 @@ Samudra:
   steam:
     id: 1116260
 Samurai Aces:
+  id:
+    steamExtra:
+      - 1261980
   installDir:
-    Samurai Aces: {}
+    PSIKYO SAMURAI ACES: {}
   launch:
     "<base>/saces.exe":
       - when:
           - os: windows
             store: steam
-    "<base>/setting.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
-    id: 1261980
+    id: 4123500
 "Samurai Aces III: Sengoku Cannon":
   files:
     "<winAppData>/scannon/savedata.bin":
@@ -6569,19 +6568,18 @@ Samurai Aces:
         - config
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 1279390
   installDir:
-    SENGOKU CANNON: {}
+    PSIKYO SAMURAI ACES III: {}
   launch:
     "<base>/scannon.exe":
       - when:
           - os: windows
             store: steam
-    "<base>/setting.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
-    id: 1279390
+    id: 4123530
 Samurai Forge:
   steam:
     id: 617350
@@ -46599,19 +46597,18 @@ Sol Divide:
   steam:
     id: 379350
 "Sol Divide: Sword of Darkness":
+  id:
+    steamExtra:
+      - 1279450
   installDir:
-    SOL DIVIDE -SWORD OF DARKNESS-: {}
+    PSIKYO SOL DIVIDE -SWORD OF DARKNESS-: {}
   launch:
-    "<base>/setting.exe":
-      - when:
-          - os: windows
-            store: steam
     "<base>/soldivide.exe":
       - when:
           - os: windows
             store: steam
   steam:
-    id: 1279450
+    id: 4123670
 Sol Galaxy Defender:
   id:
     steamExtra:
@@ -48984,6 +48981,11 @@ Song of Horror:
             store: steam
   steam:
     id: 1096570
+"Song of Horror: Enhanced Edition":
+  cloud:
+    steam: true
+  steam:
+    id: 5528520
 Song of Iron:
   files:
     $USER/AppData/Local/SONG_of_IRON/Saved/Config:
@@ -82989,47 +82991,44 @@ Strikers:
   steam:
     id: 588480
 Strikers 1945:
+  id:
+    steamExtra:
+      - 1261960
   installDir:
-    STRIKERS1945: {}
+    PSIKYO STRIKERS 1945: {}
   launch:
     "<base>/s1945.exe":
       - when:
           - os: windows
             store: steam
-    "<base>/setting.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
-    id: 1261960
+    id: 4123570
 Strikers 1945 II:
+  id:
+    steamExtra:
+      - 1279380
   installDir:
-    STRIKERS1945 Ⅱ: {}
+    PSIKYO STRIKERS 1945 Ⅱ: {}
   launch:
     "<base>/s1945ii.exe":
       - when:
           - os: windows
             store: steam
-    "<base>/setting.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
-    id: 1279380
+    id: 4123580
 Strikers 1945 III:
+  id:
+    steamExtra:
+      - 1279400
   installDir:
-    STRIKERS1945 III: {}
+    PSIKYO STRIKERS 1945 III: {}
   launch:
     "<base>/s1945iii.exe":
       - when:
           - os: windows
             store: steam
-    "<base>/setting.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
-    id: 1279400
+    id: 4123630
 Strikers Edge:
   installDir:
     Strikers Edge: {}
@@ -101102,6 +101101,7 @@ Symphony of Stars:
       - 1977690
       - 1999620
       - 2432430
+      - 5395630
   installDir:
     SoW1 Project: {}
   launch:
