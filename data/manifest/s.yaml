@@ -19509,6 +19509,24 @@ Seventh Circle:
             store: steam
   steam:
     id: 1030950
+Seventh Lair:
+  files:
+    "<winDocuments>/SavedGames/SeventhLair/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Seventh Lair: {}
+  launch:
+    "<base>/Seventh Lair.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/SeventhLair.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1909810
 Severed Steel:
   cloud:
     gog: true
@@ -99853,7 +99871,7 @@ Sword of the Sea:
     gog: true
     steam: true
   files:
-    "<winLocalAppData>/SwordOfTheSea/Saved":
+    "<winLocalAppData>/SwordOfTheSea/Saved/Config/Windows":
       tags:
         - config
       when:

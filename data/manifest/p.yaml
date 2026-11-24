@@ -8499,6 +8499,7 @@ Pato Box:
   id:
     gogExtra:
       - 1207658802
+    lutris: patrician-ii-quest-for-power
 "Patrician III: Rise of the Hanse":
   cloud:
     gog: true
@@ -10801,6 +10802,11 @@ People Playground:
     "<base>/People Playground.exe":
       - when:
           - os: windows
+            store: steam
+    "<base>/People Playground.x86_64":
+      - when:
+          - bit: 64
+            os: linux
             store: steam
   steam:
     id: 1118200
@@ -34833,6 +34839,8 @@ Professor Fizzwizzle and the Molten Mystery:
 Professor Layton and the New World of Steam:
   cloud:
     steam: true
+  id:
+    lutris: professor-layton-and-the-new-world-of-steam
   steam:
     id: 3384600
 Professor Lupo and His Horrible Pets:

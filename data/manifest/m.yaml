@@ -12254,8 +12254,10 @@ Marvel Rivals:
       when:
         - os: windows
   id:
+    lutris: marvel-rivals
     steamExtra:
       - 4406010
+      - 5554080
   installDir:
     MarvelRivals: {}
   launch:

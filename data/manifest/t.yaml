@@ -33710,6 +33710,7 @@ The House in Fata Morgana:
     id: 303310
 "The House in Fata Morgana: A Requiem for Innocence":
   cloud:
+    gog: true
     steam: true
   files:
     "<winAppData>/MangaGamer/The House in Fata Morgana - A Requiem for Innocence/*.bmp":

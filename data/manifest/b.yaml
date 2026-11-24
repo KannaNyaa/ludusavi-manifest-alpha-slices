@@ -22389,6 +22389,47 @@ Bird Game:
             store: steam
   steam:
     id: 791700
+"Bird Hunter 2003: Legendary Hunting":
+  files:
+    "<base>/Scripts":
+      tags:
+        - config
+      when:
+        - os: windows
+"Bird Hunter: Upland Edition":
+  files:
+    "<base>/Hunter.cfg":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Upland.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+"Bird Hunter: Wild Wings Edition":
+  files:
+    "<base>/Home/DefCmds.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Home/DefEquip.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Home/Default.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Home/Hunter.cfg":
+      tags:
+        - save
+      when:
+        - os: windows
 Bird Memory:
   steam:
     id: 983200

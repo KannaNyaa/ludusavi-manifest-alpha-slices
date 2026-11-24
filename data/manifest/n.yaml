@@ -11970,6 +11970,8 @@ Nex Machina:
   steam:
     id: 404540
 Nexagon Deathmatch:
+  id:
+    lutris: nexagon
   installDir:
     Nexagon: {}
   launch:
