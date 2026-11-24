@@ -6174,12 +6174,14 @@ AI War 2:
   id:
     gogExtra:
       - 1512994101
+      - 1674526429
       - 1889174592
       - 1971284855
     steamExtra:
       - 1196420
       - 1290340
       - 1466780
+      - 4534540
   installDir:
     AI War 2: {}
   steam:
@@ -11598,6 +11600,8 @@ Actraiser Renaissance:
   steam:
     id: 1393370
 Acts of Blood:
+  cloud:
+    steam: true
   id:
     lutris: acts-of-blood
     steamExtra:

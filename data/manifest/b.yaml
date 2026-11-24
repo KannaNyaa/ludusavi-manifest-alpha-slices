@@ -43506,6 +43506,7 @@ Broforce:
     id: 274190
 Brok the InvestiGator:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:

@@ -13392,7 +13392,7 @@ Phantom Blade Zero:
   cloud:
     steam: true
   files:
-    "<base>/ProjectPBZ/Saved":
+    "<base>/ProjectPBZ/Saved/*.sav":
       tags:
         - config
       when:
@@ -25535,22 +25535,22 @@ Police Stunt Cars:
     id: 1124190
 Police Tactical Training:
   files:
-    "<base>/DefEquip.cfg":
+    "<base>/Home/DefEquip.cfg":
       tags:
         - config
       when:
         - os: windows
-    "<base>/default.cfg":
+    "<base>/Home/default.cfg":
       tags:
         - config
       when:
         - os: windows
-    "<base>/defcmds.cfg":
+    "<base>/Home/defcmds.cfg":
       tags:
         - config
       when:
         - os: windows
-    "<base>/player.cfg":
+    "<base>/Home/player.cfg":
       tags:
         - config
       when:

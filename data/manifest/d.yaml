@@ -43487,6 +43487,9 @@ Dragon Battle:
   steam:
     id: 859310
 Dragon Blaze:
+  id:
+    steamExtra:
+      - 4123700
   installDir:
     Dragon Blaze: {}
   launch:

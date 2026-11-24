@@ -9519,11 +9519,14 @@ Farthest Frontier:
   cloud:
     steam: true
   files:
-    "<winDocuments>/My Games/Farthest Frontier/Save":
-      tags:
-        - save
+    "<home>/Saved Games/Farthest Frontier/Save":
       when:
         - os: windows
+          store: steam
+    "<winLocalAppData>/Farthest Frontier/Save":
+      when:
+        - os: windows
+          store: steam
   installDir:
     Farthest Frontier: {}
   launch:
