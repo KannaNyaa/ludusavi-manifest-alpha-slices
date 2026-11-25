@@ -10468,6 +10468,13 @@ Fate of Kai:
             store: steam
   steam:
     id: 1426480
+Fate of the Dragon:
+  files:
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
 Fate of the Pharaoh:
   cloud:
     steam: true

@@ -24703,6 +24703,13 @@ Miasmata:
     HKEY_CURRENT_USER/SOFTWARE/Digital Illusions/Rally Masters/Configurations/Default:
       tags:
         - config
+Michelle Kwan Figure Skating:
+  files:
+    "<base>/data/config":
+      tags:
+        - config
+      when:
+        - os: windows
 "Mickey's Typing Adventure":
   installDir:
     "Disney Mickey's Typing Adventure": {}

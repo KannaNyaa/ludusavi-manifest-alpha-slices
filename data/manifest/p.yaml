@@ -37701,6 +37701,16 @@ Pronoun Palace:
   cloud:
     steam: true
   files:
+    "<winAppData>/Pronoun Palace":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Pronoun Palace/saves":
+      tags:
+        - save
+      when:
+        - os: windows
     "<xdgData>/Pronoun Palace/saves":
       tags:
         - save

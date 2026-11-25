@@ -20446,6 +20446,27 @@ Delete:
         - save
   steam:
     id: 773670
+"Deleted Wiki: Clean Up the Lost Files":
+  cloud:
+    steam: true
+  id:
+    lutris: deleted-wiki-clean-up-the-lost-files
+    steamExtra:
+      - 5488320
+  installDir:
+    Deleted Wiki Clean Up the Lost Files: {}
+  launch:
+    "<base>/Deleted Wiki.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Deleted Wiki.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 5204830
 Deleveled:
   cloud:
     steam: true

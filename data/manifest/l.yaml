@@ -23807,6 +23807,17 @@ Lost Orbit:
             store: steam
   steam:
     id: 372320
+Lost Patrol:
+  installDir:
+    Lost Patrol: {}
+  launch:
+    "<base>/DOSBox.exe":
+      - arguments: "-conf lostp.conf -noconsole"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1392750
 Lost Planet 2:
   files:
     "<winDocuments>/capcom/LOST PLANET 2/<storeUserId>/Lostplanet2.Lostplanet2Save-capcom":
