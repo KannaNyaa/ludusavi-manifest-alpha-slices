@@ -41178,6 +41178,12 @@ Break the Piñatas:
   id:
     steamExtra:
       - 5211050
+  installDir:
+    Break the Piñatas: {}
+  launch:
+    "<base>/Break the Piñatas.exe":
+      - when:
+          - store: steam
   steam:
     id: 5210430
 Break the Targets:

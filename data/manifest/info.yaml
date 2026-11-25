@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-25T13:03:15Z"
+generatedAt: "2026-11-25T23:40:00Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,26 +9,26 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"9c39f6ec29ad7006399032310d79307257f7090cac11e8ce76cb62a0a11b0194\""
+  etag: "\"2d351412746d907257f9c4a4f95690e888c2fba444ccdd8d3331c44e754f275f\""
   lastModified: ""
-  sha256: "6607e539db322f7205a0916a19a5946d309ac1a03bfbd68178fefdba73b659cf"
-  sizeBytes: 17816787
-  lines: 887511
+  sha256: "68295aca7c1e6806939fbe8f59b2fd4e6e7ffc10fdc6fdb484da376bb61f11ea"
+  sizeBytes: 17817430
+  lines: 887546
 
 manifest:
   games: 53582
   shards: 29
   files: 30
-  bytes: 17816899
+  bytes: 17817542
   withSaveTag: 13676
   sections:
     alias: 1133
     cloud: 15788
     files: 22649
-    gog: 5621
+    gog: 5624
     id: 10329
-    installDir: 44029
-    launch: 39764
+    installDir: 44030
+    launch: 39765
     registry: 2859
     steam: 49401
 
@@ -50,8 +50,8 @@ shards:
     key: "B"
     group: "letter"
     games: 3014
-    bytes: 989655
-    sha256: "b4745f372a8501dd57c15a47b43fd0110775184b4c4167c67b1569bb1720ba29"
+    bytes: 989782
+    sha256: "c1327381ab3851f27e6512b997481c594365f0e2de2c3caabb1a3dd012860f09"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -66,8 +66,8 @@ shards:
     key: "D"
     group: "letter"
     games: 3454
-    bytes: 1168147
-    sha256: "5dd22c76965fc2650c2f3f3fd70e3197fd1d730183721776956ee5488901856a"
+    bytes: 1168154
+    sha256: "32b823c6c1a159569109041cb7f32225c9167284ae288459ffd3461472ceefd3"
     first: "D Series Off Road Racing Simulation"
     last: "Dōkyūsei: Bangin' Summer"
   - path: "digits.yaml"
@@ -138,8 +138,8 @@ shards:
     key: "L"
     group: "letter"
     games: 1832
-    bytes: 607490
-    sha256: "c1bf5c04ae5126d4d1c15589e3ce86a45de7409c8fcff7f786b53dd8513974c9"
+    bytes: 607772
+    sha256: "d69895c4aaf2b417030b2b57cd92aaee383a3199e88e9e63113fe23117a1e238"
     first: "L U N E"
     last: "Lá Camila: A VR Experience"
   - path: "m.yaml"
@@ -154,16 +154,16 @@ shards:
     key: "N"
     group: "letter"
     games: 1350
-    bytes: 444409
-    sha256: "47567eaac377f208ec4710891bde21591464cc7999d8425de1441dbb75ead015"
+    bytes: 444473
+    sha256: "50dd043a9b6a0f7d578a1305fc1d7d78ebe3628f84c310f7cb794a221fd30e1f"
     first: "N"
     last: "NyxQuest: Kindred Spirits"
   - path: "o.yaml"
     key: "O"
     group: "letter"
     games: 1081
-    bytes: 358743
-    sha256: "e1639acdef3585309d0637a9db405173d106e85e15c98ccc3b21a4516c57ce40"
+    bytes: 358906
+    sha256: "3dd55b18f59174773b9818d2139dde5010b3b89f93ba70f4b969c6e3c937ebcc"
     first: "O Rei"
     last: "Ozymandias"
   - path: "p.yaml"

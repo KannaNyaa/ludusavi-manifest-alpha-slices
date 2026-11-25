@@ -16136,6 +16136,10 @@ Nioh 3:
         - os: windows
   id:
     lutris: nioh-3
+    steamExtra:
+      - 4003930
+      - 4003950
+      - 4198760
   installDir:
     Nioh3: {}
   steam:

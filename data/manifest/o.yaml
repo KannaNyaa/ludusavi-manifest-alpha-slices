@@ -16560,26 +16560,32 @@ Over the Hill:
   cloud:
     steam: true
   files:
-    "<home>/My Games/over the hill/Saves":
+    "<home>/AppData/LocalLow/Funselektor/over the hill":
       tags:
         - save
       when:
-        - os: linux
+        - os: windows
+    "<home>/AppData/LocalLow/Funselektor/over the hill/Steam":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
     "<home>/My Games/over the hill/Settings":
       tags:
         - config
       when:
         - os: linux
-    "<winDocuments>/My Games/over the hill/Saves":
-      tags:
-        - save
-      when:
-        - os: windows
     "<winDocuments>/My Games/over the hill/Settings":
       tags:
         - config
       when:
         - os: windows
+    "<xdgConfig>/unity3d/Funselektor/over the hill":
+      tags:
+        - save
+      when:
+        - os: linux
   gog:
     id: 1442763024
   id:

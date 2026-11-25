@@ -39664,7 +39664,7 @@ Doom + Doom II:
         - save
       when:
         - os: windows
-    "<root>/userdata/<root>/2280":
+    "<root>/userdata/<storeUserId>/2280":
       tags:
         - save
       when:
