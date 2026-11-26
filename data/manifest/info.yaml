@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-25T23:40:00Z"
+generatedAt: "2026-11-26T12:43:28Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,24 +9,24 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"2d351412746d907257f9c4a4f95690e888c2fba444ccdd8d3331c44e754f275f\""
+  etag: "\"9073b7ab821a410baa5c42aaeaee98402f0ebafabf62fb7dbe9afe9c2e2d17b9\""
   lastModified: ""
-  sha256: "68295aca7c1e6806939fbe8f59b2fd4e6e7ffc10fdc6fdb484da376bb61f11ea"
-  sizeBytes: 17817430
-  lines: 887546
+  sha256: "ab0616fa4cf95fa29f664113fd0e5a4e6369012cea0f69758743dfb6b1bf0c56"
+  sizeBytes: 17817720
+  lines: 887561
 
 manifest:
-  games: 53582
+  games: 53583
   shards: 29
   files: 30
-  bytes: 17817542
+  bytes: 17817832
   withSaveTag: 13676
   sections:
     alias: 1133
     cloud: 15788
-    files: 22649
-    gog: 5624
-    id: 10329
+    files: 22650
+    gog: 5625
+    id: 10332
     installDir: 44030
     launch: 39765
     registry: 2859
@@ -138,16 +138,16 @@ shards:
     key: "L"
     group: "letter"
     games: 1832
-    bytes: 607772
-    sha256: "d69895c4aaf2b417030b2b57cd92aaee383a3199e88e9e63113fe23117a1e238"
+    bytes: 607822
+    sha256: "4347cc42cc26fc3323c15ee0b7ac7382c05e884cbb47cdb7665f012d3f88cf22"
     first: "L U N E"
     last: "Lá Camila: A VR Experience"
   - path: "m.yaml"
     key: "M"
     group: "letter"
     games: 3190
-    bytes: 1029651
-    sha256: "8e19b6ddc746b5bd96605a15cf6ccf21fc62162273e9fe057610260c300bd1fb"
+    bytes: 1029685
+    sha256: "148fe81beefdc27249cebe4f3c89945eadadcaca59e391da9dca6f1e821123a8"
     first: "M Mania"
     last: "Möbius Front '83"
   - path: "n.yaml"
@@ -170,8 +170,8 @@ shards:
     key: "P"
     group: "letter"
     games: 2682
-    bytes: 866359
-    sha256: "ee8e7677a04d2052beaf7ce0953e37f658c84efb549586de33eca3b75b50ca4c"
+    bytes: 866385
+    sha256: "18a31c715d278a6538b584692273cb3d0d9d239f7e9289e30318517fe34bb451"
     first: "P-3 Biotic"
     last: "Pył"
   - path: "q.yaml"
@@ -210,8 +210,8 @@ shards:
     key: "T"
     group: "letter"
     games: 5551
-    bytes: 1952392
-    sha256: "502df16587bd98b3b8fe087ad58c601eaf611719196f02b9117cd3f56b7acce9"
+    bytes: 1952435
+    sha256: "c36dd90a20c0a2050d9632eeb28adcaa11c5870f455badafb69baa4811701a0a"
     first: "T Simulator"
     last: "Tzompantli"
   - path: "u.yaml"
@@ -241,9 +241,9 @@ shards:
   - path: "w.yaml"
     key: "W"
     group: "letter"
-    games: 1718
-    bytes: 592844
-    sha256: "be276ff641cf04320aa37ea4846e3db454d9cae068cfd86aa20e52b947d1760d"
+    games: 1719
+    bytes: 592981
+    sha256: "a043688f95e4b43c31652fe8b5b517430ce0ec8ef05c071ff4e22b42293c8fa0"
     first: "W. T. B."
     last: "Włatcy móch: Wrzód na dópie"
   - path: "x.yaml"

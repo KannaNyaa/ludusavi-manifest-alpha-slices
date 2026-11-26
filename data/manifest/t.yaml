@@ -54363,6 +54363,8 @@ The Smurfs - Mission Vileaf:
   steam:
     id: 1502560
 "The Smurfs: Village Party":
+  id:
+    lutris: the-smurfs-village-party
   installDir:
     The Smurfs - Village Party: {}
   launch:

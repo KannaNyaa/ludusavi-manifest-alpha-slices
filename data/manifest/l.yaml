@@ -11949,6 +11949,8 @@ Let the Cat in:
         - os: windows
   gog:
     id: 2067932503
+  id:
+    lutris: lets-ride-silver-buckle-stables
   installDir:
     "Let's Ride! Silver Buckle Stables": {}
   launch:

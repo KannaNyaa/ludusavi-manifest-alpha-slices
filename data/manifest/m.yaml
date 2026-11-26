@@ -31929,6 +31929,8 @@ Miss Neko 3:
   steam:
     id: 2695270
 Miss Popularity:
+  id:
+    lutris: miss-popularity
   installDir:
     Miss Popularity: {}
   launch:

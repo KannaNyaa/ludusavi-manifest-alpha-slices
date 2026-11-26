@@ -4271,6 +4271,13 @@ Warchasm:
     Warchasm: {}
   steam:
     id: 1184260
+"Warcraft Adventures: Lord of the Clans":
+  files:
+    "<base>/BOOK.INI":
+      tags:
+        - config
+      when:
+        - os: windows
 Warcraft I Remastered:
   files:
     "<home>/Saved Games/WarcraftRemastered/*.sav":
