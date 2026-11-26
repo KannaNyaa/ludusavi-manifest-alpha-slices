@@ -19555,6 +19555,10 @@ The Blue Flamingo:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Might and Delight/The Blue Flamingo:
+      tags:
+        - config
   steam:
     id: 302010
 The Blue Zula VR Concert Series:
@@ -29838,6 +29842,8 @@ The Floor is Jelly:
   steam:
     id: 295750
 The Florist:
+  id:
+    lutris: the-florist
   steam:
     id: 3152440
 The Flower Collectors:

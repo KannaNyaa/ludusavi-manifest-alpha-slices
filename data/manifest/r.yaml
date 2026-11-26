@@ -15835,12 +15835,6 @@ Reka:
       - arguments: "-force-d3d11"
         when:
           - store: steam
-      - arguments: "-force-d3d12"
-        when:
-          - store: steam
-      - arguments: "-force-vulkan"
-        when:
-          - store: steam
   steam:
     id: 1737870
 Rekindling:

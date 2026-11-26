@@ -4234,6 +4234,13 @@ Echoes+:
             store: steam
   steam:
     id: 338000
+Echograph:
+  id:
+    lutris: echograph
+    steamExtra:
+      - 5323580
+  steam:
+    id: 3460960
 Echoplex:
   files:
     "<home>/AppData/LocalLow/Output Games/Echoplex":
