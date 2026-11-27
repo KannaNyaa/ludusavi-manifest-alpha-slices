@@ -12103,6 +12103,16 @@ Maru:
 "Marupoyo: The Round Chick's Adventure":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Casual Brothers/Marupoyo/<storeUserId>/SaveData":
+      when:
+        - store: steam
+  installDir:
+    Marupoyo: {}
+  launch:
+    "<base>/Marupoyo.exe":
+      - when:
+          - store: steam
   steam:
     id: 4355110
 Marvel Cosmic Invasion:

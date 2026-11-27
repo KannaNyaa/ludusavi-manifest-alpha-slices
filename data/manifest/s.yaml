@@ -80406,6 +80406,7 @@ Strange Girl Beside:
     id: 709100
 Strange Horticulture:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -80417,12 +80418,13 @@ Strange Horticulture:
   gog:
     id: 1110845119
   id:
+    lutris: strange-horticulture
     steamExtra:
       - 1722180
   installDir:
     Strange Horticulture: {}
   launch:
-    "<base>/Strange Horticulture.app/Contents/MacOS/Strange Horticulture":
+    "<base>/Strange Horticulture.app":
       - when:
           - os: mac
             store: steam

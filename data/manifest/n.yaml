@@ -10129,10 +10129,11 @@ Nevaeh:
   cloud:
     steam: true
   files:
-    "<base>/SavesDir/*.sav":
+    "<winLocalAppData>/Nevaeh/*.sav":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     Nevaeh: {}
   launch:

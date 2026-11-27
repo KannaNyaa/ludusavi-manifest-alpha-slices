@@ -27241,10 +27241,22 @@ Always the Same Blue Sky...:
   steam:
     id: 363410
 Am I Nima:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/HO! Games/Am I Nima":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: am-i-nima
     steamExtra:
       - 3317110
+  registry:
+    HKEY_CURRENT_USER/Software/HO! Games/Am I Nima:
+      tags:
+        - config
   steam:
     id: 3224600
 Amairo Chocolate:
@@ -37464,8 +37476,27 @@ Approaching Blocks:
 Appulse:
   cloud:
     steam: true
+  files:
+    "<home>/Documents/Appulse/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<winDocuments>/Appulse/*.save":
+      when:
+        - store: steam
   id:
     lutris: appulse
+  installDir:
+    Appulse: {}
+  launch:
+    "<base>/appulse.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/appulse.sh":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 3498700
 April 24th:
@@ -53554,7 +53585,10 @@ Awaken:
   steam:
     id: 555970
 Awaken - Astral Blade:
+  alias: "Awaken: Astral Blade"
+"Awaken: Astral Blade":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/DarkPigeonGames/AWAKEN - Astral Blade/GameSave":
@@ -53563,7 +53597,15 @@ Awaken - Astral Blade:
         - save
       when:
         - os: windows
+  gog:
+    id: 2096587778
   id:
+    gogExtra:
+      - 1645760090
+      - 1654718818
+      - 1689105266
+      - 1887358412
+    lutris: awaken-astral-blade
     steamExtra:
       - 3266670
       - 3268980

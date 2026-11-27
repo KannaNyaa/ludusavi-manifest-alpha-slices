@@ -7046,6 +7046,12 @@
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/HoodedHorse.9Kings_znaey1dw2bdpr/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   gog:
     id: 1875095393
   id:
