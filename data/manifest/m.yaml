@@ -19760,6 +19760,8 @@ Memento Mori 2:
         - save
       when:
         - os: windows
+  id:
+    lutris: memento-mori-2
   installDir:
     MementoMori2: {}
   launch:

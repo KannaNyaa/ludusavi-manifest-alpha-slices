@@ -2287,6 +2287,31 @@ Dairy Princess:
           - store: steam
   steam:
     id: 1168430
+Daisenryaku SSB 2:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/systemsoftbeta/大戦略SSB2/.systemsave":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/systemsoftbeta/大戦略SSB2/roster.*":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/systemsoftbeta/大戦略SSB2/save.*":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    大戦略SSB2: {}
+  launch:
+    "<base>/daisenryaku-ssb-2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3941780
 Daka Dara:
   installDir:
     Daka Dara: {}

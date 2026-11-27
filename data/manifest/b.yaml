@@ -39441,6 +39441,9 @@ Braid:
         - os: windows
   gog:
     id: 1461061433
+  id:
+    steamExtra:
+      - 26810
   installDir:
     Braid: {}
   launch:
