@@ -40940,7 +40940,6 @@ Breacher Story:
     id: 988110
 Bread & Fred:
   cloud:
-    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/SandCastles/Bread_Fred/*.scs":
@@ -40956,6 +40955,9 @@ Bread & Fred:
     lutris: bread-and-fred
     steamExtra:
       - 1763200
+      - 2448120
+      - 2448160
+      - 2610670
   installDir:
     Bread & Fred: {}
   launch:

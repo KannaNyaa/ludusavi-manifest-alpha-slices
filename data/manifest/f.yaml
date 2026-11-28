@@ -13892,16 +13892,13 @@ Fiery catacombs:
   steam:
     id: 1138150
 Fiesta Online:
+  id:
+    steamExtra:
+      - 280620
   installDir:
-    Fiesta Online: {}
-  launch:
-    "<base>/Fiesta.exe":
-      - arguments: "-i feul.gamigo.com -p 9010 -steam_login"
-        when:
-          - os: windows
-            store: steam
+    Fiesta Online NA: {}
   steam:
-    id: 280620
+    id: 300970
 "Fifo's Night":
   files:
     "<base>/SaveData/*.sav":

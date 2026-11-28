@@ -18543,6 +18543,8 @@ Will of Steel:
         - config
       when:
         - os: windows
+  id:
+    lutris: will-of-steel
 Will of the Gods:
   installDir:
     Will of the Gods: {}

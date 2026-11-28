@@ -1,7 +1,7 @@
 # Ludusavi manifest shard index - generated file, do not edit.
 # https://github.com/mtkennerly/ludusavi-manifest for the source data.
 formatVersion: 1
-generatedAt: "2026-11-27T23:29:38Z"
+generatedAt: "2026-11-28T11:53:50Z"
 generator: "ludusavi-manifest-shards"
 
 source:
@@ -9,25 +9,25 @@ source:
   ref: "master"
   file: "data/manifest.yaml"
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
-  etag: "\"885414c378707340d57f4c8316d222831dfc88dc69db23c3f63da9408343c0fb\""
+  etag: "\"377336111e1977b8e814570d139573891d9696e3f5d9de27c53a22ccf2feb351\""
   lastModified: ""
-  sha256: "b7fa50117bb274e1930f52b9308b213b348c7f16e2d755ff5665bb4ff35460bf"
-  sizeBytes: 17820549
-  lines: 887694
+  sha256: "b0c68ccc5af2db5842b6f1a8b2d3e8f652ecc3203df5d6f2a430866fea9d0abb"
+  sizeBytes: 17821227
+  lines: 887735
 
 manifest:
-  games: 53587
+  games: 53589
   shards: 29
   files: 30
-  bytes: 17820661
-  withSaveTag: 13678
+  bytes: 17821339
+  withSaveTag: 13680
   sections:
     alias: 1134
     cloud: 15791
-    files: 22655
-    gog: 5627
-    id: 10338
-    installDir: 44034
+    files: 22657
+    gog: 5628
+    id: 10340
+    installDir: 44035
     launch: 39769
     registry: 2861
     steam: 49404
@@ -42,16 +42,16 @@ shards:
     key: "A"
     group: "letter"
     games: 3319
-    bytes: 1113791
-    sha256: "f6ceea343f53b0f30f7afaae56a9afdbb7a0c6dad0930e72165182ee8372db84"
+    bytes: 1114061
+    sha256: "f41bc3d2679d412a92c8017baeb8a89aafa588efe6a12b9e96ec001ca70ebb95"
     first: "A Bastard's Tale"
     last: "Azusa RP Online"
   - path: "b.yaml"
     key: "B"
     group: "letter"
     games: 3014
-    bytes: 989818
-    sha256: "891cfc35191441e494a8fab3c32f16d71b1be29f535631b664dcdef5af408bb3"
+    bytes: 989852
+    sha256: "28420235126755f596ef03ad58858a2961fd326f5b62f3c02be21cb6c09a7cdd"
     first: "B"
     last: "B画少说"
   - path: "c.yaml"
@@ -90,8 +90,8 @@ shards:
     key: "F"
     group: "letter"
     games: 2259
-    bytes: 764131
-    sha256: "09c94eebe7fb8ef27f96f1f46c460d2c5ededd0dc4d1d43c939e46c785caa5c5"
+    bytes: 764012
+    sha256: "f838aee4c023f8b951f6b83903a9b1a4590ef1794efb2aa0b7f23f9abdf2b79a"
     first: "F-1 Drive"
     last: "Fürst Marigor und die Tobis"
   - path: "g.yaml"
@@ -193,9 +193,9 @@ shards:
   - path: "s.yaml"
     key: "S"
     group: "letter"
-    games: 5942
-    bytes: 2062439
-    sha256: "af313da3171fbdb0a0b5b69f55b080081a5f4a8e0a7df6a409029c0b3862669f"
+    games: 5944
+    bytes: 2062900
+    sha256: "cad4bbbeab3a52518eb65d7b2ec5671549058a5c7fddcb804f68d03e4798fd2f"
     first: "S-COPTER: Trials of Quick Fingers and Logic"
     last: "Söldner: Secret Wars Remastered"
   - path: "symbols.yaml"
@@ -242,8 +242,8 @@ shards:
     key: "W"
     group: "letter"
     games: 1719
-    bytes: 592981
-    sha256: "a043688f95e4b43c31652fe8b5b517430ce0ec8ef05c071ff4e22b42293c8fa0"
+    bytes: 593013
+    sha256: "298a353ab07a115915e6f335979cb3e545b41ffd07e92f48b9f9a462e504487d"
     first: "W. T. B."
     last: "Włatcy móch: Wrzód na dópie"
   - path: "x.yaml"

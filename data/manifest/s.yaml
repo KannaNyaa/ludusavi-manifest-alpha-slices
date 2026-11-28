@@ -13748,6 +13748,18 @@ Seals of the Bygone:
         - os: windows
   id:
     lutris: search-and-rescue-vietnam-med-evac
+Search and Rescue 3:
+  files:
+    "<base>/dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - os: windows
 "Search and Rescue: Coastal Heroes":
   files:
     "<base>/Config.dat":
@@ -62642,6 +62654,20 @@ SpiritSphere:
             store: steam
   steam:
     id: 458170
+Spirited Drive:
+  files:
+    "<home>/Library/Application Support/Spirited Drive":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<winAppData>/Spirited Drive":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
 Spirited Heart Deluxe:
   cloud:
     steam: true

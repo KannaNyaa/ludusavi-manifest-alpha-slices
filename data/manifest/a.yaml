@@ -7608,6 +7608,10 @@ ATLYSS:
       - when:
           - os: windows
             store: steam
+    "<base>/ATLYSS_LINUX_E.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 2768430
 ATOM RPG:
@@ -15089,6 +15093,7 @@ After The Suns:
     id: 1101200
 After Us:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/AfterUs/Saved/Config":
@@ -15101,6 +15106,8 @@ After Us:
         - save
       when:
         - os: windows
+  gog:
+    id: 1122215059
   installDir:
     After Us: {}
   launch:
@@ -27253,6 +27260,13 @@ Am I Nima:
     lutris: am-i-nima
     steamExtra:
       - 3317110
+  installDir:
+    Am I Nima: {}
+  launch:
+    "<base>/Am I Nima.exe":
+      - when:
+          - os: windows
+            store: steam
   registry:
     HKEY_CURRENT_USER/Software/HO! Games/Am I Nima:
       tags:
